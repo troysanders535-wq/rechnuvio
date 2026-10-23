@@ -2,12 +2,17 @@
 
 import React, { useState } from "react";
 import { Copy, Trash2, Sparkles, Sliders, Type, ListOrdered } from "lucide-react";
+import { HeadsOrTailsEngine } from "./HeadsOrTailsEngine";
 
 interface TextSuiteEngineProps {
   slug: string;
 }
 
 export function TextSuiteEngine({ slug }: TextSuiteEngineProps) {
+  if (slug === "heads-or-tails" || slug.includes("heads") || slug.includes("coin")) {
+    return <HeadsOrTailsEngine slug={slug} />;
+  }
+
   const [text, setText] = useState(
     "Digital ToolPad is a suite of free, high-performance web utilities that run 100% in your browser. All your data stays strictly on your device with zero server tracking."
   );

@@ -5526,35 +5526,42 @@ export const TOOLS_CATALOG: ToolItem[] = [
   },
   {
     "slug": "heads-or-tails",
-    "name": "Heads or Tails",
-    "category": "Lifestyle",
-    "description": "Heads or TailsHeads or tails? Toss a fair 50/50 coin online, decide who goes first, or play best of 3, 5 or 7. Animated results with private, browser-only processing.",
-    "engine": "text-suite",
+    "name": "Heads or Tails Coin Flip",
+    "category": "Games & Randomizers",
+    "description": "Flip a fair 50/50 coin online with realistic 3D animation, best-of-3/5/7 series, flip history, and cryptographic randomness. Runs 100% in your browser.",
+    "engine": "randomizers-games",
     "keywords": [
-      "heads",
-      "tails",
-      "lifestyle",
-      "heads or tails"
+      "heads or tails",
+      "coin flip",
+      "flip a coin",
+      "coin toss",
+      "best of 3 coin",
+      "random coin flip",
+      "50 50 chance"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Realistic 3D Coin Physics: Smooth 1.7-second flip with lift and landing effects",
+      "Cryptographic 50/50 Randomness: Uses window.crypto.getRandomValues for unbiased fairness",
+      "Multi-Mode Game Support: Play standard Single Flip or competitive Best-of-3, 5, or 7 series",
+      "Live Stats & History: Track total flips, percentage breakdown, streak counter, and recent flip log",
+      "Accessible & Touch-Friendly: Space/Enter keyboard support, screen-reader announcements, and reduced-motion option"
     ],
     "faqs": [
       {
-        "q": "Is this Heads or Tails tool free to use?",
-        "a": "Yes, Heads or Tails on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "q": "Is this online coin flip truly random and fair?",
+        "a": "Yes. Every flip is generated using window.crypto.getRandomValues(), drawing from your operating system's hardware entropy pool. This guarantees an unbiased 50/50 mathematical probability."
       },
       {
-        "q": "Is my data safe and private?",
-        "a": "All operations execute locally inside your browser sandbox. None of your files, text, or data are ever transmitted to any remote server."
+        "q": "How does the Best-of-3, 5, or 7 series mode work?",
+        "a": "Select your series length and pick your side (Heads or Tails). The tool tracks round-by-round score and crowns a winner as soon as a side reaches the required threshold (e.g. 2 wins in Best of 3)."
       },
       {
-        "q": "Can I use this tool on mobile devices?",
-        "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+        "q": "Can I flip the coin using keyboard shortcuts?",
+        "a": "Yes! You can press the Spacebar or Enter key to flip the coin without using a mouse. Keyboard inputs are locked during animation to prevent duplicate flips."
+      },
+      {
+        "q": "Does this tool work offline and protect my privacy?",
+        "a": "Yes. All coin animations, physics, sound effects, and cryptographic rolls execute 100% locally on your device with zero data transmitted to any external server."
       }
     ]
   },

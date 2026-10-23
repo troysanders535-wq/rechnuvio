@@ -2,6 +2,7 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import { Sparkles, Dices, Disc, RefreshCw, Trophy } from "lucide-react";
+import { HeadsOrTailsEngine } from "./HeadsOrTailsEngine";
 
 interface RandomizersGamesEngineProps {
   slug: string;
@@ -9,6 +10,10 @@ interface RandomizersGamesEngineProps {
 
 export function RandomizersGamesEngine({ slug }: RandomizersGamesEngineProps) {
   const isCoin = slug.includes("coin") || slug.includes("heads");
+  if (isCoin) {
+    return <HeadsOrTailsEngine slug={slug} />;
+  }
+
   const isDice = slug.includes("dice") || slug.includes("d20");
 
   // Wheel state

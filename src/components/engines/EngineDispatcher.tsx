@@ -23,6 +23,7 @@ import { ConstructionDiyEngine } from "./ConstructionDiyEngine";
 import { HealthFitnessEngine } from "./HealthFitnessEngine";
 import { NetworkingToolsEngine } from "./NetworkingToolsEngine";
 import { RandomizersGamesEngine } from "./RandomizersGamesEngine";
+import { HeadsOrTailsEngine } from "./HeadsOrTailsEngine";
 import { DeviceTesterEngine } from "./DeviceTesterEngine";
 import { FileViewersEngine } from "./FileViewersEngine";
 import { DeveloperSuiteEngine } from "./DeveloperSuiteEngine";
@@ -33,6 +34,10 @@ interface EngineDispatcherProps {
 }
 
 export function EngineDispatcher({ tool }: EngineDispatcherProps) {
+  if (tool.slug === "heads-or-tails" || tool.slug === "coin-flip") {
+    return <HeadsOrTailsEngine slug={tool.slug} />;
+  }
+
   switch (tool.engine) {
     case "json":
       return <JsonEngine slug={tool.slug} />;
