@@ -1,95 +1,69 @@
 "use client";
 
 import React, { useState } from "react";
-import { Box, Database, FileSpreadsheet, Mail, Upload, Sparkles } from "lucide-react";
+import dynamic from "next/dynamic";
+import { Database } from "lucide-react";
+import { AiViewerEngine } from "./AiViewerEngine";
+
+// Dynamically import 3D Viewer with SSR disabled to ensure client-only WebGL execution
+const Model3DViewer = dynamic(
+  () => import("./viewer3d/Model3DViewer").then((mod) => mod.Model3DViewer),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="flex h-96 items-center justify-center rounded-2xl border border-slate-200 bg-slate-50 p-12 text-center dark:border-slate-800 dark:bg-slate-950">
+        <div className="space-y-3">
+          <div className="mx-auto size-10 animate-spin rounded-full border-4 border-sky-600 border-t-transparent" />
+          <p className="text-xs font-semibold text-slate-600 dark:text-slate-400">
+            Initializing 3D WebGL engine...
+          </p>
+        </div>
+      </div>
+    ),
+  }
+);
 
 interface FileViewersEngineProps {
   slug: string;
 }
 
 export function FileViewersEngine({ slug }: FileViewersEngineProps) {
-  const is3D = slug.includes("3d") || slug.includes("stl") || slug.includes("obj") || slug.includes("glb") || slug.includes("3mf");
-  const isSqlite = slug.includes("sqlite") || slug.includes("db");
+  // Adobe Illustrator file viewer
+  if (slug === "ai-viewer" || slug.includes("ai-viewer")) {
+    return <AiViewerEngine slug={slug} />;
+  }
 
-  // 3D state
-  const [modelLoaded, setModelLoaded] = useState(false);
-  const [fileName, setFileName] = useState("");
+  const is3D =
+    slug.includes("3d") ||
+    slug.includes("stl") ||
+    slug.includes("obj") ||
+    slug.includes("glb") ||
+    slug.includes("gltf") ||
+    slug.includes("3mf") ||
+    slug.includes("ply") ||
+    slug.includes("fbx");
 
-  // SQLite mock/in-memory query state
-  const [sqlQuery, setSqlQuery] = useState("SELECT * FROM users WHERE active = 1 ORDER BY id DESC;");
-  const [queryResults, setQueryResults] = useState([
+  if (is3D) {
+    return <Model3DViewer />;
+  }
+
+  // SQLite mock/in-memory query state for database tools (sqlite-browser, sqlite-viewer, db-viewer, etc.)
+  const [sqlQuery, setSqlQuery] = useState(
+    "SELECT * FROM users WHERE active = 1 ORDER BY id DESC;"
+  );
+  const [queryResults] = useState([
     { id: 1, name: "Alice Smith", email: "alice@company.com", active: 1, role: "Admin" },
     { id: 2, name: "Bob Jones", email: "bob@company.com", active: 1, role: "Developer" },
     { id: 3, name: "Carol White", email: "carol@company.com", active: 1, role: "Designer" },
   ]);
 
-  const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (file) {
-      setFileName(file.name);
-      setModelLoaded(true);
-    }
-  };
-
-  if (is3D) {
-    return (
-      <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
-        <h3 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
-          <Box className="size-5 text-sky-700" />
-          3D Model & CAD Viewer (STL, OBJ, GLB, 3MF)
-        </h3>
-
-        {!modelLoaded ? (
-          <div className="mt-4 flex flex-col items-center justify-center rounded-2xl border-2 border-dashed border-slate-300 bg-slate-50 p-12 text-center dark:border-slate-700 dark:bg-slate-950">
-            <Box className="size-12 text-sky-700 dark:text-sky-400" />
-            <h4 className="mt-3 font-bold text-base text-slate-800 dark:text-slate-200">
-              Upload 3D CAD Model
-            </h4>
-            <p className="mt-1 text-xs text-slate-500">
-              Supports STL, OBJ, GLTF, GLB, FBX, PLY, 3MF. Rendered client-side with WebGL.
-            </p>
-            <label className="mt-4 inline-flex cursor-pointer items-center gap-2 rounded-xl bg-sky-800 px-5 py-2.5 text-xs font-semibold text-white hover:bg-sky-700">
-              <Upload className="size-4" />
-              <span>Open 3D File</span>
-              <input type="file" onChange={handleFileUpload} className="hidden" />
-            </label>
-          </div>
-        ) : (
-          <div className="mt-4">
-            <div className="flex items-center justify-between border-b border-slate-200 pb-3 dark:border-slate-800">
-              <span className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-                Loaded: {fileName}
-              </span>
-              <button
-                onClick={() => setModelLoaded(false)}
-                className="text-xs text-sky-700 dark:text-sky-400 underline"
-              >
-                Upload different model
-              </button>
-            </div>
-            {/* Interactive 3D Canvas Mock/Wireframe View */}
-            <div className="mt-4 flex h-96 items-center justify-center rounded-2xl bg-slate-950 p-6 text-center text-slate-400">
-              <div className="space-y-2">
-                <Box className="mx-auto size-16 text-sky-400 animate-pulse" />
-                <p className="font-bold text-white text-sm">3D WebGL Mesh Visualizer Active</p>
-                <p className="text-xs text-slate-500">
-                  Triangles: 42,890 • Vertices: 21,445 • Bounds: 120 x 85 x 45 mm
-                </p>
-              </div>
-            </div>
-          </div>
-        )}
-      </div>
-    );
-  }
-
-  // SQLite / Database Viewer default
+  // SQLite / Database Viewer
   return (
     <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
       <div className="border-b border-slate-200 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950">
         <h3 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
           <Database className="size-5 text-sky-700" />
-          SQLite Database Online Browser & Query Runner
+          SQLite Database Online Browser &amp; Query Runner
         </h3>
         <div className="mt-3 flex gap-2">
           <input

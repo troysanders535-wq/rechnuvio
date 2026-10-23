@@ -45,3 +45,8 @@ next-env.d.ts
 
 # local server logs
 *.log
+
+test-fixtures/
+tmp-*
+*.xlsx
+.cache/

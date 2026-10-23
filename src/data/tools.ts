@@ -119,20 +119,23 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "3d-viewer",
     "name": "3D Model Viewer",
     "category": "Design",
-    "description": "3D Model ViewerView 3D files online: STL, OBJ, GLB, glTF, FBX, PLY, 3MF, DAE and more. Measure, cut sections, play animations and export. Private, no upload needed.",
+    "description": "View 3D and CAD models online: STL, OBJ, glTF, GLB, 3MF, PLY, FBX, STEP, IGES and more. Rotate, zoom, pan, inspect wireframe edges and export to multiple formats. 100% private, client-side WebGL rendering with zero server uploads.",
     "engine": "file-viewers",
     "keywords": [
       "model",
       "viewer",
       "design",
-      "3d viewer"
+      "3d viewer",
+      "cad viewer",
+      "stl viewer",
+      "obj viewer"
     ],
     "features": [
       "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Interactive orbit, pan, zoom, fit-to-view, and reset camera controls",
+      "Multi-file selection for 3D meshes, materials, and textures",
+      "Wireframe edge inspection and customizable background themes",
+      "Direct model export to STL, OBJ, glTF, GLB, PLY, OFF, and BIM"
     ],
     "faqs": [
       {
@@ -324,35 +327,41 @@ export const TOOLS_CATALOG: ToolItem[] = [
   },
   {
     "slug": "ai-viewer",
-    "name": "AI File Viewer",
+    "name": "Adobe Illustrator (.ai) File Viewer",
     "category": "Design",
-    "description": "AI File ViewerOpen Adobe Illustrator .ai files without Illustrator: view every artboard, check sizes and export PNG, JPG or PDF. Free and private, nothing uploaded.",
+    "description": "Preview PDF-compatible Adobe Illustrator files in your browser. Zoom, browse available pages, and export previews as PNG or JPG. Files stay on your device.",
     "engine": "file-viewers",
     "keywords": [
-      "file",
-      "viewer",
-      "design",
-      "ai viewer"
+      "illustrator",
+      "ai viewer",
+      "adobe illustrator",
+      "vector viewer",
+      "pdf compatible ai",
+      "design"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "100% Client-Side Processing - zero server uploads, files stay on your device",
+      "Mozilla PDF.js vector rendering engine for PDF-compatible .ai files",
+      "Interactive zoom, fit-to-width, and explicit page dimensions (pt, mm, in)",
+      "Multi-page navigation and thumbnail drawer for multi-artboard documents",
+      "High-resolution PNG (transparent) and JPG (white background) export up to 300 DPI"
     ],
     "faqs": [
       {
-        "q": "Is this AI File Viewer tool free to use?",
-        "a": "Yes, AI File Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "q": "How does this Adobe Illustrator (.ai) File Viewer work?",
+        "a": "Adobe Illustrator files saved with ‘Create PDF Compatible File’ enabled contain an embedded PDF preview stream. This tool parses and renders that stream directly in your browser using Mozilla PDF.js."
       },
       {
-        "q": "Is my data safe and private?",
-        "a": "All operations execute locally inside your browser sandbox. None of your files, text, or data are ever transmitted to any remote server."
+        "q": "Why does my .ai file show an unsupported notice?",
+        "a": "Illustrator files saved without ‘Create PDF Compatible File’ or in legacy Illustrator 8 format contain only proprietary PostScript code and no PDF stream. To view them, re-save in Adobe Illustrator with PDF compatibility enabled."
       },
       {
-        "q": "Can I use this tool on mobile devices?",
-        "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+        "q": "Can I export my Illustrator artwork as PNG or JPG?",
+        "a": "Yes. You can export any page as a transparent PNG or clean white-background JPG at 1x (72 DPI), 2x (144 DPI), 3x (216 DPI), or 4x (300 DPI print quality)."
+      },
+      {
+        "q": "Is my artwork uploaded to any server?",
+        "a": "No. All file reading, vector parsing, and image rasterization happen 100% locally on your computer inside the browser sandbox. No file data is ever transmitted."
       }
     ]
   },

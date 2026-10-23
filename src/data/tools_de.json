@@ -15,8 +15,8 @@
     "category": "Produktivität"
   },
   "3d-viewer": {
-    "name": "3D Model Betrachter",
-    "description": "3D Model ViewerView 3D Dateien online: STL, OBJ, GLB, glTF, FBX, PLY, 3MF, DAE und mehr. Messen, Abschnitte schneiden, Animationen abspielen und exportieren. Privat, kein Upload erforderlich.",
+    "name": "3D-Modell-Betrachter",
+    "description": "3D- und CAD-Modelle online ansehen: STL, OBJ, glTF, GLB, 3MF, PLY, FBX, STEP, IGES und mehr. Drehen, zoomen, verschieben, Drahtgitterkanten inspizieren und Formate exportieren. Rein clientseitiges WebGL-Rendering ohne Upload.",
     "category": "Design & Medien"
   },
   "3mf-viewer": {
@@ -45,8 +45,8 @@
     "category": "Design & Medien"
   },
   "ai-viewer": {
-    "name": "AI File Betrachter",
-    "description": "AI File ViewerAdobe Illustrator .ai Dateien ohne Illustrator öffnen: Zeigen Sie jede Zeichentafel an, überprüfen Sie die Größen und exportieren Sie PNG, JPG oder PDF. Frei und privat, nichts hochgeladen.",
+    "name": "Adobe Illustrator (.ai) Dateibetrachter",
+    "description": "Preview PDF-compatible Adobe Illustrator files in your browser. Zoom, browse available pages, and export previews as PNG or JPG. Files stay on your device.",
     "category": "Design & Medien"
   },
   "ai-to-pdf": {
