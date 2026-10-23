@@ -1,0 +1,2462 @@
+{
+  "2026-calendar": {
+    "name": "Kalender 2026",
+    "description": "2026 Kalenderfrei druckbar 2026 Kalender mit US-amerikanischen oder britischen Feiertagen. Ganzes Jahr auf einer Seite oder Monatsseiten, Sonntag oder Montag Start- und Wochenzahlen. Instant PDF.",
+    "category": "Produktivität"
+  },
+  "2027-calendar": {
+    "name": "Kalender 2027",
+    "description": "2027 KalenderFreier druckbarer Kalender 2027 mit Feiertagen in den USA oder Großbritannien. Ganzes Jahr auf einer Seite oder 12 Monatsseiten, Sonntags- oder Montagsbeginn, Wochenzahlen. PDF, keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "2027-holidays": {
+    "name": "Feiertage 2027",
+    "description": "2027 HolidaysAll 2027 US Federal Holidays mit beobachteten Daten, plus UK Bankfeiertage und wichtige Einhaltungen. Sehen Sie Tage weg und fügen Sie sie mit einer .ics-Datei zu Ihrem Kalender hinzu.",
+    "category": "Produktivität"
+  },
+  "3d-viewer": {
+    "name": "3D Model Betrachter",
+    "description": "3D Model ViewerView 3D Dateien online: STL, OBJ, GLB, glTF, FBX, PLY, 3MF, DAE und mehr. Messen, Abschnitte schneiden, Animationen abspielen und exportieren. Privat, kein Upload erforderlich.",
+    "category": "Design & Medien"
+  },
+  "3mf-viewer": {
+    "name": "3MF Betrachter",
+    "description": "3MF ViewerView 3MF Dateien von PrusaSlicer, Bambu Studio, Cura und CAD Tools: Farben, mehrere Objekte, Größe, Volumen und Gewicht. Ausfuhr nach STL. Kein Upload erforderlich.",
+    "category": "Design & Medien"
+  },
+  "accept-all-changes-in-word": {
+    "name": "Accept All Changes in Wort",
+    "description": "Akzeptieren Sie alle Änderungen in WordAkzeptieren Sie alle verfolgten Änderungen in einem Word-Dokument ohne Word: Einfügungen beibehalten, Löschungen entfernt, Rezensentennamen gelöscht. Privat, in Ihrem Browser.",
+    "category": "Textverarbeitung"
+  },
+  "adult-bmi-calculator": {
+    "name": "Adult BMI Rechner",
+    "description": "Berechnen Sie einen Erwachsenen-BMI-Schätzwert aus Größe und Gewicht mit metrischen oder imperialen Einheiten direkt in Ihrem Browser.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "age-calculator": {
+    "name": "Alter Rechner",
+    "description": "Berechnen Sie Ihr genaues Alter in Jahren, Monaten und Tagen, Ihr Alter an einem beliebigen Datum, insgesamt gelebte Tage und den Countdown zu Ihrem nächsten Geburtstag. Frei.",
+    "category": "Rechner & Finanzen"
+  },
+  "background-remover": {
+    "name": "AI Background Entferner",
+    "description": "AI Background RemoverRemove Bildhintergründe kostenlos in Ihrem Browser. Laden Sie einen transparenten PNG herunter oder wählen Sie eine solide Hintergrundfarbe. Ihr Foto wird auf Ihrem Gerät verarbeitet.",
+    "category": "Design & Medien"
+  },
+  "ai-viewer": {
+    "name": "AI File Betrachter",
+    "description": "AI File ViewerAdobe Illustrator .ai Dateien ohne Illustrator öffnen: Zeigen Sie jede Zeichentafel an, überprüfen Sie die Größen und exportieren Sie PNG, JPG oder PDF. Frei und privat, nichts hochgeladen.",
+    "category": "Design & Medien"
+  },
+  "ai-to-pdf": {
+    "name": "AI to PDF Konverter",
+    "description": "AI zu PDF ConverterConvert Illustrator .ai Dateien zu PDF ohne Illustrator: Vorschau jeder Zeichentafel und speichern Sie den Vektor PDF sofort. Inkompatible Dateien erkennt. Frei.",
+    "category": "Design & Medien"
+  },
+  "ai-to-png": {
+    "name": "AI to PNG Konverter",
+    "description": "AI zu PNG ConverterAdobe Illustrator .ai Dateien zu PNG bei 72, 150 oder 300 DPI konvertieren. Exportieren Sie ein Artboard oder alle in einem ZIP. In Ihrem Browser: kein Illustrator, kein Upload.",
+    "category": "Design & Medien"
+  },
+  "ai-token-counter": {
+    "name": "AI Token Zähler",
+    "description": "AI Token CounterSchätzen Sie die Tokenlänge von AI-Eingabeaufforderungen und sehen Sie, wie sich der ausgewählte Tokenizer auf die Zählung auswirkt, bevor Sie ein Kontextlimit erreichen. Kostenlos und läuft in Ihrem Browser.",
+    "category": "Entwicklung & Code"
+  },
+  "alphabetical-order-tool": {
+    "name": "Alphabetical Order Tool",
+    "description": "Formatieren Sie Textzeilen in alphabetischer Reihenfolge, A bis Z oder Z bis A, mit optionaler Duplikat- und Whitespace-Bereinigung. Kostenlose Online-alphabetische Bestellwerkzeug, sofort.",
+    "category": "Textverarbeitung"
+  },
+  "apa-citation-generator": {
+    "name": "APA Citation Generator",
+    "description": "APA Citation GeneratorBuild APA 7 Referenzen für Bücher, Zeitschriftenartikel und Websites. Formatieren Sie Zitate in Ihrem Browser, importieren Sie BibTeX und exportieren Sie nach Word. Frei, ohne Anmeldung.",
+    "category": "Textverarbeitung"
+  },
+  "api-tester": {
+    "name": "API Tester",
+    "description": "API Tester Testen Sie Ihre REST APIs sofort online. Ein schnelles, kostenloses und 100% clientseitiges Browser-API-Test-Tool mit Syntax-Hervorhebung, Code-Snippets und detaillierten Antworten.",
+    "category": "Entwicklung & Code"
+  },
+  "asn1-decoder": {
+    "name": "ASN.1 Decoder",
+    "description": "ASN.1 DecoderDecode ASN.1 DER von PEM, Base64 oder hex in einen Baum mit Tags, Längen, OIDs und Strings. Nested OCTET und BIT STRINGs wurden erweitert. Frei und privat.",
+    "category": "Entwicklung & Code"
+  },
+  "average-calculator": {
+    "name": "Average Rechner",
+    "description": "Einfügen einer Liste von Zahlen, um den Durchschnitt (Mittelwert), den Median, den Modus, den Bereich und die Standardabweichung zu erhalten, oder einen gewichteten Durchschnitt für Noten zu ermitteln. Frei, sofort.",
+    "category": "Rechner & Finanzen"
+  },
+  "avi-to-mp4": {
+    "name": "AVI to MP4 Konverter",
+    "description": "Konvertieren Sie alte AVI-Videos (DivX, Xvid, MJPEG) in H.264 MP4 in Ihrem Browser. Spielt auf Telefonen, Fernsehern und Editoren. Kein Upload, keine Dateigrößenbegrenzung, kein Wasserzeichen.",
+    "category": "Audio & Video"
+  },
+  "avif-to-jpg": {
+    "name": "AVIF to JPG Konverter",
+    "description": "AVIF to JPG Converter Konvertieren Sie AVIF-Bilder in JPG in Ihrem Browser. Batch konvertieren, Qualität auswählen, Größe ändern und einen ZIP herunterladen. Kostenlos, kein Upload, keine Anmeldung und keine Dateigrößenbegrenzungen.",
+    "category": "Design & Medien"
+  },
+  "avif-to-png": {
+    "name": "AVIF to PNG Konverter",
+    "description": "AVIF zu PNG ConverterKonvertieren Sie AVIF zu PNG in Ihrem Browser, behalten Sie Transparenz und volle Qualität. Batch konvertieren und herunterladen eines ZIP. Kostenlos, kein Upload, keine Anmeldung und keine Größenbegrenzung.",
+    "category": "Design & Medien"
+  },
+  "baby-boy-name-generator": {
+    "name": "Baby Boy Name Generator",
+    "description": "Baby Boy Name GeneratorErkunden Sie Baby Boy Name Ideen mit Herkunft, Stil und Länge Präferenzen mit AI, die in Ihrem Browser nach der Einrichtung läuft.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "baby-girl-name-generator": {
+    "name": "Baby Girl Name Generator",
+    "description": "Baby girl name generatorfinde baby girl name ideen mit einstellbarer herkunft, anfangsbuchstabe, länge und stilvorlieben in einem browserbasierten ki-arbeitsbereich.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "baby-name-ai": {
+    "name": "Baby Name AI Generator",
+    "description": "Baby Name AI GeneratorAI-powered Baby Name Generator, der zu 100% offline läuft. Finden Sie den perfekten Namen mit Bedeutungen basierend auf Geschlecht, kultureller Herkunft, Namensstil und mehr.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "baby-shower-bingo": {
+    "name": "Baby Shower Bingo Cards",
+    "description": "Baby Shower Bingo CardsFree druckbare Baby-Dusche Bingo: einzigartige Geschenk-Bingo-Karten mit 48 Baby-Geschenkideen, Pastell-Thema, 1 bis 1.000 Karten und eine leere Option. PDF, keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "backwards-text-generator": {
+    "name": "Backwards Text Generator",
+    "description": "Text rückwärts schreiben: umgekehrte Buchstaben, Wortreihenfolge oder jedes Wort, oder erstellen Sie Spiegeltext. Emoji und Akzente bleiben intakt. Kopieren Sie mit einem Klick. Frei und privat.",
+    "category": "Textverarbeitung"
+  },
+  "bank-statement-converter": {
+    "name": "Bank Statement Konverter",
+    "description": "Konvertieren Sie PDF-Kontoauszüge von Tausenden von Banken weltweit in ein sauberes Excel (XLS) oder CSV-Format. 100% kostenlos, sicher und genau. Vertrauen Sie Buchhaltern und Unternehmen.",
+    "category": "Produktivität"
+  },
+  "bank-statement-to-csv": {
+    "name": "Bank Statement to CSV",
+    "description": "Kontoauszug an CSVExtrahieren Sie Transaktionen von einem textbasierten PDF-Kontoauszug in eine CSV-Datei mit lokaler Verarbeitung und einer Überprüfungstabelle.",
+    "category": "Produktivität"
+  },
+  "bank-statement-to-excel": {
+    "name": "Bank Statement to Excel",
+    "description": "Verwandeln Sie textbasierte PDF-Anweisungstransaktionen in eine Excel-kompatible Tabelle, die Sie lokal überprüfen, filtern und organisieren können.",
+    "category": "Produktivität"
+  },
+  "barcode-generator": {
+    "name": "Barcode Generator",
+    "description": "Barcode Generator Kostenloser Barcodegenerator für UPC, EAN-13, Code 128, Code 39, ITF-14, Data Matrix, PDF417 und mehr. Laden Sie PNG oder SVG herunter oder drucken Sie Massenetikettenblätter. Keine Anmeldung.",
+    "category": "Design & Medien"
+  },
+  "base64-decoder": {
+    "name": "Base64 Decoder",
+    "description": "Base64 DecoderDecode Base64 Text und codierte Daten online, mit einem dedizierten Decodierungsarbeitsbereich und Kopiersteuerungen. Kostenlos, sofort und lokal in Ihrem Browser verarbeitet.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "base64-encoder": {
+    "name": "Base64 Encoder",
+    "description": "Base64 EncoderEncode Text- oder Dateidaten als Base64 in Ihrem Browser für Testnutzlasten, Datentransport und Entwicklungsbeispiele.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "base64-encoder-decoder": {
+    "name": "Base64 Encoder/Decoder",
+    "description": "Base64 Encoder/DecoderEncode und Decodierung von Base64-Strings mit Unterstützung für Text, Bilder und Dateien.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "base64-image-decoder": {
+    "name": "Base64 Bild Decoder",
+    "description": "Dekodieren Sie ein Bild, das als Base64 gespeichert ist, eine Vorschau seiner Pixel und laden Sie die wiederhergestellte PNG-, JPG- oder GIF-Datei herunter. Frei und privat: Nichts wird auf einen Server hochgeladen.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "base64-image-viewer": {
+    "name": "Base64 Bild Betrachter",
+    "description": "Base64 Image Viewer Sehen Sie sich einen Base64-kodierten Bild- oder Daten-URI direkt in Ihrem Browser an und prüfen Sie ihn, bevor Sie eine lokale Kopie speichern. Kostenlos, sofort und keine Uploads erforderlich.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "base64-to-image": {
+    "name": "Base64 to Bild Konverter",
+    "description": "Base64 to Image ConverterDecode Base64-Strings zu Bildern direkt in Ihrem Browser. 100% offline, privat und sicher.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "base64-to-pdf": {
+    "name": "Base64 to PDF",
+    "description": "Base64 zum PDFWiederherstellung eines PDF aus Base64-Daten oder Umwandlung von unterstütztem Base64-Text und -Bildern in ein PDF mit lokaler Browserverarbeitung.",
+    "category": "PDF & Dokumente"
+  },
+  "base64-to-pdf-converter": {
+    "name": "Base64 to PDF Konverter",
+    "description": "Base64 to PDF ConverterConvert Base64 kodierte Daten sofort in PDF-Dateien. Unterstützung für Text, Bilder und benutzerdefinierte Inhalte mit Echtzeit-Validierung und Vorschau.",
+    "category": "PDF & Dokumente"
+  },
+  "base64-to-pdf-decoder": {
+    "name": "Base64 to PDF Decoder",
+    "description": "Base64 auf PDF DecoderDecode Base64 PDF Bytes und laden Sie das Originaldokument herunter, ohne den codierten Inhalt an einen Server zu senden. Kostenloser Online-Decoder, der in Ihrem Browser läuft.",
+    "category": "PDF & Dokumente"
+  },
+  "binary-calculator": {
+    "name": "Binary Rechner",
+    "description": "BinärrechnerFreier Binärrechner: Addieren, Subtrahieren, Multiplizieren und Dividieren von Binärzahlen, plus UND, ODER, XOR, NICHT und Bitverschiebungen. Ergebnisse in binär, dezimal, hex und oktal.",
+    "category": "Rechner & Finanzen"
+  },
+  "binary-to-decimal": {
+    "name": "Binary to Decimal Konverter",
+    "description": "Binär zu Decimal ConverterKonvertieren Sie binär zu dezimal sofort mit dem Ort-Wert-Arbeit angezeigt. Signiert zwei Komplement, jede Länge, und hex und oktal Ergebnisse als auch. Frei.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "binary-to-hex": {
+    "name": "Binary to Hex Konverter",
+    "description": "Binär zu Hex ConverterKonvertieren Sie Binär zu hexadezimal sofort durch Gruppierung von Bits in vier. Jede Länge, Zweierkomplement und Dezimal- und Oktalergebnisse mit der gezeigten Arbeit. Frei.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "binary-to-text": {
+    "name": "Binary to Text Konverter",
+    "description": "Binär zu Text ConverterDecode Binär zu Text sofort. Fügen Sie 0s und 1s mit oder ohne Leerzeichen ein und lesen Sie sie als Englisch, einschließlich UTF-8 Emoji und Akzente. Kostenlos, privat, keine Anmeldung.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "binary-translator": {
+    "name": "Binary Translator",
+    "description": "BinärtranslatorÜbersetzen Sie Binärcode in Text und Text in Binär sofort. Volle UTF-8-Unterstützung für Emoji und Akzente, benutzerdefinierte Trennzeichen und eine Byte-für-Byte-Aufschlüsselung. Frei.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "bingo-card-generator": {
+    "name": "Bingo Card Generator",
+    "description": "Bingo Card Generator Kostenloser Bingo Card Generator: Machen Sie bis zu 1.000 einzigartige Karten mit den Zahlen 1-75, Ihren eigenen Wörtern oder Emoji. 3x3, 4x4 oder 5x5, PDF 1, 2 oder 4 pro Seite, eingebauter Aufrufer.",
+    "category": "Produktivität"
+  },
+  "black-out-text-in-pdf": {
+    "name": "Black Out Text in PDF",
+    "description": "Black Out Text in PDFSchwarzer Text in einem PDF, damit er nicht kopiert, durchsucht oder wiederhergestellt werden kann. Markieren Sie Wörter oder ziehen Sie Boxen, dann herunterladen. Frei und privat, in Ihrem Browser.",
+    "category": "PDF & Dokumente"
+  },
+  "blank-bingo-card": {
+    "name": "Blank Bingo Card Template",
+    "description": "Freie Bingo-Kartenvorlage zum Drucken und Ausfüllen von Hand: 3x3, 4x4 oder 5x5, mit oder ohne freien Speicherplatz und B-I-N-G-O-Header. PDF, 1, 2 oder 4 pro Seite.",
+    "category": "Produktivität"
+  },
+  "blank-text-generator": {
+    "name": "Blank Text Generator",
+    "description": "Blank Text GeneratorErzeugen Sie leeren Text: eine beliebige Anzahl leerer Zeichen und leerer Zeilen zum Kopieren in Instagram, TikTok, WhatsApp, Discord und Spielnamen. Frei, sofort.",
+    "category": "Textverarbeitung"
+  },
+  "blur-face": {
+    "name": "Blur Face in Foto",
+    "description": "Blur Face in PhotoBlur Gesichter in Fotos automatisch. AI findet jedes Gesicht auf Ihrem Gerät; tippen Sie auf eines, um es sichtbar zu halten, und laden Sie es dann herunter. Kostenlos, kein Upload, kein Wasserzeichen, Batch ZIP.",
+    "category": "Design & Medien"
+  },
+  "blur-image": {
+    "name": "Blur Bild",
+    "description": "Blur ImageBlur ein Bild online kostenlos. Verwischen Sie ein ganzes Foto, Gesichter, Text oder den Hintergrund mit Rechteck-, Ellipsen- und Pinselwerkzeugen. Läuft in Ihrem Browser: kein Upload.",
+    "category": "Design & Medien"
+  },
+  "blur-text-in-image": {
+    "name": "Blur Text in Bild",
+    "description": "Blur Text in ImageBlur Text in einem Bild online. Verstecken Sie E-Mails, Namen, Zahlen und Passwörter in Screenshots mit Unschärfe, Pixelat oder einer soliden Leiste. Frei, privat, in Ihrem Browser.",
+    "category": "Design & Medien"
+  },
+  "bmi-calculator": {
+    "name": "BMI Rechner",
+    "description": "Berechnen Sie Ihren Body Mass Index in metrischen oder imperialen Einheiten, sehen Sie sich Ihre Gewichtskategorie an und finden Sie Ihren gesunden Gewichtsbereich.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "bmi-calculator-for-women": {
+    "name": "BMI Rechner for Women",
+    "description": "BMI-Rechner für FrauenBMI für erwachsene Frauen ab Größe und Gewicht in metrischen oder imperialen Einheiten berechnen, mit den Standard-BMI-Kategorien und klaren Hinweisen auf Screening-Grenzen.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "bmp-to-jpg": {
+    "name": "BMP to JPG Konverter",
+    "description": "Konvertieren Sie BMP-zu-JPG-Bitmaps in JPG (oder PNG) in Ihrem Browser und schneiden Sie die Dateigrößen drastisch. Batch konvertieren, Qualität einstellen, ZIP herunterladen. Kostenlos, kein Upload, keine Anmeldung.",
+    "category": "Design & Medien"
+  },
+  "bmr-calculator": {
+    "name": "BMR Rechner",
+    "description": "BMR-RechnerSchätzen Sie die basale Stoffwechselrate aus den Körpermesswerten des Rechners und untersuchen Sie das Ergebnis getrennt von den Aktivitätsbedürfnissen.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "bold-text-generator": {
+    "name": "Bold Text Generator",
+    "description": "Machen Sie fetten Unicode-Text, den Sie kopieren und in Instagram, LinkedIn, X und anderswo ohne einen fetten Button einfügen können.",
+    "category": "Textverarbeitung"
+  },
+  "bracket-generator": {
+    "name": "Bracket Generator",
+    "description": "Bracket GeneratorFree Bracket Generator: Fügen Sie Namen ein, wählen Sie einzelne oder doppelte Eliminierung oder Round Robin, klicken Sie auf Gewinner, um voranzukommen, drucken Sie dann ein PDF aus oder teilen Sie einen Link. Keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "bracket-maker": {
+    "name": "Bracket Ersteller",
+    "description": "Bracket MakerFree Online Bracket Maker für Turniere, Spielabende und Stimmen. Single oder Double Elimination und Round Robin, mit Byes, Seeding, Scores, PDF und PNG. Kein Konto.",
+    "category": "Produktivität"
+  },
+  "btu-calculator": {
+    "name": "BTU Rechner",
+    "description": "BTU CalculatorFinden Sie die BTU- und AC-Größe, die Sie für einen Raum benötigen, aus Größe, Deckenhöhe, Sonneneinstrahlung, Insassen und Nutzung als Küche. Empfiehlt eine Standard AC Größe. Frei.",
+    "category": "Rechner & Finanzen"
+  },
+  "bulk-barcode-generator": {
+    "name": "Bulk Barcode Generator",
+    "description": "Bulk Barcode GeneratorGenerieren Sie Hunderte von Barcodes auf einmal: Fügen Sie eine Liste aus Excel oder Sheets ein, fügen Sie Bildunterschriften hinzu und laden Sie dann einen ZIP von PNG / SVG-Dateien oder ein PDF auf Avery-Labelblättern herunter.",
+    "category": "Design & Medien"
+  },
+  "business-days-calculator": {
+    "name": "Business Days Rechner",
+    "description": "Business Days CalculatorCount Werktage zwischen zwei Daten, Wochenenden, US-Bundes- oder UK-Feiertage und Ihre eigenen freien Tage. Frei und sofort.",
+    "category": "Rechner & Finanzen"
+  },
+  "carb-calculator": {
+    "name": "Carb Rechner",
+    "description": "Carb CalculatorBerechnen Sie täglich Kohlenhydrate Gramm aus den Kalorien nach Ihrem Protein und Fett Ziele verlassen. Kostenloser Carb-Rechner für Schneiden, Wartung oder Bulking.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "censor-face": {
+    "name": "Censor Face in Foto",
+    "description": "Censor Face in PhotoCensor Gesichter in Fotos mit einer Blackbox, Emoji, Unschärfe oder Pixeln. Gesichter werden auf Ihrem Gerät erkannt und nichts wird hochgeladen. Kostenlos, keine Anmeldung, kein Wasserzeichen.",
+    "category": "Design & Medien"
+  },
+  "censor-image": {
+    "name": "Censor Bild",
+    "description": "Zensor ImageZensieren Sie ein Bild online: Redaktion in schwarzen Balken, Pixelierung oder Unschärfe von Gesichtern, Text und sensible Details. Kostenlos, keine anmeldung, und ihr foto verlässt ihren browser nie.",
+    "category": "Design & Medien"
+  },
+  "character-counter": {
+    "name": "Character Zähler",
+    "description": "Zeichen CounterCount Zeichen, Wörter, Sätze und Zeilen in Echtzeit, mit Lesezeit, Frequenzanalyse und SEO Längenprüfungen.",
+    "category": "Textverarbeitung"
+  },
+  "chicago-citation-generator": {
+    "name": "Chicago Citation Generator",
+    "description": "Chicago Citation GeneratorBuild Chicago Author-Date Referenzen für Bücher, Zeitschriftenartikel und Websites. Formatieren Sie Zitate lokal in Ihrem Browser und exportieren Sie nach Word oder BibTeX.",
+    "category": "Textverarbeitung"
+  },
+  "christmas-bingo": {
+    "name": "Christmas Bingo Cards",
+    "description": "Weihnachts-Bingo-Karten Kostenlos druckbare Weihnachts-Bingo: Machen Sie einzigartige Karten mit Weihnachtswörtern oder Bild-Emoji, festlichen Farben und einem Anrufer. PDF 1, 2 oder 4 pro Seite. Keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "christmas-budget-planner": {
+    "name": "Christmas Budget Planner",
+    "description": "Weihnachtsbudgetplaner Kostenloser Weihnachtsbudgetplaner: Legen Sie ein Gesamtgeschenkbudget fest, teilen Sie es pro Person auf und sehen Sie ausgegeben, noch zu kaufen und Geld übrig, während Sie einkaufen. Drucken Sie ein PDF, keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "christmas-gift-tracker": {
+    "name": "Christmas Gift Tracker",
+    "description": "Weihnachtsgeschenk-Tracker Kostenloser Weihnachtsgeschenk-Tracker: Listen Sie alle auf, für die Sie kaufen, legen Sie Budgets fest und verfolgen Sie jedes Geschenk von der Idee bis zum Kauf, verpackt und gegeben. Drucken Sie ein PDF, keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "christmas-list-maker": {
+    "name": "Christmas List Ersteller",
+    "description": "Erstellen Sie in wenigen Minuten eine Weihnachtsliste: Fügen Sie Geschenke mit Links, Preisen, Größen und Priorität hinzu, drucken Sie dann ein PDF aus oder teilen Sie einen Link. Kostenlos, keine Anmeldung, gespeichert auf Ihrem Gerät.",
+    "category": "Produktivität"
+  },
+  "christmas-wish-list-maker": {
+    "name": "Christmas Wish List Ersteller",
+    "description": "Weihnachtswunschliste MakerFree Weihnachtswunschliste Maker: Fügen Sie Geschenke aus jedem Geschäft mit Links, Größen und Priorität hinzu, teilen Sie dann einen schreibgeschützten Link oder drucken Sie ihn aus. Kein Konto erforderlich.",
+    "category": "Produktivität"
+  },
+  "cidr-calculator": {
+    "name": "CIDR Rechner",
+    "description": "CIDR CalculatorKonvertieren Sie die CIDR-Notation in einen IP-Bereich und einen IP-Bereich in die kleinste Liste von CIDR-Blöcken. Erste und letzte Adresse, Host Count und Masken, sofort.",
+    "category": "Entwicklung & Code"
+  },
+  "citation-generator": {
+    "name": "Citation Generator",
+    "description": "Citation GeneratorErzeugen Sie sofort genaue APA-, MLA-, Chicago- und Harvard-Zitate. Exportieren Sie nach Word oder BibTeX.",
+    "category": "Textverarbeitung"
+  },
+  "code-128-barcode-generator": {
+    "name": "Code 128 Barcode Generator",
+    "description": "Code 128 Barcode GeneratorGenerate Code 128 und GS1-128 Barcodes für Inventar, Versand und Asset-Tags. Buchstaben, Zahlen und Symbole, Bulk von Excel, Avery Label Sheets. Frei.",
+    "category": "Design & Medien"
+  },
+  "code-39-barcode-generator": {
+    "name": "Code 39 Barcode Generator",
+    "description": "Code 39 Barcode GeneratorCreate Code 39 und Code 93 Barcodes für Industrie-, Automobil- und Regierungsetiketten. Großbuchstaben, Ziffern und -. $ / + %. PNG, SVG und Massenetikettenblätter.",
+    "category": "Design & Medien"
+  },
+  "code-screenshot-generator": {
+    "name": "Code Screenshot Generator",
+    "description": "Erstellen Sie einen sauberen Screenshot-PNG Ihres Codes mit anpassbaren Themen, Padding und optionalem Social Branding. Kostenloser Code Screenshot Generator online.",
+    "category": "Entwicklung & Code"
+  },
+  "code-snippet-screenshot": {
+    "name": "Code Snippet Screenshot",
+    "description": "Erstellen Sie schöne Screenshots von Code-Snippets mit anpassbaren Hintergründen, Syntax-Hervorhebung und Social Media Branding. Perfekt für das Teilen auf Twitter, LinkedIn und Präsentationen.",
+    "category": "Entwicklung & Code"
+  },
+  "code-to-image": {
+    "name": "Code to Bild",
+    "description": "Verwandeln Sie ein Code-Snippet in ein gestyltes Bild mit Syntax-Hervorhebung, Themen und Hintergrundauswahl und exportieren Sie dann ein PNG. Free code to image tool, keine anmeldung.",
+    "category": "Entwicklung & Code"
+  },
+  "coin-flip": {
+    "name": "Coin Flip",
+    "description": "Erhalten Sie einen zufälligen Münzwurf mit einem animierten Wurf und Live-Statistiken. Drehen Sie mehrere Münzen um, führen Sie bis zu 100.000 Versuche und exportieren Sie Ergebnisse. Frei und Client-Seite.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "coin-flip-simulator": {
+    "name": "Coin Flip Simulator",
+    "description": "Coin Flip SimulatorFlip eine Münze online mit einer realistischen Animation. Werfen Sie mehrere Münzen, spielen Sie am besten 3 oder simulieren Sie 100.000 Flips. Kostenlos, privat und vollständig in Ihrem Browser.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "college-gpa-calculator": {
+    "name": "College GPA Rechner",
+    "description": "College GPA CalculatorFree College GPA Calculator: Geben Sie Kurse, Kreditstunden und Noten ein, um Ihr Semester GPA und kumulatives GPA auf einer 4,0-Skala zu erhalten, plus das GPA, das Sie für das nächste Semester benötigen.",
+    "category": "Rechner & Finanzen"
+  },
+  "combine-pdf": {
+    "name": "Combine PDF",
+    "description": "Kombinieren Sie PDF-Dateien in der Reihenfolge, in der Sie ein konsolidiertes Dokument auswählen und herunterladen. Kostenlos, keine Anmeldung, und Ihre Dateien werden in Ihrem Browser verarbeitet, nicht hochgeladen.",
+    "category": "PDF & Dokumente"
+  },
+  "common-denominator-calculator": {
+    "name": "Common Denominator Rechner",
+    "description": "Finde den kleinsten gemeinsamen Nenner (LCD) von 2 bis 10 Brüchen, schreibe sie als äquivalente Brüche um und ordne sie vom kleinsten zum größten an. Mit Schritten.",
+    "category": "Rechner & Finanzen"
+  },
+  "compress-pdf": {
+    "name": "Compress PDF",
+    "description": "Komprimieren Sie PDFShrink PDF-Dateien, um E-Mail- und Upload-Limits mit drei Qualitätsvoreinstellungen anzupassen, die zu 100% auf Ihrem Gerät verarbeitet und nie hochgeladen wurden.",
+    "category": "PDF & Dokumente"
+  },
+  "concrete-calculator": {
+    "name": "Concrete Rechner",
+    "description": "BetonrechnerAusarbeiten, wie viel Beton Sie für eine Platte, Fuß oder Pfostenlöcher in Kubikmetern, Kubikmetern und 40, 50, 60 oder 80 lb Säcken benötigen. Einschließlich Abfall und Kosten. Frei.",
+    "category": "Rechner & Finanzen"
+  },
+  "countdown-to-date": {
+    "name": "Countdown to Any Date",
+    "description": "Erstellen Sie einen Live-Countdown für jedes Datum und jede Uhrzeit: Geburtstage, Hochzeiten, Reisen, Prüfungen oder Starts. Sehen Sie Tage, Stunden und Schlafen links, gehen Sie Vollbild und teilen Sie einen Link.",
+    "category": "Produktivität"
+  },
+  "cps-test": {
+    "name": "CPS Test",
+    "description": "CPS TestFree CPS Test: Klicken Sie so schnell wie möglich für 1, 5, 10, 15, 30, 60 oder 100 Sekunden und sehen Sie Ihre Klicks pro Sekunde, Gesamtklicks und beste Punktzahl. Funktioniert mobil.",
+    "category": "Gerätetests"
+  },
+  "cron-expression-generator": {
+    "name": "Cron Expression Generator",
+    "description": "Erstellen Sie einen Cron-Zeitplan aus gängigen Presets und prüfen Sie dessen Beschreibung und bevorstehende Laufzeiten, bevor Sie ihn kopieren.",
+    "category": "Produktivität"
+  },
+  "cron-expression-parser": {
+    "name": "Cron Expression Parser",
+    "description": "Cron Expression ParserParse einen Cron-Ausdruck in einfache Sprache und Vorschau der nächsten geplanten Laufzeiten. Kostenloser Online-Cron-Parser für Crontab-Zeitpläne läuft in Ihrem Browser.",
+    "category": "Produktivität"
+  },
+  "crontab-generator": {
+    "name": "Crontab Generator",
+    "description": "Crontab GeneratorBauen und verstehen Sie Cron-Ausdrücke mit Live-Beschreibung und nächsten Laufzeiten. Enthält Presets und Cheatsheet.",
+    "category": "Produktivität"
+  },
+  "csr-decoder": {
+    "name": "CSR Decoder",
+    "description": "CSR DecoderDecodieren und überprüfen Sie eine CSR, bevor Sie sie an eine CA senden: Betreff, SANs, Schlüsselgröße und Signatur. Flags schlechte Ländercodes, URLs in CN und schwache Schlüssel. Nichts hochgeladen.",
+    "category": "Entwicklung & Code"
+  },
+  "csv-to-json-converter": {
+    "name": "CSV to JSON Konverter",
+    "description": "Konvertieren Sie CSV-Dateien in das JSON-Format mit Unterstützung für verschiedene Trennzeichen und Echtzeit-Konvertierung.",
+    "category": "Datenformate"
+  },
+  "csv-viewer": {
+    "name": "CSV Betrachter",
+    "description": "CSV ViewerCSV-Dateien als sortierbare Tabelle in Ihrem Browser öffnen. Auto erkennt Trennzeichen und Kodierung, durchsucht jede Zelle, zeigt Spaltenstatistiken an, exportiert nach Excel. Kein Upload.",
+    "category": "Entwicklung & Code"
+  },
+  "cumulative-gpa-calculator": {
+    "name": "Cumulative GPA Rechner",
+    "description": "Kumulativer GPA-Rechner Kostenloser kumulativer GPA-Rechner: Kombinieren Sie Ihren aktuellen GPA und Ihre Credits mit neuen Semesternoten, um Ihren Gesamt-GPA zu erhalten, und sehen Sie, was Sie brauchen, um ein Ziel zu erreichen.",
+    "category": "Rechner & Finanzen"
+  },
+  "cursive-text-generator": {
+    "name": "Cursive Text Generator",
+    "description": "Verwandeln Sie einfache Wörter in eleganten kursiven, Skript- und Blackletter-Unicode-Text, den Sie überall kopieren und einfügen können.",
+    "category": "Textverarbeitung"
+  },
+  "custom-bingo-card-maker": {
+    "name": "Custom Bingo Card Ersteller",
+    "description": "Custom Bingo Card MakerMachen Sie benutzerdefinierte Bingokarten mit Ihren eigenen Worten, Namen, Phrasen oder Emoji. Bereite Listen, 3x3 bis 5x5 Raster, 10 Themen, einzigartige Karten und ein kostenloses PDF. Kein Konto.",
+    "category": "Produktivität"
+  },
+  "dnd-dice-roller": {
+    "name": "D&amp;D Dice Roller",
+    "description": "D & D Dice RollerRoll DnD Würfel online: d4, d6, d8, d10, d12, d20 und d100. Verwenden Sie Würfel Notation, Modifikatoren und d20 Vorteil, dann kopieren oder exportieren Sie Ihre Rollen. 100% Client-Seite.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "d20-roller": {
+    "name": "D20 Roller",
+    "description": "D20 RollerRoll ein d20 online mit Vorteil, Nachteil und Modifikatoren. Sehen Sie beide Würfel, das gehaltene Ergebnis und Ihre Gesamtsumme. Animiert, kostenlos und vollständig in Ihrem Browser.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "data-matrix-generator": {
+    "name": "Data Matrix Generator",
+    "description": "Data Matrix GeneratorCreate Data Matrix und GS1 DataMatrix Codes für Teile, Gesundheitswesen und Elektronik. Text, URLs oder GS1-Daten kodieren; PNG oder Vektor SVG oder Bulk Sheets herunterladen.",
+    "category": "Design & Medien"
+  },
+  "date-calculator": {
+    "name": "Date Rechner",
+    "description": "Addieren oder subtrahieren Sie Tage, Wochen, Monate oder Jahre von einem beliebigen Datum, zählen Sie nur Werktage oder finden Sie die Zeit zwischen zwei Daten. Free, instant, mit dem wochentag gezeigt.",
+    "category": "Rechner & Finanzen"
+  },
+  "days-between-dates": {
+    "name": "Days Between Dates Rechner",
+    "description": "Tage zwischen Daten CalculatorCount die Tage zwischen zwei Daten oder bis zu einem Datum, mit Ergebnissen in Jahren, Monaten, Wochen und Wochentagen. Optional das Enddatum angeben. Frei.",
+    "category": "Rechner & Finanzen"
+  },
+  "db-viewer": {
+    "name": "DB File Betrachter",
+    "description": "DB File ViewerÖffnet .db-Dateien online: Wenn es sich um eine SQLite-Datenbank handelt, durchsuchen Sie die Tabellen, sehen Sie sich das Schema an und führen Sie SQL in Ihrem Browser aus. Prüft zuerst den Dateityp. Frei.",
+    "category": "Entwicklung & Code"
+  },
+  "dead-pixel-test": {
+    "name": "Dead Pixel Test",
+    "description": "Dead Pixel TestPrüfen Sie Ihren Bildschirm auf tote und steckengebliebene Pixel mit Vollbild-Farbbildschirmen, Farbverläufen für Banding und einem steckengebliebenen Pixelfixer. Monitore, Laptops, Telefone und Fernseher.",
+    "category": "Gerätetests"
+  },
+  "decimal-to-binary": {
+    "name": "Decimal to Binary Konverter",
+    "description": "Decimal zu Binary ConverterConvert dezimal zu binär sofort, mit dem Divid-by-2 Arbeit gezeigt. Signierte Zweier-Komplemente für 8 bis 64 Bit, anklickbare Bitansicht und Unterstützung für große Zahlen.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "decimal-to-fraction-calculator": {
+    "name": "Decimal to Fraction Rechner",
+    "description": "Konvertieren Sie jede Dezimalzahl in einen Bruch in einfachster Form, einschließlich sich wiederholender Dezimalzahlen wie 0,333 ... Runde auf die nächste 1/16 oder 1/64 Zoll. Schritte gezeigt.",
+    "category": "Rechner & Finanzen"
+  },
+  "decimal-to-hex": {
+    "name": "Decimal to Hex Konverter",
+    "description": "Dezimal zu Hex Converter Konvertieren Sie sofort dezimal zu hexadezimal, wobei die Arbeit mit wiederholter Teilung gezeigt wird. Große zahlen, negative zwei komplementwerte und binär und oktal zu.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "dice-roller": {
+    "name": "Dice Roller",
+    "description": "Dice RollerRoll einen Würfel online mit glatter Animation. Rollen Sie bis zu 100 Würfel, wählen Sie d4-d100 oder benutzerdefinierte Seiten, fügen Sie Modifikatoren hinzu und speichern Sie Ihren Verlauf. Kostenlos und 100% Kundenseite.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "dirty-santa-rules": {
+    "name": "Dirty Santa Rules",
+    "description": "Dirty Santa Regeln erklärt: Zahlen ziehen, öffnen oder stehlen, ein Geschenk ist nach 3 Steals tot. Plus einen kostenlosen Dirty Santa Game Tracker mit zufälliger Reihenfolge und Rückgängigmachung.",
+    "category": "Produktivität"
+  },
+  "discord-username-generator": {
+    "name": "Discord Username Generator",
+    "description": "Discord Username GeneratorGenerieren Sie einen Discord Username mit Kleinbuchstaben, Ziffern oder Unterstrichen. Fügen Sie Ihr eigenes Wort hinzu, speichern Sie Favoriten und kopieren Sie einen Griff. Frei und Client-Seite.",
+    "category": "Textverarbeitung"
+  },
+  "discount-calculator": {
+    "name": "Discount Rechner",
+    "description": "Berechne den Verkaufspreis und die Einsparungen für einen beliebigen Prozentsatz, stapele zusätzliche Rabatte, füge Umsatzsteuer hinzu oder finde den ursprünglichen Preis. Frei und sofort.",
+    "category": "Rechner & Finanzen"
+  },
+  "docx-viewer": {
+    "name": "DOCX Betrachter",
+    "description": "DOCX ViewerView .docx Dateien in Ihrem Browser mit echtem Seitenlayout: Tabellen, Bilder, Header und Kommentare. Siehe Autor und Wortzahl, Text kopieren oder als PDF speichern. Kein Upload.",
+    "category": "Produktivität"
+  },
+  "dog-age-calculator": {
+    "name": "Dog Alter Rechner",
+    "description": "Konvertieren Sie Hundejahre in menschliche Jahre nach Größe (klein, mittel, groß oder riesig) mit dem AVMA-Diagramm und der neueren epigenetischen Formel mit Lebensstadium. Frei.",
+    "category": "Rechner & Finanzen"
+  },
+  "double-click-test": {
+    "name": "Double Click Test",
+    "description": "Doppelklick TestIst Ihre Maus Doppelklick von selbst? Einzelklick in das Feld und jede Presse, die zweimal registriert wird mit seinem Timing gekennzeichnet. Einstellbarer Schwellenwert, frei.",
+    "category": "Gerätetests"
+  },
+  "double-elimination-bracket": {
+    "name": "Double Elimination Bracket Generator",
+    "description": "Double Elimination Bracket Generator Kostenloser Double Elimination Bracket Generator mit Gewinner- und Verliererklammern, einem großen Finale und einem optionalen Reset. Byes für eine beliebige Anzahl von Teams, PDF und PNG.",
+    "category": "Produktivität"
+  },
+  "ean-13-barcode-generator": {
+    "name": "EAN-13 Barcode Generator",
+    "description": "EAN-13 Barcode GeneratorGenerieren Sie EAN-13 und EAN-8 Barcodes für Produkte, die in Europa und weltweit verkauft werden. Prüfen Sie die automatisch hinzugefügte Ziffer; Laden Sie PNG oder Vektor SVG in Standardgröße herunter.",
+    "category": "Design & Medien"
+  },
+  "easy-grader": {
+    "name": "Easy Grader",
+    "description": "Easy GraderFree Online Easy Grader für Lehrer. Geben Sie die Anzahl der Fragen ein, um ein druckbares Bewertungsdiagramm mit dem Prozentsatz und dem Buchstaben für jede falsche Zahl zu erhalten.",
+    "category": "Rechner & Finanzen"
+  },
+  "electricity-cost-calculator": {
+    "name": "Electricity Cost Rechner",
+    "description": "StromkostenrechnerAusarbeiten, wie viel ein Gerät pro Tag, Monat und Jahr von seinen Watt, Nutzungsstunden und Ihrem Preis pro kWh kostet. Heizungen, AC, PCs und mehr. Frei.",
+    "category": "Rechner & Finanzen"
+  },
+  "email-header-analyzer": {
+    "name": "Email Header Analyzer",
+    "description": "E-Mail-Header AnalyzerPaste E-Mail-Header oder öffnen Sie eine .eml/.msg, um jeden Liefersprung und jede Verzögerung zu verfolgen, SPF, DKIM und DMARC zu überprüfen und Phishing-Zeichen zu erkennen. Frei und privat.",
+    "category": "Produktivität"
+  },
+  "eml-to-pdf": {
+    "name": "EML to PDF Konverter",
+    "description": "EML zu PDF ConverterConvert .eml E-Mails zu PDF in Ihrem Browser, mit Absender, Empfänger, Datum und Anhänge oben aufgeführt. Inline-Bilder gehalten, Tracking blockiert. Frei.",
+    "category": "Produktivität"
+  },
+  "eml-viewer": {
+    "name": "EML Betrachter",
+    "description": "EML ViewerÖffnet .eml-Dateien in Ihrem Browser: Lesen Sie die Nachricht, laden Sie Anhänge herunter, überprüfen Sie Header und SPF / DKIM und speichern Sie als PDF. Tracking-Pixel blockiert. Kein Upload.",
+    "category": "Produktivität"
+  },
+  "epoch-converter": {
+    "name": "Epoch Konverter",
+    "description": "Konvertieren Sie Unix-Episoden-Zeitstempel in Sekunden oder Millisekunden in lesbare Daten und generieren Sie Zeitstempel aus Datumseingaben. Kostenlose Online-Epoche Converter.",
+    "category": "Datenformate"
+  },
+  "excel-to-csv": {
+    "name": "Excel to CSV Konverter",
+    "description": "Excel zu CSV ConverterKonvertieren Sie Excel-Tabellen zu CSV online ohne Hochladen: Wählen Sie das Blatt und Trennzeichen, halten Sie Daten und führende Nullen oder exportieren Sie alle Blätter als ZIP.",
+    "category": "Entwicklung & Code"
+  },
+  "excel-viewer": {
+    "name": "Excel Betrachter",
+    "description": "Excel ViewerView Excel-Tabellen online: jedes Blatt als sortierbare, durchsuchbare Tabelle mit formatierten Daten, Spaltenstatistiken und CSV-Export. Dateien bleiben auf Ihrem Gerät.",
+    "category": "Entwicklung & Code"
+  },
+  "exif-remover": {
+    "name": "EXIF Entferner",
+    "description": "EXIF RemoverRemove EXIF und andere Fotometadaten, einschließlich GPS-Position und Kameradetails, laden Sie dann eine gereinigte Bildkopie herunter. Frei, privat und lokal verarbeitet.",
+    "category": "Design & Medien"
+  },
+  "exif-viewer": {
+    "name": "EXIF Betrachter",
+    "description": "EXIF ViewerLesen Sie EXIF-Daten von einem Foto, einschließlich Kameramodell, Objektiv, Belichtungseinstellungen und GPS-Position. Kostenloser online EXIF Viewer, der in Ihrem Browser läuft, keine Uploads.",
+    "category": "Design & Medien"
+  },
+  "extract-pdf-pages": {
+    "name": "Extract PDF Pages",
+    "description": "Auszug PDF SeitenWählen Sie Seiten aus einem PDF und speichern Sie sie als separates Dokument, alles in Ihrem Browser. Kostenloses Online-Tool zum Extrahieren von PDF-Seiten ohne Uploads oder Wasserzeichen.",
+    "category": "PDF & Dokumente"
+  },
+  "face-pixelator": {
+    "name": "Face Pixelator",
+    "description": "Face PixelatorPixelate Gesichter in jedem Foto automatisch. Stellen Sie die Pixelgröße ein, behalten Sie die gewünschten Gesichter und laden Sie sie in voller Größe herunter. Läuft in Ihrem Browser; nichts wird hochgeladen.",
+    "category": "Design & Medien"
+  },
+  "fancy-text-generator": {
+    "name": "Fancy Text Generator",
+    "description": "Verwandeln Sie einfache Wörter in ausgefallene Unicode-Text- und Symbolrahmen, die Sie kopieren und in jede Biografie, jeden Benutzernamen oder jede Bildunterschrift einfügen können.",
+    "category": "Textverarbeitung"
+  },
+  "favicon-generator": {
+    "name": "Favicon Generator",
+    "description": "Favicon GeneratorErstellen Sie professionelle Favicons aus Bildern mit anpassbaren Größen, Hintergründen und Formaten (ICO, PNG, SVG).",
+    "category": "Design & Medien"
+  },
+  "favicon-maker": {
+    "name": "Favicon Ersteller",
+    "description": "Machen Sie ein Browser-Tab-Symbol aus einem Bibliothekssymbol, passen Sie Farben und Formen an und exportieren Sie ein PNG- oder SVG-Favicon. Kostenloser Online-Favicon-Hersteller, der in Ihrem Browser ausgeführt wird.",
+    "category": "Design & Medien"
+  },
+  "fbx-viewer": {
+    "name": "FBX Betrachter",
+    "description": "Autodesk FBX-Dateien in Ihrem Browser: Meshes, Materialien, Texturen und Animationen. Überprüfen Sie das Rig, lesen Sie Statistiken und exportieren Sie zu GLB oder STL. Kostenlos, kein Upload.",
+    "category": "Design & Medien"
+  },
+  "final-grade-calculator": {
+    "name": "Final Grade Rechner",
+    "description": "Finden Sie die Punktzahl, die Sie für Ihre Abschlussprüfung benötigen, um eine A, B oder C zu erhalten. Geben Sie Ihre aktuelle Note, das Gewicht des Finales und Ihr Ziel ein. Kostenlos, keine Anmeldung.",
+    "category": "Rechner & Finanzen"
+  },
+  "flac-to-mp3": {
+    "name": "FLAC to MP3 Konverter",
+    "description": "FLAC zu MP3 ConverterKonvertieren Sie FLAC zu MP3 in Ihrem Browser mit bis zu 320 kbps. Konvertieren Sie ganze Alben auf einmal und laden Sie einen ZIP herunter. Kostenlos, kein Upload, keine Anmeldung und keine Dateigrößenbegrenzung.",
+    "category": "Audio & Video"
+  },
+  "flip-a-coin": {
+    "name": "Flip a Coin",
+    "description": "Flip ein CoinFlip eine Münze online für eine schnelle Kopf oder Zahl Entscheidung. Fügen Sie Ihre eigenen Entscheidungen hinzu, werfen Sie bis zu fünf Münzen oder spielen Sie Best of 3. Kostenlos und vollständig in Ihrem Browser.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "focus-timer": {
+    "name": "Focus Timer",
+    "description": "Führen Sie einen fokussierten Work Countdown mit einstellbaren Sitzungslängen, Pausenintervallen und Warnungen aus, um bei der Aufgabe zu bleiben. Kostenloser online-fokus-timer, keine anmeldung oder installation.",
+    "category": "Produktivität"
+  },
+  "font-generator": {
+    "name": "Font Generator",
+    "description": "Verwandeln Sie Klartext in 100+ ausgefallene Unicode-Schriftarten, die Sie überall kopieren und einfügen können, mit Live-Plattform-Kompatibilitätsprüfungen.",
+    "category": "Textverarbeitung"
+  },
+  "instagram-fonts": {
+    "name": "Fonts for Instagram",
+    "description": "Schriftarten für InstagramCopy-and-Paste-Schriftarten für Instagram-Bios, Namen, Bildunterschriften und Geschichten, die anhand der eigenen Grenzen und Filterung von Instagram überprüft werden.",
+    "category": "Textverarbeitung"
+  },
+  "fraction-calculator": {
+    "name": "Fraction Rechner",
+    "description": "Fraktion CalculatorAdd, subtrahieren, multiplizieren und teilen Brüche, gemischte Zahlen und ganze Zahlen. Erhalten Sie vereinfachte, gemischte und dezimale Antworten mit klaren Schritten. Frei.",
+    "category": "Rechner & Finanzen"
+  },
+  "fraction-to-decimal-calculator": {
+    "name": "Fraction to Decimal Rechner",
+    "description": "Bruch zu DezimalrechnerKonvertieren Sie Brüche und gemischte Zahlen in Dezimalzahlen und Prozentsätze. Zeigt sich wiederholende Dezimalzahlen mit einem Balken, den langen Divisionsschritten und einem Conversion-Chart.",
+    "category": "Rechner & Finanzen"
+  },
+  "gamepad-tester": {
+    "name": "Gamepad Tester",
+    "description": "Testen Sie Ihren Controller online: Tasten, Trigger, Sticks, Drift, Zirkularität und Vibration. Funktioniert mit Xbox, PS5, PS4 und Switch Pro. Free, keine Installation.",
+    "category": "Gerätetests"
+  },
+  "gif-to-mp4": {
+    "name": "GIF to MP4 Konverter",
+    "description": "Konvertieren Sie animierte GIFs in MP4-Video in Ihrem Browser: oft 90% kleiner, reibungslose Wiedergabe, funktioniert auf Instagram, X und WhatsApp. Kein Upload, kein Wasserzeichen, kostenlos.",
+    "category": "Audio & Video"
+  },
+  "gif-to-png": {
+    "name": "GIF to PNG Konverter",
+    "description": "GIF zu PNG ConverterKonvertieren Sie GIF zu PNG unter Wahrung der Transparenz. Speichern Sie den ersten Frame oder extrahieren Sie jeden Frame eines animierten GIF zu einem ZIP von PNGs. Kostenlos, kein Upload, keine Anmeldung.",
+    "category": "Design & Medien"
+  },
+  "gift-exchange-generator": {
+    "name": "Gift Exchange Generator",
+    "description": "Geschenkaustauschgenerator Kostenloser Geschenkaustauschgenerator für Arbeit, Familie, Freunde und Geburtstage. Zeichnen Sie Namen, schließen Sie Paare aus, legen Sie ein Budget fest und senden Sie private Links. Keine E-Mail oder Anmeldung.",
+    "category": "Produktivität"
+  },
+  "glb-viewer": {
+    "name": "GLB Betrachter",
+    "description": "GLB ViewerView GLB Dateien in Ihrem Browser mit PBR Materialien, Texturen und Animationen. Unterstützt Draco und Meshopt Kompression. Inspizieren, messen und exportieren. Kein Upload.",
+    "category": "Design & Medien"
+  },
+  "glitch-text-generator": {
+    "name": "Glitch Text Generator",
+    "description": "Glitch Text GeneratorErstellen Sie glitchy, verzerrten Text für Bios, Gaming-Namen und Posts. Leichte bis schwere Störeffekte, Shuffle und Kopieren mit einem Klick. Frei, privat und sofort.",
+    "category": "Textverarbeitung"
+  },
+  "gltf-viewer": {
+    "name": "glTF Betrachter",
+    "description": "glTF ViewerOpen glTF 2.0 Modelle mit ihren .bin und Texturen in Ihrem Browser. PBR-Materialien, Animationen, Draco- und Meshopt-Unterstützung, Statistiken und Export nach GLB. Kein Upload.",
+    "category": "Design & Medien"
+  },
+  "gpa-calculator": {
+    "name": "GPA Rechner",
+    "description": "GPA CalculatorFree GPA Rechner für High School und College. Fügen Sie Klassen, Credits und Brief- oder Prozentnoten hinzu, um Ihr Semester, kumulative und gewichtete GPA zu erhalten. Keine Anmeldung.",
+    "category": "Rechner & Finanzen"
+  },
+  "grade-calculator": {
+    "name": "Grade Rechner",
+    "description": "Grade CalculatorFree Grade Calculator: Geben Sie Kategorien, Gewichte oder Punkte ein, um Ihre Klassennote und Ihren Brief zu erhalten, zu sehen, was Sie für das Finale benötigen, und Tests zu erhalten. Keine Anmeldung.",
+    "category": "Rechner & Finanzen"
+  },
+  "graphql-formatter-beautifier": {
+    "name": "GraphQL Formatter &amp; Formatierer",
+    "description": "GraphQL Formatter & BeautifierFormatieren, validieren und verschönern Sie GraphQL-Abfragen, Mutationen und Schemata mit Syntax-Hervorhebung und Abfrageanalyse.",
+    "category": "Datenbank & SQL"
+  },
+  "graphql-minifier": {
+    "name": "GraphQL Minifier",
+    "description": "GraphQL MinifierMinify GraphQL Queries und Schemas in kompakte Single-Line-Strings: kleinere Nutzlasten, bereit zum Einbetten in Code.",
+    "category": "Datenbank & SQL"
+  },
+  "graphql-schema-explorer": {
+    "name": "GraphQL Schema Explorer",
+    "description": "GraphQL Schema ExplorerBrowse GraphQL Typen, Felder, Argumente und Definitionen in einem durchsuchbaren Schema Explorer. Fügen Sie Ihr SDL ein und navigieren Sie es kostenlos, verarbeitet in Ihrem Browser.",
+    "category": "Datenbank & SQL"
+  },
+  "graphql-schema-validator": {
+    "name": "GraphQL Schema Validator",
+    "description": "GraphQL Schema ValidatorValidate GraphQL Schemadefinitionen (SDL) und inspizieren gemeldete Syntax- oder Schemafehler mit Zeilendetails. Kostenloser Online-Validator, der in Ihrem Browser läuft.",
+    "category": "Datenbank & SQL"
+  },
+  "graphql-schema-viewer-validator": {
+    "name": "GraphQL Schema Betrachter &amp; Validator",
+    "description": "GraphQL Schema Viewer & ValidatorVisualisieren, validieren und erkunden Sie GraphQL Schemas (SDL) mit einem interaktiven Typ Explorer und Verschönerer.",
+    "category": "Datenbank & SQL"
+  },
+  "graphql-validator": {
+    "name": "GraphQL Validator",
+    "description": "GraphQL-ValidatorValidieren Sie GraphQL-Abfragen, Mutationen und Schemata beim Eingeben: Syntaxfehler, die mit Zeilennummern gekennzeichnet sind, plus Abfrageanalyse.",
+    "category": "Datenbank & SQL"
+  },
+  "gravel-calculator": {
+    "name": "Gravel Rechner",
+    "description": "Kalkulieren Sie, wie viel Kies, zerkleinerter Stein, Flussfelsen oder Sand Sie in Tonnen und Kubikmetern von Ihrem Gebiet und Ihrer Tiefe benötigen. Editierbare Dichte, Abfall und Kosten. Frei.",
+    "category": "Rechner & Finanzen"
+  },
+  "handwriting-generator": {
+    "name": "Handwriting Generator",
+    "description": "Handschrift GeneratorGenerieren Sie Handschrift aus Text online. 12 handschriftliche und kursive Schriften, Papier- und Tintenfarben. Laden Sie handschriftliche Notizen als PNG oder PDF herunter. Frei und privat.",
+    "category": "Textverarbeitung"
+  },
+  "harvard-citation-generator": {
+    "name": "Harvard Citation Generator",
+    "description": "Harvard Citation GeneratorGenerate Harvard Autorendatum Referenzen für Bücher, Artikel und Websites. Geben Sie Details privat in Ihren Browser ein, importieren Sie BibTeX und exportieren Sie nach Word.",
+    "category": "Textverarbeitung"
+  },
+  "hash-generator": {
+    "name": "Hash Generator",
+    "description": "Hash GeneratorSecure, clientseitiger Hash-Generator, der MD5, SHA-256, bcrypt und mehr unterstützt. Hash-Texte oder Dateien sofort offline.",
+    "category": "Sicherheit & Datenschutz"
+  },
+  "headphone-test": {
+    "name": "Headphone Test",
+    "description": "Kopfhörer Test Test Kopfhörer und Ohrhörer online: Links-/Rechts-Audiotest, Stereo- und Polaritätsprüfung, Frequenzsweep und Tongenerator. Funktioniert mit Bluetooth und kabelgebunden. Frei.",
+    "category": "Gerätetests"
+  },
+  "heads-or-tails": {
+    "name": "Heads or Tails",
+    "description": "Köpfe oder Schwanzköpfe oder Schwänze? Werfen Sie eine faire 50/50 Münze online, entscheiden Sie, wer zuerst geht, oder spielen Sie am besten 3, 5 oder 7. Animierte ergebnisse mit privater, nur browser-verarbeitung.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "heic-to-jpg-converter": {
+    "name": "HEIC to JPG Konverter",
+    "description": "Konvertieren Sie iPhone HEIC / HEIF-Fotos in universelle JPG-Dateien, die vollständig auf Ihrem Gerät dekodiert sind, Fotos, die nie hochgeladen wurden.",
+    "category": "Design & Medien"
+  },
+  "hex-calculator": {
+    "name": "Hex Rechner",
+    "description": "Hex CalculatorFree Hex Calculator: addieren, subtrahieren, multiplizieren und dividieren hexadezimale Zahlen, plus UND, ODER, XOR, NICHT und Verschiebungen. Ergebnisse in hex, dezimal, binär und oktal.",
+    "category": "Rechner & Finanzen"
+  },
+  "hex-to-ascii": {
+    "name": "Hex to ASCII Konverter",
+    "description": "Hex zu ASCII ConverterKonvertieren Sie sofort Hex zu ASCII-Text. Paste hex mit oder ohne Leerzeichen, 0x oder \\x Präfixe und decodieren es als UTF-8-Text, mit einer Byte-Tabelle. Frei und privat.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "hex-to-binary": {
+    "name": "Hex to Binary Konverter",
+    "description": "Hex zu Binary ConverterKonvertieren Sie sofort Hex zu binär. Jede Hex-Ziffer bildet 4 Bits ab, mit Gruppierung, einer anklickbaren Bitansicht, Zweierkomplement und Dezimal- und Oktalergebnissen.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "hex-to-decimal": {
+    "name": "Hex to Decimal Konverter",
+    "description": "Hex zu Decimal ConverterKonvertieren Sie Hex sofort zu dezimal mit der gezeigten Arbeit. Unterstützt 0x Präfixe, große Zahlen und signierte Zweierkomplementwerte. Zeigt auch binär und oktal.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "hex-to-rgb": {
+    "name": "HEX to RGB",
+    "description": "HEX to RGBKonvertieren Sie einen hexadezimalen Farbcode in rote, grüne und blaue Werte mit einer Live-Farbvorschau. Kostenloser Online-HEX zu RGB-Konverter mit einem Klick.",
+    "category": "Design & Medien"
+  },
+  "hex-to-rgb-calculator": {
+    "name": "HEX to RGB Rechner",
+    "description": "Berechnen Sie die RGB-Kanalwerte aus einem beliebigen HEX-Farbcode und vergleichen Sie die resultierende Farbe visuell. Kostenloser HEX zu RGB-Rechner mit sofortigen Ergebnissen und Kopie.",
+    "category": "Design & Medien"
+  },
+  "hex-rgb-converter": {
+    "name": "HEX to RGB Konverter",
+    "description": "HEX zu RGB ConverterKonvertieren Sie HEX-Farbcodes sofort in das RGB-Format. Ein 100% clientseitiges Tool mit Live-Farbvorschau und CSS-Output-Generierung.",
+    "category": "Design & Medien"
+  },
+  "high-school-gpa-calculator": {
+    "name": "High School GPA Rechner",
+    "description": "High School GPA CalculatorFree High School GPA Rechner. Fügen Sie Klassen, Noten und Ehrungen, AP- oder IB-Level hinzu, um Ihren gewichteten und ungewichteten GPA für jedes Semester und insgesamt zu sehen. Keine Anmeldung.",
+    "category": "Rechner & Finanzen"
+  },
+  "hourly-to-salary-calculator": {
+    "name": "Stundenlohn to Gehalt Rechner",
+    "description": "Konvertieren Sie einen Stundenlohn in Jahresgehalt, plus monatliche, zweiwöchentliche, wöchentliche und tägliche Bezahlung. Passen Sie Stunden pro Woche und bezahlte Wochen pro Jahr an. Frei, sofort, privat.",
+    "category": "Rechner & Finanzen"
+  },
+  "hours-calculator": {
+    "name": "Hours Rechner",
+    "description": "StundenrechnerBerechnen Sie die Stunden und Minuten zwischen zwei Malen, subtrahieren Sie eine Pause, behandeln Sie Nachtschichten und erhalten Sie Dezimalstunden und zahlen Sie. Frei, sofort und privat.",
+    "category": "Rechner & Finanzen"
+  },
+  "days-until-christmas": {
+    "name": "How Many Days Until Christmas?",
+    "description": "Wie viele Tage bis Weihnachten? Live Weihnachts Countdown: Tage, Stunden, Minuten und Sekunden bis zum Weihnachtstag, plus Schlaf, Wochen, Wochentage und Wochenenden. Vollbildmodus, keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "days-until-halloween": {
+    "name": "How Many Days Until Halloween?",
+    "description": "Wie viele Tage bis Halloween? Live Halloween Countdown: Tage, Stunden, Minuten und Sekunden bis zum 31. Oktober, plus Wochenenden, um Kostüme und Partys zu planen. Vollbildmodus, keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "html-beautifier": {
+    "name": "HTML Formatierer",
+    "description": "HTML BeautifierBeautify minified HTML mit Einrückung, gewickelten Linien und formatierten Inline-CSS und JS. Tabs oder Leerzeichen, Attribut Wrapping und Live-Vorschau. Frei, privat.",
+    "category": "Entwicklung & Code"
+  },
+  "html-formatter": {
+    "name": "HTML Formatter",
+    "description": "HTML FormatterFormat verkleinerte HTML in sauberen, eingerückten Code. Formatiert eingebettetes CSS und JavaScript, wickelt lange Linien ein, markiert unclosed Tags und zeigt die Seite an. Frei.",
+    "category": "Entwicklung & Code"
+  },
+  "html-minifier": {
+    "name": "HTML Minifier",
+    "description": "HTML MinifierMinify HTML sicher: Kommentare entfernen, Whitespace zusammenbrechen, Inline-CSS und JSON-LD komprimieren, optional Attribut-Zitate ablegen. Zeigt Bytes gespeichert. Frei, privat.",
+    "category": "Entwicklung & Code"
+  },
+  "html-table-to-markdown": {
+    "name": "HTML Table to Markdown",
+    "description": "HTML-Tabelle in Markdown HTML-Tabellen-Syntax konvertieren und die Ausgabe überprüfen, bevor sie in Dokumenten oder einem README verwendet wird. Kostenlos, sofort und lokal in Ihrem Browser verarbeitet.",
+    "category": "Textverarbeitung"
+  },
+  "html-to-markdown": {
+    "name": "HTML to Markdown Konverter",
+    "description": "HTML zu Markdown ConverterKonvertieren Sie HTML zu bereinigen Markdown-Format mit Live-Vorschau. Perfekt für Dokumentation, Blog-Posts und Content-Migration.",
+    "category": "Textverarbeitung"
+  },
+  "html-to-md": {
+    "name": "HTML to MD Konverter",
+    "description": "HTML zu MD Converter Konvertieren Sie HTML-Inhalte in saubere, editierbare Markdown für Dokumentation, Notizen und Repository-Dateien. Kostenloser Online-HTML zu MD-Konverter, der in Ihrem Browser ausgeführt wird.",
+    "category": "Textverarbeitung"
+  },
+  "http-request-tester": {
+    "name": "HTTP Request Tester",
+    "description": "HTTP Request TesterKomponieren Sie eine HTTP-Anfrage, passen Sie deren Header und Body an und prüfen Sie die Serverantwort in einem Browser-Arbeitsbereich.",
+    "category": "Entwicklung & Code"
+  },
+  "ico-converter": {
+    "name": "ICO Konverter",
+    "description": "Konvertieren Sie PNG, JPG, WebP, SVG, GIF und BMP, um ICO-Icons in mehreren Größen zu erstellen oder jedes Bild in einem ICO als PNG zu extrahieren. Kostenlos, privat und läuft in Ihrem Browser.",
+    "category": "Design & Medien"
+  },
+  "ico-to-png": {
+    "name": "ICO to PNG Konverter",
+    "description": "ICO zu PNG ConverterKonvertieren Sie ICO zu PNG und extrahieren Sie jede Größe im Icon, von 16 px bis 256 px, wobei die Transparenz erhalten bleibt. Laden Sie einen PNG oder alle als ZIP herunter. Kein Upload erforderlich.",
+    "category": "Design & Medien"
+  },
+  "image-metadata-viewer": {
+    "name": "Bild Metadata Betrachter",
+    "description": "Image Metadata ViewerInspect eingebettete Bildmetadaten, einschließlich Kamera-, Beschreibungs- und GPS-Felder, für JPG, PNG und mehr. Kostenloser online-bild-metadaten-viewer ohne uploads.",
+    "category": "Design & Medien"
+  },
+  "image-resizer": {
+    "name": "Bild Skalierer",
+    "description": "Image ResizerProfessional Image Resizing und Zuschneiden Tool. Größe nach Dimensionen, Prozentsatz oder Social Media Presets. Exportieren in mehreren Formaten mit Dateigrößenkontrolle.",
+    "category": "Design & Medien"
+  },
+  "image-to-pdf": {
+    "name": "Bild to PDF Konverter",
+    "description": "Bild zu PDF KonverterBilder in PDF kostenlos konvertieren: Kombinieren Sie bis zu 20 JPG, PNG, WebP, GIF oder BMP Bilder. Wählen Sie Seitengröße und Margen. Keine Anmeldung, kein Wasserzeichen oder Bild-Uploads.",
+    "category": "PDF & Dokumente"
+  },
+  "instagram-grid-maker": {
+    "name": "Instagram Grid Ersteller",
+    "description": "Teilen Sie Ihre Fotos in ein perfektes Puzzle-Raster für Instagram. 100% frei, hochfunktional und bewahrt die hochauflösende Qualität.",
+    "category": "Design & Medien"
+  },
+  "instagram-image-splitter": {
+    "name": "Instagram Bild Teiler",
+    "description": "Teilen Sie ein Bild in 3x1, 3x2 oder 3x3 Rasterkacheln für ein Instagram-Profil-Layout und laden Sie die Stücke in der Buchungsreihenfolge herunter. Frei und privat, keine Uploads.",
+    "category": "Design & Medien"
+  },
+  "instagram-photo-splitter": {
+    "name": "Instagram Foto Teiler",
+    "description": "Instagram Photo SplitterTeilen Sie ein Foto in koordinierte Kacheln mit einer Crop-Vorschau für ein nahtloses Multi-Post-Instagram-Raster. Kostenloser online-foto-splitter, der in ihrem browser läuft.",
+    "category": "Design & Medien"
+  },
+  "invisible-character": {
+    "name": "Invisible Character",
+    "description": "Unsichtbare Zeichen kopieren Sie unsichtbare Zeichen und leeren Text (ᅠ U+3164, ⠀ U+2800, Nullbreitenraum) für leere Namen, Nachrichten und Bios. Plus einen Detektor für versteckte Charaktere.",
+    "category": "Textverarbeitung"
+  },
+  "ipv6-subnet-calculator": {
+    "name": "IPv6 Subnet Rechner",
+    "description": "IPv6-Subnetzrechner: komprimierte und erweiterte Adresse, Netzwerkpräfix, erste und letzte Adresse, Anzahl von /64s, Adresstyp und ip6.arpa-Zone. Frei.",
+    "category": "Entwicklung & Code"
+  },
+  "isbn-barcode-generator": {
+    "name": "ISBN Barcode Generator",
+    "description": "Erstellen Sie einen ISBN-Barcode für Ihr Buchcover von einem ISBN-13 oder ISBN-10. Konvertiert ISBN-10, prüft die Ziffern und exportiert Vektor SVG oder 600 DPI PNG. Frei.",
+    "category": "Design & Medien"
+  },
+  "javascript-regex-tester": {
+    "name": "JavaScript Regex Tester",
+    "description": "JavaScript Regex Tester Testen Sie JavaScript reguläre Ausdrücke gegen Beispieltext mit hervorgehobenen Übereinstimmungen, Gruppen erfassen und Flags. Kostenloser Online JS Regex Tester, läuft in Ihrem Browser.",
+    "category": "Textverarbeitung"
+  },
+  "jfif-to-jpg": {
+    "name": "JFIF to JPG Konverter",
+    "description": "JFIF zu JPG ConverterKonvertieren Sie JFIF zu JPG in Ihrem Browser und erhalten Sie Standard-.jpg-Dateien, die jede App akzeptiert. Batch konvertiert viele Bilder und lädt ein ZIP herunter. Frei und privat.",
+    "category": "Design & Medien"
+  },
+  "jpg-to-ico": {
+    "name": "JPG to ICO Konverter",
+    "description": "JPG zu ICO ConverterKonvertieren Sie JPG- oder JPEG-Fotos in ICO-Icons. Schneiden Sie zu einem Quadrat, um die Ecken oder fügen Sie Polsterung hinzu und packen Sie 16-256 px Größen in eine .ico Datei. Privat, kein Upload.",
+    "category": "Design & Medien"
+  },
+  "jpg-to-pdf-converter": {
+    "name": "JPG to PDF Konverter",
+    "description": "JPG zu PDF ConverterJPG, PNG, GIF, BMP und TIFF Bilder sofort in PDF konvertieren. 100% offline, sicher und schnell ohne Dateilimits.",
+    "category": "PDF & Dokumente"
+  },
+  "jpg-to-png-converter": {
+    "name": "JPG to PNG Konverter",
+    "description": "Konvertieren Sie JPG-Bilder in verlustfreies PNG in Ihrem Browser, für Tools, die nur PNG akzeptieren, und für die Bearbeitung ohne weiteren Qualitätsverlust.",
+    "category": "Design & Medien"
+  },
+  "jpg-to-webp-converter": {
+    "name": "JPG to WebP Konverter",
+    "description": "JPG zu WebP Converter Komprimieren Sie JPG-Fotos in WebP-Dateien, die bei gleicher visueller Qualität um 25-34% kleiner sind. 100% in Ihrem Browser, keine Uploads.",
+    "category": "Design & Medien"
+  },
+  "json-compare": {
+    "name": "JSON Compare",
+    "description": "Vergleichen Sie zwei JSON-Dokumente und sehen Sie Unterschiede in ihren Werten und ihrer Struktur, wobei die Schlüsselreihenfolge ignoriert wird. Kostenloses Online-JSON-Vergleichstool, das in Ihrem Browser ausgeführt wird.",
+    "category": "Datenformate"
+  },
+  "json-diff": {
+    "name": "JSON Diff",
+    "description": "Suchen Sie hinzugefügte, entfernte und geänderte Werte zwischen zwei JSON-Eingängen in einem Side-by-Side-Diff. Kostenloses Online JSON Diff Tool mit privater, browser-lokaler Verarbeitung.",
+    "category": "Datenformate"
+  },
+  "json-editor": {
+    "name": "JSON Editor",
+    "description": "Bearbeiten Sie JSON online mit Syntax-Hervorhebung, Live-Validierung, Codefaltung, Suchen und Ersetzen und einer Baumansicht. Öffnen und speichern Sie .json-Dateien auf Ihrem Gerät.",
+    "category": "Datenformate"
+  },
+  "json-formatter": {
+    "name": "JSON Formatter & Validator",
+    "description": "Formatieren und validieren Sie JSON online. Öffnen Sie eine .json-Datei oder fügen Sie Text ein, formatieren Sie mit 2 Leerzeichen, 4 Leerzeichen oder Registerkarten, finden Sie Fehler nach Zeile und verkleinern Sie. Keine Uploads.",
+    "category": "Datenformate"
+  },
+  "json-minifier": {
+    "name": "JSON Minifier",
+    "description": "Minimieren Sie JSON auf eine einzelne Zeile und sehen Sie, wie viele Bytes Sie gespeichert haben. Entfernt Whitespace und Linienumbrüche, hält aber die Saiten intakt. Öffnen Sie .json Dateien, keine Uploads.",
+    "category": "Datenformate"
+  },
+  "json-pretty-print": {
+    "name": "JSON Pretty Print",
+    "description": "Drucken Sie JSON online mit 2 Leerzeichen, 4 Leerzeichen oder Registerkarten oder kopieren Sie Einzeiler für Python, JavaScript, jq und die Befehlszeile. Freier, privater Verschöner.",
+    "category": "Datenformate"
+  },
+  "json-diff-compare": {
+    "name": "JSON Semantic Diff & Compare",
+    "description": "Vergleichen Sie zwei JSON-Objekte semantisch mit unserem Privacy-First-Tool auf Kundenseite. Identifizieren Sie strukturelle Unterschiede, ignorieren Sie die Schlüsselreihenfolge und formatieren Sie mühelos.",
+    "category": "Datenformate"
+  },
+  "json-to-csv-converter": {
+    "name": "JSON to CSV Konverter",
+    "description": "Konvertieren Sie JSON-Arrays in Tabellenkalkulationsbereites CSV mit korrektem Zitieren und benutzerdefinierten Trennzeichen. 100% in Ihrem Browser.",
+    "category": "Datenformate"
+  },
+  "json-to-toon": {
+    "name": "JSON to TOON",
+    "description": "Konvertieren Sie zwischen JSON und TOON Format, um 30-60% Token für LLM-Aufforderungen mit bidirektionaler Konvertierung zu speichern.",
+    "category": "Datenformate"
+  },
+  "json-to-toon-converter": {
+    "name": "JSON to TOON Konverter",
+    "description": "Konvertieren Sie JSON in TOON (Token-Oriented Object Notation) mit einer Live-Vorschau und einer konfigurierbaren Ausgabe, um LLM-Prompt-Token zu schneiden. Kostenlos und läuft in Ihrem Browser.",
+    "category": "Datenformate"
+  },
+  "json-to-ts": {
+    "name": "JSON to TS",
+    "description": "Verwandeln Sie JSON-Daten in TypeScript-Schnittstellendeklarationen, einschließlich verschachtelter Objekte und Arrays, die zur Überprüfung und zum Kopieren bereit sind. Kostenloses, sofortiges, privates JSON to TS Tool.",
+    "category": "Entwicklung & Code"
+  },
+  "json-to-typescript": {
+    "name": "JSON to TypeScript Konverter",
+    "description": "Konvertieren Sie JSON-Objekte sofort in TypeScript-Schnittstellen mit anpassbaren Optionen und sauberer Codegenerierung.",
+    "category": "Entwicklung & Code"
+  },
+  "json-to-typescript-interface": {
+    "name": "JSON to TypeScript Interface",
+    "description": "Generieren Sie TypeScript-Schnittstellen aus einem JSON-Sample mit Optionen für optionale Eigenschaften, Benennung und Exporte. Kostenloser Online-Konverter, der in Ihrem Browser läuft.",
+    "category": "Entwicklung & Code"
+  },
+  "json-validator": {
+    "name": "JSON Validator",
+    "description": "Validieren Sie die JSON-Syntax mit Zeilen- und Spaltenfehlerindikatoren, einer einfachen englischen Diagnose und einer automatischen Reparatur. Öffnen Sie .json Dateien, keine Uploads.",
+    "category": "Datenformate"
+  },
+  "json-viewer": {
+    "name": "JSON Betrachter",
+    "description": "Zeigen Sie JSON als zusammenklappbaren Baum, Tabelle oder formatierten Text mit einer Suche und einem Klick auf das Kopieren von JSONPath an.",
+    "category": "Datenformate"
+  },
+  "jwt-decoder": {
+    "name": "JWT Decoder",
+    "description": "JWT DecoderDecodieren Sie einen JWT-Header und eine Nutzlast, um die Ansprüche, den Ablauf und die Ausstellung zu bestimmten Zeiten zu überprüfen. Kostenloser Online-JWT-Decoder; Token bleiben in Ihrem Browser und werden nie gesendet.",
+    "category": "Sicherheit & Datenschutz"
+  },
+  "jwt-decoder-encoder": {
+    "name": "JWT Decoder / Encoder",
+    "description": "JWT Decoder / EncoderEntschlüsseln, verifizieren und generieren Sie JSON Web Tokens (JWT) lokal in Ihrem Browser. Unterstützt HS256, RS256 und mehr.",
+    "category": "Sicherheit & Datenschutz"
+  },
+  "jwt-encoder": {
+    "name": "JWT Encoder",
+    "description": "JWT EncoderEncode JWT-Header- und Nutzdaten und signieren Testtoken für Entwicklung und Debugging. Kostenloser online-jwt-encoder, der lokal läuft, schlüssel verlassen ihr gerät nie.",
+    "category": "Sicherheit & Datenschutz"
+  },
+  "keyboard-test": {
+    "name": "Keyboard Test",
+    "description": "Keyboard Testen Sie Ihre Tastatur online: Jeder Schlüssel leuchtet auf, wenn er sich registriert, mit Key-Rollover, Chatter-Erkennung und einem JavaScript-Schlüsselcode-Log. Kostenlos, privat, keine Installation.",
+    "category": "Gerätetests"
+  },
+  "latex-equation-editor": {
+    "name": "LaTeX Equation Editor",
+    "description": "LaTeX Equation EditorWrite LaTeX Mathe mit einer Live-Vorschau, klaren Fehlermeldungen und 200+ anklickbaren Symbolen. Rendern Sie zu PNG, SVG oder PDF oder kopieren Sie MathML. Frei, privat, keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "latex-to-image": {
+    "name": "LaTeX to Bild Konverter",
+    "description": "LaTeX zu Image ConverterKonvertieren Sie LaTeX-Gleichungen in PNG, SVG, JPG oder PDF in Ihrem Browser. Transparenter Hintergrund, jede Farbe, bis zu 8x Auflösung, Alttext enthalten. Frei, keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "latex-to-word-equation": {
+    "name": "LaTeX to Wort Equation",
+    "description": "LaTeX to Word EquationKonvertieren Sie LaTeX in eine editierbare Microsoft Word-Gleichung. Fügen Sie LaTeX ein oder geben Sie visuell ein, klicken Sie auf Copy for Word und fügen Sie es dann in Word ein. Kostenlos, privat, kein Add-in.",
+    "category": "Produktivität"
+  },
+  "letter-to-santa-template": {
+    "name": "Letter to Santa Template",
+    "description": "Brief an Santa TemplateFree Brief an Santa Vorlage: Geben Sie den Namen, das Alter und die Wünsche Ihres Kindes ein und drucken Sie einen dekorierten Lieben Weihnachtsbrief mit einem Platz zum Zeichnen. PDF, keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "list-randomizer": {
+    "name": "List Randomizer",
+    "description": "Listen Sie RandomizerShuffle-Namen, Zahlen oder eine beliebige Liste in zufälliger Reihenfolge auf. Öffnen Sie eine Datei, entfernen Sie Duplikate, wählen Sie Elemente aus oder erstellen Sie Gruppen. Kostenlos, privat und vollständig in Ihrem Browser.",
+    "category": "Produktivität"
+  },
+  "llm-token-counter": {
+    "name": "LLM Token Zähler",
+    "description": "LLM Token CounterCount Token und schätzen API Kosten für GPT-5, GPT-4o, Claude, Gemini, Llama und mehr: genaue tiktoken zählt, 100% in Ihrem Browser.",
+    "category": "Entwicklung & Code"
+  },
+  "local-ai-chat": {
+    "name": "Local AI Chat",
+    "description": "Führen Sie ein AI-Chat-Modell wie Qwen oder Llama lokal in Ihrem Browser mit WebGPU, mit On-Device-Response-Generierung nach einem einmaligen Modell-Download. Frei.",
+    "category": "Produktivität"
+  },
+  "lowercase-converter": {
+    "name": "Lowercase Konverter",
+    "description": "Konvertieren Sie jeden Text sofort in Kleinbuchstaben, um Caps Lock-Unfälle zu beheben und Daten mit einem Klick zu normalisieren.",
+    "category": "Textverarbeitung"
+  },
+  "m4a-to-mp3": {
+    "name": "M4A to MP3 Konverter",
+    "description": "M4A zu MP3 ConverterKonvertieren Sie M4A zu MP3 in Ihrem Browser, einschließlich iPhone Voice Memos und iTunes Audio. Wählen Sie 128-320 kbps, trimmen und Batch konvertieren. Kein Upload, keine Anmeldung, kostenlos.",
+    "category": "Audio & Video"
+  },
+  "macro-calculator": {
+    "name": "Macro Rechner",
+    "description": "Macro CalculatorBerechnen Sie Ihre täglichen Kalorien, Protein, Kohlenhydrate, Fett, Ballaststoffe und Wasser aus Ihrem Körpergewicht, sofort und privat.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "magic-eraser": {
+    "name": "Magic Eraser",
+    "description": "Magic EraserErase unerwünschte Objekte von einem Foto, indem Sie über sie bürsten, mit lokaler KI-Inpainting, um den Bereich zu füllen. Kostenlos online Magic Radiergummi, Ihr Bild wird nie hochgeladen.",
+    "category": "Design & Medien"
+  },
+  "maintenance-calorie-calculator": {
+    "name": "Maintenance Calorie Rechner",
+    "description": "Wartung KalorienrechnerHochfunktionaler, schön gestalteter Kalorienrechner, um Ihre täglichen Wartungskalorien, BMR und Makroziele für Gewichtsverlust oder Gewinn zu bestimmen.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "margin-calculator": {
+    "name": "Margin Rechner",
+    "description": "Margin CalculatorBerechnen Sie die Gewinnmarge aus Kosten und Preis oder den Verkaufspreis, den Sie für eine Zielmarge benötigen. Sehen Sie Gewinn und Markup Seite an Seite, mit Formeln. Frei.",
+    "category": "Rechner & Finanzen"
+  },
+  "markdown-file-viewer": {
+    "name": "Markdown File Betrachter",
+    "description": "Markdown File ViewerÖffnen Sie eine .md-Datei von Ihrem Gerät und lesen Sie den formatierten Inhalt in Ihrem Browser, wobei Tabellen und Code hervorgehoben werden. Kostenloser Markdown File Viewer, keine Uploads.",
+    "category": "Textverarbeitung"
+  },
+  "markdown-preview": {
+    "name": "Markdown Preview",
+    "description": "Markdown PreviewWrite und Preview Markdown mit Live-HTML-Rendering, Syntax-Hervorhebung und LaTeX-Mathematik-Unterstützung.",
+    "category": "Textverarbeitung"
+  },
+  "markdown-to-docx": {
+    "name": "Markdown to DOCX Konverter",
+    "description": "Konvertieren Sie Markdown-Dokumente in DOCX mit Live-Vorschau und Export mit einem Klick.",
+    "category": "Textverarbeitung"
+  },
+  "markdown-to-pdf": {
+    "name": "Markdown to PDF",
+    "description": "Markdown in PDFKonvertieren Sie Markdown-Dokumente in PDF mit Live-Vorschau und Export mit einem Klick.",
+    "category": "Textverarbeitung"
+  },
+  "markdown-to-pdf-converter": {
+    "name": "Markdown to PDF Konverter",
+    "description": "Konvertieren Sie Markdown in PDF Konvertieren Sie Markdown in PDF mit einer Live-Vorschau von Überschriften, Tabellen und Code und laden Sie dann ein sauberes Dokument herunter. Kostenloser Online-Konverter ohne Anmeldung oder Uploads.",
+    "category": "Textverarbeitung"
+  },
+  "markdown-to-word": {
+    "name": "Markdown to Wort",
+    "description": "Markdown in WordConvert Markdown in ein Word-kompatibles DOCX-Dokument mit beibehaltenen Überschriften, Listen, Tabellen und Code. Kostenloser Online-Markdown zu Word-Konverter, keine Uploads.",
+    "category": "Textverarbeitung"
+  },
+  "markdown-viewer": {
+    "name": "Markdown Betrachter",
+    "description": "Markdown ViewerView gerendert Markdown neben seiner Quelle mit Tabellen, Codeblöcken und Überschriften formatiert. Kostenloser Online-Markdown-Viewer, privat und lokal verarbeitet.",
+    "category": "Textverarbeitung"
+  },
+  "markdown-wysiwyg-editor": {
+    "name": "Markdown WYSIWYG Editor",
+    "description": "Markdown WYSIWYG EditorEdit Markdown visuell mit WYSIWYG Formatierungssteuerungen, anstatt jeden Syntaxmarker von Hand einzugeben, dann kopieren oder exportieren. Kostenlos und läuft in Ihrem Browser.",
+    "category": "Textverarbeitung"
+  },
+  "markup-calculator": {
+    "name": "Markup Rechner",
+    "description": "Berechnen Sie den Verkaufspreis aus Kosten und Markup oder den Markup-Prozentsatz aus Kosten und Preis. Vergleichen Sie sofort mit der Gewinnmarge, mit Excel-Formeln.",
+    "category": "Rechner & Finanzen"
+  },
+  "md-to-docx": {
+    "name": "MD to DOCX",
+    "description": "Verwandeln Sie eine MD-Datei in ein editierbares DOCX-Dokument mit einer Live-Konvertierungsvorschau und laden Sie sie dann herunter. Kostenloser MD zu DOCX-Konverter, der in Ihrem Browser ausgeführt wird.",
+    "category": "Textverarbeitung"
+  },
+  "md-to-pdf": {
+    "name": "MD to PDF",
+    "description": "MD zu PDFKonvertieren Sie ein MD-Dokument in ein herunterladbares PDF mit gestylten Überschriften, Tabellen und Codeblöcken. Kostenloser MD zu PDF Konverter, der lokal läuft, keine Uploads.",
+    "category": "Textverarbeitung"
+  },
+  "md5-generator": {
+    "name": "MD5 Hash Generator",
+    "description": "MD5 Hash GeneratorGenerieren Sie MD5 Prüfsummen aus Text oder Dateien sofort. 100% Client-Seite. Überprüfen Sie Downloads und deduplizieren Sie Dateien, ohne etwas hochzuladen.",
+    "category": "Sicherheit & Datenschutz"
+  },
+  "mean-absolute-deviation-calculator": {
+    "name": "Mean Absolute Deviation Rechner",
+    "description": "Finde die mittlere absolute Abweichung (MAD) eines Datensatzes: den durchschnittlichen Abstand vom Mittelwert, wobei jeder Schritt und die Tabelle der absoluten Abweichungen dargestellt werden. Frei.",
+    "category": "Rechner & Finanzen"
+  },
+  "meeting-planner": {
+    "name": "Meeting Planner",
+    "description": "Finden Sie eine gute Besprechungszeit über Zeitzonen hinweg mit Stadtuhren und einem 24-Stunden-Slider, der die Arbeitszeit anzeigt. Kostenloser Online-Meeting-Planer für Remote-Teams.",
+    "category": "Produktivität"
+  },
+  "merge-pdf": {
+    "name": "Merge PDF Files",
+    "description": "Merge PDF FilesMerge PDF-Dateien kostenlos in Ihrem Browser. Seiten neu ordnen, unerwünschte Seiten entfernen und eine PDF herunterladen. Keine Anmeldung, kein Wasserzeichen und keine Uploads von Dokumenten.",
+    "category": "PDF & Dokumente"
+  },
+  "mic-test": {
+    "name": "Mic Test",
+    "description": "Testen sie ihr mikrofon online: live-level-meter, wellenform, noise floor, clipping-check und 10-sekunden-wiedergabe. Kostenlos, keine anmeldung, audio verlässt niemals ihr gerät.",
+    "category": "Gerätetests"
+  },
+  "middle-school-gpa-calculator": {
+    "name": "Middle School GPA Rechner",
+    "description": "Mittelschule GPA CalculatorFree Mittelschule GPA Rechner. Geben Sie Berichtskartenprozentsätze oder Briefnoten ein, keine Credits erforderlich, und erhalten Sie einen GPA auf der 4.0-Skala für die 6., 7. und 8. Klasse.",
+    "category": "Rechner & Finanzen"
+  },
+  "military-time-converter": {
+    "name": "Military Time Konverter",
+    "description": "Konvertieren Sie die militärische Zeit sofort in die Standardzeit und zurück: 1730 = 17:30 Uhr. Vollständiges Militärzeitdiagramm, wie man es sagt, und die aktuelle Zeit im Militärformat.",
+    "category": "Rechner & Finanzen"
+  },
+  "mixed-number-calculator": {
+    "name": "Mixed Number Rechner",
+    "description": "Mixed Number CalculatorAdd, subtrahieren, multiplizieren und teilen gemischte Zahlen, Brüche und ganze Zahlen. Konvertieren Sie gemischte Zahlen in falsche Brüche und zurück, mit jedem Schritt.",
+    "category": "Rechner & Finanzen"
+  },
+  "mkv-to-mp4": {
+    "name": "MKV to MP4 Konverter",
+    "description": "MKV zu MP4 ConverterKonvertieren Sie MKV zu MP4 in Ihrem Browser. H.264 Videos werden in Sekunden ohne Qualitätsverlust remuxed; andere Codecs konvertieren zu H.264. Kein Upload, keine Größenbegrenzung, kostenlos.",
+    "category": "Audio & Video"
+  },
+  "mla-citation-generator": {
+    "name": "MLA Citation Generator",
+    "description": "MLA Citation GeneratorCreate MLA 9 Works Zitiert Einträge für Bücher, Zeitschriftenartikel und Websites. Bewahren Sie die Quelldetails in Ihrem Browser auf und exportieren Sie nach Word oder BibTeX. Frei zu verwenden.",
+    "category": "Textverarbeitung"
+  },
+  "morse-code-translator": {
+    "name": "Morse Code Translator",
+    "description": "Morse Code TranslatorÜbersetzen Sie Englisch in Morse-Code und Morse-Code in Text, während Sie eingeben. Spielen Sie es als Ton oder Licht, passen Sie die Geschwindigkeit von WPM und Farnsworth an und laden Sie ein WAV herunter. Frei.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "mouse-test": {
+    "name": "Mouse Test",
+    "description": "Maus Testen Sie Ihre Maus online: Links-, Rechts-, Mittel-, Rück- und Vorwärtstasten, Scrollrad, unerwünschte Doppelklicks und Zeigerrate. Kostenlos, privat, keine Installation.",
+    "category": "Gerätetests"
+  },
+  "mov-to-mp4": {
+    "name": "MOV to MP4 Konverter",
+    "description": "MOV zu MP4 ConverterKonvertieren MOV zu MP4 kostenlos in Ihrem Browser. iPhone Videos konvertieren in Sekunden ohne erneute Kodierung, wenn möglich. Kein Upload, kein 1 GB Cap, keine Credits oder Wasserzeichen.",
+    "category": "Audio & Video"
+  },
+  "mp3-to-wav": {
+    "name": "MP3 to WAV Konverter",
+    "description": "MP3 zu WAV ConverterKonvertieren Sie MP3 zu WAV in Ihrem Browser für Audio-Editoren, Sampler und CD-Brennen. 16-Bit PCM, Stereo oder Mono, Batch mit ZIP. Kostenlos, kein Upload, keine Größenbegrenzung.",
+    "category": "Audio & Video"
+  },
+  "mp4-to-mp3": {
+    "name": "MP4 to MP3 Konverter",
+    "description": "MP4 zu MP3 ConverterKonvertieren Sie MP4 zu MP3 in Ihrem Browser. Extrahieren Sie Audio aus Videos mit 128-320 kbps, trimmen, Batch konvertieren und herunterladen. Kostenlos, kein Upload, keine Anmeldung und keine Tageslimits.",
+    "category": "Audio & Video"
+  },
+  "msg-to-pdf": {
+    "name": "MSG to PDF Konverter",
+    "description": "MSG zu PDF ConverterConvert Outlook .msg Dateien zu PDF ohne Outlook: die Nachricht mit Absender, Empfänger, Datum und Anhänge oben aufgeführt. Funktioniert auf dem Mac. Kein Upload.",
+    "category": "Produktivität"
+  },
+  "msg-viewer": {
+    "name": "MSG Betrachter",
+    "description": "MSG ViewerOpen Outlook .msg Dateien in jedem Browser, auf Mac oder Windows: Lesen Sie die E-Mail, laden Sie Anhänge herunter, überprüfen Sie Header und speichern Sie sie als PDF. Nichts wird hochgeladen.",
+    "category": "Produktivität"
+  },
+  "mulch-calculator": {
+    "name": "Mulch Rechner",
+    "description": "Mulch CalculatorBerechnen Sie, wie viel Mulch Sie in Kubikmetern und Taschen für Gartenbeete jeder Form benötigen. Tiefenführung, 1,5, 2 oder 3 cu ft Taschen und Massenkosten. Frei und sofort.",
+    "category": "Rechner & Finanzen"
+  },
+  "new-year-countdown": {
+    "name": "New Year Countdown",
+    "description": "New Year CountdownLive New Countdown bis Mitternacht in Ihrer Zeitzone, mit einer Vollbild-Partyuhr und einer Weltliste, die anzeigt, wann jede Stadt 2027 erreicht. Kostenlos, keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "new-years-bingo": {
+    "name": "New Year&#x27;s Bingo Cards",
+    "description": "Neujahr's Bingo CardsFree Neujahr's Eve Bingo-Karten und Auflösung Bingo-Boards: Party-Worte oder Ihre eigenen Ziele, Mitternacht Gold-Thema, einzigartige Karten und ein Anrufer. Kostenloses PDF.",
+    "category": "Produktivität"
+  },
+  "notepad-plus-plus-online": {
+    "name": "Notepad++ Online",
+    "description": "Notepad ++ OnlineNotepad ++ Stil Tabbed-Editor, der im Browser läuft: Syntax Hervorhebung und automatisches Speichern auf macOS, Linux und ChromeOS, mit nichts zu installieren.",
+    "category": "Entwicklung & Code"
+  },
+  "number-base-converter": {
+    "name": "Number Base Konverter",
+    "description": "Zahlenbasis-KonverterKonvertieren Sie Zahlen zwischen Binär-, Oktal-, Dezimal-, Hexadezimal- und einer beliebigen Basis von 2 bis 36, mit Schritt-für-Schritt-Arbeit, Zweierkomplement und Big-Zahlen-Unterstützung.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "obj-viewer": {
+    "name": "OBJ Betrachter",
+    "description": "OBJ ViewerView Wavefront OBJ Dateien online mit ihren MTL Materialien und Texturen. Größe und Volumen messen, Mesh prüfen, zu STL oder GLB exportieren. Kostenlos, nichts hochgeladen.",
+    "category": "Design & Medien"
+  },
+  "offline-ai-chat": {
+    "name": "Offline AI Chat",
+    "description": "Offline-ki-chatchat mit ki lokal auf ihrem gerät mit open-source-sprachmodellen. Keine Internetverbindung erforderlich, um Privatsphäre und Sicherheit zu gewährleisten.",
+    "category": "Produktivität"
+  },
+  "og-image-generator": {
+    "name": "OG Bild Generator",
+    "description": "OG Image GeneratorErstellen Sie Social-Share-Bilder aus anpassbaren Vorlagen und laden Sie sie als PNG herunter.",
+    "category": "Design & Medien"
+  },
+  "og-image-maker": {
+    "name": "OG Bild Ersteller",
+    "description": "Machen Sie eine OG-Sharing-Karte mit einem benutzerdefinierten Titel, Untertitel, Farben und Template-Styling für Social-Link-Vorschau. Kostenloser OG Image Maker, der in Ihrem Browser läuft.",
+    "category": "Design & Medien"
+  },
+  "ogg-to-mp3": {
+    "name": "OGG to MP3 Konverter",
+    "description": "OGG zu MP3 ConverterConvert OGG (Vorbis oder Opus) und WhatsApp Sprachnotizen zu MP3 in Ihrem Browser. 128-320 kbps, Trimmen und Batch-ZIP. Kostenlos, privat, kein Upload oder Größenlimit.",
+    "category": "Audio & Video"
+  },
+  "one-rep-max-calculator": {
+    "name": "One Rep Max Rechner",
+    "description": "Schätzen Sie Ihre eine Wiederholung max (1RM) aus einem beliebigen Satz von 1-15 Wiederholungen mit den Formeln Epley, Brzycki und Lombardi, mit einem Trainingsprozent-Diagramm. lb oder kg. Frei.",
+    "category": "Rechner & Finanzen"
+  },
+  "bingo-caller": {
+    "name": "Online Bingo Caller",
+    "description": "Online bingo callerfree online bingo caller und 1 75 nummerngenerator anrufen sie als nächstes, autoanruf, lesen sie zahlen laut, vollbild-board für einen fernseher und sieger-check. Keine App oder Anmeldung.",
+    "category": "Produktivität"
+  },
+  "diff-checker": {
+    "name": "Online Diff Prüfer",
+    "description": "Online Diff CheckerVergleichen Sie zwei Textdokumente nebeneinander mit hervorgehobenen Unterschieden. Zeilenweise Vergleich mit Ergänzungen, Löschungen und Modifikationen.",
+    "category": "Textverarbeitung"
+  },
+  "equation-editor": {
+    "name": "Online Equation Editor",
+    "description": "Online-Gleichungseditor Kostenloser Online-Gleichungseditor und Gleichungsschreiber. Erstellen Sie Gleichungen visuell oder in LaTeX, kopieren Sie dann in Word oder Google Docs oder laden Sie PNG, SVG und PDF herunter. Keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "markdown-editor": {
+    "name": "Online Markdown Editor",
+    "description": "Online Markdown EditorHochfunktional, schnell und schön gestaltet Online Markdown Editor mit einer robusten WYSIWYG Side-by-Side-Vorschau und Offline-Synchronisierung.",
+    "category": "Textverarbeitung"
+  },
+  "online-markdown-editor": {
+    "name": "Online Markdown Editor with Export",
+    "description": "Online Markdown Editor mit ExportWrite Markdown in einem Rich-Text-Editor mit einer Symbolleiste, Live-Formatierung und Export nach .md oder HTML. Kostenloser Online-Markdown-Editor, der nichts auf einem Server speichert.",
+    "category": "Textverarbeitung"
+  },
+  "math-editor": {
+    "name": "Online Math Editor",
+    "description": "Kostenloser Online-Mathematik-Editor: Geben Sie Gleichungen visuell oder in LaTeX mit einer mathematischen Tastatur und Symbolen ein. Kopieren Sie in Word oder Google Docs oder exportieren Sie PNG und SVG. Keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "math-keyboard": {
+    "name": "Online Math Keyboard",
+    "description": "Online-Mathe-Tastatur: Geben Sie Brüche, Wurzeln, griechische Buchstaben und mehr als 200 mathematische Symbole ein und kopieren Sie dann als Text, LaTeX, ein Bild oder eine Word-Gleichung. Funktioniert am Telefon.",
+    "category": "Produktivität"
+  },
+  "online-notepad": {
+    "name": "Online Notepad",
+    "description": "Online NotepadFree Online-Notepad mit Multi-Tab-Bearbeitung, Autosave und Syntax-Hervorhebung. 100% clientseitige Speicherung.",
+    "category": "Entwicklung & Code"
+  },
+  "tone-generator": {
+    "name": "Online Tone Generator",
+    "description": "Online Tone Generator Kostenloser Online-Tongenerator: Spielen Sie eine beliebige Frequenz von 1 Hz bis 22 kHz als Sinus-, Quadrat-, Dreiecks- oder Sägezahnwelle mit Balance, Notennamen, Sweep und Rauschen ab.",
+    "category": "Gerätetests"
+  },
+  "open-graph-checker": {
+    "name": "Open Graph Prüfer",
+    "description": "Überprüfen Sie die Open Graph Tags einer Seite und sehen Sie sich den Titel, die Beschreibung und das Bild an, das verwendet wird, wenn der Link in sozialen Medien geteilt wird. Kostenloser online-og-checker.",
+    "category": "Design & Medien"
+  },
+  "open-graph-image-generator": {
+    "name": "Open Graph Bild Generator",
+    "description": "Erstellen Sie ein 1200x630-Freigabebild für Open Graph-Metadaten mit editierbaren Kartenvorlagen und laden Sie dann ein PNG herunter. Kostenloser online-og-bildgenerator, keine anmeldung.",
+    "category": "Design & Medien"
+  },
+  "open-graph-preview": {
+    "name": "Open Graph Preview",
+    "description": "Öffnen Sie Graph PreviewPreview und debuggen Sie Ihre Open Graph (OG) Meta-Tags und Twitter-Karten sofort. Auto-Fetch von URLs.",
+    "category": "Design & Medien"
+  },
+  "openapi-viewer": {
+    "name": "OpenAPI &amp; Swagger Betrachter",
+    "description": "Öffnen Sie eine OpenAPI 3.x- oder Swagger 2.0-Datei in JSON oder YAML und erkunden Sie Endpunkte, Parameter, Schemas und Antworten in einer interaktiven Benutzeroberfläche.",
+    "category": "Entwicklung & Code"
+  },
+  "openapi-editor": {
+    "name": "OpenAPI Editor",
+    "description": "OpenAPI EditorEditieren Sie eine YAML- oder JSON-Quelle für eine OpenAPI-Spezifikation und durchsuchen Sie die analysierten Operationen und Schemata nebeneinander. Kostenloser Online OpenAPI Editor, lokal verarbeitet.",
+    "category": "Entwicklung & Code"
+  },
+  "overtime-calculator": {
+    "name": "Overtime Rechner",
+    "description": "Überstundenkalkulieren Überstundenvergütung bei anderthalb oder einem beliebigen Multiplikator plus doppelte Zeit. Siehe regelmäßige, Überstunden und Gesamtlohn vor Steuern, mit der Arbeit gezeigt. Frei.",
+    "category": "Rechner & Finanzen"
+  },
+  "paint-calculator": {
+    "name": "Paint Rechner",
+    "description": "Arbeiten Sie heraus, wie viele Gallonen Farbe Sie für einen Raum benötigen: Wände, optionale Decke, Türen, Fenster und Mäntel an der Abdeckung Ihrer Farbe. Gallonen, Quarts, Liter.",
+    "category": "Rechner & Finanzen"
+  },
+  "parquet-to-csv": {
+    "name": "Parquet to CSV Konverter",
+    "description": "Parquet zu CSV ConverterKonvertieren Sie Parquet-Dateien in CSV, JSON oder Excel in Ihrem Browser. Vorschau des Schemas und der Daten zuerst. Snappy und Zstd unterstützt. Kostenlos, nichts wird hochgeladen.",
+    "category": "Entwicklung & Code"
+  },
+  "parquet-viewer": {
+    "name": "Parquet Betrachter",
+    "description": "Parquet ViewerView Parquet-Dateien in Ihrem Browser: Schema, Zeilengruppen, Kompression und Daten als sortierbare Tabelle. Snappy, Gzip, Zstd und Brotli. Exportieren Sie nach CSV oder JSON.",
+    "category": "Entwicklung & Code"
+  },
+  "password-generator": {
+    "name": "Passwort Generator",
+    "description": "Password GeneratorGenerieren Sie starke zufällige Passwörter mit kryptografisch sicherer Zufälligkeit: Länge, Zeichensätze und Stärkemesser, alles auf Ihrem Gerät.",
+    "category": "Sicherheit & Datenschutz"
+  },
+  "pdf-compressor": {
+    "name": "PDF Kompressor",
+    "description": "PDF CompressorKomprimieren Sie ein PDF online mit Qualitätsvoreinstellungen und einem Vorher-Nachher-Größenvergleich. Kostenloser PDF-Kompressor, der Ihre Datei lokal verarbeitet, nie hochgeladen.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf-merger": {
+    "name": "PDF Merger",
+    "description": "PDF MergerMerge mehrere PDFs in einem einzigen Dokument, ordnen Sie Dateien vor dem Beitritt neu an und laden Sie das Ergebnis herunter. Kostenlose online PDF Fusion ohne Uploads oder Wasserzeichen.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf-metadata-editor": {
+    "name": "PDF Metadata Editor",
+    "description": "PDF Metadaten EditorEdit PDF Metadaten online: Ändern Sie Titel, Autor, Betreff, Keywords und Daten oder fügen Sie benutzerdefinierte Felder hinzu. Läuft in Ihrem Browser; nichts wird hochgeladen.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf-metadata-remover": {
+    "name": "PDF Metadata Entferner",
+    "description": "PDF Metadata RemoverRemove PDF Metadaten in Ihrem Browser: Autor, Software, Daten, XMP-Historie, frühere Versionen und Foto-GPS. Sehen Sie, was 's zuerst versteckt. Frei, privat.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf-metadata-viewer": {
+    "name": "PDF Metadata Betrachter",
+    "description": "PDF Metadaten ViewerView PDF Metadaten online: Autor, Software, Daten, XMP-Bearbeitungsverlauf, Dokument-ID, frühere Versionen, Foto-GPS und Anhänge. Privat, in Ihrem Browser.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf-redaction-tool": {
+    "name": "PDF Redaction Tool",
+    "description": "PDF Redaction ToolEin kostenloses PDF Redaction Tool mit Suche, automatischer Erkennung von E-Mails, Karten- und Kontonummern, manuellen Boxen und einer eingebauten Leckprüfung. Läuft auf Ihrem Gerät.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf-splitter": {
+    "name": "PDF Teiler",
+    "description": "PDF SplitterSplitten Sie ein PDF in kleinere Dokumente nach Seitenbereichen, ausgewählten Seiten oder festen Intervallen. Kostenloser Online-PDF-Splitter, der Dateien lokal verarbeitet, nie hochgeladen.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf-to-docx": {
+    "name": "PDF to DOCX Konverter",
+    "description": "PDF zu DOCX ConverterKonvertieren Sie PDF in Word kostenlos in Ihrem Browser. Vorschau wählbaren Text und Download einer editierbaren DOCX. Keine Uploads oder Anmeldung. Gescannte PDFs benötigen zuerst OCR.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf-to-image-converter": {
+    "name": "PDF to Bild Konverter",
+    "description": "Konvertieren Sie PDF-Seiten in JPG-, PNG- oder WebP-Bilder mit bis zu 600 DPI mit visueller Seitenauswahl und ZIP-Download. 100% in Ihrem Browser.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf-to-jpg-converter": {
+    "name": "PDF to JPG Konverter",
+    "description": "PDF zu JPG Converter PDF-Seiten in hochauflösende JPG-Bilder konvertieren: Seiten visuell auswählen, bis zu 600 DPI auswählen, einzeln oder als ZIP herunterladen. 100% in Ihrem Browser.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf-to-markdown": {
+    "name": "PDF to Markdown Konverter",
+    "description": "PDF zu Markdown ConverterKonvertieren Sie PDF zu Markdown in Ihrem Browser. Wählen Sie Seiten aus, bearbeiten Sie mit Live-Vorschau und laden Sie .md herunter. Kostenlos, keine Anmeldung, und Ihre PDF bleibt auf Ihrem Gerät.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf-to-markdown-for-claude": {
+    "name": "PDF to Markdown for Claude",
+    "description": "PDF zu Markdown für ClaudePrepare PDF-Text für Claude lokal. Wählen Sie relevante Seiten aus, bearbeiten Sie Markdown und kopieren Sie einen fokussierten Auszug. Private Conversion mit klaren tokensparenden Einschränkungen.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf-to-md": {
+    "name": "PDF to MD Konverter",
+    "description": "PDF to MD ConverterVerwandeln Sie ein textbasiertes PDF in eine editierbare .md-Datei. Markdown anzeigen, Seiten auswählen und Notizen für Obsidian oder Dokumentation speichern. Läuft in Ihrem Browser.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf-to-png-converter": {
+    "name": "PDF to PNG Konverter",
+    "description": "PDF zu PNG ConverterRender PDF-Seiten als verlustfreie PNG-Bilder mit scharfem Text, optional transparentem Hintergrund und bis zu 600 DPI. 100% in Ihrem Browser.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf-to-word": {
+    "name": "PDF to Wort",
+    "description": "PDF in WordKonvertieren Sie textbasierte PDF-Inhalte in eine editierbare Word-kompatible DOCX-Datei, die lokal in Ihrem Browser verarbeitet wird. Kostenlose Online-PDF zu Word-Konverter, keine Uploads.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf-to-word-converter": {
+    "name": "PDF to Wort Konverter",
+    "description": "PDF to Word ConverterErstellen Sie einen editierbaren DOCX aus einem Text-PDF mit Browser-lokaler Konvertierung und sofortigem Download. Kostenlose PDF zu Word Konverter ohne Anmeldung, E-Mail oder Datei hochladen.",
+    "category": "PDF & Dokumente"
+  },
+  "pdf417-generator": {
+    "name": "PDF417 Barcode Generator",
+    "description": "PDF417 Barcode GeneratorGenerieren Sie PDF417 2D Barcodes für Ausweise, Bordkarten, Versand und Dokumente. Kodieren Sie bis zu 1.800 Zeichen; laden Sie PNG oder Vektor SVG herunter. Kostenlos, keine Anmeldung.",
+    "category": "Design & Medien"
+  },
+  "pem-decoder": {
+    "name": "PEM Decoder",
+    "description": "Dekodieren Sie jede PEM-Datei: Zertifikate, Ketten, CSRs, öffentliche Schlüssel und PKCS#7-Bundles. Konvertieren Sie PEM in DER, DER in PEM und CRT in PEM. Privat, läuft im Browser.",
+    "category": "Entwicklung & Code"
+  },
+  "percentage-calculator": {
+    "name": "Prozent Rechner",
+    "description": "Freier Prozentsatzrechner: Finden Sie X% von Y, wie viel Prozent X von Y ist, prozentuale Veränderung und das Ganze aus einem Teil. Antworten mit Schritten und Excel-Formeln.",
+    "category": "Rechner & Finanzen"
+  },
+  "percentage-change-calculator": {
+    "name": "Prozent Change Rechner",
+    "description": "Berechnung der prozentualen Änderung CalculatorBerechnen Sie die prozentuale Änderung zwischen einem alten und einem neuen Wert, wobei die Arbeit prozentual gegenüber Prozentpunkten und eine Excel-Formel angezeigt wird.",
+    "category": "Rechner & Finanzen"
+  },
+  "percentage-decrease-calculator": {
+    "name": "Prozent Decrease Rechner",
+    "description": "Prozentsatz Reduzieren CalculatorFinden Sie die prozentuale Abnahme zwischen zwei Zahlen, reduzieren Sie eine Zahl um ein Prozent oder finden Sie den Wert vor einer Abnahme. Frei, mit Schritten und Formeln.",
+    "category": "Rechner & Finanzen"
+  },
+  "percentage-difference-calculator": {
+    "name": "Prozent Difference Rechner",
+    "description": "Finden Sie die prozentuale Differenz Calculator den prozentualen Unterschied zwischen zwei Zahlen mit ihrem Durchschnitt als Referenz, mit der Arbeit, eine Excel-Formel, und wenn es zu verwenden.",
+    "category": "Rechner & Finanzen"
+  },
+  "percentage-increase-calculator": {
+    "name": "Prozent Increase Rechner",
+    "description": "Berechnung der prozentualen Zunahme zwischen zwei Zahlen, Erhöhung einer Zahl um ein Prozent, oder finden Sie den ursprünglichen Wert. Sofortige Antworten mit Schritten.",
+    "category": "Rechner & Finanzen"
+  },
+  "photo-metadata-remover": {
+    "name": "Foto Metadata Entferner",
+    "description": "Sicherlich schrubben Sie sensible EXIF-Daten, Kameraeinstellungen und GPS-Koordinaten aus Ihren Bildern sicher in Ihrem Browser, bevor Sie sie teilen.",
+    "category": "Design & Medien"
+  },
+  "photo-metadata-viewer": {
+    "name": "Foto Metadata Betrachter",
+    "description": "Entdecken Sie sicher versteckte EXIF-Daten, Kameraeinstellungen und GPS-Standort, die in Ihren Bildern ohne Server-Uploads gespeichert sind.",
+    "category": "Design & Medien"
+  },
+  "photo-resizer": {
+    "name": "Foto Skalierer",
+    "description": "Foto ResizerSize ein Foto auf neue Pixeldimensionen oder einen Prozentsatz mit einer Live-Vorschau, dann laden Sie das Ergebnis herunter. Kostenloser online-foto-resizer, keine uploads oder wasserzeichen.",
+    "category": "Design & Medien"
+  },
+  "pixelate-image": {
+    "name": "Pixelate Bild",
+    "description": "Pixelate ImagePixelate ein Bild online kostenlos. Mosaik-Gesichter, Text- oder Nummernschilder oder das gesamte Foto. Anpassbare Pixelgröße, volle Auflösung, 100% in Ihrem Browser.",
+    "category": "Design & Medien"
+  },
+  "ply-viewer": {
+    "name": "PLY Betrachter",
+    "description": "PLY ViewerOpen PLY vermascht und Punktwolken in Ihrem Browser, mit Scheitelfarben. Größe und Volumen messen, das Mesh prüfen und zu STL oder GLB exportieren. Frei und privat.",
+    "category": "Design & Medien"
+  },
+  "png-background-remover": {
+    "name": "PNG Background Entferner",
+    "description": "Entfernen Sie den Hintergrund von einem PNG-Bild und speichern Sie einen neuen PNG-Ausschnitt mit transparenter oder einfarbiger Umgebung.",
+    "category": "Design & Medien"
+  },
+  "png-to-ico": {
+    "name": "PNG to ICO Konverter",
+    "description": "PNG zu ICO ConverterKonvertieren Sie PNG zu ICO mit 16-256 px Größen in einer Datei. Behält Transparenz, fügt Polsterung oder abgerundete Ecken hinzu und zeigt jede Größe an. Kein Upload erforderlich.",
+    "category": "Design & Medien"
+  },
+  "png-to-jpg-converter": {
+    "name": "PNG to JPG Konverter",
+    "description": "Konvertieren Sie PNG-zu-JPG-Bilder in JPG in Ihrem Browser. Batch-Konvertierung mit einem Qualitäts-Slider, auf Weiß abgeflachte Transparenz und nichts hochgeladen.",
+    "category": "Design & Medien"
+  },
+  "png-to-pdf": {
+    "name": "PNG to PDF",
+    "description": "PNG zu PDFKombinieren Sie PNG-Bilder in einem einzigen PDF mit Steuerelementen für Seitengröße, Layout, Bildreihenfolge und Ränder. Kostenlos online PNG zu PDF Konverter, Dateien nie hochgeladen.",
+    "category": "PDF & Dokumente"
+  },
+  "png-to-webp-converter": {
+    "name": "PNG to WebP Konverter",
+    "description": "Konvertieren Sie PNG-zu-WebP-Bilder in großen Mengen in WebP, bis zu 26% kleiner bei erhaltener Transparenz. 100% in Ihrem Browser, keine Uploads.",
+    "category": "Design & Medien"
+  },
+  "pomodoro-timer": {
+    "name": "Pomodoro Timer",
+    "description": "Pomodoro Timer Kostenloser Online Pomodoro Timer, um die Produktivität und den Fokus zu steigern. 25-minütige Arbeitssitzungen, 5-minütige kurze Pausen und 15-minütige lange Pausen mit Tonbenachrichtigungen.",
+    "category": "Produktivität"
+  },
+  "population-standard-deviation-calculator": {
+    "name": "Population Standard Deviation Rechner",
+    "description": "Population Standard Deviation CalculatorBerechnen Sie die Population Standardabweichung σ und Populationsvarianz σ2 eines Datensatzes, dividiert durch N, mit schrittweisem Arbeiten. Kostenlos, keine Anmeldung.",
+    "category": "Rechner & Finanzen"
+  },
+  "printable-bingo-cards": {
+    "name": "Printable Bingo Cards",
+    "description": "Kostenlose druckbare Bingokarten 1-75: Laden Sie ein PDF mit einzigartigen, nummerierten 5x5 Karten, 1, 2 oder 4 pro Seite auf Letter oder A4 mit einem Anruferblatt herunter. Keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "printable-bracket": {
+    "name": "Printable Bracket Ersteller",
+    "description": "Druckbare Bracket MakerMachen Sie eine druckbare Turnierhalterung für 2 bis 128 Teams. Füllen Sie Namen aus oder drucken Sie sie leer, mit Byes und Spielnummern. Vector PDF für Letter, A4, Tabloid oder A3.",
+    "category": "Produktivität"
+  },
+  "printable-calendar": {
+    "name": "Printable Kalender Ersteller",
+    "description": "Erstellen Sie einen druckbaren Kalender für jedes Jahr: Monatsseiten mit Notizen oder ein einseitiges Jahr, Feiertage in den USA oder Großbritannien, Wochenzahlen und 5 Farben. Kostenlose PDF, keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "christmas-list-template": {
+    "name": "Printable Christmas List Template",
+    "description": "Druckbare Weihnachtsliste Vorlage Kostenlose druckbare Weihnachtslistenvorlage: Geben Sie Ihre Geschenke online ein oder lassen Sie leere Zeilen, um sie von Hand auszufüllen, dann drucken oder speichern Sie ein PDF. Brief oder A4, keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "private-ai-chatbot": {
+    "name": "Private AI Chatbot",
+    "description": "Private AI ChatbotChat mit einem browsergeführten AI-Modell, dessen Eingabeaufforderungen auf Ihrem Gerät verarbeitet und niemals an einen Server gesendet werden. Kostenloser privater AI-Chatbot, der nach der Einrichtung offline funktioniert.",
+    "category": "Produktivität"
+  },
+  "protein-calculator": {
+    "name": "Protein Rechner",
+    "description": "Berechnen Sie, wie viele Gramm Protein Sie pro Tag vom Körpergewicht und einem einstellbaren Gramm-pro-Kilogramm-Faktor für Ihr Ziel benötigen. Freier Proteinrechner.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "psd-to-jpg": {
+    "name": "PSD to JPG Konverter",
+    "description": "PSD zu JPG ConverterKonvertieren Sie PSD zu JPG online: Wählen Sie Qualität und Größe, sehen Sie das Ergebnis vor und laden Sie es herunter. Transparente Bereiche werden weiß. Frei und privat, kein Upload.",
+    "category": "Design & Medien"
+  },
+  "psd-to-png": {
+    "name": "PSD to PNG Konverter",
+    "description": "PSD zu PNG ConverterKonvertieren Sie PSD zu PNG in Ihrem Browser mit beibehaltener Transparenz. Exportieren Sie das Bild in voller oder reduzierter Größe oder jede Schicht als eigenes PNG in einem ZIP. Frei.",
+    "category": "Design & Medien"
+  },
+  "psd-viewer": {
+    "name": "PSD Betrachter",
+    "description": "PSD ViewerPSD- und PSB-Dateien in Ihrem Browser öffnen: Bild anzeigen, Schichten durchsuchen und ausblenden, Text und Schriftarten lesen und PNG, JPG oder jede Ebene exportieren. Kostenlos, kein Upload.",
+    "category": "Design & Medien"
+  },
+  "qr-code-generator": {
+    "name": "QR Code Generator",
+    "description": "QR Code GeneratorGenerieren Sie benutzerdefinierte QR-Codes für URLs mit anpassbaren Farben, Größen, Hintergründen und können Sie in mehreren Formaten (PNG, SVG, PDF, JPG) herunterladen.",
+    "category": "Design & Medien"
+  },
+  "quartile-calculator": {
+    "name": "Quartile and IQR Rechner",
+    "description": "Quartile und IQR CalculatorFind Q1, der Median, Q3 und der Interquartilsbereich eines Datensatzes mit der fünf Zahlenzusammenfassung, Ausreißern und einem Box-Plot. Lehrbuch und Excel-Methoden.",
+    "category": "Rechner & Finanzen"
+  },
+  "quote-image-generator": {
+    "name": "Quote Bild Generator",
+    "description": "Generieren Sie ein herunterladbares Zitatbild mit konfigurierbarer Typografie, Farben und Hintergrundeinstellungen für soziale Medien. Kostenloser Zitatbildgenerator, keine Anmeldung.",
+    "category": "Design & Medien"
+  },
+  "quote-image-maker": {
+    "name": "Quote Bild Ersteller",
+    "description": "Erstellen Sie schöne Zitatbilder mit benutzerdefinierten Hintergründen, Steigungen und Social Media Branding. Perfekt für Instagram, Twitter, Facebook und TikTok.",
+    "category": "Design & Medien"
+  },
+  "quote-maker": {
+    "name": "Quote Ersteller",
+    "description": "Erstellen Sie eine Angebotskarte mit benutzerdefiniertem Text, Attribution, Schriftarten und visuellem Styling für Instagram oder andere soziale Beiträge. Kostenloser Online-Quote Maker, Download als PNG.",
+    "category": "Design & Medien"
+  },
+  "raise-gpa-calculator": {
+    "name": "Raise GPA Rechner",
+    "description": "Kostenlos GPA-Rechner erhöhen: Geben Sie Ihren aktuellen GPA, Credits und Ziel ein, um den GPA zu sehen, den Sie im nächsten Semester benötigen, oder wie viele Credits von A es braucht, um dorthin zu gelangen.",
+    "category": "Rechner & Finanzen"
+  },
+  "random-group-generator": {
+    "name": "Random Group Generator",
+    "description": "Random Group GeneratorTeilen Sie eine Liste von Namen in ausgeglichene zufällige Gruppen oder Teams. Wählen Sie die Anzahl der Gruppen, überprüfen Sie Duplikate und exportieren Sie alle Zuordnungen. Privat und Client-Seite.",
+    "category": "Produktivität"
+  },
+  "random-item-picker": {
+    "name": "Random Item Auswahl-Tool",
+    "description": "Wählen Sie einen oder mehrere zufällige Namen aus Ihrer Liste ohne Ersatz innerhalb einer Ziehung. Überprüfen Sie Duplikate, kopieren Sie Ergebnisse und speichern Sie TXT oder CSV. Alle Verarbeitungen sind lokal.",
+    "category": "Produktivität"
+  },
+  "random-letter-generator": {
+    "name": "Random Letter Generator",
+    "description": "Generieren Sie einen zufälligen Buchstaben von A bis Z, nur Vokale, Konsonanten oder Ihr eigenes Alphabet. Schließen Sie harte Buchstaben aus, vermeiden Sie Wiederholungen und zeigen Sie sie groß für Klasse oder Spiele.",
+    "category": "Produktivität"
+  },
+  "random-name-picker": {
+    "name": "Random Name Auswahl-Tool",
+    "description": "Random name picker spinnen sie das rad, um nach dem zufallsprinzip namen für spiele, partys, brettspielabende oder gruppenaktivitäten auszuwählen. Faire, lustige und völlig zufällige Auswahl.",
+    "category": "Produktivität"
+  },
+  "random-number-generator": {
+    "name": "Random Number Generator",
+    "description": "ZufallszahlengeneratorGenerieren Sie Zufallszahlen in jedem Bereich: 1-10, 1-100, Lotto-Picks und Dezimalzahlen. Keine Wiederholungen, Ausschlüsse, Sortierung und Geschichte. Frei, sofort und wirklich unvoreingenommen.",
+    "category": "Produktivität"
+  },
+  "random-password-generator": {
+    "name": "Random Passwort Generator",
+    "description": "Random Password GeneratorGenerieren Sie zufällige Passwörter mit konfigurierbarer Länge, Symbolen, Zahlen und Buchstabenfällen. Kostenloser zufälliger Passwortgenerator, der lokal läuft und nichts speichert.",
+    "category": "Sicherheit & Datenschutz"
+  },
+  "random-team-generator": {
+    "name": "Random Team Generator",
+    "description": "Random Team GeneratorTeilen Sie Namen in zufällige Teams nach Anzahl der Teams oder Spieler pro Team. Ausgewogene Größen, Team-by-Team-Ergebnisse, CSV-Export. Frei, privat, keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "random-winner-picker": {
+    "name": "Random Winner Auswahl-Tool",
+    "description": "Wählen Sie einen zufälligen Gewinner aus einer Liste von Namen oder Einträgen für ein Werbegeschenk, eine Verlosung oder einen Wettbewerb mit einer fairen zufälligen Ziehung. Kostenlose Online-Gewinner-Picker, keine Anmeldung.",
+    "category": "Produktivität"
+  },
+  "rapidtables-notepad-alternative": {
+    "name": "RapidTables Notepad Alternative",
+    "description": "RapidTables Notepad AlternativeEin kostenloses Open-and-Typ-Online-Notepad ohne Anmeldung, plus benannte Tabs, kontinuierliches Autospeichern und Syntax-Hervorhebung.",
+    "category": "Produktivität"
+  },
+  "ratio-calculator": {
+    "name": "Ratio Rechner",
+    "description": "Ratio CalculatorFree Ratio Calculator: Vereinfachen Sie Verhältnisse wie 24:36 bis 2:3, lösen Sie A:B = C:?, teilen Sie eine Summe in ein beliebiges Verhältnis und ändern Sie die Größe, während Sie das Seitenverhältnis beibehalten. Mit Schritten.",
+    "category": "Rechner & Finanzen"
+  },
+  "redact-bank-statement": {
+    "name": "Redact Bank Statement",
+    "description": "Redact Bank StatementRedact ein Kontoauszug, bevor Sie es an einen Vermieter oder Kreditgeber senden. Verstecken Sie Konto-, Karten- und ID-Nummern, aber behalten Sie die letzten 4 Ziffern. Privat und frei.",
+    "category": "PDF & Dokumente"
+  },
+  "redact-pdf": {
+    "name": "Redact PDF",
+    "description": "Redact PDFRedact ein PDF in Ihrem Browser. Finden Sie Namen, Kontonummern und E-Mails, verdunkeln Sie sie und laden Sie eine PDF-Datei herunter, in der der Text wirklich verschwunden ist. Kostenlos, kein Upload.",
+    "category": "PDF & Dokumente"
+  },
+  "reddit-username-generator": {
+    "name": "Reddit Username Generator",
+    "description": "Erzeugen Sie einen Reddit-Benutzernamen aus lustigen, zufälligen oder personalisierten Wortkombinationen innerhalb des 20-Zeichen-Limits und speichern und kopieren Sie dann Ihre Favoriten.",
+    "category": "Textverarbeitung"
+  },
+  "reduce-pdf-size": {
+    "name": "Reduce PDF Size",
+    "description": "Reduzieren Sie PDF SizeReduce eine PDF's Dateigröße für einen Anhang oder eine Einreichung, mit lokaler Verarbeitung und einstellbarer Ausgabequalität.",
+    "category": "PDF & Dokumente"
+  },
+  "refresh-rate-test": {
+    "name": "Refresh Rate Test",
+    "description": "Überprüfen Sie Ihre Monitor-Aktualisierungsrate online: gemessen Hz, Frame-Zeit, Jitter und Drop-Frames, plus Bewegungstest und Bildschirmdetails. 60, 120, 144, 240 Hz.",
+    "category": "Gerätetests"
+  },
+  "regex-checker": {
+    "name": "Regex Prüfer",
+    "description": "Regex CheckerChecken Sie die Regex-Syntax und prüfen Sie Übereinstimmungen, Gruppen und Übereinstimmungspositionen mit Ihrem eigenen Beispieltext. Kostenloser online Regex Checker, der lokal in Ihrem Browser läuft.",
+    "category": "Textverarbeitung"
+  },
+  "regex-explainer": {
+    "name": "Regex Explainer",
+    "description": "Fragen Sie ein lokales KI-Modell, um einen regulären Ausdruck in einfacher Sprache zu erklären, Token für Token. Kostenloser online-regex-erklärer, der privat in ihrem browser läuft.",
+    "category": "Textverarbeitung"
+  },
+  "regex-generator": {
+    "name": "Regex Generator",
+    "description": "Regex GeneratorGenerieren Sie einen regulären Ausdruck aus einer einfachen englischen Beschreibung mit einem AI-Modell, das in Ihrem Browser ausgeführt wird. Freier Regex-Generator, kein API-Schlüssel erforderlich.",
+    "category": "Textverarbeitung"
+  },
+  "regex-ai": {
+    "name": "Regex Offline AI",
+    "description": "Regex Offline AIAI-powered Regex Generator. Generieren, testen und validieren Sie reguläre Ausdrücke mit KI-Unterstützung.",
+    "category": "Textverarbeitung"
+  },
+  "regex-tester": {
+    "name": "Regex Tester &amp; Builder",
+    "description": "Regex Tester & BuilderTesten und erstellen Sie reguläre Ausdrücke mit Echtzeit-Matching und detaillierten Erklärungen.",
+    "category": "Textverarbeitung"
+  },
+  "remove-comments-from-word": {
+    "name": "Remove Comments from Wort",
+    "description": "Entfernen Sie Kommentare aus WordEntfernen Sie alle Kommentare aus einer Word.docx-Datei auf einmal, oder behalten Sie sie und entfernen Sie Rezensentennamen. Funktioniert in Ihrem Browser ohne Word; nichts wird hochgeladen.",
+    "category": "Textverarbeitung"
+  },
+  "remove-duplicate-lines": {
+    "name": "Remove Duplicate Lines",
+    "description": "Duplicate LinesRemove Duplicate Lines from a text list with case-sensitive or case-insensitive comparison and optional sorting. Kostenloses online-tool, das in ihrem browser läuft.",
+    "category": "Textverarbeitung"
+  },
+  "remove-duplicate-lines-and-sort": {
+    "name": "Remove Duplicate Lines &amp; Sort",
+    "description": "Entfernen Sie Duplicate Lines & amp; SortFree, clientseitiges Tool, um doppelte Zeilen zu entfernen, alphabetisch zu sortieren, umzukehren, leere Zeilen zu entfernen und Whitespace sofort zu schneiden.",
+    "category": "Textverarbeitung"
+  },
+  "remove-metadata-from-word": {
+    "name": "Remove Metadata from Wort",
+    "description": "Entfernen Sie Metadaten aus WordRemove Metadaten aus Word .docx Dateien in Ihrem Browser: Autor, Firma, Kommentare, verfolgte Änderungen, versteckter Text, Vorlagenpfade und Foto-GPS. Frei und privat.",
+    "category": "Textverarbeitung"
+  },
+  "remove-object-from-photo": {
+    "name": "Remove Objects from Photos",
+    "description": "Objekte aus Fotos entfernen Objekt, Person, Text oder Wasserzeichen aus einem Bild entfernen. Wählen Sie einfach das Foto und malen Sie über das ausgewählte Element, um das Bild zu bereinigen.",
+    "category": "Design & Medien"
+  },
+  "remove-photo-location": {
+    "name": "Remove Foto Location",
+    "description": "Entfernen Sie FotostandortGPS-Standortdaten, die in ein Foto eingebettet sind, bevor Sie es online teilen, und laden Sie dann eine bereinigte Kopie herunter. Kostenlos und privat: Ihr Foto verlässt Ihr Gerät nie.",
+    "category": "Design & Medien"
+  },
+  "remove-text-from-image": {
+    "name": "Remove Text from Bild",
+    "description": "Entfernen Sie Text aus ImageBrush über unerwünschten Text, Beschriftungen oder Wasserzeichen in einem Bild und füllen Sie den Bereich mit dem Bildinhalt in der Nähe. Kostenlos, privat und in Ihrem Browser verarbeitet.",
+    "category": "Design & Medien"
+  },
+  "resize-png": {
+    "name": "Resize PNG",
+    "description": "Ändern Sie die Größe von PNGÄndern Sie die Breite und Höhe eines PNG-Bildes, während Sie die Transparenz wahren, und exportieren Sie dann die Datei in der Größe aus Ihrem Browser. Kostenloser online PNG Resizer, keine Uploads.",
+    "category": "Design & Medien"
+  },
+  "rest-api-tester": {
+    "name": "REST API Tester",
+    "description": "Testen Sie REST-Endpunkte aus Ihrem Browser mit benutzerdefinierten Methoden, Headern, Abfrageparametern und JSON-Bodys. Kostenloser Online-API-Client, keine Installation oder Anmeldung.",
+    "category": "Entwicklung & Code"
+  },
+  "rgb-to-hex": {
+    "name": "RGB to HEX",
+    "description": "RGB in HEXKonvertieren Sie rote, grüne und blaue Kanalwerte in einen hexadezimalen Farbcode mit einer Live-Vorschau. Kostenloser Online-RGB-zu-HEX-Konverter mit einem Klick.",
+    "category": "Design & Medien"
+  },
+  "rgb-to-hex-calculator": {
+    "name": "RGB to HEX Rechner",
+    "description": "RGB to HEX CalculatorBerechnen Sie einen HEX-Farbcode aus RGB-Kanalwerten (0-255) und prüfen Sie die resultierende Farbe visuell. Kostenloser RGB zu HEX Rechner mit sofortigen Ergebnissen.",
+    "category": "Design & Medien"
+  },
+  "rgb-hex-converter": {
+    "name": "RGB to HEX Konverter",
+    "description": "RGB zu HEX ConverterKonvertieren Sie RGB-Werte sofort in das HEX-Farbformat. Ein 100% clientseitiges Tool mit Live-Farbvorschau und HEX-Code-Generierung.",
+    "category": "Design & Medien"
+  },
+  "roll-two-dice": {
+    "name": "Roll Two Dice",
+    "description": "Rollen Sie zwei DiceRoll zwei Würfel online und sehen Sie beide Gesichter und ihre Summe. Kostenlose animierte 2d6-rolle mit geschichte, csv-export und einem zwei-würfel-wahrscheinlichkeitsführer. Völlig Client-Seite.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "roman-numeral-converter": {
+    "name": "Roman Numeral Konverter",
+    "description": "Konvertieren Sie Zahlen in römische Zahlen und römische Zahlen sofort von 1 bis 3.999.999 mit einer schrittweisen Aufschlüsselung und Gültigkeitsprüfung. Frei.",
+    "category": "Rechner & Finanzen"
+  },
+  "roman-numeral-date-converter": {
+    "name": "Roman Numeral Date Konverter",
+    "description": "Konvertieren Sie ein beliebiges Datum in römische Ziffern für Tattoos, Ringe und Hochzeitsgeschenke. Wählen Sie US-, UK- oder ISO-Bestellung und Punkt-, Kugel-, Dash- oder Slash-Separatoren. Frei, sofort.",
+    "category": "Rechner & Finanzen"
+  },
+  "roofing-calculator": {
+    "name": "Roofing Rechner",
+    "description": "Schätzen Sie Dachfläche, Dachplätze und Schindelbündel aus Ihrer Hausgröße, Dachsteigung, Überhang und Abfall, mit dem Pitch-Multiplikator und Unterlage.",
+    "category": "Rechner & Finanzen"
+  },
+  "round-robin-generator": {
+    "name": "Round Robin Generator",
+    "description": "Round Robin GeneratorFree Round Robin Generator: Machen Sie einen fairen Zeitplan, in dem jedes Team jedes andere Team spielt, mit Byes für ungerade Zahlen, Punktzahlen und einem Live-Standingstisch. Drucken oder teilen.",
+    "category": "Produktivität"
+  },
+  "salary-to-hourly-calculator": {
+    "name": "Gehalt to Stundenlohn Rechner",
+    "description": "Konvertieren Sie ein Jahresgehalt in einen Stundenlohn für beliebige Stunden pro Woche und bezahlte Wochen pro Jahr. Siehe auch monatliche, zweiwöchentliche und wöchentliche Bezahlung. Frei und privat.",
+    "category": "Rechner & Finanzen"
+  },
+  "sample-standard-deviation-calculator": {
+    "name": "Sample Standard Deviation Rechner",
+    "description": "Sample Standard Deviation CalculatorFinden Sie die Sample Standardabweichung s eines Datensatzes mit der n-1 Formel plus Sample Varianz, Mittelwert und Standardfehler, wobei jeder Schritt angezeigt wird. Frei.",
+    "category": "Rechner & Finanzen"
+  },
+  "secret-santa-generator": {
+    "name": "Secret Santa Generator",
+    "description": "Secret Santa Generator: Fügen Sie Namen hinzu, setzen Sie Ausschlüsse für Paare und senden Sie allen einen privaten Link zu ihrem Spiel. Keine E-Mail, kein Konto erforderlich.",
+    "category": "Produktivität"
+  },
+  "sha256-generator": {
+    "name": "SHA-256 Hash Generator",
+    "description": "SHA-256 Hash GeneratorBerechnen SHA-256 Hashes von Text und Dateien sofort. 100% Client-Seite. Überprüfen Sie die Freigabe-Prüfsummen und Fingerabdruckdaten, ohne etwas hochzuladen.",
+    "category": "Sicherheit & Datenschutz"
+  },
+  "simplify-fractions-calculator": {
+    "name": "Simplify Fractions Rechner",
+    "description": "Vereinfachen Sie Fractions CalculatorReduzieren Sie einen beliebigen Bruch oder eine gemischte Zahl auf niedrigste Terme. Sehen Sie den größten gemeinsamen Faktor, die Primfaktoren und jeden Schritt. Funktioniert mit sehr großen Zahlen.",
+    "category": "Rechner & Finanzen"
+  },
+  "single-elimination-bracket": {
+    "name": "Single Elimination Bracket Generator",
+    "description": "Single Elimination Bracket GeneratorMachen Sie eine einzelne Eliminationshalterung für 2 bis 128 Teams. Standard Seeding, automatische Byes, ein optionales Third Place Spiel, Click-to-Advance Gewinner und ein druckbares PDF.",
+    "category": "Produktivität"
+  },
+  "small-text-generator": {
+    "name": "Small Text Generator",
+    "description": "Konvertieren Sie Text in kleine, kleine Kappen, hochgestellte und subskriptive Unicode-Buchstaben, die Sie überall kopieren und einfügen können.",
+    "category": "Textverarbeitung"
+  },
+  "social-media-preview": {
+    "name": "Social Media Preview",
+    "description": "Social Media PreviewPreview, wie ein öffentlicher Link aussehen wird, wenn er auf Facebook, X, LinkedIn und Slack geteilt wird, basierend auf den erfassten Metadaten. Kostenloses Social Media Preview Tool.",
+    "category": "Design & Medien"
+  },
+  "sound-test": {
+    "name": "Sound Test",
+    "description": "Sound TestTest Lautsprecher und Kopfhörer online: linker/rechter Kanaltest, 20 Hz–20 kHz Sweep, Polaritätsprüfung, rosa Rauschen und ein Tongenerator. Kostenlos, nichts zu installieren.",
+    "category": "Gerätetests"
+  },
+  "split-pdf": {
+    "name": "Split PDF Files",
+    "description": "Split PDF-DateienSplit PDF-Dateien kostenlos in Ihrem Browser. Extrahieren Sie ausgewählte Seiten in ein PDF oder teilen Sie sie in einem ZIP in separate PDFs auf. Keine Anmeldung, kein Wasserzeichen, keine Uploads.",
+    "category": "PDF & Dokumente"
+  },
+  "sql-beautifier": {
+    "name": "SQL Formatierer",
+    "description": "SQL BeautifierBeautify messy SQL mit konsistentem Abstand, Zeilenumbrüchen und Einrückung zum einfacheren Lesen und Code-Überprüfung. Kostenloser SQL-Beautifier, der in Ihrem Browser läuft.",
+    "category": "Datenbank & SQL"
+  },
+  "sql-formatter": {
+    "name": "SQL Formatter",
+    "description": "SQL FormatterFormat SQL-Abfragen mit wählbarem Dialekt, Schlüsselwortfall und Einrückeinstellungen für MySQL, PostgreSQL und mehr. Kostenlose Online-SQL-Formatierer, läuft lokal.",
+    "category": "Datenbank & SQL"
+  },
+  "sql-formatter-beautifier": {
+    "name": "SQL Formatter &amp; Formatierer",
+    "description": "SQL Formatter & BeautifierFormat und beautify SQL-Abfragen mit Syntax-Hervorhebung, Unterstützung mehrerer Dialekte und anpassbaren Formatierungsoptionen.",
+    "category": "Datenbank & SQL"
+  },
+  "sqlite-browser": {
+    "name": "SQLite Browser",
+    "description": "SQLite BrowserEin kostenloser Online-SQLite-Browser: Öffnen Sie eine Datenbank, durchsuchen Sie Tabellen, prüfen Sie das Schema, führen Sie SQL aus und speichern Sie Änderungen als neue Datei. Läuft lokal, keine Installation.",
+    "category": "Entwicklung & Code"
+  },
+  "sqlite-online": {
+    "name": "SQLite Online",
+    "description": "SQLite OnlineWrite und führen Sie SQLite-Abfragen online aus: Starten Sie eine neue Datenbank oder öffnen Sie Ihre eigene, erstellen Sie Tabellen, fügen Sie Daten ein, führen Sie SELECTs aus und laden Sie die .sqlite-Datei herunter. Frei.",
+    "category": "Entwicklung & Code"
+  },
+  "sqlite-viewer": {
+    "name": "SQLite Betrachter",
+    "description": "SQLite ViewerOpen SQLite Datenbanken in Ihrem Browser: Durchsuchen Sie Tabellen und Ansichten, sehen Sie Schemas und Fremdschlüssel, führen Sie SQL aus und exportieren Sie CSV oder JSON. Nichts wird hochgeladen. Frei.",
+    "category": "Entwicklung & Code"
+  },
+  "square-footage-calculator": {
+    "name": "Square Footage Rechner",
+    "description": "Square Footage CalculatorBerechnen Sie Quadratmetermaterial für Räume, Etagen und Grundstücke. Kombinieren Sie Rechtecke, Kreise und Dreiecke, subtrahieren Sie Ausschnitte und konvertieren Sie in m2 oder acres.",
+    "category": "Rechner & Finanzen"
+  },
+  "ssl-certificate-decoder": {
+    "name": "SSL Certificate Decoder",
+    "description": "SSL-Zertifikat DecoderDecode SSL/TLS-Zertifikate sofort: Betreff, Aussteller, SANs, Ablauf, Schlüssel, Fingerabdrücke und Erweiterungen. Überprüft Kettensignaturen. Privat, nichts hochgeladen.",
+    "category": "Entwicklung & Code"
+  },
+  "standard-deviation-calculator": {
+    "name": "Standard Deviation Rechner",
+    "description": "Freier Standardabweichungsrechner: Einfügen von Zahlen, um Stichprobe und Population SD, Varianz, Mittelwert, Median, Quartile und z-Scores zu erhalten, wobei jeder Schritt angezeigt wird.",
+    "category": "Rechner & Finanzen"
+  },
+  "stick-drift-test": {
+    "name": "Stick Drift Test",
+    "description": "Testen Sie Ihren Controller auf Stickdrift: Sehen Sie Ruhewerte für beide Joysticks, vergleichen Sie sie mit einer Deadzone und erzielen Sie Zirkularität. PS5, Xbox und Switch Pro. Free.",
+    "category": "Gerätetests"
+  },
+  "stl-viewer": {
+    "name": "STL Betrachter",
+    "description": "STL ViewerÖffnet STL-Dateien in Ihrem Browser: rotieren, zoomen, Größe, Volumen und Druckgewicht messen, prüfen, ob das Mesh wasserdicht ist und Abschnitte schneiden. Kostenlos, kein Upload erforderlich.",
+    "category": "Design & Medien"
+  },
+  "strikethrough-text-generator": {
+    "name": "Strikethrough Text Generator",
+    "description": "Strikethrough Text GeneratorGenerieren Sie Strikethrough, Slash, Unterstreichen und Overline-Text zum Kopieren und Einfügen in Instagram, Facebook, X, Discord und mehr. Kostenlos, sofort, keine Anmeldung.",
+    "category": "Textverarbeitung"
+  },
+  "string-length-calculator": {
+    "name": "String Length Rechner",
+    "description": "String Length CalculatorMessen Sie eine Textzeichenfolge's Länge und vergleichen Sie die Zählwerte mit und ohne Leerzeichen in einem Live-Zähler. Freier Stringlängenrechner, der in Ihrem Browser ausgeführt wird.",
+    "category": "Textverarbeitung"
+  },
+  "strong-password-generator": {
+    "name": "Strong Passwort Generator",
+    "description": "Erstellen Sie lange, starke Passwörter mit Kontrolle über Symbole, Zahlen und Buchstabenfälle, indem Sie den sicheren Zufallsgenerator Ihres Browsers verwenden. Frei und nichts wird gespeichert.",
+    "category": "Sicherheit & Datenschutz"
+  },
+  "study-timer": {
+    "name": "Study Timer",
+    "description": "Study TimerPlan konzentrierte sich auf Studiensitzungen mit einem konfigurierbaren Pomodoro-Countdown, geplanten Pausen und Soundalarmen. Kostenloser Online-Studien-Timer, der in jedem Browser funktioniert.",
+    "category": "Produktivität"
+  },
+  "subnet-calculator": {
+    "name": "Subnet Rechner",
+    "description": "Subnet CalculatorFree IPv4-Subnetzrechner: Netzwerk, Broadcast, nutzbarer Hostbereich, Subnetz- und Platzhaltermasken, Binäransicht und Subnetzaufteilung für jede IP und CIDR oder Maske.",
+    "category": "Entwicklung & Code"
+  },
+  "subnet-cheat-sheet": {
+    "name": "Subnet Cheat Sheet",
+    "description": "Subnet Cheat SheetComplete IPv4-Subnetz-Spickzettel: jedes CIDR-Präfix von /0 bis /32 mit Subnetzmaske, Platzhaltermaske, Gesamtadressen und nutzbaren Hosts sowie einem Live-Rechner.",
+    "category": "Entwicklung & Code"
+  },
+  "svg-favicon-generator": {
+    "name": "SVG Favicon Generator",
+    "description": "SVG Favicon GeneratorErstellen Sie ein SVG-Favicon aus einer Icon-Bibliothek mit benutzerdefinierten Farben, Größen und Hintergrundformen und laden Sie es dann herunter. Kostenloser SVG Favicon Generator, keine Anmeldung erforderlich.",
+    "category": "Design & Medien"
+  },
+  "svg-to-base64": {
+    "name": "SVG to Base64 Konverter",
+    "description": "SVG to Base64 ConverterKonvertieren Sie ein SVG in eine Base64-Daten-URI oder eine kleinere URL-kodierte Daten-URI, mit Live-Vorschau, Dateigröße und einem <img>Tag zum Einfügen. Nichts wird hochgeladen.",
+    "category": "Design & Medien"
+  },
+  "svg-to-css": {
+    "name": "SVG to CSS Konverter",
+    "description": "Verwandeln Sie ein SVG in CSS: ein optimiertes URL-kodiertes Hintergrundbild oder eine Maske, die Sie mit Hintergrundfarbe neu färben können. Vorschau, Prüfgröße und Kopie. Frei.",
+    "category": "Design & Medien"
+  },
+  "svg-to-ico": {
+    "name": "SVG to ICO Konverter",
+    "description": "SVG to ICO ConverterKonvertieren Sie SVG-Logos in ICO. Jede Größe von 16 bis 256 px wird direkt aus dem Vektor für scharfe Kanten gemacht, wobei die Transparenz erhalten bleibt. Kostenlos, kein Upload erforderlich.",
+    "category": "Design & Medien"
+  },
+  "svg-to-jpg": {
+    "name": "SVG to JPG Konverter",
+    "description": "SVG zu JPG ConverterKonvertieren Sie SVG zu JPG bei jeder Auflösung mit einer Hintergrundfarbe Ihrer Wahl. Legen Sie Qualität fest, Batch konvertieren und laden Sie ein ZIP herunter. Kostenlos, privat und keine Dateilimits.",
+    "category": "Design & Medien"
+  },
+  "svg-to-png": {
+    "name": "SVG to PNG Konverter",
+    "description": "Konvertieren Sie SVG zu PNG ConverterKonvertieren Sie SVG zu PNG bei 1x, 2x, 4x oder 8x oder einer genauen Breite, wobei die Transparenz erhalten bleibt. Batch konvertieren und herunterladen eines ZIP. Kostenlos, kein Upload und keine Dateigrößenbegrenzung.",
+    "category": "Design & Medien"
+  },
+  "svg-viewer": {
+    "name": "SVG Betrachter",
+    "description": "SVG ViewerÖffnen oder fügen Sie ein SVG ein, um es mit Zoom und Hintergründen anzuzeigen, sehen Sie seine Größe, ViewBox, Farben und Schriftarten, suchen Sie nach Skripten und exportieren Sie PNG oder eine Daten-URI. Frei.",
+    "category": "Design & Medien"
+  },
+  "swagger-viewer": {
+    "name": "Swagger Betrachter",
+    "description": "Swagger ViewerBrowse OpenAPI und Swagger API Dokumente in einer lesbaren Referenz mit Endpunkten, Parametern und Schemata. Kostenloser online Swagger Viewer, der in Ihrem Browser läuft.",
+    "category": "Entwicklung & Code"
+  },
+  "tdee-calculator": {
+    "name": "TDEE Rechner",
+    "description": "Berechnen Sie Ihren TDEE (gesamter täglicher Energieverbrauch) nach Alter, Geschlecht, Größe, Gewicht und Aktivitätsniveau, um Wartungskalorien zu finden. Frei und privat.",
+    "category": "Lifestyle & Gesundheit"
+  },
+  "test-grade-calculator": {
+    "name": "Test Grade Rechner",
+    "description": "Geben Sie die Anzahl der Fragen ein und wie viele Sie falsch gestellt haben, um Ihre Testnote als Prozentsatz und Buchstabennote mit einem Bewertungsdiagramm zu erhalten. Frei, sofort.",
+    "category": "Rechner & Finanzen"
+  },
+  "text-case-converter": {
+    "name": "Text Case Konverter",
+    "description": "Konvertieren Sie Text zwischen verschiedenen Fallformaten mit Live-Vorschau und Export mit einem Klick.",
+    "category": "Textverarbeitung"
+  },
+  "text-compare": {
+    "name": "Text Compare",
+    "description": "Vergleichen Sie zwei Versionen von Text nebeneinander und sehen Sie hervorgehobene Ergänzungen, Löschungen und geänderte Zeilen. Kostenlose online-text-vergleich-tool, privat und instant.",
+    "category": "Textverarbeitung"
+  },
+  "text-diff": {
+    "name": "Text Diff",
+    "description": "Führen Sie ein zeilenweises Textdiff mit hervorgehobenen Einfügungen und Löschungen vollständig in Ihrem Browser aus. Kostenloses online-diff-tool ohne uploads oder anmeldung erforderlich.",
+    "category": "Textverarbeitung"
+  },
+  "text-repeater": {
+    "name": "Text Repeater",
+    "description": "Wiederholen Sie jeden Text oder Emoji hunderte oder tausende Male mit Leerzeichen, neuen Zeilen oder Kommas dazwischen und optionaler Nummerierung. Kopieren Sie mit einem Klick. Frei, sofort.",
+    "category": "Textverarbeitung"
+  },
+  "text-to-binary": {
+    "name": "Text to Binary Konverter",
+    "description": "Konvertieren Sie Text sofort in Binärcode: 8 Bits pro Byte, UTF-8 für Emoji und Akzente, mit Platz, Komma oder keinen Trennzeichen und einer Tabelle pro Zeichen. Frei.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "text-to-handwriting": {
+    "name": "Text to Handwriting Konverter",
+    "description": "Text zu Handschrift ConverterKonvertieren Sie Text zu realistischer Handschrift online. 12 handschriftliche Schriftarten, Regelpapier, Tintenfarben und natürliche Buchstabenvariation. Laden Sie PDF oder PNG herunter. Frei.",
+    "category": "Textverarbeitung"
+  },
+  "text-to-hex": {
+    "name": "Text to Hex Konverter",
+    "description": "Text zu Hex ConverterKonvertieren Sie Text zu Hex sofort. UTF-8-Bytes als hexadezimal mit Leerzeichen, kein Trennzeichen oder 0x-Präfix, Groß- oder Kleinbuchstaben, zuzüglich einer Tabelle pro Zeichen. Frei.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "thanksgiving-bingo": {
+    "name": "Thanksgiving Bingo Cards",
+    "description": "Thanksgiving Bingo CardsFree druckbare Thanksgiving Bingo Karten: einzigartige Karten mit 46 Thanksgiving Wörtern, Herbstfarben und einem Anrufer. Machen Sie 1 bis 1.000 Karten, PDF 1, 2 oder 4 pro Seite.",
+    "category": "Produktivität"
+  },
+  "thanksgiving-countdown": {
+    "name": "Thanksgiving Countdown",
+    "description": "Thanksgiving CountdownWie viele Tage bis Thanksgiving? Live-countdown bis zum vierten donnerstag im november, mit kanadischem thanksgiving, wochen- und wochentagen und zukünftigen daten.",
+    "category": "Produktivität"
+  },
+  "tiff-to-jpg": {
+    "name": "TIFF to JPG Konverter",
+    "description": "Konvertieren Sie TIFF zu JPG Konvertieren Sie TIFF zu JPG in Ihrem Browser, einschließlich jeder Seite von mehrseitigen TIFFs von Scannern und Fax. Legen Sie Qualität fest, ändern Sie die Größe und laden Sie ein ZIP herunter. Kostenlos, kein Upload.",
+    "category": "Design & Medien"
+  },
+  "tile-calculator": {
+    "name": "Tile Rechner",
+    "description": "Berechnen Sie, wie viele Boden- oder Wandfliesen Sie aus dem Bereich, der Fliesengröße und der Fugenbreite benötigen, mit Extra für Schnitte. Kisten und Kosten auch. Frei, Zoll oder cm.",
+    "category": "Rechner & Finanzen"
+  },
+  "time-calculator": {
+    "name": "Time Rechner",
+    "description": "Hinzufügen und Subtrahieren von Stunden und Minuten, summieren Sie eine Liste von Zeiten oder fügen Sie eine Dauer zu einer Uhrzeit hinzu. Ergebnisse in h:mm, Dezimalstunden und -minuten. Frei und sofort.",
+    "category": "Rechner & Finanzen"
+  },
+  "time-card-calculator": {
+    "name": "Time Card Rechner",
+    "description": "Kostenloser wöchentlicher Zeitkartenrechner: Clock-in- und Clock-out-Zeiten mit Pausen, Nachtschichten, Überstunden und Bezahlung, Rundung und CSV-Export.",
+    "category": "Rechner & Finanzen"
+  },
+  "time-zone-converter": {
+    "name": "Time Zone Konverter",
+    "description": "Vergleichen Sie aktuelle und nahe gelegene Zeiten über mehrere Zeitzonen mit Stadtuhren und einem Zeitschieber. Kostenloser Online-Zeitzonenkonverter mit Tageslichteinsparung.",
+    "category": "Produktivität"
+  },
+  "title-case-converter": {
+    "name": "Title Case Konverter",
+    "description": "Title Case ConverterCapitalize Der erste Buchstabe jedes Wortes, perfekt für Schlagzeilen, Titel und Überschriften. Ein Klick in Ihrem Browser.",
+    "category": "Textverarbeitung"
+  },
+  "token-counter": {
+    "name": "Token Zähler",
+    "description": "Token CounterCount Tokens im Text mit lokalen Tokenizern und vergleichen Schätzungen über beliebte KI-Modelle wie GPT, Claude und Llama. Frei und privat, kein API-Schlüssel erforderlich.",
+    "category": "Entwicklung & Code"
+  },
+  "toon-to-json": {
+    "name": "TOON to JSON",
+    "description": "Dekodieren Sie TOON (Token-Oriented Object Notation) zurück in JSON und überprüfen Sie die rekonstruierten Daten. Kostenloser Online TOON to JSON Konverter, lokal verarbeitet.",
+    "category": "Datenformate"
+  },
+  "transparent-background-maker": {
+    "name": "Transparent Background Ersteller",
+    "description": "Transparenter Hintergrund MakerEntfernen Sie den Hintergrund eines Fotos und exportieren Sie einen transparenten PNG für Produktbilder, Profilbilder und Designlayouts.",
+    "category": "Design & Medien"
+  },
+  "transparent-qr-code-generator": {
+    "name": "Transparent QR Code Generator",
+    "description": "Erstellen Sie einen URL-QR-Code mit einem transparenten Hintergrund für die Verwendung in einem Design, einer Folie oder einem Dokument und laden Sie dann ein PNG oder SVG herunter. Kostenlos und keine Anmeldung erforderlich.",
+    "category": "Design & Medien"
+  },
+  "tsv-to-json": {
+    "name": "TSV to JSON Konverter",
+    "description": "Konvertieren Sie tab-getrennte TSV-Werte in JSON, indem Sie Zeilen einfügen oder eine TSV-Datei hochladen. Kostenloser Online-TSV-zu-JSON-Konverter mit Headern, Vorschau und lokaler Verarbeitung.",
+    "category": "Datenformate"
+  },
+  "twitch-username-generator": {
+    "name": "Twitch Username Generator",
+    "description": "Erzeugen Sie einen denkwürdigen Twitch-Benutzernamen für Ihren Streaming-Kanal mit Buchstaben, Zahlen oder Unterstrichen und speichern Sie dann Ihre Shortlist. Frei und Client-Seite.",
+    "category": "Textverarbeitung"
+  },
+  "unix-timestamp-converter": {
+    "name": "Unix Timestamp Konverter",
+    "description": "Unix Timestamp ConverterKonvertieren Sie Unix Zeitstempel in vom Menschen lesbare Daten in UTC oder lokaler Zeit und verwandeln Sie Daten in numerische Zeitstempel. Kostenloser Online Unix Zeitstempel-Konverter.",
+    "category": "Datenformate"
+  },
+  "timestamp-converter-generator": {
+    "name": "Unix Timestamp Generator &amp; Konverter",
+    "description": "Unix Timestamp Generator & KonverterKonvertieren zwischen Unix-Zeitstempeln und menschenlesbaren Daten. Generieren Sie aktuelle Zeitstempel, konvertieren Sie in verschiedene Zeitzonen und verstehen Sie die Epochenzeit.",
+    "category": "Datenformate"
+  },
+  "upc-barcode-generator": {
+    "name": "UPC Barcode Generator",
+    "description": "UPC Barcode GeneratorUPC-A und UPC-E Barcodes für Einzelhandelsprodukte erstellen. Die Prüfziffer wird für Sie berechnet oder verifiziert; laden Sie druckfertiges PNG oder SVG in 100% Größe herunter. Frei.",
+    "category": "Design & Medien"
+  },
+  "uppercase-converter": {
+    "name": "Uppercase Konverter",
+    "description": "Umwandeln Sie jeden Text sofort in UPPERCASE: Einfügen, Klicken, Kopieren. Selection-aware, mit Live-Textstatistiken.",
+    "category": "Textverarbeitung"
+  },
+  "upside-down-text-generator": {
+    "name": "Upside Down Text Generator",
+    "description": "Drehen Sie den Text auf den Kopf und kopieren Sie ihn überall: Buchstaben, Zahlen und Satzzeichen um 180° gedreht, mit einer Option, um die Reihenfolge beizubehalten. Paste drehte Text um, um es wiederherzustellen.",
+    "category": "Textverarbeitung"
+  },
+  "url-decoder": {
+    "name": "URL Decoder",
+    "description": "URL DecoderDecode prozentcodierten URL-Text und Abfragezeichenfolgen zurück in lesbare Zeichen. Kostenloser Online-URL-Decoder mit sofortigen Ergebnissen und privater, lokaler Verarbeitung.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "url-encoder": {
+    "name": "URL Encoder",
+    "description": "URL EncoderPercent-encodieren URL-Text und Abfragezeichenfolgen mit wählbarem Kodierungsverhalten für Komponenten oder vollständige URLs. Kostenloser online-url-encoder, der in ihrem browser läuft.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "url-encoder-decoder": {
+    "name": "URL Encoder/Decoder",
+    "description": "URL Encoder/DecoderEncode und Decodierungs-URLs mit Unterstützung für Komponenten- und vollständige URL-Codierung. Perfekt für Webentwicklung und SEO Optimierung.",
+    "category": "Kodierung & Konvertierung"
+  },
+  "url-to-qr-code": {
+    "name": "URL to QR Code",
+    "description": "Verwandeln Sie eine Website-URL in einen herunterladbaren QR-Code mit einstellbaren Farben und Größen und speichern Sie ihn dann als PNG oder SVG. Kostenlose URL zum QR-Codegenerator, der niemals abläuft.",
+    "category": "Design & Medien"
+  },
+  "username-generator": {
+    "name": "Username Generator",
+    "description": "Benutzername GeneratorGenerieren Sie einen Benutzernamen mit Ihrem eigenen Wort oder erkunden Sie zufällige Ideen. Wählen Sie einen Stil, speichern Sie Favoriten und kopieren Sie Ihre Shortlist. Kostenlos und in Ihrem Browser verarbeitet.",
+    "category": "Textverarbeitung"
+  },
+  "uuid-generator": {
+    "name": "UUID Generator",
+    "description": "UUID GeneratorGenerieren Sie universell eindeutige Identifikatoren mit Unterstützung für verschiedene Versionen und Massenerzeugung.",
+    "category": "Datenformate"
+  },
+  "uuid-v4-generator": {
+    "name": "UUID v4 Generator",
+    "description": "UUID v4 GeneratorGenerieren Sie zufällige UUID v4-Identifikatoren sofort, Single oder Bulk bis 1000, im Standard-, Kompakt-, Zahnspangen- oder URN-Format.",
+    "category": "Datenformate"
+  },
+  "uuid-v7-generator": {
+    "name": "UUID v7 Generator",
+    "description": "UUID v7 GeneratorErzeugen Sie zeitgeordnete UUID v7-Identifikatoren: sortierbar, datenbankfreundlich, RFC 9562-konform. Single oder Bulk bis 1000.",
+    "category": "Datenformate"
+  },
+  "variance-calculator": {
+    "name": "Variance Rechner",
+    "description": "VarianzrechnerFreier Varianzrechner: Fügen Sie einen Datensatz ein, um die Stichprobenvarianz (s2) und die Populationsvarianz (σ2), die Summe der Quadrate und die Standardabweichung, mit Schritten zu erhalten.",
+    "category": "Rechner & Finanzen"
+  },
+  "video-to-gif": {
+    "name": "Video to GIF Konverter",
+    "description": "Video zu GIF ConverterTurn MP4, MOV oder WebM Clips in GIFs in Ihrem Browser. Trimmen, Frame Rate, Breite und Geschwindigkeit festlegen, Vorschau und Download. Kein Upload, kein Wasserzeichen, völlig kostenlos.",
+    "category": "Audio & Video"
+  },
+  "vlsm-calculator": {
+    "name": "VLSM Rechner",
+    "description": "VLSM CalculatorPlan-Subnetze unterschiedlicher Größe mit VLSM: Geben Sie ein Netzwerk ein und die Hosts, die jedes Subnetz benötigt, um Netzwerke, Masken, Hostbereiche und Broadcasts zu erhalten, die größte zuerst.",
+    "category": "Entwicklung & Code"
+  },
+  "water-intake-calculator": {
+    "name": "Water Intake Rechner",
+    "description": "Schätzen Sie, wie viel Wasser Sie pro Tag von Ihrem Gewicht, Ihrer Bewegung und Ihrem Klima in Unzen, Litern, Tassen und Flaschen trinken müssen. Frei und privat, mit der gezeigten Formel.",
+    "category": "Rechner & Finanzen"
+  },
+  "wav-to-mp3": {
+    "name": "WAV to MP3 Konverter",
+    "description": "Konvertieren Sie WAV in MP3 Konvertieren Sie WAV in MP3 in Ihrem Browser bei 128-320 kbps, Stereo oder Mono, mit Trimmen und Batch-ZIP-Download. Schrumpfen Sie Audio um 90%. Kostenlos, kein Upload, keine Grenzen.",
+    "category": "Audio & Video"
+  },
+  "webcam-test": {
+    "name": "Webcam Test",
+    "description": "Testen sie ihre webcam online: live-vorschau, echte auflösung, gemessene fps, unterstützte auflösungen, beleuchtungsprüfung, foto und clip. Frei, privat, nichts hochgeladen.",
+    "category": "Gerätetests"
+  },
+  "webm-converter": {
+    "name": "WebM Konverter",
+    "description": "Konvertieren Sie WebM-Dateien in MP4 mit lokaler Verarbeitung und einem herunterladbaren Ergebnis, sodass Ihr Video Ihr Gerät niemals verlässt. Kostenlose Online-WebM-Konverter, keine Anmeldung.",
+    "category": "Audio & Video"
+  },
+  "webm-to-mp4": {
+    "name": "WebM to MP4",
+    "description": "Konvertieren Sie ein WebM-Video in MP4 lokal in Ihrem Browser und laden Sie dann das Ergebnis herunter. Kostenlose Online-WebM zu MP4-Konverter ohne Uploads, Anmeldung oder Wasserzeichen.",
+    "category": "Audio & Video"
+  },
+  "webm-to-mp4-converter": {
+    "name": "WebM to MP4 Konverter",
+    "description": "WebM to MP4 ConverterConvert WebM to MP4 kostenlos. 100% clientseitige lokale Konvertierung mit WebAssembly für ultimative Privatsphäre.",
+    "category": "Audio & Video"
+  },
+  "webp-converter": {
+    "name": "WebP Konverter",
+    "description": "Konvertieren Sie JPG, PNG in WebP und umgekehrt. 100% browserbasierte Batch-Bildverarbeitung mit Qualitätskontrolle.",
+    "category": "Design & Medien"
+  },
+  "webp-to-gif": {
+    "name": "WebP to GIF Konverter",
+    "description": "Konvertieren Sie animiertes WebP in GIF in Ihrem Browser, behalten Sie das Frame-Timing und die Transparenz bei oder speichern Sie ein Standbild-WebP als GIF, PNG oder JPG. Kostenlos, kein Upload, kein Wasserzeichen.",
+    "category": "Design & Medien"
+  },
+  "webp-to-ico": {
+    "name": "WebP to ICO Konverter",
+    "description": "WebP to ICO ConverterKonvertieren Sie WebP-Bilder in ICO-Icons und Favicons. Transparenz gehalten, Größen von 16 bis 256 px in einer Datei, Padding und abgerundete Ecken. Läuft in Ihrem Browser.",
+    "category": "Design & Medien"
+  },
+  "webp-to-jpg-converter": {
+    "name": "WebP to JPG Konverter",
+    "description": "WebP to JPG ConverterKonvertieren Sie WebP-Bilder in universell unterstützte JPG-Dateien mit einstellbarer Qualität. 100% in Ihrem Browser, keine Uploads.",
+    "category": "Design & Medien"
+  },
+  "webp-to-png-converter": {
+    "name": "WebP to PNG Konverter",
+    "description": "Konvertieren Sie WebP-Bilder in universell kompatible PNG-Dateien mit null Qualitätsverlust. 100% in Ihrem Browser, keine Uploads.",
+    "category": "Design & Medien"
+  },
+  "weighted-gpa-calculator": {
+    "name": "Weighted GPA Rechner",
+    "description": "Gewichteter GPA-RechnerFreier gewichteter GPA-Rechner mit Ihrem ungewichteten GPA daneben. Markieren Sie Honors (+0,5), AP, IB und Dual Enrollment (+1,0) Klassen oder legen Sie die Gewichte Ihrer Schule selbst fest.",
+    "category": "Rechner & Finanzen"
+  },
+  "weighted-grade-calculator": {
+    "name": "Weighted Grade Rechner",
+    "description": "Berechnen Sie eine gewichtete Note aus Kategorien wie Hausaufgaben 20% und Prüfungen 50%. Verwenden Sie Prozent Gewichte oder Punkte; Gewichte müssen nicht zu 100 addieren. Frei, privat.",
+    "category": "Rechner & Finanzen"
+  },
+  "wheel-of-names": {
+    "name": "Wheel of Names Spinner",
+    "description": "Spinnerfree spinner wheel für klassenzimmer, giveaways und gruppenentscheidungen. Geben Sie Namen ein, drehen Sie sich, erhalten Sie einen Gewinner. Keine Anmeldung und jeder Name bleibt in Ihrem Browser.",
+    "category": "Produktivität"
+  },
+  "white-elephant-generator": {
+    "name": "White Elephant Generator",
+    "description": "White Elephant Generator Kostenloser White Elephant Generator: Zeichnen Sie eine zufällige Abbiegereihenfolge, verfolgen Sie dann jedes Geschenk, stehlen und eingefrorenes Geschenk mit Rückgängigmachen. Legen Sie Ihre eigenen Regeln fest. Keine Anmeldung oder App.",
+    "category": "Produktivität"
+  },
+  "white-elephant-rules": {
+    "name": "White Elephant Rules",
+    "description": "White Elephant Rules White Elephant Rules erklärten Schritt für Schritt: Wenden Sie Ordnung, Stehlen, das 3-Steal-Einfrieren und den endgültigen Swap, plus beliebte Variationen und einen kostenlosen Tracker.",
+    "category": "Produktivität"
+  },
+  "wifi-qr-code-generator": {
+    "name": "WiFi QR Code Generator",
+    "description": "Erstellen Sie einen QR-Code, der Gäste in einem Scan mit einer druckbaren Karte und PNG-, SVG- und PDF-Downloads mit Ihrem WLAN verbindet.",
+    "category": "Produktivität"
+  },
+  "word-counter": {
+    "name": "Wort Zähler",
+    "description": "Word CounterCount Wörter, Zeichen, Sätze und Absätze, wie Sie tippen, mit Lesezeit, Sprechzeit und Wortfrequenzanalyse.",
+    "category": "Textverarbeitung"
+  },
+  "word-to-html": {
+    "name": "Wort to HTML Konverter",
+    "description": "Word to HTML ConverterConvert Word .docx zu reinigen, semantische HTML: Überschriften, Listen, Tabellen, Links und Bilder, ohne Word Inline-Stile. Vorschau, kopieren oder herunterladen, privat.",
+    "category": "Produktivität"
+  },
+  "word-viewer": {
+    "name": "Wort Betrachter",
+    "description": "Word ViewerFree Online Word Viewer für .docx-Dateien: Lesen Sie jede Seite mit ihrer Formatierung, überprüfen Sie Autor und Wortzahl, kopieren Sie den Text oder speichern Sie als PDF. Nichts wird hochgeladen.",
+    "category": "Produktivität"
+  },
+  "world-time-converter": {
+    "name": "World Time Konverter",
+    "description": "World Time Converter Konvertieren und vergleichen Sie die Zeiten in mehreren Städten sicher in Ihrem Browser. Einfache Koordination von Meetings über Zeitzonen hinweg mit einem visuellen Slider.",
+    "category": "Produktivität"
+  },
+  "xlsx-to-csv": {
+    "name": "XLSX to CSV Konverter",
+    "description": "XLSX zu CSV ConverterKonvertieren Sie XLSX zu CSV in Ihrem Browser: Wählen Sie ein Blatt oder konvertieren Sie alle Blätter in einen ZIP, wählen Sie Komma, Semikolon oder Tab, halten Sie Daten lesbar. Kostenlos, nichts hochgeladen.",
+    "category": "Entwicklung & Code"
+  },
+  "xlsx-viewer": {
+    "name": "XLSX Betrachter",
+    "description": "XLSX ViewerOpen .xlsx Tabellenkalkulation ohne Excel: jedes Blatt, formatierte Daten und Prozentsätze, Sortier-, Such- und Spaltenstatistiken. Export nach CSV. Nichts hochgeladen.",
+    "category": "Entwicklung & Code"
+  },
+  "xml-formatter": {
+    "name": "XML Formatter &amp; Validator",
+    "description": "XML Formatter & ValidatorFormat, validieren, verkleinern und erkunden Sie XML mit einem Baum-Viewer und XPath-Tester, vollständig in Ihrem Browser.",
+    "category": "Datenformate"
+  },
+  "xml-validator": {
+    "name": "XML Validator",
+    "description": "XML ValidatorChecken Sie die XML-Gutformigkeit und prüfen Sie Parserfehler mit Zeilendetails in Ihrem Browser. Kostenloser Online-XML-Validator ohne Uploads oder Anmeldung erforderlich.",
+    "category": "Datenformate"
+  },
+  "xml-viewer": {
+    "name": "XML Betrachter",
+    "description": "XML ViewerView XML-Quelle als formatierter, zusammenklappbarer Baum und inspizieren seine analysierte Struktur. Kostenloser Online-XML-Viewer, der in Ihrem Browser ausgeführt wird, ohne Datei-Uploads.",
+    "category": "Datenformate"
+  },
+  "xsd-editor": {
+    "name": "XSD Editor",
+    "description": "XSD EditorEdit XSD Quelle und prüfen Sie die analysierten Elemente und Typen des Schemas in Ihrem Browser nebeneinander. Kostenloser Online XSD Editor mit privater, lokaler Verarbeitung.",
+    "category": "Datenformate"
+  },
+  "xsd-schema-viewer": {
+    "name": "XSD Schema Betrachter",
+    "description": "XSD Schema Viewer Öffnen und erkunden Sie XML Schema Definition (XSD) Dateien mit interaktiver Typnavigation und detaillierter Eigenschaftsanalyse.",
+    "category": "Datenformate"
+  },
+  "xsd-viewer": {
+    "name": "XSD Betrachter",
+    "description": "XSD ViewerBrowse XML Schema (XSD) Definitionen und inspizieren deren Elemente, Attribute und Typdeklarationen in einem navigierbaren Baum. Kostenloser Online XSD Viewer, keine Uploads.",
+    "category": "Datenformate"
+  },
+  "yaml-beautifier": {
+    "name": "YAML Formatierer",
+    "description": "YAML BeautifierBeautify YAML mit konsistenter Einrückung und Layout, und prüfen Sie das parsed Ergebnis vor dem Kopieren. Kostenloser Online-YAML-Beautifier, der in Ihrem Browser läuft.",
+    "category": "Datenformate"
+  },
+  "yaml-editor": {
+    "name": "YAML Editor",
+    "description": "YAML EditorEdit YAML mit Syntax-Hervorhebung und sofortiger Fehlerrückmeldung in einem lokalen Browser-Arbeitsbereich. Kostenloser Online-YAML-Editor für Konfigurationen, CI-Dateien und Manifeste.",
+    "category": "Datenformate"
+  },
+  "yaml-formatter": {
+    "name": "YAML Formatter &amp; Formatierer",
+    "description": "YAML Formatter & BeautifierFormatieren und verschönern Sie YAML, ohne Kommentare oder Anker zu verlieren, und fangen Sie die Fehler auf, die immer noch analysiert werden.",
+    "category": "Datenformate"
+  },
+  "yaml-minifier": {
+    "name": "YAML Minifier",
+    "description": "YAML MinifierMinifizieren Sie YAML, indem Sie es in eine kompakte Flow-Style-Ausgabe einstürzen und dann das Ergebnis vor dem Kopieren überprüfen. Kostenloser Online-YAML-Minifier mit privater, lokaler Verarbeitung.",
+    "category": "Datenformate"
+  },
+  "yaml-to-json": {
+    "name": "YAML to JSON",
+    "description": "Konvertieren Sie YAML-Daten in formatierte JSON mit Syntaxfehler-Feedback, vollständig in Ihrem Browser. Kostenloser Online-YAML-JSON-Konverter mit einem Klick.",
+    "category": "Datenformate"
+  },
+  "yaml-json-converter": {
+    "name": "YAML to JSON Konverter",
+    "description": "Konvertieren Sie YAML-Daten sofort in das JSON-Format mit einem 100% Offline-Tool auf Clientseite.",
+    "category": "Datenformate"
+  },
+  "yaml-validator": {
+    "name": "YAML Validator",
+    "description": "YAML ValidatorValidate YAML Syntax und sehen Parsing-Fehler mit Zeilennummern in einem Browser-basierten Editor. Kostenloser Online-YAML-Validator für Konfigurationsdateien, keine Uploads oder Anmeldung.",
+    "category": "Datenformate"
+  },
+  "yaml-editor-validator": {
+    "name": "YAML Validator &amp; Editor",
+    "description": "YAML Validator & EditorValidate YAML Syntax und Struktur mit Echtzeit-Fehlererkennung und Syntax-Hervorhebung.",
+    "category": "Datenformate"
+  },
+  "yankee-swap-rules": {
+    "name": "Yankee Swap Rules",
+    "description": "Yankee Swap RulesYankee Swap-Regeln erklärten: Zahlen ziehen, öffnen oder tauschen, das 3-Swap-Einfrieren und die letzte Runde von Spieler 1. Kostenloser Tracker für Turn Order und Swaps, mit Undo.",
+    "category": "Produktivität"
+  },
+  "yes-or-no-wheel": {
+    "name": "Yes or No Wheel",
+    "description": "Ja oder kein RadSpinne das Ja oder kein Rad für eine faire 50/50 Antwort oder füge Vielleicht hinzu. Benennen Sie die Antworten um, halten Sie eine Zählung und entscheiden Sie sich für das Beste von drei. Frei und sofort, ohne anmeldung.",
+    "category": "Produktivität"
+  },
+  "yml-to-json": {
+    "name": "YML to JSON",
+    "description": "Konvertieren Sie ein .yml-Dokument in JSON und prüfen Sie die resultierenden Daten in Ihrem Browser. Kostenlos online YML zu JSON Konverter, privat ohne Datei-Uploads.",
+    "category": "Datenformate"
+  },
+  "youtube-thumbnail-downloader": {
+    "name": "YouTube Thumbnail Downloader",
+    "description": "YouTube Thumbnail DownloaderDownload YouTube Thumbnails in HD (1280×720), SD und HQ. Fügen Sie einen Video- oder Shorts-Link ein, sehen Sie nur die vorhandenen Größen und speichern Sie als JPG, PNG oder WebP. Frei.",
+    "category": "Design & Medien"
+  },
+  "youtube-thumbnail-grabber": {
+    "name": "YouTube Thumbnail Grabber",
+    "description": "YouTube Thumbnail GrabberGrab YouTube Thumbnails von bis zu 50 Videos gleichzeitig. Fügen Sie Links oder IDs ein, sehen Sie jede verfügbare Größe und laden Sie sie alle als ZIP in JPG, PNG oder WebP herunter.",
+    "category": "Design & Medien"
+  },
+  "z-score-calculator": {
+    "name": "Z-Score Rechner",
+    "description": "Freier z-Score-Rechner: z aus einem Wert, Mittelwert und Standardabweichung mit Perzentil und normaler Wahrscheinlichkeit oder z-Scores für einen ganzen Datensatz finden.",
+    "category": "Rechner & Finanzen"
+  },
+  "zalgo-text-generator": {
+    "name": "Zalgo Text Generator",
+    "description": "Zalgo Text GeneratorMachen Sie gruseligen Zalgo-Text, der über und unter der Linie verschüttet wird. Passen Sie die Intensität an, mischen Sie sie, bereinigen Sie sie und kopieren Sie sie auf Discord, TikTok oder Instagram. Frei.",
+    "category": "Textverarbeitung"
+  }
+}
