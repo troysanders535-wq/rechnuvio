@@ -81,7 +81,7 @@ async function checkRoute(context, tool) {
   const page = await context.newPage();
   const result = { slug: tool.slug, engine: tool.engine, name: tool.name };
   try {
-    await page.goto(`${BASE}/tools/${tool.slug}`, {
+    await page.goto(`${BASE}/tools/${tool.slug}?locale=en`, {
       waitUntil: "domcontentloaded",
       timeout: 45000,
     });

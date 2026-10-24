@@ -8,13 +8,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ? (process.env.NEXT_PUBLIC_EN_DOMAIN.startsWith("http")
         ? process.env.NEXT_PUBLIC_EN_DOMAIN
         : `https://${process.env.NEXT_PUBLIC_EN_DOMAIN}`)
-    : "https://www.digitaltoolpad.com";
+    : "https://rechnuvio.de";
 
   const deBase = process.env.NEXT_PUBLIC_DE_DOMAIN
     ? (process.env.NEXT_PUBLIC_DE_DOMAIN.startsWith("http")
         ? process.env.NEXT_PUBLIC_DE_DOMAIN
         : `https://${process.env.NEXT_PUBLIC_DE_DOMAIN}`)
-    : "https://de.digitaltoolpad.com";
+    : "https://rechnuvio.de";
 
   const staticDate = new Date("2026-10-23T00:00:00.000Z");
 

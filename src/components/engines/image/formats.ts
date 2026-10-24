@@ -552,6 +552,10 @@ function readGif(bytes: Uint8Array): GifContent {
 
   const canvas = new Uint8ClampedArray(content.width * content.height * 4);
   let restore: Uint8ClampedArray | null = null;
+  // The disposal of the frame that was drawn last and the disposal of the
+  // frame that is drawn now: the first one decides what the canvas holds
+  // before the next frame is drawn on it.
+  let previousDisposal = 0;
   let disposal = 0;
   let transparent = -1;
   let delayMs = 0;
@@ -617,9 +621,9 @@ function readGif(bytes: Uint8Array): GifContent {
     at += 1;
 
     // The disposal of the frame before decides what the canvas holds now.
-    if (disposal === 2) {
+    if (previousDisposal === 2) {
       canvas.fill(0);
-    } else if (disposal === 3 && restore) {
+    } else if (previousDisposal === 3 && restore) {
       canvas.set(restore);
     }
     if (disposal === 3) restore = new Uint8ClampedArray(canvas);
@@ -649,6 +653,7 @@ function readGif(bytes: Uint8Array): GifContent {
       delayMs,
     });
     drawn += 1;
+    previousDisposal = disposal;
     delayMs = 0;
     transparent = -1;
     if (drawn > 512) break; // a very long animation is not read any further
@@ -768,7 +773,7 @@ export async function recordCanvas(
       current = index;
       const frame = frames[index];
       pictureCtx.putImageData(
-        new ImageData(frame.rgba as any, frame.width, frame.height),
+        new ImageData(frame.rgba, frame.width, frame.height),
         0,
         0,
       );

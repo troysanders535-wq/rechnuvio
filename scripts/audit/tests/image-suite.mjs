@@ -1283,8 +1283,38 @@ async function readPixels(page, bytes, mime) {
   }, `data:${mime};base64,${bytes.toString("base64")}`);
 }
 
-/** One pixel of a picture that readPixels returned. */
-function pixelAt(picture, x, y) {
+/**
+ * The colour of the first pixel of every frame of an animation.
+ *
+ * The ImageDecoder of the browser reads the frames of an animation one by
+ * one. A browser without it cannot read them, and the helper returns null.
+ */
+async function animationColours(page, bytes) {
+  return page.evaluate(async (url) => {
+    if (typeof ImageDecoder === "undefined") return null;
+    const response = await fetch(url);
+    const data = new Uint8Array(await response.arrayBuffer());
+    const decoder = new ImageDecoder({ data, type: "image/gif" });
+    await decoder.tracks.ready;
+    const track = decoder.tracks.selectedTrack;
+    const colours = [];
+    for (let index = 0; index < track.frameCount; index += 1) {
+      const { image } = await decoder.decode({ frameIndex: index });
+      const canvas = document.createElement("canvas");
+      canvas.width = image.displayWidth;
+      canvas.height = image.displayHeight;
+      const ctx = canvas.getContext("2d");
+      ctx.drawImage(image, 0, 0);
+      const pixel = ctx.getImageData(0, 0, 1, 1).data;
+      colours.push([pixel[0], pixel[1], pixel[2]]);
+      image.close();
+    }
+    decoder.close();
+    return colours;
+  }, `data:image/gif;base64,${bytes.toString("base64")}`);
+}
+
+/** One pixel of a picture that readPixels returned. */function pixelAt(picture, x, y) {
   const at = (y * picture.width + x) * 4;
   return [
     picture.data[at],
@@ -2606,21 +2636,53 @@ export function register() {
       const video = document.createElement("video");
       video.muted = true;
       video.src = url;
-      return await new Promise((resolve) => {
-        video.onloadedmetadata = () =>
-          resolve({
-            width: video.videoWidth,
-            height: video.videoHeight,
-            duration: video.duration,
-          });
-        video.onerror = () => resolve(null);
-        setTimeout(() => resolve(null), 20000);
+      const ready = await new Promise((resolve) => {
+        video.onloadeddata = () => resolve(true);
+        video.onerror = () => resolve(false);
+        setTimeout(() => resolve(false), 20000);
       });
+      if (!ready) return null;
+      const canvas = document.createElement("canvas");
+      canvas.width = video.videoWidth;
+      canvas.height = video.videoHeight;
+      const ctx = canvas.getContext("2d");
+      const sample = async (time) => {
+        await new Promise((resolve) => {
+          video.onseeked = resolve;
+          video.currentTime = time;
+          setTimeout(resolve, 5000);
+        });
+        ctx.drawImage(video, 0, 0);
+        const data = ctx.getImageData(0, 0, 1, 1).data;
+        return [data[0], data[1], data[2]];
+      };
+      return {
+        width: video.videoWidth,
+        height: video.videoHeight,
+        duration: video.duration,
+        // The animation shows a black picture first and a white one after.
+        first: await sample(0.05),
+        later: await sample(0.8),
+      };
     }, `data:video/mp4;base64,${bytes.toString("base64")}`);
     assert.ok(played, "the recorded MP4 must be readable as a video");
     assert.equal(played.width, 32, "the video keeps the width of the animation");
     assert.equal(played.height, 32, "the video keeps the height of the animation");
     assert.ok(played.duration > 0, "the video must have a length");
+    assert.ok(
+      played.duration < 5,
+      `the video must be as long as the animation, it is ${played.duration} seconds long`,
+    );
+    assert.deepEqual(
+      played.first,
+      [0, 0, 0],
+      `the video must start with the first picture of the animation, it shows ${played.first.join("/")}`,
+    );
+    assert.deepEqual(
+      played.later,
+      [255, 255, 255],
+      `the video must show the second picture of the animation, it shows ${played.later.join("/")}`,
+    );
 
     // The tool shows the sizes it measured, so no size claim is made up.
     const after = await workspace(page);
@@ -2633,6 +2695,20 @@ export function register() {
       after,
       /MP4\s+[\d.,]+\s*(B|KB|MB)/i,
       "the tool must show the measured size of the MP4",
+    );
+
+    // The GIF export keeps the frames and the timing of the source.
+    const gif = await downloadFrom(page, "Download GIF instead");
+    const animation = gifStructure(gif.bytes);
+    assert.equal(
+      animation.frames.length,
+      2,
+      `the GIF carries the two frames of the source, it has ${animation.frames.length}`,
+    );
+    assert.deepEqual(
+      animation.frames.map((frame) => frame.delay),
+      [40, 60],
+      "the GIF keeps the delays of the source",
     );
   });
 
@@ -2716,24 +2792,33 @@ export function register() {
       );
 
       // --- an animated WebP ---
-      const still = await page.evaluate(async () => {
-        const canvas = document.createElement("canvas");
-        canvas.width = 16;
-        canvas.height = 16;
-        const ctx = canvas.getContext("2d");
-        ctx.fillStyle = "#3366cc";
-        ctx.fillRect(0, 0, 16, 16);
-        const blob = await new Promise((resolve) =>
-          canvas.toBlob(resolve, "image/webp", 0.95),
-        );
-        return Array.from(new Uint8Array(await blob.arrayBuffer()));
-      });
+      const colours = [
+        [0x33, 0x66, 0xcc],
+        [0xcc, 0x33, 0x66],
+        [0x33, 0xcc, 0x66],
+      ];
+      const stills = [];
+      for (const colour of colours) {
+        const still = await page.evaluate(async (rgb) => {
+          const canvas = document.createElement("canvas");
+          canvas.width = 16;
+          canvas.height = 16;
+          const ctx = canvas.getContext("2d");
+          ctx.fillStyle = `rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`;
+          ctx.fillRect(0, 0, 16, 16);
+          const blob = await new Promise((resolve) =>
+            canvas.toBlob(resolve, "image/webp", 0.95),
+          );
+          return Array.from(new Uint8Array(await blob.arrayBuffer()));
+        }, colour);
+        stills.push(Buffer.from(still));
+      }
       await clickButton(page, "New picture");
       await uploadBytes(
         page,
         "animated.webp",
         "image/webp",
-        animatedWebpFixture(Buffer.from(still), [80, 140, 260], 16, 16),
+        animatedWebpFixture(stills, [80, 140, 260], 16, 16),
       );
       await waitForPreview(page);
 
@@ -2757,6 +2842,26 @@ export function register() {
         [8, 14, 26],
         "the GIF keeps the delays of the source",
       );
+
+      // The frames of the GIF hold the pictures of the source, when the
+      // browser can read the frames of an animation.
+      const gifColours = await animationColours(page, animated.bytes);
+      if (gifColours) {
+        assert.equal(
+          gifColours.length,
+          3,
+          `the GIF holds three frames, it holds ${gifColours.length}`,
+        );
+        gifColours.forEach((colour, index) => {
+          const wanted = colours[index];
+          assert.ok(
+            Math.abs(colour[0] - wanted[0]) <= 12 &&
+              Math.abs(colour[1] - wanted[1]) <= 12 &&
+              Math.abs(colour[2] - wanted[2]) <= 12,
+            `the frame ${index} must hold the picture of the source, it holds ${colour.join("/")}`,
+          );
+        });
+      }
 
       // The PNG and the JPG name the frame they hold.
       assertMatches(

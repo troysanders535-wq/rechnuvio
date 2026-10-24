@@ -17,8 +17,8 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
   const isGerman = locale.startsWith("de");
 
   const baseUrl = isGerman
-    ? process.env.NEXT_PUBLIC_DE_DOMAIN || "https://de.digitaltoolpad.com"
-    : process.env.NEXT_PUBLIC_EN_DOMAIN || "https://www.digitaltoolpad.com";
+    ? process.env.NEXT_PUBLIC_DE_DOMAIN || "https://rechnuvio.de"
+    : process.env.NEXT_PUBLIC_EN_DOMAIN || "https://rechnuvio.de";
 
   const homeLabel = isGerman ? "Startseite" : "Home";
 

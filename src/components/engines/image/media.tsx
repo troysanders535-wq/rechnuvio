@@ -453,16 +453,6 @@ async function frameFile(
   return canvasToBlob(canvas, format, 0.92);
 }
 
-/** The part of the ImageDecoder of the browser that this tool uses. */
-interface ImageDecoderApi {
-  tracks: {
-    ready: Promise<unknown>;
-    selectedTrack: { frameCount: number };
-  };
-  decode(options: { frameIndex: number }): Promise<{ image: ImageBitmap }>;
-  close(): void;
-}
-
 /**
  * The frames of an animation, when the browser can read them.
  *
@@ -475,33 +465,29 @@ async function decodeAnimation(
   bytes: Uint8Array,
   type: string,
 ): Promise<DecodedFrame[] | null> {
-  const api = (
-    window as unknown as {
-      ImageDecoder?: new (init: {
-        data: Uint8Array;
-        type: string;
-      }) => ImageDecoderApi;
-    }
-  ).ImageDecoder;
-  if (!api) return null;
+  if (typeof ImageDecoder === "undefined") return null;
   try {
-    const decoder = new api({ data: bytes, type });
+    const decoder = new ImageDecoder({ data: bytes, type });
     await decoder.tracks.ready;
     const track = decoder.tracks.selectedTrack;
+    if (!track) {
+      decoder.close();
+      return null;
+    }
     const frames: DecodedFrame[] = [];
     for (let index = 0; index < track.frameCount; index += 1) {
-      const result = await decoder.decode({ frameIndex: index });
-      const canvas = makeCanvas(result.image.width, result.image.height);
+      const { image } = await decoder.decode({ frameIndex: index });
+      const canvas = makeCanvas(image.displayWidth, image.displayHeight);
       const ctx = canvas.getContext("2d");
       if (!ctx) break;
-      ctx.drawImage(result.image, 0, 0);
+      ctx.drawImage(image, 0, 0);
       frames.push({
         width: canvas.width,
         height: canvas.height,
         rgba: ctx.getImageData(0, 0, canvas.width, canvas.height).data,
         delayMs: 0,
       });
-      result.image.close();
+      image.close();
     }
     decoder.close();
     return frames.length ? frames : null;
@@ -784,7 +770,7 @@ export function GifToMp4View() {
   };
 
   const handleDownload = async () => {
-    if (!src || !mp4Type) return;
+    if (!src || !mp4Type || !frames.length) return;
     setError(null);
     setSizes(null);
     setProgress(0);

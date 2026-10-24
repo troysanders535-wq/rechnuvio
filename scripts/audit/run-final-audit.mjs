@@ -87,6 +87,20 @@ function run(label, command, commandArgs, options = {}) {
 const node = process.execPath;
 const steps = [];
 
+/**
+ * The build command of the project.
+ *
+ * The audit has to build exactly what ships: the production `build` script of
+ * package.json is run, so the flags it carries (the project switched to
+ * `next build --webpack`) are the flags the audit runtime is built with.
+ */
+function npmCommand() {
+  if (process.platform === "win32") {
+    return { command: "cmd.exe", args: ["/c", "npm", "run", "build"] };
+  }
+  return { command: "npm", args: ["run", "build"] };
+}
+
 steps.push([
   "typecheck",
   () =>
@@ -95,10 +109,12 @@ steps.push([
 
 steps.push([
   "build",
-  () =>
-    run("build the audit runtime", node, [path.join(root, "node_modules", "next", "dist", "bin", "next"), "build"], {
+  () => {
+    const { command, args } = npmCommand();
+    return run("build the audit runtime", command, args, {
       env: { NEXT_DIST_DIR: DIST },
-    }),
+    });
+  },
 ]);
 
 let server = null;
@@ -221,10 +237,10 @@ steps.push([
   async () => {
     await stopServer();
     killPortListeners();
-    const code = await run("rebuild the audit runtime", node, [
-      path.join(root, "node_modules", "next", "dist", "bin", "next"),
-      "build",
-    ], { env: { NEXT_DIST_DIR: DIST } });
+    const { command: buildCommand, args: buildArgs } = npmCommand();
+    const code = await run("rebuild the audit runtime", buildCommand, buildArgs, {
+      env: { NEXT_DIST_DIR: DIST },
+    });
     if (code !== 0) return code;
     return startServer();
   },

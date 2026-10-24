@@ -37,11 +37,13 @@ const PORT = args.port || "3100";
 const LOCALE = args.locale || "en";
 const WORKERS = Number(args.workers || 4);
 const LIMIT = args.limit ? Number(args.limit) : null;
-// de.localhost does not resolve on every host, so the German locale is selected
-// with the middleware's ?locale= override instead of a subdomain.
+// de.localhost does not resolve on every host, so the locale is selected with
+// the middleware's ?locale= override instead of a subdomain. The locale is
+// pinned in BOTH directions: the site answers in German when a request
+// carries no locale of its own, so an English run that relied on the default
+// would silently collect the German interface.
 const BASE = "http://localhost:" + PORT;
-const toolUrl = (slug) =>
-  `${BASE}/tools/${slug}${LOCALE === "de" ? "?locale=de" : ""}`;
+const toolUrl = (slug) => `${BASE}/tools/${slug}?locale=${LOCALE === "de" ? "de" : "en"}`;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 

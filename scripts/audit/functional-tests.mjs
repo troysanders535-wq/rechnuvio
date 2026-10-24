@@ -32,6 +32,14 @@ const args = Object.fromEntries(
 );
 
 const BASE = process.env.FUNCTIONAL_BASE_URL || "http://localhost:3100";
+/**
+ * The locale the specs run in.
+ *
+ * The specs assert the English wording of the controls, so the locale has to
+ * be pinned on every request: the site answers in German when a request
+ * carries no locale of its own.
+ */
+const SPEC_LOCALE = process.env.FUNCTIONAL_LOCALE || "en";
 const only = args.only || null;
 /* A comma separated list of slugs: a batch run that writes its own file. */
 const slugList = args.slugs
@@ -682,7 +690,10 @@ async function run() {
     let status = "PASS";
     let error = "";
     try {
-      await page.goto(`${BASE}/tools/${s.slug}`, {
+      // The locale is pinned: the site answers in German when the request
+      // carries no locale of its own, and the specs assert the English
+      // wording of the controls.
+      await page.goto(`${BASE}/tools/${s.slug}?locale=${SPEC_LOCALE}`, {
         waitUntil: "domcontentloaded",
         timeout: 45000,
       });

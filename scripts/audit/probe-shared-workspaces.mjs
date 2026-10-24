@@ -45,7 +45,7 @@ const rows = [];
 for (const tool of TOOLS_CATALOG) {
   let html = "";
   try {
-    const res = await page.goto(`${BASE}/tools/${tool.slug}`, {
+    const res = await page.goto(`${BASE}/tools/${tool.slug}?locale=en`, {
       waitUntil: "domcontentloaded",
       timeout: 45000,
     });

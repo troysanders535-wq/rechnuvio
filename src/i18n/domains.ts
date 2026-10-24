@@ -79,11 +79,11 @@ export function getTargetUrlForLocale(
 export function getCanonicalUrl(pathname: string, locale: string): string {
   const isGerman = locale === "de-DE" || locale === "de";
   const enDomain = process.env.NEXT_PUBLIC_EN_DOMAIN || process.env.EN_DOMAIN;
-  const deDomain = process.env.NEXT_PUBLIC_DE_DOMAIN || process.env.DE_DOMAIN;
+  const deDomain = process.env.NEXT_PUBLIC_DE_DOMAIN || process.env.DE_DOMAIN || "https://rechnuvio.de";
 
   const domain = isGerman
-    ? (deDomain || "https://digitaltoolpad.com")
-    : (enDomain || "https://digitaltoolpad.com");
+    ? deDomain
+    : (enDomain || "https://rechnuvio.de");
 
   const base = domain.startsWith("http") ? domain : `https://${domain}`;
   const cleanPath = pathname === "/" ? "" : pathname;
@@ -91,8 +91,8 @@ export function getCanonicalUrl(pathname: string, locale: string): string {
 }
 
 export function getAlternateHreflang(pathname: string) {
-  const enDomain = process.env.NEXT_PUBLIC_EN_DOMAIN || "https://www.digitaltoolpad.com";
-  const deDomain = process.env.NEXT_PUBLIC_DE_DOMAIN || "https://de.digitaltoolpad.com";
+  const enDomain = process.env.NEXT_PUBLIC_EN_DOMAIN || "https://rechnuvio.de";
+  const deDomain = process.env.NEXT_PUBLIC_DE_DOMAIN || "https://rechnuvio.de";
 
   const enBase = enDomain.startsWith("http") ? enDomain : `https://${enDomain}`;
   const deBase = deDomain.startsWith("http") ? deDomain : `https://${deDomain}`;
@@ -101,8 +101,8 @@ export function getAlternateHreflang(pathname: string) {
   return {
     canonical: `${deBase}${cleanPath}`,
     languages: {
-      "en": `${enBase}${cleanPath}`,
       "de-DE": `${deBase}${cleanPath}`,
+      "de": `${deBase}${cleanPath}`,
       "x-default": `${deBase}${cleanPath}`,
     },
   };

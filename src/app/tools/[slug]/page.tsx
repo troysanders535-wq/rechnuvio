@@ -6,6 +6,7 @@ import { ToolShell } from "@/components/layout/ToolShell";
 import { EngineDispatcher } from "@/components/engines/EngineDispatcher";
 import { getTranslations, getLocale } from "next-intl/server";
 import { getLocalizedTool } from "@/utils/localizedTools";
+import { getCanonicalUrl, getAlternateHreflang } from "@/i18n/domains";
 
 interface ToolPageProps {
   params: Promise<{
@@ -36,15 +37,8 @@ export async function generateMetadata({
   const isGerman = locale.startsWith("de");
 
   const pathname = `/tools/${tool.slug}`;
-  const enUrl = `https://www.digitaltoolpad.com${pathname}`;
-  const deUrl = `https://de.digitaltoolpad.com${pathname}`;
-  const alternates = {
-    languages: {
-      en: enUrl,
-      "de-DE": deUrl,
-      "x-default": deUrl,
-    },
-  };
+  const canonicalUrl = getCanonicalUrl(pathname, locale);
+  const alternates = getAlternateHreflang(pathname);
 
   if (slug === "2026-calendar") {
     // The calendar ships its own headline copy in the message catalogue, so

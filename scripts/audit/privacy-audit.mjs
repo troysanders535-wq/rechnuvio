@@ -77,7 +77,7 @@ async function auditRoute(context, tool) {
   const result = {
     slug: tool.slug,
     engine: tool.engine,
-    url: `${BASE}/tools/${tool.slug}`,
+    url: `${BASE}/tools/${tool.slug}?locale=en`,
   };
 
   page.on("request", (req) => {
