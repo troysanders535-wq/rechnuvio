@@ -435,7 +435,7 @@
     "features": [
       "Braucht keine Eingabe - wählen Sie eine Einstellung und starten Sie das Werkzeug.",
       "Wählen Sie zwischen Herkunft (8 Werte) und Stil (8 Werte).",
-      "Bietet 10 Aktionen: Noch ein Name, Überraschen Sie mich, Rafael, Perseus und 6 weitere.",
+      "Bietet 10 Aktionen: Noch ein Name, Überraschen Sie mich, Rowan, Leander und 6 weitere.",
       "Läuft vollständig in Ihrem Browser - Baby Boy Name Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
     ],
@@ -458,7 +458,7 @@
     "features": [
       "Braucht keine Eingabe - wählen Sie eine Einstellung und starten Sie das Werkzeug.",
       "Wählen Sie zwischen Herkunft (8 Werte) und Stil (8 Werte).",
-      "Bietet 10 Aktionen: Noch ein Name, Überraschen Sie mich, Octavia, Concepcion und 6 weitere.",
+      "Bietet 10 Aktionen: Noch ein Name, Überraschen Sie mich, Thea, Dalia und 6 weitere.",
       "Läuft vollständig in Ihrem Browser - Baby Girl Name Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
     ],
@@ -481,7 +481,7 @@
     "features": [
       "Braucht keine Eingabe - wählen Sie eine Einstellung und starten Sie das Werkzeug.",
       "Wählen Sie zwischen Geschlecht (4 Werte) und Herkunft (8 Werte).",
-      "Bietet 10 Aktionen: Noch ein Name, Überraschen Sie mich, William, Esperanza und 6 weitere.",
+      "Bietet 10 Aktionen: Noch ein Name, Überraschen Sie mich, Oren, Saoirse und 6 weitere.",
       "Läuft vollständig in Ihrem Browser - Baby-Namen-Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
     ],
@@ -1318,7 +1318,7 @@
     "category": "Produktivität",
     "keywords": [],
     "features": [
-      "Nimmt 8 Zahlenwerte entgegen: Gesamtbudget, Geschenke, Essen und Trinken, Dekoration, Karten, Reisen, Spenden und Verpackungsmaterial.",
+      "Nimmt 10 Eingaben entgegen: Gesamtbudget, Geschenke, Essen und Trinken, Dekoration, Karten, Reisen, Spenden, Verpackungsmaterial, Personen (eine pro Zeile)Jeder Name der Liste bekommt denselben Betrag. und Betrag pro Person.",
       "Führt eine Aktion aus: Budget drucken.",
       "Ergebnis kopieren, herunterladen oder drucken mit Budget drucken.",
       "Verarbeitet PDF.",
@@ -2077,7 +2077,7 @@
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
     "features": [
-      "Nimmt 2 Zahlenwerte entgegen: Anzahl der Würfel und Modifikator.",
+      "Nimmt 3 Zahlenwerte entgegen: Eigene SeitenanzahlWürfeln Sie einen Würfel mit beliebig vielen Seiten zwischen 2 und 1000, Anzahl der Würfel und Modifikator.",
       "Bietet 8 Aktionen: Nochmal würfeln, d4, d6, d8 und 4 weitere.",
       "Läuft vollständig in Ihrem Browser - Dice Roller lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit.",
@@ -2124,7 +2124,7 @@
     "features": [
       "Nimmt 1 Texteingabe entgegen: Ihr eigenes Wort.",
       "Wählen Sie Stil: _, ., ohne Trennzeichen.",
-      "Bietet 10 Aktionen: Namen erzeugen, Silver_Creek, Golden_Mountain615, Ancient_Valley751 und 6 weitere.",
+      "Bietet 10 Aktionen: Namen erzeugen, Silent_Otter276, Fluffy_Creek, Witty_Harbor645 und 6 weitere.",
       "Läuft vollständig in Ihrem Browser - Discord Username Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
     ],
@@ -2750,12 +2750,12 @@
   },
   "gif-to-mp4": {
     "name": "GIF to MP4 Konverter",
-    "description": "Konvertieren Sie animierte GIFs in MP4-Video in Ihrem Browser: oft 90% kleiner, reibungslose Wiedergabe, funktioniert auf Instagram, X und WhatsApp. Kein Upload, kein Wasserzeichen, kostenlos.",
+    "description": "Animierte GIFs in ein echtes MP4-Video im Browser umwandeln: Das Werkzeug dekodiert das GIF, spielt die Bilder in Echtzeit ab und zeichnet sie mit MediaRecorder auf, sodass jeder Player das Ergebnis öffnen kann. Es zeigt die gemessene Größe beider Dateien, denn ein aufgezeichnetes Video ist oft größer als das GIF. Ohne Upload, ohne Wasserzeichen, kostenlos.",
     "category": "Audio & Video",
     "keywords": [],
     "features": [
       "Liest Dateien direkt von Ihrem Gerät: Wählen Sie eine Animation.",
-      "Verarbeitet MP4.",
+      "Verarbeitet MP4, GIF.",
       "Läuft vollständig in Ihrem Browser - GIF to MP4 Konverter lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit.",
       "Helles und dunkles Farbschema, responsiv vom Handy bis zum Desktop."
@@ -3157,7 +3157,7 @@
     "keywords": [],
     "features": [
       "Liest Dateien direkt von Ihrem Gerät: Wählen Sie ein HEIC-Foto.",
-      "Verarbeitet HEIC, JPG.",
+      "Verarbeitet HEIC, JPEG, JPG.",
       "Läuft vollständig in Ihrem Browser - HEIC to JPG Konverter lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit.",
       "Helles und dunkles Farbschema, responsiv vom Handy bis zum Desktop."
@@ -5734,7 +5734,7 @@
   },
   "pdf-metadata-remover": {
     "name": "PDF Metadata Entferner",
-    "description": "Remove PDF Metadaten in Ihrem Browser: Autor, Software, Daten, XMP-Historie, frühere Versionen und Foto-GPS. Sehen Sie, was 's zuerst versteckt. Frei, privat.",
+    "description": "PDF-Metadaten im Browser entfernen: Autor, Software, Datum, XMP-Verlauf, frühere Versionen und die GPS-Koordinaten im XMP-Paket. Sehen Sie zuerst, was versteckt ist, und laden Sie dann das bereinigte Dokument herunter. Kostenlos und privat.",
     "category": "PDF & Dokumente",
     "keywords": [],
     "features": [
@@ -5753,7 +5753,7 @@
   },
   "pdf-metadata-viewer": {
     "name": "PDF Metadata Betrachter",
-    "description": "View PDF Metadaten online: Autor, Software, Daten, XMP-Bearbeitungsverlauf, Dokument-ID, frühere Versionen, Foto-GPS und Anhänge. Privat, in Ihrem Browser.",
+    "description": "PDF-Metadaten online ansehen: Autor, Software, Datum, XMP-Änderungsverlauf, Dokument-ID, frühere Versionen, die GPS-Koordinaten im XMP-Paket und die Anhänge. Privat, in Ihrem Browser.",
     "category": "PDF & Dokumente",
     "keywords": [],
     "features": [
@@ -6707,16 +6707,20 @@
     "category": "Produktivität",
     "keywords": [],
     "features": [
-      "Nimmt 3 Zahlenwerte entgegen: Kleinste Zahl, Größte Zahl und Wie viele Zahlen.",
+      "Nimmt 4 Eingaben entgegen: Kleinste Zahl, Größte Zahl, Wie viele Zahlen und Diese Zahlen auslassen.",
+      "Wählen Sie Nachkommastellen: Ganze Zahlen, 1 Nachkommastelle, 2 Nachkommastellen, 3 Nachkommastellen.",
       "Führt eine Aktion aus: Zahl ziehen.",
       "Läuft vollständig in Ihrem Browser - Random Number Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
-      "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit.",
-      "Helles und dunkles Farbschema, responsiv vom Handy bis zum Desktop."
+      "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
     ],
     "faqs": [
       {
         "q": "Was braucht Random Number Generator als Eingabe?",
         "a": "Sie geben Ihre Daten in Namen / Einträge (einer pro Zeile) ein. Mehr ist nicht nötig."
+      },
+      {
+        "q": "Welche Einstellungen kann ich in Random Number Generator wählen?",
+        "a": "Sie können Nachkommastellen auswählen. Das Ergebnis wird direkt auf der Seite berechnet."
       }
     ]
   },
@@ -6745,11 +6749,11 @@
     "category": "Produktivität",
     "keywords": [],
     "features": [
-      "Nimmt 2 Eingaben entgegen: Namen (einer pro Zeile)Jeder Name landet in genau einer Gruppe. und Anzahl der Gruppen.",
+      "Nimmt 2 Eingaben entgegen: Namen (einer pro Zeile)Jeder Name landet in genau einem Team. und Anzahl der Teams.",
+      "Wählen Sie Teams aufteilen nach: Anzahl der Teams, Spieler pro Team.",
       "Führt eine Aktion aus: Teams erzeugen.",
       "Verarbeitet CSV.",
-      "Läuft vollständig in Ihrem Browser - Random Team Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
-      "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
+      "Läuft vollständig in Ihrem Browser - Random Team Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät."
     ],
     "faqs": [
       {
@@ -6860,7 +6864,7 @@
     "features": [
       "Nimmt 1 Texteingabe entgegen: Ihr eigenes Wort.",
       "Wählen Sie Stil: _, ohne Trennzeichen.",
-      "Bietet 10 Aktionen: Namen erzeugen, Sunny_Willow, Lucky_Heron599, Bright_Moon und 6 weitere.",
+      "Bietet 10 Aktionen: Namen erzeugen, Cedar_Willow, Stellar_Otter, Ancient_Garden und 6 weitere.",
       "Läuft vollständig in Ihrem Browser - Reddit Username Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
     ],
@@ -8439,7 +8443,7 @@
     "features": [
       "Nimmt 1 Texteingabe entgegen: Ihr eigenes Wort.",
       "Wählen Sie Stil: _, ohne Trennzeichen.",
-      "Bietet 10 Aktionen: Namen erzeugen, Fluffy_Robin, Daring_Tiger, Golden_Mountain und 6 weitere.",
+      "Bietet 10 Aktionen: Namen erzeugen, Winter_Forest, Winter_Badger, Silver_Wolf131 und 6 weitere.",
       "Läuft vollständig in Ihrem Browser - Twitch Username Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
     ],
@@ -8637,7 +8641,7 @@
     "features": [
       "Nimmt 1 Texteingabe entgegen: Ihr eigenes Wort.",
       "Wählen Sie Stil: _, ohne Trennzeichen.",
-      "Bietet 10 Aktionen: Namen erzeugen, Cosmic_Valley666, Eager_Lantern, Rapid_River und 6 weitere.",
+      "Bietet 10 Aktionen: Namen erzeugen, Witty_Creek402, Frosty_Mountain415, Nimble_Tiger und 6 weitere.",
       "Läuft vollständig in Ihrem Browser - Username Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
     ],

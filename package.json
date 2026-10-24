@@ -49,6 +49,9 @@
     "tesseract.js": "^7.0.0",
     "uuid": "^14.0.3"
   },
+  "overrides": {
+    "fflate": "^0.8.3"
+  },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
     "@tailwindcss/turbopack": "^4",

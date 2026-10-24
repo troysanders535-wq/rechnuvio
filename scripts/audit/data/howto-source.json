@@ -1065,14 +1065,14 @@
    "actions": [
     "Another name",
     "Surprise me",
-    "Navid",
-    "Roman",
-    "Fionn",
-    "Padraig",
-    "Tariq",
-    "Bernd",
-    "Adrian",
-    "Arthur"
+    "Dionysus",
+    "Henry",
+    "Constantine",
+    "Eitan",
+    "Quinn",
+    "Winston",
+    "Doron",
+    "Jason"
    ]
   },
   "de": {
@@ -1120,14 +1120,14 @@
    "actions": [
     "Noch ein Name",
     "Überraschen Sie mich",
-    "Rafael",
-    "Perseus",
-    "Aster",
-    "Julien",
-    "Mateo",
-    "Stanislav",
-    "Anton",
-    "Liam"
+    "Rowan",
+    "Leander",
+    "Corentin",
+    "Magnus",
+    "Yashar",
+    "Bohdan",
+    "Arden",
+    "Aurelius"
    ]
   }
  },
@@ -1177,14 +1177,14 @@
    "actions": [
     "Another name",
     "Surprise me",
-    "Marisol",
-    "Marlowe",
-    "Gabriela",
-    "Nasrin",
-    "Jimena",
-    "Remy",
-    "Matilda",
-    "Annika"
+    "Reese",
+    "Gaia",
+    "Doris",
+    "Yasmin",
+    "Juno",
+    "Sigrid",
+    "Alessia",
+    "Lennox"
    ]
   },
   "de": {
@@ -1232,14 +1232,14 @@
    "actions": [
     "Noch ein Name",
     "Überraschen Sie mich",
-    "Octavia",
-    "Concepcion",
-    "Quinn",
-    "Siobhan",
+    "Thea",
+    "Dalia",
+    "Ombline",
+    "Rosalind",
+    "Shira",
+    "Annika",
     "Nasrin",
-    "Jimena",
-    "Marlowe",
-    "Delphine"
+    "Roya"
    ]
   }
  },
@@ -1299,14 +1299,14 @@
    "actions": [
     "Another name",
     "Surprise me",
-    "Nasra",
-    "Beatriz",
-    "Fantine",
-    "Farhad",
-    "Alejandro",
-    "Mahsa",
-    "Sergio",
-    "Iman"
+    "Corentin",
+    "Aoife",
+    "Felix",
+    "Oda",
+    "Lorenzo",
+    "Rashid",
+    "Erik",
+    "Eimear"
    ]
   },
   "de": {
@@ -1364,14 +1364,14 @@
    "actions": [
     "Noch ein Name",
     "Überraschen Sie mich",
-    "William",
-    "Esperanza",
-    "Maja",
-    "Harper",
-    "Bohdan",
-    "Darius",
-    "Miriam",
-    "Nadya"
+    "Oren",
+    "Saoirse",
+    "Noemie",
+    "Remy",
+    "Doris",
+    "Ronan",
+    "Jack",
+    "Miranda"
    ]
   }
  },
@@ -3939,6 +3939,20 @@
      "type": "number",
      "placeholder": "",
      "required": false
+    },
+    {
+     "label": "People (one per line)Every name of the list gets the same amount.",
+     "fromPlaceholder": false,
+     "type": "textarea",
+     "placeholder": "",
+     "required": false
+    },
+    {
+     "label": "Amount per person",
+     "fromPlaceholder": false,
+     "type": "number",
+     "placeholder": "",
+     "required": false
     }
    ],
    "options": [],
@@ -3999,6 +4013,20 @@
     },
     {
      "label": "Verpackungsmaterial",
+     "fromPlaceholder": false,
+     "type": "number",
+     "placeholder": "",
+     "required": false
+    },
+    {
+     "label": "Personen (eine pro Zeile)Jeder Name der Liste bekommt denselben Betrag.",
+     "fromPlaceholder": false,
+     "type": "textarea",
+     "placeholder": "",
+     "required": false
+    },
+    {
+     "label": "Betrag pro Person",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -6671,6 +6699,13 @@
   "en": {
    "fields": [
     {
+     "label": "Custom sidesRoll a die with any number of sides between 2 and 1000 - the die is rolled as ",
+     "fromPlaceholder": false,
+     "type": "number",
+     "placeholder": "",
+     "required": false
+    },
+    {
      "label": "Number of dice",
      "fromPlaceholder": false,
      "type": "number",
@@ -6699,6 +6734,13 @@
   },
   "de": {
    "fields": [
+    {
+     "label": "Eigene SeitenanzahlWürfeln Sie einen Würfel mit beliebig vielen Seiten zwischen 2 und 1000",
+     "fromPlaceholder": false,
+     "type": "number",
+     "placeholder": "",
+     "required": false
+    },
     {
      "label": "Anzahl der Würfel",
      "fromPlaceholder": false,
@@ -6763,15 +6805,15 @@
    ],
    "actions": [
     "Generate names",
-    "Spry_Tiger334",
-    "Amber_Meteor894",
-    "Winter_Canyon",
-    "Ocean_Falconer",
-    "Bright_Mountain260",
-    "Ember_Meteor48",
-    "Lively_Cedar",
-    "Golden_Harbor",
-    "Spry_Otter"
+    "Curious_Wolf126",
+    "Autumn_River",
+    "Happy_Harbor963",
+    "Stellar_Meteor",
+    "Dawn_Peak",
+    "Nimble_Moon92",
+    "Amber_Robin",
+    "Brave_Lantern",
+    "Golden_Beacon"
    ]
   },
   "de": {
@@ -6797,15 +6839,15 @@
    ],
    "actions": [
     "Namen erzeugen",
-    "Silver_Creek",
-    "Golden_Mountain615",
-    "Ancient_Valley751",
-    "Fluffy_Willow",
-    "Rapid_Creek",
-    "Brave_Beacon884",
-    "Polar_Owl418",
-    "Humble_Panther148",
-    "Midnight_Peak691"
+    "Silent_Otter276",
+    "Fluffy_Creek",
+    "Witty_Harbor645",
+    "Amber_Harbor",
+    "Spry_Creek",
+    "Daring_Heron",
+    "Silent_Wolf818",
+    "Brave_Robin237",
+    "Noble_Moon"
    ]
   }
  },
@@ -18946,9 +18988,27 @@
      "type": "number",
      "placeholder": "",
      "required": false
+    },
+    {
+     "label": "Leave out these numbers",
+     "fromPlaceholder": false,
+     "type": "text",
+     "placeholder": "7, 13, 42",
+     "required": false
     }
    ],
-   "options": [],
+   "options": [
+    {
+     "label": "Decimal places",
+     "values": [
+      "Whole numbers",
+      "1 decimal place",
+      "2 decimal places",
+      "3 decimal places"
+     ],
+     "fromPlaceholder": false
+    }
+   ],
    "actions": [
     "Draw a number"
    ]
@@ -18975,9 +19035,27 @@
      "type": "number",
      "placeholder": "",
      "required": false
+    },
+    {
+     "label": "Diese Zahlen auslassen",
+     "fromPlaceholder": false,
+     "type": "text",
+     "placeholder": "7, 13, 42",
+     "required": false
     }
    ],
-   "options": [],
+   "options": [
+    {
+     "label": "Nachkommastellen",
+     "values": [
+      "Ganze Zahlen",
+      "1 Nachkommastelle",
+      "2 Nachkommastellen",
+      "3 Nachkommastellen"
+     ],
+     "fromPlaceholder": false
+    }
+   ],
    "actions": [
     "Zahl ziehen"
    ]
@@ -19021,21 +19099,30 @@
   "en": {
    "fields": [
     {
-     "label": "Names (one per line)Every name lands in exactly one group.",
+     "label": "Names (one per line)Every name lands in exactly one team.",
      "fromPlaceholder": false,
      "type": "textarea",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Number of groups",
+     "label": "Number of teams",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     }
    ],
-   "options": [],
+   "options": [
+    {
+     "label": "Split the teams by",
+     "values": [
+      "Number of teams",
+      "Players per team"
+     ],
+     "fromPlaceholder": false
+    }
+   ],
    "actions": [
     "Create the teams"
    ]
@@ -19043,21 +19130,30 @@
   "de": {
    "fields": [
     {
-     "label": "Namen (einer pro Zeile)Jeder Name landet in genau einer Gruppe.",
+     "label": "Namen (einer pro Zeile)Jeder Name landet in genau einem Team.",
      "fromPlaceholder": false,
      "type": "textarea",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Anzahl der Gruppen",
+     "label": "Anzahl der Teams",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     }
    ],
-   "options": [],
+   "options": [
+    {
+     "label": "Teams aufteilen nach",
+     "values": [
+      "Anzahl der Teams",
+      "Spieler pro Team"
+     ],
+     "fromPlaceholder": false
+    }
+   ],
    "actions": [
     "Teams erzeugen"
    ]
@@ -19418,15 +19514,15 @@
    ],
    "actions": [
     "Generate names",
-    "Polar_Wren",
-    "Fearless_Valley",
-    "Ocean_Meadow622",
-    "Brave_Maple",
-    "Sunny_Wolf",
-    "Mellow_Maple",
-    "Nimble_Harbor446",
-    "Clever_Mountain",
-    "Keen_Canyon"
+    "Ancient_Beacon769",
+    "Autumn_Forest459",
+    "Bold_Robin227",
+    "Stellar_Falcon813",
+    "Silent_Harbor832",
+    "Ocean_Comet",
+    "Swift_Comet627",
+    "Rusty_Otter314",
+    "Ancient_Pine"
    ]
   },
   "de": {
@@ -19451,15 +19547,15 @@
    ],
    "actions": [
     "Namen erzeugen",
-    "Sunny_Willow",
-    "Lucky_Heron599",
-    "Bright_Moon",
-    "Frosty_Valley",
-    "Midnight_Garden",
-    "Frosty_Heron77",
-    "Autumn_Meteor340",
-    "Clever_Raven301",
-    "Curious_Willow956"
+    "Cedar_Willow",
+    "Stellar_Otter",
+    "Ancient_Garden",
+    "Eager_Cedar",
+    "Autumn_Raven647",
+    "Fluffy_Willow",
+    "Lucky_Raven",
+    "Ocean_Panther974",
+    "Curious_Garden787"
    ]
   }
  },
@@ -23524,15 +23620,15 @@
    ],
    "actions": [
     "Generate names",
-    "Hidden_Wolf",
-    "Fearless_Falconer",
-    "Happy_Tiger214",
-    "Eager_Eagle186",
-    "Silver_Heron",
-    "Frosty_Summit",
-    "Nimble_Summit",
-    "Rapid_Eagle170",
-    "Lively_Lynx167"
+    "Ancient_Creek161",
+    "Electric_Falconer434",
+    "Silent_Lantern551",
+    "Wild_Mountain553",
+    "Golden_Pine",
+    "Noble_Valley",
+    "Electric_Lantern",
+    "Lively_Moon",
+    "Eager_Wolf"
    ]
   },
   "de": {
@@ -23557,15 +23653,15 @@
    ],
    "actions": [
     "Namen erzeugen",
-    "Fluffy_Robin",
-    "Daring_Tiger",
-    "Golden_Mountain",
-    "Jolly_Mountain",
-    "Jolly_Moon424",
-    "Happy_Creek",
-    "Autumn_Wolf",
-    "Winter_Meteor",
-    "Gentle_Creek"
+    "Winter_Forest",
+    "Winter_Badger",
+    "Silver_Wolf131",
+    "Crimson_Dolphin",
+    "Curious_River235",
+    "Sunny_Willow",
+    "Crimson_Meadow518",
+    "Midnight_Owl193",
+    "Autumn_Wolf77"
    ]
   }
  },
@@ -23972,15 +24068,15 @@
    ],
    "actions": [
     "Generate names",
-    "Electric_Panther220",
-    "Amber_Lynx636",
-    "Deep_Thunder",
-    "Fluffy_Creek",
-    "Lucky_Forest729",
-    "Amber_Raven",
-    "Lively_Creek",
-    "Ember_Canyon",
-    "Fluffy_Wolf"
+    "Golden_Beacon",
+    "Curious_Tiger366",
+    "Spry_Wolf862",
+    "Hidden_Beacon94",
+    "Winter_Summit771",
+    "Sunny_Pine",
+    "Stellar_Falcon717",
+    "Quiet_Dolphin",
+    "Happy_Moon"
    ]
   },
   "de": {
@@ -24005,15 +24101,15 @@
    ],
    "actions": [
     "Namen erzeugen",
-    "Cosmic_Valley666",
-    "Eager_Lantern",
-    "Rapid_River",
-    "Swift_Falconer",
-    "Bright_Meteor432",
-    "Cedar_Summit530",
-    "Golden_Badger",
-    "Humble_River",
-    "Lively_Meteor459"
+    "Witty_Creek402",
+    "Frosty_Mountain415",
+    "Nimble_Tiger",
+    "Bright_Meteor",
+    "Humble_Meteor266",
+    "Rapid_Falconer",
+    "Jolly_Harbor581",
+    "Stellar_Creek609",
+    "Cedar_Harbor24"
    ]
   }
  },

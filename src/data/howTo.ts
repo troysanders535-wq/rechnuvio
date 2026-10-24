@@ -488,7 +488,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "christmas-budget-planner": [
   "Open the **Christmas Budget Planner** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Total budget**, **Gifts**, **Food and drinks**, **Decoration**, **Cards**, **Travel**, **Donations** and **Wrapping material**.",
+  "Enter your input in **Total budget**, **Gifts**, **Food and drinks**, **Decoration**, **Cards**, **Travel**, **Donations**, **Wrapping material**, **People (one per line)Every name of the list gets the same amount.** and **Amount per person**.",
   "Press **Print the budget** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
   "Press **Reset** to clear the form and start over."
@@ -765,7 +765,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "dice-roller": [
   "Open the **Dice Roller** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Number of dice** and **Modifier**.",
+  "Enter your input in **Custom sidesRoll a die with any number of sides between 2 and 1000 - the die is rolled as **, **Number of dice** and **Modifier**.",
   "Press **Roll Again** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
   "Press **Reset** to clear the form and start over."
@@ -2405,7 +2405,8 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "random-number-generator": [
   "Open the **Random Number Generator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Smallest number**, **Largest number** and **How many numbers**.",
+  "Enter your input in **Smallest number**, **Largest number**, **How many numbers** and **Leave out these numbers**.",
+  "Set **Decimal places** to `Whole numbers`, `1 decimal place`, `2 decimal places`, `3 decimal places` if you need a different mode.",
   "Press **Draw a number** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
   "Press **Reset** to clear the form and start over."
@@ -2420,7 +2421,8 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "random-team-generator": [
   "Open the **Random Team Generator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Names (one per line)Every name lands in exactly one group.** and **Number of groups**.",
+  "Enter your input in **Names (one per line)Every name lands in exactly one team.** and **Number of teams**.",
+  "Set **Split the teams by** to `Number of teams`, `Players per team` if you need a different mode.",
   "Press **Create the teams** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
   "Press **Reset** to clear the form and start over."
@@ -3958,7 +3960,7 @@ export const HOW_TO_DE: Record<string, string[]> =
  ],
  "christmas-budget-planner": [
   "Öffnen Sie oben den Arbeitsbereich **Christmas Budget Planner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Gesamtbudget**, **Geschenke**, **Essen und Trinken**, **Dekoration**, **Karten**, **Reisen**, **Spenden** und **Verpackungsmaterial** ein.",
+  "Geben Sie Ihre Eingabe in **Gesamtbudget**, **Geschenke**, **Essen und Trinken**, **Dekoration**, **Karten**, **Reisen**, **Spenden**, **Verpackungsmaterial**, **Personen (eine pro Zeile)Jeder Name der Liste bekommt denselben Betrag.** und **Betrag pro Person** ein.",
   "Klicken Sie auf **Budget drucken**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
@@ -4237,7 +4239,7 @@ export const HOW_TO_DE: Record<string, string[]> =
  ],
  "dice-roller": [
   "Öffnen Sie oben den Arbeitsbereich **Dice Roller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Anzahl der Würfel** und **Modifikator** ein.",
+  "Geben Sie Ihre Eingabe in **Eigene SeitenanzahlWürfeln Sie einen Würfel mit beliebig vielen Seiten zwischen 2 und 1000**, **Anzahl der Würfel** und **Modifikator** ein.",
   "Klicken Sie auf **Nochmal würfeln**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
@@ -5889,7 +5891,8 @@ export const HOW_TO_DE: Record<string, string[]> =
  ],
  "random-number-generator": [
   "Öffnen Sie oben den Arbeitsbereich **Random Number Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Kleinste Zahl**, **Größte Zahl** und **Wie viele Zahlen** ein.",
+  "Geben Sie Ihre Eingabe in **Kleinste Zahl**, **Größte Zahl**, **Wie viele Zahlen** und **Diese Zahlen auslassen** ein.",
+  "Wählen Sie bei Bedarf **Nachkommastellen** mit `Ganze Zahlen`, `1 Nachkommastelle`, `2 Nachkommastellen`, `3 Nachkommastellen`.",
   "Klicken Sie auf **Zahl ziehen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
@@ -5904,7 +5907,8 @@ export const HOW_TO_DE: Record<string, string[]> =
  ],
  "random-team-generator": [
   "Öffnen Sie oben den Arbeitsbereich **Random Team Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Namen (einer pro Zeile)Jeder Name landet in genau einer Gruppe.** und **Anzahl der Gruppen** ein.",
+  "Geben Sie Ihre Eingabe in **Namen (einer pro Zeile)Jeder Name landet in genau einem Team.** und **Anzahl der Teams** ein.",
+  "Wählen Sie bei Bedarf **Teams aufteilen nach** mit `Anzahl der Teams`, `Spieler pro Team`.",
   "Klicken Sie auf **Teams erzeugen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."

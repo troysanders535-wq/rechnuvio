@@ -294,6 +294,26 @@ const OVERRIDES = {
     "Check whether a HEIC photo can be turned into a JPEG in your browser. No browser this site runs in ships a HEIC decoder, so the picture cannot be decoded and no JPEG can be produced from it. The tool reads the container and shows the format brand, the compatible brands and the size of the picture. Convert the photo to JPG first, then work on the JPG here. No upload, no sign-up.",
   "de:heic-to-jpg-converter":
     "Prüfen Sie, ob ein HEIC-Foto in Ihrem Browser in ein JPEG umgewandelt werden kann. Kein Browser, in dem diese Seite läuft, bringt einen HEIC-Decoder mit: Das Bild lässt sich nicht dekodieren, und daraus kann kein JPEG erzeugt werden. Das Werkzeug liest den Container und zeigt die Formatmarke, die kompatiblen Marken und die Bildgröße. Wandeln Sie das Foto zuerst in ein JPG um und arbeiten Sie dann mit dem JPG weiter. Ohne Upload, ohne Anmeldung.",
+
+  // The old text promised a video that is "often 90% smaller" than the GIF.
+  // The tool now records a real MP4, and a recorded video is usually BIGGER
+  // than a palette GIF, so the claim was replaced by the measured comparison
+  // the tool actually shows.
+  "en:gif-to-mp4":
+    "Convert animated GIFs to a real MP4 video in your browser: the tool decodes the GIF, plays the frames in real time and records them with MediaRecorder, so every player can open the result. It shows the measured size of both files, because a recorded video is often bigger than the GIF. No upload, no watermark, free.",
+  "de:gif-to-mp4":
+    "Animierte GIFs in ein echtes MP4-Video im Browser umwandeln: Das Werkzeug dekodiert das GIF, spielt die Bilder in Echtzeit ab und zeichnet sie mit MediaRecorder auf, sodass jeder Player das Ergebnis öffnen kann. Es zeigt die gemessene Größe beider Dateien, denn ein aufgezeichnetes Video ist oft größer als das GIF. Ohne Upload, ohne Wasserzeichen, kostenlos.",
+
+  // The GPS that is read and removed lives in the XMP packet of the document.
+  // A GPS inside an embedded photo is a different thing and is not touched.
+  "en:pdf-metadata-viewer":
+    "View PDF metadata online: author, software, dates, XMP edit history, document ID, earlier versions, the GPS coordinates in the XMP packet and the attachments. Private, in your browser.",
+  "de:pdf-metadata-viewer":
+    "PDF-Metadaten online ansehen: Autor, Software, Datum, XMP-Änderungsverlauf, Dokument-ID, frühere Versionen, die GPS-Koordinaten im XMP-Paket und die Anhänge. Privat, in Ihrem Browser.",
+  "en:pdf-metadata-remover":
+    "Remove PDF metadata in your browser: author, software, dates, XMP history, earlier versions and the GPS coordinates in the XMP packet. See what is hidden first, then download the cleaned document. Free, private.",
+  "de:pdf-metadata-remover":
+    "PDF-Metadaten im Browser entfernen: Autor, Software, Datum, XMP-Verlauf, frühere Versionen und die GPS-Koordinaten im XMP-Paket. Sehen Sie zuerst, was versteckt ist, und laden Sie dann das bereinigte Dokument herunter. Kostenlos und privat.",
 };
 
 function fixTool(tool, stats, locale, slug) {

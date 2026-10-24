@@ -846,7 +846,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "No input needed - choose an option and run the tool.",
       "Choose between Origin (8 values) and Style (8 values).",
-      "Provides 10 actions: Another name, Surprise me, Navid, Roman and 6 more.",
+      "Provides 10 actions: Another name, Surprise me, Dionysus, Henry and 6 more.",
       "Runs entirely in your browser - Baby Boy Name Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -890,7 +890,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "No input needed - choose an option and run the tool.",
       "Choose between Origin (8 values) and Style (8 values).",
-      "Provides 10 actions: Another name, Surprise me, Marisol, Marlowe and 6 more.",
+      "Provides 10 actions: Another name, Surprise me, Reese, Gaia and 6 more.",
       "Runs entirely in your browser - Baby Girl Name Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -933,7 +933,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "No input needed - choose an option and run the tool.",
       "Choose between Gender (4 values) and Origin (8 values).",
-      "Provides 10 actions: Another name, Surprise me, Nasra, Beatriz and 6 more.",
+      "Provides 10 actions: Another name, Surprise me, Corentin, Aoife and 6 more.",
       "Runs entirely in your browser - Baby Name Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -2635,7 +2635,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "christmas budget planner"
     ],
     "features": [
-      "Takes 8 numeric values: Total budget, Gifts, Food and drinks, Decoration, Cards, Travel, Donations and Wrapping material.",
+      "Takes 10 inputs: Total budget, Gifts, Food and drinks, Decoration, Cards, Travel, Donations, Wrapping material, People (one per line)Every name of the list gets the same amount. and Amount per person.",
       "Runs one action: Print the budget.",
       "Copy, download or print the result with Print the budget.",
       "Works with PDF.",
@@ -4161,7 +4161,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "dice roller"
     ],
     "features": [
-      "Takes 2 numeric values: Number of dice and Modifier.",
+      "Takes 3 numeric values: Custom sidesRoll a die with any number of sides between 2 and 1000 - the die is rolled as , Number of dice and Modifier.",
       "Provides 8 actions: Roll Again, d4, d6, d8 and 4 more.",
       "Runs entirely in your browser - Dice Roller never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit.",
@@ -4248,7 +4248,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, ., without a separator.",
-      "Provides 10 actions: Generate names, Spry_Tiger334, Amber_Meteor894, Winter_Canyon and 6 more.",
+      "Provides 10 actions: Generate names, Curious_Wolf126, Autumn_River, Happy_Harbor963 and 6 more.",
       "Runs entirely in your browser - Discord Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -5479,7 +5479,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "gif-to-mp4",
     "name": "GIF to MP4 Converter",
     "category": "Video & Audio",
-    "description": "Convert animated GIFs to MP4 video in your browser: often 90% smaller, smooth playback, works on Instagram, X and WhatsApp. No upload, no watermark, free.",
+    "description": "Convert animated GIFs to a real MP4 video in your browser: the tool decodes the GIF, plays the frames in real time and records them with MediaRecorder, so every player can open the result. It shows the measured size of both files, because a recorded video is often bigger than the GIF. No upload, no watermark, free.",
     "engine": "image-suite",
     "keywords": [
       "gif",
@@ -5490,7 +5490,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     ],
     "features": [
       "Reads files straight from your device: Choose an animation.",
-      "Works with MP4.",
+      "Works with MP4, GIF.",
       "Runs entirely in your browser - GIF to MP4 Converter never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit.",
       "Light and dark theme, responsive from phone to desktop."
@@ -6291,7 +6291,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     ],
     "features": [
       "Reads files straight from your device: Choose a HEIC photo.",
-      "Works with HEIC, JPG.",
+      "Works with HEIC, JPEG, JPG.",
       "Runs entirely in your browser - HEIC to JPG Converter never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit.",
       "Light and dark theme, responsive from phone to desktop."
@@ -11346,7 +11346,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-metadata-remover",
     "name": "PDF Metadata Remover",
     "category": "PDF",
-    "description": "Remove PDF metadata in your browser: author, software, dates, XMP history, earlier versions and photo GPS. See what's hidden first. Free, private.",
+    "description": "Remove PDF metadata in your browser: author, software, dates, XMP history, earlier versions and the GPS coordinates in the XMP packet. See what is hidden first, then download the cleaned document. Free, private.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -11384,7 +11384,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-metadata-viewer",
     "name": "PDF Metadata Viewer",
     "category": "PDF",
-    "description": "View PDF metadata online: author, software, dates, XMP edit history, document ID, earlier versions, photo GPS and attachments. Private, in your browser.",
+    "description": "View PDF metadata online: author, software, dates, XMP edit history, document ID, earlier versions, the GPS coordinates in the XMP packet and the attachments. Private, in your browser.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -13320,11 +13320,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "random number generator"
     ],
     "features": [
-      "Takes 3 numeric values: Smallest number, Largest number and How many numbers.",
+      "Takes 4 inputs: Smallest number, Largest number, How many numbers and Leave out these numbers.",
+      "Choose Decimal places: Whole numbers, 1 decimal place, 2 decimal places, 3 decimal places.",
       "Runs one action: Draw a number.",
       "Runs entirely in your browser - Random Number Generator never uploads your data and stores nothing on your device.",
-      "Works offline once the page has loaded - no account, no API key, no usage limit.",
-      "Light and dark theme, responsive from phone to desktop."
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -13342,6 +13342,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "What does Random Number Generator need as input?",
         "a": "You enter your data in Names / Items (one per line). Nothing else is required."
+      },
+      {
+        "q": "Which settings can I choose in Random Number Generator?",
+        "a": "You can choose Decimal places. The result is calculated right on the page."
       }
     ]
   },
@@ -13398,11 +13402,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "random team generator"
     ],
     "features": [
-      "Takes 2 inputs: Names (one per line)Every name lands in exactly one group. and Number of groups.",
+      "Takes 2 inputs: Names (one per line)Every name lands in exactly one team. and Number of teams.",
+      "Choose Split the teams by: Number of teams, Players per team.",
       "Runs one action: Create the teams.",
       "Works with CSV.",
-      "Runs entirely in your browser - Random Team Generator never uploads your data and stores nothing on your device.",
-      "Works offline once the page has loaded - no account, no API key, no usage limit."
+      "Runs entirely in your browser - Random Team Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -13630,7 +13634,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, without a separator.",
-      "Provides 10 actions: Generate names, Polar_Wren, Fearless_Valley, Ocean_Meadow622 and 6 more.",
+      "Provides 10 actions: Generate names, Ancient_Beacon769, Autumn_Forest459, Bold_Robin227 and 6 more.",
       "Runs entirely in your browser - Reddit Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -16832,7 +16836,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, without a separator.",
-      "Provides 10 actions: Generate names, Hidden_Wolf, Fearless_Falconer, Happy_Tiger214 and 6 more.",
+      "Provides 10 actions: Generate names, Ancient_Creek161, Electric_Falconer434, Silent_Lantern551 and 6 more.",
       "Runs entirely in your browser - Twitch Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -17228,7 +17232,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, without a separator.",
-      "Provides 10 actions: Generate names, Electric_Panther220, Amber_Lynx636, Deep_Thunder and 6 more.",
+      "Provides 10 actions: Generate names, Golden_Beacon, Curious_Tiger366, Spry_Wolf862 and 6 more.",
       "Runs entirely in your browser - Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
