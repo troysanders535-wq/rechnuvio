@@ -88,6 +88,27 @@ export function PdfTextEngine({ mode }: { mode: PdfTextMode }) {
 
     let open: Awaited<ReturnType<typeof openPdf>> | null = null;
     try {
+      if (mode === "docx") {
+        // MuPDF keeps bold/italic, columns, tables and figures. Pages without a
+        // text layer (scans) and any MuPDF failure fall through to the OCR path.
+        try {
+          const [{ loadMupdf }, { convertPdfToDocx }] = await Promise.all([
+            import("./mupdfLoader"),
+            import("./mupdfDocx"),
+          ]);
+          const mupdf = await loadMupdf();
+          const converted = await convertPdfToDocx(mupdf, new Uint8Array(await file.arrayBuffer()));
+          if (!converted.emptyPages.length) {
+            setStatus(tUi("buildingTheWordDocument"));
+            downloadBlob(converted.blob, `${baseName(file.name)}.docx`);
+            setStatus(tUi("downloadedTheDocxFile", { file: baseName(file.name) }));
+            return;
+          }
+        } catch {
+          /* fall back to the pdf.js based conversion below */
+        }
+      }
+
       open = await openPdf(new Uint8Array(await file.arrayBuffer()));
       const { blocks: extracted, emptyPages } = await extractBlocks(open);
 
