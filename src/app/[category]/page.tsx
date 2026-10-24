@@ -3,154 +3,9 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowRight, ShieldCheck } from "lucide-react";
 import { getTranslations, getLocale } from "next-intl/server";
-import { TOOLS_CATALOG, ToolItem } from "@/data/tools";
+import { TOOLS_CATALOG } from "@/data/tools";
 import { getLocalizedTool } from "@/utils/localizedTools";
-
-const CATEGORY_MAP: Record<
-  string,
-  { nameKey: string; descKey: string; filterKey: string; fallbackName: string; fallbackDesc: string }
-> = {
-  "json-tools": {
-    nameKey: "jsonTools",
-    descKey: "jsonDesc",
-    filterKey: "json",
-    fallbackName: "JSON Tools & Utilities",
-    fallbackDesc: "Format, validate, beautify, and convert JSON data with 100% client-side privacy.",
-  },
-  "yaml-tools": {
-    nameKey: "yamlTools",
-    descKey: "yamlDesc",
-    filterKey: "yaml",
-    fallbackName: "YAML Tools & Validators",
-    fallbackDesc: "Edit, validate, and convert YAML to JSON and JSON to YAML online in your browser.",
-  },
-  "markdown-tools": {
-    nameKey: "markdownTools",
-    descKey: "markdownDesc",
-    filterKey: "markdown",
-    fallbackName: "Markdown Tools & Converters",
-    fallbackDesc: "Edit, preview, and convert Markdown documents to PDF, Word (DOCX), and HTML.",
-  },
-  "pdf-tools": {
-    nameKey: "pdfTools",
-    descKey: "pdfDesc",
-    filterKey: "pdf",
-    fallbackName: "PDF Tools & Document Suite",
-    fallbackDesc: "Merge, split, compress, and convert PDF documents directly in your browser without uploading files.",
-  },
-  "image-tools": {
-    nameKey: "imageTools",
-    descKey: "imageDesc",
-    filterKey: "image",
-    fallbackName: "Image & Photo Utilities",
-    fallbackDesc: "Resize, compress, remove backgrounds, convert formats (WebP, PNG, JPG), and inspect Exif metadata.",
-  },
-  "text-tools": {
-    nameKey: "textTools",
-    descKey: "textDesc",
-    filterKey: "text",
-    fallbackName: "Text & Typography Utilities",
-    fallbackDesc: "Count words, estimate LLM tokens, compare diffs, convert text case, and remove duplicate lines.",
-  },
-  "developer-tools": {
-    nameKey: "developerTools",
-    descKey: "developerDesc",
-    filterKey: "coding",
-    fallbackName: "Developer & Coding Utilities",
-    fallbackDesc: "SQL formatters, Regex testers, API testing runners, SSL decoders, and code generators.",
-  },
-  "calculator-tools": {
-    nameKey: "calculatorTools",
-    descKey: "calculatorDesc",
-    filterKey: "calculator",
-    fallbackName: "Math & Financial Calculators",
-    fallbackDesc: "Percentage calculators, GPA estimators, salary to hourly conversions, ratios, and fractions.",
-  },
-  "productivity-tools": {
-    nameKey: "productivityTools",
-    descKey: "productivityDesc",
-    filterKey: "productivity",
-    fallbackName: "Productivity & Time Suite",
-    fallbackDesc: "Pomodoro focus timers, Unix timestamp converters, timezone planners, and printable calendars.",
-  },
-  "base64-tools": {
-    nameKey: "base64Tools",
-    descKey: "base64Desc",
-    filterKey: "base64",
-    fallbackName: "Base64 Encoders & Decoders",
-    fallbackDesc: "Encode text and files to Base64, decode Base64 data URLs to images and PDFs safely.",
-  },
-  "encoding-tools": {
-    nameKey: "encodingTools",
-    descKey: "encodingDesc",
-    filterKey: "encoding",
-    fallbackName: "Encoding & Cipher Converters",
-    fallbackDesc: "Binary to text, Hex to ASCII, Morse code translator, Roman numerals, and number base conversions.",
-  },
-  "health-tools": {
-    nameKey: "healthTools",
-    descKey: "healthDesc",
-    filterKey: "health",
-    fallbackName: "Health & Fitness Calculators",
-    fallbackDesc: "BMI body mass index, BMR, TDEE maintenance calorie calculator, and daily water intake estimator.",
-  },
-  "device-tools": {
-    nameKey: "deviceTools",
-    descKey: "deviceDesc",
-    filterKey: "device",
-    fallbackName: "Hardware & Device Testers",
-    fallbackDesc: "Microphone test with audio waveform, webcam test, keyboard ghosting test, and mouse CPS test.",
-  },
-  "file-viewers": {
-    nameKey: "fileViewers",
-    descKey: "fileViewersDesc",
-    filterKey: "viewer",
-    fallbackName: "Online File Viewers",
-    fallbackDesc: "View 3D CAD files (STL, OBJ, GLB), inspect SQLite databases, and browse spreadsheets online.",
-  },
-  "ai-tools": {
-    nameKey: "aiTools",
-    descKey: "aiDesc",
-    filterKey: "ai",
-    fallbackName: "AI & Tokenizer Tools",
-    fallbackDesc: "LLM token counters, baby name AI generators, and private offline AI prompt utilities.",
-  },
-  "video-tools": {
-    nameKey: "videoTools",
-    descKey: "videoDesc",
-    filterKey: "video",
-    fallbackName: "Video & Audio Converters",
-    fallbackDesc: "Transcode WebM to MP4, MP4 to MP3, video to animated GIF without cloud servers.",
-  },
-  "diy-tools": {
-    nameKey: "diyTools",
-    descKey: "diyDesc",
-    filterKey: "diy",
-    fallbackName: "Construction & DIY Calculators",
-    fallbackDesc: "Concrete slab volume, square footage, tile calculator with waste buffer, and paint coverage.",
-  },
-  "privacy-tools": {
-    nameKey: "privacyTools",
-    descKey: "privacyDesc",
-    filterKey: "privacy",
-    fallbackName: "Privacy & Cryptography Tools",
-    fallbackDesc: "UUID generators, MD5/SHA256 hashers, strong password generator, and document redaction.",
-  },
-  "student-tools": {
-    nameKey: "studentTools",
-    descKey: "studentDesc",
-    filterKey: "student",
-    fallbackName: "Student & Academic Tools",
-    fallbackDesc: "GPA calculator, weighted final grade calculator, citation generators (APA/MLA/Chicago), and fractions.",
-  },
-  "holiday-tools": {
-    nameKey: "holidayTools",
-    descKey: "holidayDesc",
-    filterKey: "holiday",
-    fallbackName: "Holiday & Event Planners",
-    fallbackDesc: "Secret Santa generator, holiday countdowns, 2026/2027 holiday calendars, and bingo card makers.",
-  },
-};
+import { CATEGORY_MAP, CATEGORY_SLUGS } from "@/data/categorySlugs";
 
 interface CategoryPageProps {
   params: Promise<{
@@ -158,11 +13,8 @@ interface CategoryPageProps {
   }>;
 }
 
-/** Every category route this page can render. Used by the sitemap. */
-export const CATEGORY_SLUGS = Object.keys(CATEGORY_MAP);
-
 export async function generateStaticParams() {
-  return Object.keys(CATEGORY_MAP).map((category) => ({
+  return CATEGORY_SLUGS.map((category) => ({
     category,
   }));
 }

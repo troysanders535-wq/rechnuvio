@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, Calendar, Clock, ShieldCheck } from "lucide-react";
 import { getTranslations } from "next-intl/server";
-import { BLOG_POSTS } from "../page";
+import { BLOG_POSTS } from "@/data/blogPosts";
 
 interface BlogPostPageProps {
   params: Promise<{

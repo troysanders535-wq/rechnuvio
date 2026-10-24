@@ -304,19 +304,30 @@ function animatedGifFixture(delays, options = {}) {
     parts.push(descriptor);
 
     parts.push(Buffer.from([0x02])); // the minimum code size of the LZW stream
+    // Every pixel is written after a clear code, so the stream stays valid
+    // whatever the dictionary of the decoder does. The codes are packed into
+    // the bytes with the first code in the lowest bits.
     const codes = [];
     for (let pixel = 0; pixel < width * height; pixel += 1) {
       codes.push(0x04, index % 2); // the clear code, then the pixel
     }
     codes.push(0x05); // the end of the information
-    let bits = "";
-    for (const code of codes) bits += code.toString(2).padStart(3, "0");
-    while (bits.length % 8) bits += "0";
-    const data = Buffer.from(
-      bits.match(/.{8}/g).map((byte) => parseInt(byte, 2)),
-    );
-    for (let at = 0; at < data.length; at += 255) {
-      const block = data.subarray(at, at + 255);
+    let current = 0;
+    let shift = 0;
+    const data = [];
+    for (const code of codes) {
+      current |= code << shift;
+      shift += 3;
+      while (shift >= 8) {
+        data.push(current & 0xff);
+        current >>= 8;
+        shift -= 8;
+      }
+    }
+    if (shift > 0) data.push(current & 0xff);
+    const bytes = Buffer.from(data);
+    for (let at = 0; at < bytes.length; at += 255) {
+      const block = bytes.subarray(at, at + 255);
       parts.push(Buffer.from([block.length]));
       parts.push(block);
     }

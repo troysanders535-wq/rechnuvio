@@ -14,6 +14,8 @@
 
 import assert from "node:assert";
 import zlib from "node:zlib";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 
 import {
   spec,
@@ -30,6 +32,9 @@ import {
 
 /* --------------------------------------------------------------- helpers -- */
 
+const here = dirname(fileURLToPath(import.meta.url));
+const root = join(here, "..", "..", "..");
+
 /**
  * Write a small but valid PDF with one page per label.
  *
@@ -37,8 +42,13 @@ import {
  * page object and one content stream per page, the font, and a cross
  * reference table with a trailer. A label is either a string or a list of
  * [text, font size] lines.
+ *
+ * The third argument adds the parts a real document can carry and the
+ * information dictionary does not: an XMP packet with an edit history and the
+ * GPS coordinates of a photo, the identifier of the document in the trailer
+ * and an embedded file.
  */
-function makePdf(labels, meta) {
+function makePdf(labels, meta, extras = {}) {
   const enc = (s) => Buffer.from(s, "latin1");
   const chunks = [];
   let offset = 0;
@@ -48,7 +58,33 @@ function makePdf(labels, meta) {
   };
   const objects = [];
   const fontObj = 3 + labels.length * 2;
-  objects[1] = "<< /Type /Catalog /Pages 2 0 R >>";
+  let last = fontObj;
+
+  let infoObj = 0;
+  if (meta) {
+    infoObj = fontObj + 1;
+    last = infoObj;
+  }
+  let metaObj = 0;
+  if (extras.xmp) {
+    metaObj = last + 1;
+    last = metaObj;
+  }
+  let treeObj = 0;
+  let specObj = 0;
+  let fileObj = 0;
+  if (extras.attachment) {
+    treeObj = last + 1;
+    specObj = last + 2;
+    fileObj = last + 3;
+    last = fileObj;
+  }
+
+  let catalog = "<< /Type /Catalog /Pages 2 0 R";
+  if (metaObj) catalog += ` /Metadata ${metaObj} 0 R`;
+  if (treeObj) catalog += ` /Names << /EmbeddedFiles ${treeObj} 0 R >>`;
+  catalog += " >>";
+  objects[1] = catalog;
   objects[2] = `<< /Type /Pages /Kids [${labels
     .map((_, i) => `${3 + i * 2} 0 R`)
     .join(" ")}] /Count ${labels.length} >>`;
@@ -66,17 +102,30 @@ function makePdf(labels, meta) {
     objects[pageObj + 1] = { dict: `<< /Length ${stream.length} >>`, stream };
   });
   objects[fontObj] = "<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>";
-  let infoObj = 0;
-  if (meta) {
-    infoObj = fontObj + 1;
+  if (infoObj) {
     objects[infoObj] =
       `<< /Title (${meta.title}) /Author (${meta.author}) /Subject (${meta.subject}) ` +
       `/Creator (${meta.creator}) /Producer (${meta.producer}) >>`;
   }
+  if (metaObj) {
+    objects[metaObj] = {
+      dict: `<< /Type /Metadata /Subtype /XML /Length ${extras.xmp.length} >>`,
+      stream: extras.xmp,
+    };
+  }
+  if (treeObj) {
+    objects[treeObj] = `<< /Names [(${extras.attachment}) ${specObj} 0 R] >>`;
+    objects[specObj] =
+      `<< /Type /Filespec /F (${extras.attachment}) /UF (${extras.attachment}) ` +
+      `/EF << /F ${fileObj} 0 R >> >>`;
+    objects[fileObj] = {
+      dict: `<< /Type /EmbeddedFile /Subtype /text#2Fplain /Length ${extras.attachmentBody.length} >>`,
+      stream: extras.attachmentBody,
+    };
+  }
 
   push(enc("%PDF-1.7\n"));
   const offsets = [];
-  const last = infoObj || fontObj;
   for (let i = 1; i <= last; i += 1) {
     offsets[i] = offset;
     const obj = objects[i];
@@ -88,7 +137,11 @@ function makePdf(labels, meta) {
   for (let i = 1; i <= last; i += 1) {
     xref += `${String(offsets[i]).padStart(10, "0")} 00000 n \n`;
   }
-  xref += `trailer\n<< /Size ${last + 1} /Root 1 0 R${infoObj ? ` /Info ${infoObj} 0 R` : ""} >>\nstartxref\n${xrefStart}\n%%EOF\n`;
+  xref +=
+    `trailer\n<< /Size ${last + 1} /Root 1 0 R` +
+    `${infoObj ? ` /Info ${infoObj} 0 R` : ""}` +
+    `${extras.id ? ` /ID [<${extras.id}> <${extras.id}>]` : ""} >>\n` +
+    `startxref\n${xrefStart}\n%%EOF\n`;
   push(enc(xref));
   return Buffer.concat(chunks);
 }
@@ -227,6 +280,46 @@ function pdfInfoValue(bytes, key) {
   return literal ? literal[1] : null;
 }
 
+/**
+ * The text of every page of a PDF, in the order the pages have.
+ *
+ * The order is what a reader sees, so it is the order the merged document
+ * really has - not the order the objects happen to sit in the file.
+ */
+async function pdfPageTexts(bytes) {
+  const pdfjs = await import("pdfjs-dist/legacy/build/pdf.mjs");
+  const task = pdfjs.getDocument({
+    data: new Uint8Array(bytes),
+    standardFontDataUrl: `${join(root, "node_modules", "pdfjs-dist", "standard_fonts")}/`,
+  });
+  const doc = await task.promise;
+  const texts = [];
+  for (let i = 1; i <= doc.numPages; i += 1) {
+    const page = await doc.getPage(i);
+    const content = await page.getTextContent();
+    texts.push(content.items.map((item) => item.str).join(" "));
+  }
+  await doc.cleanup();
+  await task.destroy();
+  return texts;
+}
+
+/** Wait until the metadata table of the workspace is on the page. */
+async function waitForMetaTable(page, timeout = 30000) {
+  await page.waitForSelector('main [data-testid="pdf-meta-table"]', { timeout });
+}
+
+/** The number of rows in the page list of the merge editor. */
+async function mergePageCount(page) {
+  return page.locator('main [data-testid="merge-page-item"]').count();
+}
+
+/** Click a control of the page list of the merge editor. */
+async function clickMergePageControl(page, testid, index) {
+  await page.locator(`main [data-testid="${testid}"]`).nth(index).click();
+  await sleep(300);
+}
+
 /** The number of members in a zip archive. */
 function zipEntryCount(bytes) {
   const matches = bytes.toString("latin1").match(/PK\x03\x04/g);
@@ -259,6 +352,44 @@ const META = {
   producer: "Audit Sample Producer",
 };
 
+/**
+ * An XMP packet with an edit history, an earlier version and the GPS
+ * coordinates of a photo - the parts of a document the information
+ * dictionary does not carry.
+ */
+const XMP = [
+  '<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>',
+  '<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.0-c060">',
+  '<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">',
+  '<rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"',
+  ' xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"',
+  ' xmlns:exif="http://ns.adobe.com/exif/1.0/">',
+  "<xmpMM:History><rdf:Seq>",
+  '<rdf:li rdf:parseType="Resource"><stEvt:action>created</stEvt:action>',
+  "<stEvt:changed>2024-03-04T09:15:00Z</stEvt:changed>",
+  "<stEvt:instanceID>xmp.iid.1111</stEvt:instanceID></rdf:li>",
+  '<rdf:li rdf:parseType="Resource"><stEvt:action>modified</stEvt:action>',
+  "<stEvt:changed>2024-05-06T11:45:00Z</stEvt:changed>",
+  "<stEvt:instanceID>xmp.iid.2222</stEvt:instanceID></rdf:li>",
+  "</rdf:Seq></xmpMM:History>",
+  "<xmpMM:Versions><rdf:Seq>",
+  '<rdf:li rdf:parseType="Resource"><stEvt:action>created</stEvt:action>',
+  "<stEvt:changed>2023-11-02T08:00:00Z</stEvt:changed></rdf:li>",
+  "</rdf:Seq></xmpMM:Versions>",
+  "<exif:GPSLatitude>48,51.5N</exif:GPSLatitude>",
+  "<exif:GPSLongitude>2,17.6E</exif:GPSLongitude>",
+  "</rdf:Description></rdf:RDF></x:xmpmeta>",
+  '<?xpacket end="w"?>',
+].join("\n");
+
+/** The parts of a document that the information dictionary does not carry. */
+const EXTRAS = {
+  xmp: XMP,
+  id: "A1B2C3D4E5F60718",
+  attachment: "notes.txt",
+  attachmentBody: "the attached notes",
+};
+
 const EML = [
   "From: alice@example.com",
   "To: bob@example.com",
@@ -287,6 +418,31 @@ export function register() {
       "the merged document must be a PDF",
     );
     assertIncludes(await panel(page), "3", "the workspace must report the number of pages");
+
+    // The pages of the documents can be moved and removed one by one.
+    await page.waitForSelector('main [data-testid="merge-page-item"]', { timeout: 20000 });
+    assertEqual(
+      await mergePageCount(page),
+      3,
+      "the editor must list the page of every document",
+    );
+
+    // "Page Two" is dropped, "Page Three" moves in front of "Page One".
+    await clickMergePageControl(page, "merge-page-remove", 1);
+    await clickMergePageControl(page, "merge-page-up", 1);
+    assertEqual(
+      await mergePageCount(page),
+      2,
+      "the removed page must disappear from the list",
+    );
+
+    const edited = await downloadOne(page, "Merge 2 PDFs");
+    assertEqual(pdfPageCount(edited.bytes), 2, "only the pages that are left are merged");
+    assertEqual(
+      (await pdfPageTexts(edited.bytes)).join(","),
+      "Page Three,Page One",
+      "the merged document must have the pages in the order of the list",
+    );
   });
 
   spec("pdf-merger", "merges two documents into one", async (page) => {
@@ -294,6 +450,16 @@ export function register() {
     await upload(page, "b.pdf", "application/pdf", makePdf(["B1", "B2"]));
     const file = await downloadOne(page, "Merge 2 PDFs");
     assertEqual(pdfPageCount(file.bytes), 4, "the merged document must have four pages");
+
+    // The documents themselves can still be reordered.
+    await page.locator('main [data-testid="merge-file-up"]').nth(1).click();
+    await sleep(300);
+    const reordered = await downloadOne(page, "Merge 2 PDFs");
+    assertEqual(
+      (await pdfPageTexts(reordered.bytes)).join(","),
+      "B1,B2,A1,A2",
+      "the documents must be merged in the order they are listed",
+    );
   });
 
   spec("combine-pdf", "combines two documents into one", async (page) => {
@@ -410,13 +576,45 @@ export function register() {
   /* --------------------------------------------------------- metadata -- */
 
   spec("pdf-metadata-viewer", "reads the document information", async (page) => {
-    await upload(page, "doc.pdf", "application/pdf", makePdf(["P1"], META));
+    await upload(
+      page,
+      "doc.pdf",
+      "application/pdf",
+      makePdf(["P1"], META, EXTRAS),
+    );
     await clickButton(page, "Read metadata");
-    await sleep(600);
+    await waitForMetaTable(page);
     const text = await panel(page);
     assertIncludes(text, "Audit Sample Title", "the viewer must show the title");
     assertIncludes(text, "Audit Sample Author", "the viewer must show the author");
     assertIncludes(text, "Audit Sample Producer", "the viewer must show the producer");
+    // The parts of the document the information dictionary does not carry.
+    assertIncludes(
+      text,
+      "2024-03-04T09:15:00Z",
+      "the viewer must show the edit history of the XMP packet",
+    );
+    assertIncludes(
+      text,
+      "2024-05-06T11:45:00Z",
+      "the viewer must show every entry of the edit history",
+    );
+    assertIncludes(
+      text,
+      "2023-11-02T08:00:00Z",
+      "the viewer must show the earlier versions of the document",
+    );
+    assertIncludes(
+      text,
+      "48,51.5N",
+      "the viewer must show the GPS coordinates of the photo",
+    );
+    assertIncludes(
+      text,
+      "A1B2C3D4E5F60718",
+      "the viewer must show the identifier of the document",
+    );
+    assertIncludes(text, "notes.txt", "the viewer must list the attachments");
   });
 
   spec("pdf-metadata-editor", "writes a new title into the document", async (page) => {
@@ -434,7 +632,37 @@ export function register() {
   });
 
   spec("pdf-metadata-remover", "strips the document information", async (page) => {
-    await upload(page, "doc.pdf", "application/pdf", makePdf(["P1"], META));
+    await upload(
+      page,
+      "doc.pdf",
+      "application/pdf",
+      makePdf(["P1"], META, EXTRAS),
+    );
+
+    // The remover shows what is inside the file before it takes it out.
+    await waitForMetaTable(page);
+    const before = await panel(page);
+    assertIncludes(
+      before,
+      "Audit Sample Title",
+      "the remover must show the title before it is removed",
+    );
+    assertIncludes(
+      before,
+      "2024-03-04T09:15:00Z",
+      "the remover must show the edit history before it is removed",
+    );
+    assertIncludes(
+      before,
+      "48,51.5N",
+      "the remover must show the GPS coordinates before they are removed",
+    );
+    assertIncludes(
+      before,
+      "notes.txt",
+      "the remover must show the attachments before they are removed",
+    );
+
     const file = await downloadOne(page, "Remove metadata");
     const raw = file.bytes.toString("latin1") + inflatedText(file.bytes);
     assertNotIncludes(raw, "Audit Sample Title", "the title must be removed");
@@ -445,7 +673,30 @@ export function register() {
       "Audit Sample",
       "the title of the document information dictionary must be gone",
     );
+    assertNotIncludes(
+      raw,
+      "xmpMM:History",
+      "the XMP packet with the edit history must be removed",
+    );
+    assertNotIncludes(
+      raw,
+      "GPSLatitude",
+      "the GPS coordinates must be removed with the XMP packet",
+    );
+    assertNotIncludes(raw, "notes.txt", "the attachment must be removed");
+    assertNotIncludes(
+      raw,
+      "the attached notes",
+      "the bytes of the attachment must be removed",
+    );
     assertIncludes(file.bytes.toString("latin1"), "%PDF-", "the cleaned file must still be a PDF");
+
+    // The report names the groups that were taken out of the file.
+    assertEqual(
+      await page.locator('main [data-testid="pdf-meta-removed"] li').count(),
+      4,
+      "the report must name the document information, the XMP packet, the GPS coordinates and the attachments",
+    );
   });
 
   /* ---------------------------------------------------------- compress -- */

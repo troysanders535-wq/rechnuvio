@@ -417,21 +417,124 @@ export interface GifInfo {
   loopCount: number;
 }
 
+/** One frame of an animation, as the picture it shows. */
+export interface DecodedFrame {
+  width: number;
+  height: number;
+  /** The picture of the frame, four bytes per pixel. */
+  rgba: Uint8ClampedArray;
+  /** How long the frame is shown, in milliseconds. */
+  delayMs: number;
+}
+
+/** The GIFs that are read are held in memory, so they cannot grow for ever. */
+const GIF_PIXEL_BUDGET = 40_000_000;
+
 /**
- * Read a GIF file.
+ * Read the LZW stream of a GIF frame into the indices of its pixels.
+ *
+ * The stream holds the codes of the GIF89a specification: the clear code
+ * starts the dictionary again, the end code stops the stream and every other
+ * code stands for a run of pixels that the dictionary knows.
+ */
+function lzwDecode(data: number[], minCodeSize: number): Uint8Array {
+  const clearCode = 1 << minCodeSize;
+  const eoiCode = clearCode + 1;
+  let codeSize = minCodeSize + 1;
+  let nextCode = eoiCode + 1;
+  const dictionary: number[][] = [];
+  for (let index = 0; index < clearCode; index += 1) dictionary[index] = [index];
+
+  const pixels: number[] = [];
+  let previous: number[] | null = null;
+  let buffer = 0;
+  let bits = 0;
+  let at = 0;
+
+  for (;;) {
+    while (bits < codeSize) {
+      if (at >= data.length) return Uint8Array.from(pixels);
+      buffer |= data[at] << bits;
+      at += 1;
+      bits += 8;
+    }
+    const code = buffer & ((1 << codeSize) - 1);
+    buffer >>= codeSize;
+    bits -= codeSize;
+
+    if (code === eoiCode) break;
+    if (code === clearCode) {
+      codeSize = minCodeSize + 1;
+      nextCode = eoiCode + 1;
+      previous = null;
+      continue;
+    }
+
+    let entry: number[];
+    if (code < nextCode && dictionary[code]) {
+      entry = dictionary[code];
+    } else if (previous) {
+      // The code that is not in the dictionary yet: it is the run that starts
+      // with the run before it.
+      entry = previous.concat(previous[0]);
+    } else {
+      break;
+    }
+    for (const pixel of entry) pixels.push(pixel);
+
+    if (previous) {
+      const added = previous.concat(entry[0]);
+      dictionary[nextCode] = added;
+      nextCode += 1;
+      // The dictionary grows one code behind the writer of the file, so the
+      // code size grows with the next code that does not fit any more.
+      if (nextCode === 1 << codeSize && codeSize < 12) codeSize += 1;
+    }
+    previous = entry;
+  }
+
+  return Uint8Array.from(pixels);
+}
+
+/** The rows of an interlaced GIF, in the order the file stores them. */
+function interlacedRows(height: number): number[] {
+  const rows: number[] = [];
+  for (const [start, step] of [
+    [0, 8],
+    [4, 8],
+    [2, 4],
+    [1, 2],
+  ]) {
+    for (let row = start; row < height; row += step) rows.push(row);
+  }
+  return rows;
+}
+
+/** Everything a GIF file holds. */
+interface GifContent {
+  width: number;
+  height: number;
+  loopCount: number;
+  frames: DecodedFrame[];
+}
+
+/**
+ * Read a GIF file, frame by frame.
  *
  * The header gives the size of the picture, the graphic control extension
- * before a frame carries its delay in hundredths of a second and the
- * application extension carries the loop count.
+ * before a frame carries its delay, its disposal method and its transparent
+ * colour, and every image block holds the pixels of the frame. The frames are
+ * composed on the canvas of the picture, so a frame that covers only a part of
+ * it keeps what the frame before it drew.
  */
-export function parseGif(bytes: Uint8Array): GifInfo {
-  const info: GifInfo = {
+function readGif(bytes: Uint8Array): GifContent {
+  const content: GifContent = {
     width: 0,
     height: 0,
-    frameDelaysMs: [],
     loopCount: 0,
+    frames: [],
   };
-  if (bytes.length < 13) return info;
+  if (bytes.length < 13) return content;
   const signature = String.fromCharCode(
     bytes[0],
     bytes[1],
@@ -440,25 +543,40 @@ export function parseGif(bytes: Uint8Array): GifInfo {
     bytes[4],
     bytes[5],
   );
-  if (signature !== "GIF87a" && signature !== "GIF89a") return info;
+  if (signature !== "GIF87a" && signature !== "GIF89a") return content;
 
   const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
-  info.width = view.getUint16(6, true);
-  info.height = view.getUint16(8, true);
+  content.width = view.getUint16(6, true);
+  content.height = view.getUint16(8, true);
   const packed = bytes[10];
 
   let at = 13;
+  let globalTable: Uint8Array | null = null;
   if (packed & 0x80) {
-    at += 3 * (1 << ((packed & 0x07) + 1)); // the global colour table
+    const size = 3 * (1 << ((packed & 0x07) + 1));
+    globalTable = bytes.subarray(at, at + size);
+    at += size;
   }
 
+  if (content.width * content.height > GIF_PIXEL_BUDGET) return content;
+
+  const canvas = new Uint8ClampedArray(content.width * content.height * 4);
+  let restore: Uint8ClampedArray | null = null;
+  let disposal = 0;
+  let transparent = -1;
   let delayMs = 0;
+  let drawn = 0;
+
   while (at < bytes.length) {
     const marker = bytes[at];
     if (marker === 0x3b) break; // the trailer ends the file
     if (marker === 0x21) {
       const label = bytes[at + 1];
-      if (label === 0xf9 && at + 6 < bytes.length) {
+      if (label === 0xf9 && at + 7 < bytes.length) {
+        // The graphic control extension of the frame that follows.
+        const flags = bytes[at + 3];
+        disposal = (flags >> 2) & 0x07;
+        transparent = flags & 0x01 ? bytes[at + 6] : -1;
         delayMs = view.getUint16(at + 4, true) * 10; // hundredths of a second
       }
       if (label === 0xff && at + 18 <= bytes.length) {
@@ -466,7 +584,7 @@ export function parseGif(bytes: Uint8Array): GifInfo {
           ...Array.from(bytes.subarray(at + 3, at + 14)),
         );
         if (name.startsWith("NETSCAPE")) {
-          info.loopCount = view.getUint16(at + 16, true);
+          content.loopCount = view.getUint16(at + 16, true);
         }
       }
       at += 2;
@@ -475,23 +593,106 @@ export function parseGif(bytes: Uint8Array): GifInfo {
       at += 1;
       continue;
     }
-    if (marker === 0x2c) {
-      info.frameDelaysMs.push(delayMs);
-      delayMs = 0;
-      const framePacked = bytes[at + 9];
-      at += 10;
-      if (framePacked & 0x80) {
-        at += 3 * (1 << ((framePacked & 0x07) + 1)); // the local colour table
-      }
-      at += 1; // the minimum code size of the LZW stream
-      while (at < bytes.length && bytes[at] !== 0) at += bytes[at] + 1;
+    if (marker !== 0x2c) {
       at += 1;
       continue;
     }
+
+    // The image descriptor of the frame.
+    const left = view.getUint16(at + 1, true);
+    const top = view.getUint16(at + 3, true);
+    const frameWidth = view.getUint16(at + 5, true);
+    const frameHeight = view.getUint16(at + 7, true);
+    const framePacked = bytes[at + 9];
+    at += 10;
+    let table = globalTable;
+    if (framePacked & 0x80) {
+      const size = 3 * (1 << ((framePacked & 0x07) + 1));
+      table = bytes.subarray(at, at + size);
+      at += size;
+    }
+    const interlaced = (framePacked & 0x40) !== 0;
+    const minCodeSize = bytes[at];
     at += 1;
+
+    // The pixels of the frame, in the blocks of the file.
+    const data: number[] = [];
+    while (at < bytes.length && bytes[at] !== 0) {
+      const length = bytes[at];
+      for (let index = 1; index <= length && at + index < bytes.length; index += 1) {
+        data.push(bytes[at + index]);
+      }
+      at += 1 + length;
+    }
+    at += 1;
+
+    // The disposal of the frame before decides what the canvas holds now.
+    if (disposal === 2) {
+      canvas.fill(0);
+    } else if (disposal === 3 && restore) {
+      canvas.set(restore);
+    }
+    if (disposal === 3) restore = new Uint8ClampedArray(canvas);
+
+    const indices = lzwDecode(data, minCodeSize);
+    const rows = interlaced ? interlacedRows(frameHeight) : null;
+    for (let y = 0; y < frameHeight; y += 1) {
+      const row = rows ? rows[y] : y;
+      for (let x = 0; x < frameWidth; x += 1) {
+        const index = indices[y * frameWidth + x];
+        if (index === undefined) continue;
+        if (index === transparent) continue; // the transparent pixels keep the picture
+        const colour = index * 3;
+        const target = ((top + row) * content.width + (left + x)) * 4;
+        if (target < 0 || target + 3 >= canvas.length) continue;
+        canvas[target] = table ? table[colour] : 0;
+        canvas[target + 1] = table ? table[colour + 1] : 0;
+        canvas[target + 2] = table ? table[colour + 2] : 0;
+        canvas[target + 3] = 255;
+      }
+    }
+
+    content.frames.push({
+      width: content.width,
+      height: content.height,
+      rgba: new Uint8ClampedArray(canvas),
+      delayMs,
+    });
+    drawn += 1;
+    delayMs = 0;
+    transparent = -1;
+    if (drawn > 512) break; // a very long animation is not read any further
   }
 
-  return info;
+  return content;
+}
+
+/**
+ * Read a GIF file.
+ *
+ * The header gives the size of the picture, the graphic control extension
+ * before a frame carries its delay in hundredths of a second and the
+ * application extension carries the loop count.
+ */
+export function parseGif(bytes: Uint8Array): GifInfo {
+  const content = readGif(bytes);
+  return {
+    width: content.width,
+    height: content.height,
+    frameDelaysMs: content.frames.map((frame) => frame.delayMs),
+    loopCount: content.loopCount,
+  };
+}
+
+/**
+ * Read the frames of a GIF file.
+ *
+ * The browser draws an animation into a canvas always at its first frame, so
+ * the frames of a GIF are read here, to write a video that really shows the
+ * animation.
+ */
+export function decodeGif(bytes: Uint8Array): DecodedFrame[] {
+  return readGif(bytes).frames;
 }
 
 /* --------------------------------------------------------------------- MP4 -- */
@@ -525,8 +726,8 @@ export function pickRecorderMimeType(candidates: string[]): string | null {
 export interface CanvasRecordingOptions {
   /** The canvas the recorder takes its picture from. */
   canvas: HTMLCanvasElement;
-  /** The picture that is drawn into the canvas, frame by frame. */
-  source: CanvasImageSource;
+  /** The frames that are drawn into the canvas, with the time they are shown. */
+  frames: DecodedFrame[];
   /** How long the recording runs, in milliseconds. */
   durationMs: number;
   /** The frame rate of the captured stream. */
@@ -550,21 +751,58 @@ export interface CanvasRecording {
 }
 
 /**
- * Record the picture of a canvas into a video file.
+ * Record the frames of an animation into a video file.
  *
- * The canvas is drawn frame by frame while the recorder writes the stream of
+ * The frames are drawn into a canvas while the recorder writes the stream of
  * the canvas, so the recording runs in real time and is as long as the
- * picture it shows. The file is written by the browser: it holds the
+ * animation it shows. The file is written by the browser: it holds the
  * container and the codec of the browser, not a hand made box.
  */
 export async function recordCanvas(
   options: CanvasRecordingOptions,
 ): Promise<CanvasRecording> {
-  const { canvas, source, durationMs, fps, mimeType } = options;
+  const { canvas, frames, durationMs, fps, mimeType } = options;
   const ctx = canvas.getContext("2d");
   if (!ctx) {
     throw new Error("the browser cannot draw into a canvas");
   }
+  if (!frames.length) {
+    throw new Error("the file holds no picture to record");
+  }
+
+  // The frames are shown one after the other, each for the time the file
+  // gives it.
+  const starts: number[] = [];
+  let shown = 0;
+  for (const frame of frames) {
+    starts.push(shown);
+    shown += Math.max(1, frame.delayMs);
+  }
+
+  const picture = document.createElement("canvas");
+  picture.width = frames[0].width;
+  picture.height = frames[0].height;
+  const pictureCtx = picture.getContext("2d");
+  if (!pictureCtx) {
+    throw new Error("the browser cannot draw into a canvas");
+  }
+  let current = -1;
+
+  const draw = (elapsed: number) => {
+    let index = 0;
+    while (index + 1 < starts.length && elapsed >= starts[index + 1]) index += 1;
+    if (index !== current) {
+      current = index;
+      const frame = frames[index];
+      pictureCtx.putImageData(
+        new ImageData(frame.rgba, frame.width, frame.height),
+        0,
+        0,
+      );
+    }
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(picture, 0, 0, canvas.width, canvas.height);
+  };
 
   const stream = canvas.captureStream(fps);
   const recorder = new MediaRecorder(stream, { mimeType });
@@ -576,19 +814,17 @@ export async function recordCanvas(
     recorder.onstop = () => resolve();
   });
 
-  // The first picture is drawn before the recorder starts, so the stream does
-  // not open with an empty frame.
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.drawImage(source, 0, 0, canvas.width, canvas.height);
+  // The first frame is drawn before the recorder starts, so the stream does
+  // not open with an empty picture.
+  draw(0);
   recorder.start(250);
 
   const startedAt = performance.now();
   let completed = false;
   await new Promise<void>((resolve) => {
-    const draw = () => {
+    const tick = () => {
       const elapsed = performance.now() - startedAt;
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      ctx.drawImage(source, 0, 0, canvas.width, canvas.height);
+      draw(elapsed);
       if (options.onProgress) {
         options.onProgress(Math.min(1, elapsed / Math.max(1, durationMs)));
       }
@@ -601,9 +837,9 @@ export async function recordCanvas(
         resolve();
         return;
       }
-      requestAnimationFrame(draw);
+      requestAnimationFrame(tick);
     };
-    requestAnimationFrame(draw);
+    requestAnimationFrame(tick);
   });
 
   recorder.stop();

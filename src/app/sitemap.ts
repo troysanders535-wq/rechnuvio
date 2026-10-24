@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { TOOLS_CATALOG } from "@/data/tools";
-import { BLOG_POSTS } from "./blog/page";
-import { CATEGORY_SLUGS } from "./[category]/page";
+import { BLOG_POSTS } from "@/data/blogPosts";
+import { CATEGORY_SLUGS } from "@/data/categorySlugs";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const enBase = process.env.NEXT_PUBLIC_EN_DOMAIN
