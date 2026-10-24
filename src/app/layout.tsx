@@ -105,7 +105,10 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   const locale = await getLocale();
-  const messages = await getMessages();
+  // The `ui` namespace (engine and calculator strings) is large and only read
+  // by tool engines, which receive their own slice on the tool page. Keeping
+  // it out of the root provider avoids serialising it into every page.
+  const { ui: _ui, ...sharedMessages } = await getMessages();
 
   return (
     <html
@@ -113,18 +116,12 @@ export default async function RootLayout({
       suppressHydrationWarning
       className={`${brandDisplay.variable} ${brandText.variable} ${brandMono.variable} h-full antialiased`}
     >
-      <head>
-        <meta
-          name="google-site-verification"
-          content="6Mc837XAbtH0LtC8cfuE95JnuGw7ZkulJgvCbc4kIGQ"
-        />
-      </head>
       <body className="min-h-full flex flex-col bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100 selection:bg-sky-800 selection:text-white">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify([organizationJsonLd(), websiteJsonLd()]) }}
         />
-        <NextIntlClientProvider locale={locale} messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={sharedMessages}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <Header />
             <main className="flex-1">{children}</main>

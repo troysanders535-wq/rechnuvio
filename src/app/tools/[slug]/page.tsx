@@ -4,7 +4,10 @@ import { notFound } from "next/navigation";
 import { TOOLS_CATALOG, getToolBySlug } from "@/data/tools";
 import { ToolShell } from "@/components/layout/ToolShell";
 import { EngineDispatcher } from "@/components/engines/EngineDispatcher";
-import { getTranslations, getLocale } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
+import { getTranslations, getLocale, getMessages } from "next-intl/server";
+import { ENGINE_NAMESPACES } from "@/data/engineNamespaces.generated";
+import { pickMessages } from "@/i18n/pickMessages";
 import { getLocalizedTool } from "@/utils/localizedTools";
 import { getCanonicalUrl, getAlternateHreflang } from "@/i18n/domains";
 import { SITE_NAME, OG_IMAGE, webApplicationJsonLd } from "@/lib/brand";
@@ -101,6 +104,20 @@ export default async function ToolPage({ params }: ToolPageProps) {
     category: tool.category,
   });
 
+  // Engines read strings from the large `ui` namespace on the client. Give
+  // them only the namespaces their component tree uses (see
+  // scripts/gen-engine-namespaces.mjs) rather than the whole catalog.
+  const engineKey =
+    tool.slug === "heads-or-tails" || tool.slug === "coin-flip"
+      ? "__heads_or_tails"
+      : ENGINE_NAMESPACES[tool.engine]
+        ? tool.engine
+        : "__default";
+  const engineMessages = pickMessages(
+    (await getMessages()) as Record<string, unknown>,
+    ENGINE_NAMESPACES[engineKey]
+  );
+
   return (
     <ToolShell tool={tool}>
       <script
@@ -114,7 +131,9 @@ export default async function ToolPage({ params }: ToolPageProps) {
           </div>
         }
       >
-        <EngineDispatcher tool={tool} />
+        <NextIntlClientProvider locale={locale} messages={engineMessages}>
+          <EngineDispatcher tool={tool} />
+        </NextIntlClientProvider>
       </Suspense>
     </ToolShell>
   );

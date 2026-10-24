@@ -265,7 +265,7 @@
     ]
   },
   "alphabetical-order-tool": {
-    "name": "Alphabetical Order Tool",
+    "name": "Alphabetisch sortieren",
     "description": "Formatieren Sie Textzeilen in alphabetischer Reihenfolge, A bis Z oder Z bis A, mit optionaler Duplikat- und Whitespace-Bereinigung. Kostenlose Online-alphabetische Bestellwerkzeug, sofort.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -284,7 +284,7 @@
     ]
   },
   "apa-citation-generator": {
-    "name": "APA Citation Generator",
+    "name": "APA-Zitat-Generator",
     "description": "Build APA 7 Referenzen für Bücher, Zeitschriftenartikel und Websites. Formatieren Sie Zitate in Ihrem Browser, importieren Sie BibTeX und exportieren Sie nach Word. Frei, ohne Anmeldung.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -303,7 +303,7 @@
     ]
   },
   "api-tester": {
-    "name": "API Tester",
+    "name": "API-Tester",
     "description": "Testen Sie Ihre REST APIs sofort online. Ein schnelles, kostenloses und 100% clientseitiges Browser-API-Test-Tool mit Syntax-Hervorhebung, Code-Snippets und detaillierten Antworten.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -322,7 +322,7 @@
     ]
   },
   "asn1-decoder": {
-    "name": "ASN.1 Decoder",
+    "name": "ASN.1-Decoder",
     "description": "Decode ASN.1 DER von PEM, Base64 oder hex in einen Baum mit Tags, Längen, OIDs und Strings. Nested OCTET und BIT STRINGs wurden erweitert. Frei und privat.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -428,7 +428,7 @@
     ]
   },
   "baby-boy-name-generator": {
-    "name": "Baby Boy Name Generator",
+    "name": "Jungennamen-Generator",
     "description": "Bekommen Sie Jungennamen-Vorschläge mit der gewünschten Herkunft, dem Stil und der Länge: Das Werkzeug zieht aus den mitgelieferten Namen und zeigt acht Vorschläge gleichzeitig. Nichts wird hochgeladen.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -451,7 +451,7 @@
     ]
   },
   "baby-girl-name-generator": {
-    "name": "Baby Girl Name Generator",
+    "name": "Mädchennamen-Generator",
     "description": "Bekommen Sie Mädchennamen-Vorschläge mit der gewünschten Herkunft, dem Stil und der Länge: Das Werkzeug zieht aus den mitgelieferten Namen und zeigt acht Vorschläge gleichzeitig. Nichts wird hochgeladen.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -497,8 +497,8 @@
     ]
   },
   "baby-shower-bingo": {
-    "name": "Baby Shower Bingo Cards",
-    "description": "Free druckbare Baby-Dusche Bingo: einzigartige Geschenk-Bingo-Karten mit 48 Baby-Geschenkideen, Pastell-Thema, 1 bis 1.000 Karten und eine leere Option. PDF, keine Anmeldung.",
+    "name": "Baby-Shower-Bingo-Karten",
+    "description": "Druckbares Baby-Shower-Bingo: einzigartige Geschenk-Bingo-Karten mit 48 Baby-Geschenkideen, Pastell-Thema, 1 bis 1.000 Karten und eine leere Option. PDF, keine Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
     "features": [
@@ -516,7 +516,7 @@
     ]
   },
   "backwards-text-generator": {
-    "name": "Backwards Text Generator",
+    "name": "Text rückwärts schreiben",
     "description": "Text rückwärts schreiben: umgekehrte Buchstaben, Wortreihenfolge oder jedes Wort, oder erstellen Sie Spiegeltext. Emoji und Akzente bleiben intakt. Kopieren Sie mit einem Klick. Frei und privat.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -554,7 +554,7 @@
     ]
   },
   "bank-statement-to-csv": {
-    "name": "Bank Statement to CSV",
+    "name": "Kontoauszug in CSV umwandeln",
     "description": "Extrahieren Sie Transaktionen von einem textbasierten PDF-Kontoauszug in eine CSV-Datei mit lokaler Verarbeitung und einer Überprüfungstabelle.",
     "category": "Produktivität",
     "keywords": [],
@@ -573,7 +573,7 @@
     ]
   },
   "bank-statement-to-excel": {
-    "name": "Bank Statement to Excel",
+    "name": "Kontoauszug in Excel umwandeln",
     "description": "Machen Sie aus den Buchungen eines textbasierten PDF-Statements eine Tabelle, die Sie prüfen und exportieren können: Das Werkzeug holt die Zeilen heraus und übergibt sie als CSV, das Excel, LibreOffice und Google Sheets direkt öffnen.",
     "category": "Produktivität",
     "keywords": [],
@@ -592,7 +592,7 @@
     ]
   },
   "barcode-generator": {
-    "name": "Barcode Generator",
+    "name": "Barcode-Generator",
     "description": "Kostenloser Barcodegenerator für UPC, EAN-13, Code 128, Code 39, ITF-14, Data Matrix, PDF417 und mehr. Laden Sie PNG oder SVG herunter oder drucken Sie Massenetikettenblätter. Keine Anmeldung.",
     "category": "Design & Medien",
     "keywords": [],
@@ -611,7 +611,7 @@
     ]
   },
   "base64-decoder": {
-    "name": "Base64 Decoder",
+    "name": "Base64-Decoder",
     "description": "Decode Base64 Text und codierte Daten online, mit einem dedizierten Decodierungsarbeitsbereich und Kopiersteuerungen. Kostenlos, sofort und lokal in Ihrem Browser verarbeitet.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -630,7 +630,7 @@
     ]
   },
   "base64-encoder": {
-    "name": "Base64 Encoder",
+    "name": "Base64-Encoder",
     "description": "Encode Text- oder Dateidaten als Base64 in Ihrem Browser für Testnutzlasten, Datentransport und Entwicklungsbeispiele.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -725,7 +725,7 @@
     ]
   },
   "base64-to-pdf": {
-    "name": "Base64 to PDF",
+    "name": "Base64 in PDF umwandeln",
     "description": "Wiederherstellung eines PDF aus Base64-Daten oder Umwandlung von unterstütztem Base64-Text und -Bildern in ein PDF mit lokaler Browserverarbeitung.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -745,7 +745,7 @@
   },
   "base64-to-pdf-converter": {
     "name": "Base64 to PDF Konverter",
-    "description": "Convert Base64 kodierte Daten sofort in PDF-Dateien. Unterstützung für Text, Bilder und benutzerdefinierte Inhalte mit Echtzeit-Validierung und Vorschau.",
+    "description": "Wandeln Sie Base64-kodierte Daten sofort in PDF-Dateien. Unterstützung für Text, Bilder und benutzerdefinierte Inhalte mit Echtzeit-Validierung und Vorschau.",
     "category": "PDF & Dokumente",
     "keywords": [],
     "features": [
@@ -763,7 +763,7 @@
     ]
   },
   "base64-to-pdf-decoder": {
-    "name": "Base64 to PDF Decoder",
+    "name": "Base64-zu-PDF-Decoder",
     "description": "Decode Base64 PDF Bytes und laden Sie das Originaldokument herunter, ohne den codierten Inhalt an einen Server zu senden. Kostenloser Online-Decoder, der in Ihrem Browser läuft.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -858,7 +858,7 @@
     ]
   },
   "binary-translator": {
-    "name": "Binary Translator",
+    "name": "Binär-Übersetzer",
     "description": "Übersetzen Sie Binärcode in Text und Text in Binär sofort. Volle UTF-8-Unterstützung für Emoji und Akzente, benutzerdefinierte Trennzeichen und eine Byte-für-Byte-Aufschlüsselung. Frei.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -877,7 +877,7 @@
     ]
   },
   "bingo-card-generator": {
-    "name": "Bingo Card Generator",
+    "name": "Bingo-Karten-Generator",
     "description": "Kostenloser Bingo Card Generator: Machen Sie bis zu 1.000 einzigartige Karten mit den Zahlen 1-75, Ihren eigenen Wörtern oder Emoji. 3x3, 4x4 oder 5x5, PDF 1, 2 oder 4 pro Seite, eingebauter Aufrufer.",
     "category": "Produktivität",
     "keywords": [],
@@ -896,7 +896,7 @@
     ]
   },
   "black-out-text-in-pdf": {
-    "name": "Black Out Text in PDF",
+    "name": "Text in PDF schwärzen",
     "description": "Schwarzer Text in einem PDF, damit er nicht kopiert, durchsucht oder wiederhergestellt werden kann. Markieren Sie Wörter oder ziehen Sie Boxen, dann herunterladen. Frei und privat, in Ihrem Browser.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -915,7 +915,7 @@
     ]
   },
   "blank-bingo-card": {
-    "name": "Blank Bingo Card Template",
+    "name": "Leere Bingo-Karte (Vorlage)",
     "description": "Freie Bingo-Kartenvorlage zum Drucken und Ausfüllen von Hand: 3x3, 4x4 oder 5x5, mit oder ohne freien Speicherplatz und B-I-N-G-O-Header. PDF, 1, 2 oder 4 pro Seite.",
     "category": "Produktivität",
     "keywords": [],
@@ -934,7 +934,7 @@
     ]
   },
   "blank-text-generator": {
-    "name": "Blank Text Generator",
+    "name": "Leerzeichen-Text-Generator",
     "description": "Erzeugen Sie leeren Text: eine beliebige Anzahl leerer Zeichen und leerer Zeilen zum Kopieren in Instagram, TikTok, WhatsApp, Discord und Spielnamen. Frei, sofort.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -1087,7 +1087,7 @@
     ]
   },
   "bold-text-generator": {
-    "name": "Bold Text Generator",
+    "name": "Fettschrift-Generator",
     "description": "Machen Sie fetten Unicode-Text, den Sie kopieren und in Instagram, LinkedIn, X und anderswo ohne einen fetten Button einfügen können.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -1106,8 +1106,8 @@
     ]
   },
   "bracket-generator": {
-    "name": "Bracket Generator",
-    "description": "Free Bracket Generator: Fügen Sie Namen ein, wählen Sie einzelne oder doppelte Eliminierung oder Round Robin, klicken Sie auf Gewinner, um voranzukommen, drucken Sie dann ein PDF aus oder teilen Sie einen Link. Keine Anmeldung.",
+    "name": "Turnierbaum-Generator",
+    "description": "Turnierbaum-Generator: Fügen Sie Namen ein, wählen Sie einzelne oder doppelte Eliminierung oder Round Robin, klicken Sie auf Gewinner, um voranzukommen, drucken Sie dann ein PDF aus oder teilen Sie einen Link. Keine Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
     "features": [
@@ -1126,7 +1126,7 @@
   },
   "bracket-maker": {
     "name": "Bracket Ersteller",
-    "description": "Free Online Bracket Maker für Turniere, Spielabende und Stimmen. Single oder Double Elimination und Round Robin, mit Byes, Seeding, Scores, PDF und PNG. Kein Konto.",
+    "description": "Online-Turnierbaum für Turniere, Spielabende und Stimmen. Single oder Double Elimination und Round Robin, mit Byes, Seeding, Scores, PDF und PNG. Kein Konto.",
     "category": "Produktivität",
     "keywords": [],
     "features": [
@@ -1163,7 +1163,7 @@
     ]
   },
   "bulk-barcode-generator": {
-    "name": "Bulk Barcode Generator",
+    "name": "Barcode-Massengenerator",
     "description": "Generieren Sie Hunderte von Barcodes auf einmal: Fügen Sie eine Liste aus Excel oder Sheets ein, fügen Sie Bildunterschriften hinzu und laden Sie dann einen ZIP von PNG / SVG-Dateien oder ein PDF auf Avery-Labelblättern herunter.",
     "category": "Design & Medien",
     "keywords": [],
@@ -1275,7 +1275,7 @@
     ]
   },
   "chicago-citation-generator": {
-    "name": "Chicago Citation Generator",
+    "name": "Chicago-Zitat-Generator",
     "description": "Build Chicago Author-Date Referenzen für Bücher, Zeitschriftenartikel und Websites. Formatieren Sie Zitate lokal in Ihrem Browser und exportieren Sie nach Word oder BibTeX.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -1294,7 +1294,7 @@
     ]
   },
   "christmas-bingo": {
-    "name": "Christmas Bingo Cards",
+    "name": "Weihnachts-Bingo-Karten",
     "description": "Kostenlos druckbare Weihnachts-Bingo: Machen Sie einzigartige Karten mit Weihnachtswörtern oder Bild-Emoji, festlichen Farben und einem Anrufer. PDF 1, 2 oder 4 pro Seite. Keine Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -1313,7 +1313,7 @@
     ]
   },
   "christmas-budget-planner": {
-    "name": "Christmas Budget Planner",
+    "name": "Weihnachtsbudget-Planer",
     "description": "Kostenloser Weihnachtsbudgetplaner: Legen Sie ein Gesamtgeschenkbudget fest, teilen Sie es pro Person auf und sehen Sie ausgegeben, noch zu kaufen und Geld übrig, während Sie einkaufen. Drucken Sie ein PDF, keine Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -1332,7 +1332,7 @@
     ]
   },
   "christmas-gift-tracker": {
-    "name": "Christmas Gift Tracker",
+    "name": "Weihnachtsgeschenke-Planer",
     "description": "Kostenloser Weihnachtsgeschenk-Tracker: Listen Sie alle auf, für die Sie kaufen, legen Sie Budgets fest und verfolgen Sie jedes Geschenk von der Idee bis zum Kauf, verpackt und gegeben. Drucken Sie ein PDF, keine Anmeldung. Ihre Liste bleibt im Speicher des Tabs.",
     "category": "Produktivität",
     "keywords": [],
@@ -1371,7 +1371,7 @@
   },
   "christmas-wish-list-maker": {
     "name": "Christmas Wish List Ersteller",
-    "description": "Free Weihnachtswunschliste Maker: Fügen Sie Geschenke aus jedem Geschäft mit Links, Größen und Priorität hinzu, teilen Sie dann einen schreibgeschützten Link oder drucken Sie ihn aus. Kein Konto erforderlich.",
+    "description": "Weihnachtswunschliste erstellen: Fügen Sie Geschenke aus jedem Geschäft mit Links, Größen und Priorität hinzu, teilen Sie dann einen schreibgeschützten Link oder drucken Sie ihn aus. Kein Konto erforderlich.",
     "category": "Produktivität",
     "keywords": [],
     "features": [
@@ -1408,7 +1408,7 @@
     ]
   },
   "citation-generator": {
-    "name": "Citation Generator",
+    "name": "Zitat-Generator",
     "description": "Erzeugen Sie sofort genaue APA-, MLA-, Chicago- und Harvard-Zitate. Exportieren Sie nach Word oder BibTeX.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -1427,8 +1427,8 @@
     ]
   },
   "code-128-barcode-generator": {
-    "name": "Code 128 Barcode Generator",
-    "description": "Generate Code 128 und GS1-128 Barcodes für Inventar, Versand und Asset-Tags. Buchstaben, Zahlen und Symbole, Bulk von Excel, Avery Label Sheets. Frei.",
+    "name": "Code-128-Barcode-Generator",
+    "description": "Erzeugen Sie Code-128- und GS1-128 Barcodes für Inventar, Versand und Asset-Tags. Buchstaben, Zahlen und Symbole, Bulk von Excel, Avery Label Sheets. Frei.",
     "category": "Design & Medien",
     "keywords": [],
     "features": [
@@ -1446,8 +1446,8 @@
     ]
   },
   "code-39-barcode-generator": {
-    "name": "Code 39 Barcode Generator",
-    "description": "Create Code 39 und Code 93 Barcodes für Industrie-, Automobil- und Regierungsetiketten. Großbuchstaben, Ziffern und -. $ / + %. PNG, SVG und Massenetikettenblätter.",
+    "name": "Code-39-Barcode-Generator",
+    "description": "Erstellen Sie Code-39- und Code 93 Barcodes für Industrie-, Automobil- und Regierungsetiketten. Großbuchstaben, Ziffern und -. $ / + %. PNG, SVG und Massenetikettenblätter.",
     "category": "Design & Medien",
     "keywords": [],
     "features": [
@@ -1465,7 +1465,7 @@
     ]
   },
   "code-screenshot-generator": {
-    "name": "Code Screenshot Generator",
+    "name": "Code-Screenshot-Generator",
     "description": "Erstellen Sie einen sauberen Screenshot-PNG Ihres Codes mit anpassbaren Themen, Padding und optionalem Social Branding. Kostenloser Code Screenshot Generator online.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -1484,7 +1484,7 @@
     ]
   },
   "code-snippet-screenshot": {
-    "name": "Code Snippet Screenshot",
+    "name": "Code-Snippet als Bild",
     "description": "Erstellen Sie schöne Screenshots von Code-Snippets mit anpassbaren Hintergründen, Syntax-Hervorhebung und Social Media Branding. Perfekt für das Teilen auf Twitter, LinkedIn und Präsentationen.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -1522,7 +1522,7 @@
     ]
   },
   "coin-flip": {
-    "name": "Coin Flip",
+    "name": "Münzwurf",
     "description": "Erhalten Sie einen zufälligen Münzwurf mit einem animierten Wurf und Live-Statistiken. Drehen Sie mehrere Münzen um, führen Sie bis zu 100.000 Versuche und exportieren Sie Ergebnisse. Frei und Client-Seite.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -1541,7 +1541,7 @@
     ]
   },
   "coin-flip-simulator": {
-    "name": "Coin Flip Simulator",
+    "name": "Münzwurf-Simulator",
     "description": "Flip eine Münze online mit einer realistischen Animation. Werfen Sie mehrere Münzen, spielen Sie am besten 3 oder simulieren Sie 100.000 Flips. Kostenlos, privat und vollständig in Ihrem Browser.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -1561,7 +1561,7 @@
   },
   "college-gpa-calculator": {
     "name": "College GPA Rechner",
-    "description": "Free College GPA Calculator: Geben Sie Kurse, Kreditstunden und Noten ein, um Ihr Semester GPA und kumulatives GPA auf einer 4,0-Skala zu erhalten, plus das GPA, das Sie für das nächste Semester benötigen.",
+    "description": "GPA-Rechner für das College: Geben Sie Kurse, Kreditstunden und Noten ein, um Ihr Semester GPA und kumulatives GPA auf einer 4,0-Skala zu erhalten, plus das GPA, das Sie für das nächste Semester benötigen.",
     "category": "Rechner & Finanzen",
     "keywords": [],
     "features": [
@@ -1579,7 +1579,7 @@
     ]
   },
   "combine-pdf": {
-    "name": "Combine PDF",
+    "name": "PDF zusammenfügen",
     "description": "Kombinieren Sie PDF-Dateien in der Reihenfolge, in der Sie ein konsolidiertes Dokument auswählen und herunterladen. Kostenlos, keine Anmeldung, und Ihre Dateien werden in Ihrem Browser verarbeitet, nicht hochgeladen.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -1616,7 +1616,7 @@
     ]
   },
   "compress-pdf": {
-    "name": "Compress PDF",
+    "name": "PDF komprimieren",
     "description": "Shrink PDF-Dateien, um E-Mail- und Upload-Limits mit drei Qualitätsvoreinstellungen anzupassen, die zu 100% auf Ihrem Gerät verarbeitet und nie hochgeladen wurden.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -1653,7 +1653,7 @@
     ]
   },
   "countdown-to-date": {
-    "name": "Countdown to Any Date",
+    "name": "Countdown bis zum Wunschdatum",
     "description": "Erstellen Sie einen Live-Countdown für jedes Datum und jede Uhrzeit: Geburtstage, Hochzeiten, Reisen, Prüfungen oder Starts. Sehen Sie Tage, Stunden und Schlafen links, gehen Sie Vollbild und teilen Sie einen Link.",
     "category": "Produktivität",
     "keywords": [],
@@ -1671,8 +1671,8 @@
     ]
   },
   "cps-test": {
-    "name": "CPS Test",
-    "description": "Free CPS Test: Klicken Sie so schnell wie möglich für 1, 5, 10, 15, 30, 60 oder 100 Sekunden und sehen Sie Ihre Klicks pro Sekunde, Gesamtklicks und beste Punktzahl. Funktioniert mobil.",
+    "name": "CPS-Test (Klicks pro Sekunde)",
+    "description": "CPS-Test: Klicken Sie so schnell wie möglich für 1, 5, 10, 15, 30, 60 oder 100 Sekunden und sehen Sie Ihre Klicks pro Sekunde, Gesamtklicks und beste Punktzahl. Funktioniert mobil.",
     "category": "Gerätetests",
     "keywords": [],
     "features": [
@@ -1690,7 +1690,7 @@
     ]
   },
   "cron-expression-generator": {
-    "name": "Cron Expression Generator",
+    "name": "Cron-Ausdruck-Generator",
     "description": "Erstellen Sie einen Cron-Zeitplan aus gängigen Presets und prüfen Sie dessen Beschreibung und bevorstehende Laufzeiten, bevor Sie ihn kopieren.",
     "category": "Produktivität",
     "keywords": [],
@@ -1713,7 +1713,7 @@
     ]
   },
   "cron-expression-parser": {
-    "name": "Cron Expression Parser",
+    "name": "Cron-Ausdruck-Parser",
     "description": "Parse einen Cron-Ausdruck in einfache Sprache und Vorschau der nächsten geplanten Laufzeiten. Kostenloser Online-Cron-Parser für Crontab-Zeitpläne läuft in Ihrem Browser.",
     "category": "Produktivität",
     "keywords": [],
@@ -1735,7 +1735,7 @@
     ]
   },
   "crontab-generator": {
-    "name": "Crontab Generator",
+    "name": "Crontab-Generator",
     "description": "Bauen und verstehen Sie Cron-Ausdrücke mit Live-Beschreibung und nächsten Laufzeiten. Enthält Presets und Cheatsheet.",
     "category": "Produktivität",
     "keywords": [],
@@ -1758,7 +1758,7 @@
     ]
   },
   "csr-decoder": {
-    "name": "CSR Decoder",
+    "name": "CSR-Decoder",
     "description": "Decodieren und überprüfen Sie eine CSR, bevor Sie sie an eine CA senden: Betreff, SANs, Schlüsselgröße und Signatur. Flags schlechte Ländercodes, URLs in CN und schwache Schlüssel. Nichts hochgeladen.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -1834,7 +1834,7 @@
     ]
   },
   "cursive-text-generator": {
-    "name": "Cursive Text Generator",
+    "name": "Schreibschrift-Generator",
     "description": "Verwandeln Sie einfache Wörter in eleganten kursiven, Skript- und Blackletter-Unicode-Text, den Sie überall kopieren und einfügen können.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -1872,7 +1872,7 @@
     ]
   },
   "dnd-dice-roller": {
-    "name": "D&D Dice Roller",
+    "name": "D&D-Würfel",
     "description": "Roll DnD Würfel online: d4, d6, d8, d10, d12, d20 und d100. Verwenden Sie Würfel Notation, Modifikatoren und d20 Vorteil, dann kopieren oder exportieren Sie Ihre Rollen. 100% Client-Seite.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -1895,7 +1895,7 @@
     ]
   },
   "d20-roller": {
-    "name": "D20 Roller",
+    "name": "W20-Würfel",
     "description": "Roll ein d20 online mit Vorteil, Nachteil und Modifikatoren. Sehen Sie beide Würfel, das gehaltene Ergebnis und Ihre Gesamtsumme. Animiert, kostenlos und vollständig in Ihrem Browser.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -1914,8 +1914,8 @@
     ]
   },
   "data-matrix-generator": {
-    "name": "Data Matrix Generator",
-    "description": "Create Data Matrix und GS1 DataMatrix Codes für Teile, Gesundheitswesen und Elektronik. Text, URLs oder GS1-Daten kodieren; PNG oder Vektor SVG oder Bulk Sheets herunterladen.",
+    "name": "Data-Matrix-Code-Generator",
+    "description": "Erstellen Sie Data-Matrix- und GS1 DataMatrix Codes für Teile, Gesundheitswesen und Elektronik. Text, URLs oder GS1-Daten kodieren; PNG oder Vektor SVG oder Bulk Sheets herunterladen.",
     "category": "Design & Medien",
     "keywords": [],
     "features": [
@@ -1993,7 +1993,7 @@
     ]
   },
   "dead-pixel-test": {
-    "name": "Dead Pixel Test",
+    "name": "Dead-Pixel-Test",
     "description": "Prüfen Sie Ihren Bildschirm auf tote und steckengebliebene Pixel mit Vollbild-Farbbildschirmen, Farbverläufen für Banding und einem steckengebliebenen Pixelfixer. Monitore, Laptops, Telefone und Fernseher.",
     "category": "Gerätetests",
     "keywords": [],
@@ -2017,7 +2017,7 @@
   },
   "decimal-to-binary": {
     "name": "Decimal to Binary Konverter",
-    "description": "Convert dezimal zu binär sofort, mit dem Divid-by-2 Arbeit gezeigt. Signierte Zweier-Komplemente für 8 bis 64 Bit, anklickbare Bitansicht und Unterstützung für große Zahlen.",
+    "description": "Rechnen Sie Dezimalzahlen sofort in Binärzahlen um, mit dem Divid-by-2 Arbeit gezeigt. Signierte Zweier-Komplemente für 8 bis 64 Bit, anklickbare Bitansicht und Unterstützung für große Zahlen.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
     "features": [
@@ -2072,7 +2072,7 @@
     ]
   },
   "dice-roller": {
-    "name": "Dice Roller",
+    "name": "Online-Würfel",
     "description": "Rollen Sie einen Würfel online in Ihrem Browser. Rollen Sie bis zu 100 Würfel, wählen Sie d4-d100 oder benutzerdefinierte Seiten, fügen Sie Modifikatoren hinzu und behalten Sie einen Verlauf Ihrer Würfe. Kostenlos und 100% kundenseitig.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -2095,7 +2095,7 @@
     ]
   },
   "dirty-santa-rules": {
-    "name": "Dirty Santa Rules",
+    "name": "Dirty-Santa-Regeln",
     "description": "Dirty Santa Regeln erklärt: Zahlen ziehen, öffnen oder stehlen, ein Geschenk ist nach 3 Steals tot. Plus einen kostenlosen Dirty Santa Game Tracker mit zufälliger Reihenfolge und Rückgängigmachung.",
     "category": "Produktivität",
     "keywords": [],
@@ -2117,7 +2117,7 @@
     ]
   },
   "discord-username-generator": {
-    "name": "Discord Username Generator",
+    "name": "Discord-Namen-Generator",
     "description": "Generieren Sie einen Discord Username mit Kleinbuchstaben, Ziffern oder Unterstrichen. Fügen Sie Ihr eigenes Wort hinzu, speichern Sie Favoriten und kopieren Sie einen Griff. Frei und Client-Seite.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -2200,7 +2200,7 @@
     ]
   },
   "double-click-test": {
-    "name": "Double Click Test",
+    "name": "Doppelklick-Test",
     "description": "Ist Ihre Maus Doppelklick von selbst? Einzelklick in das Feld und jede Presse, die zweimal registriert wird mit seinem Timing gekennzeichnet. Einstellbarer Schwellenwert, frei.",
     "category": "Gerätetests",
     "keywords": [],
@@ -2223,7 +2223,7 @@
     ]
   },
   "double-elimination-bracket": {
-    "name": "Double Elimination Bracket Generator",
+    "name": "Double-Elimination-Turnierbaum",
     "description": "Kostenloser Double Elimination Bracket Generator mit Gewinner- und Verliererklammern, einem großen Finale und einem optionalen Reset. Byes für eine beliebige Anzahl von Teams, PDF und PNG.",
     "category": "Produktivität",
     "keywords": [],
@@ -2242,7 +2242,7 @@
     ]
   },
   "ean-13-barcode-generator": {
-    "name": "EAN-13 Barcode Generator",
+    "name": "EAN-13-Barcode-Generator",
     "description": "Generieren Sie EAN-13 und EAN-8 Barcodes für Produkte, die in Europa und weltweit verkauft werden. Prüfen Sie die automatisch hinzugefügte Ziffer; Laden Sie PNG oder Vektor SVG in Standardgröße herunter.",
     "category": "Design & Medien",
     "keywords": [],
@@ -2261,8 +2261,8 @@
     ]
   },
   "easy-grader": {
-    "name": "Easy Grader",
-    "description": "Free Online Easy Grader für Lehrer. Geben Sie die Anzahl der Fragen ein, um ein druckbares Bewertungsdiagramm mit dem Prozentsatz und dem Buchstaben für jede falsche Zahl zu erhalten.",
+    "name": "Notenrechner für Lehrer",
+    "description": "Online-Notenrechner für Lehrer. Geben Sie die Anzahl der Fragen ein, um ein druckbares Bewertungsdiagramm mit dem Prozentsatz und dem Buchstaben für jede falsche Zahl zu erhalten.",
     "category": "Rechner & Finanzen",
     "keywords": [],
     "features": [
@@ -2297,7 +2297,7 @@
     ]
   },
   "email-header-analyzer": {
-    "name": "Email Header Analyzer",
+    "name": "E-Mail-Header-Analyse",
     "description": "Paste E-Mail-Header oder öffnen Sie eine .eml/.msg, um jeden Liefersprung und jede Verzögerung zu verfolgen, SPF, DKIM und DMARC zu überprüfen und Phishing-Zeichen zu erkennen. Frei und privat.",
     "category": "Produktivität",
     "keywords": [],
@@ -2321,7 +2321,7 @@
   },
   "eml-to-pdf": {
     "name": "EML to PDF Konverter",
-    "description": "Convert .eml E-Mails zu PDF in Ihrem Browser, mit Absender, Empfänger, Datum und Anhänge oben aufgeführt. Inline-Bilder gehalten, Tracking blockiert. Frei.",
+    "description": "Wandeln Sie .eml-E-Mails in PDF um in Ihrem Browser, mit Absender, Empfänger, Datum und Anhänge oben aufgeführt. Inline-Bilder gehalten, Tracking blockiert. Frei.",
     "category": "Produktivität",
     "keywords": [],
     "features": [
@@ -2451,7 +2451,7 @@
     ]
   },
   "extract-pdf-pages": {
-    "name": "Extract PDF Pages",
+    "name": "PDF-Seiten extrahieren",
     "description": "Wählen Sie Seiten aus einem PDF und speichern Sie sie als separates Dokument, alles in Ihrem Browser. Kostenloses Online-Tool zum Extrahieren von PDF-Seiten ohne Uploads oder Wasserzeichen.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -2470,7 +2470,7 @@
     ]
   },
   "face-pixelator": {
-    "name": "Face Pixelator",
+    "name": "Gesichter verpixeln",
     "description": "Ein Gesicht in einem Foto mosaikisieren: Markieren Sie das Gesicht und stellen Sie die Pixelgröße ein, dann wird der markierte Bereich zu einem Mosaik. Läuft in Ihrem Browser, nichts wird hochgeladen.",
     "category": "Design & Medien",
     "keywords": [],
@@ -2488,7 +2488,7 @@
     ]
   },
   "fancy-text-generator": {
-    "name": "Fancy Text Generator",
+    "name": "Schöne-Schrift-Generator",
     "description": "Verwandeln Sie einfache Wörter in ausgefallene Unicode-Text- und Symbolrahmen, die Sie kopieren und in jede Biografie, jeden Benutzernamen oder jede Bildunterschrift einfügen können.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -2507,7 +2507,7 @@
     ]
   },
   "favicon-generator": {
-    "name": "Favicon Generator",
+    "name": "Favicon-Generator",
     "description": "Erstellen Sie professionelle Favicons aus Bildern mit anpassbaren Größen, Hintergründen und Formaten (ICO, PNG, SVG).",
     "category": "Design & Medien",
     "keywords": [],
@@ -2613,7 +2613,7 @@
     ]
   },
   "flip-a-coin": {
-    "name": "Flip a Coin",
+    "name": "Münze werfen",
     "description": "Flip eine Münze online für eine schnelle Kopf oder Zahl Entscheidung. Fügen Sie Ihre eigenen Entscheidungen hinzu, werfen Sie bis zu fünf Münzen oder spielen Sie Best of 3. Kostenlos und vollständig in Ihrem Browser.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -2632,7 +2632,7 @@
     ]
   },
   "focus-timer": {
-    "name": "Focus Timer",
+    "name": "Fokus-Timer",
     "description": "Führen Sie einen fokussierten Work Countdown mit einstellbaren Sitzungslängen, Pausenintervallen und Warnungen aus, um bei der Aufgabe zu bleiben. Kostenloser online-fokus-timer, keine anmeldung oder installation.",
     "category": "Produktivität",
     "keywords": [],
@@ -2651,7 +2651,7 @@
     ]
   },
   "font-generator": {
-    "name": "Font Generator",
+    "name": "Schriftarten-Generator",
     "description": "Verwandeln Sie Klartext in 100+ ausgefallene Unicode-Schriftarten, die Sie überall kopieren und einfügen können, mit Live-Plattform-Kompatibilitätsprüfungen.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -2670,7 +2670,7 @@
     ]
   },
   "instagram-fonts": {
-    "name": "Fonts for Instagram",
+    "name": "Schriftarten für Instagram",
     "description": "Copy-and-Paste-Schriftarten für Instagram-Bios, Namen, Bildunterschriften und Geschichten, die anhand der eigenen Grenzen und Filterung von Instagram überprüft werden.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -2730,7 +2730,7 @@
     ]
   },
   "gamepad-tester": {
-    "name": "Gamepad Tester",
+    "name": "Gamepad-Test",
     "description": "Testen Sie Ihren Controller online: Tasten, Trigger, Sticks, Drift, Zirkularität und Vibration. Funktioniert mit Xbox, PS5, PS4 und Switch Pro. Free, keine Installation.",
     "category": "Gerätetests",
     "keywords": [],
@@ -2787,7 +2787,7 @@
     ]
   },
   "gift-exchange-generator": {
-    "name": "Gift Exchange Generator",
+    "name": "Wichteln-Generator",
     "description": "Kostenloser Geschenkaustauschgenerator für Arbeit, Familie, Freunde und Geburtstage. Zeichnen Sie Namen, schließen Sie Paare aus, legen Sie ein Budget fest und senden Sie private Links. Keine E-Mail oder Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -2825,7 +2825,7 @@
     ]
   },
   "glitch-text-generator": {
-    "name": "Glitch Text Generator",
+    "name": "Glitch-Text-Generator",
     "description": "Erstellen Sie glitchy, verzerrten Text für Bios, Gaming-Namen und Posts. Leichte bis schwere Störeffekte, Shuffle und Kopieren mit einem Klick. Frei, privat und sofort.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -2864,7 +2864,7 @@
   },
   "gpa-calculator": {
     "name": "GPA Rechner",
-    "description": "Free GPA Rechner für High School und College. Fügen Sie Klassen, Credits und Brief- oder Prozentnoten hinzu, um Ihr Semester, kumulative und gewichtete GPA zu erhalten. Keine Anmeldung.",
+    "description": "GPA-Rechner für High School und College. Fügen Sie Klassen, Credits und Brief- oder Prozentnoten hinzu, um Ihr Semester, kumulative und gewichtete GPA zu erhalten. Keine Anmeldung.",
     "category": "Rechner & Finanzen",
     "keywords": [],
     "features": [
@@ -2883,7 +2883,7 @@
   },
   "grade-calculator": {
     "name": "Grade Rechner",
-    "description": "Free Grade Calculator: Geben Sie Kategorien, Gewichte oder Punkte ein, um Ihre Klassennote und Ihren Brief zu erhalten, zu sehen, was Sie für das Finale benötigen, und Tests zu erhalten. Keine Anmeldung.",
+    "description": "Notenrechner: Geben Sie Kategorien, Gewichte oder Punkte ein, um Ihre Klassennote und Ihren Brief zu erhalten, zu sehen, was Sie für das Finale benötigen, und Tests zu erhalten. Keine Anmeldung.",
     "category": "Rechner & Finanzen",
     "keywords": [],
     "features": [
@@ -2923,7 +2923,7 @@
     ]
   },
   "graphql-minifier": {
-    "name": "GraphQL Minifier",
+    "name": "GraphQL-Minifier",
     "description": "Minify GraphQL Queries und Schemas in kompakte Single-Line-Strings: kleinere Nutzlasten, bereit zum Einbetten in Code.",
     "category": "Datenbank & SQL",
     "keywords": [],
@@ -2946,7 +2946,7 @@
     ]
   },
   "graphql-schema-explorer": {
-    "name": "GraphQL Schema Explorer",
+    "name": "GraphQL-Schema-Explorer",
     "description": "Browse GraphQL Typen, Felder, Argumente und Definitionen in einem durchsuchbaren Schema Explorer. Fügen Sie Ihr SDL ein und navigieren Sie es kostenlos, verarbeitet in Ihrem Browser.",
     "category": "Datenbank & SQL",
     "keywords": [],
@@ -2969,7 +2969,7 @@
     ]
   },
   "graphql-schema-validator": {
-    "name": "GraphQL Schema Validator",
+    "name": "GraphQL-Schema-Validator",
     "description": "Validate GraphQL Schemadefinitionen (SDL) und inspizieren gemeldete Syntax- oder Schemafehler mit Zeilendetails. Kostenloser Online-Validator, der in Ihrem Browser läuft.",
     "category": "Datenbank & SQL",
     "keywords": [],
@@ -3015,7 +3015,7 @@
     ]
   },
   "graphql-validator": {
-    "name": "GraphQL Validator",
+    "name": "GraphQL-Validator",
     "description": "Validieren Sie GraphQL-Abfragen, Mutationen und Schemata beim Eingeben: Syntaxfehler, die mit Zeilennummern gekennzeichnet sind, plus Abfrageanalyse.",
     "category": "Datenbank & SQL",
     "keywords": [],
@@ -3056,7 +3056,7 @@
     ]
   },
   "handwriting-generator": {
-    "name": "Handwriting Generator",
+    "name": "Handschrift-Generator",
     "description": "Generieren Sie Handschrift aus Text online. 12 handschriftliche und kursive Schriften, Papier- und Tintenfarben. Laden Sie handschriftliche Notizen als PNG oder PDF herunter. Frei und privat.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -3075,8 +3075,8 @@
     ]
   },
   "harvard-citation-generator": {
-    "name": "Harvard Citation Generator",
-    "description": "Generate Harvard Autorendatum Referenzen für Bücher, Artikel und Websites. Geben Sie Details privat in Ihren Browser ein, importieren Sie BibTeX und exportieren Sie nach Word.",
+    "name": "Harvard-Zitat-Generator",
+    "description": "Erzeugen Sie Harvard-Quellenangaben (Autor-Jahr) für Bücher, Artikel und Websites. Geben Sie Details privat in Ihren Browser ein, importieren Sie BibTeX und exportieren Sie nach Word.",
     "category": "Textverarbeitung",
     "keywords": [],
     "features": [
@@ -3094,7 +3094,7 @@
     ]
   },
   "hash-generator": {
-    "name": "Hash Generator",
+    "name": "Hash-Generator",
     "description": "Secure, clientseitiger Hash-Generator, der MD5, SHA-256, bcrypt und mehr unterstützt. Hash-Texte oder Dateien sofort offline.",
     "category": "Sicherheit & Datenschutz",
     "keywords": [],
@@ -3113,7 +3113,7 @@
     ]
   },
   "headphone-test": {
-    "name": "Headphone Test",
+    "name": "Kopfhörer-Test",
     "description": "Test Kopfhörer und Ohrhörer online: Links-/Rechts-Audiotest, Stereo- und Polaritätsprüfung, Frequenzsweep und Tongenerator. Funktioniert mit Bluetooth und kabelgebunden. Frei.",
     "category": "Gerätetests",
     "keywords": [],
@@ -3171,7 +3171,7 @@
   },
   "hex-calculator": {
     "name": "Hex Rechner",
-    "description": "Free Hex Calculator: addieren, subtrahieren, multiplizieren und dividieren hexadezimale Zahlen, plus UND, ODER, XOR, NICHT und Verschiebungen. Ergebnisse in hex, dezimal, binär und oktal.",
+    "description": "Hex-Rechner: addieren, subtrahieren, multiplizieren und dividieren hexadezimale Zahlen, plus UND, ODER, XOR, NICHT und Verschiebungen. Ergebnisse in hex, dezimal, binär und oktal.",
     "category": "Rechner & Finanzen",
     "keywords": [],
     "features": [
@@ -3246,7 +3246,7 @@
     ]
   },
   "hex-to-rgb": {
-    "name": "HEX to RGB",
+    "name": "HEX in RGB umrechnen",
     "description": "Konvertieren Sie einen hexadezimalen Farbcode in rote, grüne und blaue Werte mit einer Live-Farbvorschau. Kostenloser Online-HEX zu RGB-Konverter mit einem Klick.",
     "category": "Design & Medien",
     "keywords": [],
@@ -3304,7 +3304,7 @@
   },
   "high-school-gpa-calculator": {
     "name": "High School GPA Rechner",
-    "description": "Free High School GPA Rechner. Fügen Sie Klassen, Noten und Ehrungen, AP- oder IB-Level hinzu, um Ihren gewichteten und ungewichteten GPA für jedes Semester und insgesamt zu sehen. Keine Anmeldung.",
+    "description": "GPA-Rechner für die High School. Fügen Sie Klassen, Noten und Ehrungen, AP- oder IB-Level hinzu, um Ihren gewichteten und ungewichteten GPA für jedes Semester und insgesamt zu sehen. Keine Anmeldung.",
     "category": "Rechner & Finanzen",
     "keywords": [],
     "features": [
@@ -3358,7 +3358,7 @@
     ]
   },
   "days-until-christmas": {
-    "name": "How Many Days Until Christmas?",
+    "name": "Wie viele Tage bis Weihnachten?",
     "description": "Wie viele Tage bis Weihnachten? Live Weihnachts Countdown: Tage, Stunden, Minuten und Sekunden bis zum Weihnachtstag, plus Schlaf, Wochen, Wochentage und Wochenenden. Vollbildmodus, keine Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -3381,7 +3381,7 @@
     ]
   },
   "days-until-halloween": {
-    "name": "How Many Days Until Halloween?",
+    "name": "Wie viele Tage bis Halloween?",
     "description": "Wie viele Tage bis Halloween? Live Halloween Countdown: Tage, Stunden, Minuten und Sekunden bis zum 31. Oktober, plus Wochenenden, um Kostüme und Partys zu planen. Vollbildmodus, keine Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -3423,7 +3423,7 @@
     ]
   },
   "html-formatter": {
-    "name": "HTML Formatter",
+    "name": "HTML-Formatierer",
     "description": "Format verkleinerte HTML in sauberen, eingerückten Code. Formatiert eingebettetes CSS und JavaScript, wickelt lange Linien ein, markiert unclosed Tags und zeigt die Seite an. Frei.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -3442,7 +3442,7 @@
     ]
   },
   "html-minifier": {
-    "name": "HTML Minifier",
+    "name": "HTML-Minifier",
     "description": "Minify HTML sicher: Kommentare entfernen, Whitespace zusammenbrechen, Inline-CSS und JSON-LD komprimieren, optional Attribut-Zitate ablegen. Zeigt Bytes gespeichert. Frei, privat.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -3461,7 +3461,7 @@
     ]
   },
   "html-table-to-markdown": {
-    "name": "HTML Table to Markdown",
+    "name": "HTML-Tabelle in Markdown umwandeln",
     "description": "HTML-Tabellen-Syntax konvertieren und die Ausgabe überprüfen, bevor sie in Dokumenten oder einem README verwendet wird. Kostenlos, sofort und lokal in Ihrem Browser verarbeitet.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -3518,7 +3518,7 @@
     ]
   },
   "http-request-tester": {
-    "name": "HTTP Request Tester",
+    "name": "HTTP-Request-Tester",
     "description": "Komponieren Sie eine HTTP-Anfrage, passen Sie deren Header und Body an und prüfen Sie die Serverantwort in einem Browser-Arbeitsbereich.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -3685,7 +3685,7 @@
     ]
   },
   "invisible-character": {
-    "name": "Invisible Character",
+    "name": "Unsichtbares Zeichen",
     "description": "kopieren Sie unsichtbare Zeichen und leeren Text (ᅠ U+3164, ⠀ U+2800, Nullbreitenraum) für leere Namen, Nachrichten und Bios. Plus einen Detektor für versteckte Charaktere.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -3723,7 +3723,7 @@
     ]
   },
   "isbn-barcode-generator": {
-    "name": "ISBN Barcode Generator",
+    "name": "ISBN-Barcode-Generator",
     "description": "Erstellen Sie einen ISBN-Barcode für Ihr Buchcover von einem ISBN-13 oder ISBN-10. Konvertiert ISBN-10, prüft die Ziffern und exportiert Vektor SVG oder 600 DPI PNG. Frei.",
     "category": "Design & Medien",
     "keywords": [],
@@ -3742,7 +3742,7 @@
     ]
   },
   "javascript-regex-tester": {
-    "name": "JavaScript Regex Tester",
+    "name": "JavaScript-Regex-Tester",
     "description": "Testen Sie JavaScript reguläre Ausdrücke gegen Beispieltext mit hervorgehobenen Übereinstimmungen, Gruppen erfassen und Flags. Kostenloser Online JS Regex Tester, läuft in Ihrem Browser.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -3856,7 +3856,7 @@
     ]
   },
   "json-compare": {
-    "name": "JSON Compare",
+    "name": "JSON vergleichen",
     "description": "Vergleichen Sie zwei JSON-Dokumente und sehen Sie Unterschiede in ihren Werten und ihrer Struktur, wobei die Schlüsselreihenfolge ignoriert wird. Kostenloses Online-JSON-Vergleichstool, das in Ihrem Browser ausgeführt wird.",
     "category": "Datenformate",
     "keywords": [],
@@ -3875,7 +3875,7 @@
     ]
   },
   "json-diff": {
-    "name": "JSON Diff",
+    "name": "JSON-Diff",
     "description": "Suchen Sie hinzugefügte, entfernte und geänderte Werte zwischen zwei JSON-Eingängen in einem Side-by-Side-Diff. Kostenloses Online JSON Diff Tool mit privater, browser-lokaler Verarbeitung.",
     "category": "Datenformate",
     "keywords": [],
@@ -3894,7 +3894,7 @@
     ]
   },
   "json-editor": {
-    "name": "JSON Editor",
+    "name": "JSON-Editor",
     "description": "Bearbeiten Sie JSON online mit Syntax-Hervorhebung, Live-Validierung, Codefaltung, Suchen und Ersetzen und einer Baumansicht. Öffnen und speichern Sie .json-Dateien auf Ihrem Gerät.",
     "category": "Datenformate",
     "keywords": [],
@@ -3913,7 +3913,7 @@
     ]
   },
   "json-formatter": {
-    "name": "JSON Formatter & Validator",
+    "name": "JSON-Formatierer & Validator",
     "description": "Formatieren und validieren Sie JSON online. Öffnen Sie eine .json-Datei oder fügen Sie Text ein, formatieren Sie mit 2 Leerzeichen, 4 Leerzeichen oder Registerkarten, finden Sie Fehler nach Zeile und verkleinern Sie. Keine Uploads.",
     "category": "Datenformate",
     "keywords": [],
@@ -3932,7 +3932,7 @@
     ]
   },
   "json-minifier": {
-    "name": "JSON Minifier",
+    "name": "JSON-Minifier",
     "description": "Minimieren Sie JSON auf eine einzelne Zeile und sehen Sie, wie viele Bytes Sie gespeichert haben. Entfernt Whitespace und Linienumbrüche, hält aber die Saiten intakt. Öffnen Sie .json Dateien, keine Uploads.",
     "category": "Datenformate",
     "keywords": [],
@@ -3970,7 +3970,7 @@
     ]
   },
   "json-diff-compare": {
-    "name": "JSON Semantic Diff & Compare",
+    "name": "JSON-Vergleich (semantisch)",
     "description": "Vergleichen Sie zwei JSON-Objekte semantisch mit unserem Privacy-First-Tool auf Kundenseite. Identifizieren Sie strukturelle Unterschiede, ignorieren Sie die Schlüsselreihenfolge und formatieren Sie mühelos.",
     "category": "Datenformate",
     "keywords": [],
@@ -4008,7 +4008,7 @@
     ]
   },
   "json-to-toon": {
-    "name": "JSON to TOON",
+    "name": "JSON in TOON umwandeln",
     "description": "Konvertieren Sie zwischen JSON und TOON Format, um 30-60% Token für LLM-Aufforderungen mit bidirektionaler Konvertierung zu speichern.",
     "category": "Datenformate",
     "keywords": [],
@@ -4046,7 +4046,7 @@
     ]
   },
   "json-to-ts": {
-    "name": "JSON to TS",
+    "name": "JSON in TypeScript umwandeln",
     "description": "Verwandeln Sie JSON-Daten in TypeScript-Schnittstellendeklarationen, einschließlich verschachtelter Objekte und Arrays, die zur Überprüfung und zum Kopieren bereit sind. Kostenloses, sofortiges, privates JSON to TS Tool.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -4084,7 +4084,7 @@
     ]
   },
   "json-to-typescript-interface": {
-    "name": "JSON to TypeScript Interface",
+    "name": "JSON in TypeScript-Interface umwandeln",
     "description": "Generieren Sie TypeScript-Schnittstellen aus einem JSON-Sample mit Optionen für optionale Eigenschaften, Benennung und Exporte. Kostenloser Online-Konverter, der in Ihrem Browser läuft.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -4103,7 +4103,7 @@
     ]
   },
   "json-validator": {
-    "name": "JSON Validator",
+    "name": "JSON-Validator",
     "description": "Validieren Sie die JSON-Syntax mit Zeilen- und Spaltenfehlerindikatoren, einer einfachen englischen Diagnose und einer automatischen Reparatur. Öffnen Sie .json Dateien, keine Uploads.",
     "category": "Datenformate",
     "keywords": [],
@@ -4141,7 +4141,7 @@
     ]
   },
   "jwt-decoder": {
-    "name": "JWT Decoder",
+    "name": "JWT-Decoder",
     "description": "Decodieren Sie einen JWT-Header und eine Nutzlast, um die Ansprüche, den Ablauf und die Ausstellung zu bestimmten Zeiten zu überprüfen. Kostenloser Online-JWT-Decoder; Token bleiben in Ihrem Browser und werden nie gesendet.",
     "category": "Sicherheit & Datenschutz",
     "keywords": [],
@@ -4159,7 +4159,7 @@
     ]
   },
   "jwt-decoder-encoder": {
-    "name": "JWT Decoder / Encoder",
+    "name": "JWT-Decoder/Encoder",
     "description": "Entschlüsseln, verifizieren und generieren Sie JSON Web Tokens (JWT) lokal in Ihrem Browser. Unterstützt HS256, RS256 und mehr.",
     "category": "Sicherheit & Datenschutz",
     "keywords": [],
@@ -4178,7 +4178,7 @@
     ]
   },
   "jwt-encoder": {
-    "name": "JWT Encoder",
+    "name": "JWT-Encoder",
     "description": "Encode JWT-Header- und Nutzdaten und signieren Testtoken für Entwicklung und Debugging. Kostenloser online-jwt-encoder, der lokal läuft, schlüssel verlassen ihr gerät nie.",
     "category": "Sicherheit & Datenschutz",
     "keywords": [],
@@ -4201,7 +4201,7 @@
     ]
   },
   "keyboard-test": {
-    "name": "Keyboard Test",
+    "name": "Tastatur-Test",
     "description": "Testen Sie Ihre Tastatur online: Jeder Schlüssel leuchtet auf, wenn er sich registriert, mit Key-Rollover, Chatter-Erkennung und einem JavaScript-Schlüsselcode-Log. Kostenlos, privat, keine Installation.",
     "category": "Gerätetests",
     "keywords": [],
@@ -4220,7 +4220,7 @@
     ]
   },
   "latex-equation-editor": {
-    "name": "LaTeX Equation Editor",
+    "name": "LaTeX-Formeleditor",
     "description": "Schreiben Sie eine LaTeX-Formel und sehen Sie sie sofort gerendert: Die Live-Vorschau zeigt echtes MathML, eine Palette anklickbarer Symbole hilft beim Schreiben, und Sie können das MathML kopieren. Kostenlos, privat, ohne Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -4281,8 +4281,8 @@
     ]
   },
   "letter-to-santa-template": {
-    "name": "Letter to Santa Template",
-    "description": "Free Brief an Santa Vorlage: Geben Sie den Namen, das Alter und die Wünsche Ihres Kindes ein und drucken Sie einen dekorierten Lieben Weihnachtsbrief mit einem Platz zum Zeichnen. PDF, keine Anmeldung.",
+    "name": "Brief an den Weihnachtsmann (Vorlage)",
+    "description": "Brief an den Weihnachtsmann (Vorlage): Geben Sie den Namen, das Alter und die Wünsche Ihres Kindes ein und drucken Sie einen dekorierten Lieben Weihnachtsbrief mit einem Platz zum Zeichnen. PDF, keine Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
     "features": [
@@ -4300,7 +4300,7 @@
     ]
   },
   "list-randomizer": {
-    "name": "List Randomizer",
+    "name": "Liste mischen",
     "description": "Shuffle-Namen, Zahlen oder eine beliebige Liste in zufälliger Reihenfolge auf. Öffnen Sie eine Datei, entfernen Sie Duplikate, wählen Sie Elemente aus oder erstellen Sie Gruppen. Kostenlos, privat und vollständig in Ihrem Browser.",
     "category": "Produktivität",
     "keywords": [],
@@ -4338,7 +4338,7 @@
     ]
   },
   "local-ai-chat": {
-    "name": "Local AI Chat",
+    "name": "Lokaler KI-Chat",
     "description": "Ein Chat-Arbeitsbereich für ein Sprachmodell, das auf Ihrem eigenen Gerät läuft. Der Seite ist kein Modell beigelegt: Das Tool lädt die Gewichte für Qwen2.5 oder Llama von dieser Origin, wenn Sie sie dort abgelegt haben, meldet, ob WebGPU verfügbar ist, und behält jeden Prompt auf Ihrem Gerät. Die Inferenz-Laufzeit ist noch nicht Teil dieser Website, deshalb wird keine Antwort erzeugt und niemals eine erfunden.",
     "category": "Produktivität",
     "keywords": [],
@@ -4426,7 +4426,7 @@
     ]
   },
   "magic-eraser": {
-    "name": "Magic Eraser",
+    "name": "Radierer für Objekte im Foto",
     "description": "Unerwünschte Objekte aus einem Foto entfernen, indem Sie darüber bürsten: Der gepinselte Bereich wird mit der mittleren Farbe der umgebenden Pixel gefüllt. Kein Modell rekonstruiert das Dahinterliegende, und nichts wird hochgeladen.",
     "category": "Design & Medien",
     "keywords": [],
@@ -4500,7 +4500,7 @@
     ]
   },
   "markdown-preview": {
-    "name": "Markdown Preview",
+    "name": "Markdown-Vorschau",
     "description": "Write und Preview Markdown mit Live-HTML-Rendering, Syntax-Hervorhebung und LaTeX-Mathematik-Unterstützung.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -4538,7 +4538,7 @@
     ]
   },
   "markdown-to-pdf": {
-    "name": "Markdown to PDF",
+    "name": "Markdown in PDF umwandeln",
     "description": "Konvertieren Sie Markdown-Dokumente in PDF mit Live-Vorschau und Export mit einem Klick.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -4577,7 +4577,7 @@
   },
   "markdown-to-word": {
     "name": "Markdown to Wort",
-    "description": "Convert Markdown in ein Word-kompatibles DOCX-Dokument mit beibehaltenen Überschriften, Listen, Tabellen und Code. Kostenloser Online-Markdown zu Word-Konverter, keine Uploads.",
+    "description": "Wandeln Sie Markdown in ein Word-kompatibles DOCX-Dokument mit beibehaltenen Überschriften, Listen, Tabellen und Code. Kostenloser Online-Markdown zu Word-Konverter, keine Uploads.",
     "category": "Textverarbeitung",
     "keywords": [],
     "features": [
@@ -4614,7 +4614,7 @@
     ]
   },
   "markdown-wysiwyg-editor": {
-    "name": "Markdown WYSIWYG Editor",
+    "name": "Markdown-WYSIWYG-Editor",
     "description": "Edit Markdown visuell mit WYSIWYG Formatierungssteuerungen, anstatt jeden Syntaxmarker von Hand einzugeben, dann kopieren oder exportieren. Kostenlos und läuft in Ihrem Browser.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -4651,7 +4651,7 @@
     ]
   },
   "md-to-docx": {
-    "name": "MD to DOCX",
+    "name": "Markdown in DOCX umwandeln",
     "description": "Verwandeln Sie eine MD-Datei in ein editierbares DOCX-Dokument mit einer Live-Konvertierungsvorschau und laden Sie sie dann herunter. Kostenloser MD zu DOCX-Konverter, der in Ihrem Browser ausgeführt wird.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -4670,7 +4670,7 @@
     ]
   },
   "md-to-pdf": {
-    "name": "MD to PDF",
+    "name": "MD in PDF umwandeln",
     "description": "Konvertieren Sie ein MD-Dokument in ein herunterladbares PDF mit gestylten Überschriften, Tabellen und Codeblöcken. Kostenloser MD zu PDF Konverter, der lokal läuft, keine Uploads.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -4689,7 +4689,7 @@
     ]
   },
   "md5-generator": {
-    "name": "MD5 Hash Generator",
+    "name": "MD5-Hash-Generator",
     "description": "Generieren Sie MD5 Prüfsummen aus Text oder Dateien sofort. 100% Client-Seite. Überprüfen Sie Downloads und deduplizieren Sie Dateien, ohne etwas hochzuladen.",
     "category": "Sicherheit & Datenschutz",
     "keywords": [],
@@ -4726,7 +4726,7 @@
     ]
   },
   "meeting-planner": {
-    "name": "Meeting Planner",
+    "name": "Meeting-Planer",
     "description": "Finden Sie eine gute Besprechungszeit über Zeitzonen hinweg mit Stadtuhren und einem 24-Stunden-Slider, der die Arbeitszeit anzeigt. Kostenloser Online-Meeting-Planer für Remote-Teams.",
     "category": "Produktivität",
     "keywords": [],
@@ -4749,7 +4749,7 @@
     ]
   },
   "merge-pdf": {
-    "name": "Merge PDF Files",
+    "name": "PDF-Dateien zusammenführen",
     "description": "kostenlos in Ihrem Browser. Seiten neu ordnen, unerwünschte Seiten entfernen und eine PDF herunterladen. Keine Anmeldung, kein Wasserzeichen und keine Uploads von Dokumenten.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -4768,7 +4768,7 @@
     ]
   },
   "mic-test": {
-    "name": "Mic Test",
+    "name": "Mikrofon-Test",
     "description": "Testen Sie Ihr Mikrofon online: eine Live-Anzeige des Eingangspegels zeigt das Signal Ihres Mikrofons, während Sie sprechen. Kostenlos, privat, der Ton verlässt Ihr Gerät nie.",
     "category": "Gerätetests",
     "keywords": [],
@@ -4788,7 +4788,7 @@
   },
   "middle-school-gpa-calculator": {
     "name": "Middle School GPA Rechner",
-    "description": "Free Mittelschule GPA Rechner. Geben Sie Berichtskartenprozentsätze oder Briefnoten ein, keine Credits erforderlich, und erhalten Sie einen GPA auf der 4.0-Skala für die 6., 7. und 8. Klasse.",
+    "description": "GPA-Rechner für die Mittelstufe. Geben Sie Berichtskartenprozentsätze oder Briefnoten ein, keine Credits erforderlich, und erhalten Sie einen GPA auf der 4.0-Skala für die 6., 7. und 8. Klasse.",
     "category": "Rechner & Finanzen",
     "keywords": [],
     "features": [
@@ -4874,8 +4874,8 @@
     ]
   },
   "mla-citation-generator": {
-    "name": "MLA Citation Generator",
-    "description": "Create MLA 9 Works Zitiert Einträge für Bücher, Zeitschriftenartikel und Websites. Bewahren Sie die Quelldetails in Ihrem Browser auf und exportieren Sie nach Word oder BibTeX. Frei zu verwenden.",
+    "name": "MLA-Zitat-Generator",
+    "description": "Erstellen Sie MLA-9-Literaturverzeichnis-Einträge für Bücher, Zeitschriftenartikel und Websites. Bewahren Sie die Quelldetails in Ihrem Browser auf und exportieren Sie nach Word oder BibTeX. Frei zu verwenden.",
     "category": "Textverarbeitung",
     "keywords": [],
     "features": [
@@ -4893,7 +4893,7 @@
     ]
   },
   "morse-code-translator": {
-    "name": "Morse Code Translator",
+    "name": "Morsecode-Übersetzer",
     "description": "Übersetzen Sie Englisch in Morse-Code und Morse-Code in Text, während Sie eingeben. Spielen Sie es als Ton oder Licht, passen Sie die Geschwindigkeit von WPM und Farnsworth an und laden Sie ein WAV herunter. Frei.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -4912,7 +4912,7 @@
     ]
   },
   "mouse-test": {
-    "name": "Mouse Test",
+    "name": "Maus-Test",
     "description": "Testen Sie Ihre Maus online: Links-, Rechts-, Mittel-, Rück- und Vorwärtstasten, Scrollrad, unerwünschte Doppelklicks und Zeigerrate. Kostenlos, privat, keine Installation.",
     "category": "Gerätetests",
     "keywords": [],
@@ -5025,7 +5025,7 @@
   },
   "msg-to-pdf": {
     "name": "MSG to PDF Konverter",
-    "description": "Convert Outlook .msg Dateien zu PDF ohne Outlook: die Nachricht mit Absender, Empfänger, Datum und Anhänge oben aufgeführt. Funktioniert auf dem Mac. Kein Upload.",
+    "description": "Wandeln Sie Outlook-.msg-Dateien in PDF um ohne Outlook: die Nachricht mit Absender, Empfänger, Datum und Anhänge oben aufgeführt. Funktioniert auf dem Mac. Kein Upload.",
     "category": "Produktivität",
     "keywords": [],
     "features": [
@@ -5080,7 +5080,7 @@
     ]
   },
   "new-year-countdown": {
-    "name": "New Year Countdown",
+    "name": "Silvester-Countdown",
     "description": "Live New Countdown bis Mitternacht in Ihrer Zeitzone, mit einer Vollbild-Partyuhr und einer Weltliste, die anzeigt, wann jede Stadt 2027 erreicht. Kostenlos, keine Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -5098,8 +5098,8 @@
     ]
   },
   "new-years-bingo": {
-    "name": "New Year's Bingo Cards",
-    "description": "Free Neujahr's Eve Bingo-Karten und Auflösung Bingo-Boards: Party-Worte oder Ihre eigenen Ziele, Mitternacht Gold-Thema, einzigartige Karten und ein Anrufer. Kostenloses PDF.",
+    "name": "Silvester-Bingo-Karten",
+    "description": "Silvester-Bingo-Karten und Auflösung Bingo-Boards: Party-Worte oder Ihre eigenen Ziele, Mitternacht Gold-Thema, einzigartige Karten und ein Anrufer. Kostenloses PDF.",
     "category": "Produktivität",
     "keywords": [],
     "features": [
@@ -5117,7 +5117,7 @@
     ]
   },
   "notepad-plus-plus-online": {
-    "name": "Notepad++ Online",
+    "name": "Notepad++ online",
     "description": "Notepad++-Stil Tab-Editor, der im Browser läuft: Syntax-Hervorhebung, Suchen und Ersetzen, Zeilenumbruch und Zoom auf macOS, Linux und ChromeOS, ohne etwas zu installieren. Ihr Text bleibt im Speicher des Tabs - laden Sie ihn herunter, um ihn zu behalten.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -5174,7 +5174,7 @@
     ]
   },
   "offline-ai-chat": {
-    "name": "Offline AI Chat",
+    "name": "Offline-KI-Chat",
     "description": "Ein privater Chat-Arbeitsbereich für quelloffene Sprachmodelle, die auf Ihrem Gerät laufen. Es ist kein Modell mitgeliefert: Das Tool lädt die Gewichte für Qwen2.5 oder Llama von dieser Origin, wenn Sie sie dort abgelegt haben, und meldet, ob WebGPU verfügbar ist. Die Inferenz-Laufzeit ist noch nicht Teil dieser Website, deshalb wird keine Antwort erzeugt. Es ruft nie einen entfernten Dienst auf.",
     "category": "Produktivität",
     "keywords": [],
@@ -5285,8 +5285,8 @@
     ]
   },
   "bingo-caller": {
-    "name": "Online Bingo Caller",
-    "description": "Online bingo callerfree online bingo caller und 1 75 nummerngenerator anrufen sie als nächstes, autoanruf, lesen sie zahlen laut, vollbild-board für einen fernseher und sieger-check. Keine App oder Anmeldung.",
+    "name": "Bingo-Ansager online",
+    "description": "Online-Bingo-Ansager mit Zufallszahlen von 1 bis 75, automatischem Aufruf und, autoanruf, lesen sie zahlen laut, vollbild-board für einen fernseher und sieger-check. Keine App oder Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
     "features": [
@@ -5327,7 +5327,7 @@
     ]
   },
   "equation-editor": {
-    "name": "Online Equation Editor",
+    "name": "Online-Formeleditor",
     "description": "Kostenloser Online-Gleichungseditor und Gleichungsschreiber. Erstellen Sie Gleichungen visuell oder in LaTeX, kopieren Sie dann in Word oder Google Docs oder laden Sie PNG, SVG und PDF herunter. Keine Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -5346,7 +5346,7 @@
     ]
   },
   "markdown-editor": {
-    "name": "Online Markdown Editor",
+    "name": "Online-Markdown-Editor",
     "description": "Hochfunktional, schnell und schön gestaltet Online Markdown Editor mit einer robusten WYSIWYG Side-by-Side-Vorschau und Offline-Synchronisierung.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -5365,7 +5365,7 @@
     ]
   },
   "online-markdown-editor": {
-    "name": "Online Markdown Editor with Export",
+    "name": "Online-Markdown-Editor mit Export",
     "description": "Write Markdown in einem Rich-Text-Editor mit einer Symbolleiste, Live-Formatierung und Export nach .md oder HTML. Kostenloser Online-Markdown-Editor, der nichts auf einem Server speichert.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -5384,7 +5384,7 @@
     ]
   },
   "math-editor": {
-    "name": "Online Math Editor",
+    "name": "Online-Mathe-Editor",
     "description": "Schreiben Sie eine mathematische Formel in LaTeX und sehen Sie sie sofort gerendert: Die Live-Vorschau zeigt echtes MathML, eine Palette anklickbarer Symbole hilft beim Schreiben, und Sie können das MathML kopieren. Kostenlos, privat, ohne Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -5407,7 +5407,7 @@
     ]
   },
   "math-keyboard": {
-    "name": "Online Math Keyboard",
+    "name": "Online-Mathe-Tastatur",
     "description": "Online-Mathe-Tastatur: Geben Sie Brüche, Wurzeln, griechische Buchstaben und mehr als 200 mathematische Symbole ein und kopieren Sie dann als Text, LaTeX, ein Bild oder eine Word-Gleichung. Funktioniert am Telefon.",
     "category": "Produktivität",
     "keywords": [],
@@ -5430,7 +5430,7 @@
     ]
   },
   "online-notepad": {
-    "name": "Online Notepad",
+    "name": "Online-Notizblock",
     "description": "Kostenloses Online-Notepad mit Multi-Tab-Bearbeitung und Syntax-Hervorhebung. Ihr Text bleibt im Speicher des Tabs - laden Sie ihn herunter, um ihn zu behalten. 100% kundenseitig, keine Anmeldung.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -5449,7 +5449,7 @@
     ]
   },
   "tone-generator": {
-    "name": "Online Tone Generator",
+    "name": "Tongenerator online",
     "description": "Kostenloser Online-Tongenerator: Spielen Sie eine beliebige Frequenz von 1 Hz bis 22 kHz als Sinus-, Quadrat-, Dreiecks- oder Sägezahnwelle mit Balance, Notennamen, Sweep und Rauschen ab.",
     "category": "Gerätetests",
     "keywords": [],
@@ -5514,7 +5514,7 @@
     ]
   },
   "open-graph-preview": {
-    "name": "Open Graph Preview",
+    "name": "Open-Graph-Vorschau",
     "description": "Vorschau der Open-Graph- und Twitter-Card-Tags einer Seite: Fügen Sie den HTML-Code des Kopfbereichs ein und das Werkzeug zeigt Titel, Beschreibung und Bild, die die sozialen Netzwerke für den Link verwenden würden. Es wird nichts aus dem Netz geladen.",
     "category": "Design & Medien",
     "keywords": [],
@@ -5556,7 +5556,7 @@
     ]
   },
   "openapi-editor": {
-    "name": "OpenAPI Editor",
+    "name": "OpenAPI-Editor",
     "description": "Editieren Sie eine YAML- oder JSON-Quelle für eine OpenAPI-Spezifikation und durchsuchen Sie die analysierten Operationen und Schemata nebeneinander. Kostenloser Online OpenAPI Editor, lokal verarbeitet.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -5695,7 +5695,7 @@
     ]
   },
   "pdf-merger": {
-    "name": "PDF Merger",
+    "name": "PDF-Merger",
     "description": "Merge mehrere PDFs in einem einzigen Dokument, ordnen Sie Dateien vor dem Beitritt neu an und laden Sie das Ergebnis herunter. Kostenlose online PDF Fusion ohne Uploads oder Wasserzeichen.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -5714,7 +5714,7 @@
     ]
   },
   "pdf-metadata-editor": {
-    "name": "PDF Metadata Editor",
+    "name": "PDF-Metadaten bearbeiten",
     "description": "Edit PDF Metadaten online: Ändern Sie Titel, Autor, Betreff, Keywords und Daten oder fügen Sie benutzerdefinierte Felder hinzu. Läuft in Ihrem Browser; nichts wird hochgeladen.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -5771,7 +5771,7 @@
     ]
   },
   "pdf-redaction-tool": {
-    "name": "PDF Redaction Tool",
+    "name": "PDF-Schwärzungstool",
     "description": "Ein kostenloses PDF Redaction Tool mit Suche, automatischer Erkennung von E-Mails, Karten- und Kontonummern, manuellen Boxen und einer eingebauten Leckprüfung. Läuft auf Ihrem Gerät.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -5885,7 +5885,7 @@
     ]
   },
   "pdf-to-markdown-for-claude": {
-    "name": "PDF to Markdown for Claude",
+    "name": "PDF in Markdown für KI umwandeln",
     "description": "Prepare PDF-Text für Claude lokal. Wählen Sie relevante Seiten aus, bearbeiten Sie Markdown und kopieren Sie einen fokussierten Auszug. Private Conversion mit klaren tokensparenden Einschränkungen.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -5980,7 +5980,7 @@
     ]
   },
   "pdf417-generator": {
-    "name": "PDF417 Barcode Generator",
+    "name": "PDF417-Barcode-Generator",
     "description": "Generieren Sie PDF417 2D Barcodes für Ausweise, Bordkarten, Versand und Dokumente. Kodieren Sie bis zu 1.800 Zeichen; laden Sie PNG oder Vektor SVG herunter. Kostenlos, keine Anmeldung.",
     "category": "Design & Medien",
     "keywords": [],
@@ -5999,7 +5999,7 @@
     ]
   },
   "pem-decoder": {
-    "name": "PEM Decoder",
+    "name": "PEM-Decoder",
     "description": "Dekodieren Sie jede PEM-Datei: Zertifikate, Ketten, CSRs, öffentliche Schlüssel und PKCS#7-Bundles. Konvertieren Sie PEM in DER, DER in PEM und CRT in PEM. Privat, läuft im Browser.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -6256,7 +6256,7 @@
     ]
   },
   "png-to-pdf": {
-    "name": "PNG to PDF",
+    "name": "PNG in PDF umwandeln",
     "description": "Kombinieren Sie PNG-Bilder in einem einzigen PDF mit Steuerelementen für Seitengröße, Layout, Bildreihenfolge und Ränder. Kostenlos online PNG zu PDF Konverter, Dateien nie hochgeladen.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -6294,7 +6294,7 @@
     ]
   },
   "pomodoro-timer": {
-    "name": "Pomodoro Timer",
+    "name": "Pomodoro-Timer",
     "description": "Kostenloser Online Pomodoro Timer, um die Produktivität und den Fokus zu steigern. 25-minütige Arbeitssitzungen, 5-minütige kurze Pausen und 15-minütige lange Pausen mit Tonbenachrichtigungen.",
     "category": "Produktivität",
     "keywords": [],
@@ -6331,7 +6331,7 @@
     ]
   },
   "printable-bingo-cards": {
-    "name": "Printable Bingo Cards",
+    "name": "Bingo-Karten zum Ausdrucken",
     "description": "Kostenlose druckbare Bingokarten 1-75: Laden Sie ein PDF mit einzigartigen, nummerierten 5x5 Karten, 1, 2 oder 4 pro Seite auf Letter oder A4 mit einem Anruferblatt herunter. Keine Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -6388,7 +6388,7 @@
     ]
   },
   "christmas-list-template": {
-    "name": "Printable Christmas List Template",
+    "name": "Weihnachts-Wunschzettel zum Ausdrucken",
     "description": "Kostenlose druckbare Weihnachtslistenvorlage: Geben Sie Ihre Geschenke online ein oder lassen Sie leere Zeilen, um sie von Hand auszufüllen, dann drucken oder speichern Sie ein PDF. Brief oder A4, keine Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -6407,7 +6407,7 @@
     ]
   },
   "private-ai-chatbot": {
-    "name": "Private AI Chatbot",
+    "name": "Privater KI-Chatbot",
     "description": "Eine Chatbot-Oberfläche für ein Modell, das in Ihrem Browser läuft: Ihre Eingaben bleiben auf Ihrem Gerät. Der Seite ist kein Modell beigelegt - Das Tool lädt die Gewichte für Phi-3 oder Qwen2.5 von dieser Origin, wenn Sie sie dort abgelegt haben, und meldet, ob WebGPU verfügbar ist. Die Inferenz-Laufzeit ist noch nicht Teil dieser Website, deshalb wird keine Antwort erzeugt und niemals eine erfunden.",
     "category": "Produktivität",
     "keywords": [],
@@ -6502,7 +6502,7 @@
     ]
   },
   "qr-code-generator": {
-    "name": "QR Code Generator",
+    "name": "QR-Code-Generator",
     "description": "Generieren Sie benutzerdefinierte QR-Codes für URLs mit anpassbaren Farben, Größen, Hintergründen und können Sie in mehreren Formaten (PNG, SVG, PDF, JPG) herunterladen.",
     "category": "Design & Medien",
     "keywords": [],
@@ -6622,7 +6622,7 @@
     ]
   },
   "random-group-generator": {
-    "name": "Random Group Generator",
+    "name": "Zufällige Gruppeneinteilung",
     "description": "Teilen Sie eine Liste von Namen in ausgeglichene zufällige Gruppen oder Teams. Wählen Sie die Anzahl der Gruppen, überprüfen Sie Duplikate und exportieren Sie alle Zuordnungen. Privat und Client-Seite.",
     "category": "Produktivität",
     "keywords": [],
@@ -6660,7 +6660,7 @@
     ]
   },
   "random-letter-generator": {
-    "name": "Random Letter Generator",
+    "name": "Zufallsbuchstaben-Generator",
     "description": "Generieren Sie einen zufälligen Buchstaben von A bis Z, nur Vokale, Konsonanten oder Ihr eigenes Alphabet. Schließen Sie harte Buchstaben aus, vermeiden Sie Wiederholungen und zeigen Sie sie groß für Klasse oder Spiele.",
     "category": "Produktivität",
     "keywords": [],
@@ -6702,7 +6702,7 @@
     ]
   },
   "random-number-generator": {
-    "name": "Random Number Generator",
+    "name": "Zufallszahlengenerator",
     "description": "Generieren Sie Zufallszahlen in jedem Bereich: 1-10, 1-100, Lotto-Picks und Dezimalzahlen. Keine Wiederholungen, Ausschlüsse, Sortierung und Geschichte. Frei, sofort und wirklich unvoreingenommen.",
     "category": "Produktivität",
     "keywords": [],
@@ -6744,7 +6744,7 @@
     ]
   },
   "random-team-generator": {
-    "name": "Random Team Generator",
+    "name": "Zufällige Teameinteilung",
     "description": "Teilen Sie Namen in zufällige Teams nach Anzahl der Teams oder Spieler pro Team. Ausgewogene Größen, Team-by-Team-Ergebnisse, CSV-Export. Frei, privat, keine Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -6782,7 +6782,7 @@
     ]
   },
   "rapidtables-notepad-alternative": {
-    "name": "RapidTables Notepad Alternative",
+    "name": "Notizblock-Alternative zu RapidTables",
     "description": "Ein kostenloses Open-and-Typ-Online-Notepad ohne Anmeldung, dazu benannte Tabs und Syntax-Hervorhebung. Ihr Text bleibt im Speicher des Tabs - laden Sie ihn herunter, um ihn zu behalten.",
     "category": "Produktivität",
     "keywords": [],
@@ -6802,7 +6802,7 @@
   },
   "ratio-calculator": {
     "name": "Ratio Rechner",
-    "description": "Free Ratio Calculator: Vereinfachen Sie Verhältnisse wie 24:36 bis 2:3, lösen Sie A:B = C:?, teilen Sie eine Summe in ein beliebiges Verhältnis und ändern Sie die Größe, während Sie das Seitenverhältnis beibehalten. Mit Schritten.",
+    "description": "Verhältnisrechner: Vereinfachen Sie Verhältnisse wie 24:36 bis 2:3, lösen Sie A:B = C:?, teilen Sie eine Summe in ein beliebiges Verhältnis und ändern Sie die Größe, während Sie das Seitenverhältnis beibehalten. Mit Schritten.",
     "category": "Rechner & Finanzen",
     "keywords": [],
     "features": [
@@ -6819,7 +6819,7 @@
     ]
   },
   "redact-bank-statement": {
-    "name": "Redact Bank Statement",
+    "name": "Kontoauszug schwärzen",
     "description": "Redact ein Kontoauszug, bevor Sie es an einen Vermieter oder Kreditgeber senden. Verstecken Sie Konto-, Karten- und ID-Nummern, aber behalten Sie die letzten 4 Ziffern. Privat und frei.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -6838,7 +6838,7 @@
     ]
   },
   "redact-pdf": {
-    "name": "Redact PDF",
+    "name": "PDF schwärzen",
     "description": "Redact ein PDF in Ihrem Browser. Finden Sie Namen, Kontonummern und E-Mails, verdunkeln Sie sie und laden Sie eine PDF-Datei herunter, in der der Text wirklich verschwunden ist. Kostenlos, kein Upload.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -6857,7 +6857,7 @@
     ]
   },
   "reddit-username-generator": {
-    "name": "Reddit Username Generator",
+    "name": "Reddit-Namen-Generator",
     "description": "Erzeugen Sie einen Reddit-Benutzernamen aus lustigen, zufälligen oder personalisierten Wortkombinationen innerhalb des 30-Zeichen-Limits und speichern und kopieren Sie dann Ihre Favoriten.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -6884,7 +6884,7 @@
     ]
   },
   "reduce-pdf-size": {
-    "name": "Reduce PDF Size",
+    "name": "PDF-Größe verkleinern",
     "description": "Reduce eine PDF's Dateigröße für einen Anhang oder eine Einreichung, mit lokaler Verarbeitung und einstellbarer Ausgabequalität.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -6903,7 +6903,7 @@
     ]
   },
   "refresh-rate-test": {
-    "name": "Refresh Rate Test",
+    "name": "Bildwiederholrate testen",
     "description": "Überprüfen Sie Ihre Monitor-Aktualisierungsrate online: gemessen Hz, Frame-Zeit, Jitter und Drop-Frames, plus Bewegungstest und Bildschirmdetails. 60, 120, 144, 240 Hz.",
     "category": "Gerätetests",
     "keywords": [],
@@ -6941,7 +6941,7 @@
     ]
   },
   "regex-explainer": {
-    "name": "Regex Explainer",
+    "name": "Regex-Erklärer",
     "description": "Erklären Sie einen regulären Ausdruck Token für Token: Jede Gruppe, jeder Quantifizierer, jede Zeichenklasse und jede Escape-Sequenz wird verständlich beschrieben, samt des Textteils, den sie trifft.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -6960,7 +6960,7 @@
     ]
   },
   "regex-generator": {
-    "name": "Regex Generator",
+    "name": "Regex-Generator",
     "description": "Erstellen Sie einen regulären Ausdruck aus einer englischen Beschreibung: Wählen Sie die Art des Musters, geben Sie an, was Sie brauchen, und das Tool setzt nach deterministischen Regeln eine passende Form zusammen. Ohne Modell und ohne API-Schlüssel.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -7002,7 +7002,7 @@
     ]
   },
   "regex-tester": {
-    "name": "Regex Tester & Builder",
+    "name": "Regex-Tester & Builder",
     "description": "Testen und erstellen Sie reguläre Ausdrücke mit Echtzeit-Matching und detaillierten Erklärungen.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -7040,7 +7040,7 @@
     ]
   },
   "remove-duplicate-lines": {
-    "name": "Remove Duplicate Lines",
+    "name": "Doppelte Zeilen entfernen",
     "description": "Remove Duplicate Lines from a text list with case-sensitive or case-insensitive comparison and optional sorting. Kostenloses online-tool, das in ihrem browser läuft.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -7059,8 +7059,8 @@
     ]
   },
   "remove-duplicate-lines-and-sort": {
-    "name": "Remove Duplicate Lines & Sort",
-    "description": "Free, clientseitiges Tool, um doppelte Zeilen zu entfernen, alphabetisch zu sortieren, umzukehren, leere Zeilen zu entfernen und Whitespace sofort zu schneiden.",
+    "name": "Doppelte Zeilen entfernen & sortieren",
+    "description": "Clientseitiges Tool, um doppelte Zeilen zu entfernen, alphabetisch zu sortieren, umzukehren, leere Zeilen zu entfernen und Whitespace sofort zu schneiden.",
     "category": "Textverarbeitung",
     "keywords": [],
     "features": [
@@ -7096,7 +7096,7 @@
     ]
   },
   "remove-object-from-photo": {
-    "name": "Remove Objects from Photos",
+    "name": "Objekte aus Fotos entfernen",
     "description": "Objekt, Person, Text oder Wasserzeichen aus einem Bild entfernen: Wählen Sie das Foto, malen Sie über das, was verschwinden soll, und der gemalte Bereich wird mit der Farbe der umgebenden Pixel gefüllt. Nichts wird hochgeladen.",
     "category": "Design & Medien",
     "keywords": [],
@@ -7150,7 +7150,7 @@
     ]
   },
   "resize-png": {
-    "name": "Resize PNG",
+    "name": "PNG-Größe ändern",
     "description": "Ändern Sie die Breite und Höhe eines PNG-Bildes, während Sie die Transparenz wahren, und exportieren Sie dann die Datei in der Größe aus Ihrem Browser. Kostenloser online PNG Resizer, keine Uploads.",
     "category": "Design & Medien",
     "keywords": [],
@@ -7169,7 +7169,7 @@
     ]
   },
   "rest-api-tester": {
-    "name": "REST API Tester",
+    "name": "REST-API-Tester",
     "description": "Testen Sie REST-Endpunkte aus Ihrem Browser mit benutzerdefinierten Methoden, Headern, Abfrageparametern und JSON-Bodys. Kostenloser Online-API-Client, keine Installation oder Anmeldung.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -7188,7 +7188,7 @@
     ]
   },
   "rgb-to-hex": {
-    "name": "RGB to HEX",
+    "name": "RGB in HEX umrechnen",
     "description": "Konvertieren Sie rote, grüne und blaue Kanalwerte in einen hexadezimalen Farbcode mit einer Live-Vorschau. Kostenloser Online-RGB-zu-HEX-Konverter mit einem Klick.",
     "category": "Design & Medien",
     "keywords": [],
@@ -7245,7 +7245,7 @@
     ]
   },
   "roll-two-dice": {
-    "name": "Roll Two Dice",
+    "name": "Mit zwei Würfeln würfeln",
     "description": "Rollen Sie zwei Würfel online und sehen Sie beide Seiten und ihre Summe. Kostenloser 2d6-Würfelroller mit Verlauf, CSV-Export und einem Zwei-Würfel-Wahrscheinlichkeitsführer. Vollständig im Browser.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -7319,8 +7319,8 @@
     ]
   },
   "round-robin-generator": {
-    "name": "Round Robin Generator",
-    "description": "Free Round Robin Generator: Machen Sie einen fairen Zeitplan, in dem jedes Team jedes andere Team spielt, mit Byes für ungerade Zahlen, Punktzahlen und einem Live-Standingstisch. Drucken oder teilen.",
+    "name": "Rundenturnier-Generator",
+    "description": "Rundenturnier-Generator: Machen Sie einen fairen Zeitplan, in dem jedes Team jedes andere Team spielt, mit Byes für ungerade Zahlen, Punktzahlen und einem Live-Standingstisch. Drucken oder teilen.",
     "category": "Produktivität",
     "keywords": [],
     "features": [
@@ -7378,7 +7378,7 @@
     ]
   },
   "secret-santa-generator": {
-    "name": "Secret Santa Generator",
+    "name": "Wichtel-Generator (Secret Santa)",
     "description": "Secret Santa Generator: Fügen Sie Namen hinzu, setzen Sie Ausschlüsse für Paare und senden Sie allen einen privaten Link zu ihrem Spiel. Keine E-Mail, kein Konto erforderlich.",
     "category": "Produktivität",
     "keywords": [],
@@ -7397,7 +7397,7 @@
     ]
   },
   "sha256-generator": {
-    "name": "SHA-256 Hash Generator",
+    "name": "SHA-256-Hash-Generator",
     "description": "Berechnen SHA-256 Hashes von Text und Dateien sofort. 100% Client-Seite. Überprüfen Sie die Freigabe-Prüfsummen und Fingerabdruckdaten, ohne etwas hochzuladen.",
     "category": "Sicherheit & Datenschutz",
     "keywords": [],
@@ -7434,7 +7434,7 @@
     ]
   },
   "single-elimination-bracket": {
-    "name": "Single Elimination Bracket Generator",
+    "name": "K.-o.-System-Turnierbaum",
     "description": "Machen Sie eine einzelne Eliminationshalterung für 2 bis 128 Teams. Standard Seeding, automatische Byes, ein optionales Third Place Spiel, Click-to-Advance Gewinner und ein druckbares PDF.",
     "category": "Produktivität",
     "keywords": [],
@@ -7453,7 +7453,7 @@
     ]
   },
   "small-text-generator": {
-    "name": "Small Text Generator",
+    "name": "Kleinschrift-Generator",
     "description": "Konvertieren Sie Text in kleine, kleine Kappen, hochgestellte und subskriptive Unicode-Buchstaben, die Sie überall kopieren und einfügen können.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -7472,7 +7472,7 @@
     ]
   },
   "social-media-preview": {
-    "name": "Social Media Preview",
+    "name": "Social-Media-Vorschau",
     "description": "Preview, wie ein öffentlicher Link aussehen wird, wenn er auf Facebook, X, LinkedIn und Slack geteilt wird, basierend auf den erfassten Metadaten. Kostenloses Social Media Preview Tool.",
     "category": "Design & Medien",
     "keywords": [],
@@ -7490,7 +7490,7 @@
     ]
   },
   "sound-test": {
-    "name": "Sound Test",
+    "name": "Sound-Test",
     "description": "Test Lautsprecher und Kopfhörer online: linker/rechter Kanaltest, 20 Hz–20 kHz Sweep, Polaritätsprüfung, rosa Rauschen und ein Tongenerator. Kostenlos, nichts zu installieren.",
     "category": "Gerätetests",
     "keywords": [],
@@ -7509,7 +7509,7 @@
     ]
   },
   "split-pdf": {
-    "name": "Split PDF Files",
+    "name": "PDF teilen",
     "description": "Split PDF-Dateien kostenlos in Ihrem Browser. Extrahieren Sie ausgewählte Seiten in ein PDF oder teilen Sie sie in einem ZIP in separate PDFs auf. Keine Anmeldung, kein Wasserzeichen, keine Uploads.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -7547,7 +7547,7 @@
     ]
   },
   "sql-formatter": {
-    "name": "SQL Formatter",
+    "name": "SQL-Formatierer",
     "description": "Format SQL-Abfragen mit wählbarem Dialekt, Schlüsselwortfall und Einrückeinstellungen für MySQL, PostgreSQL und mehr. Kostenlose Online-SQL-Formatierer, läuft lokal.",
     "category": "Datenbank & SQL",
     "keywords": [],
@@ -7585,7 +7585,7 @@
     ]
   },
   "sqlite-browser": {
-    "name": "SQLite Browser",
+    "name": "SQLite-Browser",
     "description": "Ein kostenloser Online-SQLite-Browser: Öffnen Sie eine Datenbank, durchsuchen Sie Tabellen, prüfen Sie das Schema, führen Sie SQL aus und speichern Sie Änderungen als neue Datei. Läuft lokal, keine Installation.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -7608,7 +7608,7 @@
     ]
   },
   "sqlite-online": {
-    "name": "SQLite Online",
+    "name": "SQLite online",
     "description": "Write und führen Sie SQLite-Abfragen online aus: Starten Sie eine neue Datenbank oder öffnen Sie Ihre eigene, erstellen Sie Tabellen, fügen Sie Daten ein, führen Sie SELECTs aus und laden Sie die .sqlite-Datei herunter. Frei.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -7669,7 +7669,7 @@
     ]
   },
   "ssl-certificate-decoder": {
-    "name": "SSL Certificate Decoder",
+    "name": "SSL-Zertifikat-Decoder",
     "description": "Decode SSL/TLS-Zertifikate sofort: Betreff, Aussteller, SANs, Ablauf, Schlüssel, Fingerabdrücke und Erweiterungen. Überprüft Kettensignaturen. Privat, nichts hochgeladen.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -7706,7 +7706,7 @@
     ]
   },
   "stick-drift-test": {
-    "name": "Stick Drift Test",
+    "name": "Stick-Drift-Test",
     "description": "Testen Sie Ihren Controller auf Stickdrift: Sehen Sie Ruhewerte für beide Joysticks, vergleichen Sie sie mit einer Deadzone und erzielen Sie Zirkularität. PS5, Xbox und Switch Pro. Free.",
     "category": "Gerätetests",
     "keywords": [],
@@ -7748,7 +7748,7 @@
     ]
   },
   "strikethrough-text-generator": {
-    "name": "Strikethrough Text Generator",
+    "name": "Durchgestrichener-Text-Generator",
     "description": "Generieren Sie Strikethrough, Slash, Unterstreichen und Overline-Text zum Kopieren und Einfügen in Instagram, Facebook, X, Discord und mehr. Kostenlos, sofort, keine Anmeldung.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -7805,7 +7805,7 @@
     ]
   },
   "study-timer": {
-    "name": "Study Timer",
+    "name": "Lern-Timer",
     "description": "Plan konzentrierte sich auf Studiensitzungen mit einem konfigurierbaren Pomodoro-Countdown, geplanten Pausen und Soundalarmen. Kostenloser Online-Studien-Timer, der in jedem Browser funktioniert.",
     "category": "Produktivität",
     "keywords": [],
@@ -7825,7 +7825,7 @@
   },
   "subnet-calculator": {
     "name": "Subnet Rechner",
-    "description": "Free IPv4-Subnetzrechner: Netzwerk, Broadcast, nutzbarer Hostbereich, Subnetz- und Platzhaltermasken, Binäransicht und Subnetzaufteilung für jede IP und CIDR oder Maske.",
+    "description": "IPv4-Subnetzrechner: Netzwerk, Broadcast, nutzbarer Hostbereich, Subnetz- und Platzhaltermasken, Binäransicht und Subnetzaufteilung für jede IP und CIDR oder Maske.",
     "category": "Entwicklung & Code",
     "keywords": [],
     "features": [
@@ -7843,7 +7843,7 @@
     ]
   },
   "subnet-cheat-sheet": {
-    "name": "Subnet Cheat Sheet",
+    "name": "Subnetz-Spickzettel",
     "description": "Complete IPv4-Subnetz-Spickzettel: jedes CIDR-Präfix von /0 bis /32 mit Subnetzmaske, Platzhaltermaske, Gesamtadressen und nutzbaren Hosts sowie einem Live-Rechner.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -7862,7 +7862,7 @@
     ]
   },
   "svg-favicon-generator": {
-    "name": "SVG Favicon Generator",
+    "name": "SVG-Favicon-Generator",
     "description": "Erstellen Sie ein SVG-Favicon aus einer Icon-Bibliothek mit benutzerdefinierten Farben, Größen und Hintergrundformen und laden Sie es dann herunter. Kostenloser SVG Favicon Generator, keine Anmeldung erforderlich.",
     "category": "Design & Medien",
     "keywords": [],
@@ -8074,7 +8074,7 @@
     ]
   },
   "text-compare": {
-    "name": "Text Compare",
+    "name": "Texte vergleichen",
     "description": "Vergleichen Sie zwei Versionen von Text nebeneinander und sehen Sie hervorgehobene Ergänzungen, Löschungen und geänderte Zeilen. Kostenlose online-text-vergleich-tool, privat und instant.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -8093,7 +8093,7 @@
     ]
   },
   "text-diff": {
-    "name": "Text Diff",
+    "name": "Text-Diff",
     "description": "Führen Sie ein zeilenweises Textdiff mit hervorgehobenen Einfügungen und Löschungen vollständig in Ihrem Browser aus. Kostenloses online-diff-tool ohne uploads oder anmeldung erforderlich.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -8112,7 +8112,7 @@
     ]
   },
   "text-repeater": {
-    "name": "Text Repeater",
+    "name": "Text wiederholen",
     "description": "Wiederholen Sie jeden Text oder Emoji hunderte oder tausende Male mit Leerzeichen, neuen Zeilen oder Kommas dazwischen und optionaler Nummerierung. Kopieren Sie mit einem Klick. Frei, sofort.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -8188,8 +8188,8 @@
     ]
   },
   "thanksgiving-bingo": {
-    "name": "Thanksgiving Bingo Cards",
-    "description": "Free druckbare Thanksgiving Bingo Karten: einzigartige Karten mit 46 Thanksgiving Wörtern, Herbstfarben und einem Anrufer. Machen Sie 1 bis 1.000 Karten, PDF 1, 2 oder 4 pro Seite.",
+    "name": "Thanksgiving-Bingo-Karten",
+    "description": "Druckbare Thanksgiving-Bingo-Karten: einzigartige Karten mit 46 Thanksgiving Wörtern, Herbstfarben und einem Anrufer. Machen Sie 1 bis 1.000 Karten, PDF 1, 2 oder 4 pro Seite.",
     "category": "Produktivität",
     "keywords": [],
     "features": [
@@ -8207,7 +8207,7 @@
     ]
   },
   "thanksgiving-countdown": {
-    "name": "Thanksgiving Countdown",
+    "name": "Thanksgiving-Countdown",
     "description": "Wie viele Tage bis Thanksgiving? Live-countdown bis zum vierten donnerstag im november, mit kanadischem thanksgiving, wochen- und wochentagen und zukünftigen daten.",
     "category": "Produktivität",
     "keywords": [],
@@ -8360,7 +8360,7 @@
     ]
   },
   "toon-to-json": {
-    "name": "TOON to JSON",
+    "name": "TOON in JSON umwandeln",
     "description": "Dekodieren Sie TOON (Token-Oriented Object Notation) zurück in JSON und überprüfen Sie die rekonstruierten Daten. Kostenloser Online TOON to JSON Konverter, lokal verarbeitet.",
     "category": "Datenformate",
     "keywords": [],
@@ -8398,7 +8398,7 @@
     ]
   },
   "transparent-qr-code-generator": {
-    "name": "Transparent QR Code Generator",
+    "name": "QR-Code mit transparentem Hintergrund",
     "description": "Erstellen Sie einen URL-QR-Code mit einem transparenten Hintergrund für die Verwendung in einem Design, einer Folie oder einem Dokument und laden Sie dann ein PNG oder SVG herunter. Kostenlos und keine Anmeldung erforderlich.",
     "category": "Design & Medien",
     "keywords": [],
@@ -8436,7 +8436,7 @@
     ]
   },
   "twitch-username-generator": {
-    "name": "Twitch Username Generator",
+    "name": "Twitch-Namen-Generator",
     "description": "Erzeugen Sie einen denkwürdigen Twitch-Benutzernamen für Ihren Streaming-Kanal mit Buchstaben, Zahlen oder Unterstrichen und speichern Sie dann Ihre Shortlist. Frei und Client-Seite.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -8501,7 +8501,7 @@
     ]
   },
   "upc-barcode-generator": {
-    "name": "UPC Barcode Generator",
+    "name": "UPC-Barcode-Generator",
     "description": "UPC-A und UPC-E Barcodes für Einzelhandelsprodukte erstellen. Die Prüfziffer wird für Sie berechnet oder verifiziert; laden Sie druckfertiges PNG oder SVG in 100% Größe herunter. Frei.",
     "category": "Design & Medien",
     "keywords": [],
@@ -8539,7 +8539,7 @@
     ]
   },
   "upside-down-text-generator": {
-    "name": "Upside Down Text Generator",
+    "name": "Text auf den Kopf stellen",
     "description": "Drehen Sie den Text auf den Kopf und kopieren Sie ihn überall: Buchstaben, Zahlen und Satzzeichen um 180° gedreht, mit einer Option, um die Reihenfolge beizubehalten. Paste drehte Text um, um es wiederherzustellen.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -8558,7 +8558,7 @@
     ]
   },
   "url-decoder": {
-    "name": "URL Decoder",
+    "name": "URL-Decoder",
     "description": "Decode prozentcodierten URL-Text und Abfragezeichenfolgen zurück in lesbare Zeichen. Kostenloser Online-URL-Decoder mit sofortigen Ergebnissen und privater, lokaler Verarbeitung.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -8577,7 +8577,7 @@
     ]
   },
   "url-encoder": {
-    "name": "URL Encoder",
+    "name": "URL-Encoder",
     "description": "Percent-encodieren URL-Text und Abfragezeichenfolgen mit wählbarem Kodierungsverhalten für Komponenten oder vollständige URLs. Kostenloser online-url-encoder, der in ihrem browser läuft.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -8615,7 +8615,7 @@
     ]
   },
   "url-to-qr-code": {
-    "name": "URL to QR Code",
+    "name": "URL in QR-Code umwandeln",
     "description": "Verwandeln Sie eine Website-URL in einen herunterladbaren QR-Code mit einstellbaren Farben und Größen und speichern Sie ihn dann als PNG oder SVG. Kostenlose URL zum QR-Codegenerator, der niemals abläuft.",
     "category": "Design & Medien",
     "keywords": [],
@@ -8634,7 +8634,7 @@
     ]
   },
   "username-generator": {
-    "name": "Username Generator",
+    "name": "Benutzernamen-Generator",
     "description": "Generieren Sie einen Benutzernamen mit Ihrem eigenen Wort oder erkunden Sie zufällige Ideen. Wählen Sie einen Stil, speichern Sie Favoriten und kopieren Sie Ihre Auswahl. Kostenlos und in Ihrem Browser verarbeitet.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -8661,7 +8661,7 @@
     ]
   },
   "uuid-generator": {
-    "name": "UUID Generator",
+    "name": "UUID-Generator",
     "description": "Generieren Sie universell eindeutige Identifikatoren mit Unterstützung für verschiedene Versionen und Massenerzeugung.",
     "category": "Datenformate",
     "keywords": [],
@@ -8680,7 +8680,7 @@
     ]
   },
   "uuid-v4-generator": {
-    "name": "UUID v4 Generator",
+    "name": "UUID-v4-Generator",
     "description": "Generieren Sie zufällige UUID v4-Identifikatoren sofort, Single oder Bulk bis 1000, im Standard-, Kompakt-, Zahnspangen- oder URN-Format.",
     "category": "Datenformate",
     "keywords": [],
@@ -8699,7 +8699,7 @@
     ]
   },
   "uuid-v7-generator": {
-    "name": "UUID v7 Generator",
+    "name": "UUID-v7-Generator",
     "description": "Erzeugen Sie zeitgeordnete UUID v7-Identifikatoren: sortierbar, datenbankfreundlich, RFC 9562-konform. Single oder Bulk bis 1000.",
     "category": "Datenformate",
     "keywords": [],
@@ -8824,7 +8824,7 @@
     ]
   },
   "webcam-test": {
-    "name": "Webcam Test",
+    "name": "Webcam-Test",
     "description": "Testen Sie Ihre Webcam online: eine Live-Vorschau der Kamera in Ihrem Browser, das Video bleibt auf Ihrem Gerät. Kostenlos, privat, nichts wird hochgeladen.",
     "category": "Gerätetests",
     "keywords": [],
@@ -8874,7 +8874,7 @@
     ]
   },
   "webm-to-mp4": {
-    "name": "WebM to MP4",
+    "name": "WebM in MP4 umwandeln",
     "description": "Konvertieren Sie ein WebM-Video im Browser in eine echte MP4-Datei. Der Browser dekodiert Bild und Ton und nimmt sie erneut als MP4 mit H.264-Video und AAC-Ton auf. Kostenlos, ohne Upload, ohne Anmeldung.",
     "category": "Audio & Video",
     "keywords": [],
@@ -9068,7 +9068,7 @@
     ]
   },
   "wheel-of-names": {
-    "name": "Wheel of Names Spinner",
+    "name": "Namensrad",
     "description": "Spinnerfree spinner wheel für klassenzimmer, giveaways und gruppenentscheidungen. Geben Sie Namen ein, drehen Sie sich, erhalten Sie einen Gewinner. Keine Anmeldung und jeder Name bleibt in Ihrem Browser.",
     "category": "Produktivität",
     "keywords": [],
@@ -9087,7 +9087,7 @@
     ]
   },
   "white-elephant-generator": {
-    "name": "White Elephant Generator",
+    "name": "Wichteln-Generator (White Elephant)",
     "description": "Kostenloser White Elephant Generator: Zeichnen Sie eine zufällige Abbiegereihenfolge, verfolgen Sie dann jedes Geschenk, stehlen und eingefrorenes Geschenk mit Rückgängigmachen. Legen Sie Ihre eigenen Regeln fest. Keine Anmeldung oder App.",
     "category": "Produktivität",
     "keywords": [],
@@ -9106,7 +9106,7 @@
     ]
   },
   "white-elephant-rules": {
-    "name": "White Elephant Rules",
+    "name": "White-Elephant-Regeln",
     "description": "White-Elephant-Regeln Schritt für Schritt erklärt: Zugreihenfolge, Stehlen, die 3-Steal-Freeze und der endgültige Tausch, plus beliebige Varianten und ein kostenloser Tracker.",
     "category": "Produktivität",
     "keywords": [],
@@ -9128,7 +9128,7 @@
     ]
   },
   "wifi-qr-code-generator": {
-    "name": "WiFi QR Code Generator",
+    "name": "WLAN-QR-Code-Generator",
     "description": "Erstellen Sie einen QR-Code, der Gäste in einem Scan mit einer druckbaren Karte und PNG-, SVG- und PDF-Downloads mit Ihrem WLAN verbindet.",
     "category": "Produktivität",
     "keywords": [],
@@ -9167,7 +9167,7 @@
   },
   "word-to-html": {
     "name": "Wort to HTML Konverter",
-    "description": "Convert Word .docx zu reinigen, semantische HTML: Überschriften, Listen, Tabellen, Links und Bilder, ohne Word Inline-Stile. Vorschau, kopieren oder herunterladen, privat.",
+    "description": "Wandeln Sie Word-.docx-Dateien in sauberes, semantische HTML: Überschriften, Listen, Tabellen, Links und Bilder, ohne Word Inline-Stile. Vorschau, kopieren oder herunterladen, privat.",
     "category": "Produktivität",
     "keywords": [],
     "features": [
@@ -9186,7 +9186,7 @@
   },
   "word-viewer": {
     "name": "Wort Betrachter",
-    "description": "Free Online Word Viewer für .docx-Dateien: Lesen Sie jede Seite mit ihrer Formatierung, überprüfen Sie Autor und Wortzahl, kopieren Sie den Text oder speichern Sie als PDF. Nichts wird hochgeladen.",
+    "description": "Online-Word-Viewer für .docx-Dateien: Lesen Sie jede Seite mit ihrer Formatierung, überprüfen Sie Autor und Wortzahl, kopieren Sie den Text oder speichern Sie als PDF. Nichts wird hochgeladen.",
     "category": "Produktivität",
     "keywords": [],
     "features": [
@@ -9265,7 +9265,7 @@
     ]
   },
   "xml-formatter": {
-    "name": "XML Formatter & Validator",
+    "name": "XML-Formatierer & Validator",
     "description": "Format, validieren, verkleinern und erkunden Sie XML mit einem Baum-Viewer und XPath-Tester, vollständig in Ihrem Browser.",
     "category": "Datenformate",
     "keywords": [],
@@ -9284,7 +9284,7 @@
     ]
   },
   "xml-validator": {
-    "name": "XML Validator",
+    "name": "XML-Validator",
     "description": "Checken Sie die XML-Gutformigkeit und prüfen Sie Parserfehler mit Zeilendetails in Ihrem Browser. Kostenloser Online-XML-Validator ohne Uploads oder Anmeldung erforderlich.",
     "category": "Datenformate",
     "keywords": [],
@@ -9322,7 +9322,7 @@
     ]
   },
   "xsd-editor": {
-    "name": "XSD Editor",
+    "name": "XSD-Editor",
     "description": "Edit XSD Quelle und prüfen Sie die analysierten Elemente und Typen des Schemas in Ihrem Browser nebeneinander. Kostenloser Online XSD Editor mit privater, lokaler Verarbeitung.",
     "category": "Datenformate",
     "keywords": [],
@@ -9402,7 +9402,7 @@
     ]
   },
   "yaml-editor": {
-    "name": "YAML Editor",
+    "name": "YAML-Editor",
     "description": "Edit YAML mit Syntax-Hervorhebung und sofortiger Fehlerrückmeldung in einem lokalen Browser-Arbeitsbereich. Kostenloser Online-YAML-Editor für Konfigurationen, CI-Dateien und Manifeste.",
     "category": "Datenformate",
     "keywords": [],
@@ -9440,7 +9440,7 @@
     ]
   },
   "yaml-minifier": {
-    "name": "YAML Minifier",
+    "name": "YAML-Minifier",
     "description": "Minifizieren Sie YAML, indem Sie es in eine kompakte Flow-Style-Ausgabe einstürzen und dann das Ergebnis vor dem Kopieren überprüfen. Kostenloser Online-YAML-Minifier mit privater, lokaler Verarbeitung.",
     "category": "Datenformate",
     "keywords": [],
@@ -9459,7 +9459,7 @@
     ]
   },
   "yaml-to-json": {
-    "name": "YAML to JSON",
+    "name": "YAML in JSON umwandeln",
     "description": "Konvertieren Sie YAML-Daten in formatierte JSON mit Syntaxfehler-Feedback, vollständig in Ihrem Browser. Kostenloser Online-YAML-JSON-Konverter mit einem Klick.",
     "category": "Datenformate",
     "keywords": [],
@@ -9497,7 +9497,7 @@
     ]
   },
   "yaml-validator": {
-    "name": "YAML Validator",
+    "name": "YAML-Validator",
     "description": "Validate YAML Syntax und sehen Parsing-Fehler mit Zeilennummern in einem Browser-basierten Editor. Kostenloser Online-YAML-Validator für Konfigurationsdateien, keine Uploads oder Anmeldung.",
     "category": "Datenformate",
     "keywords": [],
@@ -9516,7 +9516,7 @@
     ]
   },
   "yaml-editor-validator": {
-    "name": "YAML Validator & Editor",
+    "name": "YAML-Validator & Editor",
     "description": "Validate YAML Syntax und Struktur mit Echtzeit-Fehlererkennung und Syntax-Hervorhebung.",
     "category": "Datenformate",
     "keywords": [],
@@ -9535,7 +9535,7 @@
     ]
   },
   "yankee-swap-rules": {
-    "name": "Yankee Swap Rules",
+    "name": "Yankee-Swap-Regeln",
     "description": "Yankee Swap-Regeln erklärten: Zahlen ziehen, öffnen oder tauschen, das 3-Swap-Einfrieren und die letzte Runde von Spieler 1. Kostenloser Tracker für Turn Order und Swaps, mit Undo.",
     "category": "Produktivität",
     "keywords": [],
@@ -9557,7 +9557,7 @@
     ]
   },
   "yes-or-no-wheel": {
-    "name": "Yes or No Wheel",
+    "name": "Ja-oder-Nein-Rad",
     "description": "Spinne das Ja oder kein Rad für eine faire 50/50 Antwort oder füge Vielleicht hinzu. Benennen Sie die Antworten um, halten Sie eine Zählung und entscheiden Sie sich für das Beste von drei. Frei und sofort, ohne anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -9576,7 +9576,7 @@
     ]
   },
   "yml-to-json": {
-    "name": "YML to JSON",
+    "name": "YML in JSON umwandeln",
     "description": "Konvertieren Sie ein .yml-Dokument in JSON und prüfen Sie die resultierenden Daten in Ihrem Browser. Kostenlos online YML zu JSON Konverter, privat ohne Datei-Uploads.",
     "category": "Datenformate",
     "keywords": [],
@@ -9595,7 +9595,7 @@
     ]
   },
   "youtube-thumbnail-downloader": {
-    "name": "YouTube Thumbnail Downloader",
+    "name": "YouTube-Thumbnail-Downloader",
     "description": "Erzeugen Sie die offiziellen Vorschaubild-Adressen eines YouTube-Videos: Fügen Sie einen Video- oder Shorts-Link ein, das Werkzeug liest die Video-ID und listet die Adressen der Vorschaubilder in allen Größen auf. Die Bilder liegen auf dem eigenen Server von YouTube, diese Seite lädt sie nicht herunter.",
     "category": "Design & Medien",
     "keywords": [],
@@ -9617,7 +9617,7 @@
     ]
   },
   "youtube-thumbnail-grabber": {
-    "name": "YouTube Thumbnail Grabber",
+    "name": "YouTube-Thumbnail-Grabber",
     "description": "Erzeugen Sie die Vorschaubild-Adressen von bis zu 50 YouTube-Videos auf einmal: Fügen Sie Links oder Video-IDs ein und das Werkzeug listet für jedes die Adresse jeder Vorschaubildgröße auf. Die Bilder liegen auf dem eigenen Server von YouTube, diese Seite lädt sie nicht herunter.",
     "category": "Design & Medien",
     "keywords": [],
@@ -9657,7 +9657,7 @@
     ]
   },
   "zalgo-text-generator": {
-    "name": "Zalgo Text Generator",
+    "name": "Zalgo-Text-Generator",
     "description": "Machen Sie gruseligen Zalgo-Text, der über und unter der Linie verschüttet wird. Passen Sie die Intensität an, mischen Sie sie, bereinigen Sie sie und kopieren Sie sie auf Discord, TikTok oder Instagram. Frei.",
     "category": "Textverarbeitung",
     "keywords": [],
