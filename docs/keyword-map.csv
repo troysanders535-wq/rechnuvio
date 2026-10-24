@@ -1,0 +1,140 @@
+keyword,volume_de,difficulty,intent,target_slug,status
+Mehrwertsteuer Rechner,unverified,unverified,calculator,mehrwertsteuer-rechner,new
+Mehrwertsteuer rausrechnen,unverified,unverified,calculator,mehrwertsteuer-rechner,new
+Mehrwertsteuer 19 Prozent Rechner,unverified,unverified,calculator,mehrwertsteuer-rechner,new
+Brutto Netto Rechner,unverified,unverified,calculator,brutto-netto-rechner,new
+Brutto Netto 2026,unverified,unverified,calculator,brutto-netto-rechner,new
+Lohnsteuerrechner,unverified,unverified,calculator,brutto-netto-rechner,new
+Zinsrechner,unverified,unverified,calculator,zinsrechner,new
+Zinseszinsrechner,unverified,unverified,calculator,zinseszinsrechner,new
+Sparplan Rechner,unverified,unverified,calculator,zinseszinsrechner,new
+Kreditrechner,unverified,unverified,calculator,kreditrechner,new
+Tilgungsplan Rechner,unverified,unverified,calculator,kreditrechner,new
+Prozentrechner,unverified,unverified,calculator,percentage-calculator,rework
+Prozent berechnen,unverified,unverified,calculator,percentage-calculator,rework
+Prozentuale Veraenderung,unverified,unverified,calculator,percentage-change-calculator,rework
+Dreisatz Rechner,unverified,unverified,calculator,dreisatz-rechner,new
+Dreisatz proportional Rechnung,unverified,unverified,calculator,dreisatz-rechner,new
+Skonto Rechner,unverified,unverified,calculator,skonto-rechner,new
+Rabatt Rechner,unverified,unverified,calculator,discount-calculator,rework
+Rabatt berechnen,unverified,unverified,calculator,discount-calculator,rework
+Stundenlohn Rechner,unverified,unverified,calculator,hourly-to-salary-calculator,rework
+Gehalt in Stundenlohn umrechnen,unverified,unverified,calculator,salary-to-hourly-calculator,rework
+Entfernungspauschale Rechner,unverified,unverified,calculator,entfernungspauschale-rechner,new
+Spritkosten Rechner,unverified,unverified,calculator,spritkosten-rechner,new
+Kraftstoffkosten berechnen,unverified,unverified,calculator,spritkosten-rechner,new
+Notendurchschnitt Rechner,unverified,unverified,calculator,grade-calculator,rework
+Abiturnote Rechner,unverified,unverified,calculator,abiturnote-rechner,new
+Abitur Note berechnen,unverified,unverified,calculator,abiturnote-rechner,new
+Stromkosten Rechner,unverified,unverified,calculator,electricity-cost-calculator,rework
+Kalkulationsmarge Rechner,unverified,unverified,calculator,margin-calculator,rework
+Aufschlagsrechner,unverified,unverified,calculator,markup-calculator,rework
+AFA Rechner,unverified,unverified,calculator,afa-rechner,new
+Tagerechner,unverified,unverified,calculator,date-calculator,rework
+Tage zwischen zwei Daten,unverified,unverified,calculator,days-between-dates,rework
+Datum berechnen,unverified,unverified,calculator,date-calculator,rework
+Kalenderwoche,unverified,unverified,calculator,kalenderwoche-rechner,new
+Kalenderwoche heute,unverified,unverified,calculator,kalenderwoche-rechner,new
+Feiertage 2026,unverified,unverified,information,2026-calendar,rework
+Feiertage 2027,unverified,unverified,information,2027-holidays,rework
+Feiertage Rechner Bundesland,unverified,unverified,calculator,feiertage-rechner,new
+Feiertage Norddeutschland,unverified,unverified,information,feiertage-rechner,new
+Altersrechner,unverified,unverified,calculator,age-calculator,rework
+Alter berechnen,unverified,unverified,calculator,age-calculator,rework
+Wochentag berechnen,unverified,unverified,calculator,date-calculator,rework
+Countdown Rechner,unverified,unverified,calculator,countdown-to-date,rework
+Countdown auf ein Datum,unverified,unverified,calculator,countdown-to-date,rework
+Uhrzeit umrechnen 12 Stunden 24 Stunden,unverified,unverified,converter,military-time-converter,rework
+24 Stunden Format umrechnen,unverified,unverified,converter,military-time-converter,rework
+Werktage berechnen,unverified,unverified,calculator,business-days-calculator,rework
+Arbeitstage berechnen,unverified,unverified,calculator,business-days-calculator,rework
+Schaltjahr Rechner,unverified,unverified,calculator,schaltjahr-rechner,new
+Ist 2026 ein Schaltjahr,unverified,unverified,information,schaltjahr-rechner,new
+Tage bis Weihnachten,unverified,unverified,calculator,days-until-christmas,rework
+Countdown Neujahr,unverified,unverified,calculator,new-year-countdown,rework
+Urlaubstage Rechner,unverified,unverified,calculator,urlaubstage-rechner,new
+Arbeitszeit Rechner,unverified,unverified,calculator,hours-calculator,rework
+Zeitzone umrechnen,unverified,unverified,converter,time-zone-converter,rework
+BMI Rechner,unverified,unverified,calculator,bmi-calculator,rework
+BMI berechnen,unverified,unverified,calculator,bmi-calculator,rework
+Kalorienbedarf Rechner,unverified,unverified,calculator,tdee-calculator,rework
+Grundumsatz Rechner,unverified,unverified,calculator,bmr-calculator,rework
+Promille Rechner,unverified,unverified,calculator,promille-rechner,new
+Promille Wert berechnen,unverified,unverified,calculator,promille-rechner,new
+Wasserbedarf Rechner,unverified,unverified,calculator,water-intake-calculator,rework
+Kalorien Rechner Makros,unverified,unverified,calculator,macro-calculator,rework
+Proteinbedarf Rechner,unverified,unverified,calculator,protein-calculator,rework
+PDF zusammenfuegen,unverified,unverified,converter,merge-pdf,rework
+PDF zusammenfuegen Rechner,unverified,unverified,converter,merge-pdf,rework
+PDF komprimieren,unverified,unverified,converter,compress-pdf,rework
+PDF verkleinern,unverified,unverified,converter,reduce-pdf-size,rework
+PDF in Word,unverified,unverified,converter,pdf-to-docx,rework
+Word in PDF,unverified,unverified,converter,word-to-pdf,new
+JPG in PDF,unverified,unverified,converter,image-to-pdf,rework
+Bilder in PDF umwandeln,unverified,unverified,converter,image-to-pdf,rework
+PDF in JPG,unverified,unverified,converter,pdf-to-jpg-converter,rework
+PDF Seiten als Bild,unverified,unverified,converter,pdf-to-image-converter,rework
+Bild verkleinern,unverified,unverified,converter,image-resizer,rework
+Bild verkleinern online,unverified,unverified,converter,image-resizer,rework
+HEIC in JPG,unverified,unverified,converter,heic-to-jpg-converter,rework
+WebP in JPG,unverified,unverified,converter,webp-to-jpg-converter,rework
+PNG in JPG,unverified,unverified,converter,png-to-jpg-converter,rework
+QR Code Generator,unverified,unverified,generator,qr-code-generator,rework
+WLAN QR Code,unverified,unverified,generator,wifi-qr-code-generator,rework
+Passwort Generator,unverified,unverified,generator,password-generator,rework
+Sicheres Passwort erzeugen,unverified,unverified,generator,password-generator,rework
+PDF Metadaten entfernen,unverified,unverified,converter,pdf-metadata-remover,rework
+PDF Text schwärzen,unverified,unverified,converter,redact-pdf,rework
+PDF splitten,unverified,unverified,converter,split-pdf,rework
+PDF Seiten extrahieren,unverified,unverified,converter,extract-pdf-pages,rework
+Dokument anzeigen Word,unverified,unverified,converter,docx-viewer,rework
+Zufallszahl Generator,unverified,unverified,generator,random-number-generator,rework
+Zufaellige Zahlen,unverified,unverified,generator,random-number-generator,rework
+Lottozahlen Generator,unverified,unverified,generator,lottozahlen-generator,new
+6 aus 49 Generator,unverified,unverified,generator,lottozahlen-generator,new
+Wuerfel rollen,unverified,unverified,generator,dice-roller,rework
+Muenze werfen,unverified,unverified,generator,coin-flip,rework
+Muenzwurf,unverified,unverified,generator,coin-flip,rework
+Namensrad,unverified,unverified,generator,wheel-of-names,rework
+Wichteln Namen ziehen,unverified,unverified,generator,secret-santa-generator,rework
+Wichteln Zuteilung,unverified,unverified,generator,secret-santa-generator,rework
+Teams verteilen,unverified,unverified,generator,random-team-generator,rework
+Zufaelliger Name ziehen,unverified,unverified,generator,random-name-picker,rework
+Gewinner auslosen,unverified,unverified,generator,random-winner-picker,rework
+Wortzaehler,unverified,unverified,information,word-counter,rework
+Zeichen zaehlen,unverified,unverified,information,word-counter,rework
+Bruch Rechner,unverified,unverified,calculator,fraction-calculator,rework
+Durchschnitt Rechner,unverified,unverified,calculator,average-calculator,rework
+Verhaeltnis Rechner,unverified,unverified,calculator,ratio-calculator,rework
+Einheiten umrechnen,unverified,unverified,converter,einheiten-umrechner,new
+cm in Zoll umrechnen,unverified,unverified,converter,einheiten-umrechner,new
+IBAN pruefen,unverified,unverified,information,iban-pruefer,new
+IBAN Pruefung,unverified,unverified,information,iban-pruefer,new
+Beton Rechner,unverified,unverified,calculator,concrete-calculator,rework
+Fliesen Rechner,unverified,unverified,calculator,tile-calculator,rework
+Maler Rechner,unverified,unverified,calculator,paint-calculator,rework
+Quadratmeter Rechner,unverified,unverified,calculator,square-footage-calculator,rework
+Kies Rechner,unverified,unverified,calculator,gravel-calculator,rework
+Zitat nach DIN ISO 690,unverified,unverified,information,citation-generator,rework
+APA Zitierweise,unverified,unverified,information,apa-citation-generator,rework
+Harvard Zitierweise deutsch,unverified,unverified,information,harvard-citation-generator,rework
+GPA Rechner,unverified,unverified,calculator,gpa-calculator,skip
+College GPA Rechner,unverified,unverified,calculator,college-gpa-calculator,skip
+Cumulative GPA Rechner,unverified,unverified,calculator,cumulative-gpa-calculator,skip
+Weighted GPA Rechner,unverified,unverified,calculator,weighted-gpa-calculator,skip
+High School GPA Rechner,unverified,unverified,calculator,high-school-gpa-calculator,skip
+Middle School GPA Rechner,unverified,unverified,calculator,middle-school-gpa-calculator,skip
+Raise GPA Rechner,unverified,unverified,calculator,raise-gpa-calculator,skip
+Thanksgiving Countdown,unverified,unverified,information,thanksgiving-countdown,skip
+Tage bis Halloween,unverified,unverified,information,days-until-halloween,skip
+Thanksgiving Bingo,unverified,unverified,generator,thanksgiving-bingo,skip
+Baby Shower Bingo,unverified,unverified,generator,baby-shower-bingo,skip
+White Elephant Regeln,unverified,unverified,information,white-elephant-rules,skip
+White Elephant Geschenke,unverified,unverified,generator,white-elephant-generator,skip
+Yankee Swap Regeln,unverified,unverified,information,yankee-swap-rules,skip
+Dirty Santa Regeln,unverified,unverified,information,dirty-santa-rules,skip
+Chicago Zitierweise,unverified,unverified,information,chicago-citation-generator,skip
+MLA Zitierweise,unverified,unverified,information,mla-citation-generator,skip
+Discord Username Generator,unverified,unverified,generator,discord-username-generator,skip
+Twitch Username Generator,unverified,unverified,generator,twitch-username-generator,skip
+Reddit Username Generator,unverified,unverified,generator,reddit-username-generator,skip
