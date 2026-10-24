@@ -1,0 +1,65 @@
+{
+  "namespace": "ui.pdf",
+  "en": {
+    "PdfMetaEngine": {
+      "notPresentInThisFile": "not present in this file",
+      "notAvailable": "not available — the file could not be read",
+      "versionEntry": "Version {index}: {date} — {action}",
+      "versionEntryWithoutAction": "Version {index}: {date}",
+      "unknownDate": "date unknown",
+      "documentId": "Document ID",
+      "xmpPacket": "XMP packet",
+      "xmpEditHistory": "XMP edit history",
+      "earlierVersions": "Earlier versions",
+      "photoGps": "Photo GPS",
+      "attachments": "Attachments",
+      "present": "present",
+      "thisIsWhatIsInsideTheFile": "This is what is inside the file. It is removed when you clean the document.",
+      "removedDocumentInformation": "Document information removed: title, author, subject, keywords, producer, creator and the dates.",
+      "removedXmpPacket": "XMP packet removed with the edit history and the earlier versions.",
+      "removedGps": "GPS coordinates of the photo removed with the XMP packet.",
+      "removedAttachments": "{count, plural, one {# attachment removed} other {# attachments removed}}"
+    },
+    "PdfMergeEngine": {
+      "pages": "Pages",
+      "pageOfFile": "Page {page} of {file}",
+      "movePageUp": "Move page {page} of {file} up",
+      "movePageDown": "Move page {page} of {file} down",
+      "removePage": "Remove page {page} of {file}",
+      "pageCount": "{count} pages",
+      "mergedFilesIntoOneDocument": "Merged {files} file(s) into {pages} pages.",
+      "mergedPagesIntoOneDocument": "Merged {count} page(s) into one document."
+    }
+  },
+  "de": {
+    "PdfMetaEngine": {
+      "notPresentInThisFile": "in dieser Datei nicht vorhanden",
+      "notAvailable": "nicht verfügbar – die Datei konnte nicht gelesen werden",
+      "versionEntry": "Fassung {index}: {date} — {action}",
+      "versionEntryWithoutAction": "Fassung {index}: {date}",
+      "unknownDate": "Datum unbekannt",
+      "documentId": "Dokument-ID",
+      "xmpPacket": "XMP-Paket",
+      "xmpEditHistory": "XMP-Änderungsverlauf",
+      "earlierVersions": "Frühere Versionen",
+      "photoGps": "Foto-GPS",
+      "attachments": "Anhänge",
+      "present": "vorhanden",
+      "thisIsWhatIsInsideTheFile": "Das steckt in der Datei. Es wird entfernt, wenn Sie das Dokument bereinigen.",
+      "removedDocumentInformation": "Dokumentinformationen entfernt: Titel, Autor, Betreff, Schlüsselwörter, Produzent, Ersteller und die Datumsangaben.",
+      "removedXmpPacket": "XMP-Paket mit Änderungsverlauf und früheren Versionen entfernt.",
+      "removedGps": "GPS-Koordinaten des Fotos mit dem XMP-Paket entfernt.",
+      "removedAttachments": "{count, plural, one {# Anhang entfernt} other {# Anhänge entfernt}}"
+    },
+    "PdfMergeEngine": {
+      "pages": "Seiten",
+      "pageOfFile": "Seite {page} von {file}",
+      "movePageUp": "Seite {page} von {file} nach oben verschieben",
+      "movePageDown": "Seite {page} von {file} nach unten verschieben",
+      "removePage": "Seite {page} von {file} entfernen",
+      "pageCount": "{count} Seiten",
+      "mergedFilesIntoOneDocument": "{files} Datei(en) mit {pages} Seiten zusammengeführt.",
+      "mergedPagesIntoOneDocument": "{count} Seite(n) in einem Dokument zusammengeführt."
+    }
+  }
+}
