@@ -53,3 +53,5 @@ tmp-*
 
 .next-audit/
 .~lock.*
+.mavis*
+
