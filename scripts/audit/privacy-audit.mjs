@@ -29,7 +29,10 @@ const root = join(here, "..", "..");
 
 const args = Object.fromEntries(
   process.argv.slice(2).map((a) => {
-    const [k, v = "true"] = a.replace(/^--/, "");
+    // "--port=3100" has to be split at the "=" first. Without the split the
+    // string is destructured character by character, so every flag was
+    // silently ignored and the script always ran with its defaults.
+    const [k, v = "true"] = a.replace(/^--/, "").split("=");
     return [k, v];
   }),
 );
@@ -117,20 +120,29 @@ async function auditRoute(context, tool) {
     const target = await page.evaluate(() => {
       const scope =
         document.querySelector("main") || document.body;
-      const ta = scope.querySelector("textarea:not([readonly])");
-      if (ta) return { kind: "textarea", index: 0, type: "textarea" };
-      const inputs = Array.from(
-        scope.querySelectorAll(
-          "input:not([type=file]):not([type=checkbox]):not([type=radio]):not([type=submit]):not([readonly])",
-        ),
-      );
-      const usable = inputs.filter((el) => {
+      // The index has to be counted over the same list that the selector
+      // counts. "input >> nth=3" counts every input of the page, so the
+      // candidate list is built from every input too and the index of the
+      // chosen one is taken from that list.
+      const allTextareas = Array.from(scope.querySelectorAll("textarea"));
+      const ta = allTextareas.find((el) => !el.hasAttribute("readonly"));
+      if (ta) {
+        return {
+          kind: "textarea",
+          index: allTextareas.indexOf(ta),
+          type: "textarea",
+        };
+      }
+      const allInputs = Array.from(scope.querySelectorAll("input"));
+      const usable = allInputs.filter((el) => {
         const type = (el.getAttribute("type") || "text").toLowerCase();
+        if (["file", "checkbox", "radio", "submit"].includes(type)) return false;
+        if (el.hasAttribute("readonly")) return false;
         return ["text", "search", "email", "url", "password", "tel", "number", "range"].includes(type);
       });
       if (!usable.length) return { kind: "none", index: -1, type: "none" };
       const first = usable[0];
-      const index = inputs.indexOf(first);
+      const index = allInputs.indexOf(first);
       return {
         kind: "input",
         index,
@@ -141,9 +153,14 @@ async function auditRoute(context, tool) {
     });
 
     if (target.kind !== "none") {
-      const selector = `${target.kind === "textarea" ? "textarea" : "input"} >> nth=${target.index}`;
-      const el = page.locator(selector).first();
-      if (await el.count()) {
+      // The index is a position in the document order of the inputs, so it is
+      // used with the JavaScript index API. The selector string "input >>
+      // nth=3" does not mean the same thing and must not be used here.
+      const el = page
+        .locator(target.kind === "textarea" ? "textarea" : "input")
+        .nth(target.index);
+      try {
+        await el.waitFor({ state: "visible", timeout: 10000 });
         let value = "Digital ToolPad privacy probe 12345";
         if (target.type === "number") value = "12345";
         if (target.type === "range") {
@@ -159,6 +176,11 @@ async function auditRoute(context, tool) {
           await el.fill("@@@not valid@@@");
           await sleep(150);
         }
+      } catch (err) {
+        // A probe that cannot type is a limitation of the probe, not of the
+        // tool. The storage and the network are still checked below, so the
+        // finding is recorded separately instead of failing the whole route.
+        result.probeError = String(err.message).slice(0, 300);
       }
     }
 
@@ -244,6 +266,7 @@ async function main() {
     withStorageWrites: results.filter((r) => r.persists).length,
     withExternalRequests: results.filter((r) => (r.externalRequests || []).length > 0).length,
     loadErrors: results.filter((r) => r.error).length,
+    probeErrors: results.filter((r) => r.probeError).length,
   };
 
   mkdirSync(OUT_DIR, { recursive: true });
@@ -256,7 +279,7 @@ async function main() {
   }
   console.log(`written: ${OUT_FILE}`);
 
-  const problems = results.filter((r) => r.leaks || r.error);
+  const problems = results.filter((r) => r.leaks || r.error || r.probeError);
   if (problems.length) {
     console.log(`---- ${problems.length} tools need review ----`);
     for (const p of problems) {
@@ -266,7 +289,8 @@ async function main() {
           `session=${JSON.stringify(p.sessionStorageAdded || [])} ` +
           `idb=${JSON.stringify(p.indexedDbAdded || [])} ` +
           `ext=${JSON.stringify(p.externalRequests || [])}` +
-          (p.error ? ` err=${p.error}` : ""),
+          (p.error ? ` err=${p.error}` : "") +
+          (p.probeError ? ` probe=${p.probeError}` : ""),
       );
     }
   }

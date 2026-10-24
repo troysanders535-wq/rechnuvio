@@ -1065,14 +1065,14 @@
    "actions": [
     "Another name",
     "Surprise me",
-    "Dionysus",
-    "Henry",
-    "Constantine",
-    "Eitan",
-    "Quinn",
-    "Winston",
-    "Doron",
-    "Jason"
+    "Yusuf",
+    "Vittorio",
+    "Alexis",
+    "Theodore",
+    "Alexander",
+    "Alvaro",
+    "Lior",
+    "Arman"
    ]
   },
   "de": {
@@ -1120,14 +1120,14 @@
    "actions": [
     "Noch ein Name",
     "Überraschen Sie mich",
-    "Rowan",
-    "Leander",
-    "Corentin",
-    "Magnus",
-    "Yashar",
-    "Bohdan",
-    "Arden",
-    "Aurelius"
+    "Igor",
+    "Fionn",
+    "Amir",
+    "Kian",
+    "Ellis",
+    "Constantine",
+    "Amos",
+    "Phoenix"
    ]
   }
  },
@@ -1177,14 +1177,14 @@
    "actions": [
     "Another name",
     "Surprise me",
-    "Reese",
-    "Gaia",
-    "Doris",
-    "Yasmin",
-    "Juno",
+    "Marisol",
+    "Beatriz",
     "Sigrid",
-    "Alessia",
-    "Lennox"
+    "Anneliese",
+    "Giulia",
+    "Brigitta",
+    "Deborah",
+    "Rocio"
    ]
   },
   "de": {
@@ -1232,14 +1232,14 @@
    "actions": [
     "Noch ein Name",
     "Überraschen Sie mich",
-    "Thea",
-    "Dalia",
-    "Ombline",
-    "Rosalind",
-    "Shira",
-    "Annika",
-    "Nasrin",
-    "Roya"
+    "Sigrid",
+    "Amelie",
+    "Melite",
+    "Quinn",
+    "Bianca",
+    "Miriam",
+    "Eleonore",
+    "Elsa"
    ]
   }
  },
@@ -1299,14 +1299,14 @@
    "actions": [
     "Another name",
     "Surprise me",
-    "Corentin",
-    "Aoife",
-    "Felix",
-    "Oda",
-    "Lorenzo",
-    "Rashid",
-    "Erik",
-    "Eimear"
+    "Elodie",
+    "Caoimhe",
+    "Xenia",
+    "Darius",
+    "Alfred",
+    "Samira",
+    "Marit",
+    "Tatum"
    ]
   },
   "de": {
@@ -1364,14 +1364,14 @@
    "actions": [
     "Noch ein Name",
     "Überraschen Sie mich",
-    "Oren",
-    "Saoirse",
-    "Noemie",
-    "Remy",
-    "Doris",
-    "Ronan",
-    "Jack",
-    "Miranda"
+    "Igor",
+    "Roshanak",
+    "Odysseus",
+    "Gideon",
+    "Maeve",
+    "Maximilian",
+    "Miranda",
+    "Constantine"
    ]
   }
  },
@@ -6805,15 +6805,15 @@
    ],
    "actions": [
     "Generate names",
-    "Curious_Wolf126",
-    "Autumn_River",
-    "Happy_Harbor963",
-    "Stellar_Meteor",
-    "Dawn_Peak",
-    "Nimble_Moon92",
-    "Amber_Robin",
-    "Brave_Lantern",
-    "Golden_Beacon"
+    "Lively_Summit",
+    "Rapid_Panther142",
+    "Fluffy_Maple",
+    "Mellow_Comet",
+    "Keen_Wolf",
+    "Stellar_Island323",
+    "Frosty_Heron225",
+    "Cedar_Falconer476",
+    "Daring_Creek27"
    ]
   },
   "de": {
@@ -6839,15 +6839,15 @@
    ],
    "actions": [
     "Namen erzeugen",
-    "Silent_Otter276",
-    "Fluffy_Creek",
-    "Witty_Harbor645",
-    "Amber_Harbor",
-    "Spry_Creek",
-    "Daring_Heron",
-    "Silent_Wolf818",
-    "Brave_Robin237",
-    "Noble_Moon"
+    "Ocean_Forest752",
+    "Hidden_Lantern232",
+    "Amber_Peak392",
+    "Clever_Peak",
+    "Brave_Falconer",
+    "Amber_Peak596",
+    "Crimson_Falconer",
+    "Polar_Lantern",
+    "Winter_Canyon"
    ]
   }
  },
@@ -19514,15 +19514,15 @@
    ],
    "actions": [
     "Generate names",
-    "Ancient_Beacon769",
-    "Autumn_Forest459",
-    "Bold_Robin227",
-    "Stellar_Falcon813",
-    "Silent_Harbor832",
-    "Ocean_Comet",
-    "Swift_Comet627",
-    "Rusty_Otter314",
-    "Ancient_Pine"
+    "Midnight_Beacon742",
+    "Hidden_Badger894",
+    "Bright_Dolphin",
+    "Fearless_Dolphin",
+    "Lucky_Forest660",
+    "Golden_Sparrow",
+    "Keen_Meadow",
+    "Clever_Eagle",
+    "Spry_Wren477"
    ]
   },
   "de": {
@@ -19547,15 +19547,15 @@
    ],
    "actions": [
     "Namen erzeugen",
-    "Cedar_Willow",
-    "Stellar_Otter",
-    "Ancient_Garden",
-    "Eager_Cedar",
-    "Autumn_Raven647",
-    "Fluffy_Willow",
-    "Lucky_Raven",
-    "Ocean_Panther974",
-    "Curious_Garden787"
+    "Happy_Beacon934",
+    "Humble_Falconer649",
+    "Autumn_Canyon716",
+    "Jolly_River158",
+    "Eager_River151",
+    "Golden_Sparrow",
+    "Calm_Dolphin",
+    "Winter_Owl",
+    "Electric_Moon"
    ]
   }
  },
@@ -23620,15 +23620,15 @@
    ],
    "actions": [
     "Generate names",
-    "Ancient_Creek161",
-    "Electric_Falconer434",
-    "Silent_Lantern551",
-    "Wild_Mountain553",
-    "Golden_Pine",
-    "Noble_Valley",
-    "Electric_Lantern",
-    "Lively_Moon",
-    "Eager_Wolf"
+    "Quiet_Beacon342",
+    "Winter_Garden",
+    "Polar_Valley69",
+    "Electric_Forest322",
+    "Solar_Panther554",
+    "Midnight_Moon",
+    "Dawn_Cedar471",
+    "Clever_Meadow269",
+    "Clever_Forest308"
    ]
   },
   "de": {
@@ -23653,15 +23653,15 @@
    ],
    "actions": [
     "Namen erzeugen",
-    "Winter_Forest",
-    "Winter_Badger",
-    "Silver_Wolf131",
-    "Crimson_Dolphin",
-    "Curious_River235",
-    "Sunny_Willow",
-    "Crimson_Meadow518",
-    "Midnight_Owl193",
-    "Autumn_Wolf77"
+    "Happy_Sparrow281",
+    "Solar_Tiger603",
+    "Autumn_Cedar970",
+    "Electric_Valley530",
+    "Calm_Forest206",
+    "Eager_Summit",
+    "Bright_Otter811",
+    "Fluffy_Harbor64",
+    "Frosty_Falconer953"
    ]
   }
  },
@@ -24068,15 +24068,15 @@
    ],
    "actions": [
     "Generate names",
-    "Golden_Beacon",
-    "Curious_Tiger366",
-    "Spry_Wolf862",
-    "Hidden_Beacon94",
-    "Winter_Summit771",
-    "Sunny_Pine",
-    "Stellar_Falcon717",
-    "Quiet_Dolphin",
-    "Happy_Moon"
+    "Keen_Thunder522",
+    "Curious_Sparrow",
+    "Eager_River629",
+    "Dawn_Wolf541",
+    "Polar_Dolphin635",
+    "Deep_Falcon705",
+    "Curious_Thunder",
+    "Winter_Maple925",
+    "Hidden_Mountain"
    ]
   },
   "de": {
@@ -24101,15 +24101,15 @@
    ],
    "actions": [
     "Namen erzeugen",
-    "Witty_Creek402",
-    "Frosty_Mountain415",
-    "Nimble_Tiger",
-    "Bright_Meteor",
-    "Humble_Meteor266",
-    "Rapid_Falconer",
-    "Jolly_Harbor581",
-    "Stellar_Creek609",
-    "Cedar_Harbor24"
+    "Midnight_Falconer368",
+    "Calm_Lantern866",
+    "Curious_Robin290",
+    "Frosty_Canyon821",
+    "Nimble_Maple",
+    "Witty_Raven",
+    "Fearless_Canyon",
+    "Jolly_Falcon378",
+    "Rusty_Peak"
    ]
   }
  },

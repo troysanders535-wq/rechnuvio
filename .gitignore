@@ -53,6 +53,7 @@ tmp-*
 .cache/
 
 .next-audit/
+.next-build/
 .~lock.*
 .mavis*
 Claude outputs/

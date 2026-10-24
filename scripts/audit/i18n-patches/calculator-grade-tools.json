@@ -1,0 +1,9 @@
+{
+  "namespace": "ui.calculators.GradeTools",
+  "en": {
+    "scoreNeededForGrade": "For a {grade}"
+  },
+  "de": {
+    "scoreNeededForGrade": "Für die Note {grade}"
+  }
+}

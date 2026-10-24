@@ -1,0 +1,11 @@
+{
+  "namespace": "ui.engines.TextHandwritingWorkspace",
+  "en": {
+    "generatorHintNote": "Pick a handwriting font, choose a paper and an ink colour, then download the result as PNG or PDF.",
+    "converterHintNote": "Type your text on the left and the ruled page on the right is redrawn with a natural letter variation."
+  },
+  "de": {
+    "generatorHintNote": "Wählen Sie eine Handschrift, ein Papier und eine Tintenfarbe und laden Sie das Ergebnis dann als PNG oder PDF herunter.",
+    "converterHintNote": "Tippen Sie links Ihren Text und der linierte Bogen rechts wird mit einer natürlichen Buchstabenvariation neu gezeichnet."
+  }
+}

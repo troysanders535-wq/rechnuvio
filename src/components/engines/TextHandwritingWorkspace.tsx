@@ -714,15 +714,9 @@ export function TextHandwritingWorkspace({ slug }: { slug: string }) {
 
       <Note>{tUi("pageDrawnInBrowserNote")}</Note>
       {isGenerator ? (
-        <Note>
-          Pick a handwriting font, choose a paper and an ink colour, then
-          download the result as PNG or PDF.
-        </Note>
+        <Note>{tUi("generatorHintNote")}</Note>
       ) : (
-        <Note>
-          Type your text on the left and the ruled page on the right is
-          redrawn with a natural letter variation.
-        </Note>
+        <Note>{tUi("converterHintNote")}</Note>
       )}
     </Panel>
   );

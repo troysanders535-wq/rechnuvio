@@ -846,7 +846,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "No input needed - choose an option and run the tool.",
       "Choose between Origin (8 values) and Style (8 values).",
-      "Provides 10 actions: Another name, Surprise me, Dionysus, Henry and 6 more.",
+      "Provides 10 actions: Another name, Surprise me, Yusuf, Vittorio and 6 more.",
       "Runs entirely in your browser - Baby Boy Name Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -890,7 +890,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "No input needed - choose an option and run the tool.",
       "Choose between Origin (8 values) and Style (8 values).",
-      "Provides 10 actions: Another name, Surprise me, Reese, Gaia and 6 more.",
+      "Provides 10 actions: Another name, Surprise me, Marisol, Beatriz and 6 more.",
       "Runs entirely in your browser - Baby Girl Name Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -933,7 +933,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "No input needed - choose an option and run the tool.",
       "Choose between Gender (4 values) and Origin (8 values).",
-      "Provides 10 actions: Another name, Surprise me, Corentin, Aoife and 6 more.",
+      "Provides 10 actions: Another name, Surprise me, Elodie, Caoimhe and 6 more.",
       "Runs entirely in your browser - Baby Name Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -4248,7 +4248,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, ., without a separator.",
-      "Provides 10 actions: Generate names, Curious_Wolf126, Autumn_River, Happy_Harbor963 and 6 more.",
+      "Provides 10 actions: Generate names, Lively_Summit, Rapid_Panther142, Fluffy_Maple and 6 more.",
       "Runs entirely in your browser - Discord Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -13634,7 +13634,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, without a separator.",
-      "Provides 10 actions: Generate names, Ancient_Beacon769, Autumn_Forest459, Bold_Robin227 and 6 more.",
+      "Provides 10 actions: Generate names, Midnight_Beacon742, Hidden_Badger894, Bright_Dolphin and 6 more.",
       "Runs entirely in your browser - Reddit Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -16836,7 +16836,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, without a separator.",
-      "Provides 10 actions: Generate names, Ancient_Creek161, Electric_Falconer434, Silent_Lantern551 and 6 more.",
+      "Provides 10 actions: Generate names, Quiet_Beacon342, Winter_Garden, Polar_Valley69 and 6 more.",
       "Runs entirely in your browser - Twitch Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -17232,7 +17232,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, without a separator.",
-      "Provides 10 actions: Generate names, Golden_Beacon, Curious_Tiger366, Spry_Wolf862 and 6 more.",
+      "Provides 10 actions: Generate names, Keen_Thunder522, Curious_Sparrow, Eager_River629 and 6 more.",
       "Runs entirely in your browser - Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],

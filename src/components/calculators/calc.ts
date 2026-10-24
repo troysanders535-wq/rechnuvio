@@ -1277,7 +1277,10 @@ export function roofingEstimate(
 export interface BtuResult {
   btu: number;
   recommendedTons: number;
-  recommended: string;
+  /** The BTU size the tool recommends, as a plain number. */
+  recommendedBtu: number;
+  /** The ton figure that belongs to the recommended size: "1", "1.5", "2" ... */
+  recommendedTonLabel: string;
   squareFeet: number;
 }
 
@@ -1296,17 +1299,36 @@ export function btuForRoom(
   if (useAsKitchen) btu += 1200;
 
   const tons = btu / 12000;
-  let recommended = "12,000 BTU (1 ton)";
-  if (btu >= 18000) recommended = "18,000 BTU (1.5 tons)";
-  if (btu >= 23000) recommended = "24,000 BTU (2 tons)";
-  if (btu >= 34000) recommended = "36,000 BTU (3 tons)";
-  if (btu >= 46000) recommended = "48,000 BTU (4 tons)";
-  if (btu >= 58000) recommended = "60,000 BTU (5 tons)";
+  // The recommended size comes in the sizes that the trade uses. The wording
+  // is left to the caller, because the unit word belongs to the language.
+  let recommendedBtu = 12000;
+  let recommendedTonLabel = "1";
+  if (btu >= 18000) {
+    recommendedBtu = 18000;
+    recommendedTonLabel = "1.5";
+  }
+  if (btu >= 23000) {
+    recommendedBtu = 24000;
+    recommendedTonLabel = "2";
+  }
+  if (btu >= 34000) {
+    recommendedBtu = 36000;
+    recommendedTonLabel = "3";
+  }
+  if (btu >= 46000) {
+    recommendedBtu = 48000;
+    recommendedTonLabel = "4";
+  }
+  if (btu >= 58000) {
+    recommendedBtu = 60000;
+    recommendedTonLabel = "5";
+  }
 
   return {
     btu: Math.round(btu / 100) * 100,
     recommendedTons: Math.round(tons * 10) / 10,
-    recommended,
+    recommendedBtu,
+    recommendedTonLabel,
     squareFeet,
   };
 }

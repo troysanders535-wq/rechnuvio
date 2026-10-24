@@ -82,20 +82,7 @@
  {
   "slug": "ai-viewer",
   "engine": "file-viewers",
-  "untranslated": [
-   "Preview PDF-compatible Adobe Illustrator files in your browser. Zoom, browse available pages, and export previews as PNG or JPG. Files stay on your device.",
-   "files supported (100% Client-Side)",
-   "Illustrator Editing & Native Layers: Not supported. PDF.js is a high-fidelity document renderer, not an Illustrator vector editor.",
-   "Multi-page Artboards: When saved with PDF compatibility, available PDF pages in the stream correspond to exported artboards.",
-   "How does this viewer open .ai files?",
-   "When saving in Adobe Illustrator, the \"Create PDF Compatible File\" option is enabled by default. This bundles a complete PDF vector preview stream inside the .ai container. Our viewer parses this stream 100% locally using Mozilla PDF.js.",
-   "Why do some .ai files say \"No readable preview\"?",
-   "If an Illustrator file was saved with \"Create PDF Compatible File\" disabled or in legacy Illustrator 8 format, it contains only proprietary PostScript code and no PDF data. Simply re-save the file in Illustrator with PDF compatibility enabled.",
-   "Can I export high-resolution PNG or JPG?",
-   "Yes. You can select 1x (72 DPI), 2x (144 DPI), 3x (216 DPI), or 4x (300 DPI print quality) from the resolution dropdown. PNG exports preserve vector transparency, while JPG exports include a solid white background.",
-   "Is my artwork uploaded to any server?",
-   "Never. File decoding, vector rasterization, and image generation run entirely within your browser's Web Worker sandbox. No file data is ever transmitted across the internet."
-  ]
+  "untranslated": []
  },
  {
   "slug": "ai-to-pdf",
@@ -111,13 +98,6 @@
   "slug": "alphabetical-order-tool",
   "engine": "text-suite",
   "untranslated": []
- },
- {
-  "slug": "apa-citation-generator",
-  "engine": "text-suite",
-  "untranslated": [
-   "BibTeX"
-  ]
  },
  {
   "slug": "ai-token-counter",
@@ -143,11 +123,16 @@
   ]
  },
  {
+  "slug": "apa-citation-generator",
+  "engine": "text-suite",
+  "untranslated": [
+   "BibTeX"
+  ]
+ },
+ {
   "slug": "api-tester",
   "engine": "developer-suite",
-  "untranslated": [
-   "Click 'Send Request' to test the endpoint."
-  ]
+  "untranslated": []
  },
  {
   "slug": "asn1-decoder",
@@ -181,7 +166,6 @@
   "slug": "baby-boy-name-generator",
   "engine": "randomizers-games",
   "untranslated": [
-   "Ruairi",
    "Modern",
    "Vintage"
   ]
@@ -216,23 +200,17 @@
  {
   "slug": "bank-statement-converter",
   "engine": "csv-data",
-  "untranslated": [
-   "Pipe (|)"
-  ]
+  "untranslated": []
  },
  {
   "slug": "bank-statement-to-csv",
   "engine": "csv-data",
-  "untranslated": [
-   "Pipe (|)"
-  ]
+  "untranslated": []
  },
  {
   "slug": "bank-statement-to-excel",
   "engine": "csv-data",
-  "untranslated": [
-   "Pipe (|)"
-  ]
+  "untranslated": []
  },
  {
   "slug": "barcode-generator",
@@ -402,10 +380,7 @@
  {
   "slug": "btu-calculator",
   "engine": "calculator-suite",
-  "untranslated": [
-   "12,000 BTU (1 ton)",
-   "sq ft"
-  ]
+  "untranslated": []
  },
  {
   "slug": "bulk-barcode-generator",
@@ -471,13 +446,13 @@
   "untranslated": []
  },
  {
-  "slug": "christmas-wish-list-maker",
-  "engine": "randomizers-games",
+  "slug": "cidr-calculator",
+  "engine": "networking-tools",
   "untranslated": []
  },
  {
-  "slug": "cidr-calculator",
-  "engine": "networking-tools",
+  "slug": "christmas-wish-list-maker",
+  "engine": "randomizers-games",
   "untranslated": []
  },
  {
@@ -533,7 +508,7 @@
   "slug": "code-to-image",
   "engine": "image-suite",
   "untranslated": [
-   "Codeconst answer = 42; console.log(answer);",
+   "Code",
    "JavaScript",
    "TypeScript",
    "Python",
@@ -589,9 +564,7 @@
  {
   "slug": "cps-test",
   "engine": "device-tester",
-  "untranslated": [
-   "Clicks: 0"
-  ]
+  "untranslated": []
  },
  {
   "slug": "cron-expression-generator",
@@ -622,16 +595,12 @@
  {
   "slug": "csv-to-json-converter",
   "engine": "csv-data",
-  "untranslated": [
-   "Pipe (|)"
-  ]
+  "untranslated": []
  },
  {
   "slug": "csv-viewer",
   "engine": "csv-data",
-  "untranslated": [
-   "Pipe (|)"
-  ]
+  "untranslated": []
  },
  {
   "slug": "cumulative-gpa-calculator",
@@ -781,11 +750,7 @@
  {
   "slug": "easy-grader",
   "engine": "calculator-suite",
-  "untranslated": [
-   "Wrong",
-   "Score %",
-   "Letter"
-  ]
+  "untranslated": []
  },
  {
   "slug": "electricity-cost-calculator",
@@ -839,16 +804,12 @@
  {
   "slug": "excel-to-csv",
   "engine": "csv-data",
-  "untranslated": [
-   "Pipe (|)"
-  ]
+  "untranslated": []
  },
  {
   "slug": "excel-viewer",
   "engine": "csv-data",
-  "untranslated": [
-   "Pipe (|)"
-  ]
+  "untranslated": []
  },
  {
   "slug": "exif-remover",
@@ -909,11 +870,7 @@
  {
   "slug": "final-grade-calculator",
   "engine": "calculator-suite",
-  "untranslated": [
-   "For a A",
-   "For a B",
-   "For a C"
-  ]
+  "untranslated": []
  },
  {
   "slug": "flac-to-mp3",
@@ -1031,9 +988,7 @@
  {
   "slug": "grade-calculator",
   "engine": "calculator-suite",
-  "untranslated": [
-   "% weight / % score"
-  ]
+  "untranslated": []
  },
  {
   "slug": "graphql-formatter-beautifier",
@@ -1087,9 +1042,7 @@
    "Gabriola",
    "Cursive",
    "Letter",
-   "plain",
-   "The page is drawn in your browser and exported from the canvas. Nothing is uploaded and no text leaves the device.",
-   "Pick a handwriting font, choose a paper and an ink colour, then download the result as PNG or PDF."
+   "plain"
   ]
  },
  {
@@ -1237,9 +1190,7 @@
  {
   "slug": "http-request-tester",
   "engine": "developer-suite",
-  "untranslated": [
-   "Click 'Send Request' to test the endpoint."
-  ]
+  "untranslated": []
  },
  {
   "slug": "ico-converter",
@@ -1374,10 +1325,7 @@
  {
   "slug": "json-formatter",
   "engine": "json",
-  "untranslated": [
-   "Indent:",
-   "Depth: 2"
-  ]
+  "untranslated": []
  },
  {
   "slug": "json-minifier",
@@ -1387,10 +1335,7 @@
  {
   "slug": "json-pretty-print",
   "engine": "json",
-  "untranslated": [
-   "Indent:",
-   "Depth: 2"
-  ]
+  "untranslated": []
  },
  {
   "slug": "json-diff-compare",
@@ -1410,9 +1355,7 @@
  {
   "slug": "json-to-csv-converter",
   "engine": "csv-data",
-  "untranslated": [
-   "Pipe (|)"
-  ]
+  "untranslated": []
  },
  {
   "slug": "json-to-toon",
@@ -1556,7 +1499,6 @@
    "lceil",
    "rceil",
    "\\frac, \\sqrt, \\sum, \\int",
-   "^ and _ for super- and subscripts",
    "\\alpha … \\omega, \\Gamma … \\Omega",
    "\\times, \\cdot, \\pm, \\leq, \\geq, \\neq",
    "\\infty, \\partial, \\to, \\Rightarrow",
@@ -1654,114 +1596,42 @@
  {
   "slug": "markdown-file-viewer",
   "engine": "markdown-docs",
-  "untranslated": [
-   "Digital ToolPad Productivity Document",
-   "Welcome to the Offline Document Workspace",
-   "All your markdown editing, PDF generation, and Word docx conversions run 100% in your browser without sending data to servers.",
-   "Key Capabilities",
-   "Real-time Live Preview: Renders GitHub Flavored Markdown instantly",
-   "Direct PDF Export: Generates printable PDF documents locally",
-   "Word (.docx) Export: Converts headers, bullet points, and text into valid Word documents",
-   "Privacy is not an afterthought; it is our fundamental architecture."
-  ]
+  "untranslated": []
  },
  {
   "slug": "markdown-preview",
   "engine": "markdown-docs",
-  "untranslated": [
-   "Digital ToolPad Productivity Document",
-   "Welcome to the Offline Document Workspace",
-   "All your markdown editing, PDF generation, and Word docx conversions run 100% in your browser without sending data to servers.",
-   "Key Capabilities",
-   "Real-time Live Preview: Renders GitHub Flavored Markdown instantly",
-   "Direct PDF Export: Generates printable PDF documents locally",
-   "Word (.docx) Export: Converts headers, bullet points, and text into valid Word documents",
-   "Privacy is not an afterthought; it is our fundamental architecture."
-  ]
+  "untranslated": []
  },
  {
   "slug": "markdown-to-docx",
   "engine": "markdown-docs",
-  "untranslated": [
-   "Digital ToolPad Productivity Document",
-   "Welcome to the Offline Document Workspace",
-   "All your markdown editing, PDF generation, and Word docx conversions run 100% in your browser without sending data to servers.",
-   "Key Capabilities",
-   "Real-time Live Preview: Renders GitHub Flavored Markdown instantly",
-   "Direct PDF Export: Generates printable PDF documents locally",
-   "Word (.docx) Export: Converts headers, bullet points, and text into valid Word documents",
-   "Privacy is not an afterthought; it is our fundamental architecture."
-  ]
+  "untranslated": []
  },
  {
   "slug": "markdown-to-pdf",
   "engine": "markdown-docs",
-  "untranslated": [
-   "Digital ToolPad Productivity Document",
-   "Welcome to the Offline Document Workspace",
-   "All your markdown editing, PDF generation, and Word docx conversions run 100% in your browser without sending data to servers.",
-   "Key Capabilities",
-   "Real-time Live Preview: Renders GitHub Flavored Markdown instantly",
-   "Direct PDF Export: Generates printable PDF documents locally",
-   "Word (.docx) Export: Converts headers, bullet points, and text into valid Word documents",
-   "Privacy is not an afterthought; it is our fundamental architecture."
-  ]
+  "untranslated": []
  },
  {
   "slug": "markdown-to-pdf-converter",
   "engine": "markdown-docs",
-  "untranslated": [
-   "Digital ToolPad Productivity Document",
-   "Welcome to the Offline Document Workspace",
-   "All your markdown editing, PDF generation, and Word docx conversions run 100% in your browser without sending data to servers.",
-   "Key Capabilities",
-   "Real-time Live Preview: Renders GitHub Flavored Markdown instantly",
-   "Direct PDF Export: Generates printable PDF documents locally",
-   "Word (.docx) Export: Converts headers, bullet points, and text into valid Word documents",
-   "Privacy is not an afterthought; it is our fundamental architecture."
-  ]
+  "untranslated": []
  },
  {
   "slug": "markdown-to-word",
   "engine": "markdown-docs",
-  "untranslated": [
-   "Digital ToolPad Productivity Document",
-   "Welcome to the Offline Document Workspace",
-   "All your markdown editing, PDF generation, and Word docx conversions run 100% in your browser without sending data to servers.",
-   "Key Capabilities",
-   "Real-time Live Preview: Renders GitHub Flavored Markdown instantly",
-   "Direct PDF Export: Generates printable PDF documents locally",
-   "Word (.docx) Export: Converts headers, bullet points, and text into valid Word documents",
-   "Privacy is not an afterthought; it is our fundamental architecture."
-  ]
+  "untranslated": []
  },
  {
   "slug": "markdown-viewer",
   "engine": "markdown-docs",
-  "untranslated": [
-   "Digital ToolPad Productivity Document",
-   "Welcome to the Offline Document Workspace",
-   "All your markdown editing, PDF generation, and Word docx conversions run 100% in your browser without sending data to servers.",
-   "Key Capabilities",
-   "Real-time Live Preview: Renders GitHub Flavored Markdown instantly",
-   "Direct PDF Export: Generates printable PDF documents locally",
-   "Word (.docx) Export: Converts headers, bullet points, and text into valid Word documents",
-   "Privacy is not an afterthought; it is our fundamental architecture."
-  ]
+  "untranslated": []
  },
  {
   "slug": "markdown-wysiwyg-editor",
   "engine": "markdown-docs",
-  "untranslated": [
-   "Digital ToolPad Productivity Document",
-   "Welcome to the Offline Document Workspace",
-   "All your markdown editing, PDF generation, and Word docx conversions run 100% in your browser without sending data to servers.",
-   "Key Capabilities",
-   "Real-time Live Preview: Renders GitHub Flavored Markdown instantly",
-   "Direct PDF Export: Generates printable PDF documents locally",
-   "Word (.docx) Export: Converts headers, bullet points, and text into valid Word documents",
-   "Privacy is not an afterthought; it is our fundamental architecture."
-  ]
+  "untranslated": []
  },
  {
   "slug": "markup-calculator",
@@ -1771,30 +1641,12 @@
  {
   "slug": "md-to-docx",
   "engine": "markdown-docs",
-  "untranslated": [
-   "Digital ToolPad Productivity Document",
-   "Welcome to the Offline Document Workspace",
-   "All your markdown editing, PDF generation, and Word docx conversions run 100% in your browser without sending data to servers.",
-   "Key Capabilities",
-   "Real-time Live Preview: Renders GitHub Flavored Markdown instantly",
-   "Direct PDF Export: Generates printable PDF documents locally",
-   "Word (.docx) Export: Converts headers, bullet points, and text into valid Word documents",
-   "Privacy is not an afterthought; it is our fundamental architecture."
-  ]
+  "untranslated": []
  },
  {
   "slug": "md-to-pdf",
   "engine": "markdown-docs",
-  "untranslated": [
-   "Digital ToolPad Productivity Document",
-   "Welcome to the Offline Document Workspace",
-   "All your markdown editing, PDF generation, and Word docx conversions run 100% in your browser without sending data to servers.",
-   "Key Capabilities",
-   "Real-time Live Preview: Renders GitHub Flavored Markdown instantly",
-   "Direct PDF Export: Generates printable PDF documents locally",
-   "Word (.docx) Export: Converts headers, bullet points, and text into valid Word documents",
-   "Privacy is not an afterthought; it is our fundamental architecture."
-  ]
+  "untranslated": []
  },
  {
   "slug": "md5-generator",
@@ -1813,11 +1665,7 @@
  {
   "slug": "mean-absolute-deviation-calculator",
   "engine": "calculator-suite",
-  "untranslated": [
-   "Value",
-   "Mean",
-   "Absolute deviation"
-  ]
+  "untranslated": []
  },
  {
   "slug": "meeting-planner",
@@ -1847,7 +1695,6 @@
   "slug": "military-time-converter",
   "engine": "calculator-suite",
   "untranslated": [
-   "5 30 PM in the afternoon",
    "Military",
    "Standard"
   ]
@@ -1927,7 +1774,6 @@
   "slug": "notepad-plus-plus-online",
   "engine": "text-suite",
   "untranslated": [
-   "Untitled",
    "1 / 12 Tabs",
    "JavaScript",
    "Markdown"
@@ -2006,30 +1852,12 @@
  {
   "slug": "markdown-editor",
   "engine": "markdown-docs",
-  "untranslated": [
-   "Digital ToolPad Productivity Document",
-   "Welcome to the Offline Document Workspace",
-   "All your markdown editing, PDF generation, and Word docx conversions run 100% in your browser without sending data to servers.",
-   "Key Capabilities",
-   "Real-time Live Preview: Renders GitHub Flavored Markdown instantly",
-   "Direct PDF Export: Generates printable PDF documents locally",
-   "Word (.docx) Export: Converts headers, bullet points, and text into valid Word documents",
-   "Privacy is not an afterthought; it is our fundamental architecture."
-  ]
+  "untranslated": []
  },
  {
   "slug": "online-markdown-editor",
   "engine": "markdown-docs",
-  "untranslated": [
-   "Digital ToolPad Productivity Document",
-   "Welcome to the Offline Document Workspace",
-   "All your markdown editing, PDF generation, and Word docx conversions run 100% in your browser without sending data to servers.",
-   "Key Capabilities",
-   "Real-time Live Preview: Renders GitHub Flavored Markdown instantly",
-   "Direct PDF Export: Generates printable PDF documents locally",
-   "Word (.docx) Export: Converts headers, bullet points, and text into valid Word documents",
-   "Privacy is not an afterthought; it is our fundamental architecture."
-  ]
+  "untranslated": []
  },
  {
   "slug": "math-editor",
@@ -2089,7 +1917,6 @@
    "lceil",
    "rceil",
    "\\frac, \\sqrt, \\sum, \\int",
-   "^ and _ for super- and subscripts",
    "\\alpha … \\omega, \\Gamma … \\Omega",
    "\\times, \\cdot, \\pm, \\leq, \\geq, \\neq",
    "\\infty, \\partial, \\to, \\Rightarrow",
@@ -2107,7 +1934,6 @@
   "untranslated": [
    "JavaScript",
    "Markdown",
-   "Untitled",
    "1 / 12 Tabs"
   ]
  },
@@ -2160,16 +1986,12 @@
  {
   "slug": "parquet-to-csv",
   "engine": "csv-data",
-  "untranslated": [
-   "Pipe (|)"
-  ]
+  "untranslated": []
  },
  {
   "slug": "parquet-viewer",
   "engine": "csv-data",
-  "untranslated": [
-   "Pipe (|)"
-  ]
+  "untranslated": []
  },
  {
   "slug": "password-generator",
@@ -2272,8 +2094,7 @@
   "untranslated": [
    "15% of 250",
    "15 is what % of 250",
-   "15 is what % of 40",
-   "Whole from 15% of 250"
+   "15 is what % of 40"
   ]
  },
  {
@@ -2357,7 +2178,6 @@
   "slug": "population-standard-deviation-calculator",
   "engine": "calculator-suite",
   "untranslated": [
-   "Uses the population formula (divide by N).",
    "Median"
   ]
  },
@@ -2381,11 +2201,6 @@
   ]
  },
  {
-  "slug": "christmas-list-template",
-  "engine": "randomizers-games",
-  "untranslated": []
- },
- {
   "slug": "printable-calendar",
   "engine": "time-calendar",
   "untranslated": [
@@ -2403,6 +2218,11 @@
    "Saarland",
    "Schleswig-Holstein"
   ]
+ },
+ {
+  "slug": "christmas-list-template",
+  "engine": "randomizers-games",
+  "untranslated": []
  },
  {
   "slug": "private-ai-chatbot",
@@ -2519,7 +2339,6 @@
   "slug": "rapidtables-notepad-alternative",
   "engine": "text-suite",
   "untranslated": [
-   "Untitled",
    "1 / 12 Tabs",
    "JavaScript",
    "Markdown"
@@ -2644,9 +2463,7 @@
  {
   "slug": "rest-api-tester",
   "engine": "developer-suite",
-  "untranslated": [
-   "Click 'Send Request' to test the endpoint."
-  ]
+  "untranslated": []
  },
  {
   "slug": "rgb-to-hex",
@@ -2708,7 +2525,6 @@
   "slug": "sample-standard-deviation-calculator",
   "engine": "calculator-suite",
   "untranslated": [
-   "Uses the n − 1 formula for a sample taken from a larger population.",
    "Median"
   ]
  },
@@ -2869,7 +2685,6 @@
   "slug": "standard-deviation-calculator",
   "engine": "calculator-suite",
   "untranslated": [
-   "Uses the n − 1 formula for a sample taken from a larger population.",
    "Median"
   ]
  },
@@ -3029,9 +2844,7 @@
    "Gabriola",
    "Cursive",
    "Letter",
-   "ruled",
-   "The page is drawn in your browser and exported from the canvas. Nothing is uploaded and no text leaves the device.",
-   "Type your text on the left and the ruled page on the right is redrawn with a natural letter variation."
+   "ruled"
   ]
  },
  {
@@ -3139,9 +2952,7 @@
  {
   "slug": "tsv-to-json",
   "engine": "csv-data",
-  "untranslated": [
-   "Pipe (|)"
-  ]
+  "untranslated": []
  },
  {
   "slug": "twitch-username-generator",
@@ -3211,11 +3022,6 @@
   ]
  },
  {
-  "slug": "username-generator",
-  "engine": "randomizers-games",
-  "untranslated": []
- },
- {
   "slug": "uuid-generator",
   "engine": "uuid",
   "untranslated": [
@@ -3223,6 +3029,11 @@
    "Format",
    "URN (urn:uuid:...)"
   ]
+ },
+ {
+  "slug": "username-generator",
+  "engine": "randomizers-games",
+  "untranslated": []
  },
  {
   "slug": "uuid-v4-generator",
@@ -3382,16 +3193,12 @@
  {
   "slug": "xlsx-to-csv",
   "engine": "csv-data",
-  "untranslated": [
-   "Pipe (|)"
-  ]
+  "untranslated": []
  },
  {
   "slug": "xlsx-viewer",
   "engine": "csv-data",
-  "untranslated": [
-   "Pipe (|)"
-  ]
+  "untranslated": []
  },
  {
   "slug": "xml-formatter",
@@ -3426,58 +3233,42 @@
  {
   "slug": "yaml-beautifier",
   "engine": "yaml",
-  "untranslated": [
-   "Indent:"
-  ]
+  "untranslated": []
  },
  {
   "slug": "yaml-editor",
   "engine": "yaml",
-  "untranslated": [
-   "Indent:"
-  ]
+  "untranslated": []
  },
  {
   "slug": "yaml-formatter",
   "engine": "yaml",
-  "untranslated": [
-   "Indent:"
-  ]
+  "untranslated": []
  },
  {
   "slug": "yaml-minifier",
   "engine": "yaml",
-  "untranslated": [
-   "Indent:"
-  ]
+  "untranslated": []
  },
  {
   "slug": "yaml-to-json",
   "engine": "yaml",
-  "untranslated": [
-   "Indent:"
-  ]
+  "untranslated": []
  },
  {
   "slug": "yaml-json-converter",
   "engine": "yaml",
-  "untranslated": [
-   "Indent:"
-  ]
+  "untranslated": []
  },
  {
   "slug": "yaml-validator",
   "engine": "yaml",
-  "untranslated": [
-   "Indent:"
-  ]
+  "untranslated": []
  },
  {
   "slug": "yaml-editor-validator",
   "engine": "yaml",
-  "untranslated": [
-   "Indent:"
-  ]
+  "untranslated": []
  },
  {
   "slug": "yankee-swap-rules",
@@ -3492,9 +3283,7 @@
  {
   "slug": "yml-to-json",
   "engine": "yaml",
-  "untranslated": [
-   "Indent:"
-  ]
+  "untranslated": []
  },
  {
   "slug": "youtube-thumbnail-downloader",

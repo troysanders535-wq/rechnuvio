@@ -372,9 +372,27 @@ export function ConstructionTools({ variant }: { variant: CalculatorVariant }) {
       </div>
       <ResultGrid>
         <ResultCard label={tUi("bTUNeeded")} value={result.btu.toLocaleString(locale)} tone="emerald" />
-        <ResultCard label={tUi("recommendedAC")} value={result.recommended} tone="sky" />
+        <ResultCard
+          label={tUi("recommendedAC")}
+          value={
+            result.recommendedTonLabel === "1"
+              ? tUi("btuRecommendationOne", {
+                  btu: result.recommendedBtu.toLocaleString(locale),
+                })
+              : tUi("btuRecommendationMany", {
+                  btu: result.recommendedBtu.toLocaleString(locale),
+                  tons: result.recommendedTonLabel,
+                })
+          }
+          tone="sky"
+        />
         <ResultCard label={tUi("tons")} value={result.recommendedTons} tone="slate" />
-        <ResultCard label={tUi("roomSize")} value={result.squareFeet} unit="sq ft" tone="slate" />
+        <ResultCard
+          label={tUi("roomSize")}
+          value={result.squareFeet}
+          unit={tUi("squareFeetUnit")}
+          tone="slate"
+        />
       </ResultGrid>
       <FormulaNote>{tUi("bTUBaseWithCeilingsOccupantsAndKitchen")}</FormulaNote>
     </CalcPanel>

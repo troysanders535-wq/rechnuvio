@@ -1,0 +1,9 @@
+{
+  "namespace": "ui.engines.developerSuite",
+  "en": {
+    "superscriptHint": "^ and _ for super- and subscripts"
+  },
+  "de": {
+    "superscriptHint": "^ und _ für Hoch- und Tiefstellung"
+  }
+}
