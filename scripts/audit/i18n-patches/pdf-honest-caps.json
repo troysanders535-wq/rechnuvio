@@ -17,7 +17,7 @@
       "thisIsWhatIsInsideTheFile": "This is what is inside the file. It is removed when you clean the document.",
       "removedDocumentInformation": "Document information removed: title, author, subject, keywords, producer, creator and the dates.",
       "removedXmpPacket": "XMP packet removed with the edit history and the earlier versions.",
-      "removedGps": "GPS coordinates of the photo removed with the XMP packet.",
+      "removedGps": "GPS coordinates removed with the XMP packet.",
       "removedAttachments": "{count, plural, one {# attachment removed} other {# attachments removed}}"
     },
     "PdfMergeEngine": {
@@ -48,7 +48,7 @@
       "thisIsWhatIsInsideTheFile": "Das steckt in der Datei. Es wird entfernt, wenn Sie das Dokument bereinigen.",
       "removedDocumentInformation": "Dokumentinformationen entfernt: Titel, Autor, Betreff, Schlüsselwörter, Produzent, Ersteller und die Datumsangaben.",
       "removedXmpPacket": "XMP-Paket mit Änderungsverlauf und früheren Versionen entfernt.",
-      "removedGps": "GPS-Koordinaten des Fotos mit dem XMP-Paket entfernt.",
+      "removedGps": "GPS-Koordinaten mit dem XMP-Paket entfernt.",
       "removedAttachments": "{count, plural, one {# Anhang entfernt} other {# Anhänge entfernt}}"
     },
     "PdfMergeEngine": {

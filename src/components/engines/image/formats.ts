@@ -407,22 +407,12 @@ export function encodeGif(
 
 /* --------------------------------------------------------------- GIF file -- */
 
-/** What a GIF file holds. */
-export interface GifInfo {
-  width: number;
-  height: number;
-  /** The delay of every frame, in milliseconds. */
-  frameDelaysMs: number[];
-  /** How often the animation repeats; 0 means it repeats for ever. */
-  loopCount: number;
-}
-
 /** One frame of an animation, as the picture it shows. */
 export interface DecodedFrame {
   width: number;
   height: number;
   /** The picture of the frame, four bytes per pixel. */
-  rgba: Uint8ClampedArray;
+  rgba: Uint8ClampedArray<ArrayBuffer>;
   /** How long the frame is shown, in milliseconds. */
   delayMs: number;
 }
@@ -668,23 +658,6 @@ function readGif(bytes: Uint8Array): GifContent {
 }
 
 /**
- * Read a GIF file.
- *
- * The header gives the size of the picture, the graphic control extension
- * before a frame carries its delay in hundredths of a second and the
- * application extension carries the loop count.
- */
-export function parseGif(bytes: Uint8Array): GifInfo {
-  const content = readGif(bytes);
-  return {
-    width: content.width,
-    height: content.height,
-    frameDelaysMs: content.frames.map((frame) => frame.delayMs),
-    loopCount: content.loopCount,
-  };
-}
-
-/**
  * Read the frames of a GIF file.
  *
  * The browser draws an animation into a canvas always at its first frame, so
@@ -795,7 +768,7 @@ export async function recordCanvas(
       current = index;
       const frame = frames[index];
       pictureCtx.putImageData(
-        new ImageData(frame.rgba, frame.width, frame.height),
+        new ImageData(frame.rgba as any, frame.width, frame.height),
         0,
         0,
       );
