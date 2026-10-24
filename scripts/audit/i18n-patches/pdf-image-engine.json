@@ -1,0 +1,25 @@
+{
+  "namespace": "ui.pdf.PdfImageEngine",
+  "en": {
+    "replacePDF": "Replace PDF",
+    "chooseAPDF": "Choose a PDF",
+    "createdAPdfWithPages": "Created a {count}-page PDF.",
+    "invalidPageRange": "Invalid page range (document has {count} pages).",
+    "couldNotEncodeThePage": "Could not encode page {page}.",
+    "exportedPage": "Exported page {page}.",
+    "exportedPageImages": "Exported {count} page images.",
+    "pageRangeHint": "Leave empty for every page. Example: {range}",
+    "createPdfWithPages": "Create PDF ({count, plural, one {# page} other {# pages}})"
+  },
+  "de": {
+    "replacePDF": "PDF ersetzen",
+    "chooseAPDF": "PDF auswählen",
+    "createdAPdfWithPages": "Eine {count}-seitige PDF-Datei wurde erstellt.",
+    "invalidPageRange": "Ungültiger Seitenbereich (das Dokument hat {count, plural, one {# Seite} other {# Seiten}}).",
+    "couldNotEncodeThePage": "Seite {page} konnte nicht kodiert werden.",
+    "exportedPage": "Seite {page} wurde exportiert.",
+    "exportedPageImages": "{count, plural, one {# Seitenbild wurde} other {# Seitenbilder wurden}} exportiert.",
+    "pageRangeHint": "Lassen Sie das Feld für alle Seiten leer. Beispiel: {range}",
+    "createPdfWithPages": "PDF erstellen ({count, plural, one {# Seite} other {# Seiten}})"
+  }
+}

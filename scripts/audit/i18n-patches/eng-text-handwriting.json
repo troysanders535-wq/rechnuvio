@@ -1,0 +1,11 @@
+{
+  "namespace": "ui.engines.TextHandwritingWorkspace",
+  "en": {
+    "ruled": "Ruled",
+    "pageDrawnInBrowserNote": "The page is drawn in your browser and exported from the canvas. Nothing is uploaded and no text leaves the device."
+  },
+  "de": {
+    "ruled": "Liniert",
+    "pageDrawnInBrowserNote": "Die Seite wird in Ihrem Browser gezeichnet und aus dem Canvas exportiert. Es wird nichts hochgeladen und kein Text verlässt das Gerät."
+  }
+}

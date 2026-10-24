@@ -1,0 +1,17 @@
+{
+  "namespace": "ui.pdf.PdfSplitEngine",
+  "en": {
+    "replacePDF": "Replace PDF",
+    "chooseAPDF": "Choose a PDF",
+    "invalidPageRange": "Enter a valid page range such as \"1-3, 5, 8-10\" (document has {count} pages).",
+    "extractedPagesIntoFile": "Extracted {count} page(s) into {file}.",
+    "splitIntoFilesAsZip": "Split into {count} file(s), packaged as a ZIP."
+  },
+  "de": {
+    "replacePDF": "PDF ersetzen",
+    "chooseAPDF": "PDF auswählen",
+    "invalidPageRange": "Geben Sie einen gültigen Seitenbereich wie \"1-3, 5, 8-10\" an (das Dokument hat {count, plural, one {# Seite} other {# Seiten}}).",
+    "extractedPagesIntoFile": "{count, plural, one {# Seite wurde} other {# Seiten wurden}} in {file} extrahiert.",
+    "splitIntoFilesAsZip": "In {count, plural, one {# Datei} other {# Dateien}} aufgeteilt, als ZIP-Datei verpackt."
+  }
+}

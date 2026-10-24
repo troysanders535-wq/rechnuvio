@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Calculator, Percent, Sparkles, DollarSign, BookOpen } from "lucide-react";
 import { parseLocaleNumber, formatLocaleNumber, formatLocaleCurrency } from "@/utils/numberFormat";
 
@@ -10,8 +10,8 @@ interface MathCalculatorsEngineProps {
 }
 
 export function MathCalculatorsEngine({ slug }: MathCalculatorsEngineProps) {
+  const tUi = useTranslations("ui.engines.MathCalculatorsEngine");
   const locale = useLocale();
-  const isGerman = locale.startsWith("de");
 
   const isPercent = slug.includes("percent") || slug.includes("discount") || slug.includes("margin") || slug.includes("markup");
   const isGpa = slug.includes("gpa") || slug.includes("grade");
@@ -37,10 +37,10 @@ export function MathCalculatorsEngine({ slug }: MathCalculatorsEngineProps) {
 
   // GPA states
   const [gpaCourses, setGpaCourses] = useState([
-    { name: "Computer Science", credits: 4, grade: "A" },
-    { name: "Calculus III", credits: 4, grade: "B+" },
-    { name: "Physics", credits: 3, grade: "A-" },
-    { name: "Technical Writing", credits: 3, grade: "A" },
+    { name: tUi("computerScience"), credits: 4, grade: "A" },
+    { name: tUi("calculusIII"), credits: 4, grade: tUi("b") },
+    { name: tUi("physics"), credits: 3, grade: tUi("a") },
+    { name: tUi("technicalWriting"), credits: 3, grade: "A" },
   ]);
 
   const gradePoints: Record<string, number> = {
@@ -68,12 +68,12 @@ export function MathCalculatorsEngine({ slug }: MathCalculatorsEngineProps) {
       <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
         <h3 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
           <DollarSign className="size-5 text-emerald-600" />
-          {isGerman ? "Gehalt-zu-Stundenlohn-Rechner (USD-Basis)" : "Salary to Hourly Wage Converter (USD Baseline)"}
+          {tUi("salaryToHourlyWageConverterUSDBaseline")}
         </h3>
         <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-              {isGerman ? "Jahresgehalt ($)" : "Annual Base Salary ($)"}
+              {tUi("annualBaseSalary")}
             </label>
             <input
               type="text"
@@ -85,7 +85,7 @@ export function MathCalculatorsEngine({ slug }: MathCalculatorsEngineProps) {
           </div>
           <div>
             <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-              {isGerman ? "Wochenstunden" : "Hours Per Week"}
+              {tUi("hoursPerWeek")}
             </label>
             <input
               type="text"
@@ -103,7 +103,7 @@ export function MathCalculatorsEngine({ slug }: MathCalculatorsEngineProps) {
               {formatLocaleCurrency(hourly, "USD", locale)}
             </span>
             <p className="mt-1 text-xs text-slate-600 dark:text-slate-400">
-              {isGerman ? "Pro Stunde" : "Per Hour"}
+              {tUi("perHour")}
             </p>
           </div>
           <div className="rounded-xl bg-slate-50 p-4 dark:bg-slate-950">
@@ -111,7 +111,7 @@ export function MathCalculatorsEngine({ slug }: MathCalculatorsEngineProps) {
               {formatLocaleCurrency(biweekly, "USD", locale)}
             </span>
             <p className="mt-1 text-xs text-slate-500">
-              {isGerman ? "Zweiwöchentlich" : "Bi-Weekly"}
+              {tUi("biWeekly")}
             </p>
           </div>
           <div className="rounded-xl bg-slate-50 p-4 dark:bg-slate-950">
@@ -119,7 +119,7 @@ export function MathCalculatorsEngine({ slug }: MathCalculatorsEngineProps) {
               {formatLocaleCurrency(monthly, "USD", locale)}
             </span>
             <p className="mt-1 text-xs text-slate-500">
-              {isGerman ? "Monatlich" : "Monthly"}
+              {tUi("monthly")}
             </p>
           </div>
           <div className="rounded-xl bg-slate-50 p-4 dark:bg-slate-950">
@@ -127,7 +127,7 @@ export function MathCalculatorsEngine({ slug }: MathCalculatorsEngineProps) {
               {formatLocaleCurrency(hourly * 1.5, "USD", locale)}
             </span>
             <p className="mt-1 text-xs text-slate-500">
-              {isGerman ? "Überstunden (1,5x)" : "Overtime (1.5x)"}
+              {tUi("overtime15x")}
             </p>
           </div>
         </div>
@@ -141,7 +141,7 @@ export function MathCalculatorsEngine({ slug }: MathCalculatorsEngineProps) {
         <div className="flex items-center justify-between">
           <h3 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
             <BookOpen className="size-5 text-sky-700" />
-            {isGerman ? "Notendurchschnitt & GPA-Rechner" : "GPA & Final Grade Calculator"}
+            {tUi("gPAFinalGradeCalculator")}
           </h3>
           <div className="rounded-xl bg-sky-100 px-4 py-2 font-mono text-xl font-extrabold text-sky-800 dark:bg-sky-950 dark:text-sky-300">
             GPA: {calculateGpa()}
@@ -213,17 +213,17 @@ export function MathCalculatorsEngine({ slug }: MathCalculatorsEngineProps) {
     <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
       <h3 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
         <Percent className="size-5 text-sky-700" />
-        {isGerman ? "Prozentrechner-Suite" : "Percentage Calculator Suite"}
+        {tUi("percentageCalculatorSuite")}
       </h3>
 
       <div className="mt-6 space-y-6">
         {/* Calculation 1: What is X% of Y? */}
         <div className="rounded-xl border border-slate-200 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950">
           <span className="text-xs font-semibold text-slate-500">
-            {isGerman ? "Wert berechnen" : "Calculate Value"}
+            {tUi("calculateValue")}
           </span>
           <div className="mt-2 flex flex-wrap items-center gap-2 text-sm font-medium">
-            <span>{isGerman ? "Wie viel sind" : "What is"}</span>
+            <span>{tUi("whatIs")}</span>
             <input
               type="text"
               inputMode="decimal"
@@ -231,7 +231,7 @@ export function MathCalculatorsEngine({ slug }: MathCalculatorsEngineProps) {
               onChange={(e) => setValAInput(e.target.value)}
               className="w-20 rounded-lg border border-slate-300 bg-white p-1 text-center text-xs dark:border-slate-700 dark:bg-slate-900 dark:text-white"
             />
-            <span>{isGerman ? "% von" : "% of"}</span>
+            <span>{tUi("percentOf")}</span>
             <input
               type="text"
               inputMode="decimal"
@@ -249,11 +249,11 @@ export function MathCalculatorsEngine({ slug }: MathCalculatorsEngineProps) {
         {/* Calculation 2: What % is X of Y? */}
         <div className="rounded-xl border border-slate-200 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950">
           <span className="text-xs font-semibold text-slate-500">
-            {isGerman ? "Prozentsatz berechnen" : "Calculate Percentage"}
+            {tUi("calculatePercentage")}
           </span>
           <div className="mt-2 flex flex-wrap items-center gap-2 text-sm font-medium">
             <span className="font-bold">{valAInput}</span>
-            <span>{isGerman ? "ist wie viel Prozent von" : "is what percent of"}</span>
+            <span>{tUi("isWhatPercentOf")}</span>
             <span className="font-bold">{valBInput}</span>
             <span>=</span>
             <span className="rounded-lg bg-sky-100 px-3 py-1 font-mono text-base font-bold text-sky-800 dark:bg-sky-950 dark:text-sky-300">

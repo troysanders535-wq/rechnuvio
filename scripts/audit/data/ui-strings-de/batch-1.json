@@ -1,0 +1,707 @@
+{
+ "ui.engines.Base64Engine": {
+  "encodeToBase64": {
+   "text": "In Base64 kodieren"
+  },
+  "decodeBase64": {
+   "text": "Base64 dekodieren"
+  },
+  "fileToBase64": {
+   "text": "Datei zu Base64"
+  },
+  "copied": {
+   "text": "Kopiert!"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "download": {
+   "text": "Herunterladen"
+  },
+  "decodedBase64Preview": {
+   "text": "Dekodierte Base64-Vorschau"
+  }
+ },
+ "ui.engines.CsvDataEngine": {
+  "janeDoe": {
+   "text": "Jane Doe"
+  },
+  "leadArchitect": {
+   "text": "Lead Architect"
+  },
+  "engineering": {
+   "text": "Engineering"
+  },
+  "johnSmith": {
+   "text": "John Smith"
+  },
+  "productDesigner": {
+   "text": "Product Designer"
+  },
+  "design": {
+   "text": "Design"
+  },
+  "infrastructure": {
+   "text": "Infrastructure"
+  },
+  "bobWilson": {
+   "text": "Bob Wilson"
+  },
+  "frontendEngineer": {
+   "text": "Frontend Engineer"
+  },
+  "carolMartinez": {
+   "text": "Carol Martinez"
+  },
+  "analytics": {
+   "text": "Analytics"
+  },
+  "comma": {
+   "text": "Komma (,)"
+  },
+  "semicolon": {
+   "text": "Semikolon (;)"
+  },
+  "autoDetect": {
+   "text": "Auto-Erkennung"
+  },
+  "headersRow": {
+   "text": "Kopfzeile"
+  },
+  "parseNumbersBooleans": {
+   "text": "Zahlen/Boolsche parsen"
+  },
+  "jSONOutput": {
+   "text": "JSON-Ausgabe"
+  },
+  "cSVOutput": {
+   "text": "CSV-Ausgabe"
+  },
+  "table": {
+   "text": "Tabelle"
+  },
+  "openFile": {
+   "text": "Datei öffnen"
+  },
+  "copied": {
+   "text": "Kopiert!"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "download": {
+   "text": "Herunterladen"
+  },
+  "clear": {
+   "text": "Leeren"
+  },
+  "convertedJSON": {
+   "text": "Konvertiertes JSON"
+  },
+  "convertedCSV": {
+   "text": "Konvertiertes CSV"
+  },
+  "convertedOutputWillAppearHere": {
+   "text": "Das konvertierte Ergebnis erscheint hier..."
+  }
+ },
+ "ui.engines.HeadsOrTailsEngine": {
+  "muteSound": {
+   "text": "Ton stummschalten"
+  },
+  "enableSound": {
+   "text": "Ton einschalten"
+  },
+  "resetCountersAndSeries": {
+   "text": "Zähler und Serien zurücksetzen"
+  },
+  "reset": {
+   "text": "Zurücksetzen"
+  },
+  "betterLuckNextTime": {
+   "text": "Viel Glück beim nächsten Mal!"
+  },
+  "playNewSeries": {
+   "text": "Neue Serie spielen"
+  },
+  "flipCoinSpaceEnter": {
+   "text": "Münze werfen (Leertaste / Enter)"
+  },
+  "space": {
+   "text": "Leertaste"
+  },
+  "enter": {
+   "text": "Enter"
+  },
+  "heads": {
+   "text": "Kopf!"
+  },
+  "tails": {
+   "text": "Zahl!"
+  },
+  "totalFlips": {
+   "text": "Würfe insgesamt"
+  },
+  "heads2": {
+   "text": "Kopf"
+  },
+  "tails2": {
+   "text": "Zahl"
+  },
+  "streak": {
+   "text": "Serie"
+  },
+  "mostRecentFirst": {
+   "text": "Neueste zuerst"
+  },
+  "spacebar": {
+   "text": "Leertaste"
+  }
+ },
+ "ui.engines.MathCalculatorsEngine": {
+  "computerScience": {
+   "text": "Informatik"
+  },
+  "calculusIII": {
+   "text": "Analysis III"
+  },
+  "b": {
+   "text": "B+"
+  },
+  "physics": {
+   "text": "Physik"
+  },
+  "a": {
+   "text": "A-"
+  },
+  "technicalWriting": {
+   "text": "Wissenschaftliches Schreiben"
+  },
+  "gehaltZuStundenlohnRechnerUSDBasis": {
+   "text": "Gehalt-zu-Stundenlohn-Rechner (USD-Basis)"
+  },
+  "salaryToHourlyWageConverterUSDBaseline": {
+   "text": "Gehalt-zu-Stundenlohn-Rechner (USD-Basis)"
+  },
+  "wochenstunden": {
+   "text": "Wochenstunden"
+  },
+  "hoursPerWeek": {
+   "text": "Stunden pro Woche"
+  },
+  "proStunde": {
+   "text": "Pro Stunde"
+  },
+  "perHour": {
+   "text": "Pro Stunde"
+  },
+  "zweiwChentlich": {
+   "text": "Zweiwöchentlich"
+  },
+  "biWeekly": {
+   "text": "Zweiwöchentlich"
+  },
+  "monatlich": {
+   "text": "Monatlich"
+  },
+  "monthly": {
+   "text": "Monatlich"
+  },
+  "overtime15x": {
+   "text": "Überstunden (1.5x)"
+  },
+  "notendurchschnittGPARechner": {
+   "text": "Notendurchschnitt & GPA-Rechner"
+  },
+  "gPAFinalGradeCalculator": {
+   "text": "GPA- & Abschlussnoten-Rechner"
+  },
+  "prozentrechnerSuite": {
+   "text": "Prozentrechner-Suite"
+  },
+  "percentageCalculatorSuite": {
+   "text": "Prozentrechner-Suite"
+  },
+  "wertBerechnen": {
+   "text": "Wert berechnen"
+  },
+  "calculateValue": {
+   "text": "Wert berechnen"
+  },
+  "wieVielSind": {
+   "text": "Wie viel sind"
+  },
+  "whatIs": {
+   "text": "Wie viel sind"
+  },
+  "prozentsatzBerechnen": {
+   "text": "Prozentsatz berechnen"
+  },
+  "calculatePercentage": {
+   "text": "Prozentsatz berechnen"
+  }
+ },
+ "ui.calculators.DateTools": {
+  "ageCalculator": {
+   "text": "Altersrechner"
+  },
+  "enterAValidDateYYYYMMDD": {
+   "text": "Geben Sie ein gültiges Datum ein (YYYY-MM-DD)."
+  },
+  "dateOfBirth": {
+   "text": "Geburtsdatum"
+  },
+  "ageOn": {
+   "text": "Alter am"
+  },
+  "age": {
+   "text": "Alter"
+  },
+  "totalDaysLived": {
+   "text": "Gelebte Tage insgesamt"
+  },
+  "totalMonths": {
+   "text": "Monate insgesamt"
+  },
+  "totalWeeks": {
+   "text": "Wochen insgesamt"
+  },
+  "nextBirthday": {
+   "text": "Nächster Geburtstag"
+  },
+  "daysToBirthday": {
+   "text": "Tage bis zum Geburtstag"
+  },
+  "dayOfBirth": {
+   "text": "Geburtstag"
+  },
+  "zodiac": {
+   "text": "Sternzeichen"
+  },
+  "dogAgeCalculator": {
+   "text": "Hundealter-Rechner"
+  },
+  "size": {
+   "text": "Größe"
+  },
+  "smallUpTo20Lb": {
+   "text": "Klein (bis 20 lb)"
+  },
+  "medium2150Lb": {
+   "text": "Mittel (21 – 50 lb)"
+  },
+  "large5190Lb": {
+   "text": "Groß (51 – 90 lb)"
+  },
+  "giantOver90Lb": {
+   "text": "Riesig (über 90 lb)"
+  },
+  "humanAgeAVMA": {
+   "text": "Menschenalter (AVMA)"
+  },
+  "humanAgeEpigenetic": {
+   "text": "Menschenalter (epigenetisch)"
+  },
+  "lifeStage": {
+   "text": "Lebensphase"
+  },
+  "inDogYears": {
+   "text": "In Hundejahren"
+  },
+  "dateCalculator": {
+   "text": "Datumsrechner"
+  },
+  "startDate": {
+   "text": "Startdatum"
+  },
+  "endDate": {
+   "text": "Enddatum"
+  },
+  "amount": {
+   "text": "Betrag"
+  },
+  "unit": {
+   "text": "Einheit"
+  },
+  "days": {
+   "text": "Tage"
+  },
+  "weeks": {
+   "text": "Wochen"
+  },
+  "months": {
+   "text": "Monate"
+  },
+  "years": {
+   "text": "Jahre"
+  },
+  "direction": {
+   "text": "Richtung"
+  },
+  "add": {
+   "text": "Addieren"
+  },
+  "subtract": {
+   "text": "Subtrahieren"
+  },
+  "dateAfterAdding": {
+   "text": "Datum nach dem Addieren"
+  },
+  "dateAfterSubtracting": {
+   "text": "Datum nach dem Subtrahieren"
+  },
+  "daysBetween": {
+   "text": "Tage zwischen"
+  },
+  "weeksBetween": {
+   "text": "Wochen zwischen"
+  },
+  "weekdayOfEndDate": {
+   "text": "Wochentag des Enddatums"
+  },
+  "monthsBetween": {
+   "text": "Monate zwischen"
+  },
+  "yearsBetween": {
+   "text": "Jahre zwischen"
+  },
+  "includeEndDate": {
+   "text": "Enddatum einbeziehen"
+  },
+  "yes": {
+   "text": "Ja"
+  },
+  "no": {
+   "text": "Nein"
+  },
+  "daysBetweenDatesCalculator": {
+   "text": "Tage-zwischen-Daten-Rechner"
+  },
+  "fromDate": {
+   "text": "Von Datum"
+  },
+  "toDate": {
+   "text": "Bis Datum"
+  },
+  "totalDays": {
+   "text": "Tage insgesamt"
+  },
+  "businessDaysCalculator": {
+   "text": "Werktagsrechner"
+  },
+  "holidayCalendar": {
+   "text": "Feiertagskalender"
+  },
+  "noHolidays": {
+   "text": "Keine Feiertage"
+  },
+  "uSFederalHolidays": {
+   "text": "US-Bundesfeiertage"
+  },
+  "uKBankHolidays": {
+   "text": "Britische Feiertage"
+  },
+  "yourOwnDaysOff": {
+   "text": "Eigene freie Tage"
+  },
+  "businessDays": {
+   "text": "Werktage"
+  },
+  "weekendDays": {
+   "text": "Wochenendtage"
+  },
+  "holidaysSkipped": {
+   "text": "Übersprungene Feiertage"
+  },
+  "holidaysInRange": {
+   "text": "Feiertage im Zeitraum"
+  }
+ },
+ "ui.calculators.MoneyTools": {
+  "discountCalculator": {
+   "text": "Rabattrechner"
+  },
+  "originalPrice": {
+   "text": "Originalpreis"
+  },
+  "discount": {
+   "text": "Rabatt (%)"
+  },
+  "extraDiscount": {
+   "text": "Zusatzrabatt (%)"
+  },
+  "salePrice": {
+   "text": "Verkaufspreis"
+  },
+  "youSave": {
+   "text": "Sie sparen"
+  },
+  "withStackedDiscount": {
+   "text": "Mit kombiniertem Rabatt"
+  },
+  "salePriceTax": {
+   "text": "Verkaufspreis + Steuer"
+  },
+  "originalPriceFromSalePrice": {
+   "text": "Originalpreis aus Verkaufspreis"
+  },
+  "excelFormula": {
+   "text": "Excel-Formel"
+  },
+  "marginCalculator": {
+   "text": "Margenrechner"
+  },
+  "cost": {
+   "text": "Kosten"
+  },
+  "sellingPrice": {
+   "text": "Verkaufspreis"
+  },
+  "targetMargin": {
+   "text": "Zielmarge (%)"
+  },
+  "profitMargin": {
+   "text": "Gewinnmarge"
+  },
+  "markup": {
+   "text": "Aufschlag"
+  },
+  "profit": {
+   "text": "Gewinn"
+  },
+  "priceForTargetMargin": {
+   "text": "Preis für Zielmarge"
+  },
+  "markupCalculator": {
+   "text": "Aufschlagsrechner"
+  },
+  "markup2": {
+   "text": "Aufschlag (%)"
+  },
+  "margin": {
+   "text": "Marge"
+  },
+  "salaryToHourlyCalculator": {
+   "text": "Gehalt-zu-Stundenlohn-Rechner"
+  },
+  "annualSalary": {
+   "text": "Jahresgehalt"
+  },
+  "hoursPerWeek": {
+   "text": "Stunden pro Woche"
+  },
+  "paidWeeksPerYear": {
+   "text": "Bezahlte Wochen pro Jahr"
+  },
+  "hourlyWage": {
+   "text": "Stundenlohn"
+  },
+  "weekly": {
+   "text": "Wöchentlich"
+  },
+  "biWeekly": {
+   "text": "Zweiwöchentlich"
+  },
+  "monthly": {
+   "text": "Monatlich"
+  },
+  "hourlyToSalaryCalculator": {
+   "text": "Stundenlohn-zu-Gehalt-Rechner"
+  },
+  "daily8H": {
+   "text": "Täglich (8 h)"
+  },
+  "overtimeCalculator": {
+   "text": "Überstundenrechner"
+  },
+  "hoursWorked": {
+   "text": "Geleistete Stunden"
+  },
+  "hourlyRate": {
+   "text": "Stundensatz"
+  },
+  "overtimeAfterH": {
+   "text": "Überstunden ab (h)"
+  },
+  "doubleTimeAfterH": {
+   "text": "Doppelte Vergütung ab (h)"
+  },
+  "overtimeMultiplier": {
+   "text": "Überstundenfaktor"
+  },
+  "regularPay": {
+   "text": "Regelvergütung"
+  },
+  "overtimePay": {
+   "text": "Überstundenvergütung"
+  },
+  "totalPay": {
+   "text": "Gesamtvergütung"
+  },
+  "regularHours": {
+   "text": "Regelstunden"
+  },
+  "electricityCostCalculator": {
+   "text": "Stromkostenrechner"
+  },
+  "wattage": {
+   "text": "Wattage"
+  },
+  "hoursUsedPerDay": {
+   "text": "Nutzstunden pro Tag"
+  },
+  "pricePerKWh": {
+   "text": "Preis pro kWh"
+  },
+  "costPerDay": {
+   "text": "Kosten pro Tag"
+  },
+  "costPerMonth": {
+   "text": "Kosten pro Monat"
+  },
+  "costPerYear": {
+   "text": "Kosten pro Jahr"
+  },
+  "yearlyEnergyKWh": {
+   "text": "Jährlicher Verbrauch (kWh)"
+  }
+ },
+ "ui.pdf.Pdf417Engine": {
+  "pDF417BarcodeGenerator": {
+   "text": "PDF417-Barcode-Generator"
+  },
+  "barcodeContent": {
+   "text": "Barcode-Inhalt"
+  },
+  "enterTheDataToEncode": {
+   "text": "Geben Sie die zu kodierenden Daten ein"
+  },
+  "generatedPDF417BarcodePreview": {
+   "text": "Vorschau des generierten PDF417-Barcode"
+  }
+ },
+ "ui.pdf.PdfBase64Engine": {
+  "pDFDocument": {
+   "text": "PDF-Dokument"
+  },
+  "pNGImage": {
+   "text": "PNG-Bild"
+  },
+  "jPEGImage": {
+   "text": "JPEG-Bild"
+  },
+  "unrecognisedData": {
+   "text": "Unbekannte Daten"
+  },
+  "base64ToPDF": {
+   "text": "Base64 zu PDF"
+  },
+  "chooseAB64File": {
+   "text": "Wählen Sie eine .b64-Datei"
+  },
+  "base64Payload": {
+   "text": "Base64-Nutzdaten"
+  },
+  "jVBERi0xLjQKJ": {
+   "text": "JVBERi0xLjQKJ..."
+  }
+ },
+ "ui.pdf.PdfEmailEngine": {
+  "emailToPDFConverter": {
+   "text": "E-Mail-zu-PDF-Konverter"
+  },
+  "replaceEmail": {
+   "text": "E-Mail ersetzen"
+  },
+  "chooseAnEmailFile": {
+   "text": "Wählen Sie eine E-Mail-Datei"
+  },
+  "subject": {
+   "text": "Betreff"
+  },
+  "from": {
+   "text": "Von"
+  },
+  "date": {
+   "text": "Datum"
+  }
+ },
+ "ui.pdf.PdfMergeEngine": {
+  "mergePDFFiles": {
+   "text": "PDF-Dateien zusammenführen"
+  },
+  "choosePDFFiles": {
+   "text": "PDF-Dateien auswählen"
+  },
+  "passwordForTheProtectedFile": {
+   "text": "Passwort für die geschützte Datei"
+  }
+ },
+ "ui.pdf.PdfMetaEngine": {
+  "title": {
+   "text": "Titel"
+  },
+  "author": {
+   "text": "Autor"
+  },
+  "subject": {
+   "text": "Betreff"
+  },
+  "keywords": {
+   "text": "Schlüsselwörter"
+  },
+  "producer": {
+   "text": "Produzent"
+  },
+  "creator": {
+   "text": "Ersteller"
+  },
+  "replacePDF": {
+   "text": "PDF ersetzen"
+  },
+  "chooseAPDF": {
+   "text": "PDF auswählen"
+  },
+  "pDFPassword": {
+   "text": "PDF-Passwort"
+  },
+  "pages": {
+   "text": "Seiten"
+  }
+ },
+ "ui.pdf.PdfSplitEngine": {
+  "splitPDF": {
+   "text": "PDF aufteilen"
+  },
+  "replacePDF": {
+   "text": "PDF ersetzen"
+  },
+  "chooseAPDF": {
+   "text": "PDF auswählen"
+  },
+  "mode": {
+   "text": "Modus"
+  },
+  "extractSelectedPagesIntoOnePDF": {
+   "text": "Ausgewählte Seiten in eine PDF extrahieren"
+  },
+  "splitIntoSinglePages": {
+   "text": "In Einzelseiten aufteilen"
+  },
+  "splitIntoFixedSizeChunks": {
+   "text": "In Teile fester Größe aufteilen"
+  },
+  "pageRange": {
+   "text": "Seitenbereich"
+  },
+  "pagesPerFile": {
+   "text": "Seiten pro Datei"
+  },
+  "pDFPassword": {
+   "text": "PDF-Passwort"
+  },
+  "extractPages": {
+   "text": "Seiten extrahieren"
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+  "namespace": "ui.pdf.PdfMetaEngine",
+  "en": {
+    "title": "Title",
+    "author": "Author",
+    "subject": "Subject",
+    "keywords": "Keywords",
+    "producer": "Producer",
+    "creator": "Creator",
+    "replacePDF": "Replace PDF",
+    "chooseAPDF": "Choose a PDF",
+    "emptyValue": "— empty —"
+  },
+  "de": {
+    "title": "Titel",
+    "author": "Autor",
+    "subject": "Betreff",
+    "keywords": "Schlüsselwörter",
+    "producer": "Produzent",
+    "creator": "Ersteller",
+    "replacePDF": "PDF ersetzen",
+    "chooseAPDF": "PDF auswählen",
+    "emptyValue": "— leer —"
+  }
+}

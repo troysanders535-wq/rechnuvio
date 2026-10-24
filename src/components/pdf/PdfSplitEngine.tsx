@@ -16,10 +16,12 @@ import {
   selectClass,
 } from "./shared";
 import { PasswordRequiredError, createPdfDoc, loadPdfDoc } from "./pdfLib";
+import { useTranslations } from "next-intl";
 
 type Mode = "extract" | "each" | "chunks";
 
 export function PdfSplitEngine() {
+  const tUi = useTranslations("ui.pdf.PdfSplitEngine");
   const [file, setFile] = useState<File | null>(null);
   const [mode, setMode] = useState<Mode>("extract");
   const [ranges, setRanges] = useState("");
@@ -44,16 +46,19 @@ export function PdfSplitEngine() {
       if (mode === "extract") {
         const indices = parsePageRanges(ranges, pageCount);
         if (!indices) {
-          throw new Error(
-            `Enter a valid page range such as "1-3, 5, 8-10" (document has ${pageCount} pages).`,
-          );
+          throw new Error(tUi("invalidPageRange", { count: pageCount }));
         }
         const out = await createPdfDoc();
         const pages = await out.copyPages(doc, indices);
         pages.forEach((page) => out.addPage(page));
         const bytes = await out.save();
         downloadBytes(bytes, `${stem}-pages.pdf`);
-        setInfo(`Extracted ${indices.length} page(s) into ${stem}-pages.pdf.`);
+        setInfo(
+          tUi("extractedPagesIntoFile", {
+            count: indices.length,
+            file: `${stem}-pages.pdf`,
+          }),
+        );
         return;
       }
 
@@ -75,13 +80,13 @@ export function PdfSplitEngine() {
 
       const blob = await zip.generateAsync({ type: "blob" });
       downloadBlob(blob, `${stem}-split.zip`);
-      setInfo(`Split into ${count} file(s), packaged as a ZIP.`);
+      setInfo(tUi("splitIntoFilesAsZip", { count }));
     } catch (err) {
       if (err instanceof PasswordRequiredError) {
         setShowPassword(true);
-        setError("This PDF is password protected. Enter the password and try again.");
+        setError(tUi("thisPDFIsPasswordProtectedEnterThePasswordAndTryAgain"));
       } else {
-        setError(err instanceof Error ? err.message : "Could not split the file.");
+        setError(err instanceof Error ? err.message : tUi("couldNotSplitTheFile"));
       }
     } finally {
       setBusy(false);
@@ -90,13 +95,13 @@ export function PdfSplitEngine() {
 
   return (
     <Workspace
-      title="Split PDF"
-      description="Extract a page range, split into single pages, or cut into fixed-size chunks."
+      title={tUi("splitPDF")}
+      description={tUi("extractAPageRangeSplitIntoSinglePagesOrCutIntoFixedSizeChunks")}
     >
       <DropZone
         accept="application/pdf,.pdf"
-        label={file ? "Replace PDF" : "Choose a PDF"}
-        hint="One .pdf file. Everything runs in your browser."
+        label={file ? tUi("replacePDF") : tUi("chooseAPDF")}
+        hint={tUi("onePdfFileEverythingRunsInYourBrowser")}
         onFiles={(list) => {
           setFile(list[0] ?? null);
           setError(null);
@@ -107,22 +112,22 @@ export function PdfSplitEngine() {
 
       {file ? (
         <div className="mt-5 space-y-4">
-          <Field label="Mode">
+          <Field label={tUi("mode")}>
             <select
               value={mode}
               onChange={(e) => setMode(e.target.value as Mode)}
               className={selectClass}
             >
-              <option value="extract">Extract selected pages into one PDF</option>
-              <option value="each">Split into single pages</option>
-              <option value="chunks">Split into fixed-size chunks</option>
+              <option value="extract">{tUi("extractSelectedPagesIntoOnePDF")}</option>
+              <option value="each">{tUi("splitIntoSinglePages")}</option>
+              <option value="chunks">{tUi("splitIntoFixedSizeChunks")}</option>
             </select>
           </Field>
 
           {mode === "extract" ? (
             <Field
-              label="Page range"
-              hint="Use 1-based page numbers, e.g. 1-3, 5, 8-10"
+              label={tUi("pageRange")}
+              hint={tUi("use1BasedPageNumbersEG135810")}
             >
               <input
                 type="text"
@@ -135,7 +140,7 @@ export function PdfSplitEngine() {
           ) : null}
 
           {mode === "chunks" ? (
-            <Field label="Pages per file">
+            <Field label={tUi("pagesPerFile")}>
               <input
                 type="number"
                 min={1}
@@ -147,7 +152,7 @@ export function PdfSplitEngine() {
           ) : null}
 
           {showPassword ? (
-            <Field label="PDF password">
+            <Field label={tUi("pDFPassword")}>
               <input
                 type="password"
                 value={password}
@@ -159,7 +164,7 @@ export function PdfSplitEngine() {
 
           <div className="flex items-center gap-3">
             <ActionButton onClick={handleSplit} busy={busy}>
-              {mode === "extract" ? "Extract pages" : "Split PDF"}
+              {mode === "extract" ? tUi("extractPages") : tUi("splitPDF")}
             </ActionButton>
             <button
               type="button"
@@ -170,7 +175,7 @@ export function PdfSplitEngine() {
               }}
               className="text-sm font-medium text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200"
             >
-              Clear
+              {tUi("clear")}
             </button>
           </div>
         </div>

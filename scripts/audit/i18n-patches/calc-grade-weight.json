@@ -1,0 +1,9 @@
+{
+  "namespace": "ui.calculators.GradeTools",
+  "en": {
+    "weightAndScore": "% weight / % score"
+  },
+  "de": {
+    "weightAndScore": "% Gewicht / % Punkte"
+  }
+}

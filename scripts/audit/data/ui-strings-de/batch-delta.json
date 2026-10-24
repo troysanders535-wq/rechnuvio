@@ -1,0 +1,1373 @@
+{
+ "ui.engines.TextCaseWorkspace": {
+  "titleCase": {
+   "text": "Titel-Schreibweise"
+  },
+  "sentenceCase": {
+   "text": "Satz-Schreibweise"
+  },
+  "pascalCase": {
+   "text": "PascalCase"
+  },
+  "cONSTANTCASE": {
+   "text": "CONSTANT CASE"
+  },
+  "caseVariants": {
+   "text": "Schreibweisen"
+  },
+  "text": {
+   "text": "Text"
+  },
+  "edit": {
+   "text": "Bearbeiten"
+  },
+  "preview": {
+   "text": "Vorschau"
+  },
+  "copyAll": {
+   "text": "Alle kopieren"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "clear": {
+   "text": "Leeren"
+  },
+  "typeOrPasteYourTextHere": {
+   "text": "Text hier eingeben oder einfügen"
+  },
+  "words": {
+   "text": "Wörter"
+  },
+  "charactersWithSpaces": {
+   "text": "Zeichen (mit Leerzeichen)"
+  },
+  "charactersWithoutSpaces": {
+   "text": "Zeichen (ohne Leerzeichen)"
+  },
+  "sentences": {
+   "text": "Sätze"
+  },
+  "paragraphs": {
+   "text": "Absätze"
+  },
+  "lines": {
+   "text": "Zeilen"
+  },
+  "readingTimeMin": {
+   "text": "Lesezeit (Min.)"
+  },
+  "convert": {
+   "text": "Umwandeln"
+  },
+  "selectTextInsideTheBoxToConvertOnlyThatPart": {
+   "text": "Markieren Sie Text in der Box, um nur diesen Teil umzuwandeln."
+  },
+  "clickUPPERCASEToConvertTheTextInstantly": {
+   "text": "Klicken Sie auf UPPERCASE, um den Text sofort umzuwandeln."
+  },
+  "clickLowercaseToConvertTheTextInstantly": {
+   "text": "Klicken Sie auf lowercase, um den Text sofort umzuwandeln."
+  },
+  "capitalizeTheFirstLetterOfEveryWord": {
+   "text": "Ersten Buchstaben jedes Worts großschreiben."
+  },
+  "everyCaseFormatIsShownLiveWithItsOwnCopyButton": {
+   "text": "Jede Schreibweise wird live mit eigener Kopier-Schaltfläche angezeigt."
+  }
+ },
+ "ui.engines.TextCitationWorkspace": {
+  "citations": {
+   "text": "Zitate"
+  },
+  "citationDetails": {
+   "text": "Zitierdetails"
+  },
+  "downloadTxt": {
+   "text": ".txt herunterladen"
+  },
+  "downloadDoc": {
+   "text": ".doc herunterladen"
+  },
+  "downloadBib": {
+   "text": ".bib herunterladen"
+  },
+  "authorS": {
+   "text": "Autor(en)"
+  },
+  "smithJohnDoeJane": {
+   "text": "Smith, John; Doe, Jane"
+  },
+  "year": {
+   "text": "Jahr"
+  },
+  "sourceType": {
+   "text": "Quellentyp"
+  },
+  "book": {
+   "text": "Buch"
+  },
+  "journalArticle": {
+   "text": "Zeitschriftenartikel"
+  },
+  "website": {
+   "text": "Webseite"
+  },
+  "title": {
+   "text": "Titel"
+  },
+  "theBookTitle": {
+   "text": "The Book Title"
+  },
+  "acmePress": {
+   "text": "Acme Press"
+  },
+  "volume": {
+   "text": "Band"
+  },
+  "issue": {
+   "text": "Ausgabe"
+  },
+  "pages": {
+   "text": "Seiten"
+  },
+  "edition": {
+   "text": "Auflage"
+  },
+  "month": {
+   "text": "Monat"
+  },
+  "march": {
+   "text": "March"
+  },
+  "day": {
+   "text": "Tag"
+  },
+  "place": {
+   "text": "Ort"
+  },
+  "london": {
+   "text": "London"
+  },
+  "dOIOrURL": {
+   "text": "DOI oder URL"
+  },
+  "citationStyle": {
+   "text": "Zitierstil"
+  },
+  "aPA7": {
+   "text": "APA 7"
+  },
+  "mLA9": {
+   "text": "MLA 9"
+  },
+  "chicago17": {
+   "text": "Chicago 17"
+  },
+  "harvard": {
+   "text": "Harvard"
+  },
+  "showAllStyles": {
+   "text": "Alle Stile anzeigen"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "allStyles": {
+   "text": "Alle Stile"
+  },
+  "bibTeX": {
+   "text": "BibTeX"
+  },
+  "hideBibTeXImport": {
+   "text": "BibTeX-Import ausblenden"
+  },
+  "importBibTeX": {
+   "text": "BibTeX importieren"
+  },
+  "copyBibTeX": {
+   "text": "BibTeX kopieren"
+  },
+  "pasteABibTeXEntry": {
+   "text": "BibTeX-Eintrag einfügen"
+  }
+ },
+ "ui.engines.TextConvertWorkspace": {
+  "hello": {
+   "text": "Hello"
+  },
+  "textToBinary": {
+   "text": "Text zu Binär"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "download": {
+   "text": "Herunterladen"
+  },
+  "charactersIn": {
+   "text": "Zeichen in"
+  },
+  "bytesOut": {
+   "text": "Bytes aus"
+  },
+  "bitsOut": {
+   "text": "Bits aus"
+  },
+  "textToEncode": {
+   "text": "Zu kodierender Text"
+  },
+  "typeOrPasteYourText": {
+   "text": "Text hier eingeben oder einfügen"
+  },
+  "separator": {
+   "text": "Trennzeichen"
+  },
+  "space": {
+   "text": "Leerzeichen"
+  },
+  "comma": {
+   "text": "Komma"
+  },
+  "none": {
+   "text": "Keines"
+  },
+  "binaryOutput": {
+   "text": "Binärausgabe"
+  },
+  "characterTable": {
+   "text": "Zeichentabelle"
+  },
+  "binaryToText": {
+   "text": "Binär zu Text"
+  },
+  "bitsIn": {
+   "text": "Bits ein"
+  },
+  "bytesDecoded": {
+   "text": "Dekodierte Bytes"
+  },
+  "charactersOut": {
+   "text": "Zeichen aus"
+  },
+  "binaryToDecode": {
+   "text": "Zu dekodierende Binärdaten"
+  },
+  "decodedText": {
+   "text": "Dekodierter Text"
+  },
+  "textToHex": {
+   "text": "Text zu Hex"
+  },
+  "hexCharacters": {
+   "text": "Hex-Zeichen"
+  },
+  "format": {
+   "text": "Format"
+  },
+  "spaced": {
+   "text": "Mit Leerzeichen"
+  },
+  "noSeparator": {
+   "text": "Kein Trennzeichen"
+  },
+  "0xPrefix": {
+   "text": "0x-Präfix"
+  },
+  "hexOutput": {
+   "text": "Hex-Ausgabe"
+  },
+  "hexOutputIsTheUTF8ByteSequenceOfTheInputText": {
+   "text": "Die Hex-Ausgabe ist die UTF-8-Bytefolge des eingegebenen Textes."
+  },
+  "hTMLToMarkdown": {
+   "text": "HTML zu Markdown"
+  },
+  "downloadMd": {
+   "text": ".md herunterladen"
+  },
+  "hTMLSource": {
+   "text": "HTML-Quelltext"
+  },
+  "title": {
+   "text": "Titel"
+  },
+  "hTMLMarkdownPreview": {
+   "text": "HTML → Markdown-Vorschau"
+  },
+  "markdownOutput": {
+   "text": "Markdown-Ausgabe"
+  },
+  "laTeXToWordEquation": {
+   "text": "LaTeX zu Word-Formel"
+  },
+  "copyForWord": {
+   "text": "Für Word kopieren"
+  },
+  "laTeXExpression": {
+   "text": "LaTeX-Ausdruck"
+  },
+  "commonSymbols": {
+   "text": "Häufige Symbole"
+  },
+  "wordUnicodeMathOutput": {
+   "text": "Word-Ausgabe (UnicodeMath)"
+  }
+ },
+ "ui.engines.TextCounterWorkspace": {
+  "clearTheText": {
+   "text": "Text leeren"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "copyTheStatisticsSummary": {
+   "text": "Statistikzusammenfassung kopieren"
+  },
+  "typeOrPasteYourTextHere": {
+   "text": "Text hier eingeben oder einfügen"
+  },
+  "words": {
+   "text": "Wörter"
+  },
+  "charactersWithSpaces": {
+   "text": "Zeichen (mit Leerzeichen)"
+  },
+  "charactersWithoutSpaces": {
+   "text": "Zeichen (ohne Leerzeichen)"
+  },
+  "sentences": {
+   "text": "Sätze"
+  },
+  "paragraphs": {
+   "text": "Absätze"
+  },
+  "lines": {
+   "text": "Zeilen"
+  },
+  "uniqueWords": {
+   "text": "Eindeutige Wörter"
+  },
+  "estimatedTokens": {
+   "text": "Geschätzte Tokens"
+  },
+  "readingTimeMin": {
+   "text": "Lesezeit (Min.)"
+  },
+  "speakingTimeMin": {
+   "text": "Sprechzeit (Min.)"
+  },
+  "selectedText": {
+   "text": "Ausgewählter Text"
+  },
+  "statisticsUpdateLiveAsYouType": {
+   "text": "Statistiken werden beim Tippen live aktualisiert."
+  },
+  "stringLengthDetail": {
+   "text": "Details zur Stringlänge"
+  },
+  "uTF8Bytes": {
+   "text": "UTF-8 Bytes"
+  },
+  "graphemesCodePoints": {
+   "text": "Grapheme (Codepoints)"
+  },
+  "spaceCharacters": {
+   "text": "Leerzeichen"
+  },
+  "nonSpaceCharacters": {
+   "text": "Nicht-Leerzeichen"
+  },
+  "withSpaces": {
+   "text": "Mit Leerzeichen"
+  },
+  "withoutSpaces": {
+   "text": "Ohne Leerzeichen"
+  },
+  "graphemesAreCountedByUnicodeCodePoint": {
+   "text": "Grapheme werden nach Unicode-Codepoint gezählt."
+  },
+  "sEOLengthChecks": {
+   "text": "SEO-Längenprüfungen"
+  },
+  "metaTitleLength": {
+   "text": "Länge des Meta-Titels"
+  },
+  "recommendedTitleLength": {
+   "text": "Empfohlene Titellänge"
+  },
+  "metaDescriptionLength": {
+   "text": "Länge der Meta-Beschreibung"
+  },
+  "recommendedDescriptionLength": {
+   "text": "Empfohlene Länge der Beschreibung"
+  },
+  "metaTitle": {
+   "text": "Meta-Titel"
+  },
+  "yourPageTitle": {
+   "text": "Ihr Seitentitel"
+  },
+  "goodLengthForSearchResults": {
+   "text": "Gute Länge für Suchergebnisse"
+  },
+  "tooShortAimFor50To60Characters": {
+   "text": "Zu kurz, ideal sind 50 bis 60 Zeichen"
+  },
+  "tooLongAimFor50To60Characters": {
+   "text": "Zu lang, ideal sind 50 bis 60 Zeichen"
+  },
+  "metaDescription": {
+   "text": "Meta-Beschreibung"
+  },
+  "yourPageDescription": {
+   "text": "Ihre Seitenbeschreibung"
+  },
+  "tooShortAimFor150To160Characters": {
+   "text": "Zu kurz, ideal sind 150 bis 160 Zeichen"
+  },
+  "tooLongAimFor150To160Characters": {
+   "text": "Zu lang, ideal sind 150 bis 160 Zeichen"
+  },
+  "titlesRenderInFullUpToAbout60Characters": {
+   "text": "Titel werden bis etwa 60 Zeichen vollständig angezeigt."
+  },
+  "descriptionsAreTruncatedPastAbout160Characters": {
+   "text": "Beschreibungen werden nach etwa 160 Zeichen gekürzt."
+  },
+  "wordFrequency": {
+   "text": "Wortfrequenz"
+  },
+  "ignoreCommonWords": {
+   "text": "Häufige Wörter ignorieren"
+  },
+  "word": {
+   "text": "Wort"
+  },
+  "count": {
+   "text": "Anzahl"
+  },
+  "share": {
+   "text": "Anteil"
+  },
+  "top20WordsByCountWithEachWordShareOfAllWords": {
+   "text": "Top 20 Wörter nach Anzahl, mit dem Anteil jedes Worts an allen Wörtern."
+  }
+ },
+ "ui.engines.TextDiceWorkspace": {
+  "keptDie": {
+   "text": "Behaltener Würfel"
+  },
+  "modifier": {
+   "text": "Modifikator"
+  },
+  "total": {
+   "text": "Gesamt"
+  },
+  "rolls": {
+   "text": "Würfe"
+  },
+  "dice": {
+   "text": "Würfel"
+  },
+  "discarded": {
+   "text": "Verworfen"
+  },
+  "kept": {
+   "text": "Behalten"
+  },
+  "result": {
+   "text": "Ergebnis"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "copyTheResultOfTheLastRoll": {
+   "text": "Ergebnis des letzten Wurfes kopieren"
+  },
+  "settings": {
+   "text": "Einstellungen"
+  },
+  "mode": {
+   "text": "Modus"
+  },
+  "normal": {
+   "text": "Normal"
+  },
+  "advantage": {
+   "text": "Vorteil"
+  },
+  "disadvantage": {
+   "text": "Nachteil"
+  },
+  "history": {
+   "text": "Verlauf"
+  }
+ },
+ "ui.engines.TextDocxWorkspace": {
+  "acceptAllTrackedChanges": {
+   "text": "Alle nachverfolgten Änderungen übernehmen"
+  },
+  "chooseDocx": {
+   "text": ".docx auswählen"
+  },
+  "download": {
+   "text": "Herunterladen"
+  },
+  "insertionsAccepted": {
+   "text": "Übernommene Einfügungen"
+  },
+  "deletionsRemoved": {
+   "text": "Entfernte Löschungen"
+  },
+  "reviewerNamesCleared": {
+   "text": "Namen der Prüfer entfernt"
+  },
+  "commentAnchorsRemoved": {
+   "text": "Entfernte Kommentar-Anker"
+  },
+  "acceptedText": {
+   "text": "Übernommener Text"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "summary": {
+   "text": "Zusammenfassung"
+  },
+  "removeCommentsFromWord": {
+   "text": "Kommentare aus Word entfernen"
+  },
+  "whatShouldHappen": {
+   "text": "Was soll passieren"
+  },
+  "removeAllComments": {
+   "text": "Alle Kommentare entfernen"
+  },
+  "keepCommentsClearReviewerNames": {
+   "text": "Kommentare behalten, Namen der Prüfer entfernen"
+  },
+  "wordToHTML": {
+   "text": "Word zu HTML"
+  },
+  "hTMLCharacters": {
+   "text": "HTML-Zeichen"
+  },
+  "conversionNotes": {
+   "text": "Konvertierungshinweise"
+  },
+  "hTMLSource": {
+   "text": "HTML-Quelltext"
+  },
+  "preview": {
+   "text": "Vorschau"
+  },
+  "wordViewer": {
+   "text": "Word-Betrachter"
+  },
+  "copyText": {
+   "text": "Text kopieren"
+  },
+  "words": {
+   "text": "Wörter"
+  },
+  "characters": {
+   "text": "Zeichen"
+  },
+  "author": {
+   "text": "Autor"
+  },
+  "title": {
+   "text": "Titel"
+  }
+ },
+ "ui.engines.TextFontWorkspace": {
+  "bold": {
+   "text": "Fett"
+  },
+  "italic": {
+   "text": "Kursiv"
+  },
+  "boldItalic": {
+   "text": "Fett Kursiv"
+  },
+  "script": {
+   "text": "Schreibschrift"
+  },
+  "boldScript": {
+   "text": "Fette Schreibschrift"
+  },
+  "fraktur": {
+   "text": "Fraktur"
+  },
+  "doubleStruck": {
+   "text": "Doppelt durchgestrichen"
+  },
+  "monospaceFullwidth": {
+   "text": "Dicktengleich (Vollbreite)"
+  },
+  "fullwidth": {
+   "text": "Vollbreite"
+  },
+  "circled": {
+   "text": "Eingekreist"
+  },
+  "squared": {
+   "text": "Quadratisch"
+  },
+  "smallCaps": {
+   "text": "Kapitälchen"
+  },
+  "superscript": {
+   "text": "Hochgestellt"
+  },
+  "subscript": {
+   "text": "Tiefgestellt"
+  },
+  "strikethrough": {
+   "text": "Durchgestrichen"
+  },
+  "underline": {
+   "text": "Unterstrichen"
+  },
+  "overline": {
+   "text": "Überstrichen"
+  },
+  "slash": {
+   "text": "Schrägstrich"
+  },
+  "smallText": {
+   "text": "Kleiner Text"
+  },
+  "instagram": {
+   "text": "Instagram"
+  },
+  "tikTok": {
+   "text": "TikTok"
+  },
+  "linkedIn": {
+   "text": "LinkedIn"
+  },
+  "discord": {
+   "text": "Discord"
+  },
+  "whatsApp": {
+   "text": "WhatsApp"
+  },
+  "noFrame": {
+   "text": "Kein Rahmen"
+  },
+  "doubleLine": {
+   "text": "Doppelte Linie"
+  },
+  "roundedCorners": {
+   "text": "Abgerundete Ecken"
+  },
+  "singleLine": {
+   "text": "Einfache Linie"
+  },
+  "heavyBlocks": {
+   "text": "Schwere Blöcke"
+  },
+  "stars": {
+   "text": "Sterne"
+  },
+  "diamonds": {
+   "text": "Rauten"
+  },
+  "chevrons": {
+   "text": "Chevrons"
+  },
+  "unicodeFonts": {
+   "text": "Unicode-Schriften"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "download": {
+   "text": "Herunterladen"
+  },
+  "yourText": {
+   "text": "Ihr Text"
+  },
+  "typeYourTextHere": {
+   "text": "Text hier eingeben"
+  },
+  "featuredStyle": {
+   "text": "Empfohlener Stil"
+  },
+  "symbolFrame": {
+   "text": "Symbolrahmen"
+  },
+  "searchStyles": {
+   "text": "Stile durchsuchen"
+  },
+  "boldScriptCircled": {
+   "text": "Fett, Schreibschrift, eingekreist"
+  },
+  "plainUnicodeWorksInEveryPlainTextField": {
+   "text": "Einfaches Unicode funktioniert in jedem reinen Textfeld."
+  },
+  "styledText": {
+   "text": "Formatierter Text"
+  },
+  "style": {
+   "text": "Stil"
+  },
+  "characters": {
+   "text": "Zeichen"
+  },
+  "outputCharacters": {
+   "text": "Ausgabezeichen"
+  },
+  "styles": {
+   "text": "Stile"
+  },
+  "platformsSupported": {
+   "text": "Unterstützte Plattformen"
+  },
+  "result": {
+   "text": "Ergebnis"
+  },
+  "flippedText": {
+   "text": "Gespiegelter Text"
+  },
+  "turnFlippedTextBackIntoTheOriginal": {
+   "text": "Gespiegelten Text wieder in das Original zurückdrehen"
+  },
+  "keepWordOrder": {
+   "text": "Wortreihenfolge beibehalten"
+  },
+  "flippedCharacters": {
+   "text": "Gespiegelte Zeichen"
+  },
+  "words": {
+   "text": "Wörter"
+  },
+  "restoredCharacters": {
+   "text": "Wiederhergestellte Zeichen"
+  },
+  "flippedResult": {
+   "text": "Gespiegeltes Ergebnis"
+  },
+  "restoredOriginal": {
+   "text": "Wiederhergestelltes Original"
+  },
+  "everyLetterIsRotated180DegreesAndTheOrderFlips": {
+   "text": "Jeder Buchstabe wird um 180 Grad gedreht und die Reihenfolge kehrt sich um."
+  },
+  "pasteFlippedTextBackInToRecoverTheOriginal": {
+   "text": "Fügen Sie den gespiegelten Text wieder ein, um das Original wiederherzustellen."
+  },
+  "glitchText": {
+   "text": "Glitch-Text"
+  },
+  "intensity": {
+   "text": "Intensität"
+  },
+  "light": {
+   "text": "Leicht"
+  },
+  "medium": {
+   "text": "Mittel"
+  },
+  "heavy": {
+   "text": "Stark"
+  },
+  "glitchedCharacters": {
+   "text": "Verfälschte Zeichen"
+  },
+  "seed": {
+   "text": "Startwert"
+  },
+  "glitchedResult": {
+   "text": "Verfälschtes Ergebnis"
+  },
+  "blockGlyphsAndLeetLettersReplacePartsOfYourText": {
+   "text": "Blockglyphen und Leet-Buchstaben ersetzen Teile Ihres Textes."
+  },
+  "randomizeRollsANewSeedShuffleReordersTheCharacters": {
+   "text": "Randomisieren würfelt einen neuen Startwert, Mischen ordnet die Zeichen neu."
+  },
+  "zalgoText": {
+   "text": "Zalgo-Text"
+  },
+  "off": {
+   "text": "Aus"
+  },
+  "extreme": {
+   "text": "Extrem"
+  },
+  "zalgoCharacters": {
+   "text": "Zalgo-Zeichen"
+  },
+  "zalgoResult": {
+   "text": "Zalgo-Ergebnis"
+  },
+  "combiningMarksStackAboveAndBelowEveryCharacter": {
+   "text": "Kombinierende Zeichen stapeln sich über und unter jedem Buchstaben."
+  },
+  "cleanZalgoTextRemovesTheMarksAgain": {
+   "text": "Zalgo-Text bereinigen entfernt die Zeichen wieder."
+  }
+ },
+ "ui.engines.TextHandwritingWorkspace": {
+  "plain": {
+   "text": "Blanko"
+  },
+  "ruled": {
+   "text": "Linie"
+  },
+  "grid": {
+   "text": "Raster"
+  },
+  "letter": {
+   "text": "Letter"
+  },
+  "handwritingGenerator": {
+   "text": "Handschrift-Generator"
+  },
+  "textToHandwriting": {
+   "text": "Text zu Handschrift"
+  },
+  "copyText": {
+   "text": "Text kopieren"
+  },
+  "clear": {
+   "text": "Leeren"
+  },
+  "textToWriteByHand": {
+   "text": "Handzuschreibender Text"
+  },
+  "typeTheTextToWriteByHand": {
+   "text": "Geben Sie den handzuschreibenden Text ein"
+  },
+  "handwritingFont": {
+   "text": "Handschriftart"
+  },
+  "inkColour": {
+   "text": "Tintenfarbe"
+  },
+  "paperColour": {
+   "text": "Papierfarbe"
+  },
+  "paperType": {
+   "text": "Papierart"
+  },
+  "letterSize": {
+   "text": "Schriftgröße"
+  },
+  "letterSpacing": {
+   "text": "Zeichenabstand"
+  },
+  "pageSize": {
+   "text": "Seitengröße"
+  },
+  "characters": {
+   "text": "Zeichen"
+  },
+  "words": {
+   "text": "Wörter"
+  },
+  "lines": {
+   "text": "Zeilen"
+  },
+  "paper": {
+   "text": "Papier"
+  },
+  "preview": {
+   "text": "Vorschau"
+  },
+  "freehandPad": {
+   "text": "Freihandfeld"
+  },
+  "hidePad": {
+   "text": "Feld ausblenden"
+  },
+  "showPad": {
+   "text": "Feld anzeigen"
+  },
+  "brushSize": {
+   "text": "Pinselgröße"
+  },
+  "penColour": {
+   "text": "Stiftfarbe"
+  }
+ },
+ "ui.engines.TextLinesWorkspace": {
+  "sort": {
+   "text": "Sortieren"
+  },
+  "sortAToZ": {
+   "text": "A bis Z sortieren"
+  },
+  "sortZToA": {
+   "text": "Z bis A sortieren"
+  },
+  "cleanUp": {
+   "text": "Aufräumen"
+  },
+  "removeDuplicates": {
+   "text": "Duplikate entfernen"
+  },
+  "removeDuplicatesAndSort": {
+   "text": "Duplikate entfernen und sortieren"
+  },
+  "removeEmptyLines": {
+   "text": "Leere Zeilen entfernen"
+  },
+  "trimWhitespace": {
+   "text": "Leerraum entfernen"
+  },
+  "reverseLines": {
+   "text": "Zeilen umkehren"
+  },
+  "addLineNumbers": {
+   "text": "Zeilennummern hinzufügen"
+  },
+  "removeLineNumbers": {
+   "text": "Zeilennummern entfernen"
+  },
+  "textLines": {
+   "text": "Textzeilen"
+  },
+  "clear": {
+   "text": "Leeren"
+  },
+  "typeOrPasteOneItemPerLine": {
+   "text": "Geben Sie einen Eintrag pro Zeile ein oder fügen Sie ihn ein"
+  },
+  "linesBefore": {
+   "text": "Zeilen vorher"
+  },
+  "linesAfter": {
+   "text": "Zeilen nachher"
+  },
+  "duplicatesRemoved": {
+   "text": "Entfernte Duplikate"
+  },
+  "options": {
+   "text": "Optionen"
+  },
+  "caseInsensitiveSort": {
+   "text": "Groß-/Kleinschreibung ignorierende Sortierung"
+  },
+  "naturalSort": {
+   "text": "Natürliche Sortierung"
+  },
+  "ignoreSpacesWhenSorting": {
+   "text": "Leerzeichen beim Sortieren ignorieren"
+  },
+  "keepOriginalOrderOfDuplicates": {
+   "text": "Ursprüngliche Reihenfolge der Duplikate beibehalten"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "download": {
+   "text": "Herunterladen"
+  },
+  "eachLineIsTreatedAsOneItem": {
+   "text": "Jede Zeile wird als ein Eintrag behandelt."
+  }
+ },
+ "ui.engines.TextNotepadWorkspace": {
+  "untitled": {
+   "text": "Unbenannt"
+  },
+  "plainText": {
+   "text": "Nur Text"
+  },
+  "javaScript": {
+   "text": "JavaScript"
+  },
+  "markdown": {
+   "text": "Markdown"
+  },
+  "language": {
+   "text": "Sprache"
+  },
+  "saved": {
+   "text": "Gespeichert"
+  },
+  "saving": {
+   "text": "Wird gespeichert."
+  },
+  "importFile": {
+   "text": "Datei importieren"
+  },
+  "download": {
+   "text": "Herunterladen"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "deleteAllSavedData": {
+   "text": "Alle gespeicherten Daten löschen"
+  },
+  "open": {
+   "text": "Öffnen"
+  },
+  "wordWrap": {
+   "text": "Zeilenumbruch"
+  },
+  "zoom": {
+   "text": "Zoom %"
+  },
+  "doubleClickToRename": {
+   "text": "Doppelklick zum Umbenennen"
+  },
+  "closeTab": {
+   "text": "Tab schließen"
+  },
+  "newTab": {
+   "text": "Neuer Tab"
+  },
+  "tabName": {
+   "text": "Tab-Name"
+  },
+  "startTypingHere": {
+   "text": "Beginnen Sie hier mit dem Schreiben."
+  },
+  "words": {
+   "text": "Wörter"
+  },
+  "characters": {
+   "text": "Zeichen"
+  },
+  "lines": {
+   "text": "Zeilen"
+  },
+  "readingTimeMin": {
+   "text": "Lesezeit (Min.)"
+  },
+  "find": {
+   "text": "Suchen"
+  },
+  "textToFind": {
+   "text": "Zu suchender Text"
+  },
+  "replace": {
+   "text": "Ersetzen"
+  },
+  "replaceWith": {
+   "text": "Ersetzen durch"
+  },
+  "replaceAll": {
+   "text": "Alle ersetzen"
+  },
+  "hideSyntaxPreview": {
+   "text": "Syntaxvorschau ausblenden"
+  },
+  "showSyntaxPreview": {
+   "text": "Syntaxvorschau anzeigen"
+  }
+ },
+ "ui.engines.TextTokenWorkspace": {
+  "clearTheText": {
+   "text": "Text leeren"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "copyTheTokenSummary": {
+   "text": "Tokenzusammenfassung kopieren"
+  },
+  "model": {
+   "text": "Modell"
+  },
+  "gPT4GPT4oExact": {
+   "text": "GPT-4 / GPT-4o (exakt)"
+  },
+  "gPT4GPT4oEstimate": {
+   "text": "GPT-4 / GPT-4o (Schätzung)"
+  },
+  "gPT5OSeriesExact": {
+   "text": "GPT-5 / o-series (exakt)"
+  },
+  "gPT5OSeriesEstimate": {
+   "text": "GPT-5 / o-series (Schätzung)"
+  },
+  "claudeEstimate": {
+   "text": "Claude (Schätzung)"
+  },
+  "geminiEstimate": {
+   "text": "Gemini (Schätzung)"
+  },
+  "llamaEstimate": {
+   "text": "Llama (Schätzung)"
+  },
+  "pasteAPromptOrTextToCountTokens": {
+   "text": "Fügen Sie einen Prompt oder Text ein, um Tokens zu zählen"
+  },
+  "tokensExact": {
+   "text": "Tokens (exakt)"
+  },
+  "tokensEstimated": {
+   "text": "Tokens (geschätzt)"
+  },
+  "characters": {
+   "text": "Zeichen"
+  },
+  "charactersPerToken": {
+   "text": "Zeichen pro Token"
+  },
+  "words": {
+   "text": "Wörter"
+  },
+  "estimatedCost": {
+   "text": "Geschätzte Kosten"
+  },
+  "contextLimit": {
+   "text": "Kontextlimit"
+  },
+  "contextWindow": {
+   "text": "Kontextfenster"
+  },
+  "8KTokens": {
+   "text": "8K Tokens"
+  },
+  "32KTokens": {
+   "text": "32K Tokens"
+  },
+  "64KTokens": {
+   "text": "64K Tokens"
+  },
+  "128KTokens": {
+   "text": "128K Tokens"
+  },
+  "200KTokens": {
+   "text": "200K Tokens"
+  },
+  "1MTokens": {
+   "text": "1M Tokens"
+  },
+  "contextUsed": {
+   "text": "Genutzter Kontext"
+  },
+  "thisPromptIsLongerThanTheSelectedContextLimit": {
+   "text": "Dieser Prompt ist länger als das ausgewählte Kontextlimit."
+  },
+  "tokenCountByModel": {
+   "text": "Tokenanzahl nach Modell"
+  },
+  "method": {
+   "text": "Methode"
+  },
+  "tokens": {
+   "text": "Tokens"
+  },
+  "onlyTheGPTModelsUseTheExactOpenAIBPETokenizer": {
+   "text": "Nur die GPT-Modelle verwenden den exakten OpenAI-BPE-Tokenizer."
+  },
+  "claudeGeminiAndLlamaCountsAreEstimates": {
+   "text": "Die Werte für Claude, Gemini und Llama sind Schätzungen."
+  },
+  "costEstimate": {
+   "text": "Kostenschätzung"
+  },
+  "pricePer1MInputTokensUSD": {
+   "text": "Preis pro 1M Eingabetokens (USD)"
+  },
+  "gPT4o": {
+   "text": "GPT-4o"
+  },
+  "gPT4oMini": {
+   "text": "GPT-4o mini"
+  },
+  "gPT5": {
+   "text": "GPT-5"
+  },
+  "claudeSonnet": {
+   "text": "Claude Sonnet"
+  },
+  "claudeOpus": {
+   "text": "Claude Opus"
+  },
+  "gemini": {
+   "text": "Gemini"
+  },
+  "llama": {
+   "text": "Llama"
+  },
+  "costTokensDividedBy1000000TimesThePrice": {
+   "text": "Kosten = Tokens geteilt durch 1,000,000 mal dem Preis."
+  }
+ },
+ "ui.engines.TextTransformWorkspace": {
+  "zeroWidthSpaceU200B": {
+   "text": "Nullbreites Leerzeichen (U+200B)"
+  },
+  "brailleBlankU2800": {
+   "text": "Blindenschrift-Leerzeichen (U+2800)"
+  },
+  "hangulFillerU3164": {
+   "text": "Hangul-Füllzeichen (U+3164)"
+  },
+  "wordJoinerU2060": {
+   "text": "Wortverbinder (U+2060)"
+  },
+  "invisibleCharacterU200C": {
+   "text": "Unsichtbares Zeichen (U+200C)"
+  },
+  "zeroWidthSpace": {
+   "text": "Nullbreites Leerzeichen"
+  },
+  "zeroWidthNonJoiner": {
+   "text": "Nullbreiter Nicht-Verbinder"
+  },
+  "zeroWidthJoiner": {
+   "text": "Nullbreiter Verbinder"
+  },
+  "wordJoiner": {
+   "text": "Wortverbinder"
+  },
+  "zeroWidthNoBreakSpace": {
+   "text": "Nullbreites geschütztes Leerzeichen"
+  },
+  "softHyphen": {
+   "text": "Geschütztes Trennzeichen"
+  },
+  "brailleBlank": {
+   "text": "Blindenschrift-Leerzeichen"
+  },
+  "hangulFiller": {
+   "text": "Hangul-Füllzeichen"
+  },
+  "combiningGraphemeJoiner": {
+   "text": "Verbindender Graphem-Verbinder"
+  },
+  "mongolianVowelSeparator": {
+   "text": "Mongolischer Vokaltrenner"
+  },
+  "combiningDiacriticalMark": {
+   "text": "Verbindendes Diakritikazeichen"
+  },
+  "backwardsText": {
+   "text": "Rückwärts laufender Text"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "download": {
+   "text": "Herunterladen"
+  },
+  "yourText": {
+   "text": "Ihr Text"
+  },
+  "typeYourTextHere": {
+   "text": "Text hier eingeben"
+  },
+  "mode": {
+   "text": "Modus"
+  },
+  "reverseAllCharacters": {
+   "text": "Alle Zeichen umkehren"
+  },
+  "reverseWordOrder": {
+   "text": "Wortreihenfolge umkehren"
+  },
+  "reverseEachWord": {
+   "text": "Jedes Wort umkehren"
+  },
+  "mirrorUpsideDownMirror": {
+   "text": "Spiegeln (Upside-Down-Spiegel)"
+  },
+  "characters": {
+   "text": "Zeichen"
+  },
+  "outputCharacters": {
+   "text": "Ausgabezeichen"
+  },
+  "words": {
+   "text": "Wörter"
+  },
+  "emojiKept": {
+   "text": "Emoji beibehalten"
+  },
+  "result": {
+   "text": "Ergebnis"
+  },
+  "emojiAndAccentedLettersStayIntact": {
+   "text": "Emoji und Zeichen mit Akzenten bleiben erhalten."
+  },
+  "mirrorFlipsTheCharactersAndThenReversesTheString": {
+   "text": "Spiegeln dreht die Zeichen um und kehrt danach die Zeichenfolge um."
+  },
+  "repeatedText": {
+   "text": "Wiederholter Text"
+  },
+  "repeatCount": {
+   "text": "Anzahl der Wiederholungen"
+  },
+  "separator": {
+   "text": "Trennzeichen"
+  },
+  "none": {
+   "text": "Keines"
+  },
+  "space": {
+   "text": "Leerzeichen"
+  },
+  "newLine": {
+   "text": "Neue Zeile"
+  },
+  "comma": {
+   "text": "Komma"
+  },
+  "custom": {
+   "text": "Benutzerdefiniert"
+  },
+  "customSeparator": {
+   "text": "Benutzerdefiniertes Trennzeichen"
+  },
+  "typeASeparator": {
+   "text": "Geben Sie ein Trennzeichen ein"
+  },
+  "numberEachRepetition": {
+   "text": "Wiederholungen nummerieren"
+  },
+  "numberedRepetitionsAreAlwaysPlacedOnSeparateLines": {
+   "text": "Nummerierte Wiederholungen stehen immer in eigenen Zeilen."
+  },
+  "blankText": {
+   "text": "Leerer Text"
+  },
+  "characterCount": {
+   "text": "Zeichenanzahl"
+  },
+  "blankLines": {
+   "text": "Leere Zeilen"
+  },
+  "codePoint": {
+   "text": "Codepoint"
+  },
+  "characterType": {
+   "text": "Zeichenart"
+  },
+  "theResultLooksEmptyBecauseTheCharactersAreInvisible": {
+   "text": "Das Ergebnis sieht leer aus, weil die Zeichen unsichtbar sind."
+  },
+  "copyTheCodePointToPasteTheSameCharacterYourself": {
+   "text": "Kopieren Sie den Codepoint, um dasselbe Zeichen selbst einzufügen."
+  },
+  "invisibleCharacters": {
+   "text": "Unsichtbare Zeichen"
+  },
+  "theseCharactersTakeUpNoVisibleSpaceWhenPasted": {
+   "text": "Diese Zeichen belegen beim Einfügen keinen sichtbaren Platz."
+  },
+  "useThemForEmptyNamesBiosAndMessages": {
+   "text": "Verwenden Sie sie für leere Namen, Bios und Nachrichten."
+  },
+  "hiddenCharacterDetector": {
+   "text": "Erkennung versteckter Zeichen"
+  },
+  "pasteTextToScan": {
+   "text": "Text zum Prüfen einfügen"
+  },
+  "pasteTextHere": {
+   "text": "Text hier einfügen"
+  }
+ }
+}

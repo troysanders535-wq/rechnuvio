@@ -1,0 +1,23 @@
+{
+  "namespace": "ui.pdf.PdfRedactEngine",
+  "en": {
+    "replacePDF": "Replace PDF",
+    "chooseAPDF": "Choose a PDF",
+    "foundMatchesToReview": "Found {hits} match(es). Review them below, then apply.",
+    "couldNotEncodeThePage": "Could not encode page {page}.",
+    "redactedAreasRemovedFromTheFile": "Redacted {areas} area(s) across {pages} page(s). The redacted content was removed from the file.",
+    "markedAreasCount": "{count} area(s) marked",
+    "pageOfTotal": "Page {page} of {total}",
+    "textToFindPlaceholder": "e.g. account number, 123456789"
+  },
+  "de": {
+    "replacePDF": "PDF ersetzen",
+    "chooseAPDF": "PDF auswählen",
+    "foundMatchesToReview": "{hits} Treffer gefunden. Prüfen Sie die Treffer unten und wenden Sie sie anschließend an.",
+    "couldNotEncodeThePage": "Seite {page} konnte nicht kodiert werden.",
+    "redactedAreasRemovedFromTheFile": "{areas, plural, one {# Bereich} other {# Bereiche}} in {pages, plural, one {# Seite} other {# Seiten}} geschwärzt. Der geschwärzte Inhalt wurde aus der Datei entfernt.",
+    "markedAreasCount": "{count, plural, one {# Bereich markiert} other {# Bereiche markiert}}",
+    "pageOfTotal": "Seite {page} von {total}",
+    "textToFindPlaceholder": "z. B. Kontonummer, 123456789"
+  }
+}

@@ -1,0 +1,2462 @@
+[
+ {
+  "slug": "2027-holidays",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "3d-viewer",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "2027-calendar",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "2026-calendar",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "accept-all-changes-in-word",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "3mf-viewer",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "adult-bmi-calculator",
+  "engine": "health-fitness",
+  "german": []
+ },
+ {
+  "slug": "age-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "background-remover",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "ai-viewer",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "ai-to-pdf",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "ai-to-png",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "alphabetical-order-tool",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "apa-citation-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "ai-token-counter",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "api-tester",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "asn1-decoder",
+  "engine": "crypto-hash",
+  "german": []
+ },
+ {
+  "slug": "average-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "avi-to-mp4",
+  "engine": "media-audio-video",
+  "german": []
+ },
+ {
+  "slug": "avif-to-jpg",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "avif-to-png",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "baby-boy-name-generator",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "baby-girl-name-generator",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "baby-name-ai",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "baby-shower-bingo",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "backwards-text-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "bank-statement-converter",
+  "engine": "csv-data",
+  "german": []
+ },
+ {
+  "slug": "bank-statement-to-csv",
+  "engine": "csv-data",
+  "german": []
+ },
+ {
+  "slug": "bank-statement-to-excel",
+  "engine": "csv-data",
+  "german": []
+ },
+ {
+  "slug": "barcode-generator",
+  "engine": "qr-barcode",
+  "german": []
+ },
+ {
+  "slug": "base64-decoder",
+  "engine": "base64",
+  "german": []
+ },
+ {
+  "slug": "base64-encoder",
+  "engine": "base64",
+  "german": []
+ },
+ {
+  "slug": "base64-encoder-decoder",
+  "engine": "base64",
+  "german": []
+ },
+ {
+  "slug": "base64-image-decoder",
+  "engine": "base64",
+  "german": []
+ },
+ {
+  "slug": "base64-image-viewer",
+  "engine": "base64",
+  "german": []
+ },
+ {
+  "slug": "base64-to-image",
+  "engine": "base64",
+  "german": []
+ },
+ {
+  "slug": "base64-to-pdf",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "base64-to-pdf-converter",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "base64-to-pdf-decoder",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "binary-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "binary-to-decimal",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "binary-to-hex",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "binary-to-text",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "binary-translator",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "bingo-card-generator",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "black-out-text-in-pdf",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "blank-bingo-card",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "blank-text-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "blur-face",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "blur-image",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "blur-text-in-image",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "bmi-calculator",
+  "engine": "health-fitness",
+  "german": []
+ },
+ {
+  "slug": "bmi-calculator-for-women",
+  "engine": "health-fitness",
+  "german": []
+ },
+ {
+  "slug": "bmp-to-jpg",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "bmr-calculator",
+  "engine": "health-fitness",
+  "german": []
+ },
+ {
+  "slug": "bold-text-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "bracket-generator",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "bracket-maker",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "btu-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "bulk-barcode-generator",
+  "engine": "qr-barcode",
+  "german": []
+ },
+ {
+  "slug": "business-days-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "carb-calculator",
+  "engine": "health-fitness",
+  "german": []
+ },
+ {
+  "slug": "censor-face",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "censor-image",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "character-counter",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "chicago-citation-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "christmas-bingo",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "christmas-budget-planner",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "christmas-gift-tracker",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "christmas-list-maker",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "christmas-wish-list-maker",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "cidr-calculator",
+  "engine": "networking-tools",
+  "german": []
+ },
+ {
+  "slug": "citation-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "code-128-barcode-generator",
+  "engine": "qr-barcode",
+  "german": []
+ },
+ {
+  "slug": "code-39-barcode-generator",
+  "engine": "qr-barcode",
+  "german": []
+ },
+ {
+  "slug": "code-screenshot-generator",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "code-snippet-screenshot",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "code-to-image",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "coin-flip",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "coin-flip-simulator",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "college-gpa-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "combine-pdf",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "common-denominator-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "compress-pdf",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "concrete-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "countdown-to-date",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "cps-test",
+  "engine": "device-tester",
+  "german": []
+ },
+ {
+  "slug": "cron-expression-generator",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "cron-expression-parser",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "crontab-generator",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "csr-decoder",
+  "engine": "crypto-hash",
+  "german": []
+ },
+ {
+  "slug": "csv-to-json-converter",
+  "engine": "csv-data",
+  "german": []
+ },
+ {
+  "slug": "csv-viewer",
+  "engine": "csv-data",
+  "german": []
+ },
+ {
+  "slug": "cumulative-gpa-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "cursive-text-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "custom-bingo-card-maker",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "dnd-dice-roller",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "d20-roller",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "data-matrix-generator",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "date-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "days-between-dates",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "db-viewer",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "dead-pixel-test",
+  "engine": "device-tester",
+  "german": []
+ },
+ {
+  "slug": "decimal-to-binary",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "decimal-to-fraction-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "decimal-to-hex",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "dice-roller",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "dirty-santa-rules",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "discord-username-generator",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "discount-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "docx-viewer",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "dog-age-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "double-click-test",
+  "engine": "device-tester",
+  "german": []
+ },
+ {
+  "slug": "double-elimination-bracket",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "ean-13-barcode-generator",
+  "engine": "qr-barcode",
+  "german": []
+ },
+ {
+  "slug": "easy-grader",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "electricity-cost-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "email-header-analyzer",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "eml-to-pdf",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "eml-viewer",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "epoch-converter",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "excel-to-csv",
+  "engine": "csv-data",
+  "german": []
+ },
+ {
+  "slug": "excel-viewer",
+  "engine": "csv-data",
+  "german": []
+ },
+ {
+  "slug": "exif-remover",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "exif-viewer",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "extract-pdf-pages",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "face-pixelator",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "fancy-text-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "favicon-generator",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "favicon-maker",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "fbx-viewer",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "final-grade-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "flac-to-mp3",
+  "engine": "media-audio-video",
+  "german": []
+ },
+ {
+  "slug": "flip-a-coin",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "focus-timer",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "font-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "instagram-fonts",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "fraction-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "fraction-to-decimal-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "gamepad-tester",
+  "engine": "device-tester",
+  "german": []
+ },
+ {
+  "slug": "gif-to-mp4",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "gif-to-png",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "gift-exchange-generator",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "glb-viewer",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "glitch-text-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "gltf-viewer",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "gpa-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "grade-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "graphql-formatter-beautifier",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "graphql-minifier",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "graphql-schema-explorer",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "graphql-schema-validator",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "graphql-schema-viewer-validator",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "graphql-validator",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "gravel-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "handwriting-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "harvard-citation-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "hash-generator",
+  "engine": "crypto-hash",
+  "german": []
+ },
+ {
+  "slug": "headphone-test",
+  "engine": "device-tester",
+  "german": []
+ },
+ {
+  "slug": "heads-or-tails",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "heic-to-jpg-converter",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "hex-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "hex-to-ascii",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "hex-to-binary",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "hex-to-decimal",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "hex-to-rgb",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "hex-to-rgb-calculator",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "hex-rgb-converter",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "high-school-gpa-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "hourly-to-salary-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "hours-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "days-until-christmas",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "days-until-halloween",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "html-beautifier",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "html-formatter",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "html-minifier",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "html-table-to-markdown",
+  "engine": "markdown-docs",
+  "german": []
+ },
+ {
+  "slug": "html-to-markdown",
+  "engine": "markdown-docs",
+  "german": []
+ },
+ {
+  "slug": "html-to-md",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "http-request-tester",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "ico-converter",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "ico-to-png",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "image-metadata-viewer",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "image-resizer",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "image-to-pdf",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "instagram-grid-maker",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "instagram-image-splitter",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "instagram-photo-splitter",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "invisible-character",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "ipv6-subnet-calculator",
+  "engine": "networking-tools",
+  "german": []
+ },
+ {
+  "slug": "isbn-barcode-generator",
+  "engine": "qr-barcode",
+  "german": []
+ },
+ {
+  "slug": "javascript-regex-tester",
+  "engine": "regex",
+  "german": []
+ },
+ {
+  "slug": "jfif-to-jpg",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "jpg-to-ico",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "jpg-to-pdf-converter",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "jpg-to-png-converter",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "jpg-to-webp-converter",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "json-compare",
+  "engine": "json",
+  "german": []
+ },
+ {
+  "slug": "json-diff",
+  "engine": "diff",
+  "german": []
+ },
+ {
+  "slug": "json-editor",
+  "engine": "json",
+  "german": []
+ },
+ {
+  "slug": "json-formatter",
+  "engine": "json",
+  "german": []
+ },
+ {
+  "slug": "json-minifier",
+  "engine": "json",
+  "german": []
+ },
+ {
+  "slug": "json-pretty-print",
+  "engine": "json",
+  "german": []
+ },
+ {
+  "slug": "json-diff-compare",
+  "engine": "diff",
+  "german": []
+ },
+ {
+  "slug": "json-to-csv-converter",
+  "engine": "csv-data",
+  "german": []
+ },
+ {
+  "slug": "json-to-toon",
+  "engine": "json",
+  "german": []
+ },
+ {
+  "slug": "json-to-toon-converter",
+  "engine": "json",
+  "german": []
+ },
+ {
+  "slug": "json-to-ts",
+  "engine": "json",
+  "german": []
+ },
+ {
+  "slug": "json-to-typescript",
+  "engine": "json",
+  "german": []
+ },
+ {
+  "slug": "json-to-typescript-interface",
+  "engine": "json",
+  "german": []
+ },
+ {
+  "slug": "json-validator",
+  "engine": "json",
+  "german": []
+ },
+ {
+  "slug": "json-viewer",
+  "engine": "json",
+  "german": []
+ },
+ {
+  "slug": "jwt-decoder",
+  "engine": "crypto-hash",
+  "german": []
+ },
+ {
+  "slug": "jwt-decoder-encoder",
+  "engine": "crypto-hash",
+  "german": []
+ },
+ {
+  "slug": "jwt-encoder",
+  "engine": "crypto-hash",
+  "german": []
+ },
+ {
+  "slug": "keyboard-test",
+  "engine": "device-tester",
+  "german": []
+ },
+ {
+  "slug": "latex-equation-editor",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "latex-to-image",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "latex-to-word-equation",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "letter-to-santa-template",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "list-randomizer",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "local-ai-chat",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "llm-token-counter",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "lowercase-converter",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "m4a-to-mp3",
+  "engine": "media-audio-video",
+  "german": []
+ },
+ {
+  "slug": "macro-calculator",
+  "engine": "health-fitness",
+  "german": []
+ },
+ {
+  "slug": "magic-eraser",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "maintenance-calorie-calculator",
+  "engine": "health-fitness",
+  "german": []
+ },
+ {
+  "slug": "margin-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "markdown-file-viewer",
+  "engine": "markdown-docs",
+  "german": []
+ },
+ {
+  "slug": "markdown-preview",
+  "engine": "markdown-docs",
+  "german": []
+ },
+ {
+  "slug": "markdown-to-docx",
+  "engine": "markdown-docs",
+  "german": []
+ },
+ {
+  "slug": "markdown-to-pdf",
+  "engine": "markdown-docs",
+  "german": []
+ },
+ {
+  "slug": "markdown-to-pdf-converter",
+  "engine": "markdown-docs",
+  "german": []
+ },
+ {
+  "slug": "markdown-to-word",
+  "engine": "markdown-docs",
+  "german": []
+ },
+ {
+  "slug": "markdown-viewer",
+  "engine": "markdown-docs",
+  "german": []
+ },
+ {
+  "slug": "markdown-wysiwyg-editor",
+  "engine": "markdown-docs",
+  "german": []
+ },
+ {
+  "slug": "markup-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "md-to-docx",
+  "engine": "markdown-docs",
+  "german": []
+ },
+ {
+  "slug": "md-to-pdf",
+  "engine": "markdown-docs",
+  "german": []
+ },
+ {
+  "slug": "md5-generator",
+  "engine": "crypto-hash",
+  "german": []
+ },
+ {
+  "slug": "mean-absolute-deviation-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "meeting-planner",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "merge-pdf",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "mic-test",
+  "engine": "device-tester",
+  "german": []
+ },
+ {
+  "slug": "middle-school-gpa-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "military-time-converter",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "mixed-number-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "mkv-to-mp4",
+  "engine": "media-audio-video",
+  "german": []
+ },
+ {
+  "slug": "mla-citation-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "morse-code-translator",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "mouse-test",
+  "engine": "device-tester",
+  "german": []
+ },
+ {
+  "slug": "mov-to-mp4",
+  "engine": "media-audio-video",
+  "german": []
+ },
+ {
+  "slug": "mp3-to-wav",
+  "engine": "media-audio-video",
+  "german": []
+ },
+ {
+  "slug": "mp4-to-mp3",
+  "engine": "media-audio-video",
+  "german": []
+ },
+ {
+  "slug": "msg-to-pdf",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "msg-viewer",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "mulch-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "new-year-countdown",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "new-years-bingo",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "notepad-plus-plus-online",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "number-base-converter",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "obj-viewer",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "offline-ai-chat",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "og-image-generator",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "og-image-maker",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "ogg-to-mp3",
+  "engine": "media-audio-video",
+  "german": []
+ },
+ {
+  "slug": "one-rep-max-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "bingo-caller",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "diff-checker",
+  "engine": "diff",
+  "german": []
+ },
+ {
+  "slug": "equation-editor",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "markdown-editor",
+  "engine": "markdown-docs",
+  "german": []
+ },
+ {
+  "slug": "online-markdown-editor",
+  "engine": "markdown-docs",
+  "german": []
+ },
+ {
+  "slug": "math-editor",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "math-keyboard",
+  "engine": "device-tester",
+  "german": []
+ },
+ {
+  "slug": "online-notepad",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "tone-generator",
+  "engine": "device-tester",
+  "german": []
+ },
+ {
+  "slug": "open-graph-checker",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "open-graph-image-generator",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "open-graph-preview",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "openapi-viewer",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "openapi-editor",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "overtime-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "paint-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "parquet-to-csv",
+  "engine": "csv-data",
+  "german": []
+ },
+ {
+  "slug": "parquet-viewer",
+  "engine": "csv-data",
+  "german": []
+ },
+ {
+  "slug": "password-generator",
+  "engine": "crypto-hash",
+  "german": []
+ },
+ {
+  "slug": "pdf-compressor",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf-merger",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf-metadata-editor",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf-metadata-remover",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf-metadata-viewer",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf-redaction-tool",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf-splitter",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf-to-docx",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf-to-image-converter",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf-to-jpg-converter",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf-to-markdown",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf-to-markdown-for-claude",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf-to-md",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf-to-png-converter",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf-to-word",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf-to-word-converter",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pdf417-generator",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "pem-decoder",
+  "engine": "crypto-hash",
+  "german": []
+ },
+ {
+  "slug": "percentage-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "percentage-change-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "percentage-decrease-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "percentage-difference-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "percentage-increase-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "photo-metadata-remover",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "photo-metadata-viewer",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "photo-resizer",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "pixelate-image",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "ply-viewer",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "png-background-remover",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "png-to-ico",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "png-to-jpg-converter",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "png-to-pdf",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "png-to-webp-converter",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "pomodoro-timer",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "population-standard-deviation-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "printable-bingo-cards",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "printable-bracket",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "printable-calendar",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "christmas-list-template",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "private-ai-chatbot",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "protein-calculator",
+  "engine": "health-fitness",
+  "german": []
+ },
+ {
+  "slug": "psd-to-jpg",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "psd-to-png",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "psd-viewer",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "qr-code-generator",
+  "engine": "qr-barcode",
+  "german": []
+ },
+ {
+  "slug": "quartile-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "quote-image-generator",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "quote-image-maker",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "quote-maker",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "raise-gpa-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "random-group-generator",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "random-item-picker",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "random-letter-generator",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "random-name-picker",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "random-number-generator",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "random-password-generator",
+  "engine": "crypto-hash",
+  "german": []
+ },
+ {
+  "slug": "random-team-generator",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "random-winner-picker",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "rapidtables-notepad-alternative",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "ratio-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "redact-bank-statement",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "redact-pdf",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "reddit-username-generator",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "reduce-pdf-size",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "refresh-rate-test",
+  "engine": "device-tester",
+  "german": []
+ },
+ {
+  "slug": "regex-checker",
+  "engine": "regex",
+  "german": []
+ },
+ {
+  "slug": "regex-explainer",
+  "engine": "regex",
+  "german": []
+ },
+ {
+  "slug": "regex-generator",
+  "engine": "regex",
+  "german": []
+ },
+ {
+  "slug": "regex-ai",
+  "engine": "regex",
+  "german": []
+ },
+ {
+  "slug": "regex-tester",
+  "engine": "regex",
+  "german": []
+ },
+ {
+  "slug": "remove-comments-from-word",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "remove-duplicate-lines",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "remove-duplicate-lines-and-sort",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "remove-metadata-from-word",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "remove-object-from-photo",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "remove-photo-location",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "remove-text-from-image",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "resize-png",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "rest-api-tester",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "rgb-to-hex",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "rgb-to-hex-calculator",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "rgb-hex-converter",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "roll-two-dice",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "roman-numeral-converter",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "roman-numeral-date-converter",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "roofing-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "round-robin-generator",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "salary-to-hourly-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "sample-standard-deviation-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "secret-santa-generator",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "sha256-generator",
+  "engine": "crypto-hash",
+  "german": []
+ },
+ {
+  "slug": "simplify-fractions-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "single-elimination-bracket",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "small-text-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "social-media-preview",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "sound-test",
+  "engine": "device-tester",
+  "german": []
+ },
+ {
+  "slug": "split-pdf",
+  "engine": "pdf-suite",
+  "german": []
+ },
+ {
+  "slug": "sql-beautifier",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "sql-formatter",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "sql-formatter-beautifier",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "sqlite-browser",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "sqlite-online",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "sqlite-viewer",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "square-footage-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "ssl-certificate-decoder",
+  "engine": "crypto-hash",
+  "german": []
+ },
+ {
+  "slug": "standard-deviation-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "stick-drift-test",
+  "engine": "device-tester",
+  "german": []
+ },
+ {
+  "slug": "stl-viewer",
+  "engine": "file-viewers",
+  "german": []
+ },
+ {
+  "slug": "strikethrough-text-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "string-length-calculator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "strong-password-generator",
+  "engine": "crypto-hash",
+  "german": []
+ },
+ {
+  "slug": "study-timer",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "subnet-calculator",
+  "engine": "networking-tools",
+  "german": []
+ },
+ {
+  "slug": "subnet-cheat-sheet",
+  "engine": "networking-tools",
+  "german": []
+ },
+ {
+  "slug": "svg-favicon-generator",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "svg-to-base64",
+  "engine": "base64",
+  "german": []
+ },
+ {
+  "slug": "svg-to-css",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "svg-to-ico",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "svg-to-jpg",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "svg-to-png",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "svg-viewer",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "swagger-viewer",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "tdee-calculator",
+  "engine": "health-fitness",
+  "german": []
+ },
+ {
+  "slug": "test-grade-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "text-case-converter",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "text-compare",
+  "engine": "diff",
+  "german": []
+ },
+ {
+  "slug": "text-diff",
+  "engine": "diff",
+  "german": []
+ },
+ {
+  "slug": "text-repeater",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "text-to-binary",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "text-to-handwriting",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "text-to-hex",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "thanksgiving-bingo",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "thanksgiving-countdown",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "tiff-to-jpg",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "tile-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "time-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "time-card-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "time-zone-converter",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "title-case-converter",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "token-counter",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "toon-to-json",
+  "engine": "json",
+  "german": []
+ },
+ {
+  "slug": "transparent-background-maker",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "transparent-qr-code-generator",
+  "engine": "qr-barcode",
+  "german": []
+ },
+ {
+  "slug": "tsv-to-json",
+  "engine": "csv-data",
+  "german": []
+ },
+ {
+  "slug": "twitch-username-generator",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "unix-timestamp-converter",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "timestamp-converter-generator",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "upc-barcode-generator",
+  "engine": "qr-barcode",
+  "german": []
+ },
+ {
+  "slug": "uppercase-converter",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "upside-down-text-generator",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "url-decoder",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "url-encoder",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "url-encoder-decoder",
+  "engine": "encoding-converters",
+  "german": []
+ },
+ {
+  "slug": "url-to-qr-code",
+  "engine": "qr-barcode",
+  "german": []
+ },
+ {
+  "slug": "username-generator",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "uuid-generator",
+  "engine": "uuid",
+  "german": []
+ },
+ {
+  "slug": "uuid-v4-generator",
+  "engine": "uuid",
+  "german": []
+ },
+ {
+  "slug": "uuid-v7-generator",
+  "engine": "uuid",
+  "german": []
+ },
+ {
+  "slug": "variance-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "video-to-gif",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "vlsm-calculator",
+  "engine": "networking-tools",
+  "german": []
+ },
+ {
+  "slug": "water-intake-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "wav-to-mp3",
+  "engine": "media-audio-video",
+  "german": []
+ },
+ {
+  "slug": "webcam-test",
+  "engine": "device-tester",
+  "german": []
+ },
+ {
+  "slug": "webm-converter",
+  "engine": "media-audio-video",
+  "german": []
+ },
+ {
+  "slug": "webm-to-mp4",
+  "engine": "media-audio-video",
+  "german": []
+ },
+ {
+  "slug": "webm-to-mp4-converter",
+  "engine": "media-audio-video",
+  "german": []
+ },
+ {
+  "slug": "webp-converter",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "webp-to-gif",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "webp-to-ico",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "webp-to-jpg-converter",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "webp-to-png-converter",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "weighted-gpa-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "weighted-grade-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "wheel-of-names",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "white-elephant-generator",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "white-elephant-rules",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "wifi-qr-code-generator",
+  "engine": "qr-barcode",
+  "german": []
+ },
+ {
+  "slug": "word-counter",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "word-to-html",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "word-viewer",
+  "engine": "text-suite",
+  "german": []
+ },
+ {
+  "slug": "world-time-converter",
+  "engine": "time-calendar",
+  "german": []
+ },
+ {
+  "slug": "xlsx-to-csv",
+  "engine": "csv-data",
+  "german": []
+ },
+ {
+  "slug": "xlsx-viewer",
+  "engine": "csv-data",
+  "german": []
+ },
+ {
+  "slug": "xml-formatter",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "xml-validator",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "xml-viewer",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "xsd-editor",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "xsd-schema-viewer",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "xsd-viewer",
+  "engine": "developer-suite",
+  "german": []
+ },
+ {
+  "slug": "yaml-beautifier",
+  "engine": "yaml",
+  "german": []
+ },
+ {
+  "slug": "yaml-editor",
+  "engine": "yaml",
+  "german": []
+ },
+ {
+  "slug": "yaml-formatter",
+  "engine": "yaml",
+  "german": []
+ },
+ {
+  "slug": "yaml-minifier",
+  "engine": "yaml",
+  "german": []
+ },
+ {
+  "slug": "yaml-to-json",
+  "engine": "yaml",
+  "german": []
+ },
+ {
+  "slug": "yaml-json-converter",
+  "engine": "yaml",
+  "german": []
+ },
+ {
+  "slug": "yaml-validator",
+  "engine": "yaml",
+  "german": []
+ },
+ {
+  "slug": "yaml-editor-validator",
+  "engine": "yaml",
+  "german": []
+ },
+ {
+  "slug": "yankee-swap-rules",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "yes-or-no-wheel",
+  "engine": "randomizers-games",
+  "german": []
+ },
+ {
+  "slug": "yml-to-json",
+  "engine": "yaml",
+  "german": []
+ },
+ {
+  "slug": "youtube-thumbnail-downloader",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "youtube-thumbnail-grabber",
+  "engine": "image-suite",
+  "german": []
+ },
+ {
+  "slug": "z-score-calculator",
+  "engine": "calculator-suite",
+  "german": []
+ },
+ {
+  "slug": "zalgo-text-generator",
+  "engine": "text-suite",
+  "german": []
+ }
+]

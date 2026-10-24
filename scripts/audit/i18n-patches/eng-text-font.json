@@ -1,0 +1,17 @@
+{
+  "namespace": "ui.engines.TextFontWorkspace",
+  "en": {
+    "light": "Light",
+    "medium": "Medium",
+    "heavy": "Heavy",
+    "off": "Off",
+    "extreme": "Extreme"
+  },
+  "de": {
+    "light": "Leicht",
+    "medium": "Mittel",
+    "heavy": "Stark",
+    "off": "Aus",
+    "extreme": "Extrem"
+  }
+}

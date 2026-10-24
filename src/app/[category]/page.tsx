@@ -158,6 +158,9 @@ interface CategoryPageProps {
   }>;
 }
 
+/** Every category route this page can render. Used by the sitemap. */
+export const CATEGORY_SLUGS = Object.keys(CATEGORY_MAP);
+
 export async function generateStaticParams() {
   return Object.keys(CATEGORY_MAP).map((category) => ({
     category,

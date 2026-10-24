@@ -1,0 +1,9 @@
+{
+  "namespace": "ui.calculators.PercentTools",
+  "en": {
+    "wholeFromPercentOf": "Whole from {percent}% of {value}"
+  },
+  "de": {
+    "wholeFromPercentOf": "Ganze Zahl aus {percent} % von {value}"
+  }
+}

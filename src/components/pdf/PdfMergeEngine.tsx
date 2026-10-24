@@ -11,8 +11,10 @@ import {
   downloadBytes,
 } from "./shared";
 import { PasswordRequiredError, createPdfDoc, loadPdfDoc } from "./pdfLib";
+import { useTranslations } from "next-intl";
 
 export function PdfMergeEngine() {
+  const tUi = useTranslations("ui.pdf.PdfMergeEngine");
   const [files, setFiles] = useState<File[]>([]);
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -48,7 +50,7 @@ export function PdfMergeEngine() {
         total += indices.length;
       }
 
-      if (!total) throw new Error("The selected files contain no pages.");
+      if (!total) throw new Error(tUi("theSelectedFilesContainNoPages"));
 
       const bytes = await merged.save();
       downloadBytes(bytes, "merged-document.pdf");
@@ -56,9 +58,9 @@ export function PdfMergeEngine() {
     } catch (err) {
       if (err instanceof PasswordRequiredError) {
         setShowPassword(true);
-        setError("This PDF is password protected. Enter the password and try again.");
+        setError(tUi("thisPDFIsPasswordProtectedEnterThePasswordAndTryAgain"));
       } else {
-        setError(err instanceof Error ? err.message : "Could not merge the files.");
+        setError(err instanceof Error ? err.message : tUi("couldNotMergeTheFiles"));
       }
     } finally {
       setBusy(false);
@@ -67,14 +69,14 @@ export function PdfMergeEngine() {
 
   return (
     <Workspace
-      title="Merge PDF Files"
-      description="Combine several PDFs into one document, in the order you set."
+      title={tUi("mergePDFFiles")}
+      description={tUi("combineSeveralPDFsIntoOneDocumentInTheOrderYouSet")}
     >
       <DropZone
         accept="application/pdf,.pdf"
         multiple
-        label="Choose PDF files"
-        hint="Add two or more .pdf files. Everything runs in your browser."
+        label={tUi("choosePDFFiles")}
+        hint={tUi("addTwoOrMorePdfFilesEverythingRunsInYourBrowser")}
         onFiles={(list) => {
           setFiles((prev) => [...prev, ...list]);
           setError(null);
@@ -120,7 +122,7 @@ export function PdfMergeEngine() {
                     onClick={() => setFiles((prev) => prev.filter((_, x) => x !== i))}
                     className="rounded px-2 py-1 text-xs font-semibold text-rose-600 hover:text-rose-700 dark:text-rose-400"
                   >
-                    Remove
+                    {tUi("remove")}
                   </button>
                 </span>
               </li>
@@ -130,13 +132,13 @@ export function PdfMergeEngine() {
           {showPassword ? (
             <label className="mt-4 block text-sm">
               <span className="font-medium text-slate-700 dark:text-slate-200">
-                PDF password
+                {tUi("pDFPassword")}
               </span>
               <input
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                placeholder="Password for the protected file"
+                placeholder={tUi("passwordForTheProtectedFile")}
                 className="mt-1.5 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 outline-none focus:border-sky-500 focus:ring-2 focus:ring-sky-500/30 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
               />
             </label>
@@ -144,7 +146,7 @@ export function PdfMergeEngine() {
 
           <div className="mt-5 flex items-center gap-3">
             <ActionButton onClick={handleMerge} busy={busy} disabled={files.length < 2}>
-              Merge {files.length} PDF{files.length === 1 ? "" : "s"}
+              {tUi("merge")} {files.length} PDF{files.length === 1 ? "" : "s"}
             </ActionButton>
             <button
               type="button"
@@ -155,7 +157,7 @@ export function PdfMergeEngine() {
               }}
               className="text-sm font-medium text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200"
             >
-              Clear
+              {tUi("clear")}
             </button>
           </div>
         </>

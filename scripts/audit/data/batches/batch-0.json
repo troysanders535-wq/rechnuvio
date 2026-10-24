@@ -1,0 +1,1817 @@
+{
+ "ui.engines.AiViewerEngine": {
+  "unknownError": {
+   "text": "Unknown error",
+   "count": 1,
+   "lines": [
+    378
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "chooseAIFile": {
+   "text": "Choose AI File",
+   "count": 1,
+   "lines": [
+    468
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "processingIllustratorFile": {
+   "text": "Processing Illustrator file...",
+   "count": 1,
+   "lines": [
+    488
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "nonPDFCompatibleIllustratorFile": {
+   "text": "Non-PDF-Compatible Illustrator File",
+   "count": 1,
+   "lines": [
+    506
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "errorOpeningFile": {
+   "text": "Error Opening File",
+   "count": 1,
+   "lines": [
+    506
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "chooseAnotherAiFile": {
+   "text": "Choose another .ai file",
+   "count": 1,
+   "lines": [
+    526
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "mozillaPDFJs": {
+   "text": "Mozilla PDF.js",
+   "count": 1,
+   "lines": [
+    542
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "previousPage": {
+   "text": "Previous page",
+   "count": 1,
+   "lines": [
+    597
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "nextPage": {
+   "text": "Next page",
+   "count": 1,
+   "lines": [
+    609
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "replaceFile": {
+   "text": "Replace File",
+   "count": 1,
+   "lines": [
+    624
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "clearFileAndResetView": {
+   "text": "Clear file and reset view",
+   "count": 1,
+   "lines": [
+    630
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "close": {
+   "text": "Close",
+   "count": 1,
+   "lines": [
+    633
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "zoomOut": {
+   "text": "Zoom Out",
+   "count": 1,
+   "lines": [
+    647
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "zoomIn": {
+   "text": "Zoom In",
+   "count": 1,
+   "lines": [
+    659
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "fitToWidth": {
+   "text": "Fit to width",
+   "count": 1,
+   "lines": [
+    668
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "fit": {
+   "text": "Fit",
+   "count": 1,
+   "lines": [
+    671
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "resetTo100": {
+   "text": "Reset to 100%",
+   "count": 1,
+   "lines": [
+    677
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "1x72DPIStandard": {
+   "text": "1x (72 DPI - Standard)",
+   "count": 1,
+   "lines": [
+    706
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "2x144DPIHighRes": {
+   "text": "2x (144 DPI - High Res)",
+   "count": 1,
+   "lines": [
+    707
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "3x216DPIRetina": {
+   "text": "3x (216 DPI - Retina)",
+   "count": 1,
+   "lines": [
+    708
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "4x300DPIPrint": {
+   "text": "4x (300 DPI - Print)",
+   "count": 1,
+   "lines": [
+    709
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "exportPageAsTransparentPNG": {
+   "text": "Export page as transparent PNG",
+   "count": 1,
+   "lines": [
+    718
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "exportPageAsJPGWithWhiteBackground": {
+   "text": "Export page as JPG with white background",
+   "count": 1,
+   "lines": [
+    729
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "downloadOriginalPDFPreviewStream": {
+   "text": "Download original PDF preview stream",
+   "count": 1,
+   "lines": [
+    740
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "clickToSwitchPage": {
+   "text": "Click to switch page",
+   "count": 1,
+   "lines": [
+    772
+   ],
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  }
+ },
+ "ui.engines.DiffEngine": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad",
+   "count": 1,
+   "lines": [
+    18
+   ],
+   "file": "src/components/engines/DiffEngine.tsx"
+  },
+  "digitalToolPadPro": {
+   "text": "Digital ToolPad Pro",
+   "count": 1,
+   "lines": [
+    19
+   ],
+   "file": "src/components/engines/DiffEngine.tsx"
+  },
+  "100ClientSide": {
+   "text": "100% Client-Side",
+   "count": 1,
+   "lines": [
+    19
+   ],
+   "file": "src/components/engines/DiffEngine.tsx"
+  },
+  "compareDiffs": {
+   "text": "Compare Diffs",
+   "count": 1,
+   "lines": [
+    65
+   ],
+   "file": "src/components/engines/DiffEngine.tsx"
+  },
+  "beautifyBoth": {
+   "text": "Beautify Both",
+   "count": 1,
+   "lines": [
+    74
+   ],
+   "file": "src/components/engines/DiffEngine.tsx"
+  },
+  "clearAll": {
+   "text": "Clear all",
+   "count": 1,
+   "lines": [
+    117
+   ],
+   "file": "src/components/engines/DiffEngine.tsx"
+  }
+ },
+ "ui.engines.FileViewersEngine": {
+  "aliceSmith": {
+   "text": "Alice Smith",
+   "count": 1,
+   "lines": [
+    55
+   ],
+   "file": "src/components/engines/FileViewersEngine.tsx"
+  },
+  "admin": {
+   "text": "Admin",
+   "count": 1,
+   "lines": [
+    55
+   ],
+   "file": "src/components/engines/FileViewersEngine.tsx"
+  },
+  "bobJones": {
+   "text": "Bob Jones",
+   "count": 1,
+   "lines": [
+    56
+   ],
+   "file": "src/components/engines/FileViewersEngine.tsx"
+  },
+  "developer": {
+   "text": "Developer",
+   "count": 1,
+   "lines": [
+    56
+   ],
+   "file": "src/components/engines/FileViewersEngine.tsx"
+  },
+  "carolWhite": {
+   "text": "Carol White",
+   "count": 1,
+   "lines": [
+    57
+   ],
+   "file": "src/components/engines/FileViewersEngine.tsx"
+  },
+  "designer": {
+   "text": "Designer",
+   "count": 1,
+   "lines": [
+    57
+   ],
+   "file": "src/components/engines/FileViewersEngine.tsx"
+  }
+ },
+ "ui.engines.ImageSuiteEngine": {
+  "chooseImage": {
+   "text": "Choose Image",
+   "count": 1,
+   "lines": [
+    94
+   ],
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "widthPx": {
+   "text": "Width (px)",
+   "count": 1,
+   "lines": [
+    108
+   ],
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "heightPx": {
+   "text": "Height (px)",
+   "count": 1,
+   "lines": [
+    117
+   ],
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "lockAspectRatio": {
+   "text": "Lock aspect ratio",
+   "count": 1,
+   "lines": [
+    134
+   ],
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "pNGLosslessTransparency": {
+   "text": "PNG (Lossless, Transparency)",
+   "count": 1,
+   "lines": [
+    148
+   ],
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "jPGJPEGCompact": {
+   "text": "JPG / JPEG (Compact)",
+   "count": 1,
+   "lines": [
+    149
+   ],
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "webPNextGenHighCompression": {
+   "text": "WebP (Next-Gen High Compression)",
+   "count": 1,
+   "lines": [
+    150
+   ],
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "brightness": {
+   "text": "Brightness",
+   "count": 1,
+   "lines": [
+    161
+   ],
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "blur": {
+   "text": "Blur",
+   "count": 1,
+   "lines": [
+    176
+   ],
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "grayscale": {
+   "text": "Grayscale",
+   "count": 1,
+   "lines": [
+    191
+   ],
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "downloadImage": {
+   "text": "Download Image",
+   "count": 1,
+   "lines": [
+    211
+   ],
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "livePreview": {
+   "text": "Live preview",
+   "count": 1,
+   "lines": [
+    226
+   ],
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  }
+ },
+ "ui.engines.MarkdownEngine": {
+  "exportToPDF": {
+   "text": "Export to PDF",
+   "count": 1,
+   "lines": [
+    140
+   ],
+   "file": "src/components/engines/MarkdownEngine.tsx"
+  },
+  "exportToWordDocx": {
+   "text": "Export to Word (.docx)",
+   "count": 1,
+   "lines": [
+    148
+   ],
+   "file": "src/components/engines/MarkdownEngine.tsx"
+  },
+  "openFile": {
+   "text": "Open file",
+   "count": 1,
+   "lines": [
+    155
+   ],
+   "file": "src/components/engines/MarkdownEngine.tsx"
+  },
+  "hTMLCopied": {
+   "text": "HTML Copied!",
+   "count": 1,
+   "lines": [
+    169
+   ],
+   "file": "src/components/engines/MarkdownEngine.tsx"
+  },
+  "copyHTML": {
+   "text": "Copy HTML",
+   "count": 1,
+   "lines": [
+    169
+   ],
+   "file": "src/components/engines/MarkdownEngine.tsx"
+  }
+ },
+ "ui.engines.MediaAudioVideoEngine": {
+  "selectMediaFile": {
+   "text": "Select Media File",
+   "count": 1,
+   "lines": [
+    52
+   ],
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx"
+  },
+  "mP4H264Video": {
+   "text": "MP4 (H.264 Video)",
+   "count": 1,
+   "lines": [
+    71
+   ],
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx"
+  },
+  "mP3UniversalAudio": {
+   "text": "MP3 (Universal Audio)",
+   "count": 1,
+   "lines": [
+    72
+   ],
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx"
+  },
+  "gIFAnimated": {
+   "text": "GIF (Animated)",
+   "count": 1,
+   "lines": [
+    73
+   ],
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx"
+  },
+  "wAVUncompressed": {
+   "text": "WAV (Uncompressed)",
+   "count": 1,
+   "lines": [
+    74
+   ],
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx"
+  },
+  "webM": {
+   "text": "WebM",
+   "count": 1,
+   "lines": [
+    75
+   ],
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx"
+  },
+  "transcoding": {
+   "text": "Transcoding...",
+   "count": 1,
+   "lines": [
+    86
+   ],
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx"
+  },
+  "convertNow": {
+   "text": "Convert Now",
+   "count": 1,
+   "lines": [
+    86
+   ],
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx"
+  },
+  "conversionComplete": {
+   "text": "Conversion complete!",
+   "count": 1,
+   "lines": [
+    98
+   ],
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx"
+  },
+  "downloadResult": {
+   "text": "Download Result",
+   "count": 1,
+   "lines": [
+    105
+   ],
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx"
+  }
+ },
+ "ui.engines.RegexEngine": {
+  "insertRegexPattern": {
+   "text": "Insert regex pattern...",
+   "count": 1,
+   "lines": [
+    81
+   ],
+   "file": "src/components/engines/RegexEngine.tsx"
+  },
+  "testString": {
+   "text": "Test String",
+   "count": 1,
+   "lines": [
+    128
+   ],
+   "file": "src/components/engines/RegexEngine.tsx"
+  },
+  "pasteOrWriteTextToTest": {
+   "text": "Paste or write text to test...",
+   "count": 1,
+   "lines": [
+    133
+   ],
+   "file": "src/components/engines/RegexEngine.tsx"
+  },
+  "noMatchesFound": {
+   "text": "No matches found.",
+   "count": 1,
+   "lines": [
+    143
+   ],
+   "file": "src/components/engines/RegexEngine.tsx"
+  }
+ },
+ "ui.engines.TimeCalendarEngine": {
+  "uTCGMT": {
+   "text": "UTC / GMT",
+   "count": 2,
+   "lines": [
+    56,
+    248
+   ],
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "newYork": {
+   "text": "New York",
+   "count": 2,
+   "lines": [
+    57,
+    249
+   ],
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "americaNewYork": {
+   "text": "America/New_York",
+   "count": 2,
+   "lines": [
+    57,
+    249
+   ],
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "london": {
+   "text": "London",
+   "count": 2,
+   "lines": [
+    58,
+    250
+   ],
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "europeLondon": {
+   "text": "Europe/London",
+   "count": 2,
+   "lines": [
+    58,
+    250
+   ],
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "tokyo": {
+   "text": "Tokyo",
+   "count": 2,
+   "lines": [
+    59,
+    251
+   ],
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "asiaTokyo": {
+   "text": "Asia/Tokyo",
+   "count": 2,
+   "lines": [
+    59,
+    251
+   ],
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "pause": {
+   "text": "Pause",
+   "count": 1,
+   "lines": [
+    149
+   ],
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "startFocus": {
+   "text": "Start Focus",
+   "count": 1,
+   "lines": [
+    149
+   ],
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "resetTimer": {
+   "text": "Reset timer",
+   "count": 1,
+   "lines": [
+    157
+   ],
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  }
+ },
+ "ui.calculators.ConstructionTools": {
+  "squareFootageCalculator": {
+   "text": "Square Footage Calculator",
+   "count": 1,
+   "lines": [
+    67
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "shape": {
+   "text": "Shape",
+   "count": 1,
+   "lines": [
+    73
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "rectangle": {
+   "text": "Rectangle",
+   "count": 1,
+   "lines": [
+    77
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "circle": {
+   "text": "Circle",
+   "count": 1,
+   "lines": [
+    78
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "triangle": {
+   "text": "Triangle",
+   "count": 1,
+   "lines": [
+    79
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "radiusFt": {
+   "text": "Radius (ft)",
+   "count": 1,
+   "lines": [
+    83
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "sideAFt": {
+   "text": "Side A (ft)",
+   "count": 1,
+   "lines": [
+    85
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "sideBFt": {
+   "text": "Side B (ft)",
+   "count": 1,
+   "lines": [
+    88
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "howMany": {
+   "text": "How many",
+   "count": 1,
+   "lines": [
+    90
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "totalArea": {
+   "text": "Total area",
+   "count": 1,
+   "lines": [
+    93
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "squareMetres": {
+   "text": "Square metres",
+   "count": 1,
+   "lines": [
+    94
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "acres": {
+   "text": "Acres",
+   "count": 1,
+   "lines": [
+    95
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "squareYards": {
+   "text": "Square yards",
+   "count": 1,
+   "lines": [
+    96
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "concreteCalculator": {
+   "text": "Concrete Calculator",
+   "count": 1,
+   "lines": [
+    116
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "lengthFt": {
+   "text": "Length (ft)",
+   "count": 1,
+   "lines": [
+    121
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "widthFt": {
+   "text": "Width (ft)",
+   "count": 1,
+   "lines": [
+    122
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "depthInches": {
+   "text": "Depth (inches)",
+   "count": 3,
+   "lines": [
+    123,
+    165,
+    199
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "waste": {
+   "text": "Waste (%)",
+   "count": 4,
+   "lines": [
+    124,
+    167,
+    200,
+    326
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "cubicYards": {
+   "text": "Cubic yards",
+   "count": 3,
+   "lines": [
+    127,
+    172,
+    203
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "cubicFeet": {
+   "text": "Cubic feet",
+   "count": 3,
+   "lines": [
+    128,
+    173,
+    204
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "cubicMetres": {
+   "text": "Cubic metres",
+   "count": 1,
+   "lines": [
+    129
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "40LbBags": {
+   "text": "40 lb bags",
+   "count": 1,
+   "lines": [
+    137
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "50LbBags": {
+   "text": "50 lb bags",
+   "count": 1,
+   "lines": [
+    138
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "60LbBags": {
+   "text": "60 lb bags",
+   "count": 1,
+   "lines": [
+    139
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "80LbBags": {
+   "text": "80 lb bags",
+   "count": 1,
+   "lines": [
+    140
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "gravelCalculator": {
+   "text": "Gravel Calculator",
+   "count": 1,
+   "lines": [
+    159
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "areaSqFt": {
+   "text": "Area (sq ft)",
+   "count": 2,
+   "lines": [
+    164,
+    198
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "densityTonsYd": {
+   "text": "Density (tons/yd³)",
+   "count": 1,
+   "lines": [
+    166
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "tons": {
+   "text": "Tons",
+   "count": 2,
+   "lines": [
+    170,
+    393
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "metricTons": {
+   "text": "Metric tons",
+   "count": 1,
+   "lines": [
+    171
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "mulchCalculator": {
+   "text": "Mulch Calculator",
+   "count": 1,
+   "lines": [
+    193
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "15CuFtBags": {
+   "text": "1.5 cu ft bags",
+   "count": 1,
+   "lines": [
+    205
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "2CuFtBags": {
+   "text": "2 cu ft bags",
+   "count": 1,
+   "lines": [
+    206
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "3CuFtBags": {
+   "text": "3 cu ft bags",
+   "count": 1,
+   "lines": [
+    209
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "tileCalculator": {
+   "text": "Tile Calculator",
+   "count": 1,
+   "lines": [
+    234
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "floorAreaSqFt": {
+   "text": "Floor area (sq ft)",
+   "count": 1,
+   "lines": [
+    239
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "tileLengthIn": {
+   "text": "Tile length (in)",
+   "count": 1,
+   "lines": [
+    240
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "tileWidthIn": {
+   "text": "Tile width (in)",
+   "count": 1,
+   "lines": [
+    241
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "groutWidthIn": {
+   "text": "Grout width (in)",
+   "count": 1,
+   "lines": [
+    244
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "wasteCuts": {
+   "text": "Waste / cuts (%)",
+   "count": 1,
+   "lines": [
+    245
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "costPerSqFt": {
+   "text": "Cost per sq ft",
+   "count": 1,
+   "lines": [
+    246
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "tilesNeeded": {
+   "text": "Tiles needed",
+   "count": 1,
+   "lines": [
+    249
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "boxesNeeded": {
+   "text": "Boxes needed",
+   "count": 1,
+   "lines": [
+    250
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "floorArea": {
+   "text": "Floor area",
+   "count": 1,
+   "lines": [
+    251
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "materialCost": {
+   "text": "Material cost",
+   "count": 1,
+   "lines": [
+    253
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "paintCalculator": {
+   "text": "Paint Calculator",
+   "count": 1,
+   "lines": [
+    279
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "roomLengthFt": {
+   "text": "Room length (ft)",
+   "count": 1,
+   "lines": [
+    284
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "roomWidthFt": {
+   "text": "Room width (ft)",
+   "count": 1,
+   "lines": [
+    285
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "wallHeightFt": {
+   "text": "Wall height (ft)",
+   "count": 1,
+   "lines": [
+    286
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "doorsSqFt": {
+   "text": "Doors (sq ft)",
+   "count": 1,
+   "lines": [
+    289
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "windowsSqFt": {
+   "text": "Windows (sq ft)",
+   "count": 1,
+   "lines": [
+    290
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "coverageSqFtGal": {
+   "text": "Coverage (sq ft/gal)",
+   "count": 1,
+   "lines": [
+    291
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "coats": {
+   "text": "Coats",
+   "count": 1,
+   "lines": [
+    292
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "gallons": {
+   "text": "Gallons",
+   "count": 1,
+   "lines": [
+    295
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "quarts": {
+   "text": "Quarts",
+   "count": 1,
+   "lines": [
+    296
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "litres": {
+   "text": "Litres",
+   "count": 1,
+   "lines": [
+    297
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "wallArea": {
+   "text": "Wall area",
+   "count": 1,
+   "lines": [
+    298
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "roofingCalculator": {
+   "text": "Roofing Calculator",
+   "count": 1,
+   "lines": [
+    318
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "footprintSqFt": {
+   "text": "Footprint (sq ft)",
+   "count": 1,
+   "lines": [
+    323
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "roofPitch": {
+   "text": "Roof pitch",
+   "count": 1,
+   "lines": [
+    324
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "overhangIn": {
+   "text": "Overhang (in)",
+   "count": 1,
+   "lines": [
+    325
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "roofArea": {
+   "text": "Roof area",
+   "count": 1,
+   "lines": [
+    329
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "roofingSquares": {
+   "text": "Roofing squares",
+   "count": 1,
+   "lines": [
+    330
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "bundlesNeeded": {
+   "text": "Bundles needed",
+   "count": 1,
+   "lines": [
+    331
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "pitchMultiplier": {
+   "text": "Pitch multiplier",
+   "count": 1,
+   "lines": [
+    332
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "underlaymentSqFt": {
+   "text": "Underlayment (sq ft)",
+   "count": 1,
+   "lines": [
+    335
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "bTUCalculator": {
+   "text": "BTU Calculator",
+   "count": 1,
+   "lines": [
+    360
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "roomSizeSqFt": {
+   "text": "Room size (sq ft)",
+   "count": 1,
+   "lines": [
+    365
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "ceilingHeightFt": {
+   "text": "Ceiling height (ft)",
+   "count": 1,
+   "lines": [
+    366
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "occupants": {
+   "text": "Occupants",
+   "count": 1,
+   "lines": [
+    367
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "sunExposure": {
+   "text": "Sun exposure",
+   "count": 1,
+   "lines": [
+    371
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "lowShaded": {
+   "text": "Low — shaded",
+   "count": 1,
+   "lines": [
+    375
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "medium": {
+   "text": "Medium",
+   "count": 1,
+   "lines": [
+    376
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "highLotsOfSun": {
+   "text": "High — lots of sun",
+   "count": 1,
+   "lines": [
+    377
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "no": {
+   "text": "No",
+   "count": 1,
+   "lines": [
+    385
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "yesAdd1200BTU": {
+   "text": "Yes — add 1,200 BTU",
+   "count": 1,
+   "lines": [
+    386
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "bTUNeeded": {
+   "text": "BTU needed",
+   "count": 1,
+   "lines": [
+    391
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "recommendedAC": {
+   "text": "Recommended AC",
+   "count": 1,
+   "lines": [
+    392
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "roomSize": {
+   "text": "Room size",
+   "count": 1,
+   "lines": [
+    394
+   ],
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  }
+ },
+ "ui.calculators.PercentTools": {
+  "percentageCalculator": {
+   "text": "Percentage Calculator",
+   "count": 1,
+   "lines": [
+    36
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "percent": {
+   "text": "Percent (%)",
+   "count": 1,
+   "lines": [
+    41
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "value": {
+   "text": "Value",
+   "count": 1,
+   "lines": [
+    42
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "targetPercent": {
+   "text": "Target percent (%)",
+   "count": 1,
+   "lines": [
+    43
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "excelFormula": {
+   "text": "Excel formula",
+   "count": 3,
+   "lines": [
+    72,
+    107,
+    219
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "whatPercent": {
+   "text": "What percent",
+   "count": 1,
+   "lines": [
+    73
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "percentageChangeCalculator": {
+   "text": "Percentage Change Calculator",
+   "count": 1,
+   "lines": [
+    90
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "oldValue": {
+   "text": "Old value",
+   "count": 1,
+   "lines": [
+    95
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "newValue": {
+   "text": "New value",
+   "count": 2,
+   "lines": [
+    96,
+    128
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "percentageChange": {
+   "text": "Percentage change",
+   "count": 1,
+   "lines": [
+    99
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "direction": {
+   "text": "Direction",
+   "count": 1,
+   "lines": [
+    100
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "increase": {
+   "text": "Increase",
+   "count": 1,
+   "lines": [
+    100
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "decrease": {
+   "text": "Decrease",
+   "count": 1,
+   "lines": [
+    100
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "noChange": {
+   "text": "No change",
+   "count": 1,
+   "lines": [
+    100
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "difference": {
+   "text": "Difference",
+   "count": 1,
+   "lines": [
+    101
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "percentagePoints": {
+   "text": "Percentage points",
+   "count": 1,
+   "lines": [
+    102
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "percentageIncreaseCalculator": {
+   "text": "Percentage Increase Calculator",
+   "count": 1,
+   "lines": [
+    122
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "originalValue": {
+   "text": "Original value",
+   "count": 1,
+   "lines": [
+    127
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "percentageIncrease": {
+   "text": "Percentage increase",
+   "count": 1,
+   "lines": [
+    131
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "amountAdded": {
+   "text": "Amount added",
+   "count": 1,
+   "lines": [
+    132
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "originalFromNew": {
+   "text": "Original from new",
+   "count": 1,
+   "lines": [
+    139
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "percentageDecreaseCalculator": {
+   "text": "Percentage Decrease Calculator",
+   "count": 1,
+   "lines": [
+    156
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "valueBeforeDecrease": {
+   "text": "Value before decrease",
+   "count": 1,
+   "lines": [
+    161
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "valueAfterDecrease": {
+   "text": "Value after decrease",
+   "count": 1,
+   "lines": [
+    162
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "percentageDecrease": {
+   "text": "Percentage decrease",
+   "count": 1,
+   "lines": [
+    165
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "amountRemoved": {
+   "text": "Amount removed",
+   "count": 1,
+   "lines": [
+    166
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "valueBeforeTheDecrease": {
+   "text": "Value before the decrease",
+   "count": 1,
+   "lines": [
+    173
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "percentageDifferenceCalculator": {
+   "text": "Percentage Difference Calculator",
+   "count": 1,
+   "lines": [
+    189
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "valueA": {
+   "text": "Value A",
+   "count": 1,
+   "lines": [
+    194
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "valueB": {
+   "text": "Value B",
+   "count": 1,
+   "lines": [
+    195
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "percentageDifference": {
+   "text": "Percentage difference",
+   "count": 1,
+   "lines": [
+    199
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "absoluteDifference": {
+   "text": "Absolute difference",
+   "count": 1,
+   "lines": [
+    204
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "averageOfAAndB": {
+   "text": "Average of A and B",
+   "count": 1,
+   "lines": [
+    205
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "percentageChangeAB": {
+   "text": "Percentage change (A → B)",
+   "count": 1,
+   "lines": [
+    207
+   ],
+   "file": "src/components/calculators/PercentTools.tsx"
+  }
+ },
+ "ui.pdf.PdfCompressEngine": {
+  "screenSmallestFile": {
+   "text": "Screen — smallest file",
+   "count": 1,
+   "lines": [
+    24
+   ],
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "balancedRecommended": {
+   "text": "Balanced — recommended",
+   "count": 1,
+   "lines": [
+    25
+   ],
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "printHighestQuality": {
+   "text": "Print — highest quality",
+   "count": 1,
+   "lines": [
+    26
+   ],
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "compressPDF": {
+   "text": "Compress PDF",
+   "count": 1,
+   "lines": [
+    165
+   ],
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "replacePDF": {
+   "text": "Replace PDF",
+   "count": 1,
+   "lines": [
+    170
+   ],
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "chooseAPDF": {
+   "text": "Choose a PDF",
+   "count": 1,
+   "lines": [
+    170
+   ],
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "compressionPreset": {
+   "text": "Compression preset",
+   "count": 1,
+   "lines": [
+    182
+   ],
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "custom": {
+   "text": "Custom",
+   "count": 1,
+   "lines": [
+    191
+   ],
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "pDFPassword": {
+   "text": "PDF password",
+   "count": 1,
+   "lines": [
+    223
+   ],
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "compress": {
+   "text": "Compress",
+   "count": 1,
+   "lines": [
+    248
+   ],
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "optimise": {
+   "text": "Optimise",
+   "count": 1,
+   "lines": [
+    249
+   ],
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfImageEngine": {
+  "imageToPDFConverter": {
+   "text": "Image to PDF Converter",
+   "count": 1,
+   "lines": [
+    98
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "chooseImages": {
+   "text": "Choose images",
+   "count": 1,
+   "lines": [
+    104
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "pageSize": {
+   "text": "Page size",
+   "count": 1,
+   "lines": [
+    142
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "matchImageSize": {
+   "text": "Match image size",
+   "count": 1,
+   "lines": [
+    148
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "a4210297Mm": {
+   "text": "A4 (210 × 297 mm)",
+   "count": 1,
+   "lines": [
+    149
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "uSLetter8511In": {
+   "text": "US Letter (8.5 × 11 in)",
+   "count": 1,
+   "lines": [
+    150
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "marginPt": {
+   "text": "Margin (pt)",
+   "count": 1,
+   "lines": [
+    154
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "pDFToImageConverter": {
+   "text": "PDF to Image Converter",
+   "count": 1,
+   "lines": [
+    279
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "replacePDF": {
+   "text": "Replace PDF",
+   "count": 1,
+   "lines": [
+    284
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "chooseAPDF": {
+   "text": "Choose a PDF",
+   "count": 1,
+   "lines": [
+    284
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "format": {
+   "text": "Format",
+   "count": 1,
+   "lines": [
+    298
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "pNGLossless": {
+   "text": "PNG (lossless)",
+   "count": 1,
+   "lines": [
+    304
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "jPGSmaller": {
+   "text": "JPG (smaller)",
+   "count": 1,
+   "lines": [
+    305
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "resolution": {
+   "text": "Resolution",
+   "count": 1,
+   "lines": [
+    308
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "jPGQuality": {
+   "text": "JPG quality",
+   "count": 1,
+   "lines": [
+    320
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "pages": {
+   "text": "Pages",
+   "count": 1,
+   "lines": [
+    334
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "allPages": {
+   "text": "All pages",
+   "count": 1,
+   "lines": [
+    339
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "firstExportedPagePreview": {
+   "text": "First exported page preview",
+   "count": 1,
+   "lines": [
+    364
+   ],
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  }
+ },
+ "ui.pdf.shared": {
+  "working": {
+   "text": "Working…",
+   "count": 1,
+   "lines": [
+    215
+   ],
+   "file": "src/components/pdf/shared.tsx"
+  }
+ }
+}

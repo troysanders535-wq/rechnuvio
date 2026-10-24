@@ -1,0 +1,1923 @@
+{
+ "ui.engines.AiViewerEngine": {
+  "readingFileBytes": {
+   "text": "Reading file bytes...",
+   "file": "src/components/engines/AiViewerEngine.tsx",
+   "count": 1
+  },
+  "theSelectedFileIsEmpty0Bytes": {
+   "text": "The selected file is empty (0 bytes).",
+   "file": "src/components/engines/AiViewerEngine.tsx",
+   "count": 1
+  },
+  "thisIllustratorFileHasNoReadablePDFCompatiblePreviewReSaveItInAdobeIllustratorWithCreatePDFCompatibleFileEnabledOrExportItAsPDF": {
+   "text": "This Illustrator file has no readable PDF-compatible preview. Re-save it in Adobe Illustrator with ‘Create PDF Compatible File’ enabled, or export it as PDF.",
+   "file": "src/components/engines/AiViewerEngine.tsx",
+   "count": 1
+  },
+  "parsingPDFCompatibleStreamWithPDFJs": {
+   "text": "Parsing PDF-compatible stream with PDF.js...",
+   "file": "src/components/engines/AiViewerEngine.tsx",
+   "count": 1
+  },
+  "unableToParseThisFileItMayBeCorruptedOrNotAValidPDFCompatibleIllustratorDocument": {
+   "text": "Unable to parse this file. It may be corrupted or not a valid PDF-compatible Illustrator document.",
+   "file": "src/components/engines/AiViewerEngine.tsx",
+   "count": 1
+  },
+  "couldNotInitializeOffscreenExportCanvas": {
+   "text": "Could not initialize offscreen export canvas.",
+   "file": "src/components/engines/AiViewerEngine.tsx",
+   "count": 1
+  },
+  "uploadAdobeIllustratorFile": {
+   "text": "Upload Adobe Illustrator File",
+   "file": "src/components/engines/AiViewerEngine.tsx",
+   "count": 1
+  },
+  "previewPDFCompatibleAiFilesDirectlyInYourBrowserYourFilesStayOnYourDevice": {
+   "text": "Preview PDF-compatible .ai files directly in your browser. Your files stay on your device.",
+   "file": "src/components/engines/AiViewerEngine.tsx",
+   "count": 1
+  },
+  "formatCompatibilityNotice": {
+   "text": "Format Compatibility Notice",
+   "file": "src/components/engines/AiViewerEngine.tsx",
+   "count": 1
+  },
+  "thisBrowserViewerUtilizes": {
+   "text": "This browser viewer utilizes",
+   "file": "src/components/engines/AiViewerEngine.tsx",
+   "count": 1
+  },
+  "supportedViewZoomNavigatePagesAndExportToPNGJPG": {
+   "text": "Supported. View, zoom, navigate pages, and\n                      export to PNG/JPG.",
+   "file": "src/components/engines/AiViewerEngine.tsx",
+   "count": 1
+  },
+  "page": {
+   "text": "Page",
+   "file": "src/components/engines/AiViewerEngine.tsx",
+   "count": 2
+  },
+  "pDFPagesExportedArtboards": {
+   "text": "PDF Pages / Exported Artboards (",
+   "file": "src/components/engines/AiViewerEngine.tsx",
+   "count": 1
+  },
+  "adobeIllustratorAiFileViewerGuide": {
+   "text": "Adobe Illustrator (.ai) File Viewer Guide",
+   "file": "src/components/engines/AiViewerEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.Base64Engine": {
+  "helloFromDigitalToolPad100ClientSidePrivacy": {
+   "text": "Hello from Digital ToolPad! 100% Client-Side Privacy.",
+   "file": "src/components/engines/Base64Engine.tsx",
+   "count": 1
+  },
+  "inputTextOrBase64": {
+   "text": "Input Text or Base64",
+   "file": "src/components/engines/Base64Engine.tsx",
+   "count": 1
+  },
+  "output": {
+   "text": "Output",
+   "file": "src/components/engines/Base64Engine.tsx",
+   "count": 1
+  },
+  "imagePreview": {
+   "text": "Image Preview",
+   "file": "src/components/engines/Base64Engine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.CalculatorSuiteEngine": {
+  "noWorkspaceIsRegisteredFor": {
+   "text": "No workspace is registered for",
+   "file": "src/components/engines/CalculatorSuiteEngine.tsx",
+   "count": 1
+  },
+  "theVariant": {
+   "text": "The variant",
+   "file": "src/components/engines/CalculatorSuiteEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.Calendar2026Engine": {
+  "earlyMayBankHoliday": {
+   "text": "Early May bank holiday",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  },
+  "springBankHoliday": {
+   "text": "Spring bank holiday",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  },
+  "summerBankHoliday": {
+   "text": "Summer bank holiday",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  },
+  "boxingDaySubstituteDay": {
+   "text": "Boxing Day (substitute day)",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  },
+  "nationwidePublicHolidaysDEJan1Apr3Apr6May1May14May25Oct3Dec25Dec26": {
+   "text": "Nationwide public holidays (DE): Jan 1, Apr 3, Apr 6, May 1, May 14, May 25, Oct 3, Dec 25, Dec 26",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  },
+  "gesetzlicheFeiertageRotHervorgehoben": {
+   "text": "Gesetzliche Feiertage rot hervorgehoben",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  },
+  "statutoryPublicHolidaysHighlightedInRed": {
+   "text": "Statutory public holidays highlighted in red",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  },
+  "zeigtAlle9BundesweitenFeiertageUndLNderspezifischeTermineAn": {
+   "text": "Zeigt alle 9 bundesweiten Feiertage und länderspezifische Termine an.",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  },
+  "showsAllNationwideHolidaysAndRegionalDates": {
+   "text": "Shows all nationwide holidays and regional dates.",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  },
+  "brauchtumEreignisseKarnevalSommerzeitAdvent": {
+   "text": "Brauchtum & Ereignisse (Karneval, Sommerzeit, Advent …)",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  },
+  "nutzenSieBundesweiteFeiertageDieAufEinenDonnerstagFallenZBChristiHimmelfahrtOderFronleichnamFRBrCkentageAmFreitagMitNur1UrlaubstagErhaltenSie4FreieTageAmStCk": {
+   "text": "Nutzen Sie bundesweite Feiertage, die auf einen Donnerstag fallen (z. B. Christi Himmelfahrt oder Fronleichnam), für Brückentage am Freitag: Mit nur 1 Urlaubstag erhalten Sie 4 freie Tage am Stück!",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  },
+  "germanThursdayPublicHolidaysSuchAsAscensionDayOrCorpusChristiAllowYouToGain4ConsecutiveDaysOffWithJust1VacationDayOnFriday": {
+   "text": "German Thursday public holidays (such as Ascension Day or Corpus Christi) allow you to gain 4 consecutive days off with just 1 vacation day on Friday!",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  },
+  "0Urlaubstage3TageFrei": {
+   "text": "0 Urlaubstage = 3 Tage frei",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  },
+  "0Days3DaysOff": {
+   "text": "0 days = 3 days off",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  },
+  "bundesweit16LNder": {
+   "text": "Bundesweit (16 Länder)",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  },
+  "nationwide16States": {
+   "text": "Nationwide (16 states)",
+   "file": "src/components/engines/Calendar2026Engine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.ConstructionDiyEngine": {
+  "lengthFeet": {
+   "text": "Length (Feet)",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx",
+   "count": 1
+  },
+  "widthFeet": {
+   "text": "Width (Feet)",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx",
+   "count": 1
+  },
+  "thicknessDepthInches": {
+   "text": "Thickness / Depth (Inches)",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx",
+   "count": 1
+  },
+  "cubicYardsReadyMix": {
+   "text": "Cubic Yards (Ready-Mix)",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx",
+   "count": 1
+  },
+  "roomLengthFeet": {
+   "text": "Room Length (Feet)",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx",
+   "count": 1
+  },
+  "roomWidthFeet": {
+   "text": "Room Width (Feet)",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx",
+   "count": 1
+  },
+  "wastageMargin": {
+   "text": "Wastage Margin (%)",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx",
+   "count": 1
+  },
+  "recommendedToPurchase": {
+   "text": "Recommended to Purchase (+",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.CryptoHashEngine": {
+  "digitalToolPad2026": {
+   "text": "Digital ToolPad 2026",
+   "file": "src/components/engines/CryptoHashEngine.tsx",
+   "count": 1
+  },
+  "invalidJWT": {
+   "text": "Invalid JWT",
+   "file": "src/components/engines/CryptoHashEngine.tsx",
+   "count": 2
+  },
+  "passwordGeneratorSettings": {
+   "text": "Password Generator Settings",
+   "file": "src/components/engines/CryptoHashEngine.tsx",
+   "count": 1
+  },
+  "encodedJWTToken": {
+   "text": "Encoded JWT Token",
+   "file": "src/components/engines/CryptoHashEngine.tsx",
+   "count": 1
+  },
+  "inputStringToHash": {
+   "text": "Input String to Hash",
+   "file": "src/components/engines/CryptoHashEngine.tsx",
+   "count": 1
+  },
+  "hash": {
+   "text": "Hash",
+   "file": "src/components/engines/CryptoHashEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.CsvDataEngine": {
+  "cSVParseError": {
+   "text": "CSV parse error",
+   "file": "src/components/engines/CsvDataEngine.tsx",
+   "count": 1
+  },
+  "invalidJSONArrayObjectToConvertToCSV": {
+   "text": "Invalid JSON array/object to convert to CSV",
+   "file": "src/components/engines/CsvDataEngine.tsx",
+   "count": 1
+  },
+  "tSVJSON": {
+   "text": "TSV → JSON",
+   "file": "src/components/engines/CsvDataEngine.tsx",
+   "count": 1
+  },
+  "cSVJSON": {
+   "text": "CSV → JSON",
+   "file": "src/components/engines/CsvDataEngine.tsx",
+   "count": 1
+  },
+  "jSONTSV": {
+   "text": "JSON → TSV",
+   "file": "src/components/engines/CsvDataEngine.tsx",
+   "count": 1
+  },
+  "jSONCSV": {
+   "text": "JSON → CSV",
+   "file": "src/components/engines/CsvDataEngine.tsx",
+   "count": 1
+  },
+  "tSVInput": {
+   "text": "TSV Input",
+   "file": "src/components/engines/CsvDataEngine.tsx",
+   "count": 1
+  },
+  "cSVInput": {
+   "text": "CSV Input",
+   "file": "src/components/engines/CsvDataEngine.tsx",
+   "count": 1
+  },
+  "jSONInput": {
+   "text": "JSON Input",
+   "file": "src/components/engines/CsvDataEngine.tsx",
+   "count": 1
+  },
+  "dataIsEmptyOrCouldNotBeFormattedIntoATable": {
+   "text": "Data is empty or could not be formatted into a table.",
+   "file": "src/components/engines/CsvDataEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.DeveloperSuiteEngine": {
+  "fetchingResponse": {
+   "text": "Fetching response...",
+   "file": "src/components/engines/DeveloperSuiteEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.DeviceTesterEngine": {
+  "microphoneInputDecibelTest": {
+   "text": "Microphone Input & Decibel Test",
+   "file": "src/components/engines/DeviceTesterEngine.tsx",
+   "count": 1
+  },
+  "speakIntoYourMicrophoneToVerifyVolumeLevelsAndInputClarity": {
+   "text": "Speak into your microphone to verify volume levels and input clarity.",
+   "file": "src/components/engines/DeviceTesterEngine.tsx",
+   "count": 1
+  },
+  "enableMicrophoneTest": {
+   "text": "Enable Microphone Test",
+   "file": "src/components/engines/DeviceTesterEngine.tsx",
+   "count": 1
+  },
+  "microphoneIsWorkingAudioSignalDetected": {
+   "text": "Microphone is working! Audio signal detected.",
+   "file": "src/components/engines/DeviceTesterEngine.tsx",
+   "count": 1
+  },
+  "webcamVideoTest": {
+   "text": "Webcam Video Test",
+   "file": "src/components/engines/DeviceTesterEngine.tsx",
+   "count": 1
+  },
+  "testCameraResolutionLatencyAndMirrorModeSafelyOnYourDevice": {
+   "text": "Test camera resolution, latency, and mirror mode safely on your device.",
+   "file": "src/components/engines/DeviceTesterEngine.tsx",
+   "count": 1
+  },
+  "startCameraTest": {
+   "text": "Start Camera Test",
+   "file": "src/components/engines/DeviceTesterEngine.tsx",
+   "count": 1
+  },
+  "webcamIsOnlineAndStreamingLocally": {
+   "text": "Webcam is online and streaming locally.",
+   "file": "src/components/engines/DeviceTesterEngine.tsx",
+   "count": 1
+  },
+  "keyboardGhostingKeyDetectionTest": {
+   "text": "Keyboard Ghosting & Key Detection Test",
+   "file": "src/components/engines/DeviceTesterEngine.tsx",
+   "count": 1
+  },
+  "pressAnyKeyOnYourKeyboardToTestResponsivenessAndDetectGhosting": {
+   "text": "Press any key on your keyboard to test responsiveness and detect ghosting.",
+   "file": "src/components/engines/DeviceTesterEngine.tsx",
+   "count": 1
+  },
+  "resetKeyHistory": {
+   "text": "Reset Key History",
+   "file": "src/components/engines/DeviceTesterEngine.tsx",
+   "count": 1
+  },
+  "mouseCPSClickSpeedTest": {
+   "text": "Mouse CPS & Click Speed Test",
+   "file": "src/components/engines/DeviceTesterEngine.tsx",
+   "count": 1
+  },
+  "cLICKHERERAPIDLY": {
+   "text": "CLICK HERE RAPIDLY!",
+   "file": "src/components/engines/DeviceTesterEngine.tsx",
+   "count": 1
+  },
+  "resetScore": {
+   "text": "Reset Score",
+   "file": "src/components/engines/DeviceTesterEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.DiffEngine": {
+  "lineDiff": {
+   "text": "Line Diff",
+   "file": "src/components/engines/DiffEngine.tsx",
+   "count": 1
+  },
+  "wordDiff": {
+   "text": "Word Diff",
+   "file": "src/components/engines/DiffEngine.tsx",
+   "count": 1
+  },
+  "originalJSONText": {
+   "text": "Original JSON / Text",
+   "file": "src/components/engines/DiffEngine.tsx",
+   "count": 1
+  },
+  "modifiedJSONText": {
+   "text": "Modified JSON / Text",
+   "file": "src/components/engines/DiffEngine.tsx",
+   "count": 1
+  },
+  "diffVisualizer": {
+   "text": "Diff Visualizer",
+   "file": "src/components/engines/DiffEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.EncodingConvertersEngine": {
+  "unsupportedBase": {
+   "text": "Unsupported base",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx",
+   "count": 1
+  },
+  "enterAValue": {
+   "text": "Enter a value",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx",
+   "count": 1
+  },
+  "enterRedGreenAndBlueValuesSuchAs25500": {
+   "text": "Enter red, green and blue values such as 255, 0, 0",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx",
+   "count": 1
+  },
+  "couldNotConvertThisValue": {
+   "text": "Could not convert this value",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx",
+   "count": 1
+  },
+  "thisConverterIsNotAvailable": {
+   "text": "This converter is not available.",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx",
+   "count": 1
+  },
+  "switchDirection": {
+   "text": "Switch Direction (",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx",
+   "count": 1
+  },
+  "from": {
+   "text": "From",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx",
+   "count": 1
+  },
+  "to": {
+   "text": "To",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx",
+   "count": 1
+  },
+  "input": {
+   "text": "Input (",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx",
+   "count": 1
+  },
+  "output": {
+   "text": "Output (",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.FileViewersEngine": {
+  "sELECTFROMUsersWHEREActive1ORDERBYIdDESC": {
+   "text": "SELECT * FROM users WHERE active = 1 ORDER BY id DESC;",
+   "file": "src/components/engines/FileViewersEngine.tsx",
+   "count": 1
+  },
+  "sQLiteDatabaseOnlineBrowserQueryRunner": {
+   "text": "SQLite Database Online Browser & Query Runner",
+   "file": "src/components/engines/FileViewersEngine.tsx",
+   "count": 1
+  },
+  "executeSQL": {
+   "text": "Execute SQL",
+   "file": "src/components/engines/FileViewersEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.HeadsOrTailsEngine": {
+  "readyToFlipPressSpaceEnterOrClickTheCoin": {
+   "text": "Ready to flip. Press Space, Enter, or click the coin.",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "flippingCoin": {
+   "text": "Flipping coin...",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "scoresAndStatisticsResetToZero": {
+   "text": "Scores and statistics reset to zero.",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "singleFlip": {
+   "text": "Single Flip",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "bestOf3": {
+   "text": "Best of 3",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "bestOf5": {
+   "text": "Best of 5",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "bestOf7": {
+   "text": "Best of 7",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "seriesFirstTo": {
+   "text": "Series (First to",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "winsTheSeries": {
+   "text": "Wins the Series (",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "ePLURIBUSUNUM": {
+   "text": "E PLURIBUS UNUM",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "clickCoinOrPress": {
+   "text": "Click coin or press",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "independent5050Trials": {
+   "text": "Independent 50/50 trials",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "noStreakYet": {
+   "text": "No streak yet",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "recentFlipsLast": {
+   "text": "Recent Flips (Last",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "aboutTheHeadsOrTailsCoinFlip": {
+   "text": "About the Heads or Tails Coin Flip",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "yesUnlikePseudoRandomGeneratorsThatRepeatPatternsThisToolUses": {
+   "text": "Yes. Unlike pseudo-random generators that repeat patterns, this tool uses",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "keyboardAccessibilitySupport": {
+   "text": "Keyboard & Accessibility Support",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "flipQuicklyUsingThe": {
+   "text": "Flip quickly using the",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  },
+  "100ClientSidePrivacy": {
+   "text": "100% Client-Side Privacy",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.HealthFitnessEngine": {
+  "bodyCompositionCalorieSuite": {
+   "text": "Body Composition & Calorie Suite",
+   "file": "src/components/engines/HealthFitnessEngine.tsx",
+   "count": 1
+  },
+  "metricKgCm": {
+   "text": "Metric (kg/cm)",
+   "file": "src/components/engines/HealthFitnessEngine.tsx",
+   "count": 1
+  },
+  "imperialLbsIn": {
+   "text": "Imperial (lbs/in)",
+   "file": "src/components/engines/HealthFitnessEngine.tsx",
+   "count": 1
+  },
+  "biologicalSex": {
+   "text": "Biological Sex",
+   "file": "src/components/engines/HealthFitnessEngine.tsx",
+   "count": 1
+  },
+  "weight": {
+   "text": "Weight (",
+   "file": "src/components/engines/HealthFitnessEngine.tsx",
+   "count": 1
+  },
+  "height": {
+   "text": "Height (",
+   "file": "src/components/engines/HealthFitnessEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.ImageSuiteEngine": {
+  "uploadAnImageToResizeOrConvert": {
+   "text": "Upload an Image to Resize or Convert",
+   "file": "src/components/engines/ImageSuiteEngine.tsx",
+   "count": 1
+  },
+  "supportsPNGJPGWebPAVIFSVGBMPTIFFProcessedInYourBrowser": {
+   "text": "Supports PNG, JPG, WebP, AVIF, SVG, BMP, TIFF. Processed in your browser.",
+   "file": "src/components/engines/ImageSuiteEngine.tsx",
+   "count": 1
+  },
+  "dimensions": {
+   "text": "Dimensions",
+   "file": "src/components/engines/ImageSuiteEngine.tsx",
+   "count": 1
+  },
+  "targetFormat": {
+   "text": "Target Format",
+   "file": "src/components/engines/ImageSuiteEngine.tsx",
+   "count": 1
+  },
+  "visualFilters": {
+   "text": "Visual Filters",
+   "file": "src/components/engines/ImageSuiteEngine.tsx",
+   "count": 1
+  },
+  "new": {
+   "text": "New",
+   "file": "src/components/engines/ImageSuiteEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.JsonEngine": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad",
+   "file": "src/components/engines/JsonEngine.tsx",
+   "count": 2
+  },
+  "100ClientSidePrivateWebUtilities": {
+   "text": "100% Client-Side Private Web Utilities",
+   "file": "src/components/engines/JsonEngine.tsx",
+   "count": 1
+  },
+  "dataFormats": {
+   "text": "Data Formats",
+   "file": "src/components/engines/JsonEngine.tsx",
+   "count": 1
+  },
+  "pDFSuite": {
+   "text": "PDF Suite",
+   "file": "src/components/engines/JsonEngine.tsx",
+   "count": 1
+  },
+  "developerTools": {
+   "text": "Developer Tools",
+   "file": "src/components/engines/JsonEngine.tsx",
+   "count": 1
+  },
+  "invalidJSONSyntax": {
+   "text": "Invalid JSON syntax",
+   "file": "src/components/engines/JsonEngine.tsx",
+   "count": 2
+  },
+  "interactiveCollapsibleTreeTableViewer": {
+   "text": "Interactive Collapsible Tree & Table Viewer",
+   "file": "src/components/engines/JsonEngine.tsx",
+   "count": 1
+  },
+  "jSONSource": {
+   "text": "JSON Source",
+   "file": "src/components/engines/JsonEngine.tsx",
+   "count": 1
+  },
+  "provideValidJSONInTheSourceEditorToInspect": {
+   "text": "Provide valid JSON in the source editor to inspect.",
+   "file": "src/components/engines/JsonEngine.tsx",
+   "count": 1
+  },
+  "clientSideProcessing": {
+   "text": "Client-Side Processing",
+   "file": "src/components/engines/JsonEngine.tsx",
+   "count": 1
+  },
+  "zeroServerUploads": {
+   "text": "Zero Server Uploads",
+   "file": "src/components/engines/JsonEngine.tsx",
+   "count": 1
+  },
+  "fastSecure": {
+   "text": "Fast & Secure",
+   "file": "src/components/engines/JsonEngine.tsx",
+   "count": 1
+  },
+  "bytes": {
+   "text": "Bytes",
+   "file": "src/components/engines/JsonEngine.tsx",
+   "count": 1
+  },
+  "lines": {
+   "text": "Lines",
+   "file": "src/components/engines/JsonEngine.tsx",
+   "count": 1
+  },
+  "processedLocallyInYourBrowser": {
+   "text": "Processed locally in your browser",
+   "file": "src/components/engines/JsonEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.MarkdownEngine": {
+  "markdownSource": {
+   "text": "Markdown Source",
+   "file": "src/components/engines/MarkdownEngine.tsx",
+   "count": 1
+  },
+  "liveFormattedPreview": {
+   "text": "Live Formatted Preview",
+   "file": "src/components/engines/MarkdownEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.MediaAudioVideoEngine": {
+  "highSpeedBrowserMediaTranscoder": {
+   "text": "High-Speed Browser Media Transcoder",
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx",
+   "count": 1
+  },
+  "selectVideoOrAudioFile": {
+   "text": "Select Video or Audio File",
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx",
+   "count": 1
+  },
+  "convertMP4WebMAVIMOVMP3WAVOGGWithoutUploadingToAnyServer": {
+   "text": "Convert MP4, WebM, AVI, MOV, MP3, WAV, OGG without uploading to any server.",
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx",
+   "count": 1
+  },
+  "clear": {
+   "text": "Clear",
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.NetworkingToolsEngine": {
+  "iPv4CIDRSubnetCalculator": {
+   "text": "IPv4 CIDR & Subnet Calculator",
+   "file": "src/components/engines/NetworkingToolsEngine.tsx",
+   "count": 1
+  },
+  "iPAddress": {
+   "text": "IP Address",
+   "file": "src/components/engines/NetworkingToolsEngine.tsx",
+   "count": 1
+  },
+  "cIDRPrefix": {
+   "text": "CIDR Prefix (/",
+   "file": "src/components/engines/NetworkingToolsEngine.tsx",
+   "count": 1
+  },
+  "classA": {
+   "text": "Class A",
+   "file": "src/components/engines/NetworkingToolsEngine.tsx",
+   "count": 1
+  },
+  "classB": {
+   "text": "Class B",
+   "file": "src/components/engines/NetworkingToolsEngine.tsx",
+   "count": 1
+  },
+  "classC": {
+   "text": "Class C",
+   "file": "src/components/engines/NetworkingToolsEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.QrBarcodeEngine": {
+  "barcodeValueDigits": {
+   "text": "Barcode Value / Digits",
+   "file": "src/components/engines/QrBarcodeEngine.tsx",
+   "count": 1
+  },
+  "barcodeFormat": {
+   "text": "Barcode Format",
+   "file": "src/components/engines/QrBarcodeEngine.tsx",
+   "count": 1
+  },
+  "qRCodeContentURLTextOrWiFi": {
+   "text": "QR Code Content (URL, Text, or Wi-Fi)",
+   "file": "src/components/engines/QrBarcodeEngine.tsx",
+   "count": 1
+  },
+  "qRCodeColor": {
+   "text": "QR Code Color",
+   "file": "src/components/engines/QrBarcodeEngine.tsx",
+   "count": 1
+  },
+  "backgroundColor": {
+   "text": "Background Color",
+   "file": "src/components/engines/QrBarcodeEngine.tsx",
+   "count": 1
+  },
+  "errorCorrectionLevel": {
+   "text": "Error Correction Level",
+   "file": "src/components/engines/QrBarcodeEngine.tsx",
+   "count": 1
+  },
+  "scanWithAnyCameraOrScannerApp": {
+   "text": "Scan with any camera or scanner app",
+   "file": "src/components/engines/QrBarcodeEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.RandomizersGamesEngine": {
+  "coinFlipSimulatorHeadsOrTails": {
+   "text": "Coin Flip Simulator (Heads or Tails)",
+   "file": "src/components/engines/RandomizersGamesEngine.tsx",
+   "count": 1
+  },
+  "diceRollerD6D20": {
+   "text": "Dice Roller (d6 & d20)",
+   "file": "src/components/engines/RandomizersGamesEngine.tsx",
+   "count": 1
+  },
+  "wheelOfNamesRandomWinnerPicker": {
+   "text": "Wheel of Names & Random Winner Picker",
+   "file": "src/components/engines/RandomizersGamesEngine.tsx",
+   "count": 1
+  },
+  "namesItemsOnePerLine": {
+   "text": "Names / Items (one per line)",
+   "file": "src/components/engines/RandomizersGamesEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.RegexEngine": {
+  "validRegularExpression": {
+   "text": "Valid Regular Expression •",
+   "file": "src/components/engines/RegexEngine.tsx",
+   "count": 1
+  },
+  "captureMatches": {
+   "text": "Capture Matches (",
+   "file": "src/components/engines/RegexEngine.tsx",
+   "count": 1
+  },
+  "index": {
+   "text": "Index",
+   "file": "src/components/engines/RegexEngine.tsx",
+   "count": 1
+  },
+  "group": {
+   "text": "Group",
+   "file": "src/components/engines/RegexEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.TextCitationWorkspace": {
+  "smithJohn": {
+   "text": "Smith, John",
+   "file": "src/components/engines/TextCitationWorkspace.tsx",
+   "count": 1
+  },
+  "chicago17AuthorDate": {
+   "text": "Chicago 17 (author-date)",
+   "file": "src/components/engines/TextCitationWorkspace.tsx",
+   "count": 3
+  },
+  "parseBibTeX": {
+   "text": "Parse BibTeX",
+   "file": "src/components/engines/TextCitationWorkspace.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.TextConvertWorkspace": {
+  "character": {
+   "text": "Character",
+   "file": "src/components/engines/TextConvertWorkspace.tsx",
+   "count": 2
+  },
+  "codePoint": {
+   "text": "Code point",
+   "file": "src/components/engines/TextConvertWorkspace.tsx",
+   "count": 2
+  },
+  "uppercase": {
+   "text": "Uppercase",
+   "file": "src/components/engines/TextConvertWorkspace.tsx",
+   "count": 1
+  },
+  "lowercase": {
+   "text": "Lowercase",
+   "file": "src/components/engines/TextConvertWorkspace.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.TextCounterWorkspace": {
+  "clear": {
+   "text": "Clear",
+   "file": "src/components/engines/TextCounterWorkspace.tsx",
+   "count": 1
+  },
+  "typeSomeTextToSeeTheMostFrequentWords": {
+   "text": "Type some text to see the most frequent words.",
+   "file": "src/components/engines/TextCounterWorkspace.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.TextDiceWorkspace": {
+  "rollD20": {
+   "text": "Roll d20",
+   "file": "src/components/engines/TextDiceWorkspace.tsx",
+   "count": 1
+  },
+  "clearHistory": {
+   "text": "Clear history",
+   "file": "src/components/engines/TextDiceWorkspace.tsx",
+   "count": 1
+  },
+  "noRollsYetPressRollD20ToStart": {
+   "text": "No rolls yet - press Roll d20 to start.",
+   "file": "src/components/engines/TextDiceWorkspace.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.TextDocxWorkspace": {
+  "theFileCouldNotBeRead": {
+   "text": "The file could not be read.",
+   "file": "src/components/engines/TextDocxWorkspace.tsx",
+   "count": 1
+  },
+  "thisDocxFileDoesNotContainTheExpectedWordPart": {
+   "text": "This .docx file does not contain the expected Word part.",
+   "file": "src/components/engines/TextDocxWorkspace.tsx",
+   "count": 1
+  },
+  "theDocumentPartOfThisFileIsNotValidXML": {
+   "text": "The document part of this file is not valid XML.",
+   "file": "src/components/engines/TextDocxWorkspace.tsx",
+   "count": 1
+  },
+  "thisDocumentDoesNotContainAnyComments": {
+   "text": "This document does not contain any comments.",
+   "file": "src/components/engines/TextDocxWorkspace.tsx",
+   "count": 1
+  },
+  "thisFileCouldNotBeConverted": {
+   "text": "This file could not be converted.",
+   "file": "src/components/engines/TextDocxWorkspace.tsx",
+   "count": 1
+  },
+  "thisFileCouldNotBeOpened": {
+   "text": "This file could not be opened.",
+   "file": "src/components/engines/TextDocxWorkspace.tsx",
+   "count": 1
+  },
+  "thisFileCouldNotBeProcessed": {
+   "text": "This file could not be processed.",
+   "file": "src/components/engines/TextDocxWorkspace.tsx",
+   "count": 1
+  },
+  "readingTheDocumentAndAcceptingEveryTrackedChange": {
+   "text": "Reading the document and accepting every tracked change...",
+   "file": "src/components/engines/TextDocxWorkspace.tsx",
+   "count": 1
+  },
+  "rewritingTheDocument": {
+   "text": "Rewriting the document...",
+   "file": "src/components/engines/TextDocxWorkspace.tsx",
+   "count": 1
+  },
+  "convertingTheDocument": {
+   "text": "Converting the document...",
+   "file": "src/components/engines/TextDocxWorkspace.tsx",
+   "count": 1
+  },
+  "theConverterReported": {
+   "text": "The converter reported",
+   "file": "src/components/engines/TextDocxWorkspace.tsx",
+   "count": 1
+  },
+  "saveAsPDF": {
+   "text": "Save as PDF",
+   "file": "src/components/engines/TextDocxWorkspace.tsx",
+   "count": 1
+  },
+  "openingTheDocument": {
+   "text": "Opening the document...",
+   "file": "src/components/engines/TextDocxWorkspace.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.TextFontWorkspace": {
+  "fancyText": {
+   "text": "Fancy Text",
+   "file": "src/components/engines/TextFontWorkspace.tsx",
+   "count": 1
+  },
+  "xTwitter": {
+   "text": "X / Twitter",
+   "file": "src/components/engines/TextFontWorkspace.tsx",
+   "count": 1
+  },
+  "instagramTikTokAndWhatsAppDropTheMathematicalLetterBlock": {
+   "text": "Instagram, TikTok and WhatsApp drop the mathematical letter block.",
+   "file": "src/components/engines/TextFontWorkspace.tsx",
+   "count": 1
+  },
+  "markdownLikeBoldOnlyWorksWhereThePlatformSupportsIt": {
+   "text": "Markdown like **bold** only works where the platform supports it.",
+   "file": "src/components/engines/TextFontWorkspace.tsx",
+   "count": 1
+  },
+  "thePreviewAboveShowsTheCharactersYourAudienceWillSee": {
+   "text": "The preview above shows the characters your audience will see.",
+   "file": "src/components/engines/TextFontWorkspace.tsx",
+   "count": 1
+  },
+  "plainUnicodeSurvivesACopyAndPasteIntoAnyTextField": {
+   "text": "Plain Unicode survives a copy and paste into any text field.",
+   "file": "src/components/engines/TextFontWorkspace.tsx",
+   "count": 1
+  },
+  "restoreFlippedText": {
+   "text": "Restore flipped text",
+   "file": "src/components/engines/TextFontWorkspace.tsx",
+   "count": 1
+  },
+  "shuffle": {
+   "text": "Shuffle",
+   "file": "src/components/engines/TextFontWorkspace.tsx",
+   "count": 2
+  },
+  "randomize": {
+   "text": "Randomize",
+   "file": "src/components/engines/TextFontWorkspace.tsx",
+   "count": 2
+  },
+  "cleanZalgoText": {
+   "text": "Clean zalgo text",
+   "file": "src/components/engines/TextFontWorkspace.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.TextHandwritingWorkspace": {
+  "newVariation": {
+   "text": "New variation",
+   "file": "src/components/engines/TextHandwritingWorkspace.tsx",
+   "count": 1
+  },
+  "downloadPNG": {
+   "text": "Download PNG",
+   "file": "src/components/engines/TextHandwritingWorkspace.tsx",
+   "count": 1
+  },
+  "downloadPDF": {
+   "text": "Download PDF",
+   "file": "src/components/engines/TextHandwritingWorkspace.tsx",
+   "count": 1
+  },
+  "saveAsPNG": {
+   "text": "Save as PNG",
+   "file": "src/components/engines/TextHandwritingWorkspace.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.TextNotepadWorkspace": {
+  "notepadStyleEditor": {
+   "text": "Notepad++ style editor",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx",
+   "count": 1
+  },
+  "openAndTypeNotepad": {
+   "text": "Open and type notepad",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx",
+   "count": 1
+  },
+  "file": {
+   "text": "File",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx",
+   "count": 1
+  },
+  "new": {
+   "text": "New",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx",
+   "count": 1
+  },
+  "save": {
+   "text": "Save",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx",
+   "count": 1
+  },
+  "autosave": {
+   "text": "Autosave",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx",
+   "count": 1
+  },
+  "multiTabEditingAutosaveAndSyntaxHighlightingAllClientSide": {
+   "text": "Multi-tab editing, autosave and syntax highlighting, all client side.",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx",
+   "count": 1
+  },
+  "aTabbedEditorThatRunsInTheBrowserOnMacOSLinuxAndChromeOS": {
+   "text": "A tabbed editor that runs in the browser on macOS, Linux and ChromeOS.",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx",
+   "count": 1
+  },
+  "openThePageAndStartTypingThereIsNoSignupAndNoUpload": {
+   "text": "Open the page and start typing. There is no signup and no upload.",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.TextSuiteEngine": {
+  "thisToolIsNotAvailableRightNow": {
+   "text": "This tool is not available right now.",
+   "file": "src/components/engines/TextSuiteEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.TextTokenWorkspace": {
+  "gPT4GPT4o": {
+   "text": "GPT-4 / GPT-4o",
+   "file": "src/components/engines/TextTokenWorkspace.tsx",
+   "count": 1
+  },
+  "gPT5OSeries": {
+   "text": "GPT-5 / o-series",
+   "file": "src/components/engines/TextTokenWorkspace.tsx",
+   "count": 1
+  },
+  "clear": {
+   "text": "Clear",
+   "file": "src/components/engines/TextTokenWorkspace.tsx",
+   "count": 1
+  },
+  "everythingRunsLocallyInYourBrowser": {
+   "text": "Everything runs locally in your browser.",
+   "file": "src/components/engines/TextTokenWorkspace.tsx",
+   "count": 1
+  },
+  "loadingTokenizers": {
+   "text": "Loading tokenizers...",
+   "file": "src/components/engines/TextTokenWorkspace.tsx",
+   "count": 1
+  },
+  "tokenizerUnavailableShowingEstimates": {
+   "text": "Tokenizer unavailable, showing estimates.",
+   "file": "src/components/engines/TextTokenWorkspace.tsx",
+   "count": 1
+  },
+  "thisCountComesFromTheExactOpenAIBPETokenizer": {
+   "text": "This count comes from the exact OpenAI BPE tokenizer.",
+   "file": "src/components/engines/TextTokenWorkspace.tsx",
+   "count": 1
+  },
+  "thisCountIsAnEstimateFromACharacterRatio": {
+   "text": "This count is an estimate from a character ratio.",
+   "file": "src/components/engines/TextTokenWorkspace.tsx",
+   "count": 1
+  },
+  "estimatedCostForThisText": {
+   "text": "Estimated cost for this text",
+   "file": "src/components/engines/TextTokenWorkspace.tsx",
+   "count": 1
+  },
+  "pricePer1MInputTokens": {
+   "text": "Price per 1M input tokens",
+   "file": "src/components/engines/TextTokenWorkspace.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.TextTransformWorkspace": {
+  "helloWorld": {
+   "text": "Hello world",
+   "file": "src/components/engines/TextTransformWorkspace.tsx",
+   "count": 1
+  },
+  "theScannerLooksForZeroWidthCharactersAndCombiningMarks": {
+   "text": "The scanner looks for zero width characters and combining marks.",
+   "file": "src/components/engines/TextTransformWorkspace.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.TimeCalendarEngine": {
+  "120000PM": {
+   "text": "12:00:00 PM",
+   "file": "src/components/engines/TimeCalendarEngine.tsx",
+   "count": 3
+  },
+  "070000AM": {
+   "text": "07:00:00 AM",
+   "file": "src/components/engines/TimeCalendarEngine.tsx",
+   "count": 1
+  },
+  "090000PM": {
+   "text": "09:00:00 PM",
+   "file": "src/components/engines/TimeCalendarEngine.tsx",
+   "count": 1
+  },
+  "work25m": {
+   "text": "Work (25m)",
+   "file": "src/components/engines/TimeCalendarEngine.tsx",
+   "count": 1
+  },
+  "shortBreak5m": {
+   "text": "Short Break (5m)",
+   "file": "src/components/engines/TimeCalendarEngine.tsx",
+   "count": 1
+  },
+  "longBreak15m": {
+   "text": "Long Break (15m)",
+   "file": "src/components/engines/TimeCalendarEngine.tsx",
+   "count": 1
+  },
+  "dateDurationCalculator": {
+   "text": "Date & Duration Calculator",
+   "file": "src/components/engines/TimeCalendarEngine.tsx",
+   "count": 1
+  },
+  "startDate": {
+   "text": "Start Date",
+   "file": "src/components/engines/TimeCalendarEngine.tsx",
+   "count": 1
+  },
+  "endDate": {
+   "text": "End Date",
+   "file": "src/components/engines/TimeCalendarEngine.tsx",
+   "count": 1
+  },
+  "days": {
+   "text": "Days",
+   "file": "src/components/engines/TimeCalendarEngine.tsx",
+   "count": 1
+  },
+  "equivalentTo": {
+   "text": "Equivalent to",
+   "file": "src/components/engines/TimeCalendarEngine.tsx",
+   "count": 1
+  },
+  "unixTimestampConverterTimezoneClocks": {
+   "text": "Unix Timestamp Converter & Timezone Clocks",
+   "file": "src/components/engines/TimeCalendarEngine.tsx",
+   "count": 1
+  },
+  "unixTimestampSecondsOrMilliseconds": {
+   "text": "Unix Timestamp (seconds or milliseconds)",
+   "file": "src/components/engines/TimeCalendarEngine.tsx",
+   "count": 1
+  },
+  "currentTime": {
+   "text": "Current Time",
+   "file": "src/components/engines/TimeCalendarEngine.tsx",
+   "count": 1
+  },
+  "worldTimezones": {
+   "text": "World Timezones",
+   "file": "src/components/engines/TimeCalendarEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.UuidEngine": {
+  "version": {
+   "text": "Version",
+   "file": "src/components/engines/UuidEngine.tsx",
+   "count": 1
+  },
+  "quantity1500": {
+   "text": "Quantity (1 - 500)",
+   "file": "src/components/engines/UuidEngine.tsx",
+   "count": 1
+  },
+  "format": {
+   "text": "Format",
+   "file": "src/components/engines/UuidEngine.tsx",
+   "count": 1
+  },
+  "braces": {
+   "text": "Braces (",
+   "file": "src/components/engines/UuidEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.engines.YamlEngine": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad",
+   "file": "src/components/engines/YamlEngine.tsx",
+   "count": 1
+  },
+  "invalidYAMLSyntax": {
+   "text": "Invalid YAML syntax",
+   "file": "src/components/engines/YamlEngine.tsx",
+   "count": 1
+  },
+  "invalidJSONSyntax": {
+   "text": "Invalid JSON syntax",
+   "file": "src/components/engines/YamlEngine.tsx",
+   "count": 1
+  },
+  "valid": {
+   "text": "Valid",
+   "file": "src/components/engines/YamlEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.calculators.DateTools": {
+  "includeTheEndDate": {
+   "text": "Include the end date",
+   "file": "src/components/calculators/DateTools.tsx",
+   "count": 1
+  }
+ },
+ "ui.calculators.GradeTools": {
+  "gPAGradePointsCreditHoursCreditHours": {
+   "text": "GPA = Σ (grade points × credit hours) ÷ Σ credit hours",
+   "file": "src/components/calculators/GradeTools.tsx",
+   "count": 1
+  }
+ },
+ "ui.calculators.NumberBaseTools": {
+  "enterValidBinaryDigits0And1Only": {
+   "text": "Enter valid binary digits (0 and 1 only).",
+   "file": "src/components/calculators/NumberBaseTools.tsx",
+   "count": 1
+  },
+  "enterValidHexDigits09AndAF": {
+   "text": "Enter valid hex digits (0–9 and A–F).",
+   "file": "src/components/calculators/NumberBaseTools.tsx",
+   "count": 1
+  }
+ },
+ "ui.calculators.TimeTools": {
+  "530PM": {
+   "text": "5:30 PM",
+   "file": "src/components/calculators/TimeTools.tsx",
+   "count": 1
+  },
+  "allTimesAreHandledOnA24HourClockSoAddingPastMidnightWrapsToTheNextDay": {
+   "text": "All times are handled on a 24 hour clock, so adding past midnight wraps to the next day.",
+   "file": "src/components/calculators/TimeTools.tsx",
+   "count": 1
+  }
+ },
+ "ui.pdf.Pdf417Engine": {
+  "couldNotEncodeTheBarcode": {
+   "text": "Could not encode the barcode.",
+   "file": "src/components/pdf/Pdf417Engine.tsx",
+   "count": 1
+  },
+  "downloadedTheBarcodeAsAPDFAndAPNG": {
+   "text": "Downloaded the barcode as a PDF and a PNG.",
+   "file": "src/components/pdf/Pdf417Engine.tsx",
+   "count": 1
+  },
+  "couldNotGenerateTheBarcode": {
+   "text": "Could not generate the barcode.",
+   "file": "src/components/pdf/Pdf417Engine.tsx",
+   "count": 1
+  },
+  "printTheDataUnderneath": {
+   "text": "Print the data underneath",
+   "file": "src/components/pdf/Pdf417Engine.tsx",
+   "count": 1
+  },
+  "generateBarcode": {
+   "text": "Generate barcode",
+   "file": "src/components/pdf/Pdf417Engine.tsx",
+   "count": 1
+  }
+ },
+ "ui.pdf.PdfBase64Engine": {
+  "pasteABase64PayloadFirst": {
+   "text": "Paste a Base64 payload first.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx",
+   "count": 2
+  },
+  "thePayloadDecodedButItIsNotAPDFPNGOrJPEG": {
+   "text": "The payload decoded, but it is not a PDF, PNG or JPEG.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx",
+   "count": 1
+  },
+  "couldNotDecodeThePayload": {
+   "text": "Could not decode the payload.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx",
+   "count": 1
+  },
+  "thePayloadWasAlreadyAPDFAndWasDownloadedUnchanged": {
+   "text": "The payload was already a PDF and was downloaded unchanged.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx",
+   "count": 1
+  },
+  "onlyPDFPNGAndJPEGPayloadsCanBeTurnedIntoAPDFThisOneIsNotRecognised": {
+   "text": "Only PDF, PNG and JPEG payloads can be turned into a PDF. This one is not recognised.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx",
+   "count": 1
+  },
+  "couldNotBuildThePDF": {
+   "text": "Could not build the PDF.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx",
+   "count": 1
+  },
+  "couldNotReadTheFile": {
+   "text": "Could not read the file.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx",
+   "count": 1
+  },
+  "inspectPayload": {
+   "text": "Inspect payload",
+   "file": "src/components/pdf/PdfBase64Engine.tsx",
+   "count": 1
+  },
+  "convertToPDF": {
+   "text": "Convert to PDF",
+   "file": "src/components/pdf/PdfBase64Engine.tsx",
+   "count": 1
+  }
+ },
+ "ui.pdf.PdfCompressEngine": {
+  "loadingPDF": {
+   "text": "Loading PDF…",
+   "file": "src/components/pdf/PdfCompressEngine.tsx",
+   "count": 1
+  },
+  "couldNotCreateARenderingCanvas": {
+   "text": "Could not create a rendering canvas.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx",
+   "count": 1
+  },
+  "thisPDFIsAlreadyOptimisedNoSmallerVersionIsPossible": {
+   "text": "This PDF is already optimised — no smaller version is possible.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx",
+   "count": 1
+  },
+  "thisPDFIsPasswordProtectedEnterThePasswordAndTryAgain": {
+   "text": "This PDF is password protected. Enter the password and try again.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx",
+   "count": 2
+  },
+  "couldNotCompressTheFile": {
+   "text": "Could not compress the file.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx",
+   "count": 1
+  },
+  "rewritingDocumentStructure": {
+   "text": "Rewriting document structure…",
+   "file": "src/components/pdf/PdfCompressEngine.tsx",
+   "count": 1
+  },
+  "thePagesWereKeptAsVectorDataSoTheTextStaysSelectable": {
+   "text": "The pages were kept as vector data, so the text stays selectable.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx",
+   "count": 1
+  },
+  "couldNotOptimiseTheFile": {
+   "text": "Could not optimise the file.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx",
+   "count": 1
+  },
+  "optimiseKeepTextSelectable": {
+   "text": "Optimise (keep text selectable)",
+   "file": "src/components/pdf/PdfCompressEngine.tsx",
+   "count": 1
+  },
+  "reducedBy": {
+   "text": "Reduced by",
+   "file": "src/components/pdf/PdfCompressEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.pdf.PdfEmailEngine": {
+  "outlookMessageParsed": {
+   "text": "Outlook message parsed.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx",
+   "count": 1
+  },
+  "emailParsed": {
+   "text": "Email parsed.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx",
+   "count": 1
+  },
+  "couldNotReadTheEmail": {
+   "text": "Could not read the email.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx",
+   "count": 1
+  },
+  "thisMessageHasNoReadableBodyText": {
+   "text": "This message has no readable body text.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx",
+   "count": 1
+  },
+  "emailConvertedToPDF": {
+   "text": "Email converted to PDF.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx",
+   "count": 1
+  },
+  "couldNotBuildThePDF": {
+   "text": "Could not build the PDF.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx",
+   "count": 1
+  },
+  "attachments": {
+   "text": "Attachments",
+   "file": "src/components/pdf/PdfEmailEngine.tsx",
+   "count": 1
+  },
+  "convertToPDF": {
+   "text": "Convert to PDF",
+   "file": "src/components/pdf/PdfEmailEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.pdf.PdfImageEngine": {
+  "couldNotBuildThePDF": {
+   "text": "Could not build the PDF.",
+   "file": "src/components/pdf/PdfImageEngine.tsx",
+   "count": 1
+  },
+  "remove": {
+   "text": "Remove",
+   "file": "src/components/pdf/PdfImageEngine.tsx",
+   "count": 1
+  },
+  "createPDF": {
+   "text": "Create PDF (",
+   "file": "src/components/pdf/PdfImageEngine.tsx",
+   "count": 1
+  },
+  "clear": {
+   "text": "Clear",
+   "file": "src/components/pdf/PdfImageEngine.tsx",
+   "count": 2
+  },
+  "couldNotCreateARenderingCanvas": {
+   "text": "Could not create a rendering canvas.",
+   "file": "src/components/pdf/PdfImageEngine.tsx",
+   "count": 1
+  },
+  "couldNotExportTheImages": {
+   "text": "Could not export the images.",
+   "file": "src/components/pdf/PdfImageEngine.tsx",
+   "count": 1
+  },
+  "exportImages": {
+   "text": "Export images",
+   "file": "src/components/pdf/PdfImageEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.pdf.PdfMergeEngine": {
+  "theSelectedFilesContainNoPages": {
+   "text": "The selected files contain no pages.",
+   "file": "src/components/pdf/PdfMergeEngine.tsx",
+   "count": 1
+  },
+  "thisPDFIsPasswordProtectedEnterThePasswordAndTryAgain": {
+   "text": "This PDF is password protected. Enter the password and try again.",
+   "file": "src/components/pdf/PdfMergeEngine.tsx",
+   "count": 1
+  },
+  "couldNotMergeTheFiles": {
+   "text": "Could not merge the files.",
+   "file": "src/components/pdf/PdfMergeEngine.tsx",
+   "count": 1
+  },
+  "remove": {
+   "text": "Remove",
+   "file": "src/components/pdf/PdfMergeEngine.tsx",
+   "count": 1
+  },
+  "pDFPassword": {
+   "text": "PDF password",
+   "file": "src/components/pdf/PdfMergeEngine.tsx",
+   "count": 1
+  },
+  "merge": {
+   "text": "Merge",
+   "file": "src/components/pdf/PdfMergeEngine.tsx",
+   "count": 1
+  },
+  "clear": {
+   "text": "Clear",
+   "file": "src/components/pdf/PdfMergeEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.pdf.PdfMetaEngine": {
+  "pDFMetadataViewer": {
+   "text": "PDF Metadata Viewer",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "inspectTheDocumentInformationStoredInsideAPDF": {
+   "text": "Inspect the document information stored inside a PDF.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "readMetadata": {
+   "text": "Read metadata",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "pDFMetadataEditor": {
+   "text": "PDF Metadata Editor",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "changeTheTitleAuthorSubjectKeywordsAndProducerOfAPDF": {
+   "text": "Change the title, author, subject, keywords and producer of a PDF.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "saveMetadata": {
+   "text": "Save metadata",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "pDFMetadataRemover": {
+   "text": "PDF Metadata Remover",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "stripAuthorProducerSoftwareDatesAndXMPPacketsFromAPDF": {
+   "text": "Strip author, producer, software, dates and XMP packets from a PDF.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "removeMetadata": {
+   "text": "Remove metadata",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "thisPDFIsPasswordProtectedEnterThePasswordAndTryAgain": {
+   "text": "This PDF is password protected. Enter the password and try again.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "couldNotReadTheFile": {
+   "text": "Could not read the file.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "metadataUpdatedAndTheNewPDFWasDownloaded": {
+   "text": "Metadata updated and the new PDF was downloaded.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "metadataStrippedAndTheNewPDFWasDownloaded": {
+   "text": "Metadata stripped and the new PDF was downloaded.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "couldNotWriteTheFile": {
+   "text": "Could not write the file.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "created": {
+   "text": "Created",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "modified": {
+   "text": "Modified",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "fileSize": {
+   "text": "File size",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  },
+  "producesANewFileTheOriginalIsUntouched": {
+   "text": "Produces a new file; the original is untouched.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.pdf.PdfRedactEngine": {
+  "blackOutTextInPDF": {
+   "text": "Black Out Text in PDF",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "findEveryOccurrenceOfAWordOrNumberAndPermanentlyRemoveItFromThePage": {
+   "text": "Find every occurrence of a word or number and permanently remove it from the page.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "blackOutMatches": {
+   "text": "Black out matches",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "pDFRedactionTool": {
+   "text": "PDF Redaction Tool",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "markTheAreasToRemoveRedactedContentIsBurnedIntoThePagePixelsItCannotBeUnHidden": {
+   "text": "Mark the areas to remove. Redacted content is burned into the page pixels — it cannot be un-hidden.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "applyRedaction": {
+   "text": "Apply redaction",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "couldNotOpenThisPDF": {
+   "text": "Could not open this PDF.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "enterAtLeastOneWordOrNumberToSearchFor": {
+   "text": "Enter at least one word or number to search for.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "noMatchesWereFoundInTheTextLayerOfThisPDF": {
+   "text": "No matches were found in the text layer of this PDF.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "theSearchFailed": {
+   "text": "The search failed.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "searchForATermFirstSoTheMatchesCanBeBlackedOut": {
+   "text": "Search for a term first so the matches can be blacked out.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "dragOverThePageToMarkTheAreasYouWantRemoved": {
+   "text": "Drag over the page to mark the areas you want removed.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "couldNotCreateARenderingCanvas": {
+   "text": "Could not create a rendering canvas.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "couldNotWriteTheRedactedFile": {
+   "text": "Could not write the redacted file.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "findMatches": {
+   "text": "Find matches",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "page": {
+   "text": "Page",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "previous": {
+   "text": "Previous",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "next": {
+   "text": "Next",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "dragAcrossThePageToMarkAnAreaToRemove": {
+   "text": "Drag across the page to mark an area to remove.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "markedAreasOnPage": {
+   "text": "Marked areas on page",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "remove": {
+   "text": "Remove",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "clearMarks": {
+   "text": "Clear marks",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  },
+  "renderingPreview": {
+   "text": "Rendering preview…",
+   "file": "src/components/pdf/PdfRedactEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.pdf.PdfSplitEngine": {
+  "thisPDFIsPasswordProtectedEnterThePasswordAndTryAgain": {
+   "text": "This PDF is password protected. Enter the password and try again.",
+   "file": "src/components/pdf/PdfSplitEngine.tsx",
+   "count": 1
+  },
+  "couldNotSplitTheFile": {
+   "text": "Could not split the file.",
+   "file": "src/components/pdf/PdfSplitEngine.tsx",
+   "count": 1
+  },
+  "clear": {
+   "text": "Clear",
+   "file": "src/components/pdf/PdfSplitEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.pdf.PdfTextEngine": {
+  "pDFToMarkdownConverter": {
+   "text": "PDF to Markdown Converter",
+   "file": "src/components/pdf/PdfTextEngine.tsx",
+   "count": 1
+  },
+  "turnTheTextLayerOfAPDFIntoCleanStructuredMarkdownYouCanPasteIntoAnyEditorOrAIAssistant": {
+   "text": "Turn the text layer of a PDF into clean, structured Markdown you can paste into any editor or AI assistant.",
+   "file": "src/components/pdf/PdfTextEngine.tsx",
+   "count": 1
+  },
+  "convertToMarkdown": {
+   "text": "Convert to Markdown",
+   "file": "src/components/pdf/PdfTextEngine.tsx",
+   "count": 1
+  },
+  "pDFToDOCXConverter": {
+   "text": "PDF to DOCX Converter",
+   "file": "src/components/pdf/PdfTextEngine.tsx",
+   "count": 1
+  },
+  "rebuildAPDFAsAnEditableWordDocumentWithHeadingsListsAndParagraphsPreserved": {
+   "text": "Rebuild a PDF as an editable Word document with headings, lists and paragraphs preserved.",
+   "file": "src/components/pdf/PdfTextEngine.tsx",
+   "count": 1
+  },
+  "convertToDOCX": {
+   "text": "Convert to DOCX",
+   "file": "src/components/pdf/PdfTextEngine.tsx",
+   "count": 1
+  },
+  "readingThePDF": {
+   "text": "Reading the PDF…",
+   "file": "src/components/pdf/PdfTextEngine.tsx",
+   "count": 1
+  },
+  "oCRDidNotFindReadableTextOnTheScannedPages": {
+   "text": "OCR did not find readable text on the scanned pages.",
+   "file": "src/components/pdf/PdfTextEngine.tsx",
+   "count": 1
+  },
+  "everyPageAlreadyHadATextLayerSoOCRWasNotNeeded": {
+   "text": "Every page already had a text layer, so OCR was not needed.",
+   "file": "src/components/pdf/PdfTextEngine.tsx",
+   "count": 1
+  },
+  "couldNotConvertTheFile": {
+   "text": "Could not convert the file.",
+   "file": "src/components/pdf/PdfTextEngine.tsx",
+   "count": 1
+  },
+  "yourBrowserBlockedClipboardAccessSelectTheTextAndCopyItManually": {
+   "text": "Your browser blocked clipboard access. Select the text and copy it manually.",
+   "file": "src/components/pdf/PdfTextEngine.tsx",
+   "count": 1
+  },
+  "useOCRForScannedPages": {
+   "text": "Use OCR for scanned pages",
+   "file": "src/components/pdf/PdfTextEngine.tsx",
+   "count": 1
+  },
+  "downloadMd": {
+   "text": "Download .md",
+   "file": "src/components/pdf/PdfTextEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.pdf.PdfTextToPdfEngine": {
+  "couldNotBuildThePDF": {
+   "text": "Could not build the PDF.",
+   "file": "src/components/pdf/PdfTextToPdfEngine.tsx",
+   "count": 1
+  },
+  "generatePDF": {
+   "text": "Generate PDF",
+   "file": "src/components/pdf/PdfTextToPdfEngine.tsx",
+   "count": 1
+  }
+ },
+ "ui.pdf.PdfVariantHost": {
+  "thisPDFToolIsNotWiredUpYet": {
+   "text": "This PDF tool is not wired up yet",
+   "file": "src/components/pdf/PdfVariantHost.tsx",
+   "count": 1
+  }
+ },
+ "ui.pdf.shared": {
+  "remove": {
+   "text": "Remove",
+   "file": "src/components/pdf/shared.tsx",
+   "count": 1
+  }
+ }
+}

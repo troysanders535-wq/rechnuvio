@@ -1,0 +1,1865 @@
+{
+ "ui.engines.Base64Engine": {
+  "encodeToBase64": {
+   "text": "Encode to Base64",
+   "count": 1,
+   "lines": [
+    85
+   ],
+   "file": "src/components/engines/Base64Engine.tsx"
+  },
+  "decodeBase64": {
+   "text": "Decode Base64",
+   "count": 1,
+   "lines": [
+    92
+   ],
+   "file": "src/components/engines/Base64Engine.tsx"
+  },
+  "fileToBase64": {
+   "text": "File to Base64",
+   "count": 1,
+   "lines": [
+    99
+   ],
+   "file": "src/components/engines/Base64Engine.tsx"
+  },
+  "copied": {
+   "text": "Copied!",
+   "count": 1,
+   "lines": [
+    108
+   ],
+   "file": "src/components/engines/Base64Engine.tsx"
+  },
+  "copy": {
+   "text": "Copy",
+   "count": 1,
+   "lines": [
+    108
+   ],
+   "file": "src/components/engines/Base64Engine.tsx"
+  },
+  "download": {
+   "text": "Download",
+   "count": 1,
+   "lines": [
+    116
+   ],
+   "file": "src/components/engines/Base64Engine.tsx"
+  },
+  "decodedBase64Preview": {
+   "text": "Decoded base64 preview",
+   "count": 1,
+   "lines": [
+    163
+   ],
+   "file": "src/components/engines/Base64Engine.tsx"
+  }
+ },
+ "ui.engines.CsvDataEngine": {
+  "janeDoe": {
+   "text": "Jane Doe",
+   "count": 1,
+   "lines": [
+    57
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "leadArchitect": {
+   "text": "Lead Architect",
+   "count": 1,
+   "lines": [
+    57
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "engineering": {
+   "text": "Engineering",
+   "count": 2,
+   "lines": [
+    57,
+    60
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "johnSmith": {
+   "text": "John Smith",
+   "count": 1,
+   "lines": [
+    58
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "productDesigner": {
+   "text": "Product Designer",
+   "count": 1,
+   "lines": [
+    58
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "design": {
+   "text": "Design",
+   "count": 1,
+   "lines": [
+    58
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "infrastructure": {
+   "text": "Infrastructure",
+   "count": 1,
+   "lines": [
+    59
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "bobWilson": {
+   "text": "Bob Wilson",
+   "count": 1,
+   "lines": [
+    60
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "frontendEngineer": {
+   "text": "Frontend Engineer",
+   "count": 1,
+   "lines": [
+    60
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "carolMartinez": {
+   "text": "Carol Martinez",
+   "count": 1,
+   "lines": [
+    61
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "analytics": {
+   "text": "Analytics",
+   "count": 1,
+   "lines": [
+    61
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "comma": {
+   "text": "Comma (,)",
+   "count": 1,
+   "lines": [
+    222
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "semicolon": {
+   "text": "Semicolon (;)",
+   "count": 1,
+   "lines": [
+    224
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "autoDetect": {
+   "text": "Auto-detect",
+   "count": 1,
+   "lines": [
+    226
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "headersRow": {
+   "text": "Headers row",
+   "count": 1,
+   "lines": [
+    237
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "parseNumbersBooleans": {
+   "text": "Parse numbers/booleans",
+   "count": 1,
+   "lines": [
+    248
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "jSONOutput": {
+   "text": "JSON Output",
+   "count": 1,
+   "lines": [
+    265
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "cSVOutput": {
+   "text": "CSV Output",
+   "count": 1,
+   "lines": [
+    265
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "table": {
+   "text": "Table",
+   "count": 1,
+   "lines": [
+    276
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "openFile": {
+   "text": "Open file",
+   "count": 1,
+   "lines": [
+    282
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "copied": {
+   "text": "Copied!",
+   "count": 1,
+   "lines": [
+    297
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "copy": {
+   "text": "Copy",
+   "count": 1,
+   "lines": [
+    297
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "download": {
+   "text": "Download",
+   "count": 1,
+   "lines": [
+    306
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "clear": {
+   "text": "Clear",
+   "count": 1,
+   "lines": [
+    312
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "convertedJSON": {
+   "text": "Converted JSON",
+   "count": 1,
+   "lines": [
+    352
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "convertedCSV": {
+   "text": "Converted CSV",
+   "count": 1,
+   "lines": [
+    352
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "convertedOutputWillAppearHere": {
+   "text": "Converted output will appear here...",
+   "count": 1,
+   "lines": [
+    359
+   ],
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  }
+ },
+ "ui.engines.HeadsOrTailsEngine": {
+  "muteSound": {
+   "text": "Mute sound",
+   "count": 2,
+   "lines": [
+    341,
+    342
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "enableSound": {
+   "text": "Enable sound",
+   "count": 2,
+   "lines": [
+    341,
+    342
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "resetCountersAndSeries": {
+   "text": "Reset counters and series",
+   "count": 1,
+   "lines": [
+    351
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "reset": {
+   "text": "Reset",
+   "count": 1,
+   "lines": [
+    354
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "betterLuckNextTime": {
+   "text": "Better luck next time!",
+   "count": 1,
+   "lines": [
+    426
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "playNewSeries": {
+   "text": "Play New Series",
+   "count": 1,
+   "lines": [
+    434
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "flipCoinSpaceEnter": {
+   "text": "Flip Coin (Space / Enter)",
+   "count": 1,
+   "lines": [
+    613
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "space": {
+   "text": "Space",
+   "count": 1,
+   "lines": [
+    617
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "enter": {
+   "text": "Enter",
+   "count": 2,
+   "lines": [
+    617,
+    776
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "heads": {
+   "text": "Heads!",
+   "count": 1,
+   "lines": [
+    633
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "tails": {
+   "text": "Tails!",
+   "count": 1,
+   "lines": [
+    633
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "totalFlips": {
+   "text": "Total Flips",
+   "count": 1,
+   "lines": [
+    646
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "heads2": {
+   "text": "Heads",
+   "count": 1,
+   "lines": [
+    660
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "tails2": {
+   "text": "Tails",
+   "count": 1,
+   "lines": [
+    678
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "streak": {
+   "text": "Streak",
+   "count": 1,
+   "lines": [
+    696
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "mostRecentFirst": {
+   "text": "Most recent first",
+   "count": 1,
+   "lines": [
+    716
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "spacebar": {
+   "text": "Spacebar",
+   "count": 1,
+   "lines": [
+    776
+   ],
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  }
+ },
+ "ui.engines.MathCalculatorsEngine": {
+  "computerScience": {
+   "text": "Computer Science",
+   "count": 1,
+   "lines": [
+    40
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "calculusIII": {
+   "text": "Calculus III",
+   "count": 1,
+   "lines": [
+    41
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "b": {
+   "text": "B+",
+   "count": 1,
+   "lines": [
+    41
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "physics": {
+   "text": "Physics",
+   "count": 1,
+   "lines": [
+    42
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "a": {
+   "text": "A-",
+   "count": 1,
+   "lines": [
+    42
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "technicalWriting": {
+   "text": "Technical Writing",
+   "count": 1,
+   "lines": [
+    43
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "gehaltZuStundenlohnRechnerUSDBasis": {
+   "text": "Gehalt-zu-Stundenlohn-Rechner (USD-Basis)",
+   "count": 1,
+   "lines": [
+    71
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "salaryToHourlyWageConverterUSDBaseline": {
+   "text": "Salary to Hourly Wage Converter (USD Baseline)",
+   "count": 1,
+   "lines": [
+    71
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "wochenstunden": {
+   "text": "Wochenstunden",
+   "count": 1,
+   "lines": [
+    88
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "hoursPerWeek": {
+   "text": "Hours Per Week",
+   "count": 1,
+   "lines": [
+    88
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "proStunde": {
+   "text": "Pro Stunde",
+   "count": 1,
+   "lines": [
+    106
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "perHour": {
+   "text": "Per Hour",
+   "count": 1,
+   "lines": [
+    106
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "zweiwChentlich": {
+   "text": "Zweiwöchentlich",
+   "count": 1,
+   "lines": [
+    114
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "biWeekly": {
+   "text": "Bi-Weekly",
+   "count": 1,
+   "lines": [
+    114
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "monatlich": {
+   "text": "Monatlich",
+   "count": 1,
+   "lines": [
+    122
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "monthly": {
+   "text": "Monthly",
+   "count": 1,
+   "lines": [
+    122
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "overtime15x": {
+   "text": "Overtime (1.5x)",
+   "count": 1,
+   "lines": [
+    130
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "notendurchschnittGPARechner": {
+   "text": "Notendurchschnitt & GPA-Rechner",
+   "count": 1,
+   "lines": [
+    144
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "gPAFinalGradeCalculator": {
+   "text": "GPA & Final Grade Calculator",
+   "count": 1,
+   "lines": [
+    144
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "prozentrechnerSuite": {
+   "text": "Prozentrechner-Suite",
+   "count": 1,
+   "lines": [
+    216
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "percentageCalculatorSuite": {
+   "text": "Percentage Calculator Suite",
+   "count": 1,
+   "lines": [
+    216
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "wertBerechnen": {
+   "text": "Wert berechnen",
+   "count": 1,
+   "lines": [
+    223
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "calculateValue": {
+   "text": "Calculate Value",
+   "count": 1,
+   "lines": [
+    223
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "wieVielSind": {
+   "text": "Wie viel sind",
+   "count": 1,
+   "lines": [
+    226
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "whatIs": {
+   "text": "What is",
+   "count": 1,
+   "lines": [
+    226
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "prozentsatzBerechnen": {
+   "text": "Prozentsatz berechnen",
+   "count": 1,
+   "lines": [
+    252
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  },
+  "calculatePercentage": {
+   "text": "Calculate Percentage",
+   "count": 1,
+   "lines": [
+    252
+   ],
+   "file": "src/components/engines/MathCalculatorsEngine.tsx"
+  }
+ },
+ "ui.calculators.DateTools": {
+  "ageCalculator": {
+   "text": "Age Calculator",
+   "count": 2,
+   "lines": [
+    52,
+    60
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "enterAValidDateYYYYMMDD": {
+   "text": "Enter a valid date (YYYY-MM-DD).",
+   "count": 1,
+   "lines": [
+    53
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "dateOfBirth": {
+   "text": "Date of birth",
+   "count": 1,
+   "lines": [
+    65
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "ageOn": {
+   "text": "Age on",
+   "count": 1,
+   "lines": [
+    66
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "age": {
+   "text": "Age",
+   "count": 1,
+   "lines": [
+    70
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "totalDaysLived": {
+   "text": "Total days lived",
+   "count": 1,
+   "lines": [
+    74
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "totalMonths": {
+   "text": "Total months",
+   "count": 1,
+   "lines": [
+    75
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "totalWeeks": {
+   "text": "Total weeks",
+   "count": 1,
+   "lines": [
+    76
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "nextBirthday": {
+   "text": "Next birthday",
+   "count": 1,
+   "lines": [
+    79
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "daysToBirthday": {
+   "text": "Days to birthday",
+   "count": 1,
+   "lines": [
+    80
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "dayOfBirth": {
+   "text": "Day of birth",
+   "count": 1,
+   "lines": [
+    82
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "zodiac": {
+   "text": "Zodiac",
+   "count": 1,
+   "lines": [
+    87
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "dogAgeCalculator": {
+   "text": "Dog Age Calculator",
+   "count": 1,
+   "lines": [
+    100
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "size": {
+   "text": "Size",
+   "count": 1,
+   "lines": [
+    107
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "smallUpTo20Lb": {
+   "text": "Small (up to 20 lb)",
+   "count": 1,
+   "lines": [
+    111
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "medium2150Lb": {
+   "text": "Medium (21 – 50 lb)",
+   "count": 1,
+   "lines": [
+    112
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "large5190Lb": {
+   "text": "Large (51 – 90 lb)",
+   "count": 1,
+   "lines": [
+    113
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "giantOver90Lb": {
+   "text": "Giant (over 90 lb)",
+   "count": 1,
+   "lines": [
+    114
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "humanAgeAVMA": {
+   "text": "Human age (AVMA)",
+   "count": 1,
+   "lines": [
+    119
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "humanAgeEpigenetic": {
+   "text": "Human age (epigenetic)",
+   "count": 1,
+   "lines": [
+    120
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "lifeStage": {
+   "text": "Life stage",
+   "count": 1,
+   "lines": [
+    121
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "inDogYears": {
+   "text": "In dog years",
+   "count": 1,
+   "lines": [
+    122
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "dateCalculator": {
+   "text": "Date Calculator",
+   "count": 1,
+   "lines": [
+    138
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "startDate": {
+   "text": "Start date",
+   "count": 1,
+   "lines": [
+    143
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "endDate": {
+   "text": "End date",
+   "count": 1,
+   "lines": [
+    144
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "amount": {
+   "text": "Amount",
+   "count": 1,
+   "lines": [
+    147
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "unit": {
+   "text": "Unit",
+   "count": 1,
+   "lines": [
+    149
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "days": {
+   "text": "Days",
+   "count": 1,
+   "lines": [
+    153
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "weeks": {
+   "text": "Weeks",
+   "count": 2,
+   "lines": [
+    154,
+    224
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "months": {
+   "text": "Months",
+   "count": 2,
+   "lines": [
+    155,
+    225
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "years": {
+   "text": "Years",
+   "count": 2,
+   "lines": [
+    156,
+    226
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "direction": {
+   "text": "Direction",
+   "count": 1,
+   "lines": [
+    160
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "add": {
+   "text": "Add",
+   "count": 1,
+   "lines": [
+    164
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "subtract": {
+   "text": "Subtract",
+   "count": 1,
+   "lines": [
+    165
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "dateAfterAdding": {
+   "text": "Date after adding",
+   "count": 1,
+   "lines": [
+    182
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "dateAfterSubtracting": {
+   "text": "Date after subtracting",
+   "count": 1,
+   "lines": [
+    182
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "daysBetween": {
+   "text": "Days between",
+   "count": 1,
+   "lines": [
+    186
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "weeksBetween": {
+   "text": "Weeks between",
+   "count": 1,
+   "lines": [
+    187
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "weekdayOfEndDate": {
+   "text": "Weekday of end date",
+   "count": 1,
+   "lines": [
+    188
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "monthsBetween": {
+   "text": "Months between",
+   "count": 1,
+   "lines": [
+    192
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "yearsBetween": {
+   "text": "Years between",
+   "count": 1,
+   "lines": [
+    193
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "includeEndDate": {
+   "text": "Include end date",
+   "count": 1,
+   "lines": [
+    194
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "yes": {
+   "text": "Yes",
+   "count": 1,
+   "lines": [
+    194
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "no": {
+   "text": "No",
+   "count": 1,
+   "lines": [
+    194
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "daysBetweenDatesCalculator": {
+   "text": "Days Between Dates Calculator",
+   "count": 1,
+   "lines": [
+    205
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "fromDate": {
+   "text": "From date",
+   "count": 2,
+   "lines": [
+    210,
+    252
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "toDate": {
+   "text": "To date",
+   "count": 2,
+   "lines": [
+    211,
+    253
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "totalDays": {
+   "text": "Total days",
+   "count": 2,
+   "lines": [
+    223,
+    277
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "businessDaysCalculator": {
+   "text": "Business Days Calculator",
+   "count": 1,
+   "lines": [
+    247
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "holidayCalendar": {
+   "text": "Holiday calendar",
+   "count": 1,
+   "lines": [
+    257
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "noHolidays": {
+   "text": "No holidays",
+   "count": 1,
+   "lines": [
+    261
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "uSFederalHolidays": {
+   "text": "US federal holidays",
+   "count": 1,
+   "lines": [
+    262
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "uKBankHolidays": {
+   "text": "UK bank holidays",
+   "count": 1,
+   "lines": [
+    263
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "yourOwnDaysOff": {
+   "text": "Your own days off",
+   "count": 1,
+   "lines": [
+    267
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "businessDays": {
+   "text": "Business days",
+   "count": 1,
+   "lines": [
+    274
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "weekendDays": {
+   "text": "Weekend days",
+   "count": 1,
+   "lines": [
+    275
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "holidaysSkipped": {
+   "text": "Holidays skipped",
+   "count": 1,
+   "lines": [
+    276
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "holidaysInRange": {
+   "text": "Holidays in range",
+   "count": 1,
+   "lines": [
+    281
+   ],
+   "file": "src/components/calculators/DateTools.tsx"
+  }
+ },
+ "ui.calculators.MoneyTools": {
+  "discountCalculator": {
+   "text": "Discount Calculator",
+   "count": 1,
+   "lines": [
+    57
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "originalPrice": {
+   "text": "Original price",
+   "count": 1,
+   "lines": [
+    62
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "discount": {
+   "text": "Discount (%)",
+   "count": 1,
+   "lines": [
+    63
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "extraDiscount": {
+   "text": "Extra discount (%)",
+   "count": 1,
+   "lines": [
+    64
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "salePrice": {
+   "text": "Sale price",
+   "count": 1,
+   "lines": [
+    68
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "youSave": {
+   "text": "You save",
+   "count": 1,
+   "lines": [
+    72
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "withStackedDiscount": {
+   "text": "With stacked discount",
+   "count": 1,
+   "lines": [
+    74
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "salePriceTax": {
+   "text": "Sale price + tax",
+   "count": 1,
+   "lines": [
+    79
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "originalPriceFromSalePrice": {
+   "text": "Original price from sale price",
+   "count": 1,
+   "lines": [
+    87
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "excelFormula": {
+   "text": "Excel formula",
+   "count": 1,
+   "lines": [
+    88
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "marginCalculator": {
+   "text": "Margin Calculator",
+   "count": 1,
+   "lines": [
+    101
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "cost": {
+   "text": "Cost",
+   "count": 2,
+   "lines": [
+    106,
+    136
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "sellingPrice": {
+   "text": "Selling price",
+   "count": 3,
+   "lines": [
+    107,
+    138,
+    141
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "targetMargin": {
+   "text": "Target margin (%)",
+   "count": 1,
+   "lines": [
+    108
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "profitMargin": {
+   "text": "Profit margin",
+   "count": 1,
+   "lines": [
+    111
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "markup": {
+   "text": "Markup",
+   "count": 2,
+   "lines": [
+    112,
+    142
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "profit": {
+   "text": "Profit",
+   "count": 2,
+   "lines": [
+    113,
+    144
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "priceForTargetMargin": {
+   "text": "Price for target margin",
+   "count": 1,
+   "lines": [
+    115
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "markupCalculator": {
+   "text": "Markup Calculator",
+   "count": 1,
+   "lines": [
+    131
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "markup2": {
+   "text": "Markup (%)",
+   "count": 1,
+   "lines": [
+    137
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "margin": {
+   "text": "Margin",
+   "count": 1,
+   "lines": [
+    143
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "salaryToHourlyCalculator": {
+   "text": "Salary to Hourly Calculator",
+   "count": 1,
+   "lines": [
+    157
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "annualSalary": {
+   "text": "Annual salary",
+   "count": 2,
+   "lines": [
+    162,
+    194
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "hoursPerWeek": {
+   "text": "Hours per week",
+   "count": 2,
+   "lines": [
+    163,
+    190
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "paidWeeksPerYear": {
+   "text": "Paid weeks per year",
+   "count": 2,
+   "lines": [
+    164,
+    191
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "hourlyWage": {
+   "text": "Hourly wage",
+   "count": 2,
+   "lines": [
+    167,
+    189
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "weekly": {
+   "text": "Weekly",
+   "count": 2,
+   "lines": [
+    168,
+    195
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "biWeekly": {
+   "text": "Bi-weekly",
+   "count": 2,
+   "lines": [
+    169,
+    196
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "monthly": {
+   "text": "Monthly",
+   "count": 1,
+   "lines": [
+    170
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "hourlyToSalaryCalculator": {
+   "text": "Hourly to Salary Calculator",
+   "count": 1,
+   "lines": [
+    184
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "daily8H": {
+   "text": "Daily (8 h)",
+   "count": 1,
+   "lines": [
+    198
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "overtimeCalculator": {
+   "text": "Overtime Calculator",
+   "count": 1,
+   "lines": [
+    221
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "hoursWorked": {
+   "text": "Hours worked",
+   "count": 1,
+   "lines": [
+    226
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "hourlyRate": {
+   "text": "Hourly rate",
+   "count": 1,
+   "lines": [
+    227
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "overtimeAfterH": {
+   "text": "Overtime after (h)",
+   "count": 1,
+   "lines": [
+    228
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "doubleTimeAfterH": {
+   "text": "Double time after (h)",
+   "count": 1,
+   "lines": [
+    230
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "overtimeMultiplier": {
+   "text": "Overtime multiplier",
+   "count": 1,
+   "lines": [
+    235
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "regularPay": {
+   "text": "Regular pay",
+   "count": 1,
+   "lines": [
+    242
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "overtimePay": {
+   "text": "Overtime pay",
+   "count": 1,
+   "lines": [
+    243
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "totalPay": {
+   "text": "Total pay",
+   "count": 1,
+   "lines": [
+    244
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "regularHours": {
+   "text": "Regular hours",
+   "count": 1,
+   "lines": [
+    246
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "electricityCostCalculator": {
+   "text": "Electricity Cost Calculator",
+   "count": 1,
+   "lines": [
+    271
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "wattage": {
+   "text": "Wattage",
+   "count": 1,
+   "lines": [
+    276
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "hoursUsedPerDay": {
+   "text": "Hours used per day",
+   "count": 1,
+   "lines": [
+    277
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "pricePerKWh": {
+   "text": "Price per kWh",
+   "count": 1,
+   "lines": [
+    278
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "costPerDay": {
+   "text": "Cost per day",
+   "count": 1,
+   "lines": [
+    281
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "costPerMonth": {
+   "text": "Cost per month",
+   "count": 1,
+   "lines": [
+    282
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "costPerYear": {
+   "text": "Cost per year",
+   "count": 1,
+   "lines": [
+    283
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "yearlyEnergyKWh": {
+   "text": "Yearly energy (kWh)",
+   "count": 1,
+   "lines": [
+    284
+   ],
+   "file": "src/components/calculators/MoneyTools.tsx"
+  }
+ },
+ "ui.pdf.Pdf417Engine": {
+  "pDF417BarcodeGenerator": {
+   "text": "PDF417 Barcode Generator",
+   "count": 1,
+   "lines": [
+    83
+   ],
+   "file": "src/components/pdf/Pdf417Engine.tsx"
+  },
+  "barcodeContent": {
+   "text": "Barcode content",
+   "count": 1,
+   "lines": [
+    86
+   ],
+   "file": "src/components/pdf/Pdf417Engine.tsx"
+  },
+  "enterTheDataToEncode": {
+   "text": "Enter the data to encode",
+   "count": 1,
+   "lines": [
+    90
+   ],
+   "file": "src/components/pdf/Pdf417Engine.tsx"
+  },
+  "generatedPDF417BarcodePreview": {
+   "text": "Generated PDF417 barcode preview",
+   "count": 1,
+   "lines": [
+    129
+   ],
+   "file": "src/components/pdf/Pdf417Engine.tsx"
+  }
+ },
+ "ui.pdf.PdfBase64Engine": {
+  "pDFDocument": {
+   "text": "PDF document",
+   "count": 1,
+   "lines": [
+    26
+   ],
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "pNGImage": {
+   "text": "PNG image",
+   "count": 1,
+   "lines": [
+    29
+   ],
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "jPEGImage": {
+   "text": "JPEG image",
+   "count": 1,
+   "lines": [
+    32
+   ],
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "unrecognisedData": {
+   "text": "Unrecognised data",
+   "count": 1,
+   "lines": [
+    34
+   ],
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "base64ToPDF": {
+   "text": "Base64 to PDF",
+   "count": 1,
+   "lines": [
+    146
+   ],
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "chooseAB64File": {
+   "text": "Choose a .b64 file",
+   "count": 1,
+   "lines": [
+    151
+   ],
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "base64Payload": {
+   "text": "Base64 payload",
+   "count": 1,
+   "lines": [
+    158
+   ],
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "jVBERi0xLjQKJ": {
+   "text": "JVBERi0xLjQKJ...",
+   "count": 1,
+   "lines": [
+    165
+   ],
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  }
+ },
+ "ui.pdf.PdfEmailEngine": {
+  "emailToPDFConverter": {
+   "text": "Email to PDF Converter",
+   "count": 1,
+   "lines": [
+    246
+   ],
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  },
+  "replaceEmail": {
+   "text": "Replace email",
+   "count": 1,
+   "lines": [
+    251
+   ],
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  },
+  "chooseAnEmailFile": {
+   "text": "Choose an email file",
+   "count": 1,
+   "lines": [
+    251
+   ],
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  },
+  "subject": {
+   "text": "Subject",
+   "count": 1,
+   "lines": [
+    262
+   ],
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  },
+  "from": {
+   "text": "From",
+   "count": 1,
+   "lines": [
+    268
+   ],
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  },
+  "date": {
+   "text": "Date",
+   "count": 1,
+   "lines": [
+    274
+   ],
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfMergeEngine": {
+  "mergePDFFiles": {
+   "text": "Merge PDF Files",
+   "count": 1,
+   "lines": [
+    70
+   ],
+   "file": "src/components/pdf/PdfMergeEngine.tsx"
+  },
+  "choosePDFFiles": {
+   "text": "Choose PDF files",
+   "count": 1,
+   "lines": [
+    76
+   ],
+   "file": "src/components/pdf/PdfMergeEngine.tsx"
+  },
+  "passwordForTheProtectedFile": {
+   "text": "Password for the protected file",
+   "count": 1,
+   "lines": [
+    139
+   ],
+   "file": "src/components/pdf/PdfMergeEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfMetaEngine": {
+  "title": {
+   "text": "Title",
+   "count": 1,
+   "lines": [
+    23
+   ],
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "author": {
+   "text": "Author",
+   "count": 1,
+   "lines": [
+    24
+   ],
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "subject": {
+   "text": "Subject",
+   "count": 1,
+   "lines": [
+    25
+   ],
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "keywords": {
+   "text": "Keywords",
+   "count": 1,
+   "lines": [
+    26
+   ],
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "producer": {
+   "text": "Producer",
+   "count": 1,
+   "lines": [
+    27
+   ],
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "creator": {
+   "text": "Creator",
+   "count": 1,
+   "lines": [
+    28
+   ],
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "replacePDF": {
+   "text": "Replace PDF",
+   "count": 1,
+   "lines": [
+    148
+   ],
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "chooseAPDF": {
+   "text": "Choose a PDF",
+   "count": 1,
+   "lines": [
+    148
+   ],
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "pDFPassword": {
+   "text": "PDF password",
+   "count": 1,
+   "lines": [
+    166
+   ],
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "pages": {
+   "text": "Pages",
+   "count": 1,
+   "lines": [
+    214
+   ],
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfSplitEngine": {
+  "splitPDF": {
+   "text": "Split PDF",
+   "count": 2,
+   "lines": [
+    93,
+    162
+   ],
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "replacePDF": {
+   "text": "Replace PDF",
+   "count": 1,
+   "lines": [
+    98
+   ],
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "chooseAPDF": {
+   "text": "Choose a PDF",
+   "count": 1,
+   "lines": [
+    98
+   ],
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "mode": {
+   "text": "Mode",
+   "count": 1,
+   "lines": [
+    110
+   ],
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "extractSelectedPagesIntoOnePDF": {
+   "text": "Extract selected pages into one PDF",
+   "count": 1,
+   "lines": [
+    116
+   ],
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "splitIntoSinglePages": {
+   "text": "Split into single pages",
+   "count": 1,
+   "lines": [
+    117
+   ],
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "splitIntoFixedSizeChunks": {
+   "text": "Split into fixed-size chunks",
+   "count": 1,
+   "lines": [
+    118
+   ],
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "pageRange": {
+   "text": "Page range",
+   "count": 1,
+   "lines": [
+    124
+   ],
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "pagesPerFile": {
+   "text": "Pages per file",
+   "count": 1,
+   "lines": [
+    138
+   ],
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "pDFPassword": {
+   "text": "PDF password",
+   "count": 1,
+   "lines": [
+    150
+   ],
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "extractPages": {
+   "text": "Extract pages",
+   "count": 1,
+   "lines": [
+    162
+   ],
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  }
+ }
+}

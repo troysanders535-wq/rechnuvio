@@ -1,0 +1,11 @@
+{
+  "namespace": "ui.engines.CryptoHashEngine",
+  "en": {
+    "passwordLength": "Password Length: {length} characters",
+    "symbols": "Symbols (!@#$)"
+  },
+  "de": {
+    "passwordLength": "Passwortlänge: {length} Zeichen",
+    "symbols": "Symbole (!@#$)"
+  }
+}

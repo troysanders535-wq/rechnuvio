@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Percent } from "lucide-react";
 import type { CalculatorVariant } from "@/data/calculatorTools";
+import { useTranslations } from "next-intl";
 import {
   CalcPanel,
   DetailList,
@@ -22,6 +23,7 @@ import {
 } from "./calc";
 
 export function PercentTools({ variant }: { variant: CalculatorVariant }) {
+  const tUi = useTranslations("ui.calculators.PercentTools");
   const [a, setA] = useState("15");
   const [b, setB] = useState("250");
   const [c, setC] = useState("40");
@@ -33,14 +35,14 @@ export function PercentTools({ variant }: { variant: CalculatorVariant }) {
   if (variant === "percent") {
     return (
       <CalcPanel
-        title="Percentage Calculator"
-        subtitle="X% of Y, what percent X is of Y, percentage change and the whole from a part."
+        title={tUi("percentageCalculator")}
+        subtitle={tUi("xOfYWhatPercentXIsOfYPercentageChangeAndTheWholeFromAPart")}
         icon={<Percent className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-3">
-          <NumberField label="Percent (%)" value={a} onChange={setA} />
-          <NumberField label="Value" value={b} onChange={setB} />
-          <NumberField label="Target percent (%)" value={c} onChange={setC} />
+          <NumberField label={tUi("percent")} value={a} onChange={setA} />
+          <NumberField label={tUi("value")} value={b} onChange={setB} />
+          <NumberField label={tUi("targetPercent")} value={c} onChange={setC} />
         </div>
 
         <ResultGrid>
@@ -60,7 +62,7 @@ export function PercentTools({ variant }: { variant: CalculatorVariant }) {
             unit="%"
           />
           <ResultCard
-            label={`Whole from ${a}% of ${numB}`}
+            label={tUi("wholeFromPercentOf", { percent: a, value: numB })}
             value={round(wholeFromPart(numB, numA), 4)}
             tone="slate"
           />
@@ -68,16 +70,13 @@ export function PercentTools({ variant }: { variant: CalculatorVariant }) {
 
         <DetailList
           items={[
-            { label: "Change from A to B", value: `${round(percentChange(numA, numB), 4)}%` },
-            { label: "Excel formula", value: "=A/100*B" },
-            { label: "What percent", value: "=A/B*100" },
+            { label: tUi("changeFromAToB"), value: `${round(percentChange(numA, numB), 4)}%` },
+            { label: tUi("excelFormula"), value: "=A/100*B" },
+            { label: tUi("whatPercent"), value: "=A/B*100" },
           ]}
         />
 
-        <FormulaNote>
-          percent of = (percent ÷ 100) × value · what percent = (part ÷ whole) × 100 · whole
-          from part = (part ÷ percent) × 100
-        </FormulaNote>
+        <FormulaNote>{tUi("percentOfWhatPercentAndWholeFormulaNote")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -87,29 +86,32 @@ export function PercentTools({ variant }: { variant: CalculatorVariant }) {
     const points = numB - numA;
     return (
       <CalcPanel
-        title="Percentage Change Calculator"
-        subtitle="Percentage change between an old and a new value."
+        title={tUi("percentageChangeCalculator")}
+        subtitle={tUi("percentageChangeBetweenAnOldAndANewValue")}
         icon={<Percent className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-2">
-          <NumberField label="Old value" value={a} onChange={setA} />
-          <NumberField label="New value" value={b} onChange={setB} />
+          <NumberField label={tUi("oldValue")} value={a} onChange={setA} />
+          <NumberField label={tUi("newValue")} value={b} onChange={setB} />
         </div>
         <ResultGrid>
-          <ResultCard label="Percentage change" value={round(change, 4)} unit="%" tone="emerald" />
-          <ResultCard label="Direction" value={change > 0 ? "Increase" : change < 0 ? "Decrease" : "No change"} tone="slate" />
-          <ResultCard label="Difference" value={round(points, 4)} tone="slate" />
-          <ResultCard label="Percentage points" value={round(points, 4)} tone="slate" />
+          <ResultCard label={tUi("percentageChange")} value={round(change, 4)} unit="%" tone="emerald" />
+          <ResultCard
+          label={tUi("direction")}
+          value={change > 0 ? tUi("increase") : change < 0 ? tUi("decrease") : tUi("noChange")}
+          tone="slate"
+        />
+          <ResultCard label={tUi("difference")} value={round(points, 4)} tone="slate" />
+          <ResultCard label={tUi("percentagePoints")} value={round(points, 4)} tone="slate" />
         </ResultGrid>
         <DetailList
           items={[
-            { label: "Working", value: `((${b} − ${a}) ÷ |${a}|) × 100 = ${round(change, 4)}%` },
-            { label: "Excel formula", value: "=(B2-A2)/ABS(A2)" },
+            { label: tUi("working"), value: `((${b} − ${a}) ÷ |${a}|) × 100 = ${round(change, 4)}%` },
+            { label: tUi("excelFormula"), value: "=(B2-A2)/ABS(A2)" },
           ]}
         />
         <FormulaNote>
-          Percentage change compares two values relative to the starting value. Percentage points
-          compare two percentages directly ({round(points, 4)} points here).
+          {tUi("percentageChangeAndPointsFormulaNote", { points: String(round(points, 4)) })}
         </FormulaNote>
       </CalcPanel>
     );
@@ -119,66 +121,63 @@ export function PercentTools({ variant }: { variant: CalculatorVariant }) {
     const increase = percentChange(numA, numB);
     return (
       <CalcPanel
-        title="Percentage Increase Calculator"
-        subtitle="Increase a number by a percent, or find the original value."
+        title={tUi("percentageIncreaseCalculator")}
+        subtitle={tUi("increaseANumberByAPercentOrFindTheOriginalValue")}
         icon={<Percent className="size-5 text-emerald-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-2">
-          <NumberField label="Original value" value={a} onChange={setA} />
-          <NumberField label="New value" value={b} onChange={setB} />
+          <NumberField label={tUi("originalValue")} value={a} onChange={setA} />
+          <NumberField label={tUi("newValue")} value={b} onChange={setB} />
+          <NumberField label={tUi("percent")} value={c} onChange={setC} />
         </div>
         <ResultGrid>
-          <ResultCard label="Percentage increase" value={round(increase, 4)} unit="%" tone="emerald" />
-          <ResultCard label="Amount added" value={round(numB - numA, 4)} tone="slate" />
+          <ResultCard label={tUi("percentageIncrease")} value={round(increase, 4)} unit="%" tone="emerald" />
+          <ResultCard label={tUi("amountAdded")} value={round(numB - numA, 4)} tone="slate" />
           <ResultCard
             label={`${a} + ${c}%`}
             value={round(numA * (1 + numC / 100), 4)}
             tone="sky"
           />
           <ResultCard
-            label="Original from new"
-            value={round(wholeFromPart(numB, numA === 0 ? 0 : numA + increase), 4)}
+            label={tUi("originalFromNew")}
+            value={round(numB / (1 + increase / 100 || 1), 4)}
             tone="slate"
           />
         </ResultGrid>
-        <FormulaNote>
-          percentage increase = ((new − old) ÷ old) × 100 · increased value = old × (1 + percent ÷
-          100)
-        </FormulaNote>
+        <FormulaNote>{tUi("percentageIncreaseFormulaNote")}</FormulaNote>
       </CalcPanel>
     );
   }
 
   if (variant === "percent-decrease") {
-    const decrease = percentChange(numB, numA);
+    // The decrease is measured against the value BEFORE the decrease.
+    const decrease = numA === 0 ? 0 : ((numA - numB) / Math.abs(numA)) * 100;
     return (
       <CalcPanel
-        title="Percentage Decrease Calculator"
-        subtitle="Reduce a number by a percent, or find the value before a decrease."
+        title={tUi("percentageDecreaseCalculator")}
+        subtitle={tUi("reduceANumberByAPercentOrFindTheValueBeforeADecrease")}
         icon={<Percent className="size-5 text-rose-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-2">
-          <NumberField label="Value before decrease" value={a} onChange={setA} />
-          <NumberField label="Value after decrease" value={b} onChange={setB} />
+          <NumberField label={tUi("valueBeforeDecrease")} value={a} onChange={setA} />
+          <NumberField label={tUi("valueAfterDecrease")} value={b} onChange={setB} />
+          <NumberField label={tUi("percent")} value={c} onChange={setC} />
         </div>
         <ResultGrid>
-          <ResultCard label="Percentage decrease" value={round(decrease, 4)} unit="%" tone="amber" />
-          <ResultCard label="Amount removed" value={round(numA - numB, 4)} tone="slate" />
+          <ResultCard label={tUi("percentageDecrease")} value={round(decrease, 4)} unit="%" tone="amber" />
+          <ResultCard label={tUi("amountRemoved")} value={round(numA - numB, 4)} tone="slate" />
           <ResultCard
             label={`${a} − ${c}%`}
             value={round(numA * (1 - numC / 100), 4)}
             tone="sky"
           />
           <ResultCard
-            label="Value before the decrease"
+            label={tUi("valueBeforeTheDecrease")}
             value={round(numB / (1 - decrease / 100 || 1), 4)}
             tone="slate"
           />
         </ResultGrid>
-        <FormulaNote>
-          percentage decrease = ((before − after) ÷ before) × 100 · reduced value = before × (1 −
-          percent ÷ 100)
-        </FormulaNote>
+        <FormulaNote>{tUi("percentageDecreaseFormulaNote")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -186,25 +185,25 @@ export function PercentTools({ variant }: { variant: CalculatorVariant }) {
   // percent-difference
   return (
     <CalcPanel
-      title="Percentage Difference Calculator"
-      subtitle="Uses the average of the two numbers as the reference — ideal for comparing unlike values."
+      title={tUi("percentageDifferenceCalculator")}
+      subtitle={tUi("usesTheAverageOfTheTwoNumbersAsTheReferenceIdealForComparingUnlikeValues")}
       icon={<Percent className="size-5 text-violet-700" />}
     >
       <div className="grid gap-4 sm:grid-cols-2">
-        <NumberField label="Value A" value={a} onChange={setA} />
-        <NumberField label="Value B" value={b} onChange={setB} />
+        <NumberField label={tUi("valueA")} value={a} onChange={setA} />
+        <NumberField label={tUi("valueB")} value={b} onChange={setB} />
       </div>
       <ResultGrid>
         <ResultCard
-          label="Percentage difference"
+          label={tUi("percentageDifference")}
           value={round(percentDifference(numA, numB), 4)}
           unit="%"
           tone="emerald"
         />
-        <ResultCard label="Absolute difference" value={round(Math.abs(numA - numB), 4)} tone="slate" />
-        <ResultCard label="Average of A and B" value={round((numA + numB) / 2, 4)} tone="slate" />
+        <ResultCard label={tUi("absoluteDifference")} value={round(Math.abs(numA - numB), 4)} tone="slate" />
+        <ResultCard label={tUi("averageOfAAndB")} value={round((numA + numB) / 2, 4)} tone="slate" />
         <ResultCard
-          label="Percentage change (A → B)"
+          label={tUi("percentageChangeAB")}
           value={round(percentChange(numA, numB), 4)}
           unit="%"
           tone="slate"
@@ -213,16 +212,13 @@ export function PercentTools({ variant }: { variant: CalculatorVariant }) {
       <DetailList
         items={[
           {
-            label: "Working",
+            label: tUi("working"),
             value: `(|${a} − ${b}| ÷ ((${a} + ${b}) ÷ 2)) × 100`,
           },
-          { label: "Excel formula", value: "=ABS(A2-B2)/((A2+B2)/2)" },
+          { label: tUi("excelFormula"), value: "=ABS(A2-B2)/((A2+B2)/2)" },
         ]}
       />
-      <FormulaNote>
-        Use percentage difference when the two numbers have no meaningful order (percentages of two
-        different populations). Use percentage change when one value is the starting point.
-      </FormulaNote>
+      <FormulaNote>{tUi("percentageDifferenceVersusChangeFormulaNote")}</FormulaNote>
     </CalcPanel>
   );
 }

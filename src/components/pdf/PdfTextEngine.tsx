@@ -15,12 +15,14 @@ import {
 } from "./shared";
 import { blocksToMarkdown, extractBlocks, type PdfBlock } from "./pdfText";
 import { closePdf, openPdf } from "./pdfjs";
+import { useTranslations } from "next-intl";
 
 export type PdfTextMode = "markdown" | "docx";
 
 type OcrResult = { page: number; text: string };
 
 export function PdfTextEngine({ mode }: { mode: PdfTextMode }) {
+  const tUi = useTranslations("ui.pdf.PdfTextEngine");
   const [file, setFile] = useState<File | null>(null);
   const [markdown, setMarkdown] = useState("");
   const [blocks, setBlocks] = useState<PdfBlock[]>([]);
@@ -33,16 +35,16 @@ export function PdfTextEngine({ mode }: { mode: PdfTextMode }) {
   const copy =
     mode === "markdown"
       ? {
-          title: "PDF to Markdown Converter",
+          title: tUi("pDFToMarkdownConverter"),
           description:
-            "Turn the text layer of a PDF into clean, structured Markdown you can paste into any editor or AI assistant.",
-          action: "Convert to Markdown",
+            tUi("turnTheTextLayerOfAPDFIntoCleanStructuredMarkdownYouCanPasteIntoAnyEditorOrAIAssistant"),
+          action: tUi("convertToMarkdown"),
         }
       : {
-          title: "PDF to DOCX Converter",
+          title: tUi("pDFToDOCXConverter"),
           description:
-            "Rebuild a PDF as an editable Word document with headings, lists and paragraphs preserved.",
-          action: "Convert to DOCX",
+            tUi("rebuildAPDFAsAnEditableWordDocumentWithHeadingsListsAndParagraphsPreserved"),
+          action: tUi("convertToDOCX"),
         };
 
   async function runOcr(
@@ -55,7 +57,7 @@ export function PdfTextEngine({ mode }: { mode: PdfTextMode }) {
 
     try {
       for (const pageNumber of pageNumbers) {
-        setStatus(`Running OCR on page ${pageNumber}…`);
+        setStatus(tUi("runningOcrOnPage", { page: pageNumber }));
         const page = await open.doc.getPage(pageNumber);
         const viewport = page.getViewport({ scale: 2 });
         const canvas = document.createElement("canvas");
@@ -82,7 +84,7 @@ export function PdfTextEngine({ mode }: { mode: PdfTextMode }) {
     if (!file) return;
     setBusy(true);
     setError(null);
-    setStatus("Reading the PDF…");
+    setStatus(tUi("readingThePDF"));
 
     let open: Awaited<ReturnType<typeof openPdf>> | null = null;
     try {
@@ -93,7 +95,7 @@ export function PdfTextEngine({ mode }: { mode: PdfTextMode }) {
       let ocrNote = "";
 
       if (useOcr && emptyPages.length) {
-        setStatus(`OCR on ${emptyPages.length} scanned page(s)…`);
+        setStatus(tUi("runningOcrOnScannedPages", { count: emptyPages.length }));
         const ocrResults = await runOcr(open, emptyPages);
         if (ocrResults.length) {
           const extra: PdfBlock[] = ocrResults.map((r) => ({
@@ -101,12 +103,12 @@ export function PdfTextEngine({ mode }: { mode: PdfTextMode }) {
             text: r.text,
           }));
           finalBlocks = [...extracted, ...extra];
-          ocrNote = ` ${ocrResults.length} scanned page(s) were read with OCR.`;
+          ocrNote = tUi("scannedPagesWereReadWithOcr", { count: ocrResults.length });
         } else {
-          ocrNote = " OCR did not find readable text on the scanned pages.";
+          ocrNote = tUi("oCRDidNotFindReadableTextOnTheScannedPages");
         }
       } else if (useOcr) {
-        ocrNote = " Every page already had a text layer, so OCR was not needed.";
+        ocrNote = tUi("everyPageAlreadyHadATextLayerSoOCRWasNotNeeded");
       }
 
       setBlocks(finalBlocks);
@@ -115,17 +117,26 @@ export function PdfTextEngine({ mode }: { mode: PdfTextMode }) {
         const md = blocksToMarkdown(finalBlocks);
         setMarkdown(md);
         setStatus(
-          `Converted ${finalBlocks.length} block(s).${ocrNote}`,
+          ocrNote
+            ? tUi("convertedBlocksWithOcrNote", {
+                count: finalBlocks.length,
+                note: ocrNote,
+              })
+            : tUi("convertedBlocks", { count: finalBlocks.length }),
         );
       } else {
-        setStatus(`Building the Word document…${ocrNote}`);
+        setStatus(
+          ocrNote
+            ? tUi("buildingTheWordDocumentWithOcrNote", { note: ocrNote })
+            : tUi("buildingTheWordDocument"),
+        );
         const doc = buildDocx(finalBlocks);
         const blob = await Packer.toBlob(doc);
         downloadBlob(blob, `${baseName(file.name)}.docx`);
-        setStatus(`Downloaded ${baseName(file.name)}.docx.`);
+        setStatus(tUi("downloadedTheDocxFile", { file: baseName(file.name) }));
       }
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Could not convert the file.");
+      setError(err instanceof Error ? err.message : tUi("couldNotConvertTheFile"));
       setStatus(null);
     } finally {
       if (open) await closePdf(open);
@@ -139,7 +150,7 @@ export function PdfTextEngine({ mode }: { mode: PdfTextMode }) {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      setError("Your browser blocked clipboard access. Select the text and copy it manually.");
+      setError(tUi("yourBrowserBlockedClipboardAccessSelectTheTextAndCopyItManually"));
     }
   }
 
@@ -152,8 +163,8 @@ export function PdfTextEngine({ mode }: { mode: PdfTextMode }) {
     <Workspace title={copy.title} description={copy.description}>
       <DropZone
         accept="application/pdf,.pdf"
-        label={file ? "Replace PDF" : "Choose a PDF"}
-        hint="One .pdf file. Everything runs in your browser."
+        label={file ? tUi("replacePDF") : tUi("chooseAPDF")}
+        hint={tUi("onePdfFileEverythingRunsInYourBrowser")}
         onFiles={(list) => {
           setFile(list[0] ?? null);
           setMarkdown("");
@@ -174,10 +185,9 @@ export function PdfTextEngine({ mode }: { mode: PdfTextMode }) {
               className="mt-0.5 size-4 rounded border-slate-300 text-sky-600 focus:ring-sky-500 dark:border-slate-600 dark:bg-slate-800"
             />
             <span>
-              Use OCR for scanned pages
+              {tUi("useOCRForScannedPages")}
               <span className="mt-0.5 block text-xs text-slate-500 dark:text-slate-400">
-                Pages without a text layer are rendered and read with Tesseract.js.
-                The first run downloads the English language data.
+                {tUi("ocrExplainsTheTesseractRendering")}
               </span>
             </span>
           </label>
@@ -193,14 +203,14 @@ export function PdfTextEngine({ mode }: { mode: PdfTextMode }) {
                   onClick={handleCopy}
                   className="rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-50 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
                 >
-                  {copied ? "Copied!" : "Copy Markdown"}
+                  {copied ? tUi("copied") : tUi("copyMarkdown")}
                 </button>
                 <button
                   type="button"
                   onClick={handleDownloadMarkdown}
                   className="rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-50 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
                 >
-                  Download .md
+                  {tUi("downloadMd")}
                 </button>
               </>
             ) : null}
@@ -214,7 +224,7 @@ export function PdfTextEngine({ mode }: { mode: PdfTextMode }) {
 
           {mode === "markdown" && markdown ? (
             <>
-              <Field label="Markdown output">
+              <Field label={tUi("markdownOutput")}>
                 <textarea
                   value={markdown}
                   onChange={(e) => setMarkdown(e.target.value)}
@@ -224,8 +234,7 @@ export function PdfTextEngine({ mode }: { mode: PdfTextMode }) {
                 />
               </Field>
               <p className="text-xs text-slate-500 dark:text-slate-400">
-                {blocks.length} block(s) extracted. Edit the output before copying
-                if you like.
+                {tUi("extractedBlocksCount", { count: blocks.length })}
               </p>
             </>
           ) : null}

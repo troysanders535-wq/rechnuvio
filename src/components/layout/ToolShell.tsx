@@ -12,14 +12,44 @@ import {
   Check,
   HelpCircle,
   Sparkles,
+  ListOrdered,
   ChevronDown,
   ArrowRight,
   AlertCircle
 } from "lucide-react";
+import { getHowToSteps } from "@/data/howTo";
 
 interface ToolShellProps {
   tool: ToolItem;
   children: React.ReactNode;
+}
+
+/**
+ * Render the lightweight inline markup used by the "How to use" steps:
+ * **bold** and `code`. Deliberately not a full markdown parser - the step
+ * strings are generated, so only these two markers can appear.
+ */
+function renderInline(text: string): React.ReactNode[] {
+  return text.split(/(\*\*[^*]+\*\*|`[^`]+`)/g).map((part, i) => {
+    if (part.startsWith("**") && part.endsWith("**") && part.length > 4) {
+      return (
+        <strong key={i} className="font-semibold text-slate-900 dark:text-slate-100">
+          {part.slice(2, -2)}
+        </strong>
+      );
+    }
+    if (part.startsWith("`") && part.endsWith("`") && part.length > 2) {
+      return (
+        <code
+          key={i}
+          className="rounded bg-slate-100 px-1 py-0.5 font-mono text-[11px] text-slate-800 dark:bg-slate-800 dark:text-slate-200"
+        >
+          {part.slice(1, -1)}
+        </code>
+      );
+    }
+    return part;
+  });
 }
 
 export function ToolShell({ tool, children }: ToolShellProps) {
@@ -28,6 +58,7 @@ export function ToolShell({ tool, children }: ToolShellProps) {
   const locale = useLocale();
 
   const localizedTool = getLocalizedTool(tool, locale);
+  const howToSteps = getHowToSteps(tool.slug, locale);
 
   const [copied, setCopied] = useState(false);
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(0);
@@ -183,6 +214,36 @@ export function ToolShell({ tool, children }: ToolShellProps) {
                 ))}
               </div>
             </section>
+
+            {/* How to use this tool */}
+            {howToSteps.length > 0 && (
+              <section>
+                <div className="flex items-center gap-2">
+                  <ListOrdered className="size-5 text-sky-700 dark:text-sky-400" />
+                  <h2 className="text-xl font-bold text-slate-900 dark:text-white">
+                    {tShell("howToHeading")}
+                  </h2>
+                </div>
+                <ol className="mt-4 space-y-2.5">
+                  {howToSteps.map((step, idx) => (
+                    <li
+                      key={idx}
+                      className="flex items-start gap-3 rounded-xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-900"
+                    >
+                      <span
+                        aria-hidden="true"
+                        className="grid size-6 shrink-0 place-items-center rounded-full bg-sky-100 text-[11px] font-bold text-sky-700 dark:bg-sky-950 dark:text-sky-300"
+                      >
+                        {idx + 1}
+                      </span>
+                      <span className="text-xs leading-relaxed text-slate-600 dark:text-slate-400">
+                        {renderInline(step)}
+                      </span>
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            )}
 
             {/* Interactive FAQ Section */}
             <section>

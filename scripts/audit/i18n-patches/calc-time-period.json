@@ -1,0 +1,11 @@
+{
+  "namespace": "ui.calculators.TimeTools",
+  "en": {
+    "inTheAfternoon": "in the afternoon",
+    "inTheMorning": "in the morning"
+  },
+  "de": {
+    "inTheAfternoon": "nachmittags",
+    "inTheMorning": "vormittags"
+  }
+}

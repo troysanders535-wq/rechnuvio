@@ -12,18 +12,20 @@ import {
   Zap
 } from "lucide-react";
 import { jsonToToon, toonToJson, estimateTokens } from "@/utils/toon";
+import { useTranslations } from "next-intl";
 
 interface JsonToonViewProps {
   slug: string;
 }
 
 export function JsonToonView({ slug }: JsonToonViewProps) {
+  const tUi = useTranslations("ui.engines.json.JsonToonView");
   const isToonToJsonMode = slug === "toon-to-json";
 
   const sampleJsonObj = {
-    appName: "Digital ToolPad",
+    appName: tUi("digitalToolPad"),
     version: "2.0.0",
-    features: ["Zero Server Uploads", "Private", "Fast"],
+    features: [tUi("zeroServerUploads"), "Private", "Fast"],
     users: [
       { id: 1, name: "Alice", role: "admin", department: "Engineering" },
       { id: 2, name: "Bob", role: "developer", department: "Engineering" },
@@ -80,7 +82,7 @@ export function JsonToonView({ slug }: JsonToonViewProps) {
     } catch (err: any) {
       return {
         output: "",
-        error: err.message || "Conversion error",
+        error: err.message || tUi("conversionError"),
         tokensInput: 0,
         tokensOutput: 0,
         savingsPct: 0,
@@ -128,8 +130,8 @@ export function JsonToonView({ slug }: JsonToonViewProps) {
             <ArrowRightLeft className="size-3.5" />
             <span>
               {mode === "json-to-toon"
-                ? "Mode: JSON → TOON"
-                : "Mode: TOON → JSON"}
+                ? tUi("modeJSONTOON")
+                : tUi("modeTOONJSON")}
             </span>
           </button>
         </div>
@@ -142,7 +144,7 @@ export function JsonToonView({ slug }: JsonToonViewProps) {
             className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 disabled:opacity-40"
           >
             <Copy className="size-3.5" />
-            <span>{copied ? "Copied!" : "Copy Output"}</span>
+            <span>{copied ? tUi("copied") : tUi("copyOutput")}</span>
           </button>
           <button
             type="button"
@@ -151,13 +153,13 @@ export function JsonToonView({ slug }: JsonToonViewProps) {
             className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 disabled:opacity-40"
           >
             <Download className="size-3.5" />
-            <span className="hidden sm:inline">Download</span>
+            <span className="hidden sm:inline">{tUi("download")}</span>
           </button>
           <button
             type="button"
             onClick={() => setInput("")}
             className="rounded p-1.5 text-slate-400 hover:text-rose-600"
-            title="Clear"
+            title={tUi("clear")}
           >
             <Trash2 className="size-4" />
           </button>
@@ -169,15 +171,13 @@ export function JsonToonView({ slug }: JsonToonViewProps) {
         <div className="flex items-center justify-between border-b border-emerald-200 bg-emerald-50/80 px-4 py-2.5 text-xs text-emerald-900 dark:border-emerald-900/60 dark:bg-emerald-950/40 dark:text-emerald-300">
           <div className="flex items-center gap-2 font-bold">
             <Zap className="size-4 text-emerald-600 dark:text-emerald-400 fill-emerald-600" />
-            <span>
-              Token Reduction: Saved {conversion.savingsPct}% LLM Context Tokens!
-            </span>
+            <span>{tUi("tokenReduction", { saved: conversion.savingsPct })}</span>
           </div>
           <div className="flex items-center gap-3 font-mono text-[11px]">
-            <span>JSON: ~{conversion.tokensInput} tokens</span>
+            <span>{tUi("tokensJson", { count: conversion.tokensInput })}</span>
             <span>→</span>
             <span className="font-bold text-emerald-700 dark:text-emerald-300">
-              TOON: ~{conversion.tokensOutput} tokens
+              {tUi("tokensToon", { count: conversion.tokensOutput })}
             </span>
           </div>
         </div>
@@ -195,15 +195,15 @@ export function JsonToonView({ slug }: JsonToonViewProps) {
       <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-slate-200 dark:divide-slate-800">
         <div className="flex flex-col">
           <div className="bg-slate-100 px-4 py-1.5 text-[11px] font-bold text-slate-600 dark:bg-slate-900 dark:text-slate-400 border-b border-slate-200 dark:border-slate-800">
-            {mode === "json-to-toon" ? "JSON Input" : "TOON Input"}
+            {mode === "json-to-toon" ? tUi("jSONInput") : tUi("tOONInput")}
           </div>
           <textarea
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder={
               mode === "json-to-toon"
-                ? "Paste JSON here..."
-                : "Paste TOON notation here..."
+                ? tUi("pasteJsonHere")
+                : tUi("pasteToonNotationHere")
             }
             rows={16}
             spellCheck={false}
@@ -213,12 +213,12 @@ export function JsonToonView({ slug }: JsonToonViewProps) {
 
         <div className="flex flex-col">
           <div className="bg-slate-100 px-4 py-1.5 text-[11px] font-bold text-slate-600 dark:bg-slate-900 dark:text-slate-400 border-b border-slate-200 dark:border-slate-800">
-            {mode === "json-to-toon" ? "TOON Output (Compact)" : "JSON Output"}
+            {mode === "json-to-toon" ? tUi("tOONOutputCompact") : tUi("jSONOutput")}
           </div>
           <textarea
             value={conversion.output}
             readOnly
-            placeholder="Converted result will appear here..."
+            placeholder={tUi("convertedResultWillAppearHere")}
             rows={16}
             spellCheck={false}
             className="w-full resize-y bg-slate-950 p-4 font-mono text-xs leading-relaxed text-sky-400 outline-none placeholder:text-slate-600"

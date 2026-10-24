@@ -1,0 +1,35 @@
+{
+  "namespace": "ui.calculators.FractionTools",
+  "en": {
+    "decimal": "Decimal",
+    "crossMultiply": "Cross multiply",
+    "gcd": "GCD",
+    "beforeSimplifying": "Before simplifying",
+    "repeatingDecimalsHint": "Repeating decimals: 0.333... or 0.3(3)",
+    "repeating": "Repeating?",
+    "repeatingPeriodLabel": "Repeating period",
+    "repeatingPeriodValue": "over the {period}",
+    "terminatingDecimal": "terminating decimal",
+    "simplifyByGreatestCommonDivisor": "divide numerator and denominator by their greatest common divisor (GCD). A mixed number is first converted to an improper fraction: {mixed} = {result}",
+    "mixedToImproperFormula": "mixed to improper: (whole × denominator + numerator) ÷ denominator",
+    "fractionsFromAToBAndLCD": "the fractions run from A to B — the fractions in between step the numerator up and keep the denominator of A · LCD = LCM of the denominators",
+    "decimalToFractionByPowersOfTen": "Multiply by powers of ten until the decimal is whole, then simplify. 0.375 = 375/1000 = 3/8.",
+    "repeatingDecimalRule": "decimal = numerator ÷ denominator. A fraction has a repeating decimal when the denominator has prime factors other than 2 and 5."
+  },
+  "de": {
+    "decimal": "Dezimalzahl",
+    "crossMultiply": "Kreuzmultiplikation",
+    "gcd": "GCD",
+    "beforeSimplifying": "Vor dem Kürzen",
+    "repeatingDecimalsHint": "Wiederkehrende Dezimalzahlen: 0.333... oder 0.3(3)",
+    "repeating": "Periodisch?",
+    "repeatingPeriodLabel": "Wiederholungsperiode",
+    "repeatingPeriodValue": "über {period} Stellen",
+    "terminatingDecimal": "endlicher Dezimalwert",
+    "simplifyByGreatestCommonDivisor": "Zähler und Nenner durch ihren größten gemeinsamen Teiler (GCD) teilen. Eine gemischte Zahl wird zuerst in einen uneigentlichen Bruch umgewandelt: {mixed} = {result}",
+    "mixedToImproperFormula": "gemischte Zahl in uneigentlichen Bruch: (Ganzzahl × Nenner + Zähler) ÷ Nenner",
+    "fractionsFromAToBAndLCD": "die Brüche laufen von A bis B — die Brüche dazwischen erhöhen den Zähler um eins und behalten den Nenner von A · LCD = LCM der Nenner",
+    "decimalToFractionByPowersOfTen": "Mit Zehnerpotenzen multiplizieren, bis die Dezimalzahl ganz ist, dann kürzen. 0,375 = 375/1000 = 3/8.",
+    "repeatingDecimalRule": "Dezimalzahl = Zähler ÷ Nenner. Ein Bruch hat eine periodische Dezimalzahl, wenn der Nenner andere Primfaktoren als 2 und 5 hat."
+  }
+}

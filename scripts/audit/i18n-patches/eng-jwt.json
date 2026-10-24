@@ -1,0 +1,11 @@
+{
+  "namespace": "ui.engines.CryptoHashEngine",
+  "en": {
+    "invalidJWT": "Invalid JWT",
+    "copied": "Copied!"
+  },
+  "de": {
+    "invalidJWT": "Ungültiges JWT",
+    "copied": "Kopiert!"
+  }
+}

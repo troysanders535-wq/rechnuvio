@@ -1,0 +1,27 @@
+{
+  "namespace": "ui.engines.randomizers",
+  "en": {
+    "dice": {
+      "exportCsv": "Export CSV",
+      "clearHistory": "Clear history",
+      "csvEmpty": "Roll the dice first - there is nothing to export yet.",
+      "probabilityGuide": "Two-dice probability guide",
+      "probabilityIntro": "Two six-sided dice have 36 equally likely outcomes. These are the chances of every sum.",
+      "sumHeader": "Sum",
+      "combinationsHeader": "Combinations",
+      "chanceHeader": "Chance"
+    }
+  },
+  "de": {
+    "dice": {
+      "exportCsv": "CSV exportieren",
+      "clearHistory": "Verlauf leeren",
+      "csvEmpty": "Würfeln Sie zuerst - es gibt noch nichts zu exportieren.",
+      "probabilityGuide": "Zwei-Würfel-Wahrscheinlichkeitsführer",
+      "probabilityIntro": "Zwei sechsseitige Würfel haben 36 gleich wahrscheinliche Ergebnisse. Das sind die Chancen für jede Summe.",
+      "sumHeader": "Summe",
+      "combinationsHeader": "Kombinationen",
+      "chanceHeader": "Wahrscheinlichkeit"
+    }
+  }
+}

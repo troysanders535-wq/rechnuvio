@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -19,7 +23,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     }
   },
   "include": [
@@ -28,7 +34,27 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
+    "**/*.mts",
+    ".next-audit/types/**/*.ts",
+    ".next-audit/dev/types/**/*.ts",
+    ".next-audit2/types/**/*.ts",
+    ".next-audit2/dev/types/**/*.ts",
+    ".next-fix/types/**/*.ts",
+    ".next-fix/dev/types/**/*.ts",
+    ".next-img/types/**/*.ts",
+    ".next-img/dev/types/**/*.ts",
+    ".next-media/types/**/*.ts",
+    ".next-media/dev/types/**/*.ts",
+    ".next-csv/types/**/*.ts",
+    ".next-csv/dev/types/**/*.ts",
+    ".next-rand/types/**/*.ts",
+    ".next-rand/dev/types/**/*.ts",
+    ".next-td2/types/**/*.ts",
+    ".next-td2/dev/types/**/*.ts",
+    ".next-rand2/types/**/*.ts",
+    ".next-rand2/dev/types/**/*.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }

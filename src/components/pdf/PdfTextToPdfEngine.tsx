@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import {
   ActionButton,
   Field,
@@ -112,6 +113,7 @@ export function parseMarkdown(source: string): Block[] {
 }
 
 export function PdfTextToPdfEngine() {
+  const tUi = useTranslations("ui.pdf.PdfTextToPdfEngine");
   const [source, setSource] = useState("");
   const [title, setTitle] = useState("");
   const [busy, setBusy] = useState(false);
@@ -185,9 +187,9 @@ export function PdfTextToPdfEngine() {
         .trim()
         .replace(/\s+/g, "-");
       downloadBlob(blob, `${name || "document"}.pdf`);
-      setInfo(`Created a PDF with ${blocks.length} block(s).`);
+      setInfo(tUi("createdAPdfWithBlocks", { count: blocks.length }));
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Could not build the PDF.");
+      setError(err instanceof Error ? err.message : tUi("couldNotBuildThePDF"));
     } finally {
       setBusy(false);
     }
@@ -195,25 +197,25 @@ export function PdfTextToPdfEngine() {
 
   return (
     <Workspace
-      title="Markdown to PDF"
-      description="Turn Markdown or plain text into a clean, printable PDF. Headings, lists, quotes and code blocks are preserved."
+      title={tUi("markdownToPDF")}
+      description={tUi("turnMarkdownOrPlainTextIntoACleanPrintablePDF")}
     >
-      <Field label="Document title" hint="Optional — shown as the top-level heading.">
+      <Field label={tUi("documentTitle")} hint={tUi("optionalShownAsTheTopLevelHeading")}>
         <input
           type="text"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-          placeholder="My document"
+          placeholder={tUi("myDocument")}
           className="mt-1.5 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 outline-none focus:border-sky-500 focus:ring-2 focus:ring-sky-500/30 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
         />
       </Field>
 
       <div className="mt-4">
-        <Field label="Content" hint="Markdown is supported: # headings, - bullets, > quotes and ``` code blocks.">
+        <Field label={tUi("content")} hint={tUi("markdownIsSupported")}>
           <textarea
             value={source}
             onChange={(e) => setSource(e.target.value)}
-            placeholder="# Report&#10;&#10;Write or paste your content here."
+            placeholder={tUi("contentPlaceholder")}
             spellCheck={false}
             className="mt-1.5 min-h-64 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 font-mono text-sm text-slate-900 outline-none focus:border-sky-500 focus:ring-2 focus:ring-sky-500/30 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
           />
@@ -222,7 +224,7 @@ export function PdfTextToPdfEngine() {
 
       <div className="mt-5">
         <ActionButton onClick={handleConvert} busy={busy} disabled={!source.trim()}>
-          Generate PDF
+          {tUi("generatePDF")}
         </ActionButton>
       </div>
 

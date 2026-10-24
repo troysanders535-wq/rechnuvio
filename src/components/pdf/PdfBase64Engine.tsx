@@ -11,27 +11,34 @@ import {
   textareaClass,
 } from "./shared";
 import { createPdfDoc, imageToEmbeddable } from "./pdfLib";
+import { useTranslations } from "next-intl";
 
 type Detected = {
   kind: "pdf" | "png" | "jpeg" | "unknown";
-  label: string;
   bytes: Uint8Array;
 };
 
+/**
+ * Detect the file type from the magic bytes.
+ *
+ * The helper returns the kind only. The label is a translatable string and
+ * has to be produced by the component, because a module-level helper cannot
+ * call the translation hook.
+ */
 function detect(bytes: Uint8Array): Detected {
   const startsWith = (...signature: number[]) =>
     signature.every((byte, i) => bytes[i] === byte);
 
   if (bytes.length > 4 && startsWith(0x25, 0x50, 0x44, 0x46)) {
-    return { kind: "pdf", label: "PDF document", bytes };
+    return { kind: "pdf", bytes };
   }
   if (bytes.length > 8 && startsWith(0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a)) {
-    return { kind: "png", label: "PNG image", bytes };
+    return { kind: "png", bytes };
   }
   if (bytes.length > 3 && startsWith(0xff, 0xd8, 0xff)) {
-    return { kind: "jpeg", label: "JPEG image", bytes };
+    return { kind: "jpeg", bytes };
   }
-  return { kind: "unknown", label: "Unrecognised data", bytes };
+  return { kind: "unknown", bytes };
 }
 
 function toBytes(input: string): Uint8Array {
@@ -58,6 +65,7 @@ function outputName(name: string): string {
 }
 
 export function PdfBase64Engine() {
+  const tUi = useTranslations("ui.pdf.PdfBase64Engine");
   const [input, setInput] = useState("");
   const [fileName, setFileName] = useState("document");
   const [detected, setDetected] = useState<Detected | null>(null);
@@ -65,22 +73,30 @@ export function PdfBase64Engine() {
   const [error, setError] = useState<string | null>(null);
   const [info, setInfo] = useState<string | null>(null);
 
+  /** The translatable name of a detected file type. */
+  const labelFor = (kind: Detected["kind"]) => {
+    if (kind === "pdf") return tUi("pDFDocument");
+    if (kind === "png") return tUi("pNGImage");
+    if (kind === "jpeg") return tUi("jPEGImage");
+    return tUi("unrecognisedData");
+  };
+
   function handleInspect() {
     setError(null);
     setInfo(null);
     try {
       const bytes = toBytes(input);
-      if (!bytes.length) throw new Error("Paste a Base64 payload first.");
+      if (!bytes.length) throw new Error(tUi("pasteABase64PayloadFirst"));
       const found = detect(bytes);
       setDetected(found);
       setInfo(
         found.kind === "unknown"
-          ? "The payload decoded, but it is not a PDF, PNG or JPEG."
-          : `Decoded ${bytes.length} bytes — ${found.label}.`,
+          ? tUi("thePayloadDecodedButItIsNotAPDFPNGOrJPEG")
+          : `Decoded ${bytes.length} bytes — ${labelFor(found.kind)}.`,
       );
     } catch (err) {
       setDetected(null);
-      setError(err instanceof Error ? err.message : "Could not decode the payload.");
+      setError(err instanceof Error ? err.message : tUi("couldNotDecodeThePayload"));
     }
   }
 
@@ -90,18 +106,18 @@ export function PdfBase64Engine() {
 
     try {
       const bytes = toBytes(input);
-      if (!bytes.length) throw new Error("Paste a Base64 payload first.");
+      if (!bytes.length) throw new Error(tUi("pasteABase64PayloadFirst"));
       const found = detect(bytes);
 
       if (found.kind === "pdf") {
         downloadBytes(bytes, outputName(fileName));
-        setInfo("The payload was already a PDF and was downloaded unchanged.");
+        setInfo(tUi("thePayloadWasAlreadyAPDFAndWasDownloadedUnchanged"));
         return;
       }
 
       if (found.kind !== "png" && found.kind !== "jpeg") {
         throw new Error(
-          "Only PDF, PNG and JPEG payloads can be turned into a PDF. This one is not recognised.",
+          tUi("onlyPDFPNGAndJPEGPayloadsCanBeTurnedIntoAPDFThisOneIsNotRecognised"),
         );
       }
 
@@ -115,9 +131,9 @@ export function PdfBase64Engine() {
       page.drawImage(image, { x: 0, y: 0, width: image.width, height: image.height });
       const out = await doc.save();
       downloadBytes(out, outputName(fileName));
-      setInfo(`Converted the ${found.label} into a PDF.`);
+      setInfo(`Converted the ${labelFor(found.kind)} into a PDF.`);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Could not build the PDF.");
+      setError(err instanceof Error ? err.message : tUi("couldNotBuildThePDF"));
     } finally {
       setBusy(false);
     }
@@ -135,34 +151,34 @@ export function PdfBase64Engine() {
       const bytes = toBytes(text);
       const found = detect(bytes);
       setDetected(found);
-      setInfo(`Loaded ${file.name} — ${found.label}.`);
+      setInfo(`Loaded ${file.name} — ${labelFor(found.kind)}.`);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Could not read the file.");
+      setError(err instanceof Error ? err.message : tUi("couldNotReadTheFile"));
     }
   }
 
   return (
     <Workspace
-      title="Base64 to PDF"
-      description="Decode a Base64 payload and turn it into a PDF, or download the original file."
+      title={tUi("base64ToPDF")}
+      description={tUi("decodeABase64PayloadAndTurnItIntoAPDFOrDownloadTheOriginalFile")}
     >
       <DropZone
         accept=".txt,.b64,.base64,.pdf,.png,.jpg,.jpeg,text/plain,application/pdf,image/png,image/jpeg"
-        label="Choose a .b64 file"
-        hint="Or paste the Base64 payload below."
+        label={tUi("chooseAB64File")}
+        hint={tUi("orPasteTheBase64PayloadBelow")}
         onFiles={(list) => void handleFile(list)}
         disabled={busy}
       />
 
       <div className="mt-4">
-        <Field label="Base64 payload">
+        <Field label={tUi("base64Payload")}>
           <textarea
             value={input}
             onChange={(e) => {
               setInput(e.target.value);
               setDetected(null);
             }}
-            placeholder="JVBERi0xLjQKJ..."
+            placeholder={tUi("jVBERi0xLjQKJ")}
             spellCheck={false}
             className={textareaClass}
           />
@@ -176,14 +192,14 @@ export function PdfBase64Engine() {
           disabled={busy || !input.trim()}
           className="rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-50 disabled:opacity-60 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
         >
-          Inspect payload
+          {tUi("inspectPayload")}
         </button>
         <ActionButton onClick={handleConvert} busy={busy} disabled={!input.trim()}>
-          Convert to PDF
+          {tUi("convertToPDF")}
         </ActionButton>
         {detected ? (
           <span className="text-sm text-slate-500 dark:text-slate-400">
-            Detected: {detected.label}
+            Detected: {labelFor(detected.kind)}
           </span>
         ) : null}
       </div>

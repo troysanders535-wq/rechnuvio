@@ -1,0 +1,41 @@
+{
+  "namespace": "ui.engines.TextDocxWorkspace",
+  "en": {
+    "removeAllComments": "Remove all comments",
+    "keepCommentsClearReviewerNames": "Keep comments, clear reviewer names",
+    "insertionsAccepted": "Insertions accepted",
+    "deletionsRemoved": "Deletions removed",
+    "commentAnchorsRemoved": "Comment anchors removed",
+    "reviewerNamesCleared": "Reviewer names cleared",
+    "fileLabel": "File",
+    "movesAccepted": "Moves accepted",
+    "commentsFound": "Comments found",
+    "none": "none",
+    "createdLabel": "Created",
+    "theConverterReportedOneNote": "The converter reported {count} note about this document - unsupported Word features were skipped.",
+    "theConverterReportedSeveralNotes": "The converter reported {count} notes about this document - unsupported Word features were skipped.",
+    "removingTheCommentsAlsoDropsTheCommentPart": "Removing the comments also drops the comment part, its relationship and its content type, so the file stays a clean Word document. Keeping the comments only clears the author and the initials of every comment.",
+    "theDocumentIsUnpackedRewrittenAndPackedAgainInYourBrowser": "The document is unpacked, rewritten and packed again in your browser. Insertions are kept, deletions are dropped and the reviewer names are removed from the file.",
+    "nothingIsUploadedTheDocxFileIsOpenedRewrittenAndPackedAgain": "Nothing is uploaded - the .docx file is opened, rewritten and packed again inside your browser.",
+    "theDocumentStaysOnYourComputerNothingIsUploadedThePDFIsGeneratedInYourBrowser": "The document stays on your computer - nothing is uploaded. The PDF is generated in your browser from the plain text of the file."
+  },
+  "de": {
+    "removeAllComments": "Alle Kommentare entfernen",
+    "keepCommentsClearReviewerNames": "Kommentare behalten, Namen der Prüfer entfernen",
+    "insertionsAccepted": "Übernommene Einfügungen",
+    "deletionsRemoved": "Entfernte Löschungen",
+    "commentAnchorsRemoved": "Entfernte Kommentar-Anker",
+    "reviewerNamesCleared": "Namen der Prüfer entfernt",
+    "fileLabel": "Datei",
+    "movesAccepted": "Übernommene Verschiebungen",
+    "commentsFound": "Gefundene Kommentare",
+    "none": "keine",
+    "createdLabel": "Erstellt",
+    "theConverterReportedOneNote": "Der Konverter hat {count} Hinweis zu diesem Dokument gemeldet - nicht unterstützte Word-Funktionen wurden übersprungen.",
+    "theConverterReportedSeveralNotes": "Der Konverter hat {count} Hinweise zu diesem Dokument gemeldet - nicht unterstützte Word-Funktionen wurden übersprungen.",
+    "removingTheCommentsAlsoDropsTheCommentPart": "Beim Entfernen der Kommentare werden auch der Kommentarteil, die Beziehung und der Inhaltstyp gelöscht, sodass die Datei ein sauberes Word-Dokument bleibt. Beim Behalten der Kommentare werden nur der Autor und die Initialen jedes Kommentars geleert.",
+    "theDocumentIsUnpackedRewrittenAndPackedAgainInYourBrowser": "Das Dokument wird in Ihrem Browser entpackt, neu geschrieben und wieder gepackt. Einfügungen bleiben erhalten, Löschungen werden verworfen, und die Namen der Prüfer werden aus der Datei entfernt.",
+    "nothingIsUploadedTheDocxFileIsOpenedRewrittenAndPackedAgain": "Es wird nichts hochgeladen - die .docx-Datei wird in Ihrem Browser geöffnet, neu geschrieben und wieder gepackt.",
+    "theDocumentStaysOnYourComputerNothingIsUploadedThePDFIsGeneratedInYourBrowser": "Das Dokument bleibt auf Ihrem Computer - es wird nichts hochgeladen. Die PDF-Datei wird in Ihrem Browser aus dem reinen Text der Datei erzeugt."
+  }
+}

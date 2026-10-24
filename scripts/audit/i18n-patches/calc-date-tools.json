@@ -1,0 +1,25 @@
+{
+  "namespace": "ui.calculators.DateTools",
+  "en": {
+    "dogAgeInYears": "Dog's age in years",
+    "avmaAndEpigeneticDogAgeFormula": "AVMA: the first two years count as 10.5 human years each, then size decides how fast they age. Epigenetic (2021 study): human years = 10 × log₁₀(dog years) + 10.",
+    "daysAreCountedInTheLocalCalendar": "Days are counted in the local calendar, so a leap day is included automatically. The end date is optional.",
+    "businessDayRule": "Monday to Friday counts as a business day; Saturdays, Sundays and the selected holidays are skipped.",
+    "yearsUnit": "years",
+    "stagePuppy": "Puppy",
+    "stageAdolescent": "Adolescent",
+    "stageAdult": "Adult",
+    "stageSenior": "Senior"
+  },
+  "de": {
+    "dogAgeInYears": "Alter des Hundes in Jahren",
+    "avmaAndEpigeneticDogAgeFormula": "AVMA: Die ersten zwei Jahre zählen jeweils als 10,5 Menschenjahre, danach entscheidet die Größe, wie schnell sie altern. Epigenetisch (Studie von 2021): Menschenjahre = 10 × log₁₀(Hundejahre) + 10.",
+    "daysAreCountedInTheLocalCalendar": "Die Tage werden im lokalen Kalender gezählt, ein Schalttag wird also automatisch berücksichtigt. Das Enddatum ist optional.",
+    "businessDayRule": "Montag bis Freitag zählt als Werktag; Samstage, Sonntage und die gewählten Feiertage werden übersprungen.",
+    "yearsUnit": "Jahre",
+    "stagePuppy": "Welpe",
+    "stageAdolescent": "Junghund",
+    "stageAdult": "Erwachsen",
+    "stageSenior": "Senior"
+  }
+}

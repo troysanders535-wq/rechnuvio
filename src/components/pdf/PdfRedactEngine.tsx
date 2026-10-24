@@ -13,6 +13,7 @@ import {
 } from "./shared";
 import { closePdf, openPdf } from "./pdfjs";
 import { createPdfDoc, loadPdfDoc } from "./pdfLib";
+import { useTranslations } from "next-intl";
 
 export type PdfRedactMode = "redact" | "blackout";
 
@@ -86,6 +87,7 @@ function buildLines(
 }
 
 export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
+  const tUi = useTranslations("ui.pdf.PdfRedactEngine");
   const [file, setFile] = useState<File | null>(null);
   const [pageCount, setPageCount] = useState(0);
   const [page, setPage] = useState(1);
@@ -104,16 +106,16 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
   const copy =
     mode === "blackout"
       ? {
-          title: "Black Out Text in PDF",
+          title: tUi("blackOutTextInPDF"),
           description:
-            "Find every occurrence of a word or number and permanently remove it from the page.",
-          action: "Black out matches",
+            tUi("findEveryOccurrenceOfAWordOrNumberAndPermanentlyRemoveItFromThePage"),
+          action: tUi("blackOutMatches"),
         }
       : {
-          title: "PDF Redaction Tool",
+          title: tUi("pDFRedactionTool"),
           description:
-            "Mark the areas to remove. Redacted content is burned into the page pixels — it cannot be un-hidden.",
-          action: "Apply redaction",
+            tUi("markTheAreasToRemoveRedactedContentIsBurnedIntoThePagePixelsItCannotBeUnHidden"),
+          action: tUi("applyRedaction"),
         };
 
   /* ---------------------------------------------------------------- */
@@ -183,7 +185,7 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
       setPage(1);
     } catch (err) {
       setError(
-        err instanceof Error ? err.message : "Could not open this PDF.",
+        err instanceof Error ? err.message : tUi("couldNotOpenThisPDF"),
       );
     } finally {
       setBusy(false);
@@ -258,7 +260,7 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
     if (!open) return;
     const needle = terms.trim().toLowerCase();
     if (!needle) {
-      setError("Enter at least one word or number to search for.");
+      setError(tUi("enterAtLeastOneWordOrNumberToSearchFor"));
       return;
     }
 
@@ -315,11 +317,11 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
       setRects(found);
       setInfo(
         hits
-          ? `Found ${hits} match(es). Review them below, then apply.`
-          : "No matches were found in the text layer of this PDF.",
+          ? tUi("foundMatchesToReview", { hits })
+          : tUi("noMatchesWereFoundInTheTextLayerOfThisPDF"),
       );
     } catch (err) {
-      setError(err instanceof Error ? err.message : "The search failed.");
+      setError(err instanceof Error ? err.message : tUi("theSearchFailed"));
     } finally {
       setBusy(false);
     }
@@ -337,8 +339,8 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
     if (!totalMarks) {
       setError(
         mode === "blackout"
-          ? "Search for a term first so the matches can be blacked out."
-          : "Drag over the page to mark the areas you want removed.",
+          ? tUi("searchForATermFirstSoTheMatchesCanBeBlackedOut")
+          : tUi("dragOverThePageToMarkTheAreasYouWantRemoved"),
       );
       return;
     }
@@ -368,7 +370,7 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
         canvas.width = Math.ceil(viewport.width);
         canvas.height = Math.ceil(viewport.height);
         const ctx = canvas.getContext("2d");
-        if (!ctx) throw new Error("Could not create a rendering canvas.");
+        if (!ctx) throw new Error(tUi("couldNotCreateARenderingCanvas"));
         ctx.fillStyle = "#ffffff";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         await pdfPage.render({ canvas, canvasContext: ctx, viewport }).promise;
@@ -388,7 +390,7 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
         const blob = await new Promise<Blob | null>((resolve) =>
           canvas.toBlob(resolve, "image/png"),
         );
-        if (!blob) throw new Error(`Could not encode page ${n}.`);
+        if (!blob) throw new Error(tUi("couldNotEncodeThePage", { page: n }));
 
         const png = await out.embedPng(new Uint8Array(await blob.arrayBuffer()));
         const newPage = out.addPage([canvas.width, canvas.height]);
@@ -403,12 +405,13 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
       const bytes = await out.save();
       downloadBytes(bytes, `${baseName(file.name)}-redacted.pdf`);
       setInfo(
-        `Redacted ${totalMarks} area(s) across ${
-          Object.values(rects).filter((l) => l.length).length
-        } page(s). The redacted content was removed from the file.`,
+        tUi("redactedAreasRemovedFromTheFile", {
+          areas: totalMarks,
+          pages: Object.values(rects).filter((l) => l.length).length,
+        }),
       );
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Could not write the redacted file.");
+      setError(err instanceof Error ? err.message : tUi("couldNotWriteTheRedactedFile"));
     } finally {
       setBusy(false);
     }
@@ -421,8 +424,8 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
     <Workspace title={copy.title} description={copy.description}>
       <DropZone
         accept="application/pdf,.pdf"
-        label={file ? "Replace PDF" : "Choose a PDF"}
-        hint="One .pdf file. The document never leaves your device."
+        label={file ? tUi("replacePDF") : tUi("chooseAPDF")}
+        hint={tUi("onePdfFileTheDocumentNeverLeavesYourDevice")}
         onFiles={(list) => void handleFile(list)}
         disabled={busy}
       />
@@ -430,14 +433,14 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
       {file ? (
         <div className="mt-5 space-y-4">
           <Field
-            label="Text to find"
-            hint="Separate multiple terms with a comma. Matches are located in the PDF text layer."
+            label={tUi("textToFind")}
+            hint={tUi("separateMultipleTermsWithACommaMatchesAreLocatedInThePDFTextLayer")}
           >
             <input
               type="text"
               value={terms}
               onChange={(e) => setTerms(e.target.value)}
-              placeholder="e.g. account number, 123456789"
+              placeholder={tUi("textToFindPlaceholder")}
               className={inputClass}
             />
           </Field>
@@ -449,17 +452,17 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
               disabled={busy || !terms.trim()}
               className="rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-50 disabled:opacity-60 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
             >
-              Find matches
+              {tUi("findMatches")}
             </button>
             <span className="text-sm text-slate-500 dark:text-slate-400">
-              {totalMarks} area(s) marked
+              {tUi("markedAreasCount", { count: totalMarks })}
             </span>
           </div>
 
           <div className="rounded-xl border border-slate-200 dark:border-slate-700">
             <div className="flex items-center justify-between border-b border-slate-200 px-4 py-2.5 dark:border-slate-700">
               <span className="text-sm font-semibold text-slate-700 dark:text-slate-200">
-                Page {page} of {pageCount}
+                {tUi("pageOfTotal", { page, total: pageCount })}
               </span>
               <span className="flex items-center gap-2">
                 <button
@@ -468,7 +471,7 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
                   disabled={page <= 1}
                   className="rounded border border-slate-300 px-3 py-1 text-xs font-semibold text-slate-600 disabled:opacity-40 dark:border-slate-700 dark:text-slate-300"
                 >
-                  Previous
+                  {tUi("previous")}
                 </button>
                 <button
                   type="button"
@@ -476,7 +479,7 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
                   disabled={page >= pageCount}
                   className="rounded border border-slate-300 px-3 py-1 text-xs font-semibold text-slate-600 disabled:opacity-40 dark:border-slate-700 dark:text-slate-300"
                 >
-                  Next
+                  {tUi("next")}
                 </button>
               </span>
             </div>
@@ -510,7 +513,7 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
 
             {mode === "redact" ? (
               <p className="border-t border-slate-200 px-4 py-2.5 text-xs text-slate-500 dark:border-slate-700 dark:text-slate-400">
-                Drag across the page to mark an area to remove.
+                {tUi("dragAcrossThePageToMarkAnAreaToRemove")}
               </p>
             ) : null}
           </div>
@@ -518,7 +521,7 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
           {pageMarks.length ? (
             <div>
               <p className="mb-2 text-sm font-medium text-slate-700 dark:text-slate-200">
-                Marked areas on page {page}
+                {tUi("markedAreasOnPage")} {page}
               </p>
               <ul className="space-y-1">
                 {pageMarks.map((r, i) => (
@@ -540,7 +543,7 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
                       }
                       className="font-semibold text-rose-600 hover:text-rose-700 dark:text-rose-400"
                     >
-                      Remove
+                      {tUi("remove")}
                     </button>
                   </li>
                 ))}
@@ -558,13 +561,13 @@ export function PdfRedactEngine({ mode }: { mode: PdfRedactMode }) {
               disabled={busy || !totalMarks}
               className="text-sm font-medium text-slate-500 hover:text-slate-800 disabled:opacity-50 dark:text-slate-400 dark:hover:text-slate-200"
             >
-              Clear marks
+              {tUi("clearMarks")}
             </button>
           </div>
 
           {rendering ? (
             <p className="text-sm text-slate-500 dark:text-slate-400">
-              Rendering preview…
+              {tUi("renderingPreview")}
             </p>
           ) : null}
         </div>

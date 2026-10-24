@@ -1,0 +1,686 @@
+{
+ "ui.engines.Calendar2026Engine": {
+  "alleBundeslNder": {
+   "text": "Alle Bundesländer"
+  },
+  "deutschland2026": {
+   "text": "Deutschland 2026"
+  },
+  "germany2026": {
+   "text": "Deutschland 2026"
+  },
+  "16BundeslNder": {
+   "text": "16 Bundesländer"
+  },
+  "16GermanStates": {
+   "text": "16 Bundesländer"
+  },
+  "brCkentageUrlaubsplaner": {
+   "text": "Brückentage & Urlaubsplaner"
+  },
+  "bridgingDaysPlanner": {
+   "text": "Brückentage & Urlaubsplaner"
+  },
+  "iSOKalenderwochenKW": {
+   "text": "ISO-Kalenderwochen (KW)"
+  },
+  "iSOWeekNumbers": {
+   "text": "ISO-Kalenderwochen (KW)"
+  },
+  "kalender": {
+   "text": "Kalender"
+  },
+  "calendar": {
+   "text": "Kalender"
+  },
+  "kalenderwoche": {
+   "text": "Kalenderwoche"
+  },
+  "iSOWeek": {
+   "text": "ISO-Kalenderwoche"
+  },
+  "week": {
+   "text": "Kalenderwoche"
+  },
+  "alleTermine": {
+   "text": "Alle Termine"
+  },
+  "allEvents": {
+   "text": "Alle Termine"
+  },
+  "gesetzlicheFeiertage": {
+   "text": "Gesetzliche Feiertage"
+  },
+  "publicHolidays": {
+   "text": "Gesetzliche Feiertage"
+  },
+  "brCkentage2026": {
+   "text": "Brückentage 2026"
+  },
+  "bridgeDays": {
+   "text": "Brückentage 2026"
+  },
+  "brauchtumFeste": {
+   "text": "Brauchtum & Feste"
+  },
+  "observances": {
+   "text": "Brauchtum & Feste"
+  },
+  "urlaubstageCleverEinsetzenIn2026": {
+   "text": "Urlaubstage clever einsetzen in 2026"
+  },
+  "maximizeYour2026VacationDays": {
+   "text": "Urlaubstage clever einsetzen in 2026"
+  },
+  "datum": {
+   "text": "Datum"
+  },
+  "date": {
+   "text": "Datum"
+  },
+  "feiertagEreignis": {
+   "text": "Feiertag / Ereignis"
+  },
+  "holidayEvent": {
+   "text": "Feiertag / Ereignis"
+  },
+  "geltungsbereich": {
+   "text": "Geltungsbereich"
+  },
+  "regionScope": {
+   "text": "Geltungsbereich"
+  },
+  "kategorie": {
+   "text": "Kategorie"
+  },
+  "category": {
+   "text": "Kategorie"
+  },
+  "gesetzlicherFeiertag": {
+   "text": "Gesetzlicher Feiertag"
+  },
+  "publicHoliday": {
+   "text": "Gesetzlicher Feiertag"
+  },
+  "brauchtumFesttag": {
+   "text": "Brauchtum / Festtag"
+  },
+  "traditionEvent": {
+   "text": "Brauchtum / Festtag"
+  },
+  "jan1": {
+   "text": "01.01."
+  },
+  "jan19": {
+   "text": "19.01."
+  },
+  "feb14": {
+   "text": "14.02."
+  },
+  "feb16": {
+   "text": "16.02."
+  },
+  "mar8": {
+   "text": "08.03."
+  },
+  "mar17": {
+   "text": "17.03."
+  },
+  "apr3": {
+   "text": "03.04."
+  },
+  "apr5": {
+   "text": "05.04."
+  },
+  "may10": {
+   "text": "10.05."
+  },
+  "may25": {
+   "text": "25.05."
+  },
+  "jun19": {
+   "text": "19.06."
+  },
+  "jun21": {
+   "text": "21.06."
+  },
+  "jul3": {
+   "text": "03.07."
+  },
+  "sep7": {
+   "text": "07.09."
+  },
+  "oct12": {
+   "text": "12.10."
+  },
+  "oct31": {
+   "text": "31.10."
+  },
+  "nov1": {
+   "text": "01.11."
+  },
+  "nov11": {
+   "text": "11.11."
+  },
+  "nov26": {
+   "text": "26.11."
+  },
+  "nov27": {
+   "text": "27.11."
+  },
+  "dec24": {
+   "text": "24.12."
+  },
+  "dec25": {
+   "text": "25.12."
+  },
+  "dec31": {
+   "text": "31.12."
+  }
+ },
+ "ui.engines.NetworkingToolsEngine": {
+  "pleaseEnterAValidIPv4Address": {
+   "text": "Bitte geben Sie eine gültige IPv4-Adresse ein."
+  }
+ },
+ "ui.engines.QrBarcodeEngine": {
+  "enterNumbersOrText": {
+   "text": "Zahlen oder Text eingeben..."
+  },
+  "code128Universal": {
+   "text": "Code 128 (Universell)"
+  },
+  "eAN1313Digits": {
+   "text": "EAN-13 (13 Ziffern)"
+  },
+  "uPC12Digits": {
+   "text": "UPC (12 Ziffern)"
+  },
+  "code39Alphanumeric": {
+   "text": "Code 39 (Alphanumerisch)"
+  },
+  "downloadBarcodeSVG": {
+   "text": "Barcode-SVG herunterladen"
+  },
+  "transparentBackground": {
+   "text": "Transparenter Hintergrund"
+  },
+  "downloadPNGImage": {
+   "text": "PNG-Bild herunterladen"
+  },
+  "generatedQRCode": {
+   "text": "Erzeugter QR-Code"
+  }
+ },
+ "ui.engines.UuidEngine": {
+  "version4Random": {
+   "text": "Version 4 (Zufällig)"
+  },
+  "version7TimeOrdered": {
+   "text": "Version 7 (Zeitlich sortiert)"
+  },
+  "version1TimestampMAC": {
+   "text": "Version 1 (Zeitstempel & MAC)"
+  },
+  "version5NameBasedSHA1": {
+   "text": "Version 5 (Name-basiert, SHA1)"
+  },
+  "standardWithHyphens": {
+   "text": "Standard (mit Bindestrichen)"
+  },
+  "compactNoHyphens": {
+   "text": "Kompakt (ohne Bindestriche)"
+  },
+  "uppercaseAZ": {
+   "text": "Großbuchstaben (A-Z)"
+  },
+  "generateNewUUIDs": {
+   "text": "Neue UUIDs generieren"
+  },
+  "copiedAll": {
+   "text": "Alle kopiert!"
+  },
+  "copyAll": {
+   "text": "Alle kopieren"
+  },
+  "download": {
+   "text": "Herunterladen"
+  },
+  "copySingleUUID": {
+   "text": "Einzelne UUID kopieren"
+  }
+ },
+ "ui.calculators.FitnessTools": {
+  "oneRepMaxCalculator": {
+   "text": "One-Rep-Max-Rechner"
+  },
+  "weightLifted": {
+   "text": "Gehobenes Gewicht"
+  },
+  "repsPerformed": {
+   "text": "Ausgeführte Wiederholungen"
+  },
+  "formula": {
+   "text": "Formel"
+  },
+  "epleyMostCommon": {
+   "text": "Epley (am häufigsten)"
+  },
+  "brzycki": {
+   "text": "Brzycki"
+  },
+  "lombardi": {
+   "text": "Lombardi"
+  },
+  "yourEstimated1RM": {
+   "text": "Ihr geschätzter 1RM"
+  },
+  "epley": {
+   "text": "Epley"
+  },
+  "reps": {
+   "text": "Wiederholungen"
+  },
+  "weightForThat": {
+   "text": "Gewicht bei diesem %"
+  },
+  "waterIntakeCalculator": {
+   "text": "Wasserbedarfsrechner"
+  },
+  "bodyWeight": {
+   "text": "Körpergewicht"
+  },
+  "unit": {
+   "text": "Einheit"
+  },
+  "exerciseMinDay": {
+   "text": "Bewegung (Min/Tag)"
+  },
+  "climate": {
+   "text": "Klima"
+  },
+  "temperate": {
+   "text": "Mild"
+  },
+  "hot": {
+   "text": "Heiß"
+  },
+  "veryHot": {
+   "text": "Sehr heiß"
+  },
+  "waterPerDay": {
+   "text": "Wasser pro Tag"
+  },
+  "fluidOunces": {
+   "text": "Flüssigunzen"
+  },
+  "cups8Oz": {
+   "text": "Tassen (8 oz)"
+  },
+  "bottles169Oz": {
+   "text": "Flaschen (16.9 oz)"
+  },
+  "climateTopUp": {
+   "text": "Klima-Zuschlag"
+  },
+  "0L": {
+   "text": "0 L"
+  },
+  "05L": {
+   "text": "0.5 L"
+  },
+  "1L": {
+   "text": "1 L"
+  }
+ },
+ "ui.calculators.GradeTools": {
+  "mathematics": {
+   "text": "Mathematik"
+  },
+  "physics": {
+   "text": "Physik"
+  },
+  "b": {
+   "text": "B+"
+  },
+  "history": {
+   "text": "Geschichte"
+  },
+  "a": {
+   "text": "A-"
+  },
+  "literature": {
+   "text": "Literatur"
+  },
+  "regular": {
+   "text": "Normal"
+  },
+  "honours05": {
+   "text": "Ehrenguthaben +0.5"
+  },
+  "aPIB10": {
+   "text": "AP / IB +1.0"
+  },
+  "homework": {
+   "text": "Hausaufgaben"
+  },
+  "midterm": {
+   "text": "Zwischenprüfung"
+  },
+  "finalExam": {
+   "text": "Abschlussprüfung"
+  },
+  "collegeGPACalculator": {
+   "text": "College-GPA-Rechner"
+  },
+  "gPACalculator": {
+   "text": "GPA-Rechner"
+  },
+  "semesterGPA": {
+   "text": "Semester-GPA"
+  },
+  "totalCredits": {
+   "text": "Credits gesamt"
+  },
+  "qualityPoints": {
+   "text": "Qualitätspunkte"
+  },
+  "gPANeededForA40": {
+   "text": "GPA für 4.0 nötig"
+  },
+  "unweightedGPA": {
+   "text": "GPA ohne Gewichtung"
+  },
+  "weightedGPA": {
+   "text": "GPA mit Gewichtung"
+  },
+  "weightedBonus": {
+   "text": "Gewichtungsbonus"
+  },
+  "credits": {
+   "text": "Credits"
+  },
+  "middleSchoolGPACalculator": {
+   "text": "GPA-Rechner für die Mittelstufe"
+  },
+  "gPA40Scale": {
+   "text": "GPA (4.0-Skala)"
+  },
+  "averagePercent": {
+   "text": "Durchschnitt (%)"
+  },
+  "letterGrade": {
+   "text": "Buchstabennote"
+  },
+  "subjects": {
+   "text": "Fächer"
+  },
+  "cumulativeGPACalculator": {
+   "text": "Rechner für kumulierte GPA"
+  },
+  "currentGPA": {
+   "text": "Aktuelle GPA"
+  },
+  "creditsEarned": {
+   "text": "Erreichte Credits"
+  },
+  "targetGPA": {
+   "text": "Ziel-GPA"
+  },
+  "newSemesterGPA": {
+   "text": "Neue Semester-GPA"
+  },
+  "cumulativeGPA": {
+   "text": "Kumulierte GPA"
+  },
+  "gPANeededNextTerm": {
+   "text": "Benötigte GPA im nächsten Semester"
+  },
+  "raiseGPACalculator": {
+   "text": "GPA-Verbesserungsrechner"
+  },
+  "creditsNextTerm": {
+   "text": "Credits im nächsten Semester"
+  },
+  "notReachableInOneTerm": {
+   "text": "In einem Semester nicht erreichbar"
+  },
+  "highestReachableGPA": {
+   "text": "Höchste erreichbare GPA"
+  },
+  "creditsNeeded": {
+   "text": "Benötigte Credits"
+  },
+  "gradeCalculator": {
+   "text": "Notenrechner"
+  },
+  "classGrade": {
+   "text": "Gesamtnote"
+  },
+  "scoreNeededForAnA": {
+   "text": "Punktzahl für eine A"
+  },
+  "totalWeight": {
+   "text": "Gesamtgewicht"
+  },
+  "weightedGradeCalculator": {
+   "text": "Rechner für gewichtete Noten"
+  },
+  "weightedGrade": {
+   "text": "Gewichtete Note"
+  },
+  "pointsEarned": {
+   "text": "Erreichte Punkte"
+  },
+  "finalGradeCalculator": {
+   "text": "Abschlussnotenrechner"
+  },
+  "currentGrade": {
+   "text": "Aktuelle Note (%)"
+  },
+  "finalWeight": {
+   "text": "Endgewicht (%)"
+  },
+  "goalGrade": {
+   "text": "Zielnote (%)"
+  },
+  "notReachableWithThisWeight": {
+   "text": "Mit diesem Gewicht nicht erreichbar"
+  },
+  "testGradeCalculator": {
+   "text": "Rechner für Testnoten"
+  },
+  "questionsOnTheTest": {
+   "text": "Fragen in der Prüfung"
+  },
+  "correctAnswers": {
+   "text": "Richtige Antworten"
+  },
+  "score": {
+   "text": "Punktzahl"
+  },
+  "wrongAnswers": {
+   "text": "Falsche Antworten"
+  },
+  "questions": {
+   "text": "Fragen"
+  },
+  "easyGrader": {
+   "text": "Einfache Benotung"
+  },
+  "numberOfQuestions": {
+   "text": "Anzahl der Fragen"
+  },
+  "questionsAnsweredCorrectly": {
+   "text": "Richtig beantwortete Fragen"
+  },
+  "currentScore": {
+   "text": "Aktuelle Punktzahl"
+  },
+  "pointsPerQuestion": {
+   "text": "Punkte pro Frage"
+  },
+  "wrong": {
+   "text": "Falsch"
+  },
+  "score2": {
+   "text": "Punktzahl %"
+  },
+  "letter": {
+   "text": "Note"
+  }
+ },
+ "ui.calculators.StatsTools": {
+  "averageCalculator": {
+   "text": "Durchschnittsrechner"
+  },
+  "numbers": {
+   "text": "Zahlen"
+  },
+  "meanAverage": {
+   "text": "Mittelwert (Durchschnitt)"
+  },
+  "median": {
+   "text": "Median"
+  },
+  "mode": {
+   "text": "Modalwert"
+  },
+  "range": {
+   "text": "Spannweite"
+  },
+  "count": {
+   "text": "Anzahl"
+  },
+  "sampleSD": {
+   "text": "Stichproben-SD"
+  },
+  "populationSD": {
+   "text": "Grundgesamtheits-SD"
+  },
+  "minimum": {
+   "text": "Minimum"
+  },
+  "dataSet": {
+   "text": "Datensatz"
+  },
+  "sampleSDS": {
+   "text": "Stichproben-SD (s)"
+  },
+  "populationSD2": {
+   "text": "Grundgesamtheits-SD (σ)"
+  },
+  "sampleVarianceS": {
+   "text": "Stichprobenvarianz (s²)"
+  },
+  "populationVariance": {
+   "text": "Grundgesamtheitsvarianz (σ²)"
+  },
+  "mean": {
+   "text": "Mittelwert"
+  },
+  "countN": {
+   "text": "Anzahl (n)"
+  },
+  "varianceCalculator": {
+   "text": "Varianzrechner"
+  },
+  "sumOfSquaredDeviationsN1": {
+   "text": "Summe der quadrierten Abweichungen (÷ n − 1)"
+  },
+  "sumOfSquaredDeviationsN": {
+   "text": "Summe der quadrierten Abweichungen (÷ n)"
+  },
+  "meanAbsoluteDeviationCalculator": {
+   "text": "Rechner für mittlere absolute Abweichung"
+  },
+  "meanAbsoluteDeviation": {
+   "text": "Mittlere absolute Abweichung"
+  },
+  "sumOfDeviations": {
+   "text": "Summe der Abweichungen"
+  },
+  "value": {
+   "text": "Wert"
+  },
+  "absoluteDeviation": {
+   "text": "Absolute Abweichung"
+  },
+  "zScoreCalculator": {
+   "text": "Z-Score-Rechner"
+  },
+  "valueX": {
+   "text": "Wert (x)"
+  },
+  "mean2": {
+   "text": "Mittelwert (μ)"
+  },
+  "standardDeviation": {
+   "text": "Standardabweichung (σ)"
+  },
+  "zScore": {
+   "text": "Z-Score"
+  },
+  "percentile": {
+   "text": "Perzentil"
+  },
+  "belowTheMeanBy": {
+   "text": "Unter dem Mittelwert um"
+  },
+  "normalProbability": {
+   "text": "Normalwahrscheinlichkeit"
+  },
+  "zScoresOfTheDataSet": {
+   "text": "Z-Scores des Datensatzes"
+  },
+  "quartileAndIQRCalculator": {
+   "text": "Quartil- und IQR-Rechner"
+  },
+  "q125": {
+   "text": "Q1 (25%)"
+  },
+  "q375": {
+   "text": "Q3 (75%)"
+  },
+  "iQRQ3Q1": {
+   "text": "IQR (Q3 − Q1)"
+  },
+  "maximum": {
+   "text": "Maximum"
+  },
+  "outliers": {
+   "text": "Ausreißer"
+  }
+ },
+ "ui.pdf.PdfRedactEngine": {
+  "replacePDF": {
+   "text": "PDF ersetzen"
+  },
+  "chooseAPDF": {
+   "text": "PDF auswählen"
+  },
+  "textToFind": {
+   "text": "Suchtext"
+  }
+ },
+ "ui.pdf.PdfTextEngine": {
+  "replacePDF": {
+   "text": "PDF ersetzen"
+  },
+  "chooseAPDF": {
+   "text": "PDF auswählen"
+  },
+  "copied": {
+   "text": "Kopiert!"
+  },
+  "copyMarkdown": {
+   "text": "Markdown kopieren"
+  },
+  "markdownOutput": {
+   "text": "Markdown-Ausgabe"
+  },
+  "courierNew": {
+   "text": "Courier New"
+  }
+ }
+}

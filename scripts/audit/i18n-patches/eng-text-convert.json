@@ -1,0 +1,33 @@
+{
+  "namespace": "ui.engines.TextConvertWorkspace",
+  "en": {
+    "space": "Space",
+    "comma": "Comma",
+    "none": "None",
+    "spaced": "Spaced",
+    "noSeparator": "No separator",
+    "0xPrefix": "0x prefix",
+    "everyCharacterIsEncodedAsUTF8": "Every character is encoded as UTF-8, so accented letters and emoji use two to four bytes each.",
+    "spacesCommasDashesAndLineBreaksAreIgnored": "Spaces, commas, dashes and line breaks are ignored - only 0 and 1 are read, and the bit count must be a multiple of eight.",
+    "theHTMLIsParsedWithTheBrowserDOMParser": "The HTML is parsed with the browser DOM parser, so the conversion follows the document tree instead of matching tags with patterns.",
+    "inWordPressAltEqualsAndPaste": "In Word press Alt+= (or Insert → Equation) and paste — Word converts the linear format into a formatted equation.",
+    "invalidBinaryLength": "Invalid binary length: {bits} bits is not a multiple of 8 ({stray} stray bit).",
+    "invalidBinaryLengthPlural": "Invalid binary length: {bits} bits is not a multiple of 8 ({stray} stray bits).",
+    "invalidUTF8ByteSequence": "Invalid UTF-8 byte sequence: the bits do not decode to valid UTF-8 text."
+  },
+  "de": {
+    "space": "Leerzeichen",
+    "comma": "Komma",
+    "none": "Keines",
+    "spaced": "Mit Leerzeichen",
+    "noSeparator": "Kein Trennzeichen",
+    "0xPrefix": "0x-Präfix",
+    "everyCharacterIsEncodedAsUTF8": "Jedes Zeichen wird als UTF-8 kodiert, sodass Buchstaben mit Akzenten und Emojis jeweils zwei bis vier Bytes belegen.",
+    "spacesCommasDashesAndLineBreaksAreIgnored": "Leerzeichen, Kommas, Bindestriche und Zeilenumbrüche werden ignoriert - gelesen werden nur 0 und 1, und die Anzahl der Bits muss ein Vielfaches von acht sein.",
+    "theHTMLIsParsedWithTheBrowserDOMParser": "Das HTML wird mit dem DOM-Parser des Browsers ausgewertet, sodass die Konvertierung dem Dokumentbaum folgt und nicht mit Mustern gegen Tags arbeitet.",
+    "inWordPressAltEqualsAndPaste": "Drücken Sie in Word Alt+= (oder Einfügen → Formel) und fügen Sie den Inhalt ein – Word wandelt das lineare Format in eine formatierte Formel um.",
+    "invalidBinaryLength": "Ungültige Binärlänge: {bits} Bits sind kein Vielfaches von 8 ({stray} überzähliges Bit).",
+    "invalidBinaryLengthPlural": "Ungültige Binärlänge: {bits} Bits sind kein Vielfaches von 8 ({stray} überzählige Bits).",
+    "invalidUTF8ByteSequence": "Ungültige UTF-8-Bytefolge: Die Bits ergeben keinen gültigen UTF-8-Text."
+  }
+}

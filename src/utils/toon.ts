@@ -132,7 +132,10 @@ export function jsonToToon(value: any, indentLevel = 0, options: ToonEncodeOptio
       return `\n${headerLine}\n${rowLines.join("\n")}`;
     }
 
-    // Primitives array
+    // Primitives array.
+    // The items are written inline, right behind the "key[length]:" header, so
+    // the decoder can read them back from the header line itself. A list of
+    // objects uses the "- " form below instead.
     if (value.every((v) => typeof v !== "object" || v === null)) {
       const formatted = value.map((v) => {
         if (v === null) return "null";
@@ -140,7 +143,7 @@ export function jsonToToon(value: any, indentLevel = 0, options: ToonEncodeOptio
         if (typeof v === "number") return String(v);
         return escapeString(String(v));
       });
-      return `\n${childIndent}${formatted.join(", ")}`;
+      return formatted.join(", ");
     }
 
     // General array of mixed or complex items
@@ -169,6 +172,10 @@ export function jsonToToon(value: any, indentLevel = 0, options: ToonEncodeOptio
           lines.push(`${indent}${safeKey}: []`);
         } else if (isTabularArray(val)) {
           lines.push(`${indent}${safeKey}[${val.length}]:${jsonToToon(val, indentLevel, options)}`);
+        } else if (val.every((v) => typeof v !== "object" || v === null)) {
+          // A list of plain values: the items follow the header on the same
+          // line, which is how the decoder reads them back.
+          lines.push(`${indent}${safeKey}[${val.length}]: ${jsonToToon(val, indentLevel, options)}`);
         } else {
           lines.push(`${indent}${safeKey}[${val.length}]:${jsonToToon(val, indentLevel, options)}`);
         }

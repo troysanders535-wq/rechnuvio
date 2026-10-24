@@ -1,0 +1,9 @@
+{
+  "namespace": "ui.engines.DeviceTesterEngine",
+  "en": {
+    "clicks": "Clicks: {count}"
+  },
+  "de": {
+    "clicks": "Klicks: {count}"
+  }
+}

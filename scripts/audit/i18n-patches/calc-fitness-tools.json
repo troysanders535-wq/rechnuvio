@@ -1,0 +1,25 @@
+{
+  "namespace": "ui.calculators.FitnessTools",
+  "en": {
+    "lbOrKg": "lb or kg",
+    "kgOrLb": "kg or lb",
+    "unitKg": "kg",
+    "unitLb": "lb",
+    "baseWater": "Base ({amount} ml per kg)",
+    "exerciseTopUp": "Exercise top-up",
+    "percentOf1RM": "% of 1RM",
+    "epleyBrzyckiAndLombardiFormulas": "Epley: weight × (1 + reps ÷ 30) · Brzycki: weight × 36 ÷ (37 − reps) · Lombardi: weight × reps^0.1. Epley and Brzycki are the most accurate for sets of 10 reps or fewer. The chart lists the 1RM implied by lifting the same weight for each rep count, and that weight as a percentage of your estimated 1RM.",
+    "dailyWaterFormula": "Daily water = (weight in kg × 33 ml) + 350 ml per 30 minutes of exercise + a climate allowance of 0.5–1 L in hot weather."
+  },
+  "de": {
+    "lbOrKg": "lb oder kg",
+    "kgOrLb": "kg oder lb",
+    "unitKg": "kg",
+    "unitLb": "lb",
+    "baseWater": "Basis ({amount} ml pro kg)",
+    "exerciseTopUp": "Bewegungs-Zuschlag",
+    "percentOf1RM": "% des 1RM",
+    "epleyBrzyckiAndLombardiFormulas": "Epley: Gewicht × (1 + Wiederholungen ÷ 30) · Brzycki: Gewicht × 36 ÷ (37 − Wiederholungen) · Lombardi: Gewicht × Wiederholungen^0,1. Epley und Brzycki sind für Sätze mit höchstens 10 Wiederholungen am genauesten. Die Tabelle listet den 1RM auf, der sich ergibt, wenn Sie dasselbe Gewicht mit jeder Wiederholungszahl heben, sowie dieses Gewicht als Prozentwert Ihres geschätzten 1RM.",
+    "dailyWaterFormula": "Täglicher Wasserbedarf = (Gewicht in kg × 33 ml) + 350 ml pro 30 Minuten Bewegung + ein Klima-Zuschlag von 0,5–1 L bei heißem Wetter."
+  }
+}

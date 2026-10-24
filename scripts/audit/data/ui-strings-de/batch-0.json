@@ -1,0 +1,691 @@
+{
+ "ui.engines.AiViewerEngine": {
+  "unknownError": {
+   "text": "Unbekannter Fehler"
+  },
+  "chooseAIFile": {
+   "text": "Illustrator-Datei wählen"
+  },
+  "processingIllustratorFile": {
+   "text": "Illustrator-Datei wird verarbeitet..."
+  },
+  "nonPDFCompatibleIllustratorFile": {
+   "text": "Nicht PDF-kompatible Illustrator-Datei"
+  },
+  "errorOpeningFile": {
+   "text": "Fehler beim Öffnen der Datei"
+  },
+  "chooseAnotherAiFile": {
+   "text": "Andere .ai-Datei wählen"
+  },
+  "mozillaPDFJs": {
+   "text": "Mozilla PDF.js"
+  },
+  "previousPage": {
+   "text": "Vorherige Seite"
+  },
+  "nextPage": {
+   "text": "Nächste Seite"
+  },
+  "replaceFile": {
+   "text": "Datei ersetzen"
+  },
+  "clearFileAndResetView": {
+   "text": "Datei löschen und Ansicht zurücksetzen"
+  },
+  "close": {
+   "text": "Schließen"
+  },
+  "zoomOut": {
+   "text": "Verkleinern"
+  },
+  "zoomIn": {
+   "text": "Vergrößern"
+  },
+  "fitToWidth": {
+   "text": "An Breite anpassen"
+  },
+  "fit": {
+   "text": "Anpassen"
+  },
+  "resetTo100": {
+   "text": "Auf 100% zurücksetzen"
+  },
+  "1x72DPIStandard": {
+   "text": "1x (72 DPI - Standard)"
+  },
+  "2x144DPIHighRes": {
+   "text": "2x (144 DPI - Hohe Auflösung)"
+  },
+  "3x216DPIRetina": {
+   "text": "3x (216 DPI - Retina)"
+  },
+  "4x300DPIPrint": {
+   "text": "4x (300 DPI - Druck)"
+  },
+  "exportPageAsTransparentPNG": {
+   "text": "Seite als transparentes PNG exportieren"
+  },
+  "exportPageAsJPGWithWhiteBackground": {
+   "text": "Seite als JPG mit weißem Hintergrund exportieren"
+  },
+  "downloadOriginalPDFPreviewStream": {
+   "text": "Original-PDF-Vorschau-Stream herunterladen"
+  },
+  "clickToSwitchPage": {
+   "text": "Klicken, um die Seite zu wechseln"
+  }
+ },
+ "ui.engines.DiffEngine": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad"
+  },
+  "digitalToolPadPro": {
+   "text": "Digital ToolPad Pro"
+  },
+  "100ClientSide": {
+   "text": "100% clientseitig"
+  },
+  "compareDiffs": {
+   "text": "Diffs vergleichen"
+  },
+  "beautifyBoth": {
+   "text": "Beide formatieren"
+  },
+  "clearAll": {
+   "text": "Alle löschen"
+  }
+ },
+ "ui.engines.FileViewersEngine": {
+  "aliceSmith": {
+   "text": "Alice Smith"
+  },
+  "admin": {
+   "text": "Admin"
+  },
+  "bobJones": {
+   "text": "Bob Jones"
+  },
+  "developer": {
+   "text": "Developer"
+  },
+  "carolWhite": {
+   "text": "Carol White"
+  },
+  "designer": {
+   "text": "Designer"
+  }
+ },
+ "ui.engines.ImageSuiteEngine": {
+  "chooseImage": {
+   "text": "Bild wählen"
+  },
+  "widthPx": {
+   "text": "Breite (px)"
+  },
+  "heightPx": {
+   "text": "Höhe (px)"
+  },
+  "lockAspectRatio": {
+   "text": "Seitenverhältnis sperren"
+  },
+  "pNGLosslessTransparency": {
+   "text": "PNG (Verlustfrei, Transparenz)"
+  },
+  "jPGJPEGCompact": {
+   "text": "JPG / JPEG (Kompakt)"
+  },
+  "webPNextGenHighCompression": {
+   "text": "WebP (Next-Gen-Hochkompression)"
+  },
+  "brightness": {
+   "text": "Helligkeit"
+  },
+  "blur": {
+   "text": "Weichzeichnen"
+  },
+  "grayscale": {
+   "text": "Graustufen"
+  },
+  "downloadImage": {
+   "text": "Bild herunterladen"
+  },
+  "livePreview": {
+   "text": "Live-Vorschau"
+  }
+ },
+ "ui.engines.MarkdownEngine": {
+  "exportToPDF": {
+   "text": "Als PDF exportieren"
+  },
+  "exportToWordDocx": {
+   "text": "Nach Word (.docx) exportieren"
+  },
+  "openFile": {
+   "text": "Datei öffnen"
+  },
+  "hTMLCopied": {
+   "text": "HTML kopiert!"
+  },
+  "copyHTML": {
+   "text": "HTML kopieren"
+  }
+ },
+ "ui.engines.MediaAudioVideoEngine": {
+  "selectMediaFile": {
+   "text": "Mediendatei auswählen"
+  },
+  "mP4H264Video": {
+   "text": "MP4 (H.264-Video)"
+  },
+  "mP3UniversalAudio": {
+   "text": "MP3 (Universelles Audio)"
+  },
+  "gIFAnimated": {
+   "text": "GIF (Animiert)"
+  },
+  "wAVUncompressed": {
+   "text": "WAV (Unkomprimiert)"
+  },
+  "webM": {
+   "text": "WebM"
+  },
+  "transcoding": {
+   "text": "Wird konvertiert..."
+  },
+  "convertNow": {
+   "text": "Jetzt konvertieren"
+  },
+  "conversionComplete": {
+   "text": "Konvertierung abgeschlossen!"
+  },
+  "downloadResult": {
+   "text": "Ergebnis herunterladen"
+  }
+ },
+ "ui.engines.RegexEngine": {
+  "insertRegexPattern": {
+   "text": "Regex-Muster eingeben..."
+  },
+  "testString": {
+   "text": "Teststring"
+  },
+  "pasteOrWriteTextToTest": {
+   "text": "Text zum Testen einfügen oder schreiben..."
+  },
+  "noMatchesFound": {
+   "text": "Keine Treffer gefunden."
+  }
+ },
+ "ui.engines.TimeCalendarEngine": {
+  "uTCGMT": {
+   "text": "UTC / GMT"
+  },
+  "newYork": {
+   "text": "New York"
+  },
+  "americaNewYork": {
+   "text": "America/New_York"
+  },
+  "london": {
+   "text": "London"
+  },
+  "europeLondon": {
+   "text": "Europe/London"
+  },
+  "tokyo": {
+   "text": "Tokio"
+  },
+  "asiaTokyo": {
+   "text": "Asia/Tokyo"
+  },
+  "pause": {
+   "text": "Pause"
+  },
+  "startFocus": {
+   "text": "Fokus starten"
+  },
+  "resetTimer": {
+   "text": "Timer zurücksetzen"
+  }
+ },
+ "ui.calculators.ConstructionTools": {
+  "squareFootageCalculator": {
+   "text": "Flächenrechner"
+  },
+  "shape": {
+   "text": "Form"
+  },
+  "rectangle": {
+   "text": "Rechteck"
+  },
+  "circle": {
+   "text": "Kreis"
+  },
+  "triangle": {
+   "text": "Dreieck"
+  },
+  "radiusFt": {
+   "text": "Radius (ft)"
+  },
+  "sideAFt": {
+   "text": "Seite A (ft)"
+  },
+  "sideBFt": {
+   "text": "Seite B (ft)"
+  },
+  "howMany": {
+   "text": "Wie viele"
+  },
+  "totalArea": {
+   "text": "Gesamtfläche"
+  },
+  "squareMetres": {
+   "text": "Quadratmeter"
+  },
+  "acres": {
+   "text": "Acres"
+  },
+  "squareYards": {
+   "text": "Quadratyard"
+  },
+  "concreteCalculator": {
+   "text": "Betonrechner"
+  },
+  "lengthFt": {
+   "text": "Länge (ft)"
+  },
+  "widthFt": {
+   "text": "Breite (ft)"
+  },
+  "depthInches": {
+   "text": "Tiefe (Zoll)"
+  },
+  "waste": {
+   "text": "Verlust (%)"
+  },
+  "cubicYards": {
+   "text": "Kubikyard"
+  },
+  "cubicFeet": {
+   "text": "Kubikfuß"
+  },
+  "cubicMetres": {
+   "text": "Kubikmeter"
+  },
+  "40LbBags": {
+   "text": "40 lb Säcke"
+  },
+  "50LbBags": {
+   "text": "50 lb Säcke"
+  },
+  "60LbBags": {
+   "text": "60 lb Säcke"
+  },
+  "80LbBags": {
+   "text": "80 lb Säcke"
+  },
+  "gravelCalculator": {
+   "text": "Kiesrechner"
+  },
+  "areaSqFt": {
+   "text": "Fläche (sq ft)"
+  },
+  "densityTonsYd": {
+   "text": "Dichte (tons/yd³)"
+  },
+  "tons": {
+   "text": "Tonnen"
+  },
+  "metricTons": {
+   "text": "Metrische Tonnen"
+  },
+  "mulchCalculator": {
+   "text": "Mulchrechner"
+  },
+  "15CuFtBags": {
+   "text": "1.5 cu ft Säcke"
+  },
+  "2CuFtBags": {
+   "text": "2 cu ft Säcke"
+  },
+  "3CuFtBags": {
+   "text": "3 cu ft Säcke"
+  },
+  "tileCalculator": {
+   "text": "Fliesenrechner"
+  },
+  "floorAreaSqFt": {
+   "text": "Bodenfläche (sq ft)"
+  },
+  "tileLengthIn": {
+   "text": "Fliesenlänge (in)"
+  },
+  "tileWidthIn": {
+   "text": "Fliesenbreite (in)"
+  },
+  "groutWidthIn": {
+   "text": "Fugenbreite (in)"
+  },
+  "wasteCuts": {
+   "text": "Verlust / Schnitte (%)"
+  },
+  "costPerSqFt": {
+   "text": "Kosten pro sq ft"
+  },
+  "tilesNeeded": {
+   "text": "Benötigte Fliesen"
+  },
+  "boxesNeeded": {
+   "text": "Benötigte Kartons"
+  },
+  "floorArea": {
+   "text": "Bodenfläche"
+  },
+  "materialCost": {
+   "text": "Materialkosten"
+  },
+  "paintCalculator": {
+   "text": "Farbrechner"
+  },
+  "roomLengthFt": {
+   "text": "Raumlänge (ft)"
+  },
+  "roomWidthFt": {
+   "text": "Raumbreite (ft)"
+  },
+  "wallHeightFt": {
+   "text": "Wandhöhe (ft)"
+  },
+  "doorsSqFt": {
+   "text": "Türen (sq ft)"
+  },
+  "windowsSqFt": {
+   "text": "Fenster (sq ft)"
+  },
+  "coverageSqFtGal": {
+   "text": "Reichweite (sq ft/gal)"
+  },
+  "coats": {
+   "text": "Anstriche"
+  },
+  "gallons": {
+   "text": "Gallonen"
+  },
+  "quarts": {
+   "text": "Quarts"
+  },
+  "litres": {
+   "text": "Liter"
+  },
+  "wallArea": {
+   "text": "Wandfläche"
+  },
+  "roofingCalculator": {
+   "text": "Dachrechner"
+  },
+  "footprintSqFt": {
+   "text": "Grundfläche (sq ft)"
+  },
+  "roofPitch": {
+   "text": "Dachneigung"
+  },
+  "overhangIn": {
+   "text": "Überstand (in)"
+  },
+  "roofArea": {
+   "text": "Dachfläche"
+  },
+  "roofingSquares": {
+   "text": "Dachquadrate"
+  },
+  "bundlesNeeded": {
+   "text": "Benötigte Bündel"
+  },
+  "pitchMultiplier": {
+   "text": "Neigungsfaktor"
+  },
+  "underlaymentSqFt": {
+   "text": "Unterlage (sq ft)"
+  },
+  "bTUCalculator": {
+   "text": "BTU-Rechner"
+  },
+  "roomSizeSqFt": {
+   "text": "Raumgröße (sq ft)"
+  },
+  "ceilingHeightFt": {
+   "text": "Deckenhöhe (ft)"
+  },
+  "occupants": {
+   "text": "Personen"
+  },
+  "sunExposure": {
+   "text": "Sonneneinstrahlung"
+  },
+  "lowShaded": {
+   "text": "Niedrig — verschattet"
+  },
+  "medium": {
+   "text": "Mittel"
+  },
+  "highLotsOfSun": {
+   "text": "Hoch — viel Sonne"
+  },
+  "no": {
+   "text": "Nein"
+  },
+  "yesAdd1200BTU": {
+   "text": "Ja — 1,200 BTU hinzufügen"
+  },
+  "bTUNeeded": {
+   "text": "Benötigte BTU"
+  },
+  "recommendedAC": {
+   "text": "Empfohlene Klimaanlage"
+  },
+  "roomSize": {
+   "text": "Raumgröße"
+  }
+ },
+ "ui.calculators.PercentTools": {
+  "percentageCalculator": {
+   "text": "Prozentrechner"
+  },
+  "percent": {
+   "text": "Prozent (%)"
+  },
+  "value": {
+   "text": "Wert"
+  },
+  "targetPercent": {
+   "text": "Ziel-Prozent (%)"
+  },
+  "excelFormula": {
+   "text": "Excel-Formel"
+  },
+  "whatPercent": {
+   "text": "Welcher Prozentsatz"
+  },
+  "percentageChangeCalculator": {
+   "text": "Prozentänderungsrechner"
+  },
+  "oldValue": {
+   "text": "Alter Wert"
+  },
+  "newValue": {
+   "text": "Neuer Wert"
+  },
+  "percentageChange": {
+   "text": "Prozentänderung"
+  },
+  "direction": {
+   "text": "Richtung"
+  },
+  "increase": {
+   "text": "Erhöhung"
+  },
+  "decrease": {
+   "text": "Verringerung"
+  },
+  "noChange": {
+   "text": "Keine Änderung"
+  },
+  "difference": {
+   "text": "Differenz"
+  },
+  "percentagePoints": {
+   "text": "Prozentpunkte"
+  },
+  "percentageIncreaseCalculator": {
+   "text": "Prozentsteigerungsrechner"
+  },
+  "originalValue": {
+   "text": "Ausgangswert"
+  },
+  "percentageIncrease": {
+   "text": "Prozentsteigerung"
+  },
+  "amountAdded": {
+   "text": "Hinzugefügter Betrag"
+  },
+  "originalFromNew": {
+   "text": "Ausgangswert aus Neuwert"
+  },
+  "percentageDecreaseCalculator": {
+   "text": "Prozentreduktionsrechner"
+  },
+  "valueBeforeDecrease": {
+   "text": "Wert vor der Verringerung"
+  },
+  "valueAfterDecrease": {
+   "text": "Wert nach der Verringerung"
+  },
+  "percentageDecrease": {
+   "text": "Prozentminderung"
+  },
+  "amountRemoved": {
+   "text": "Abgezogener Betrag"
+  },
+  "valueBeforeTheDecrease": {
+   "text": "Wert vor der Minderung"
+  },
+  "percentageDifferenceCalculator": {
+   "text": "Prozentdifferenzrechner"
+  },
+  "valueA": {
+   "text": "Wert A"
+  },
+  "valueB": {
+   "text": "Wert B"
+  },
+  "percentageDifference": {
+   "text": "Prozentdifferenz"
+  },
+  "absoluteDifference": {
+   "text": "Absolute Differenz"
+  },
+  "averageOfAAndB": {
+   "text": "Mittelwert von A und B"
+  },
+  "percentageChangeAB": {
+   "text": "Prozentänderung (A → B)"
+  }
+ },
+ "ui.pdf.PdfCompressEngine": {
+  "screenSmallestFile": {
+   "text": "Bildschirm — kleinste Datei"
+  },
+  "balancedRecommended": {
+   "text": "Ausgewogen — empfohlen"
+  },
+  "printHighestQuality": {
+   "text": "Druck — höchste Qualität"
+  },
+  "compressPDF": {
+   "text": "PDF komprimieren"
+  },
+  "replacePDF": {
+   "text": "PDF ersetzen"
+  },
+  "chooseAPDF": {
+   "text": "PDF auswählen"
+  },
+  "compressionPreset": {
+   "text": "Komprimierungsstufe"
+  },
+  "custom": {
+   "text": "Benutzerdefiniert"
+  },
+  "pDFPassword": {
+   "text": "PDF-Passwort"
+  },
+  "compress": {
+   "text": "Komprimieren"
+  },
+  "optimise": {
+   "text": "Optimieren"
+  }
+ },
+ "ui.pdf.PdfImageEngine": {
+  "imageToPDFConverter": {
+   "text": "Bild-zu-PDF-Konverter"
+  },
+  "chooseImages": {
+   "text": "Bilder wählen"
+  },
+  "pageSize": {
+   "text": "Seitengröße"
+  },
+  "matchImageSize": {
+   "text": "Bildgröße übernehmen"
+  },
+  "a4210297Mm": {
+   "text": "A4 (210 × 297 mm)"
+  },
+  "uSLetter8511In": {
+   "text": "US Letter (8.5 × 11 in)"
+  },
+  "marginPt": {
+   "text": "Rand (pt)"
+  },
+  "pDFToImageConverter": {
+   "text": "PDF-zu-Bild-Konverter"
+  },
+  "replacePDF": {
+   "text": "PDF ersetzen"
+  },
+  "chooseAPDF": {
+   "text": "PDF auswählen"
+  },
+  "format": {
+   "text": "Format"
+  },
+  "pNGLossless": {
+   "text": "PNG (verlustfrei)"
+  },
+  "jPGSmaller": {
+   "text": "JPG (kleiner)"
+  },
+  "resolution": {
+   "text": "Auflösung"
+  },
+  "jPGQuality": {
+   "text": "JPG-Qualität"
+  },
+  "pages": {
+   "text": "Seiten"
+  },
+  "allPages": {
+   "text": "Alle Seiten"
+  },
+  "firstExportedPagePreview": {
+   "text": "Vorschau der ersten exportierten Seite"
+  }
+ },
+ "ui.pdf.shared": {
+  "working": {
+   "text": "In Bearbeitung…"
+  }
+ }
+}

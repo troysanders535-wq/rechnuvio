@@ -1,0 +1,15 @@
+{
+  "namespace": "ui.engines.MathCalculatorsEngine",
+  "en": {
+    "annualBaseSalary": "Annual Base Salary ($)",
+    "percentOf": "% of",
+    "isWhatPercentOf": "is what percent of",
+    "overtime15x": "Overtime (1.5x)"
+  },
+  "de": {
+    "annualBaseSalary": "Jahresgehalt ($)",
+    "percentOf": "% von",
+    "isWhatPercentOf": "ist wie viel Prozent von",
+    "overtime15x": "Überstunden (1,5x)"
+  }
+}

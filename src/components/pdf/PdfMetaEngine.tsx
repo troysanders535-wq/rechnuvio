@@ -14,21 +14,27 @@ import {
   inputClass,
 } from "./shared";
 import { PasswordRequiredError, formatDate, loadPdfDoc, readMetadata } from "./pdfLib";
+import { useTranslations } from "next-intl";
 
 export type PdfMetaMode = "view" | "edit" | "remove";
 
 type MetaRecord = Awaited<ReturnType<typeof readMetadata>>;
 
-const ROWS: { key: keyof MetaRecord; label: string }[] = [
-  { key: "title", label: "Title" },
-  { key: "author", label: "Author" },
-  { key: "subject", label: "Subject" },
-  { key: "keywords", label: "Keywords" },
-  { key: "producer", label: "Producer" },
-  { key: "creator", label: "Creator" },
-];
+/** The metadata fields the tool reads and edits; the labels come from the catalogue. */
+function ROWS(tUi: (key: string) => string): { key: keyof MetaRecord; label: string }[] {
+  return [
+    { key: "title", label: tUi("title") },
+    { key: "author", label: tUi("author") },
+    { key: "subject", label: tUi("subject") },
+    { key: "keywords", label: tUi("keywords") },
+    { key: "producer", label: tUi("producer") },
+    { key: "creator", label: tUi("creator") },
+  ];
+}
 
 export function PdfMetadataEngine({ mode }: { mode: PdfMetaMode }) {
+  const tUi = useTranslations("ui.pdf.PdfMetaEngine");
+  const rows = ROWS(tUi);
   const [file, setFile] = useState<File | null>(null);
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -40,19 +46,19 @@ export function PdfMetadataEngine({ mode }: { mode: PdfMetaMode }) {
 
   const titles: Record<PdfMetaMode, { title: string; description: string; action: string }> = {
     view: {
-      title: "PDF Metadata Viewer",
-      description: "Inspect the document information stored inside a PDF.",
-      action: "Read metadata",
+      title: tUi("pDFMetadataViewer"),
+      description: tUi("inspectTheDocumentInformationStoredInsideAPDF"),
+      action: tUi("readMetadata"),
     },
     edit: {
-      title: "PDF Metadata Editor",
-      description: "Change the title, author, subject, keywords and producer of a PDF.",
-      action: "Save metadata",
+      title: tUi("pDFMetadataEditor"),
+      description: tUi("changeTheTitleAuthorSubjectKeywordsAndProducerOfAPDF"),
+      action: tUi("saveMetadata"),
     },
     remove: {
-      title: "PDF Metadata Remover",
-      description: "Strip author, producer, software, dates and XMP packets from a PDF.",
-      action: "Remove metadata",
+      title: tUi("pDFMetadataRemover"),
+      description: tUi("stripAuthorProducerSoftwareDatesAndXMPPacketsFromAPDF"),
+      action: tUi("removeMetadata"),
     },
   };
   const copy = titles[mode];
@@ -79,9 +85,9 @@ export function PdfMetadataEngine({ mode }: { mode: PdfMetaMode }) {
     } catch (err) {
       if (err instanceof PasswordRequiredError) {
         setShowPassword(true);
-        setError("This PDF is password protected. Enter the password and try again.");
+        setError(tUi("thisPDFIsPasswordProtectedEnterThePasswordAndTryAgain"));
       } else {
-        setError(err instanceof Error ? err.message : "Could not read the file.");
+        setError(err instanceof Error ? err.message : tUi("couldNotReadTheFile"));
       }
     } finally {
       setBusy(false);
@@ -131,11 +137,11 @@ export function PdfMetadataEngine({ mode }: { mode: PdfMetaMode }) {
       downloadBytes(bytes, `${baseName(file.name)}-clean.pdf`);
       setInfo(
         mode === "edit"
-          ? "Metadata updated and the new PDF was downloaded."
-          : "Metadata stripped and the new PDF was downloaded.",
+          ? tUi("metadataUpdatedAndTheNewPDFWasDownloaded")
+          : tUi("metadataStrippedAndTheNewPDFWasDownloaded"),
       );
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Could not write the file.");
+      setError(err instanceof Error ? err.message : tUi("couldNotWriteTheFile"));
     } finally {
       setBusy(false);
     }
@@ -145,8 +151,8 @@ export function PdfMetadataEngine({ mode }: { mode: PdfMetaMode }) {
     <Workspace title={copy.title} description={copy.description}>
       <DropZone
         accept="application/pdf,.pdf"
-        label={file ? "Replace PDF" : "Choose a PDF"}
-        hint="One .pdf file. Everything runs in your browser."
+        label={file ? tUi("replacePDF") : tUi("chooseAPDF")}
+        hint={tUi("onePdfFileEverythingRunsInYourBrowser")}
         onFiles={(list) => {
           const chosen = list[0] ?? null;
           setFile(chosen);
@@ -163,7 +169,7 @@ export function PdfMetadataEngine({ mode }: { mode: PdfMetaMode }) {
       {file ? (
         <div className="mt-5 space-y-4">
           {showPassword ? (
-            <Field label="PDF password">
+            <Field label={tUi("pDFPassword")}>
               <input
                 type="password"
                 value={password}
@@ -182,21 +188,23 @@ export function PdfMetadataEngine({ mode }: { mode: PdfMetaMode }) {
           {meta && mode === "view" ? (
             <div className="overflow-hidden rounded-xl border border-slate-200 dark:border-slate-700">
               <dl className="divide-y divide-slate-200 dark:divide-slate-700">
-                {ROWS.map((row) => (
+                {rows.map((row) => (
                   <div key={row.key} className="grid grid-cols-3 gap-3 px-4 py-2.5 text-sm">
                     <dt className="font-medium text-slate-500 dark:text-slate-400">
                       {row.label}
                     </dt>
                     <dd className="col-span-2 break-words text-slate-800 dark:text-slate-200">
                       {(meta[row.key] as string) || (
-                        <span className="text-slate-400 dark:text-slate-500">— empty —</span>
+                        <span className="text-slate-400 dark:text-slate-500">
+                          {tUi("emptyValue")}
+                        </span>
                       )}
                     </dd>
                   </div>
                 ))}
                 <div className="grid grid-cols-3 gap-3 px-4 py-2.5 text-sm">
                   <dt className="font-medium text-slate-500 dark:text-slate-400">
-                    Created
+                    {tUi("created")}
                   </dt>
                   <dd className="col-span-2 text-slate-800 dark:text-slate-200">
                     {formatDate(meta.creationDate)}
@@ -204,21 +212,21 @@ export function PdfMetadataEngine({ mode }: { mode: PdfMetaMode }) {
                 </div>
                 <div className="grid grid-cols-3 gap-3 px-4 py-2.5 text-sm">
                   <dt className="font-medium text-slate-500 dark:text-slate-400">
-                    Modified
+                    {tUi("modified")}
                   </dt>
                   <dd className="col-span-2 text-slate-800 dark:text-slate-200">
                     {formatDate(meta.modificationDate)}
                   </dd>
                 </div>
                 <div className="grid grid-cols-3 gap-3 px-4 py-2.5 text-sm">
-                  <dt className="font-medium text-slate-500 dark:text-slate-400">Pages</dt>
+                  <dt className="font-medium text-slate-500 dark:text-slate-400">{tUi("pages")}</dt>
                   <dd className="col-span-2 text-slate-800 dark:text-slate-200">
                     {meta.pageCount}
                   </dd>
                 </div>
                 <div className="grid grid-cols-3 gap-3 px-4 py-2.5 text-sm">
                   <dt className="font-medium text-slate-500 dark:text-slate-400">
-                    File size
+                    {tUi("fileSize")}
                   </dt>
                   <dd className="col-span-2 text-slate-800 dark:text-slate-200">
                     {formatBytes(file.size)}
@@ -230,7 +238,7 @@ export function PdfMetadataEngine({ mode }: { mode: PdfMetaMode }) {
 
           {mode === "edit" ? (
             <div className="grid gap-4 sm:grid-cols-2">
-              {ROWS.map((row) => (
+              {rows.map((row) => (
                 <Field key={row.key} label={row.label}>
                   <input
                     type="text"
@@ -256,7 +264,7 @@ export function PdfMetadataEngine({ mode }: { mode: PdfMetaMode }) {
                 {copy.action}
               </ActionButton>
               <span className="text-xs text-slate-500 dark:text-slate-400">
-                Produces a new file; the original is untouched.
+                {tUi("producesANewFileTheOriginalIsUntouched")}
               </span>
             </div>
           ) : null}

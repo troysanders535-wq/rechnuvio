@@ -1,0 +1,40 @@
+{
+ "generatedAt": "2026-10-23T23:36:29.004Z",
+ "node": "v25.2.1",
+ "platform": "win32 x64",
+ "engines": [
+  {
+   "engine": "Chromium",
+   "available": false,
+   "version": "",
+   "note": "browserType.launch: Executable doesn't exist at C:\\Users\\shahe\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1248\\chrome-headless-shell-win64\\chrome-headless-shell.exe"
+  },
+  {
+   "engine": "Google Chrome (channel)",
+   "available": true,
+   "version": "155.0.8059.85",
+   "note": ""
+  },
+  {
+   "engine": "Microsoft Edge (channel)",
+   "available": true,
+   "version": "155.0.4283.62",
+   "note": ""
+  },
+  {
+   "engine": "Firefox",
+   "available": true,
+   "version": "157.0",
+   "note": ""
+  },
+  {
+   "engine": "WebKit",
+   "available": true,
+   "version": "27.2",
+   "note": ""
+  }
+ ],
+ "unavailable": [
+  "Chromium"
+ ]
+}

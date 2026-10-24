@@ -1,0 +1,35 @@
+{
+  "namespace": "ui.calculators.ConstructionTools",
+  "en": {
+    "costAtPerYd3": "Cost at ${amount}/yd³",
+    "costAtPerTon": "Cost at ${amount}/ton",
+    "costAtPerSquare": "Cost at ${amount}/square",
+    "working": "Working",
+    "kitchen": "Kitchen?",
+    "yesAdd1200BTU": "Yes — add {btu, number} BTU",
+    "rectangleCircleTriangleAreaFormulas": "Rectangle = length × width · Circle = π × radius² · Triangle = (base × height) ÷ 2. Square metres = sq ft × 0.092903 · Acres = sq ft ÷ 43,560.",
+    "cubicFeetAndCubicYardsWithBagYields": "cubic feet = length × width × (depth ÷ 12) · cubic yards = cubic feet ÷ 27 · an 80 lb bag yields about 0.60 ft³, a 60 lb bag 0.45 ft³.",
+    "tonsAndGravelDensities": "Tons = (area × depth in feet ÷ 27) × density. Pea gravel is about 1.4 tons per cubic yard, crushed stone about 1.35 and sand about 1.3.",
+    "mulchCubicFeetAndCubicYards": "cubic feet = area × (depth ÷ 12) · cubic yards = cubic feet ÷ 27.",
+    "tileAreaIncludesTheGroutJoint": "Tile area includes the grout joint: (length + grout) × (width + grout) ÷ 144. Tiles = area ÷ tile area, plus the waste allowance.",
+    "wallAreaAndGallons": "Wall area = perimeter × height − doors − windows. Gallons = area ÷ coverage × coats. One gallon covers roughly 350 sq ft.",
+    "pitchMultiplierAndRoofingSquares": "Pitch multiplier = √(1 + (pitch ÷ 12)²). One roofing square is 100 sq ft; three squares make a bundle of shingles.",
+    "bTUBaseWithCeilingsOccupantsAndKitchen": "Base = 30 BTU per sq ft · high ceilings add 5 BTU per sq ft · each occupant adds 300 BTU · a kitchen adds 1,200 BTU. One ton of cooling equals 12,000 BTU."
+  },
+  "de": {
+    "costAtPerYd3": "Kosten bei ${amount}/yd³",
+    "costAtPerTon": "Kosten bei ${amount}/Tonne",
+    "costAtPerSquare": "Kosten bei ${amount}/Quadrat",
+    "working": "Rechenweg",
+    "kitchen": "Küche?",
+    "yesAdd1200BTU": "Ja — {btu, number} BTU hinzufügen",
+    "rectangleCircleTriangleAreaFormulas": "Rechteck = Länge × Breite · Kreis = π × Radius² · Dreieck = (Grundseite × Höhe) ÷ 2. Quadratmeter = sq ft × 0,092903 · Acres = sq ft ÷ 43.560.",
+    "cubicFeetAndCubicYardsWithBagYields": "Kubikfuß = Länge × Breite × (Tiefe ÷ 12) · Kubikyard = Kubikfuß ÷ 27 · ein Sack mit 80 lb ergibt etwa 0,60 ft³, ein Sack mit 60 lb 0,45 ft³.",
+    "tonsAndGravelDensities": "Tons = (Fläche × Tiefe in Fuß ÷ 27) × Dichte. Kies ist etwa 1,4 tons pro Kubikyard, Splitt etwa 1,35 und Sand etwa 1,3.",
+    "mulchCubicFeetAndCubicYards": "Kubikfuß = Fläche × (Tiefe ÷ 12) · Kubikyard = Kubikfuß ÷ 27.",
+    "tileAreaIncludesTheGroutJoint": "Die Fliesenfläche enthält die Fuge: (Länge + Fuge) × (Breite + Fuge) ÷ 144. Fliesen = Fläche ÷ Fliesenfläche, zuzüglich des Verlustzuschlags.",
+    "wallAreaAndGallons": "Wandfläche = Umfang × Höhe − Türen − Fenster. Gallonen = Fläche ÷ Reichweite × Anstriche. Eine Gallone deckt etwa 350 sq ft.",
+    "pitchMultiplierAndRoofingSquares": "Neigungsfaktor = √(1 + (Neigung ÷ 12)²). Ein Dachquadrat entspricht 100 sq ft; drei Dachquadrate ergeben ein Bündel Schindeln.",
+    "bTUBaseWithCeilingsOccupantsAndKitchen": "Basis = 30 BTU pro sq ft · hohe Decken addieren 5 BTU pro sq ft · jede Person addiert 300 BTU · eine Küche addiert 1.200 BTU. Eine Kühltonne entspricht 12.000 BTU."
+  }
+}

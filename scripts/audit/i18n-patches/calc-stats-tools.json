@@ -1,0 +1,9 @@
+{
+  "namespace": "ui.calculators.StatsTools",
+  "en": {
+    "noMode": "none"
+  },
+  "de": {
+    "noMode": "keine"
+  }
+}

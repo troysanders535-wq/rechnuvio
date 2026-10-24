@@ -1,0 +1,144 @@
+tools: 492
+tools with a capability claim that the features do not mention: 35
+
+christmas-budget-planner [randomizers-games]
+   EN claims: split
+   Free Christmas budget planner: set a total gift budget, split it per person, and see spent, still to buy and money left as you shop. Print a PDF, no sign-up.
+
+dice-roller [randomizers-games]
+   EN claims: history
+   Roll a dice online in your browser. Roll up to 100 dice, choose d4-d100 or custom sides, add modifiers and keep a history of your rolls. Free and 100% client-side.
+
+discord-username-generator [randomizers-games]
+   EN claims: favorites
+   Generate a Discord username with lowercase letters, periods or underscores. Add your own word, save favorites and copy a handle. Free and client-side.
+
+extract-pdf-pages [pdf-suite]
+   EN claims: watermark
+   Select pages from a PDF and save them as a separate document, all in your browser. Free online tool to extract PDF pages with no uploads or watermark.
+
+flac-to-mp3 [media-audio-video]
+   EN claims: recording
+   Convert a FLAC recording to a real MP3 file in your browser. The sound is decoded locally and re-encoded with the LAME encoder at 192 kbps and 44.1 kHz. Free, no upload, no sign-up.
+
+gif-to-mp4 [image-suite]
+   EN claims: watermark
+   Convert animated GIFs to MP4 video in your browser: often 90% smaller, smooth playback, works on Instagram, X and WhatsApp. No upload, no watermark, free.
+
+heads-or-tails [randomizers-games]
+   EN claims: history
+   Flip a fair 50/50 coin online with realistic 3D animation, best-of-3/5/7 series, flip history, and cryptographic randomness. Runs 100% in your browser.
+
+html-minifier [developer-suite]
+   EN claims: compress
+   Minify HTML safely: remove comments, collapse whitespace, compress inline CSS and JSON-LD, optionally drop attribute quotes. Shows bytes saved. Free, private.
+
+image-resizer [image-suite]
+   EN claims: resize
+   Resize a picture in your browser: set the new width and the new height, keep the aspect ratio or set both by hand, choose the output format and the quality, then download it. Free and private, no uploads.
+
+image-to-pdf [pdf-suite]
+   EN claims: watermark
+   Convert images to PDF free: combine up to 20 JPG, PNG, WebP, GIF or BMP images. Choose page size and margins. No signup, watermark, or image uploads.
+
+instagram-grid-maker [image-suite]
+   EN claims: split
+   Split your photos into a perfect puzzle grid for Instagram. 100% free, highly functional, and preserves high-resolution quality.
+
+instagram-image-splitter [image-suite]
+   EN claims: split
+   Split an image into 3x1, 3x2, or 3x3 grid tiles for an Instagram profile layout and download the pieces in posting order. Free and private, no uploads.
+
+m4a-to-mp3 [media-audio-video]
+   EN claims: recording
+   Convert an M4A recording (AAC, iPhone Voice Memos) to a real MP3 file in your browser. The sound is decoded locally and re-encoded with the LAME encoder at 192 kbps and 44.1 kHz. No upload, no sign-up.
+
+merge-pdf [pdf-suite]
+   EN claims: watermark
+   Merge PDF files free in your browser. Reorder pages, remove unwanted pages, and download one PDF. No signup, no watermark, and no document uploads.
+
+mp3-to-wav [media-audio-video]
+   EN claims: recording
+   Convert an MP3 recording to a real WAV file in your browser. The sound is decoded locally and written as 16 bit PCM at 44.1 kHz, ready for audio editors, samplers and CD burning. Free, no upload, no sign-up.
+
+pdf-compressor [pdf-suite]
+   EN claims: compress
+   Compress a PDF online with quality presets and a before-and-after size comparison. Free PDF compressor that processes your file locally, never uploaded.
+
+pdf-merger [pdf-suite]
+   EN claims: watermark, merge
+   DE claims: merge
+   Merge several PDFs into a single document, reorder files before joining, and download the result. Free online PDF merger with no uploads or watermark.
+
+pdf-metadata-remover [pdf-suite]
+   EN claims: history
+   Remove PDF metadata in your browser: author, software, dates, XMP history, earlier versions and photo GPS. See what's hidden first. Free, private.
+
+pdf-metadata-viewer [pdf-suite]
+   EN claims: history
+   View PDF metadata online: author, software, dates, XMP edit history, document ID, earlier versions, photo GPS and attachments. Private, in your browser.
+
+pdf-splitter [pdf-suite]
+   EN claims: split
+   Split a PDF into smaller documents by page ranges, selected pages, or fixed intervals. Free online PDF splitter that processes files locally, never uploaded.
+
+pdf-to-docx [pdf-suite]
+   EN claims: ocr
+   DE claims: ocr
+   Convert PDF to Word free in your browser. Preview selectable text and download an editable DOCX. No uploads or signup. Scanned PDFs need OCR first.
+
+photo-resizer [image-suite]
+   EN claims: resize, watermark
+   Resize a photo to new pixel dimensions with a live preview, then download the result. Keep the aspect ratio or set the width and the height yourself. Free online photo resizer, no uploads or watermark.
+
+random-group-generator [randomizers-games]
+   EN claims: split
+   Split a list of names into balanced random groups or teams. Choose the number of groups, check duplicates and export all assignments. Private and client-side.
+
+random-number-generator [randomizers-games]
+   EN claims: history
+   Generate random numbers in any range: 1ΓÇô10, 1ΓÇô100, lottery picks and decimals. No repeats, exclusions, sorting and history. Free, instant and truly unbiased.
+
+random-team-generator [randomizers-games]
+   EN claims: split
+   Split names into random teams by number of teams or players per team. Balanced sizes, team-by-team results, CSV export. Free, private, no signup.
+
+ratio-calculator [calculator-suite]
+   EN claims: resize
+   Free ratio calculator: simplify ratios like 24:36 to 2:3, solve A:B = C:?, split a total in any ratio and resize while keeping the aspect ratio. With steps.
+
+reddit-username-generator [randomizers-games]
+   EN claims: favorites
+   Generate a Reddit username from funny, random, or personalized word combinations within the 30-character limit, then save and copy your favorites.
+
+remove-object-from-photo [image-suite]
+   EN claims: watermark
+   Remove an object, a person, text or a watermark from a picture: select the photo, paint over what should go and the painted area is filled with the colour of the surrounding pixels. Nothing is uploaded.
+
+roll-two-dice [randomizers-games]
+   EN claims: history
+   Roll two dice online and see both faces and their sum. Free 2d6 roller with a roll history, CSV export and a two-dice probability guide. Entirely client-side.
+
+split-pdf [pdf-suite]
+   EN claims: watermark
+   Split PDF files free in your browser. Extract selected pages into one PDF or split into separate PDFs in a ZIP. No signup, no watermark, no uploads.
+
+username-generator [randomizers-games]
+   EN claims: favorites
+   Generate a username with your own word or explore random ideas. Choose a style, save favorites and copy your shortlist. Free and processed in your browser.
+
+video-to-gif [image-suite]
+   EN claims: frame rate, watermark
+   Turn MP4, MOV or WebM clips into animated GIFs in your browser. Set the frame count, the frame rate, the trim range and the output width, preview the clip and download the GIF. No upload, no watermark, completely free.
+
+wav-to-mp3 [media-audio-video]
+   EN claims: recording
+   Convert a WAV recording to a real MP3 file in your browser. The samples are decoded locally and re-encoded with the LAME encoder at 192 kbps and 44.1 kHz, so the MP3 is much smaller than the WAV it came from. No upload, no sign-up.
+
+webm-to-mp4-converter [media-audio-video]
+   EN claims: watermark
+   Convert a WebM video to a real MP4 file, entirely in your browser. The browser decodes the picture and the sound and records them again as MP4 with H.264 video and AAC sound. Free, no upload, no sign-up, no watermark.
+
+webp-to-gif [image-suite]
+   EN claims: watermark
+   Convert animated WebP to GIF in your browser, keeping frame timing and transparency, or save a still WebP as GIF, PNG or JPG. Free, no upload, no watermark.

@@ -1,0 +1,11 @@
+{
+  "namespace": "ui.engines.Calendar2026Engine",
+  "en": {
+    "dinStandard": "(DIN Standard)",
+    "vectorPdf": "Vector-PDF"
+  },
+  "de": {
+    "dinStandard": "(DIN-Format)",
+    "vectorPdf": "Vektor-PDF"
+  }
+}

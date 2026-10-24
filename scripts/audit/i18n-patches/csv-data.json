@@ -1,0 +1,27 @@
+{
+  "namespace": "ui.engines.CsvDataEngine",
+  "en": {
+    "parquetNotSupported": "This site cannot read Parquet files: a browser has no Parquet reader, so the file dialog does not offer .parquet at all. Convert the file to CSV or JSON first and then open it here.",
+    "xlsNotSupported": "The legacy .xls format cannot be read in the browser. Save the workbook as .xlsx and open it here - every sheet of an .xlsx file is read.",
+    "pdfWithoutTextLayer": "The document has {pages} page(s) but no text layer, so it is probably a scan. This tool reads the text of a PDF; it does not run OCR.",
+    "pdfRead": "Read {rows} line(s) from {pages} page(s) of {name}. The values are kept exactly as they are printed.",
+    "workbookRead": "Read {rows} row(s) from the sheet \"{sheet}\" of {sheets} sheet(s) in {name}. {dates} date cell(s) and {percentages} percentage cell(s) are shown with the number format of the workbook.",
+    "textFileRead": "Read {name}.",
+    "fileNotReadable": "{name} could not be read: {message}.",
+    "sheets": "Sheets",
+    "readingFile": "Reading...",
+    "fileNotAWorkbook": "{name} is not an .xlsx workbook: the file could not be opened as a workbook."
+  },
+  "de": {
+    "parquetNotSupported": "Diese Seite kann keine Parquet-Dateien lesen: Ein Browser hat keinen Parquet-Reader, deshalb bietet die Dateiauswahl .parquet gar nicht erst an. Konvertieren Sie die Datei zuerst nach CSV oder JSON und öffnen Sie sie dann hier.",
+    "xlsNotSupported": "Das alte .xls-Format kann im Browser nicht gelesen werden. Speichern Sie die Arbeitsmappe als .xlsx und öffnen Sie sie hier - bei einer .xlsx-Datei wird jedes Blatt gelesen.",
+    "pdfWithoutTextLayer": "Das Dokument hat {pages} Seite(n), aber keine Textebene - vermutlich ist es ein Scan. Dieses Werkzeug liest den Text eines PDF; es führt keine OCR durch.",
+    "pdfRead": "{rows} Zeile(n) aus {pages} Seite(n) von {name} gelesen. Die Werte bleiben genau so, wie sie gedruckt sind.",
+    "workbookRead": "{rows} Zeile(n) aus dem Blatt \"{sheet}\" von {sheets} Blatt(ern) in {name} gelesen. {dates} Datumszelle(n) und {percentages} Prozentzelle(n) werden mit dem Zahlenformat der Arbeitsmappe angezeigt.",
+    "textFileRead": "{name} gelesen.",
+    "fileNotReadable": "{name} konnte nicht gelesen werden: {message}.",
+    "sheets": "Blätter",
+    "readingFile": "Wird gelesen ...",
+    "fileNotAWorkbook": "{name} ist keine .xlsx-Arbeitsmappe: Die Datei konnte nicht als Arbeitsmappe geöffnet werden."
+  }
+}

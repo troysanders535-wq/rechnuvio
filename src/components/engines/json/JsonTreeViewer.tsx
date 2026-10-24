@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useMemo } from "react";
+import { useTranslations } from "next-intl";
 import {
   ChevronRight,
   ChevronDown,
@@ -20,6 +21,7 @@ interface JsonTreeViewerProps {
 }
 
 export function JsonTreeViewer({ data, defaultExpandedDepth = 2 }: JsonTreeViewerProps) {
+  const tUi = useTranslations("ui.engines.json.JsonTreeViewer");
   const [searchQuery, setSearchQuery] = useState("");
   const [activeTab, setActiveTab] = useState<"tree" | "table" | "raw">("tree");
   const [copiedPath, setCopiedPath] = useState<string | null>(null);
@@ -64,7 +66,7 @@ export function JsonTreeViewer({ data, defaultExpandedDepth = 2 }: JsonTreeViewe
               }`}
             >
               <FolderTree className="size-3.5" />
-              <span>Tree</span>
+              <span>{tUi("tree")}</span>
             </button>
             {tabularData && (
               <button
@@ -77,7 +79,7 @@ export function JsonTreeViewer({ data, defaultExpandedDepth = 2 }: JsonTreeViewe
                 }`}
               >
                 <TableIcon className="size-3.5" />
-                <span>Table</span>
+                <span>{tUi("table")}</span>
               </button>
             )}
             <button
@@ -90,7 +92,7 @@ export function JsonTreeViewer({ data, defaultExpandedDepth = 2 }: JsonTreeViewe
               }`}
             >
               <Code2 className="size-3.5" />
-              <span>Raw</span>
+              <span>{tUi("raw")}</span>
             </button>
           </div>
 
@@ -103,10 +105,10 @@ export function JsonTreeViewer({ data, defaultExpandedDepth = 2 }: JsonTreeViewe
                   setExpandAllKey((k) => k + 1);
                 }}
                 className="inline-flex items-center gap-1 rounded-md border border-slate-800 bg-slate-900 px-2 py-1 text-[11px] text-slate-300 hover:bg-slate-800 hover:text-white"
-                title="Expand All"
+                title={tUi("expandAll")}
               >
                 <Maximize2 className="size-3" />
-                <span className="hidden sm:inline">Expand All</span>
+                <span className="hidden sm:inline">{tUi("expandAll")}</span>
               </button>
               <button
                 type="button"
@@ -115,10 +117,10 @@ export function JsonTreeViewer({ data, defaultExpandedDepth = 2 }: JsonTreeViewe
                   setExpandAllKey((k) => k + 1);
                 }}
                 className="inline-flex items-center gap-1 rounded-md border border-slate-800 bg-slate-900 px-2 py-1 text-[11px] text-slate-300 hover:bg-slate-800 hover:text-white"
-                title="Collapse All"
+                title={tUi("collapseAll")}
               >
                 <Minimize2 className="size-3" />
-                <span className="hidden sm:inline">Collapse All</span>
+                <span className="hidden sm:inline">{tUi("collapseAll")}</span>
               </button>
             </div>
           )}
@@ -131,7 +133,7 @@ export function JsonTreeViewer({ data, defaultExpandedDepth = 2 }: JsonTreeViewe
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Search keys / values..."
+            placeholder={tUi("searchKeysValues")}
             className="w-full rounded-lg border border-slate-800 bg-slate-950 py-1 pl-8 pr-2.5 text-xs text-white placeholder:text-slate-600 outline-none focus:border-sky-500"
           />
         </div>

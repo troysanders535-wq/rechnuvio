@@ -1,0 +1,27 @@
+{
+  "namespace": "ui.engines.image",
+  "en": {
+    "themeMidnight": "Midnight",
+    "themePaper": "Paper",
+    "themeAccent": "Accent",
+    "quoteFontSerif": "Serif (Georgia)",
+    "quoteFontSansSerif": "Sans serif (Arial)",
+    "quoteFontMonospace": "Monospace (Courier)",
+    "quoteFontPoster": "Poster (Impact)",
+    "ogTemplateMinimal": "Minimal",
+    "ogTemplateGradient": "Gradient",
+    "ogTemplateSplit": "Split"
+  },
+  "de": {
+    "themeMidnight": "Mitternacht",
+    "themePaper": "Papier",
+    "themeAccent": "Akzent",
+    "quoteFontSerif": "Serifenschrift (Georgia)",
+    "quoteFontSansSerif": "Serifenlose Schrift (Arial)",
+    "quoteFontMonospace": "Dicktengleich (Courier)",
+    "quoteFontPoster": "Plakatschrift (Impact)",
+    "ogTemplateMinimal": "Minimal",
+    "ogTemplateGradient": "Farbverlauf",
+    "ogTemplateSplit": "Geteilt"
+  }
+}

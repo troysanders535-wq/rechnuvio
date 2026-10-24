@@ -1,0 +1,19 @@
+{
+  "namespace": "ui.engines.developerSuite",
+  "en": {
+    "graphqlDocumentIsEmpty": "the document is empty",
+    "graphqlUnexpectedToken": "unexpected \"{token}\"",
+    "graphqlUnexpectedClose": "\"{token}\" closes \"{open}\" that was opened on line {line}",
+    "graphqlNeverClosed": "\"{token}\" is never closed",
+    "graphqlNoSelectionSet": "the {operation} operation has no selection set",
+    "graphqlUndefinedType": "the type \"{name}\" is used but never defined"
+  },
+  "de": {
+    "graphqlDocumentIsEmpty": "das Dokument ist leer",
+    "graphqlUnexpectedToken": "unerwartetes Zeichen \"{token}\"",
+    "graphqlUnexpectedClose": "\"{token}\" schließt \"{open}\", das in Zeile {line} geöffnet wurde",
+    "graphqlNeverClosed": "\"{token}\" wird nie geschlossen",
+    "graphqlNoSelectionSet": "die {operation}-Operation hat keine Auswahlmenge",
+    "graphqlUndefinedType": "der Typ \"{name}\" wird verwendet, aber nie definiert"
+  }
+}

@@ -4,9 +4,7 @@ import { notFound } from "next/navigation";
 import { TOOLS_CATALOG, getToolBySlug } from "@/data/tools";
 import { ToolShell } from "@/components/layout/ToolShell";
 import { EngineDispatcher } from "@/components/engines/EngineDispatcher";
-import { getCanonicalUrl, getAlternateHreflang } from "@/i18n/domains";
-import deMessages from "@/messages/de.json";
-import enMessages from "@/messages/en.json";
+import { getTranslations } from "next-intl/server";
 
 interface ToolPageProps {
   params: Promise<{
@@ -28,7 +26,7 @@ export async function generateMetadata({
 
   if (!tool) {
     return {
-      title: "Tool Not Found | Digital ToolPad",
+      title: "Tool Not Found",
     };
   }
 
@@ -44,12 +42,18 @@ export async function generateMetadata({
   };
 
   if (slug === "2026-calendar") {
+    // The calendar ships its own headline copy in the message catalogue, so
+    // it has to be resolved for the active locale - otherwise the English
+    // page would publish the German title and description.
+    const tMeta = await getTranslations("meta");
+    const metaTitle = tMeta("title");
+    const metaDescription = tMeta("description");
     return {
-      title: `${deMessages.meta.title} | Digital ToolPad`,
-      description: deMessages.meta.description,
+      title: metaTitle,
+      description: metaDescription,
       openGraph: {
-        title: deMessages.meta.title,
-        description: deMessages.meta.description,
+        title: metaTitle,
+        description: metaDescription,
         siteName: "Digital ToolPad",
         type: "website",
       },

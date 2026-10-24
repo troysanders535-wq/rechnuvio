@@ -10,6 +10,7 @@ import {
   downloadBlob,
 } from "./shared";
 import { htmlToText, parseEml, type EmlMessage } from "./eml";
+import { useTranslations } from "next-intl";
 import {
   MARGIN,
   PAGE_H,
@@ -62,6 +63,7 @@ function guessMimeType(filename: string): string {
 }
 
 export function PdfEmailEngine() {
+  const tUi = useTranslations("ui.pdf.PdfEmailEngine");
   const [loaded, setLoaded] = useState<Loaded | null>(null);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -119,7 +121,7 @@ export function PdfEmailEngine() {
           raw: null,
           msgAttachments: attachments,
         });
-        setInfo("Outlook message parsed.");
+        setInfo(tUi("outlookMessageParsed"));
         return;
       }
 
@@ -140,9 +142,9 @@ export function PdfEmailEngine() {
         raw: parsed,
         msgAttachments: [],
       });
-      setInfo("Email parsed.");
+      setInfo(tUi("emailParsed"));
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Could not read the email.");
+      setError(err instanceof Error ? err.message : tUi("couldNotReadTheEmail"));
     } finally {
       setBusy(false);
     }
@@ -155,19 +157,19 @@ export function PdfEmailEngine() {
     setInfo(null);
 
     try {
-      const doc = createDoc(loaded.subject || "Email");
+      const doc = createDoc(loaded.subject || tUi("emailFallbackTitle"));
       let y = MARGIN + 8;
 
       doc.setFont("helvetica", "bold");
       doc.setFontSize(16);
-      y = drawHeading(doc, loaded.subject || "(no subject)", 1, y);
+      y = drawHeading(doc, loaded.subject || tUi("noSubject"), 1, y);
       y = drawRule(doc, y);
 
       doc.setFont("helvetica", "normal");
       doc.setFontSize(10);
-      if (loaded.from) y = drawKeyValue(doc, "From", loaded.from, y);
-      if (loaded.to) y = drawKeyValue(doc, "To", loaded.to, y);
-      if (loaded.date) y = drawKeyValue(doc, "Date", loaded.date, y);
+      if (loaded.from) y = drawKeyValue(doc, tUi("from"), loaded.from, y);
+      if (loaded.to) y = drawKeyValue(doc, tUi("to"), loaded.to, y);
+      if (loaded.date) y = drawKeyValue(doc, tUi("date"), loaded.date, y);
       y = drawRule(doc, y);
 
       const body = loaded.body?.trim();
@@ -178,20 +180,24 @@ export function PdfEmailEngine() {
           y = drawParagraph(doc, trimmed, y);
         }
       } else {
-        y = drawParagraph(doc, "This message has no readable body text.", y);
+        y = drawParagraph(doc, tUi("thisMessageHasNoReadableBodyText"), y);
       }
 
       if (loaded.attachments.length) {
         y = drawRule(doc, y);
         doc.setFont("helvetica", "bold");
         doc.setFontSize(13);
-        y = drawHeading(doc, `Attachments (${loaded.attachments.length})`, 2, y);
+        y = drawHeading(doc, tUi("attachmentsHeading", { count: loaded.attachments.length }), 2, y);
         doc.setFont("helvetica", "normal");
         doc.setFontSize(10);
         for (const attachment of loaded.attachments) {
           y = drawParagraph(
             doc,
-            `${attachment.filename} — ${attachment.mimeType} (${attachment.size} bytes)`,
+            tUi("attachmentDetails", {
+              filename: attachment.filename,
+              mimeType: attachment.mimeType,
+              size: attachment.size,
+            }),
             y,
           );
         }
@@ -233,9 +239,9 @@ export function PdfEmailEngine() {
 
       const blob = doc.output("blob");
       downloadBlob(blob, `${baseName(loaded.fileName)}.pdf`);
-      setInfo("Email converted to PDF.");
+      setInfo(tUi("emailConvertedToPDF"));
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Could not build the PDF.");
+      setError(err instanceof Error ? err.message : tUi("couldNotBuildThePDF"));
     } finally {
       setBusy(false);
     }
@@ -243,13 +249,13 @@ export function PdfEmailEngine() {
 
   return (
     <Workspace
-      title="Email to PDF Converter"
-      description="Turn an .eml or .msg email into a readable PDF, including its headers and attachment list."
+      title={tUi("emailToPDFConverter")}
+      description={tUi("turnAnEmlOrMsgEmailIntoAReadablePDFIncludingItsHeadersAndAttachmentList")}
     >
       <DropZone
         accept=".eml,.msg,message/rfc822"
-        label={loaded ? "Replace email" : "Choose an email file"}
-        hint="An .eml file exported from a mail client, or an Outlook .msg file."
+        label={loaded ? tUi("replaceEmail") : tUi("chooseAnEmailFile")}
+        hint={tUi("anEmlFileExportedFromAMailClientOrAnOutlookMsgFile")}
         onFiles={(list) => void handleFile(list)}
         disabled={busy}
       />
@@ -259,38 +265,38 @@ export function PdfEmailEngine() {
           <div className="rounded-xl border border-slate-200 dark:border-slate-700">
             <dl className="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
               <div className="grid grid-cols-3 gap-3 px-4 py-2.5">
-                <dt className="font-medium text-slate-500 dark:text-slate-400">Subject</dt>
+                <dt className="font-medium text-slate-500 dark:text-slate-400">{tUi("subject")}</dt>
                 <dd className="col-span-2 break-words text-slate-800 dark:text-slate-200">
                   {loaded.subject || "—"}
                 </dd>
               </div>
               <div className="grid grid-cols-3 gap-3 px-4 py-2.5">
-                <dt className="font-medium text-slate-500 dark:text-slate-400">From</dt>
+                <dt className="font-medium text-slate-500 dark:text-slate-400">{tUi("from")}</dt>
                 <dd className="col-span-2 break-words text-slate-800 dark:text-slate-200">
                   {loaded.from || "—"}
                 </dd>
               </div>
               <div className="grid grid-cols-3 gap-3 px-4 py-2.5">
-                <dt className="font-medium text-slate-500 dark:text-slate-400">Date</dt>
+                <dt className="font-medium text-slate-500 dark:text-slate-400">{tUi("date")}</dt>
                 <dd className="col-span-2 text-slate-800 dark:text-slate-200">
                   {loaded.date || "—"}
                 </dd>
               </div>
               <div className="grid grid-cols-3 gap-3 px-4 py-2.5">
                 <dt className="font-medium text-slate-500 dark:text-slate-400">
-                  Attachments
+                  {tUi("attachments")}
                 </dt>
                 <dd className="col-span-2 text-slate-800 dark:text-slate-200">
                   {loaded.attachments.length
                     ? loaded.attachments.map((a) => a.filename).join(", ")
-                    : "None"}
+                    : tUi("none")}
                 </dd>
               </div>
             </dl>
           </div>
 
           <ActionButton onClick={handleConvert} busy={busy}>
-            Convert to PDF
+            {tUi("convertToPDF")}
           </ActionButton>
         </div>
       ) : null}

@@ -16,8 +16,10 @@ import {
   round,
 } from "./shared";
 import { oneRepMax, waterIntake, type OneRepMaxFormula } from "./calc";
+import { useTranslations } from "next-intl";
 
 export function FitnessTools({ variant }: { variant: CalculatorVariant }) {
+  const tUi = useTranslations("ui.calculators.FitnessTools");
   const [weight, setWeight] = useState("100");
   const [reps, setReps] = useState("5");
   const [formula, setFormula] = useState<OneRepMaxFormula>("epley");
@@ -33,45 +35,47 @@ export function FitnessTools({ variant }: { variant: CalculatorVariant }) {
     const brzycki = oneRepMax(value, repCount, "brzycki");
     const lombardi = oneRepMax(value, repCount, "lombardi");
     const selected = oneRepMax(value, repCount, formula);
-    const chart = Array.from({ length: 10 }, (_, i) => i + 1).map((r) => ({
-      reps: r,
-      percent: r === 1 ? 100 : Math.round((r / repCount) * 100),
-      weight: round(oneRepMax(value, r, "epley"), 1),
-    }));
+    // Every row lists the 1RM implied by lifting the same weight for that many
+    // reps, and that weight as a percentage of the estimated 1RM.
+    const chart = Array.from({ length: 10 }, (_, i) => i + 1).map((r) => {
+      const chartWeight = round(oneRepMax(value, r, formula), 1);
+      return {
+        reps: r,
+        percent: selected > 0 ? round((chartWeight / selected) * 100, 1) : 0,
+        weight: chartWeight,
+      };
+    });
     return (
       <CalcPanel
-        title="One Rep Max Calculator"
-        subtitle="Estimate your 1RM from any set of 1–15 reps with the Epley, Brzycki and Lombardi formulas."
+        title={tUi("oneRepMaxCalculator")}
+        subtitle={tUi("estimateYour1RMFromAnySetOf115RepsWithTheEpleyBrzyckiAndLombardiFormulas")}
         icon={<Dumbbell className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-3">
-          <NumberField label="Weight lifted" value={weight} onChange={setWeight} hint="lb or kg" />
-          <NumberField label="Reps performed" value={reps} onChange={setReps} hint="1 to 15" />
+          <NumberField label={tUi("weightLifted")} value={weight} onChange={setWeight} hint={tUi("lbOrKg")} />
+          <NumberField label={tUi("repsPerformed")} value={reps} onChange={setReps} hint={tUi("1To15")} />
           <SelectField
-            label="Formula"
+            label={tUi("formula")}
             value={formula}
             onChange={setFormula}
             options={[
-              { value: "epley", label: "Epley (most common)" },
-              { value: "brzycki", label: "Brzycki" },
-              { value: "lombardi", label: "Lombardi" },
+              { value: "epley", label: tUi("epleyMostCommon") },
+              { value: "brzycki", label: tUi("brzycki") },
+              { value: "lombardi", label: tUi("lombardi") },
             ]}
           />
         </div>
         <ResultGrid>
-          <ResultCard label="Your estimated 1RM" value={round(selected, 2)} tone="emerald" />
-          <ResultCard label="Epley" value={round(epley, 2)} tone="sky" />
-          <ResultCard label="Brzycki" value={round(brzycki, 2)} tone="slate" />
-          <ResultCard label="Lombardi" value={round(lombardi, 2)} tone="slate" />
+          <ResultCard label={tUi("yourEstimated1RM")} value={round(selected, 2)} tone="emerald" />
+          <ResultCard label={tUi("epley")} value={round(epley, 2)} tone="sky" />
+          <ResultCard label={tUi("brzycki")} value={round(brzycki, 2)} tone="slate" />
+          <ResultCard label={tUi("lombardi")} value={round(lombardi, 2)} tone="slate" />
         </ResultGrid>
         <Table
-          headers={["Reps", "% of 1RM", "Weight for that %"]}
+          headers={[tUi("reps"), tUi("percentOf1RM"), tUi("weightForThat")]}
           rows={chart.map((row) => [row.reps, `${row.percent}%`, row.weight])}
         />
-        <FormulaNote>
-          Epley: weight × (1 + reps ÷ 30) · Brzycki: weight × 36 ÷ (37 − reps) · Lombardi: weight ×
-          reps^0.1. Epley and Brzycki are the most accurate for sets of 10 reps or fewer.
-        </FormulaNote>
+        <FormulaNote>{tUi("epleyBrzyckiAndLombardiFormulas")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -81,50 +85,50 @@ export function FitnessTools({ variant }: { variant: CalculatorVariant }) {
   const result = waterIntake(kg, num(exercise), climate);
   return (
     <CalcPanel
-      title="Water Intake Calculator"
-      subtitle="How much water to drink a day from your weight, exercise and climate."
+      title={tUi("waterIntakeCalculator")}
+      subtitle={tUi("howMuchWaterToDrinkADayFromYourWeightExerciseAndClimate")}
       icon={<Droplets className="size-5 text-sky-700" />}
     >
       <div className="grid gap-4 sm:grid-cols-4">
-        <NumberField label="Body weight" value={bodyWeight} onChange={setBodyWeight} hint="kg or lb" />
+        <NumberField label={tUi("bodyWeight")} value={bodyWeight} onChange={setBodyWeight} hint={tUi("kgOrLb")} />
         <SelectField
-          label="Unit"
+          label={tUi("unit")}
           value={unit}
           onChange={setUnit}
           options={[
-            { value: "kg", label: "kg" },
-            { value: "lb", label: "lb" },
+            { value: "kg", label: tUi("unitKg") },
+            { value: "lb", label: tUi("unitLb") },
           ]}
         />
-        <NumberField label="Exercise (min/day)" value={exercise} onChange={setExercise} />
+        <NumberField label={tUi("exerciseMinDay")} value={exercise} onChange={setExercise} />
         <SelectField
-          label="Climate"
+          label={tUi("climate")}
           value={climate}
           onChange={setClimate}
           options={[
-            { value: "temperate", label: "Temperate" },
-            { value: "hot", label: "Hot" },
-            { value: "very-hot", label: "Very hot" },
+            { value: "temperate", label: tUi("temperate") },
+            { value: "hot", label: tUi("hot") },
+            { value: "very-hot", label: tUi("veryHot") },
           ]}
         />
       </div>
       <ResultGrid>
-        <ResultCard label="Water per day" value={result.litres} unit="L" tone="emerald" />
-        <ResultCard label="Fluid ounces" value={result.ounces} unit="oz" tone="sky" />
-        <ResultCard label="Cups (8 oz)" value={result.cups} tone="slate" />
-        <ResultCard label="Bottles (16.9 oz)" value={result.bottles} tone="slate" />
+        <ResultCard label={tUi("waterPerDay")} value={result.litres} unit="L" tone="emerald" />
+        <ResultCard label={tUi("fluidOunces")} value={result.ounces} unit="oz" tone="sky" />
+        <ResultCard label={tUi("cups8Oz")} value={result.cups} tone="slate" />
+        <ResultCard label={tUi("bottles169Oz")} value={result.bottles} tone="slate" />
       </ResultGrid>
       <DetailList
         items={[
-          { label: "Base (33 ml per kg)", value: `${round(kg * 0.033, 2)} L` },
-          { label: "Exercise top-up", value: `${round(((num(exercise)) / 30) * 0.35, 2)} L` },
-          { label: "Climate top-up", value: climate === "temperate" ? "0 L" : climate === "hot" ? "0.5 L" : "1 L" },
+          { label: tUi("baseWater", { amount: 33 }), value: `${round(kg * 0.033, 2)} L` },
+          { label: tUi("exerciseTopUp"), value: `${round(((num(exercise)) / 30) * 0.35, 2)} L` },
+          {
+            label: tUi("climateTopUp"),
+            value: climate === "temperate" ? tUi("0L") : climate === "hot" ? tUi("05L") : tUi("1L"),
+          },
         ]}
       />
-      <FormulaNote>
-        Daily water = (weight in kg × 33 ml) + 350 ml per 30 minutes of exercise + a climate
-        allowance of 0.5–1 L in hot weather.
-      </FormulaNote>
+      <FormulaNote>{tUi("dailyWaterFormula")}</FormulaNote>
     </CalcPanel>
   );
 }

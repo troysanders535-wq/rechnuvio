@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { BookOpen, GraduationCap, ClipboardCheck } from "lucide-react";
 import type { CalculatorVariant } from "@/data/calculatorTools";
+import { useTranslations } from "next-intl";
 import {
   CalcPanel,
   DetailList,
@@ -16,7 +17,9 @@ import {
   round,
 } from "./shared";
 import {
+  A_GRADE_BOUNDARY,
   GRADE_POINTS_4,
+  averageGradePoints,
   finalGradeNeeded,
   gpaOf,
   letterGrade,
@@ -27,12 +30,24 @@ import {
 
 const GRADE_OPTIONS = Object.keys(GRADE_POINTS_4);
 
-function defaultCourses(): GradeCourse[] {
+/**
+ * The default course list.
+ *
+ * The course names are labels and are translated by the caller, but the grade
+ * codes are lookup keys into GRADE_POINTS_4 and must stay in their original
+ * form - a translated grade would no longer resolve to any grade point.
+ */
+function defaultCourses(labels: {
+  mathematics: string;
+  physics: string;
+  history: string;
+  literature: string;
+}): GradeCourse[] {
   return [
-    { name: "Mathematics", credits: 4, grade: "A" },
-    { name: "Physics", credits: 4, grade: "B+" },
-    { name: "History", credits: 3, grade: "A-" },
-    { name: "Literature", credits: 3, grade: "A" },
+    { name: labels.mathematics, credits: 4, grade: "A" },
+    { name: labels.physics, credits: 4, grade: "B+" },
+    { name: labels.history, credits: 3, grade: "A-" },
+    { name: labels.literature, credits: 3, grade: "A" },
   ];
 }
 
@@ -47,6 +62,7 @@ function CourseTable({
   showCredits: boolean;
   showBonus: boolean;
 }) {
+  const tUi = useTranslations("ui.calculators.GradeTools");
   const update = (index: number, patch: Partial<GradeCourse>) => {
     const copy = courses.map((course, i) => (i === index ? { ...course, ...patch } : course));
     setCourses(copy);
@@ -59,7 +75,7 @@ function CourseTable({
           <input
             type="text"
             value={course.name}
-            aria-label={`Course ${index + 1} name`}
+            aria-label={tUi("courseNameLabel", { index: index + 1 })}
             onChange={(e) => update(index, { name: e.target.value })}
             className="min-w-32 flex-1 rounded-lg border border-slate-300 bg-white px-3 py-2 text-xs text-slate-900 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
           />
@@ -69,7 +85,7 @@ function CourseTable({
               min={0}
               step="0.5"
               value={course.credits}
-              aria-label={`${course.name} credits`}
+              aria-label={tUi("courseCreditsLabel", { name: course.name })}
               onChange={(e) => update(index, { credits: Number(e.target.value) })}
               className="w-20 rounded-lg border border-slate-300 bg-white px-2 py-2 text-xs text-slate-900 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
             />
@@ -77,18 +93,18 @@ function CourseTable({
           {showBonus ? (
             <select
               value={String(course.bonus ?? 0)}
-              aria-label={`${course.name} weighting`}
+              aria-label={tUi("courseWeightingLabel", { name: course.name })}
               onChange={(e) => update(index, { bonus: Number(e.target.value) })}
               className="rounded-lg border border-slate-300 bg-white px-2 py-2 text-xs text-slate-900 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
             >
-              <option value="0">Regular</option>
-              <option value="0.5">Honours +0.5</option>
-              <option value="1">AP / IB +1.0</option>
+              <option value="0">{tUi("regular")}</option>
+              <option value="0.5">{tUi("honours05")}</option>
+              <option value="1">{tUi("aPIB10")}</option>
             </select>
           ) : null}
           <select
             value={course.grade}
-            aria-label={`${course.name} grade`}
+            aria-label={tUi("courseGradeLabel", { name: course.name })}
             onChange={(e) => update(index, { grade: e.target.value })}
             className="rounded-lg border border-slate-300 bg-white px-2 py-2 text-xs text-slate-900 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
           >
@@ -105,19 +121,27 @@ function CourseTable({
         onClick={() =>
           setCourses([
             ...courses,
-            { name: `Course ${courses.length + 1}`, credits: 3, grade: "B", bonus: 0 },
+            { name: tUi("courseDefaultName", { index: courses.length + 1 }), credits: 3, grade: "B", bonus: 0 },
           ])
         }
         className="rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200"
       >
-        + Add course
+        {tUi("addCourse")}
       </button>
     </div>
   );
 }
 
 export function GradeTools({ variant }: { variant: CalculatorVariant }) {
-  const [courses, setCourses] = useState<GradeCourse[]>(defaultCourses);
+  const tUi = useTranslations("ui.calculators.GradeTools");
+  const [courses, setCourses] = useState<GradeCourse[]>(() =>
+    defaultCourses({
+      mathematics: tUi("mathematics"),
+      physics: tUi("physics"),
+      history: tUi("history"),
+      literature: tUi("literature"),
+    }),
+  );
   const [currentGpa, setCurrentGpa] = useState("3.2");
   const [currentCredits, setCurrentCredits] = useState("45");
   const [targetGpa, setTargetGpa] = useState("3.8");
@@ -128,9 +152,9 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
   const [questions, setQuestions] = useState("20");
   const [correct, setCorrect] = useState("18");
   const [weights, setWeights] = useState([
-    { name: "Homework", weight: 20, score: 88 },
-    { name: "Midterm", weight: 30, score: 76 },
-    { name: "Final exam", weight: 50, score: 91 },
+    { name: tUi("homework"), weight: 20, score: 88 },
+    { name: tUi("midterm"), weight: 30, score: 76 },
+    { name: tUi("finalExam"), weight: 50, score: 91 },
   ]);
 
   const gpa = gpaOf(courses);
@@ -138,22 +162,37 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
 
   if (variant === "gpa" || variant === "college-gpa") {
     const totalCredits = courses.reduce((sum, c) => sum + (num(c.credits) || 0), 0);
+    const current = num(currentGpa);
+    const earnedCredits = num(currentCredits);
+    const combinedCredits = earnedCredits + totalCredits;
+    const cumulative =
+      combinedCredits > 0
+        ? (current * earnedCredits + gpa * totalCredits) / combinedCredits
+        : 0;
+    // The GPA the student has to earn next term to finish on a 4.0 average.
+    const neededForA40 =
+      totalCredits > 0 ? (4 * combinedCredits - current * earnedCredits) / totalCredits : 0;
     return (
       <CalcPanel
-        title={variant === "college-gpa" ? "College GPA Calculator" : "GPA Calculator"}
+        title={variant === "college-gpa" ? tUi("collegeGPACalculator") : tUi("gPACalculator")}
         subtitle={
           variant === "college-gpa"
-            ? "Semester GPA and cumulative GPA on the 4.0 scale, plus the GPA needed next term."
-            : "Add classes, credits and grades to get your GPA on the 4.0 scale."
+            ? tUi("collegeGpaCalculatorSubtitle")
+            : tUi("gpaCalculatorSubtitle")
         }
         icon={<GraduationCap className="size-5 text-sky-700" />}
       >
+        <div className="grid gap-4 sm:grid-cols-2">
+          <NumberField label={tUi("currentGPA")} value={currentGpa} onChange={setCurrentGpa} />
+          <NumberField label={tUi("creditsEarned")} value={currentCredits} onChange={setCurrentCredits} />
+        </div>
         <CourseTable courses={courses} setCourses={setCourses} showCredits showBonus={false} />
         <ResultGrid>
-          <ResultCard label="Semester GPA" value={round(gpa, 3)} tone="emerald" />
-          <ResultCard label="Total credits" value={totalCredits} tone="slate" />
+          <ResultCard label={tUi("semesterGPA")} value={round(gpa, 3)} tone="emerald" />
+          <ResultCard label={tUi("cumulativeGPA")} value={round(cumulative, 3)} tone="sky" />
+          <ResultCard label={tUi("totalCredits")} value={totalCredits} tone="slate" />
           <ResultCard
-            label="Quality points"
+            label={tUi("qualityPoints")}
             value={round(
               courses.reduce(
                 (sum, c) => sum + (GRADE_POINTS_4[c.grade] ?? 0) * (num(c.credits) || 0),
@@ -164,14 +203,14 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
             tone="slate"
           />
           <ResultCard
-            label="GPA needed for a 4.0"
-            value={round((totalCredits * 4 - (totalCredits * gpa - 0)) / totalCredits || 0, 3)}
-            tone="sky"
-            hint="credits × 4.0 per course"
+            label={tUi("gPANeededForA40")}
+            value={round(neededForA40, 3)}
+            tone={neededForA40 > 4 ? "amber" : "emerald"}
+            hint={neededForA40 > 4 ? tUi("notReachableInOneTerm") : undefined}
           />
         </ResultGrid>
         <FormulaNote>
-          GPA = Σ (grade points × credit hours) ÷ Σ credit hours
+          {tUi("gPAGradePointsCreditHoursCreditHours")}
         </FormulaNote>
       </CalcPanel>
     );
@@ -185,28 +224,25 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
             ? "High School GPA Calculator"
             : "Weighted GPA Calculator"
         }
-        subtitle="Weighted and unweighted GPA side by side, with Honours, AP and IB weighting."
+        subtitle={tUi("weightedAndUnweightedGPASideBySideWithHonoursAPAndIBWeighting")}
         icon={<BookOpen className="size-5 text-sky-700" />}
       >
         <CourseTable courses={courses} setCourses={setCourses} showCredits showBonus />
         <ResultGrid>
-          <ResultCard label="Unweighted GPA" value={round(gpa, 3)} tone="emerald" />
-          <ResultCard label="Weighted GPA" value={round(weighted, 3)} tone="sky" />
+          <ResultCard label={tUi("unweightedGPA")} value={round(gpa, 3)} tone="emerald" />
+          <ResultCard label={tUi("weightedGPA")} value={round(weighted, 3)} tone="sky" />
           <ResultCard
-            label="Weighted bonus"
+            label={tUi("weightedBonus")}
             value={round(weighted - gpa, 3)}
             tone="slate"
           />
           <ResultCard
-            label="Credits"
+            label={tUi("credits")}
             value={courses.reduce((sum, c) => sum + (num(c.credits) || 0), 0)}
             tone="slate"
           />
         </ResultGrid>
-        <FormulaNote>
-          Weighted GPA adds the class weighting (Honours +0.5, AP/IB +1.0) to the grade points
-          before multiplying by credit hours.
-        </FormulaNote>
+        <FormulaNote>{tUi("weightedGPAClassWeightingFormulaNote")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -225,21 +261,18 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
       : 0;
     return (
       <CalcPanel
-        title="Middle School GPA Calculator"
-        subtitle="Type report card percentages or letter grades — no credit hours needed."
+        title={tUi("middleSchoolGPACalculator")}
+        subtitle={tUi("typeReportCardPercentagesOrLetterGradesNoCreditHoursNeeded")}
         icon={<BookOpen className="size-5 text-sky-700" />}
       >
         <CourseTable courses={courses} setCourses={setCourses} showCredits={false} showBonus={false} />
         <ResultGrid>
-          <ResultCard label="GPA (4.0 scale)" value={round(gpa, 3)} tone="emerald" />
-          <ResultCard label="Average percent" value={round(average, 2)} unit="%" tone="sky" />
-          <ResultCard label="Letter grade" value={letterGrade(average)} tone="slate" />
-          <ResultCard label="Subjects" value={courses.length} tone="slate" />
+          <ResultCard label={tUi("gPA40Scale")} value={round(averageGradePoints(courses), 3)} tone="emerald" />
+          <ResultCard label={tUi("averagePercent")} value={round(average, 2)} unit="%" tone="sky" />
+          <ResultCard label={tUi("letterGrade")} value={letterGrade(average)} tone="slate" />
+          <ResultCard label={tUi("subjects")} value={courses.length} tone="slate" />
         </ResultGrid>
-        <FormulaNote>
-          Middle school GPA uses the same 4.0 scale, weighted by the grade only — credit hours are
-          not part of the calculation.
-        </FormulaNote>
+        <FormulaNote>{tUi("middleSchoolGPAScaleFormulaNote")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -256,21 +289,21 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
         : 0;
     return (
       <CalcPanel
-        title="Cumulative GPA Calculator"
-        subtitle="Combine your current GPA and credits with new semester grades."
+        title={tUi("cumulativeGPACalculator")}
+        subtitle={tUi("combineYourCurrentGPAAndCreditsWithNewSemesterGrades")}
         icon={<GraduationCap className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-3">
-          <NumberField label="Current GPA" value={currentGpa} onChange={setCurrentGpa} />
-          <NumberField label="Credits earned" value={currentCredits} onChange={setCurrentCredits} />
-          <NumberField label="Target GPA" value={targetGpa} onChange={setTargetGpa} />
+          <NumberField label={tUi("currentGPA")} value={currentGpa} onChange={setCurrentGpa} />
+          <NumberField label={tUi("creditsEarned")} value={currentCredits} onChange={setCurrentCredits} />
+          <NumberField label={tUi("targetGPA")} value={targetGpa} onChange={setTargetGpa} />
         </div>
         <CourseTable courses={courses} setCourses={setCourses} showCredits showBonus={false} />
         <ResultGrid>
-          <ResultCard label="New semester GPA" value={round(semester, 3)} tone="sky" />
-          <ResultCard label="Cumulative GPA" value={round(cumulative, 3)} tone="emerald" />
+          <ResultCard label={tUi("newSemesterGPA")} value={round(semester, 3)} tone="sky" />
+          <ResultCard label={tUi("cumulativeGPA")} value={round(cumulative, 3)} tone="emerald" />
           <ResultCard
-            label="GPA needed next term"
+            label={tUi("gPANeededNextTerm")}
             value={
               credits + termCredits > 0
                 ? round(
@@ -283,15 +316,12 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
             tone="amber"
           />
           <ResultCard
-            label="Total credits"
+            label={tUi("totalCredits")}
             value={credits + termCredits}
             tone="slate"
           />
         </ResultGrid>
-        <FormulaNote>
-          cumulative GPA = (current GPA × credits + semester GPA × semester credits) ÷ total
-          credits
-        </FormulaNote>
+        <FormulaNote>{tUi("cumulativeGPAFormulaNote")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -311,31 +341,31 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
       : 0;
     return (
       <CalcPanel
-        title="Raise GPA Calculator"
-        subtitle="What you need next semester to reach your target GPA."
+        title={tUi("raiseGPACalculator")}
+        subtitle={tUi("whatYouNeedNextSemesterToReachYourTargetGPA")}
         icon={<GraduationCap className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-4">
-          <NumberField label="Current GPA" value={currentGpa} onChange={setCurrentGpa} />
-          <NumberField label="Credits earned" value={currentCredits} onChange={setCurrentCredits} />
-          <NumberField label="Target GPA" value={targetGpa} onChange={setTargetGpa} />
-          <NumberField label="Credits next term" value={semesterCredits} onChange={setSemesterCredits} />
+          <NumberField label={tUi("currentGPA")} value={currentGpa} onChange={setCurrentGpa} />
+          <NumberField label={tUi("creditsEarned")} value={currentCredits} onChange={setCurrentCredits} />
+          <NumberField label={tUi("targetGPA")} value={targetGpa} onChange={setTargetGpa} />
+          <NumberField label={tUi("creditsNextTerm")} value={semesterCredits} onChange={setSemesterCredits} />
         </div>
         <ResultGrid>
           <ResultCard
-            label="GPA needed next term"
+            label={tUi("gPANeededNextTerm")}
             value={round(neededGpa, 3)}
             tone={neededGpa > 4 ? "amber" : "emerald"}
-            hint={neededGpa > 4 ? "Not reachable in one term" : undefined}
+            hint={neededGpa > 4 ? tUi("notReachableInOneTerm") : undefined}
           />
           <ResultCard
-            label="Credits of A's needed"
+            label={tUi("creditsOfAsNeeded")}
             value={creditsNeeded > 0 ? creditsNeeded : 0}
             tone="sky"
-            hint="if the rest of the term falls short"
+            hint={tUi("ifTheRestOfTheTermFallsShort")}
           />
           <ResultCard
-            label="Highest reachable GPA"
+            label={tUi("highestReachableGPA")}
             value={round(
               credits + neededSemester > 0
                 ? (current * credits + 4 * neededSemester) / (credits + neededSemester)
@@ -344,11 +374,9 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
             )}
             tone="slate"
           />
-          <ResultCard label="Credits needed" value={creditsNeeded > 0 ? creditsNeeded : 0} tone="slate" />
+          <ResultCard label={tUi("creditsNeeded")} value={creditsNeeded > 0 ? creditsNeeded : 0} tone="slate" />
         </ResultGrid>
-        <FormulaNote>
-          needed GPA = (target × (earned + new credits) − current × earned) ÷ new credits
-        </FormulaNote>
+        <FormulaNote>{tUi("neededGPAFormulaNote")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -362,10 +390,19 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
             0,
           ) / totalWeight
         : 0;
+    // The last category is the final exam: the score it needs for an A.
+    const finalWeight = num(weights[weights.length - 1]?.weight);
+    const pointsBeforeFinal = weights
+      .slice(0, -1)
+      .reduce((sum, w) => sum + (num(w.score) || 0) * (num(w.weight) || 0), 0);
+    const neededForA =
+      finalWeight > 0 && totalWeight > 0
+        ? (A_GRADE_BOUNDARY * totalWeight - pointsBeforeFinal) / finalWeight
+        : null;
     return (
       <CalcPanel
-        title="Grade Calculator"
-        subtitle="Weighted class grade with categories, plus the score needed on the final."
+        title={tUi("gradeCalculator")}
+        subtitle={tUi("weightedClassGradeWithCategoriesPlusTheScoreNeededOnTheFinal")}
         icon={<ClipboardCheck className="size-5 text-sky-700" />}
       >
         <div className="space-y-2">
@@ -374,7 +411,7 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
               <input
                 type="text"
                 value={item.name}
-                aria-label={`Category ${index + 1}`}
+                aria-label={tUi("categoryLabel", { index: index + 1 })}
                 onChange={(e) =>
                   setWeights(
                     weights.map((w, i) => (i === index ? { ...w, name: e.target.value } : w)),
@@ -385,7 +422,7 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
               <input
                 type="number"
                 value={item.weight}
-                aria-label={`${item.name} weight`}
+                aria-label={tUi("itemWeightLabel", { name: item.name })}
                 onChange={(e) =>
                   setWeights(
                     weights.map((w, i) => (i === index ? { ...w, weight: Number(e.target.value) } : w)),
@@ -396,7 +433,7 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
               <input
                 type="number"
                 value={item.score}
-                aria-label={`${item.name} score`}
+                aria-label={tUi("itemScoreLabel", { name: item.name })}
                 onChange={(e) =>
                   setWeights(
                     weights.map((w, i) => (i === index ? { ...w, score: Number(e.target.value) } : w)),
@@ -404,28 +441,23 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
                 }
                 className="w-24 rounded-lg border border-slate-300 bg-white px-3 py-2 text-xs dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
               />
-              <span className="text-xs text-slate-500">% weight / % score</span>
+              <span className="text-xs text-slate-500">{tUi("weightAndScore")}</span>
             </div>
           ))}
         </div>
         <ResultGrid>
-          <ResultCard label="Class grade" value={round(gradeValue, 2)} unit="%" tone="emerald" />
-          <ResultCard label="Letter grade" value={letterGrade(gradeValue)} tone="sky" />
+          <ResultCard label={tUi("classGrade")} value={round(gradeValue, 2)} unit="%" tone="emerald" />
+          <ResultCard label={tUi("letterGrade")} value={letterGrade(gradeValue)} tone="sky" />
           <ResultCard
-            label="Score needed for an A"
-            value={
-              finalGradeNeeded(gradeValue, 100, 90) === null
-                ? "—"
-                : round(finalGradeNeeded(gradeValue, 100, 90) as number, 2)
-            }
-            tone="slate"
+            label={tUi("scoreNeededForAnA")}
+            value={neededForA === null ? "—" : round(neededForA, 2)}
+            unit={neededForA === null ? undefined : "%"}
+            tone={neededForA === null ? "slate" : neededForA > 100 ? "amber" : "emerald"}
+            hint={neededForA !== null && neededForA > 100 ? tUi("notReachableWithThisWeight") : undefined}
           />
-          <ResultCard label="Total weight" value={round(totalWeight, 2)} unit="%" tone="slate" />
+          <ResultCard label={tUi("totalWeight")} value={round(totalWeight, 2)} unit="%" tone="slate" />
         </ResultGrid>
-        <FormulaNote>
-          class grade = Σ (category score × category weight) ÷ Σ weights · the weights do not have
-          to add up to 100.
-        </FormulaNote>
+        <FormulaNote>{tUi("classGradeAndScoreForAnAFormulaNote")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -441,8 +473,8 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
         : 0;
     return (
       <CalcPanel
-        title="Weighted Grade Calculator"
-        subtitle="Weighted grade from categories — use percent weights or points."
+        title={tUi("weightedGradeCalculator")}
+        subtitle={tUi("weightedGradeFromCategoriesUsePercentWeightsOrPoints")}
         icon={<ClipboardCheck className="size-5 text-sky-700" />}
       >
         <div className="space-y-2">
@@ -451,7 +483,7 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
               <input
                 type="text"
                 value={item.name}
-                aria-label={`Category ${index + 1}`}
+                aria-label={tUi("categoryLabel", { index: index + 1 })}
                 onChange={(e) =>
                   setWeights(
                     weights.map((w, i) => (i === index ? { ...w, name: e.target.value } : w)),
@@ -462,7 +494,7 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
               <input
                 type="number"
                 value={item.weight}
-                aria-label={`${item.name} weight`}
+                aria-label={tUi("itemWeightLabel", { name: item.name })}
                 onChange={(e) =>
                   setWeights(
                     weights.map((w, i) => (i === index ? { ...w, weight: Number(e.target.value) } : w)),
@@ -473,7 +505,7 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
               <input
                 type="number"
                 value={item.score}
-                aria-label={`${item.name} score`}
+                aria-label={tUi("itemScoreLabel", { name: item.name })}
                 onChange={(e) =>
                   setWeights(
                     weights.map((w, i) => (i === index ? { ...w, score: Number(e.target.value) } : w)),
@@ -485,11 +517,11 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
           ))}
         </div>
         <ResultGrid>
-          <ResultCard label="Weighted grade" value={round(value, 2)} unit="%" tone="emerald" />
-          <ResultCard label="Letter grade" value={letterGrade(value)} tone="sky" />
-          <ResultCard label="Total weight" value={round(totalWeight, 2)} unit="%" tone="slate" />
+          <ResultCard label={tUi("weightedGrade")} value={round(value, 2)} unit="%" tone="emerald" />
+          <ResultCard label={tUi("letterGrade")} value={letterGrade(value)} tone="sky" />
+          <ResultCard label={tUi("totalWeight")} value={round(totalWeight, 2)} unit="%" tone="slate" />
           <ResultCard
-            label="Points earned"
+            label={tUi("pointsEarned")}
             value={round(
               weights.reduce((sum, w) => sum + (num(w.score) || 0) * (num(w.weight) || 0), 0) / 100,
               2,
@@ -497,9 +529,7 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
             tone="slate"
           />
         </ResultGrid>
-        <FormulaNote>
-          weighted grade = Σ (score × weight) ÷ Σ weights
-        </FormulaNote>
+        <FormulaNote>{tUi("weightedGradeFormulaNote")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -517,22 +547,22 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
     ];
     return (
       <CalcPanel
-        title="Final Grade Calculator"
-        subtitle="The score you need on the final exam to reach your goal grade."
+        title={tUi("finalGradeCalculator")}
+        subtitle={tUi("theScoreYouNeedOnTheFinalExamToReachYourGoalGrade")}
         icon={<ClipboardCheck className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-3">
-          <NumberField label="Current grade (%)" value={currentGrade} onChange={setCurrentGrade} />
-          <NumberField label="Final weight (%)" value={finalWeight} onChange={setFinalWeight} />
-          <NumberField label="Goal grade (%)" value={goal} onChange={setGoal} />
+          <NumberField label={tUi("currentGrade")} value={currentGrade} onChange={setCurrentGrade} />
+          <NumberField label={tUi("finalWeight")} value={finalWeight} onChange={setFinalWeight} />
+          <NumberField label={tUi("goalGrade")} value={goal} onChange={setGoal} />
         </div>
         <ResultGrid>
           <ResultCard
-            label={`Score needed on the final`}
-            value={needed === null ? "—" : round(needed, 2)}
+            label={tUi("scoreNeededOnTheFinal")}
+            value={needed === null ? "-" : round(needed, 2)}
             unit={needed === null ? undefined : "%"}
             tone={needed === null ? "slate" : needed > 100 ? "amber" : "emerald"}
-            hint={needed !== null && needed > 100 ? "Not reachable with this weight" : undefined}
+            hint={needed !== null && needed > 100 ? tUi("notReachableWithThisWeight") : undefined}
           />
           {goals.map(([label, target]) => {
             const value = finalGradeNeeded(
@@ -551,9 +581,7 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
             );
           })}
         </ResultGrid>
-        <FormulaNote>
-          needed = (target − current × (1 − weight)) ÷ weight
-        </FormulaNote>
+        <FormulaNote>{tUi("finalGradeNeededFormulaNote")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -564,23 +592,21 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
     const score = testScore(right, total);
     return (
       <CalcPanel
-        title="Test Grade Calculator"
-        subtitle="Your test score from the number of correct answers."
+        title={tUi("testGradeCalculator")}
+        subtitle={tUi("yourTestScoreFromTheNumberOfCorrectAnswers")}
         icon={<ClipboardCheck className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-2">
-          <NumberField label="Questions on the test" value={questions} onChange={setQuestions} />
-          <NumberField label="Correct answers" value={correct} onChange={setCorrect} />
+          <NumberField label={tUi("questionsOnTheTest")} value={questions} onChange={setQuestions} />
+          <NumberField label={tUi("correctAnswers")} value={correct} onChange={setCorrect} />
         </div>
         <ResultGrid>
-          <ResultCard label="Score" value={round(score, 2)} unit="%" tone="emerald" />
-          <ResultCard label="Letter grade" value={letterGrade(score)} tone="sky" />
-          <ResultCard label="Wrong answers" value={Math.max(0, total - right)} tone="slate" />
-          <ResultCard label="Questions" value={total} tone="slate" />
+          <ResultCard label={tUi("score")} value={round(score, 2)} unit="%" tone="emerald" />
+          <ResultCard label={tUi("letterGrade")} value={letterGrade(score)} tone="sky" />
+          <ResultCard label={tUi("wrongAnswers")} value={Math.max(0, total - right)} tone="slate" />
+          <ResultCard label={tUi("questions")} value={total} tone="slate" />
         </ResultGrid>
-        <FormulaNote>
-          score = correct answers ÷ total questions × 100
-        </FormulaNote>
+        <FormulaNote>{tUi("testScoreFormulaNote")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -593,37 +619,35 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
   });
   return (
     <CalcPanel
-      title="Easy Grader"
-      subtitle="A printable grading chart — every possible number of wrong answers with its percentage and letter."
+      title={tUi("easyGrader")}
+      subtitle={tUi("aPrintableGradingChartEveryPossibleNumberOfWrongAnswersWithItsPercentageAndLetter")}
       icon={<ClipboardCheck className="size-5 text-sky-700" />}
     >
       <div className="grid gap-4 sm:grid-cols-2">
-        <NumberField label="Number of questions" value={questions} onChange={setQuestions} />
+        <NumberField label={tUi("numberOfQuestions")} value={questions} onChange={setQuestions} />
         <NumberField
-          label="Questions answered correctly"
+          label={tUi("questionsAnsweredCorrectly")}
           value={correct}
           onChange={setCorrect}
         />
       </div>
       <ResultGrid>
         <ResultCard
-          label="Current score"
+          label={tUi("currentScore")}
           value={round(testScore(num(correct), totalQuestions), 2)}
           unit="%"
           tone="emerald"
         />
         <ResultCard
-          label="Letter grade"
+          label={tUi("letterGrade")}
           value={letterGrade(testScore(num(correct), totalQuestions))}
           tone="sky"
         />
-        <ResultCard label="Questions" value={totalQuestions} tone="slate" />
-        <ResultCard label="Points per question" value={round(100 / totalQuestions, 2)} unit="%" tone="slate" />
+        <ResultCard label={tUi("questions")} value={totalQuestions} tone="slate" />
+        <ResultCard label={tUi("pointsPerQuestion")} value={round(100 / totalQuestions, 2)} unit="%" tone="slate" />
       </ResultGrid>
-      <Table headers={["Wrong", "Score %", "Letter"]} rows={chart.map(([w, p, l]) => [w, p, l])} />
-      <FormulaNote>
-        score = (questions − wrong) ÷ questions × 100
-      </FormulaNote>
+      <Table headers={[tUi("wrong"), tUi("score2"), tUi("letter")]} rows={chart.map(([w, p, l]) => [w, p, l])} />
+      <FormulaNote>{tUi("easyGraderScoreFormulaNote")}</FormulaNote>
     </CalcPanel>
   );
 }

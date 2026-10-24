@@ -1,0 +1,9 @@
+{
+  "namespace": "ui.engines.DeveloperSuiteEngine",
+  "en": {
+    "clickSendRequestToTestTheEndpoint": "Click 'Send Request' to test the endpoint."
+  },
+  "de": {
+    "clickSendRequestToTestTheEndpoint": "Klicken Sie auf „Anfrage senden“, um den Endpunkt zu testen."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "namespace": "ui.engines.image",
+  "en": {
+    "trimStart": "Trim start (s)",
+    "trimEnd": "Trim end (s)",
+    "trimHint": "Only the part between the two trim markers is converted.",
+    "outputWidth": "Output width (px)",
+    "outputWidthOriginal": "original",
+    "frameRate": "Frame rate (fps)"
+  },
+  "de": {
+    "trimStart": "Trim-Start (s)",
+    "trimEnd": "Trim-Ende (s)",
+    "trimHint": "Nur der Teil zwischen den beiden Trim-Marken wird konvertiert.",
+    "outputWidth": "Ausgabebreite (px)",
+    "outputWidthOriginal": "Original",
+    "frameRate": "Bildrate (fps)"
+  }
+}

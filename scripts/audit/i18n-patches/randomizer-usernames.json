@@ -1,0 +1,41 @@
+{
+  "namespace": "ui.engines.randomizers",
+  "en": {
+    "usernames": {
+      "yourWord": "Your own word",
+      "yourWordPlaceholder": "Optional: a word of your own",
+      "yourWordHint": "Your word replaces the first part of every name.",
+      "style": "Style",
+      "styleNone": "without a separator",
+      "copy": "Copy",
+      "copied": "Copied",
+      "save": "Save",
+      "saved": "Saved",
+      "remove": "Remove",
+      "shortlist": "Your shortlist",
+      "shortlistEmpty": "Nothing saved yet. Use the star next to a name to keep it here.",
+      "copyAll": "Copy all",
+      "clearShortlist": "Clear the shortlist",
+      "favoritesTitle": "Your favorites"
+    }
+  },
+  "de": {
+    "usernames": {
+      "yourWord": "Ihr eigenes Wort",
+      "yourWordPlaceholder": "Optional: ein Wort Ihrer Wahl",
+      "yourWordHint": "Ihr Wort ersetzt den ersten Teil jedes Namens.",
+      "style": "Stil",
+      "styleNone": "ohne Trennzeichen",
+      "copy": "Kopieren",
+      "copied": "Kopiert",
+      "save": "Speichern",
+      "saved": "Gespeichert",
+      "remove": "Entfernen",
+      "shortlist": "Ihre Auswahl",
+      "shortlistEmpty": "Noch nichts gespeichert. Nutzen Sie den Stern neben einem Namen, um ihn hier zu behalten.",
+      "copyAll": "Alle kopieren",
+      "clearShortlist": "Auswahl leeren",
+      "favoritesTitle": "Ihre Favoriten"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "namespace": "ui.pdf.PdfCompressEngine",
+  "en": {
+    "screenSmallestFile": "Screen — smallest file",
+    "balancedRecommended": "Balanced — recommended",
+    "printHighestQuality": "Print — highest quality",
+    "replacePDF": "Replace PDF",
+    "chooseAPDF": "Choose a PDF",
+    "compressingPage": "Compressing page {page} of {total}…",
+    "couldNotEncodeThePage": "Could not encode page {page}.",
+    "keptTheSmallerResultOfTheReEncodedPages": "Kept the smaller result (re-encoded pages).",
+    "keptTheSmallerResultOfTheDocumentStructure": "Kept the smaller result (the document structure).",
+    "resolutionInDpi": "Resolution — {dpi} DPI",
+    "jpgQualityInPercent": "JPG quality — {value}%",
+    "compressExplainsTheJpegReEncoding": "re-encodes every page as a JPEG — the biggest savings, but the text is no longer selectable.",
+    "optimiseExplainsTheStructureRewrite": "keeps the text layer intact and only rewrites the document structure."
+  },
+  "de": {
+    "screenSmallestFile": "Bildschirm — kleinste Datei",
+    "balancedRecommended": "Ausgewogen — empfohlen",
+    "printHighestQuality": "Druck — höchste Qualität",
+    "replacePDF": "PDF ersetzen",
+    "chooseAPDF": "PDF auswählen",
+    "compressingPage": "Seite {page} von {total} wird komprimiert…",
+    "couldNotEncodeThePage": "Seite {page} konnte nicht kodiert werden.",
+    "keptTheSmallerResultOfTheReEncodedPages": "Das kleinere Ergebnis wurde beibehalten (neu kodierte Seiten).",
+    "keptTheSmallerResultOfTheDocumentStructure": "Das kleinere Ergebnis wurde beibehalten (die Dokumentstruktur).",
+    "resolutionInDpi": "Auflösung — {dpi} DPI",
+    "jpgQualityInPercent": "JPG-Qualität — {value}%",
+    "compressExplainsTheJpegReEncoding": "– jede Seite wird als JPEG neu kodiert — die größte Einsparung, aber der Text ist danach nicht mehr auswählbar.",
+    "optimiseExplainsTheStructureRewrite": "– die Textebene bleibt intakt und nur die Dokumentstruktur wird neu geschrieben."
+  }
+}

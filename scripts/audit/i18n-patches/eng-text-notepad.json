@@ -1,0 +1,19 @@
+{
+  "namespace": "ui.engines.TextNotepadWorkspace",
+  "en": {
+    "notepad": "Notepad",
+    "copied": "Copied",
+    "zoom": "Zoom %",
+    "tabCounter": "{count} / {max} tabs",
+    "matchCount": "{count, plural, one {# match} other {# matches}}",
+    "textStaysInThisBrowser": "Your text stays in this browser and never leaves the device. The autosave key is the only thing this tool stores locally."
+  },
+  "de": {
+    "notepad": "Notizblock",
+    "copied": "Kopiert",
+    "zoom": "Zoomstufe %",
+    "tabCounter": "{count} / {max} Tabs",
+    "matchCount": "{count, plural, one {# Treffer} other {# Treffer}}",
+    "textStaysInThisBrowser": "Ihr Text bleibt in diesem Browser und verlässt das Gerät nie. Der Autosave-Schlüssel ist das Einzige, was dieses Werkzeug lokal speichert."
+  }
+}

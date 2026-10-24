@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useMemo } from "react";
-import { NextIntlClientProvider, createTranslator, useLocale } from "next-intl";
+import { NextIntlClientProvider, createTranslator, useLocale, useTranslations } from "next-intl";
 import enMessages from "@/messages/en.json";
 import deMessages from "@/messages/de.json";
 import {
@@ -17,7 +17,8 @@ import {
   CalendarCheck,
   Sun,
   Flame,
-  CheckCircle2
+  CheckCircle2,
+  ListOrdered
 } from "lucide-react";
 import {
   GERMAN_STATES,
@@ -26,6 +27,7 @@ import {
   getIsoWeek,
   GermanHolidayItem,
 } from "@/utils/germanCalendar";
+import { getHowToSteps } from "@/data/howTo";
 
 interface Calendar2026EngineProps {
   slug?: string;
@@ -40,20 +42,31 @@ export function Calendar2026Engine({ slug = "2026-calendar" }: Calendar2026Engin
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-      <CalendarWorkspaceContent locale={locale} setLocale={setLocale} />
+      <CalendarWorkspaceContent
+        slug={slug}
+        locale={locale}
+        setLocale={setLocale}
+      />
     </NextIntlClientProvider>
   );
 }
 
 function CalendarWorkspaceContent({
+  slug,
   locale,
   setLocale,
 }: {
+  slug: string;
   locale: "de" | "en";
   setLocale: (loc: "de" | "en") => void;
 }) {
+  const tUi = useTranslations("ui.engines.Calendar2026Engine");
   const messages = locale === "de" ? deMessages : enMessages;
   const t = useMemo(() => createTranslator({ locale, messages }), [locale, messages]);
+  const howToSteps = useMemo(
+    () => getHowToSteps(slug, locale),
+    [slug, locale],
+  );
 
   // Calendar configuration state - defaults optimized for German calendar
   const [year, setYear] = useState<number>(2026);
@@ -203,13 +216,13 @@ function CalendarWorkspaceContent({
       if (includeObservances) add(1, 14, t("holidaysList.valentinesDay"), false, true);
       add(3, 3, t("holidaysList.goodFriday"), true, false);
       add(3, 6, t("holidaysList.easterMonday"), true, false);
-      add(4, 4, "Early May bank holiday", true, false);
-      add(4, 25, "Spring bank holiday", true, false);
-      add(7, 31, "Summer bank holiday", true, false);
+      add(4, 4, tUi("earlyMayBankHoliday"), true, false);
+      add(4, 25, tUi("springBankHoliday"), true, false);
+      add(7, 31, tUi("summerBankHoliday"), true, false);
       if (includeObservances) add(9, 31, t("holidaysList.halloween"), false, true);
       add(11, 25, t("holidaysList.christmasDay"), true, false);
       add(11, 26, t("holidaysList.boxingDay"), true, false);
-      add(11, 28, "Boxing Day (substitute day)", true, false);
+      add(11, 28, tUi("boxingDaySubstituteDay"), true, false);
     }
 
     return map;
@@ -236,7 +249,7 @@ function CalendarWorkspaceContent({
       const subInfo =
         holidayRegion === "de"
           ? locale === "de"
-            ? `Gesetzliche Feiertage Deutschland (${germanState === "all" ? "Alle Bundesländer" : germanState}) · ISO-Wochen · DIN ${paper.toUpperCase()}`
+            ? `Gesetzliche Feiertage Deutschland (${germanState === "all" ? tUi("allGermanStates") : germanState}) · ISO-Wochen · DIN ${paper.toUpperCase()}`
             : `Public holidays Germany (${germanState}) · ISO weeks · Vector PDF`
           : `Vector Quality Calendar (${paper.toUpperCase()}, ${orientation})`;
       doc.text(subInfo, 14, 26);
@@ -306,7 +319,7 @@ function CalendarWorkspaceContent({
         const legendText =
           locale === "de"
             ? "Gesetzliche Feiertage bundesweit: 01.01. Neujahr | 03.04. Karfreitag | 06.04. Ostermontag | 01.05. Tag der Arbeit | 14.05. Christi Himmelfahrt | 25.05. Pfingstmontag | 03.10. Tag der Dt. Einheit | 25./26.12. Weihnachten"
-            : "Nationwide public holidays (DE): Jan 1, Apr 3, Apr 6, May 1, May 14, May 25, Oct 3, Dec 25, Dec 26";
+            : tUi("nationwidePublicHolidaysDEJan1Apr3Apr6May1May14May25Oct3Dec25Dec26");
         doc.text(legendText, 14, 246, { maxWidth: orientation === "portrait" ? 180 : 260 });
       }
 
@@ -365,7 +378,7 @@ function CalendarWorkspaceContent({
             {t("header.title")}
           </span>
           <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2.5 py-0.5 text-[11px] font-semibold text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300">
-            🇩🇪 {locale === "de" ? "Deutschland 2026" : "Germany 2026"}
+            🇩🇪 {tUi("germany2026")}
           </span>
         </div>
 
@@ -414,16 +427,16 @@ function CalendarWorkspaceContent({
         {/* Badges */}
         <ul className="mx-auto mt-5 flex max-w-2xl flex-wrap justify-center gap-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
           <li className="rounded-full border border-slate-200 bg-white px-3 py-1 shadow-2xs dark:border-slate-700 dark:bg-slate-800">
-            🇩🇪 {locale === "de" ? "16 Bundesländer" : "16 German States"}
+            🇩🇪 {tUi("16GermanStates")}
           </li>
           <li className="rounded-full border border-slate-200 bg-white px-3 py-1 shadow-2xs dark:border-slate-700 dark:bg-slate-800">
-            🏖️ {locale === "de" ? "Brückentage & Urlaubsplaner" : "Bridging Days Planner"}
+            🏖️ {tUi("bridgingDaysPlanner")}
           </li>
           <li className="rounded-full border border-slate-200 bg-white px-3 py-1 shadow-2xs dark:border-slate-700 dark:bg-slate-800">
-            📅 {locale === "de" ? "ISO-Kalenderwochen (KW)" : "ISO Week Numbers"}
+            📅 {tUi("iSOWeekNumbers")}
           </li>
           <li className="rounded-full border border-slate-200 bg-white px-3 py-1 shadow-2xs dark:border-slate-700 dark:bg-slate-800">
-            📄 {t("settings.a4")} &amp; Vector-PDF
+            📄 {t("settings.a4")} &amp; {tUi("vectorPdf")}
           </li>
         </ul>
       </header>
@@ -435,22 +448,22 @@ function CalendarWorkspaceContent({
           <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200 pb-3 dark:border-slate-800">
             <div className="flex items-center gap-3">
               <h2 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
-                {year} {locale === "de" ? "Kalender" : "Calendar"}
+                {year} {tUi("calendar")}
               </h2>
               {holidayRegion === "de" && (
                 <span className="inline-flex items-center gap-1 rounded-lg bg-indigo-50 px-2.5 py-1 text-xs font-semibold text-indigo-700 dark:bg-indigo-950/60 dark:text-indigo-300">
                   <MapPin className="size-3.5" />
                   {germanState === "all"
                     ? (locale === "de" ? "Bundesweit" : "Nationwide")
-                    : GERMAN_STATES.find((s) => s.code === germanState)?.nameDe || germanState}
+                    : (locale === "de"
+                        ? GERMAN_STATES.find((s) => s.code === germanState)?.nameDe || germanState
+                        : GERMAN_STATES.find((s) => s.code === germanState)?.nameEn || germanState)}
                 </span>
               )}
             </div>
             <span className="text-xs text-slate-500">
               {holidayRegion === "de"
-                ? locale === "de"
-                  ? "Gesetzliche Feiertage rot hervorgehoben"
-                  : "Statutory public holidays highlighted in red"
+                ? tUi("statutoryPublicHolidaysHighlightedInRed")
                 : holidayRegion === "us"
                 ? t("settings.usHolidays")
                 : holidayRegion === "uk"
@@ -683,12 +696,10 @@ function CalendarWorkspaceContent({
                 </select>
                 <p className="mt-1.5 text-[11px] text-indigo-700/80 dark:text-indigo-400">
                   {germanState === "all"
-                    ? (locale === "de"
-                        ? "Zeigt alle 9 bundesweiten Feiertage und länderspezifische Termine an."
-                        : "Shows all nationwide holidays and regional dates.")
+                    ? tUi("showsAllNationwideHolidaysAndRegionalDates")
                     : (locale === "de"
                         ? `Feiertage speziell angepasst für ${GERMAN_STATES.find((s) => s.code === germanState)?.nameDe}.`
-                        : `Holidays tailored for ${germanState}.`)}
+                        : `Holidays tailored for ${GERMAN_STATES.find((s) => s.code === germanState)?.nameEn || germanState}.`)}
                 </p>
               </div>
             )}
@@ -743,9 +754,7 @@ function CalendarWorkspaceContent({
                   className="size-4 rounded accent-indigo-600"
                 />
                 <span>
-                  {locale === "de"
-                    ? "Brauchtum & Ereignisse (Karneval, Sommerzeit, Advent …)"
-                    : t("settings.includeObservances")}
+                  {tUi("observancesAndEventsCarnivalSummerTimeAdvent")}
                 </span>
               </label>
             </div>
@@ -765,7 +774,7 @@ function CalendarWorkspaceContent({
                       : "text-slate-600 dark:text-slate-300"
                   }`}
                 >
-                  {t("settings.a4")} (DIN Standard)
+                  {t("settings.a4")} {tUi("dinStandard")}
                 </button>
                 <button
                   type="button"
@@ -894,7 +903,7 @@ function CalendarWorkspaceContent({
                       : "text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
                   }`}
                 >
-                  {locale === "de" ? "Alle Termine" : "All Events"}
+                  {tUi("allEvents")}
                 </button>
                 <button
                   type="button"
@@ -905,7 +914,7 @@ function CalendarWorkspaceContent({
                       : "text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
                   }`}
                 >
-                  {locale === "de" ? "Gesetzliche Feiertage" : "Public Holidays"}
+                  {tUi("publicHolidays")}
                 </button>
                 <button
                   type="button"
@@ -917,7 +926,7 @@ function CalendarWorkspaceContent({
                   }`}
                 >
                   <Sparkles className="size-3 text-amber-500" />
-                  <span>{locale === "de" ? "Brückentage 2026" : "Bridge Days"}</span>
+                  <span>{tUi("bridgeDays")}</span>
                 </button>
                 <button
                   type="button"
@@ -928,7 +937,7 @@ function CalendarWorkspaceContent({
                       : "text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
                   }`}
                 >
-                  {locale === "de" ? "Brauchtum & Feste" : "Observances"}
+                  {tUi("observances")}
                 </button>
               </div>
             </div>
@@ -938,12 +947,12 @@ function CalendarWorkspaceContent({
               <div className="mt-6 space-y-4">
                 <div className="rounded-xl border border-amber-200 bg-amber-50/70 p-4 dark:border-amber-900/40 dark:bg-amber-950/20">
                   <h3 className="text-sm font-bold text-amber-900 dark:text-amber-300">
-                    💡 {locale === "de" ? "Urlaubstage clever einsetzen in 2026" : "Maximize your 2026 vacation days"}
+                    💡 {tUi("maximizeYour2026VacationDays")}
                   </h3>
                   <p className="mt-1 text-xs leading-relaxed text-amber-800 dark:text-amber-400">
                     {locale === "de"
-                      ? "Nutzen Sie bundesweite Feiertage, die auf einen Donnerstag fallen (z. B. Christi Himmelfahrt oder Fronleichnam), für Brückentage am Freitag: Mit nur 1 Urlaubstag erhalten Sie 4 freie Tage am Stück!"
-                      : "German Thursday public holidays (such as Ascension Day or Corpus Christi) allow you to gain 4 consecutive days off with just 1 vacation day on Friday!"}
+                      ? tUi("nutzenSieBundesweiteFeiertageDieAufEinenDonnerstagFallenZBChristiHimmelfahrtOderFronleichnamFRBrCkentageAmFreitagMitNur1UrlaubstagErhaltenSie4FreieTageAmStCk")
+                      : tUi("germanThursdayPublicHolidaysSuchAsAscensionDayOrCorpusChristiAllowYouToGain4ConsecutiveDaysOffWithJust1VacationDayOnFriday")}
                   </p>
                 </div>
 
@@ -960,7 +969,7 @@ function CalendarWorkspaceContent({
                           </span>
                           <span className="inline-flex rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-bold text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300">
                             {bridge.vacationDaysUsed === 0
-                              ? (locale === "de" ? "0 Urlaubstage = 3 Tage frei" : "0 days = 3 days off")
+                              ? (tUi("0Days3DaysOff"))
                               : locale === "de"
                               ? `${bridge.vacationDaysUsed} Tag = ${bridge.consecutiveDaysOff} Tage frei`
                               : `${bridge.vacationDaysUsed} day = ${bridge.consecutiveDaysOff} days off`}
@@ -991,17 +1000,17 @@ function CalendarWorkspaceContent({
               /* Render Filtered German Holidays List */
               <div className="mt-4 divide-y divide-slate-100 dark:divide-slate-800">
                 <div className="hidden grid-cols-[140px_1fr_180px_130px] gap-4 py-2 text-[11px] font-bold uppercase tracking-wider text-slate-400 sm:grid">
-                  <span>{locale === "de" ? "Datum" : "Date"}</span>
-                  <span>{locale === "de" ? "Feiertag / Ereignis" : "Holiday / Event"}</span>
-                  <span>{locale === "de" ? "Geltungsbereich" : "Region / Scope"}</span>
-                  <span className="text-right">{locale === "de" ? "Kategorie" : "Category"}</span>
+                  <span>{tUi("date")}</span>
+                  <span>{tUi("holidayEvent")}</span>
+                  <span>{tUi("regionScope")}</span>
+                  <span className="text-right">{tUi("category")}</span>
                 </div>
 
                 {filteredGermanHolidays.map((item) => {
                   const displayDate = formatGermanDisplayDate(item.month, item.day);
                   const isNationwide = item.states.includes("all");
                   const scopeLabel = isNationwide
-                    ? (locale === "de" ? "Bundesweit (16 Länder)" : "Nationwide (16 states)")
+                    ? (tUi("nationwide16States"))
                     : item.states.join(", ");
 
                   return (
@@ -1034,11 +1043,11 @@ function CalendarWorkspaceContent({
                       <div className="sm:text-right">
                         {item.isStatutory ? (
                           <span className="inline-flex rounded-full bg-red-100 px-2 py-0.5 text-[10px] font-bold text-red-800 dark:bg-red-950/70 dark:text-red-300">
-                            {locale === "de" ? "Gesetzlicher Feiertag" : "Public Holiday"}
+                            {tUi("publicHoliday")}
                           </span>
                         ) : (
                           <span className="inline-flex rounded-full bg-slate-100 px-2 py-0.5 text-[10px] font-medium text-slate-700 dark:bg-slate-800 dark:text-slate-300">
-                            {locale === "de" ? "Brauchtum / Festtag" : "Tradition / Event"}
+                            {tUi("traditionEvent")}
                           </span>
                         )}
                       </div>
@@ -1058,29 +1067,29 @@ function CalendarWorkspaceContent({
             </h2>
             <ul className="mt-4 grid gap-x-8 gap-y-2 text-xs sm:grid-cols-2 lg:grid-cols-3">
               {[
-                { d: "Jan 1", t: t("holidaysList.newYearsDay") },
-                { d: "Jan 19", t: t("holidaysList.mlkDay") },
-                { d: "Feb 14", t: t("holidaysList.valentinesDay") },
-                { d: "Feb 16", t: t("holidaysList.presidentsDay") },
-                { d: "Mar 8", t: t("holidaysList.dstStarts") },
-                { d: "Mar 17", t: t("holidaysList.stPatricksDay") },
-                { d: "Apr 3", t: t("holidaysList.goodFriday") },
-                { d: "Apr 5", t: t("holidaysList.easterSunday") },
-                { d: "May 10", t: t("holidaysList.mothersDay") },
-                { d: "May 25", t: t("holidaysList.memorialDay") },
-                { d: "Jun 19", t: t("holidaysList.juneteenth") },
-                { d: "Jun 21", t: t("holidaysList.fathersDay") },
-                { d: "Jul 3", t: t("holidaysList.independenceDay") },
-                { d: "Sep 7", t: t("holidaysList.laborDay") },
-                { d: "Oct 12", t: t("holidaysList.columbusDay") },
-                { d: "Oct 31", t: t("holidaysList.halloween") },
-                { d: "Nov 1", t: t("holidaysList.dstEnds") },
-                { d: "Nov 11", t: t("holidaysList.veteransDay") },
-                { d: "Nov 26", t: t("holidaysList.thanksgivingDay") },
-                { d: "Nov 27", t: t("holidaysList.blackFriday") },
-                { d: "Dec 24", t: t("holidaysList.christmasEve") },
-                { d: "Dec 25", t: t("holidaysList.christmasDay") },
-                { d: "Dec 31", t: t("holidaysList.newYearsEve") },
+                { d: tUi("jan1"), t: t("holidaysList.newYearsDay") },
+                { d: tUi("jan19"), t: t("holidaysList.mlkDay") },
+                { d: tUi("feb14"), t: t("holidaysList.valentinesDay") },
+                { d: tUi("feb16"), t: t("holidaysList.presidentsDay") },
+                { d: tUi("mar8"), t: t("holidaysList.dstStarts") },
+                { d: tUi("mar17"), t: t("holidaysList.stPatricksDay") },
+                { d: tUi("apr3"), t: t("holidaysList.goodFriday") },
+                { d: tUi("apr5"), t: t("holidaysList.easterSunday") },
+                { d: tUi("may10"), t: t("holidaysList.mothersDay") },
+                { d: tUi("may25"), t: t("holidaysList.memorialDay") },
+                { d: tUi("jun19"), t: t("holidaysList.juneteenth") },
+                { d: tUi("jun21"), t: t("holidaysList.fathersDay") },
+                { d: tUi("jul3"), t: t("holidaysList.independenceDay") },
+                { d: tUi("sep7"), t: t("holidaysList.laborDay") },
+                { d: tUi("oct12"), t: t("holidaysList.columbusDay") },
+                { d: tUi("oct31"), t: t("holidaysList.halloween") },
+                { d: tUi("nov1"), t: t("holidaysList.dstEnds") },
+                { d: tUi("nov11"), t: t("holidaysList.veteransDay") },
+                { d: tUi("nov26"), t: t("holidaysList.thanksgivingDay") },
+                { d: tUi("nov27"), t: t("holidaysList.blackFriday") },
+                { d: tUi("dec24"), t: t("holidaysList.christmasEve") },
+                { d: tUi("dec25"), t: t("holidaysList.christmasDay") },
+                { d: tUi("dec31"), t: t("holidaysList.newYearsEve") },
               ].map((item, idx) => (
                 <li
                   key={idx}
@@ -1226,6 +1235,36 @@ function CalendarWorkspaceContent({
           </div>
           <p className="text-xs text-slate-500 italic">{t("guide.dateCalcDesc")}</p>
         </section>
+
+        {/* How to use this tool */}
+        {howToSteps.length > 0 && (
+          <section>
+            <div className="flex items-center gap-2">
+              <ListOrdered className="size-5 text-indigo-600 dark:text-indigo-400" />
+              <h2 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
+                {t("toolShell.howToHeading")}
+              </h2>
+            </div>
+            <ol className="mt-4 space-y-2.5">
+              {howToSteps.map((step, idx) => (
+                <li
+                  key={idx}
+                  className="flex items-start gap-3 rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="grid size-6 shrink-0 place-items-center rounded-full bg-indigo-100 text-[11px] font-bold text-indigo-700 dark:bg-indigo-950 dark:text-indigo-300"
+                  >
+                    {idx + 1}
+                  </span>
+                  <span className="text-xs leading-relaxed text-slate-600 dark:text-slate-400">
+                    {step}
+                  </span>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )}
 
         {/* FAQ Section */}
         <section>

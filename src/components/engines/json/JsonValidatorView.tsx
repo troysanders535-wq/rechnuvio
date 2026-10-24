@@ -13,16 +13,18 @@ import {
   Minimize2
 } from "lucide-react";
 import { validateJson, autoRepairJson } from "@/utils/jsonValidator";
+import { useTranslations } from "next-intl";
 
 export function JsonValidatorView() {
+  const tUi = useTranslations("ui.engines.json.JsonValidatorView");
   const defaultSample = JSON.stringify(
     {
-      name: "Digital ToolPad",
+      name: tUi("digitalToolPad"),
       version: "2.0.0",
       valid: true,
       settings: {
         theme: "system",
-        privacy: "100% Client-Side",
+        privacy: tUi("100ClientSide"),
       },
       tags: ["json", "validation", "client-side"],
     },
@@ -103,7 +105,7 @@ export function JsonValidatorView() {
             className="inline-flex min-h-9 items-center gap-1.5 rounded-lg bg-sky-800 px-3.5 py-1.5 text-xs font-semibold text-white shadow-sm hover:bg-sky-900 dark:bg-sky-700 disabled:opacity-40"
           >
             <Sparkles className="size-3.5" />
-            <span>Format</span>
+            <span>{tUi("format")}</span>
           </button>
           <button
             type="button"
@@ -112,7 +114,7 @@ export function JsonValidatorView() {
             className="inline-flex min-h-9 items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 shadow-sm hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 disabled:opacity-40"
           >
             <Minimize2 className="size-3.5" />
-            <span>Minify</span>
+            <span>{tUi("minify")}</span>
           </button>
 
           {!validation.isValid && (
@@ -122,13 +124,13 @@ export function JsonValidatorView() {
               className="inline-flex min-h-9 items-center gap-1.5 rounded-lg bg-emerald-600 px-3.5 py-1.5 text-xs font-semibold text-white shadow-sm hover:bg-emerald-700 transition animate-pulse"
             >
               <Wrench className="size-3.5" />
-              <span>Auto-Repair Syntax</span>
+              <span>{tUi("autoRepairSyntax")}</span>
             </button>
           )}
 
           {repairedSuccess && (
             <span className="text-xs font-semibold text-emerald-600 dark:text-emerald-400">
-              Repaired & formatted!
+              {tUi("repairedFormatted")}
             </span>
           )}
         </div>
@@ -136,7 +138,7 @@ export function JsonValidatorView() {
         <div className="flex items-center gap-1.5">
           <label className="inline-flex cursor-pointer items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200">
             <Upload className="size-3.5" />
-            <span className="hidden sm:inline">Open file</span>
+            <span className="hidden sm:inline">{tUi("openFile")}</span>
             <input type="file" accept=".json,.txt" onChange={handleFileUpload} className="hidden" />
           </label>
           <button
@@ -153,13 +155,13 @@ export function JsonValidatorView() {
             className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200"
           >
             <Download className="size-3.5" />
-            <span className="hidden sm:inline">Download</span>
+            <span className="hidden sm:inline">{tUi("download")}</span>
           </button>
           <button
             type="button"
             onClick={() => setInput("")}
             className="rounded p-1.5 text-slate-400 hover:text-rose-600"
-            title="Clear"
+            title={tUi("clear")}
           >
             <Trash2 className="size-4" />
           </button>
@@ -172,32 +174,32 @@ export function JsonValidatorView() {
           <div>
             <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-bold text-sm">
               <CheckCircle2 className="size-5" />
-              <span>Valid JSON Syntax</span>
+              <span>{tUi("validJSONSyntax")}</span>
             </div>
             {validation.stats && (
               <div className="mt-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2 text-xs">
                 <div className="rounded-lg bg-white p-2 border border-slate-200 dark:bg-slate-900 dark:border-slate-800">
-                  <div className="text-slate-400 text-[10px]">Size</div>
-                  <div className="font-bold text-slate-800 dark:text-slate-200">{validation.stats.bytes} Bytes</div>
+                  <div className="text-slate-400 text-[10px]">{tUi("size")}</div>
+                  <div className="font-bold text-slate-800 dark:text-slate-200">{validation.stats.bytes} {tUi("bytes")}</div>
                 </div>
                 <div className="rounded-lg bg-white p-2 border border-slate-200 dark:bg-slate-900 dark:border-slate-800">
-                  <div className="text-slate-400 text-[10px]">Lines</div>
+                  <div className="text-slate-400 text-[10px]">{tUi("lines")}</div>
                   <div className="font-bold text-slate-800 dark:text-slate-200">{validation.stats.lines}</div>
                 </div>
                 <div className="rounded-lg bg-white p-2 border border-slate-200 dark:bg-slate-900 dark:border-slate-800">
-                  <div className="text-slate-400 text-[10px]">Keys</div>
+                  <div className="text-slate-400 text-[10px]">{tUi("keys")}</div>
                   <div className="font-bold text-slate-800 dark:text-slate-200">{validation.stats.keysCount}</div>
                 </div>
                 <div className="rounded-lg bg-white p-2 border border-slate-200 dark:bg-slate-900 dark:border-slate-800">
-                  <div className="text-slate-400 text-[10px]">Arrays</div>
+                  <div className="text-slate-400 text-[10px]">{tUi("arrays")}</div>
                   <div className="font-bold text-slate-800 dark:text-slate-200">{validation.stats.arraysCount}</div>
                 </div>
                 <div className="rounded-lg bg-white p-2 border border-slate-200 dark:bg-slate-900 dark:border-slate-800">
-                  <div className="text-slate-400 text-[10px]">Depth</div>
+                  <div className="text-slate-400 text-[10px]">{tUi("depth")}</div>
                   <div className="font-bold text-slate-800 dark:text-slate-200">{validation.stats.depth}</div>
                 </div>
                 <div className="rounded-lg bg-white p-2 border border-slate-200 dark:bg-slate-900 dark:border-slate-800">
-                  <div className="text-slate-400 text-[10px]">Characters</div>
+                  <div className="text-slate-400 text-[10px]">{tUi("characters")}</div>
                   <div className="font-bold text-slate-800 dark:text-slate-200">{validation.stats.characters}</div>
                 </div>
               </div>
@@ -207,7 +209,7 @@ export function JsonValidatorView() {
           <div>
             <div className="flex items-center gap-2 text-rose-600 dark:text-rose-400 font-bold text-sm">
               <AlertCircle className="size-5 flex-shrink-0" />
-              <span>Invalid JSON Syntax — Error on Line {validation.error?.line}, Column {validation.error?.column}</span>
+              <span>{tUi("invalidJSONSyntaxErrorOnLine")} {validation.error?.line}, Column {validation.error?.column}</span>
             </div>
             <p className="mt-1 text-xs text-rose-500 font-mono">
               {validation.error?.message}
@@ -229,7 +231,7 @@ export function JsonValidatorView() {
         <textarea
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Paste JSON to validate..."
+          placeholder={tUi("pasteJSONToValidate")}
           rows={16}
           spellCheck={false}
           className="w-full resize-y bg-slate-950 p-4 font-mono text-xs leading-relaxed text-emerald-400 outline-none placeholder:text-slate-600 selection:bg-sky-900 selection:text-white"

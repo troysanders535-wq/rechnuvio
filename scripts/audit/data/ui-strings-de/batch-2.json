@@ -1,0 +1,700 @@
+{
+ "ui.engines.CalculatorSuiteEngine": {
+  "thisCalculatorIsNotWiredUpYet": {
+   "text": "Dieser Rechner ist noch nicht verdrahtet."
+  }
+ },
+ "ui.engines.ConstructionDiyEngine": {
+  "concreteSlabVolumeCalculator": {
+   "text": "Beton- & Plattenvolumenrechner"
+  },
+  "squareFootageTileEstimator": {
+   "text": "Flächen- & Fliesen-Schätzer"
+  },
+  "60LbPreMixBags": {
+   "text": "60 lb Fertigmisch-Säcke"
+  },
+  "80LbPreMixBags": {
+   "text": "80 lb Fertigmisch-Säcke"
+  },
+  "exactFloorArea": {
+   "text": "Exakte Bodenfläche"
+  }
+ },
+ "ui.engines.CryptoHashEngine": {
+  "uppercaseAZ": {
+   "text": "Großbuchstaben (A-Z)"
+  },
+  "lowercaseAZ": {
+   "text": "Kleinbuchstaben (a-z)"
+  },
+  "numbers09": {
+   "text": "Ziffern (0-9)"
+  },
+  "regeneratePassword": {
+   "text": "Passwort neu generieren"
+  },
+  "typeOrPasteAnyTextToHash": {
+   "text": "Text zum Hashen eingeben oder einfügen..."
+  },
+  "copy": {
+   "text": "Kopieren"
+  }
+ },
+ "ui.engines.DeveloperSuiteEngine": {
+  "gambardellaMatthew": {
+   "text": "Gambardella, Matthew"
+  },
+  "computer": {
+   "text": "Computer"
+  },
+  "anInDepthLookAtCreatingApplicationsWithXML": {
+   "text": "An in-depth look at creating applications with XML."
+  },
+  "sendRequest": {
+   "text": "Anfrage senden"
+  },
+  "responsePayload": {
+   "text": "Antwort-Payload"
+  },
+  "formatSQL": {
+   "text": "SQL formatieren"
+  },
+  "postgreSQL": {
+   "text": "PostgreSQL"
+  },
+  "mySQL": {
+   "text": "MySQL"
+  },
+  "sQLite": {
+   "text": "SQLite"
+  },
+  "standardSQL": {
+   "text": "Standard-SQL"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "pasteSQLQueryHere": {
+   "text": "SQL-Abfrage hier einfügen..."
+  }
+ },
+ "ui.engines.DeviceTesterEngine": {
+  "inputLevel": {
+   "text": "Eingangspegel"
+  },
+  "pressAnyKeyOnYourKeyboard": {
+   "text": "Beliebige Taste auf Ihrer Tastatur drücken..."
+  }
+ },
+ "ui.engines.EncodingConvertersEngine": {
+  "forward": {
+   "text": "Vorwärts"
+  },
+  "reverse": {
+   "text": "Rückwärts"
+  },
+  "binary2": {
+   "text": "Binär (2)"
+  },
+  "octal8": {
+   "text": "Oktal (8)"
+  },
+  "decimal10": {
+   "text": "Dezimal (10)"
+  },
+  "hexadecimal16": {
+   "text": "Hexadezimal (16)"
+  },
+  "copied": {
+   "text": "Kopiert!"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "clear": {
+   "text": "Leeren"
+  }
+ },
+ "ui.engines.HealthFitnessEngine": {
+  "underweight": {
+   "text": "Untergewicht"
+  },
+  "normalWeightHealthy": {
+   "text": "Normalgewicht (gesund)"
+  },
+  "overweight": {
+   "text": "Übergewicht"
+  },
+  "obese": {
+   "text": "Adipositas"
+  },
+  "male": {
+   "text": "Männlich"
+  },
+  "female": {
+   "text": "Weiblich"
+  },
+  "age": {
+   "text": "Alter"
+  },
+  "tDEECaloriesDay": {
+   "text": "TDEE-Kalorien/Tag"
+  },
+  "targetProtein": {
+   "text": "Zielprotein"
+  },
+  "waterDay": {
+   "text": "Wasser / Tag"
+  }
+ },
+ "ui.engines.JsonEngine": {
+  "openJSONFile": {
+   "text": "JSON-Datei öffnen"
+  },
+  "pasteJSONToViewInTree": {
+   "text": "JSON einfügen, um es im Baum anzuzeigen..."
+  },
+  "prettyPrint": {
+   "text": "Formatiert"
+  },
+  "formatJSON": {
+   "text": "JSON formatieren"
+  },
+  "minify": {
+   "text": "Minifizieren"
+  },
+  "2Spaces": {
+   "text": "2 Leerzeichen"
+  },
+  "4Spaces": {
+   "text": "4 Leerzeichen"
+  },
+  "tabs": {
+   "text": "Tabulatoren"
+  },
+  "sortKeysAZ": {
+   "text": "Schlüssel A-Z sortieren"
+  },
+  "openFile": {
+   "text": "Datei öffnen"
+  },
+  "copied": {
+   "text": "Kopiert!"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "download": {
+   "text": "Herunterladen"
+  },
+  "clearEditor": {
+   "text": "Editor leeren"
+  },
+  "validJSON": {
+   "text": "Gültiges JSON"
+  },
+  "pasteOrWriteYourJSONHere": {
+   "text": "JSON hier einfügen oder schreiben..."
+  }
+ },
+ "ui.engines.RandomizersGamesEngine": {
+  "flipCoinAgain": {
+   "text": "Münze erneut werfen"
+  },
+  "rollAgain": {
+   "text": "Erneut würfeln"
+  },
+  "sPINTHEWHEEL": {
+   "text": "GLÜCKSRAD DREHEN!"
+  }
+ },
+ "ui.engines.TextSuiteEngine": {
+  "words": {
+   "text": "Wörter"
+  },
+  "characters": {
+   "text": "Zeichen"
+  },
+  "noSpaces": {
+   "text": "Keine Leerzeichen"
+  },
+  "sentences": {
+   "text": "Sätze"
+  },
+  "paragraphs": {
+   "text": "Absätze"
+  },
+  "tokens": {
+   "text": "Tokens"
+  },
+  "readingTime": {
+   "text": "Lesezeit"
+  },
+  "copied": {
+   "text": "Kopiert!"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "clear": {
+   "text": "Leeren"
+  },
+  "typeWriteOrPasteYourTextHere": {
+   "text": "Text hier eingeben, schreiben oder einfügen..."
+  }
+ },
+ "ui.engines.YamlEngine": {
+  "yAMLJSON": {
+   "text": "YAML → JSON"
+  },
+  "jSONYAML": {
+   "text": "JSON → YAML"
+  },
+  "2Spaces": {
+   "text": "2 Leerzeichen"
+  },
+  "4Spaces": {
+   "text": "4 Leerzeichen"
+  },
+  "openFile": {
+   "text": "Datei öffnen"
+  },
+  "copied": {
+   "text": "Kopiert!"
+  },
+  "copy": {
+   "text": "Kopieren"
+  },
+  "download": {
+   "text": "Herunterladen"
+  },
+  "clear": {
+   "text": "Leeren"
+  },
+  "yAMLInput": {
+   "text": "YAML-Eingabe"
+  },
+  "jSONInput": {
+   "text": "JSON-Eingabe"
+  },
+  "yAMLYMLInput": {
+   "text": "YAML / YML-Eingabe"
+  },
+  "pasteInputHere": {
+   "text": "Eingabe hier einfügen..."
+  },
+  "convertedJSONOutput": {
+   "text": "Konvertierte JSON-Ausgabe"
+  },
+  "convertedYAMLOutput": {
+   "text": "Konvertierte YAML-Ausgabe"
+  },
+  "convertedOutputWillAppearHere": {
+   "text": "Das konvertierte Ergebnis erscheint hier..."
+  }
+ },
+ "ui.calculators.FractionTools": {
+  "add": {
+   "text": "Addieren"
+  },
+  "subtract": {
+   "text": "Subtrahieren"
+  },
+  "multiply": {
+   "text": "Multiplizieren"
+  },
+  "divide": {
+   "text": "Dividieren"
+  },
+  "fractionCalculator": {
+   "text": "Bruchrechner"
+  },
+  "numeratorA": {
+   "text": "Zähler A"
+  },
+  "denominatorA": {
+   "text": "Nenner A"
+  },
+  "numeratorB": {
+   "text": "Zähler B"
+  },
+  "denominatorB": {
+   "text": "Nenner B"
+  },
+  "answer": {
+   "text": "Ergebnis"
+  },
+  "mixedNumber": {
+   "text": "Gemischte Zahl"
+  },
+  "percent": {
+   "text": "Prozent"
+  },
+  "simplifyFractionsCalculator": {
+   "text": "Brüche kürzen"
+  },
+  "numerator": {
+   "text": "Zähler"
+  },
+  "denominator": {
+   "text": "Nenner"
+  },
+  "wholeNumber": {
+   "text": "Ganzzahl"
+  },
+  "inLowestTerms": {
+   "text": "In vollständig gekürzter Form"
+  },
+  "asAMixedNumber": {
+   "text": "Als gemischte Zahl"
+  },
+  "greatestCommonFactor": {
+   "text": "Größter gemeinsamer Teiler"
+  },
+  "mixedNumberCalculator": {
+   "text": "Rechner für gemischte Zahlen"
+  },
+  "wholeA": {
+   "text": "Ganzzahl A"
+  },
+  "numA": {
+   "text": "Zähler A"
+  },
+  "denA": {
+   "text": "Nenner A"
+  },
+  "wholeB": {
+   "text": "Ganzzahl B"
+  },
+  "numB": {
+   "text": "Zähler B"
+  },
+  "denB": {
+   "text": "Nenner B"
+  },
+  "aAsImproper": {
+   "text": "A als uneigentlicher Bruch"
+  },
+  "commonDenominatorCalculator": {
+   "text": "Rechner für gemeinsame Nenner"
+  },
+  "firstNumerator": {
+   "text": "Erster Zähler"
+  },
+  "commonDenominator": {
+   "text": "Gemeinsamer Nenner"
+  },
+  "howManyFractions": {
+   "text": "Wie viele Brüche"
+  },
+  "leastCommonDenominator": {
+   "text": "Kleinster gemeinsamer Nenner"
+  },
+  "fractions": {
+   "text": "Brüche"
+  },
+  "lCMOfDenominators": {
+   "text": "LCM der Nenner"
+  },
+  "smallestValue": {
+   "text": "Kleinster Wert"
+  },
+  "fraction": {
+   "text": "Bruch"
+  },
+  "withLCD": {
+   "text": "Mit LCD"
+  },
+  "orderedFromLeastToGreatest": {
+   "text": "Von klein nach groß geordnet"
+  },
+  "decimalToFractionCalculator": {
+   "text": "Dezimal-zu-Bruch-Rechner"
+  },
+  "fractionToDecimalCalculator": {
+   "text": "Bruch-zu-Dezimal-Rechner"
+  },
+  "compareWith": {
+   "text": "Vergleichen mit"
+  },
+  "yes": {
+   "text": "Ja"
+  },
+  "no": {
+   "text": "Nein"
+  },
+  "equivalentDecimal": {
+   "text": "Gleichwertige Dezimalzahl"
+  },
+  "difference": {
+   "text": "Differenz"
+  }
+ },
+ "ui.calculators.NumberBaseTools": {
+  "add": {
+   "text": "Addieren"
+  },
+  "subtract": {
+   "text": "Subtrahieren"
+  },
+  "multiply": {
+   "text": "Multiplizieren"
+  },
+  "divide": {
+   "text": "Dividieren"
+  },
+  "shiftLeft": {
+   "text": "Nach links verschieben"
+  },
+  "shiftRight": {
+   "text": "Nach rechts verschieben"
+  },
+  "binaryCalculator": {
+   "text": "Binärrechner"
+  },
+  "hexCalculator": {
+   "text": "Hexrechner"
+  },
+  "firstNumberBinary": {
+   "text": "Erste Zahl (binär)"
+  },
+  "firstNumberHex": {
+   "text": "Erste Zahl (hex)"
+  },
+  "secondNumberBinary": {
+   "text": "Zweite Zahl (binär)"
+  },
+  "secondNumberHex": {
+   "text": "Zweite Zahl (hex)"
+  },
+  "hexadecimal": {
+   "text": "Hexadezimal"
+  },
+  "octal": {
+   "text": "Oktal"
+  },
+  "firstInDecimal": {
+   "text": "Erste in Dezimal"
+  },
+  "secondInDecimal": {
+   "text": "Zweite in Dezimal"
+  },
+  "romanNumeralConverter": {
+   "text": "Umrechner für römische Zahlen"
+  },
+  "number": {
+   "text": "Zahl"
+  },
+  "romanNumeral": {
+   "text": "Römische Zahl"
+  },
+  "backToANumber": {
+   "text": "Zurück in eine Zahl"
+  },
+  "breakdown": {
+   "text": "Zerlegung"
+  },
+  "validInput": {
+   "text": "Gültige Eingabe"
+  },
+  "no": {
+   "text": "Nein"
+  },
+  "yes": {
+   "text": "Ja"
+  },
+  "romanNumeralDateConverter": {
+   "text": "Umrechner für römische Datumsangaben"
+  },
+  "date": {
+   "text": "Datum"
+  },
+  "order": {
+   "text": "Reihenfolge"
+  },
+  "uSMMDDYYYY": {
+   "text": "US (MM.DD.YYYY)"
+  },
+  "uKDDMMYYYY": {
+   "text": "UK (DD.MM.YYYY)"
+  },
+  "iSOYYYYMMDD": {
+   "text": "ISO (YYYY.MM.DD)"
+  },
+  "separator": {
+   "text": "Trennzeichen"
+  },
+  "romanNumeralDate": {
+   "text": "Römisches Datum"
+  },
+  "day": {
+   "text": "Tag"
+  },
+  "month": {
+   "text": "Monat"
+  },
+  "year": {
+   "text": "Jahr"
+  }
+ },
+ "ui.calculators.RatioTools": {
+  "ratioCalculator": {
+   "text": "Verhältnisrechner"
+  },
+  "totalToSplit": {
+   "text": "Aufzuteilender Gesamtbetrag"
+  },
+  "originalWidth": {
+   "text": "Originalbreite"
+  },
+  "originalHeight": {
+   "text": "Originalhöhe"
+  },
+  "simplifiedRatio": {
+   "text": "Vereinfachtes Verhältnis"
+  },
+  "commonFactor": {
+   "text": "Gemeinsamer Teiler"
+  },
+  "ratioAsDecimal": {
+   "text": "Verhältnis als Dezimalzahl"
+  },
+  "resizedWidth": {
+   "text": "Neue Breite"
+  },
+  "resizedHeight": {
+   "text": "Neue Höhe"
+  }
+ },
+ "ui.calculators.TimeTools": {
+  "hoursCalculator": {
+   "text": "Stundenrechner"
+  },
+  "startTime": {
+   "text": "Startzeit"
+  },
+  "endTime": {
+   "text": "Endzeit"
+  },
+  "breakMinutes": {
+   "text": "Pause (Minuten)"
+  },
+  "totalTime": {
+   "text": "Gesamtzeit"
+  },
+  "decimalHours": {
+   "text": "Dezimalstunden"
+  },
+  "hours": {
+   "text": "Stunden"
+  },
+  "minutes": {
+   "text": "Minuten"
+  },
+  "payAtRate": {
+   "text": "Vergütung zum Satz"
+  },
+  "overnightShift": {
+   "text": "Nachtschicht"
+  },
+  "yes": {
+   "text": "Ja"
+  },
+  "no": {
+   "text": "Nein"
+  },
+  "timeCalculator": {
+   "text": "Zeitrechner"
+  },
+  "timesToTotal": {
+   "text": "Zu summierende Zeiten"
+  },
+  "addHours": {
+   "text": "Stunden addieren"
+  },
+  "addMinutes": {
+   "text": "Minuten addieren"
+  },
+  "totalOfTheList": {
+   "text": "Summe der Liste"
+  },
+  "startDuration": {
+   "text": "Start + Dauer"
+  },
+  "startDuration2": {
+   "text": "Start − Dauer"
+  },
+  "timeCardCalculator": {
+   "text": "Zeiterfassungsrechner"
+  },
+  "shiftsInOut": {
+   "text": "Schichten (Ein-Aus)"
+  },
+  "hourlyRate": {
+   "text": "Stundensatz"
+  },
+  "overtimeAfterHDay": {
+   "text": "Überstunden ab (h/Tag)"
+  },
+  "totalHours": {
+   "text": "Gesamtstunden"
+  },
+  "overtimeHours": {
+   "text": "Überstunden"
+  },
+  "regularPay": {
+   "text": "Regelvergütung"
+  },
+  "totalPay": {
+   "text": "Gesamtvergütung"
+  },
+  "day": {
+   "text": "Tag"
+  },
+  "in": {
+   "text": "Ein"
+  },
+  "out": {
+   "text": "Aus"
+  },
+  "militaryTimeConverter": {
+   "text": "Militärzeit-Konverter"
+  },
+  "militaryTime": {
+   "text": "Militärzeit"
+  },
+  "standardTime": {
+   "text": "Normalzeit"
+  },
+  "1730InStandardTime": {
+   "text": "1730 in Normalzeit"
+  },
+  "spoken": {
+   "text": "Ausgesprochen"
+  },
+  "currentMilitaryTime": {
+   "text": "Aktuelle Militärzeit"
+  },
+  "military": {
+   "text": "Militär"
+  },
+  "standard": {
+   "text": "Normal"
+  }
+ },
+ "ui.pdf.PdfTextToPdfEngine": {
+  "markdownToPDF": {
+   "text": "Markdown zu PDF"
+  },
+  "documentTitle": {
+   "text": "Dokumenttitel"
+  },
+  "myDocument": {
+   "text": "Mein Dokument"
+  },
+  "content": {
+   "text": "Inhalt"
+  }
+ }
+}

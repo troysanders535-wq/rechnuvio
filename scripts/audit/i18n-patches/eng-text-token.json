@@ -1,0 +1,43 @@
+{
+  "namespace": "ui.engines.TextTokenWorkspace",
+  "en": {
+    "gPT4GPT4oExact": "GPT-4 / GPT-4o (exact)",
+    "gPT4GPT4oEstimate": "GPT-4 / GPT-4o (estimate)",
+    "gPT5OSeriesExact": "GPT-5 / o-series (exact)",
+    "gPT5OSeriesEstimate": "GPT-5 / o-series (estimate)",
+    "claudeEstimate": "Claude (estimate)",
+    "geminiEstimate": "Gemini (estimate)",
+    "llamaEstimate": "Llama (estimate)",
+    "tokensExact": "Tokens (exact)",
+    "tokensEstimated": "Tokens (estimated)",
+    "contextUsedTokens": "{used} / {limit} tokens ({percent}%)",
+    "tokensAtPricePer1M": "{tokens} tokens at ${price} per 1M tokens",
+    "summaryModel": "Model: {model}",
+    "summaryTokens": "Tokens: {tokens}",
+    "summaryTokensEstimated": "Tokens: {tokens} (estimated)",
+    "summaryCharacters": "Characters: {characters}",
+    "summaryCharactersPerToken": "Characters per token: {ratio}",
+    "summaryWords": "Words: {words}",
+    "summaryEstimatedCost": "Estimated cost: {cost}"
+  },
+  "de": {
+    "gPT4GPT4oExact": "GPT-4 / GPT-4o (exakt)",
+    "gPT4GPT4oEstimate": "GPT-4 / GPT-4o (Schätzung)",
+    "gPT5OSeriesExact": "GPT-5 / o-series (exakt)",
+    "gPT5OSeriesEstimate": "GPT-5 / o-series (Schätzung)",
+    "claudeEstimate": "Claude (Schätzung)",
+    "geminiEstimate": "Gemini (Schätzung)",
+    "llamaEstimate": "Llama (Schätzung)",
+    "tokensExact": "Tokens (exakt)",
+    "tokensEstimated": "Tokens (geschätzt)",
+    "contextUsedTokens": "{used} / {limit} Tokens ({percent} %)",
+    "tokensAtPricePer1M": "{tokens} Tokens für {price} $ pro 1M Tokens",
+    "summaryModel": "Modell: {model}",
+    "summaryTokens": "Tokens: {tokens}",
+    "summaryTokensEstimated": "Tokens: {tokens} (geschätzt)",
+    "summaryCharacters": "Zeichen: {characters}",
+    "summaryCharactersPerToken": "Zeichen pro Token: {ratio}",
+    "summaryWords": "Wörter: {words}",
+    "summaryEstimatedCost": "Geschätzte Kosten: {cost}"
+  }
+}

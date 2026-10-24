@@ -1,0 +1,11 @@
+{
+  "namespace": "ui.engines.HealthFitnessEngine",
+  "en": {
+    "imperialLbsIn": "Imperial (lbs/in)",
+    "inches": "inches"
+  },
+  "de": {
+    "imperialLbsIn": "Angloamerikanisch (lbs/in)",
+    "inches": "Zoll"
+  }
+}

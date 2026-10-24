@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { useLocale, useTranslations } from "next-intl";
 import { CalendarDays, Scale } from "lucide-react";
 import type { CalculatorVariant } from "@/data/calculatorTools";
 import {
@@ -28,6 +29,11 @@ import {
 } from "./calc";
 
 export function DateTools({ variant }: { variant: CalculatorVariant }) {
+  const tUi = useTranslations("ui.calculators.DateTools");
+  // Number formatting must be pinned to the app locale: without it the
+  // server and the browser format the same number differently ("11,000" vs
+  // "11.000"), which breaks hydration on the German pages.
+  const locale = useLocale();
   const [birth, setBirth] = useState("1995-06-15");
   const [start, setStart] = useState("2026-01-01");
   const [end, setEnd] = useState("2026-12-31");
@@ -49,42 +55,42 @@ export function DateTools({ variant }: { variant: CalculatorVariant }) {
   if (variant === "age") {
     if (!birthDate || !todayDate) {
       return (
-        <CalcPanel title="Age Calculator" icon={<CalendarDays className="size-5 text-sky-700" />}>
-          <p className="text-sm text-slate-600">Enter a valid date (YYYY-MM-DD).</p>
+        <CalcPanel title={tUi("ageCalculator")} icon={<CalendarDays className="size-5 text-sky-700" />}>
+          <p className="text-sm text-slate-600">{tUi("enterAValidDateYYYYMMDD")}</p>
         </CalcPanel>
       );
     }
     const age = ageBetween(birthDate, todayDate);
     return (
       <CalcPanel
-        title="Age Calculator"
-        subtitle="Exact age in years, months and days, plus the countdown to the next birthday."
+        title={tUi("ageCalculator")}
+        subtitle={tUi("exactAgeInYearsMonthsAndDaysPlusTheCountdownToTheNextBirthday")}
         icon={<CalendarDays className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-2">
-          <NumberField label="Date of birth" value={birth} onChange={setBirth} hint="YYYY-MM-DD" />
-          <NumberField label="Age on" value={today} onChange={setToday} hint="YYYY-MM-DD" />
+          <NumberField label={tUi("dateOfBirth")} value={birth} onChange={setBirth} hint={tUi("yYYYMMDD")} />
+          <NumberField label={tUi("ageOn")} value={today} onChange={setToday} hint={tUi("yYYYMMDD")} />
         </div>
         <ResultGrid>
           <ResultCard
-            label="Age"
+            label={tUi("age")}
             value={`${age.years}y ${age.months}m ${age.days}d`}
             tone="emerald"
           />
-          <ResultCard label="Total days lived" value={age.totalDays.toLocaleString()} tone="sky" />
-          <ResultCard label="Total months" value={age.totalMonths} tone="slate" />
-          <ResultCard label="Total weeks" value={age.totalWeeks.toLocaleString()} tone="slate" />
+          <ResultCard label={tUi("totalDaysLived")} value={age.totalDays.toLocaleString(locale)} tone="sky" />
+          <ResultCard label={tUi("totalMonths")} value={age.totalMonths} tone="slate" />
+          <ResultCard label={tUi("totalWeeks")} value={age.totalWeeks.toLocaleString(locale)} tone="slate" />
         </ResultGrid>
         <ResultGrid>
-          <ResultCard label="Next birthday" value={toISODate(age.nextBirthday)} tone="amber" />
-          <ResultCard label="Days to birthday" value={age.daysToBirthday} tone="amber" />
+          <ResultCard label={tUi("nextBirthday")} value={toISODate(age.nextBirthday)} tone="amber" />
+          <ResultCard label={tUi("daysToBirthday")} value={age.daysToBirthday} tone="amber" />
           <ResultCard
-            label="Day of birth"
+            label={tUi("dayOfBirth")}
             value={birthDate.toLocaleDateString("en-US", { weekday: "long" })}
             tone="slate"
           />
           <ResultCard
-            label="Zodiac"
+            label={tUi("zodiac")}
             value={zodiacOf(birthDate.getMonth() + 1, birthDate.getDate())}
             tone="slate"
           />
@@ -95,36 +101,49 @@ export function DateTools({ variant }: { variant: CalculatorVariant }) {
 
   if (variant === "dog-age") {
     const result = dogAge(num(dogYears), dogSize);
+    const stageLabel = (stage: string) =>
+      stage === "Puppy"
+        ? tUi("stagePuppy")
+        : stage === "Adolescent"
+          ? tUi("stageAdolescent")
+          : stage === "Adult"
+            ? tUi("stageAdult")
+            : tUi("stageSenior");
     return (
       <CalcPanel
-        title="Dog Age Calculator"
-        subtitle="Convert dog years to human years by size, with the newer epigenetic formula."
+        title={tUi("dogAgeCalculator")}
+        subtitle={tUi("convertDogYearsToHumanYearsBySizeWithTheNewerEpigeneticFormula")}
         icon={<Scale className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-2">
-          <NumberField label="Dog's age in years" value={dogYears} onChange={setDogYears} />
+          <NumberField label={tUi("dogAgeInYears")} value={dogYears} onChange={setDogYears} />
           <SelectField
-            label="Size"
+            label={tUi("size")}
             value={dogSize}
             onChange={setDogSize}
             options={[
-              { value: "small", label: "Small (up to 20 lb)" },
-              { value: "medium", label: "Medium (21 – 50 lb)" },
-              { value: "large", label: "Large (51 – 90 lb)" },
-              { value: "giant", label: "Giant (over 90 lb)" },
+              { value: "small", label: tUi("smallUpTo20Lb") },
+              { value: "medium", label: tUi("medium2150Lb") },
+              { value: "large", label: tUi("large5190Lb") },
+              { value: "giant", label: tUi("giantOver90Lb") },
             ]}
           />
         </div>
         <ResultGrid>
-          <ResultCard label="Human age (AVMA)" value={`${result.avma} years`} tone="emerald" />
-          <ResultCard label="Human age (epigenetic)" value={`${result.epigenetic} years`} tone="sky" />
-          <ResultCard label="Life stage" value={result.stage} tone="amber" />
-          <ResultCard label="In dog years" value={result.dogYearsEquivalent} tone="slate" />
+          <ResultCard
+            label={tUi("humanAgeAVMA")}
+            value={`${result.avma} ${tUi("yearsUnit")}`}
+            tone="emerald"
+          />
+          <ResultCard
+            label={tUi("humanAgeEpigenetic")}
+            value={`${result.epigenetic} ${tUi("yearsUnit")}`}
+            tone="sky"
+          />
+          <ResultCard label={tUi("lifeStage")} value={stageLabel(result.stage)} tone="amber" />
+          <ResultCard label={tUi("inDogYears")} value={result.dogYearsEquivalent} tone="slate" />
         </ResultGrid>
-        <FormulaNote>
-          AVMA: the first two years count as 10.5 human years each, then size decides how fast
-          they age. Epigenetic (2021 study): human years = 10 × log₁₀(dog years) + 10.
-        </FormulaNote>
+        <FormulaNote>{tUi("avmaAndEpigeneticDogAgeFormula")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -135,34 +154,34 @@ export function DateTools({ variant }: { variant: CalculatorVariant }) {
     const difference = startDate && endDate ? differenceBetween(startDate, endDate, includeEnd) : null;
     return (
       <CalcPanel
-        title="Date Calculator"
-        subtitle="Add or subtract days, weeks, months or years — and find the time between two dates."
+        title={tUi("dateCalculator")}
+        subtitle={tUi("addOrSubtractDaysWeeksMonthsOrYearsAndFindTheTimeBetweenTwoDates")}
         icon={<CalendarDays className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-2">
-          <NumberField label="Start date" value={start} onChange={setStart} hint="YYYY-MM-DD" />
-          <NumberField label="End date" value={end} onChange={setEnd} hint="YYYY-MM-DD" />
+          <NumberField label={tUi("startDate")} value={start} onChange={setStart} hint={tUi("yYYYMMDD")} />
+          <NumberField label={tUi("endDate")} value={end} onChange={setEnd} hint={tUi("yYYYMMDD")} />
         </div>
         <div className="grid gap-4 sm:grid-cols-4">
-          <NumberField label="Amount" value={amount} onChange={setAmount} />
+          <NumberField label={tUi("amount")} value={amount} onChange={setAmount} />
           <SelectField
-            label="Unit"
+            label={tUi("unit")}
             value={unit}
             onChange={setUnit}
             options={[
-              { value: "days", label: "Days" },
-              { value: "weeks", label: "Weeks" },
-              { value: "months", label: "Months" },
-              { value: "years", label: "Years" },
+              { value: "days", label: tUi("days") },
+              { value: "weeks", label: tUi("weeks") },
+              { value: "months", label: tUi("months") },
+              { value: "years", label: tUi("years") },
             ]}
           />
           <SelectField
-            label="Direction"
+            label={tUi("direction")}
             value={direction}
             onChange={setDirection}
             options={[
-              { value: "add", label: "Add" },
-              { value: "subtract", label: "Subtract" },
+              { value: "add", label: tUi("add") },
+              { value: "subtract", label: tUi("subtract") },
             ]}
           />
           <div className="flex items-end">
@@ -173,25 +192,25 @@ export function DateTools({ variant }: { variant: CalculatorVariant }) {
                 onChange={(e) => setIncludeEnd(e.target.checked)}
                 className="size-4 rounded border-slate-300 text-sky-600"
               />
-              Include end date
+              {tUi("includeEndDate")}
             </label>
           </div>
         </div>
         <ResultGrid>
           <ResultCard
-            label={direction === "add" ? "Date after adding" : "Date after subtracting"}
+            label={direction === "add" ? tUi("dateAfterAdding") : tUi("dateAfterSubtracting")}
             value={shifted ? toISODate(shifted) : "—"}
             tone="emerald"
           />
-          <ResultCard label="Days between" value={difference ? difference.days : 0} tone="sky" />
-          <ResultCard label="Weeks between" value={difference ? difference.weeks : 0} tone="slate" />
-          <ResultCard label="Weekday of end date" value={difference ? difference.weekday : "—"} tone="slate" />
+          <ResultCard label={tUi("daysBetween")} value={difference ? difference.days : 0} tone="sky" />
+          <ResultCard label={tUi("weeksBetween")} value={difference ? difference.weeks : 0} tone="slate" />
+          <ResultCard label={tUi("weekdayOfEndDate")} value={difference ? difference.weekday : "—"} tone="slate" />
         </ResultGrid>
         <DetailList
           items={[
-            { label: "Months between", value: difference ? difference.months : 0 },
-            { label: "Years between", value: difference ? difference.years : 0 },
-            { label: "Include end date", value: includeEnd ? "Yes" : "No" },
+            { label: tUi("monthsBetween"), value: difference ? difference.months : 0 },
+            { label: tUi("yearsBetween"), value: difference ? difference.years : 0 },
+            { label: tUi("includeEndDate"), value: includeEnd ? tUi("yes") : tUi("no") },
           ]}
         />
       </CalcPanel>
@@ -202,13 +221,13 @@ export function DateTools({ variant }: { variant: CalculatorVariant }) {
     const difference = startDate && endDate ? differenceBetween(startDate, endDate, includeEnd) : null;
     return (
       <CalcPanel
-        title="Days Between Dates Calculator"
-        subtitle="Count the days between two dates in years, months, weeks and weekdays."
+        title={tUi("daysBetweenDatesCalculator")}
+        subtitle={tUi("countTheDaysBetweenTwoDatesInYearsMonthsWeeksAndWeekdays")}
         icon={<CalendarDays className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-2">
-          <NumberField label="From date" value={start} onChange={setStart} hint="YYYY-MM-DD" />
-          <NumberField label="To date" value={end} onChange={setEnd} hint="YYYY-MM-DD" />
+          <NumberField label={tUi("fromDate")} value={start} onChange={setStart} hint={tUi("yYYYMMDD")} />
+          <NumberField label={tUi("toDate")} value={end} onChange={setEnd} hint={tUi("yYYYMMDD")} />
         </div>
         <label className="flex items-center gap-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
           <input
@@ -217,18 +236,15 @@ export function DateTools({ variant }: { variant: CalculatorVariant }) {
             onChange={(e) => setIncludeEnd(e.target.checked)}
             className="size-4 rounded border-slate-300 text-sky-600"
           />
-          Include the end date
+          {tUi("includeTheEndDate")}
         </label>
         <ResultGrid>
-          <ResultCard label="Total days" value={difference ? difference.days : 0} tone="emerald" />
-          <ResultCard label="Weeks" value={difference ? difference.weeks : 0} tone="sky" />
-          <ResultCard label="Months" value={difference ? difference.months : 0} tone="slate" />
-          <ResultCard label="Years" value={difference ? difference.years : 0} tone="slate" />
+          <ResultCard label={tUi("totalDays")} value={difference ? difference.days : 0} tone="emerald" />
+          <ResultCard label={tUi("weeks")} value={difference ? difference.weeks : 0} tone="sky" />
+          <ResultCard label={tUi("months")} value={difference ? difference.months : 0} tone="slate" />
+          <ResultCard label={tUi("years")} value={difference ? difference.years : 0} tone="slate" />
         </ResultGrid>
-        <FormulaNote>
-          Days are counted in the local calendar, so a leap day is included automatically. The end
-          date is optional.
-        </FormulaNote>
+        <FormulaNote>{tUi("daysAreCountedInTheLocalCalendar")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -244,48 +260,45 @@ export function DateTools({ variant }: { variant: CalculatorVariant }) {
   const business = startDate && endDate ? businessDaysBetween(startDate, endDate, allHolidays) : null;
   return (
     <CalcPanel
-      title="Business Days Calculator"
-        subtitle="Working days between two dates, skipping weekends and holidays."
+      title={tUi("businessDaysCalculator")}
+        subtitle={tUi("workingDaysBetweenTwoDatesSkippingWeekendsAndHolidays")}
       icon={<CalendarDays className="size-5 text-sky-700" />}
     >
       <div className="grid gap-4 sm:grid-cols-2">
-        <NumberField label="From date" value={start} onChange={setStart} hint="YYYY-MM-DD" />
-        <NumberField label="To date" value={end} onChange={setEnd} hint="YYYY-MM-DD" />
+        <NumberField label={tUi("fromDate")} value={start} onChange={setStart} hint={tUi("yYYYMMDD")} />
+        <NumberField label={tUi("toDate")} value={end} onChange={setEnd} hint={tUi("yYYYMMDD")} />
       </div>
       <div className="grid gap-4 sm:grid-cols-2">
         <SelectField
-          label="Holiday calendar"
+          label={tUi("holidayCalendar")}
           value={holidaySet}
           onChange={setHolidaySet}
           options={[
-            { value: "none", label: "No holidays" },
-            { value: "us", label: "US federal holidays" },
-            { value: "uk", label: "UK bank holidays" },
+            { value: "none", label: tUi("noHolidays") },
+            { value: "us", label: tUi("uSFederalHolidays") },
+            { value: "uk", label: tUi("uKBankHolidays") },
           ]}
         />
         <NumberField
-          label="Your own days off"
+          label={tUi("yourOwnDaysOff")}
           value={customDaysOff}
           onChange={setCustomDaysOff}
-          hint="YYYY-MM-DD, separated by commas"
+          hint={tUi("yYYYMMDDSeparatedByCommas")}
         />
       </div>
       <ResultGrid>
-        <ResultCard label="Business days" value={business ? business.businessDays : 0} tone="emerald" />
-        <ResultCard label="Weekend days" value={business ? business.weekendDays : 0} tone="slate" />
-        <ResultCard label="Holidays skipped" value={business ? business.holidaysSkipped : 0} tone="amber" />
-        <ResultCard label="Total days" value={business ? business.totalDays : 0} tone="slate" />
+        <ResultCard label={tUi("businessDays")} value={business ? business.businessDays : 0} tone="emerald" />
+        <ResultCard label={tUi("weekendDays")} value={business ? business.weekendDays : 0} tone="slate" />
+        <ResultCard label={tUi("holidaysSkipped")} value={business ? business.holidaysSkipped : 0} tone="amber" />
+        <ResultCard label={tUi("totalDays")} value={business ? business.totalDays : 0} tone="slate" />
       </ResultGrid>
       {holidays.length ? (
         <Table
-          headers={["Holidays in range"]}
+          headers={[tUi("holidaysInRange")]}
           rows={holidays.map((h) => [h])}
         />
       ) : null}
-      <FormulaNote>
-        Monday to Friday counts as a business day; Saturdays, Sundays and the selected holidays
-        are skipped.
-      </FormulaNote>
+      <FormulaNote>{tUi("businessDayRule")}</FormulaNote>
     </CalcPanel>
   );
 }

@@ -1,0 +1,15 @@
+{
+  "namespace": "ui.engines.CryptoHashEngine",
+  "en": {
+    "certificateFingerprint": "SHA-256 fingerprint",
+    "certificateKeySize": "Key size",
+    "csrKeySize": "Key size",
+    "pemFingerprint": "SHA-256 fingerprint"
+  },
+  "de": {
+    "certificateFingerprint": "SHA-256-Fingerabdruck",
+    "certificateKeySize": "Schlüsselgröße",
+    "csrKeySize": "Schlüsselgröße",
+    "pemFingerprint": "SHA-256-Fingerabdruck"
+  }
+}

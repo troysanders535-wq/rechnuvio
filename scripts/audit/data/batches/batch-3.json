@@ -1,0 +1,1830 @@
+{
+ "ui.engines.Calendar2026Engine": {
+  "alleBundeslNder": {
+   "text": "Alle Bundesländer",
+   "count": 1,
+   "lines": [
+    251
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "deutschland2026": {
+   "text": "Deutschland 2026",
+   "count": 1,
+   "lines": [
+    380
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "germany2026": {
+   "text": "Germany 2026",
+   "count": 1,
+   "lines": [
+    380
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "16BundeslNder": {
+   "text": "16 Bundesländer",
+   "count": 1,
+   "lines": [
+    429
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "16GermanStates": {
+   "text": "16 German States",
+   "count": 1,
+   "lines": [
+    429
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "brCkentageUrlaubsplaner": {
+   "text": "Brückentage & Urlaubsplaner",
+   "count": 1,
+   "lines": [
+    432
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "bridgingDaysPlanner": {
+   "text": "Bridging Days Planner",
+   "count": 1,
+   "lines": [
+    432
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "iSOKalenderwochenKW": {
+   "text": "ISO-Kalenderwochen (KW)",
+   "count": 1,
+   "lines": [
+    435
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "iSOWeekNumbers": {
+   "text": "ISO Week Numbers",
+   "count": 1,
+   "lines": [
+    435
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "kalender": {
+   "text": "Kalender",
+   "count": 1,
+   "lines": [
+    450
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "calendar": {
+   "text": "Calendar",
+   "count": 1,
+   "lines": [
+    450
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "kalenderwoche": {
+   "text": "Kalenderwoche",
+   "count": 2,
+   "lines": [
+    507,
+    549
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "iSOWeek": {
+   "text": "ISO Week",
+   "count": 1,
+   "lines": [
+    507
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "week": {
+   "text": "Week",
+   "count": 1,
+   "lines": [
+    549
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "alleTermine": {
+   "text": "Alle Termine",
+   "count": 1,
+   "lines": [
+    909
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "allEvents": {
+   "text": "All Events",
+   "count": 1,
+   "lines": [
+    909
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "gesetzlicheFeiertage": {
+   "text": "Gesetzliche Feiertage",
+   "count": 1,
+   "lines": [
+    920
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "publicHolidays": {
+   "text": "Public Holidays",
+   "count": 1,
+   "lines": [
+    920
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "brCkentage2026": {
+   "text": "Brückentage 2026",
+   "count": 1,
+   "lines": [
+    932
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "bridgeDays": {
+   "text": "Bridge Days",
+   "count": 1,
+   "lines": [
+    932
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "brauchtumFeste": {
+   "text": "Brauchtum & Feste",
+   "count": 1,
+   "lines": [
+    943
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "observances": {
+   "text": "Observances",
+   "count": 1,
+   "lines": [
+    943
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "urlaubstageCleverEinsetzenIn2026": {
+   "text": "Urlaubstage clever einsetzen in 2026",
+   "count": 1,
+   "lines": [
+    953
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "maximizeYour2026VacationDays": {
+   "text": "Maximize your 2026 vacation days",
+   "count": 1,
+   "lines": [
+    953
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "datum": {
+   "text": "Datum",
+   "count": 1,
+   "lines": [
+    1006
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "date": {
+   "text": "Date",
+   "count": 1,
+   "lines": [
+    1006
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "feiertagEreignis": {
+   "text": "Feiertag / Ereignis",
+   "count": 1,
+   "lines": [
+    1007
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "holidayEvent": {
+   "text": "Holiday / Event",
+   "count": 1,
+   "lines": [
+    1007
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "geltungsbereich": {
+   "text": "Geltungsbereich",
+   "count": 1,
+   "lines": [
+    1008
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "regionScope": {
+   "text": "Region / Scope",
+   "count": 1,
+   "lines": [
+    1008
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "kategorie": {
+   "text": "Kategorie",
+   "count": 1,
+   "lines": [
+    1009
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "category": {
+   "text": "Category",
+   "count": 1,
+   "lines": [
+    1009
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "gesetzlicherFeiertag": {
+   "text": "Gesetzlicher Feiertag",
+   "count": 1,
+   "lines": [
+    1049
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "publicHoliday": {
+   "text": "Public Holiday",
+   "count": 1,
+   "lines": [
+    1049
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "brauchtumFesttag": {
+   "text": "Brauchtum / Festtag",
+   "count": 1,
+   "lines": [
+    1053
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "traditionEvent": {
+   "text": "Tradition / Event",
+   "count": 1,
+   "lines": [
+    1053
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "jan1": {
+   "text": "Jan 1",
+   "count": 1,
+   "lines": [
+    1073
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "jan19": {
+   "text": "Jan 19",
+   "count": 1,
+   "lines": [
+    1074
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "feb14": {
+   "text": "Feb 14",
+   "count": 1,
+   "lines": [
+    1075
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "feb16": {
+   "text": "Feb 16",
+   "count": 1,
+   "lines": [
+    1076
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "mar8": {
+   "text": "Mar 8",
+   "count": 1,
+   "lines": [
+    1077
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "mar17": {
+   "text": "Mar 17",
+   "count": 1,
+   "lines": [
+    1078
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "apr3": {
+   "text": "Apr 3",
+   "count": 1,
+   "lines": [
+    1079
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "apr5": {
+   "text": "Apr 5",
+   "count": 1,
+   "lines": [
+    1080
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "may10": {
+   "text": "May 10",
+   "count": 1,
+   "lines": [
+    1081
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "may25": {
+   "text": "May 25",
+   "count": 1,
+   "lines": [
+    1082
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "jun19": {
+   "text": "Jun 19",
+   "count": 1,
+   "lines": [
+    1083
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "jun21": {
+   "text": "Jun 21",
+   "count": 1,
+   "lines": [
+    1084
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "jul3": {
+   "text": "Jul 3",
+   "count": 1,
+   "lines": [
+    1085
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "sep7": {
+   "text": "Sep 7",
+   "count": 1,
+   "lines": [
+    1086
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "oct12": {
+   "text": "Oct 12",
+   "count": 1,
+   "lines": [
+    1087
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "oct31": {
+   "text": "Oct 31",
+   "count": 1,
+   "lines": [
+    1088
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "nov1": {
+   "text": "Nov 1",
+   "count": 1,
+   "lines": [
+    1089
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "nov11": {
+   "text": "Nov 11",
+   "count": 1,
+   "lines": [
+    1090
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "nov26": {
+   "text": "Nov 26",
+   "count": 1,
+   "lines": [
+    1091
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "nov27": {
+   "text": "Nov 27",
+   "count": 1,
+   "lines": [
+    1092
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "dec24": {
+   "text": "Dec 24",
+   "count": 1,
+   "lines": [
+    1093
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "dec25": {
+   "text": "Dec 25",
+   "count": 1,
+   "lines": [
+    1094
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "dec31": {
+   "text": "Dec 31",
+   "count": 1,
+   "lines": [
+    1095
+   ],
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  }
+ },
+ "ui.engines.NetworkingToolsEngine": {
+  "pleaseEnterAValidIPv4Address": {
+   "text": "Please enter a valid IPv4 address.",
+   "count": 1,
+   "lines": [
+    164
+   ],
+   "file": "src/components/engines/NetworkingToolsEngine.tsx"
+  }
+ },
+ "ui.engines.QrBarcodeEngine": {
+  "enterNumbersOrText": {
+   "text": "Enter numbers or text...",
+   "count": 1,
+   "lines": [
+    101
+   ],
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  },
+  "code128Universal": {
+   "text": "Code 128 (Universal)",
+   "count": 1,
+   "lines": [
+    115
+   ],
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  },
+  "eAN1313Digits": {
+   "text": "EAN-13 (13 digits)",
+   "count": 1,
+   "lines": [
+    116
+   ],
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  },
+  "uPC12Digits": {
+   "text": "UPC (12 digits)",
+   "count": 1,
+   "lines": [
+    117
+   ],
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  },
+  "code39Alphanumeric": {
+   "text": "Code 39 (Alphanumeric)",
+   "count": 1,
+   "lines": [
+    118
+   ],
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  },
+  "downloadBarcodeSVG": {
+   "text": "Download Barcode SVG",
+   "count": 1,
+   "lines": [
+    127
+   ],
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  },
+  "transparentBackground": {
+   "text": "Transparent Background",
+   "count": 1,
+   "lines": [
+    198
+   ],
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  },
+  "downloadPNGImage": {
+   "text": "Download PNG Image",
+   "count": 1,
+   "lines": [
+    228
+   ],
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  },
+  "generatedQRCode": {
+   "text": "Generated QR Code",
+   "count": 1,
+   "lines": [
+    237
+   ],
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  }
+ },
+ "ui.engines.UuidEngine": {
+  "version4Random": {
+   "text": "Version 4 (Random)",
+   "count": 1,
+   "lines": [
+    77
+   ],
+   "file": "src/components/engines/UuidEngine.tsx"
+  },
+  "version7TimeOrdered": {
+   "text": "Version 7 (Time-Ordered)",
+   "count": 1,
+   "lines": [
+    78
+   ],
+   "file": "src/components/engines/UuidEngine.tsx"
+  },
+  "version1TimestampMAC": {
+   "text": "Version 1 (Timestamp & MAC)",
+   "count": 1,
+   "lines": [
+    79
+   ],
+   "file": "src/components/engines/UuidEngine.tsx"
+  },
+  "version5NameBasedSHA1": {
+   "text": "Version 5 (Name-based SHA1)",
+   "count": 1,
+   "lines": [
+    80
+   ],
+   "file": "src/components/engines/UuidEngine.tsx"
+  },
+  "standardWithHyphens": {
+   "text": "Standard (with hyphens)",
+   "count": 1,
+   "lines": [
+    109
+   ],
+   "file": "src/components/engines/UuidEngine.tsx"
+  },
+  "compactNoHyphens": {
+   "text": "Compact (no hyphens)",
+   "count": 1,
+   "lines": [
+    110
+   ],
+   "file": "src/components/engines/UuidEngine.tsx"
+  },
+  "uppercaseAZ": {
+   "text": "Uppercase (A-Z)",
+   "count": 1,
+   "lines": [
+    125
+   ],
+   "file": "src/components/engines/UuidEngine.tsx"
+  },
+  "generateNewUUIDs": {
+   "text": "Generate New UUIDs",
+   "count": 1,
+   "lines": [
+    139
+   ],
+   "file": "src/components/engines/UuidEngine.tsx"
+  },
+  "copiedAll": {
+   "text": "Copied All!",
+   "count": 1,
+   "lines": [
+    150
+   ],
+   "file": "src/components/engines/UuidEngine.tsx"
+  },
+  "copyAll": {
+   "text": "Copy All",
+   "count": 1,
+   "lines": [
+    150
+   ],
+   "file": "src/components/engines/UuidEngine.tsx"
+  },
+  "download": {
+   "text": "Download",
+   "count": 1,
+   "lines": [
+    158
+   ],
+   "file": "src/components/engines/UuidEngine.tsx"
+  },
+  "copySingleUUID": {
+   "text": "Copy single UUID",
+   "count": 1,
+   "lines": [
+    176
+   ],
+   "file": "src/components/engines/UuidEngine.tsx"
+  }
+ },
+ "ui.calculators.FitnessTools": {
+  "oneRepMaxCalculator": {
+   "text": "One Rep Max Calculator",
+   "count": 1,
+   "lines": [
+    43
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "weightLifted": {
+   "text": "Weight lifted",
+   "count": 1,
+   "lines": [
+    48
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "repsPerformed": {
+   "text": "Reps performed",
+   "count": 1,
+   "lines": [
+    49
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "formula": {
+   "text": "Formula",
+   "count": 1,
+   "lines": [
+    51
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "epleyMostCommon": {
+   "text": "Epley (most common)",
+   "count": 1,
+   "lines": [
+    55
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "brzycki": {
+   "text": "Brzycki",
+   "count": 2,
+   "lines": [
+    56,
+    64
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "lombardi": {
+   "text": "Lombardi",
+   "count": 2,
+   "lines": [
+    57,
+    65
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "yourEstimated1RM": {
+   "text": "Your estimated 1RM",
+   "count": 1,
+   "lines": [
+    62
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "epley": {
+   "text": "Epley",
+   "count": 1,
+   "lines": [
+    63
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "reps": {
+   "text": "Reps",
+   "count": 1,
+   "lines": [
+    68
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "weightForThat": {
+   "text": "Weight for that %",
+   "count": 1,
+   "lines": [
+    68
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "waterIntakeCalculator": {
+   "text": "Water Intake Calculator",
+   "count": 1,
+   "lines": [
+    84
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "bodyWeight": {
+   "text": "Body weight",
+   "count": 1,
+   "lines": [
+    89
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "unit": {
+   "text": "Unit",
+   "count": 1,
+   "lines": [
+    91
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "exerciseMinDay": {
+   "text": "Exercise (min/day)",
+   "count": 1,
+   "lines": [
+    99
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "climate": {
+   "text": "Climate",
+   "count": 1,
+   "lines": [
+    101
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "temperate": {
+   "text": "Temperate",
+   "count": 1,
+   "lines": [
+    105
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "hot": {
+   "text": "Hot",
+   "count": 1,
+   "lines": [
+    106
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "veryHot": {
+   "text": "Very hot",
+   "count": 1,
+   "lines": [
+    107
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "waterPerDay": {
+   "text": "Water per day",
+   "count": 1,
+   "lines": [
+    112
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "fluidOunces": {
+   "text": "Fluid ounces",
+   "count": 1,
+   "lines": [
+    113
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "cups8Oz": {
+   "text": "Cups (8 oz)",
+   "count": 1,
+   "lines": [
+    114
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "bottles169Oz": {
+   "text": "Bottles (16.9 oz)",
+   "count": 1,
+   "lines": [
+    115
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "climateTopUp": {
+   "text": "Climate top-up",
+   "count": 1,
+   "lines": [
+    121
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "0L": {
+   "text": "0 L",
+   "count": 1,
+   "lines": [
+    121
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "05L": {
+   "text": "0.5 L",
+   "count": 1,
+   "lines": [
+    121
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "1L": {
+   "text": "1 L",
+   "count": 1,
+   "lines": [
+    121
+   ],
+   "file": "src/components/calculators/FitnessTools.tsx"
+  }
+ },
+ "ui.calculators.GradeTools": {
+  "mathematics": {
+   "text": "Mathematics",
+   "count": 1,
+   "lines": [
+    32
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "physics": {
+   "text": "Physics",
+   "count": 1,
+   "lines": [
+    33
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "b": {
+   "text": "B+",
+   "count": 1,
+   "lines": [
+    33
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "history": {
+   "text": "History",
+   "count": 1,
+   "lines": [
+    34
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "a": {
+   "text": "A-",
+   "count": 1,
+   "lines": [
+    34
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "literature": {
+   "text": "Literature",
+   "count": 1,
+   "lines": [
+    35
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "regular": {
+   "text": "Regular",
+   "count": 1,
+   "lines": [
+    84
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "honours05": {
+   "text": "Honours +0.5",
+   "count": 1,
+   "lines": [
+    85
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "aPIB10": {
+   "text": "AP / IB +1.0",
+   "count": 1,
+   "lines": [
+    86
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "homework": {
+   "text": "Homework",
+   "count": 1,
+   "lines": [
+    131
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "midterm": {
+   "text": "Midterm",
+   "count": 1,
+   "lines": [
+    132
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "finalExam": {
+   "text": "Final exam",
+   "count": 1,
+   "lines": [
+    133
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "collegeGPACalculator": {
+   "text": "College GPA Calculator",
+   "count": 1,
+   "lines": [
+    143
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "gPACalculator": {
+   "text": "GPA Calculator",
+   "count": 1,
+   "lines": [
+    143
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "semesterGPA": {
+   "text": "Semester GPA",
+   "count": 1,
+   "lines": [
+    153
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "totalCredits": {
+   "text": "Total credits",
+   "count": 2,
+   "lines": [
+    154,
+    286
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "qualityPoints": {
+   "text": "Quality points",
+   "count": 1,
+   "lines": [
+    156
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "gPANeededForA40": {
+   "text": "GPA needed for a 4.0",
+   "count": 1,
+   "lines": [
+    167
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "unweightedGPA": {
+   "text": "Unweighted GPA",
+   "count": 1,
+   "lines": [
+    193
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "weightedGPA": {
+   "text": "Weighted GPA",
+   "count": 1,
+   "lines": [
+    194
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "weightedBonus": {
+   "text": "Weighted bonus",
+   "count": 1,
+   "lines": [
+    196
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "credits": {
+   "text": "Credits",
+   "count": 1,
+   "lines": [
+    201
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "middleSchoolGPACalculator": {
+   "text": "Middle School GPA Calculator",
+   "count": 1,
+   "lines": [
+    228
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "gPA40Scale": {
+   "text": "GPA (4.0 scale)",
+   "count": 1,
+   "lines": [
+    234
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "averagePercent": {
+   "text": "Average percent",
+   "count": 1,
+   "lines": [
+    235
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "letterGrade": {
+   "text": "Letter grade",
+   "count": 5,
+   "lines": [
+    236,
+    413,
+    489,
+    577,
+    616
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "subjects": {
+   "text": "Subjects",
+   "count": 1,
+   "lines": [
+    237
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "cumulativeGPACalculator": {
+   "text": "Cumulative GPA Calculator",
+   "count": 1,
+   "lines": [
+    259
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "currentGPA": {
+   "text": "Current GPA",
+   "count": 2,
+   "lines": [
+    264,
+    319
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "creditsEarned": {
+   "text": "Credits earned",
+   "count": 2,
+   "lines": [
+    265,
+    320
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "targetGPA": {
+   "text": "Target GPA",
+   "count": 2,
+   "lines": [
+    266,
+    321
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "newSemesterGPA": {
+   "text": "New semester GPA",
+   "count": 1,
+   "lines": [
+    270
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "cumulativeGPA": {
+   "text": "Cumulative GPA",
+   "count": 1,
+   "lines": [
+    271
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "gPANeededNextTerm": {
+   "text": "GPA needed next term",
+   "count": 2,
+   "lines": [
+    273,
+    326
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "raiseGPACalculator": {
+   "text": "Raise GPA Calculator",
+   "count": 1,
+   "lines": [
+    314
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "creditsNextTerm": {
+   "text": "Credits next term",
+   "count": 1,
+   "lines": [
+    322
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "notReachableInOneTerm": {
+   "text": "Not reachable in one term",
+   "count": 1,
+   "lines": [
+    329
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "highestReachableGPA": {
+   "text": "Highest reachable GPA",
+   "count": 1,
+   "lines": [
+    338
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "creditsNeeded": {
+   "text": "Credits needed",
+   "count": 1,
+   "lines": [
+    347
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "gradeCalculator": {
+   "text": "Grade Calculator",
+   "count": 1,
+   "lines": [
+    367
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "classGrade": {
+   "text": "Class grade",
+   "count": 1,
+   "lines": [
+    412
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "scoreNeededForAnA": {
+   "text": "Score needed for an A",
+   "count": 1,
+   "lines": [
+    415
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "totalWeight": {
+   "text": "Total weight",
+   "count": 2,
+   "lines": [
+    423,
+    490
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "weightedGradeCalculator": {
+   "text": "Weighted Grade Calculator",
+   "count": 1,
+   "lines": [
+    444
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "weightedGrade": {
+   "text": "Weighted grade",
+   "count": 1,
+   "lines": [
+    488
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "pointsEarned": {
+   "text": "Points earned",
+   "count": 1,
+   "lines": [
+    492
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "finalGradeCalculator": {
+   "text": "Final Grade Calculator",
+   "count": 1,
+   "lines": [
+    520
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "currentGrade": {
+   "text": "Current grade (%)",
+   "count": 1,
+   "lines": [
+    525
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "finalWeight": {
+   "text": "Final weight (%)",
+   "count": 1,
+   "lines": [
+    526
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "goalGrade": {
+   "text": "Goal grade (%)",
+   "count": 1,
+   "lines": [
+    527
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "notReachableWithThisWeight": {
+   "text": "Not reachable with this weight",
+   "count": 1,
+   "lines": [
+    535
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "testGradeCalculator": {
+   "text": "Test Grade Calculator",
+   "count": 1,
+   "lines": [
+    567
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "questionsOnTheTest": {
+   "text": "Questions on the test",
+   "count": 1,
+   "lines": [
+    572
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "correctAnswers": {
+   "text": "Correct answers",
+   "count": 1,
+   "lines": [
+    573
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "score": {
+   "text": "Score",
+   "count": 1,
+   "lines": [
+    576
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "wrongAnswers": {
+   "text": "Wrong answers",
+   "count": 1,
+   "lines": [
+    578
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "questions": {
+   "text": "Questions",
+   "count": 2,
+   "lines": [
+    579,
+    620
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "easyGrader": {
+   "text": "Easy Grader",
+   "count": 1,
+   "lines": [
+    596
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "numberOfQuestions": {
+   "text": "Number of questions",
+   "count": 1,
+   "lines": [
+    601
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "questionsAnsweredCorrectly": {
+   "text": "Questions answered correctly",
+   "count": 1,
+   "lines": [
+    603
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "currentScore": {
+   "text": "Current score",
+   "count": 1,
+   "lines": [
+    610
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "pointsPerQuestion": {
+   "text": "Points per question",
+   "count": 1,
+   "lines": [
+    621
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "wrong": {
+   "text": "Wrong",
+   "count": 1,
+   "lines": [
+    623
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "score2": {
+   "text": "Score %",
+   "count": 1,
+   "lines": [
+    623
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "letter": {
+   "text": "Letter",
+   "count": 1,
+   "lines": [
+    623
+   ],
+   "file": "src/components/calculators/GradeTools.tsx"
+  }
+ },
+ "ui.calculators.StatsTools": {
+  "averageCalculator": {
+   "text": "Average Calculator",
+   "count": 1,
+   "lines": [
+    51
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "numbers": {
+   "text": "Numbers",
+   "count": 1,
+   "lines": [
+    56
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "meanAverage": {
+   "text": "Mean (average)",
+   "count": 1,
+   "lines": [
+    62
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "median": {
+   "text": "Median",
+   "count": 3,
+   "lines": [
+    63,
+    122,
+    234
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "mode": {
+   "text": "Mode",
+   "count": 1,
+   "lines": [
+    65
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "range": {
+   "text": "Range",
+   "count": 2,
+   "lines": [
+    69,
+    123
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "count": {
+   "text": "Count",
+   "count": 1,
+   "lines": [
+    72
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "sampleSD": {
+   "text": "Sample SD",
+   "count": 3,
+   "lines": [
+    73,
+    120,
+    145
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "populationSD": {
+   "text": "Population SD",
+   "count": 2,
+   "lines": [
+    74,
+    121
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "minimum": {
+   "text": "Minimum",
+   "count": 2,
+   "lines": [
+    75,
+    239
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "dataSet": {
+   "text": "Data set",
+   "count": 4,
+   "lines": [
+    104,
+    141,
+    170,
+    231
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "sampleSDS": {
+   "text": "Sample SD (s)",
+   "count": 1,
+   "lines": [
+    107
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "populationSD2": {
+   "text": "Population SD (σ)",
+   "count": 1,
+   "lines": [
+    107
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "sampleVarianceS": {
+   "text": "Sample variance (s²)",
+   "count": 2,
+   "lines": [
+    112,
+    143
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "populationVariance": {
+   "text": "Population variance (σ²)",
+   "count": 2,
+   "lines": [
+    112,
+    144
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "mean": {
+   "text": "Mean",
+   "count": 4,
+   "lines": [
+    116,
+    146,
+    172,
+    178
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "countN": {
+   "text": "Count (n)",
+   "count": 4,
+   "lines": [
+    117,
+    152,
+    174,
+    246
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "varianceCalculator": {
+   "text": "Variance Calculator",
+   "count": 1,
+   "lines": [
+    137
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "sumOfSquaredDeviationsN1": {
+   "text": "Sum of squared deviations (÷ n − 1)",
+   "count": 1,
+   "lines": [
+    150
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "sumOfSquaredDeviationsN": {
+   "text": "Sum of squared deviations (÷ n)",
+   "count": 1,
+   "lines": [
+    151
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "meanAbsoluteDeviationCalculator": {
+   "text": "Mean Absolute Deviation Calculator",
+   "count": 1,
+   "lines": [
+    166
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "meanAbsoluteDeviation": {
+   "text": "Mean absolute deviation",
+   "count": 1,
+   "lines": [
+    173
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "sumOfDeviations": {
+   "text": "Sum of deviations",
+   "count": 1,
+   "lines": [
+    175
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "value": {
+   "text": "Value",
+   "count": 2,
+   "lines": [
+    178,
+    212
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "absoluteDeviation": {
+   "text": "Absolute deviation",
+   "count": 1,
+   "lines": [
+    178
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "zScoreCalculator": {
+   "text": "Z-Score Calculator",
+   "count": 1,
+   "lines": [
+    193
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "valueX": {
+   "text": "Value (x)",
+   "count": 1,
+   "lines": [
+    198
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "mean2": {
+   "text": "Mean (μ)",
+   "count": 1,
+   "lines": [
+    199
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "standardDeviation": {
+   "text": "Standard deviation (σ)",
+   "count": 1,
+   "lines": [
+    200
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "zScore": {
+   "text": "Z-score",
+   "count": 2,
+   "lines": [
+    203,
+    212
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "percentile": {
+   "text": "Percentile",
+   "count": 1,
+   "lines": [
+    204
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "belowTheMeanBy": {
+   "text": "Below the mean by",
+   "count": 1,
+   "lines": [
+    205
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "normalProbability": {
+   "text": "Normal probability",
+   "count": 1,
+   "lines": [
+    206
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "zScoresOfTheDataSet": {
+   "text": "Z-scores of the data set",
+   "count": 1,
+   "lines": [
+    210
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "quartileAndIQRCalculator": {
+   "text": "Quartile and IQR Calculator",
+   "count": 1,
+   "lines": [
+    227
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "q125": {
+   "text": "Q1 (25%)",
+   "count": 1,
+   "lines": [
+    233
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "q375": {
+   "text": "Q3 (75%)",
+   "count": 1,
+   "lines": [
+    235
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "iQRQ3Q1": {
+   "text": "IQR (Q3 − Q1)",
+   "count": 1,
+   "lines": [
+    236
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "maximum": {
+   "text": "Maximum",
+   "count": 1,
+   "lines": [
+    240
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "outliers": {
+   "text": "Outliers",
+   "count": 1,
+   "lines": [
+    242
+   ],
+   "file": "src/components/calculators/StatsTools.tsx"
+  }
+ },
+ "ui.pdf.PdfRedactEngine": {
+  "replacePDF": {
+   "text": "Replace PDF",
+   "count": 1,
+   "lines": [
+    424
+   ],
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "chooseAPDF": {
+   "text": "Choose a PDF",
+   "count": 1,
+   "lines": [
+    424
+   ],
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "textToFind": {
+   "text": "Text to find",
+   "count": 1,
+   "lines": [
+    433
+   ],
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfTextEngine": {
+  "replacePDF": {
+   "text": "Replace PDF",
+   "count": 1,
+   "lines": [
+    155
+   ],
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "chooseAPDF": {
+   "text": "Choose a PDF",
+   "count": 1,
+   "lines": [
+    155
+   ],
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "copied": {
+   "text": "Copied!",
+   "count": 1,
+   "lines": [
+    196
+   ],
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "copyMarkdown": {
+   "text": "Copy Markdown",
+   "count": 1,
+   "lines": [
+    196
+   ],
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "markdownOutput": {
+   "text": "Markdown output",
+   "count": 1,
+   "lines": [
+    217
+   ],
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "courierNew": {
+   "text": "Courier New",
+   "count": 1,
+   "lines": [
+    274
+   ],
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  }
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "namespace": "ui.engines.json.JsonToTsView",
+  "en": {
+    "rootName": "Root Name:",
+    "kind": "Kind:",
+    "typeAlias": "type alias",
+    "optionalNulls": "Optional nulls (?)"
+  },
+  "de": {
+    "rootName": "Wurzelname:",
+    "kind": "Art:",
+    "typeAlias": "Typ-Alias",
+    "optionalNulls": "Nullwerte optional (?)"
+  }
+}

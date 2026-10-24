@@ -16,11 +16,13 @@ import {
 } from "lucide-react";
 import { JsonTreeViewer } from "./JsonTreeViewer";
 import { deepSortKeys } from "@/utils/jsonDiffCompare";
+import { useTranslations } from "next-intl";
 
 export function JsonEditorView() {
+  const tUi = useTranslations("ui.engines.json.JsonEditorView");
   const defaultSample = JSON.stringify(
     {
-      appName: "Digital ToolPad",
+      appName: tUi("digitalToolPad"),
       version: "2.0.0",
       editor: {
         syntaxTheme: "dark-emerald",
@@ -28,9 +30,9 @@ export function JsonEditorView() {
         treeInspector: true,
       },
       toolsCatalog: [
-        { id: 1, name: "JSON Formatter", category: "Data Formats" },
-        { id: 2, name: "JSON Validator", category: "Data Formats" },
-        { id: 3, name: "JSON Viewer", category: "Data Formats" }
+        { id: 1, name: tUi("jSONFormatter"), category: tUi("dataFormats") },
+        { id: 2, name: tUi("jSONValidator"), category: tUi("dataFormats") },
+        { id: 3, name: tUi("jSONViewer"), category: tUi("dataFormats") }
       ],
       privacy: {
         telemetry: false,
@@ -55,7 +57,7 @@ export function JsonEditorView() {
       const parsed = JSON.parse(input);
       return { isValid: true, data: parsed, error: "" };
     } catch (err: any) {
-      return { isValid: false, data: null, error: err.message || "Invalid JSON syntax" };
+      return { isValid: false, data: null, error: err.message || tUi("invalidJSONSyntax") };
     }
   }, [input]);
 
@@ -124,7 +126,7 @@ export function JsonEditorView() {
               }`}
             >
               <Code2 className="size-3.5" />
-              <span>Code Editor</span>
+              <span>{tUi("codeEditor")}</span>
             </button>
             <button
               type="button"
@@ -137,7 +139,7 @@ export function JsonEditorView() {
               }`}
             >
               <FolderTree className="size-3.5" />
-              <span>Tree View</span>
+              <span>{tUi("treeView")}</span>
             </button>
           </div>
 
@@ -148,7 +150,7 @@ export function JsonEditorView() {
             className="inline-flex min-h-9 items-center gap-1.5 rounded-lg bg-sky-800 px-3 py-1.5 text-xs font-semibold text-white shadow-sm hover:bg-sky-900 dark:bg-sky-700 disabled:opacity-40"
           >
             <Sparkles className="size-3.5" />
-            <span>Format</span>
+            <span>{tUi("format")}</span>
           </button>
 
           <button
@@ -158,7 +160,7 @@ export function JsonEditorView() {
             className="inline-flex min-h-9 items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 disabled:opacity-40"
           >
             <Minimize2 className="size-3.5" />
-            <span>Minify</span>
+            <span>{tUi("minify")}</span>
           </button>
 
           <button
@@ -167,7 +169,7 @@ export function JsonEditorView() {
             className="inline-flex min-h-9 items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200"
           >
             <Search className="size-3.5" />
-            <span>Find & Replace</span>
+            <span>{tUi("findReplace")}</span>
           </button>
 
           <select
@@ -175,16 +177,16 @@ export function JsonEditorView() {
             onChange={(e) => setIndent(e.target.value === "tab" ? "tab" : Number(e.target.value))}
             className="rounded-lg border border-slate-200 bg-white px-2 py-1 text-xs dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
           >
-            <option value={2}>2 Spaces</option>
-            <option value={4}>4 Spaces</option>
-            <option value="tab">Tabs</option>
+            <option value={2}>{tUi("2Spaces")}</option>
+            <option value={4}>{tUi("4Spaces")}</option>
+            <option value="tab">{tUi("tabs")}</option>
           </select>
         </div>
 
         <div className="flex items-center gap-1.5">
           <label className="inline-flex cursor-pointer items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200">
             <Upload className="size-3.5" />
-            <span className="hidden sm:inline">Open file</span>
+            <span className="hidden sm:inline">{tUi("openFile")}</span>
             <input type="file" accept=".json,.txt" onChange={handleFileUpload} className="hidden" />
           </label>
           <button
@@ -201,13 +203,13 @@ export function JsonEditorView() {
             className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200"
           >
             <Download className="size-3.5" />
-            <span className="hidden sm:inline">Save</span>
+            <span className="hidden sm:inline">{tUi("save")}</span>
           </button>
           <button
             type="button"
             onClick={() => setInput("")}
             className="rounded p-1.5 text-slate-400 hover:text-rose-600"
-            title="Clear"
+            title={tUi("clear")}
           >
             <Trash2 className="size-4" />
           </button>
@@ -221,14 +223,14 @@ export function JsonEditorView() {
             type="text"
             value={findText}
             onChange={(e) => setFindText(e.target.value)}
-            placeholder="Find text..."
+            placeholder={tUi("findText")}
             className="rounded-lg border border-slate-300 bg-white px-2.5 py-1 text-xs dark:border-slate-700 dark:bg-slate-900 dark:text-white"
           />
           <input
             type="text"
             value={replaceText}
             onChange={(e) => setReplaceText(e.target.value)}
-            placeholder="Replace with..."
+            placeholder={tUi("replaceWith")}
             className="rounded-lg border border-slate-300 bg-white px-2.5 py-1 text-xs dark:border-slate-700 dark:bg-slate-900 dark:text-white"
           />
           <button
@@ -236,7 +238,7 @@ export function JsonEditorView() {
             onClick={handleReplace}
             className="rounded-lg bg-sky-700 px-3 py-1 font-semibold text-white hover:bg-sky-800"
           >
-            Replace All
+            {tUi("replaceAll")}
           </button>
         </div>
       )}
@@ -246,7 +248,7 @@ export function JsonEditorView() {
         {parsedData.isValid ? (
           <div className="flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400 font-medium">
             <CheckCircle2 className="size-4" />
-            <span>Valid JSON Syntax</span>
+            <span>{tUi("validJSONSyntax")}</span>
           </div>
         ) : (
           <div className="flex items-center gap-1.5 text-rose-600 dark:text-rose-400 font-medium">
@@ -262,7 +264,7 @@ export function JsonEditorView() {
           <textarea
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Paste or write JSON here..."
+            placeholder={tUi("pasteOrWriteJSONHere")}
             rows={16}
             spellCheck={false}
             className="w-full resize-y bg-slate-950 p-4 font-mono text-xs leading-relaxed text-emerald-400 outline-none placeholder:text-slate-600 selection:bg-sky-900 selection:text-white"

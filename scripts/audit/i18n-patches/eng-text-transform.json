@@ -1,0 +1,29 @@
+{
+  "namespace": "ui.engines.TextTransformWorkspace",
+  "en": {
+    "reverseAllCharacters": "Reverse all characters",
+    "reverseWordOrder": "Reverse word order",
+    "reverseEachWord": "Reverse each word",
+    "mirrorUpsideDownMirror": "Mirror (upside-down mirror)",
+    "none": "None",
+    "space": "Space",
+    "newLine": "New line",
+    "comma": "Comma",
+    "custom": "Custom",
+    "thisOutputIsVeryLargeThePreviewStopsEarly": "This output is very large. The preview stops early so the page stays responsive.",
+    "useACustomSeparatorForSymbolsSuchAsOr": "Use a custom separator for symbols such as - or |."
+  },
+  "de": {
+    "reverseAllCharacters": "Alle Zeichen umkehren",
+    "reverseWordOrder": "Wortreihenfolge umkehren",
+    "reverseEachWord": "Jedes Wort umkehren",
+    "mirrorUpsideDownMirror": "Spiegeln (Upside-Down-Spiegel)",
+    "none": "Keines",
+    "space": "Leerzeichen",
+    "newLine": "Neue Zeile",
+    "comma": "Komma",
+    "custom": "Benutzerdefiniert",
+    "thisOutputIsVeryLargeThePreviewStopsEarly": "Diese Ausgabe ist sehr groß. Die Vorschau bricht früh ab, damit die Seite reaktionsfähig bleibt.",
+    "useACustomSeparatorForSymbolsSuchAsOr": "Verwenden Sie ein benutzerdefiniertes Trennzeichen für Symbole wie - oder |."
+  }
+}

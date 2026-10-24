@@ -1,0 +1,27 @@
+{
+  "namespace": "ui.calculators.MoneyTools",
+  "en": {
+    "working": "Working",
+    "overtimeHours": "Overtime hours",
+    "doubleTimeHours": "Double time hours",
+    "stackedDiscountsAndSalesTaxFormulaNote": "Stacked discounts multiply, they do not add: 20% then 10% = 0.8 × 0.9 = 28% off in total. The sales tax is added to the sale price, it is not a second discount.",
+    "marginAndMarkupFormulaNote": "margin = (price − cost) ÷ price × 100 · markup = (price − cost) ÷ cost × 100 · price for margin = cost ÷ (1 − margin ÷ 100)",
+    "sellingPriceFromMarkupFormulaNote": "selling price = cost × (1 + markup ÷ 100) · Excel: =A2*(1+B2/100)",
+    "hourlyRateFromAnnualSalaryFormulaNote": "hourly = annual salary ÷ (hours per week × paid weeks) · assumes {hours} h/week over {weeks} weeks.",
+    "annualSalaryFromHourlyRateFormulaNote": "annual = hourly × hours per week × paid weeks · daily assumes an 8 hour day.",
+    "overtimePayFormulaNote": "overtime pay = overtime hours × hourly rate × multiplier (1.5 = time and a half, 2 = double time)",
+    "electricityCostFormulaNote": "kWh per day = watts ÷ 1000 × hours per day · cost = kWh × price per kWh"
+  },
+  "de": {
+    "working": "Rechenweg",
+    "overtimeHours": "Überstunden",
+    "doubleTimeHours": "Stunden mit doppelter Vergütung",
+    "stackedDiscountsAndSalesTaxFormulaNote": "Kombinierte Rabatte werden multipliziert, nicht addiert: 20% und dann 10% = 0.8 × 0.9 = 28% Rabatt insgesamt. Die Verkaufssteuer wird auf den Verkaufspreis aufgeschlagen, sie ist kein zweiter Rabatt.",
+    "marginAndMarkupFormulaNote": "Marge = (Preis − Kosten) ÷ Preis × 100 · Aufschlag = (Preis − Kosten) ÷ Kosten × 100 · Preis für Zielmarge = Kosten ÷ (1 − Marge ÷ 100)",
+    "sellingPriceFromMarkupFormulaNote": "Verkaufspreis = Kosten × (1 + Aufschlag ÷ 100) · Excel: =A2*(1+B2/100)",
+    "hourlyRateFromAnnualSalaryFormulaNote": "Stundensatz = Jahresgehalt ÷ (Stunden pro Woche × bezahlte Wochen) · setzt {hours} h/Woche über {weeks} Wochen voraus.",
+    "annualSalaryFromHourlyRateFormulaNote": "Jahresgehalt = Stundenlohn × Stunden pro Woche × bezahlte Wochen · der Tageslohn setzt einen 8-Stunden-Tag voraus.",
+    "overtimePayFormulaNote": "Überstundenvergütung = Überstunden × Stundensatz × Faktor (1.5 = 1,5-fache Vergütung, 2 = doppelte Vergütung)",
+    "electricityCostFormulaNote": "kWh pro Tag = Watt ÷ 1000 × Stunden pro Tag · Kosten = kWh × Preis pro kWh"
+  }
+}

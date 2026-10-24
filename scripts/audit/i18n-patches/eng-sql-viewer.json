@@ -1,0 +1,13 @@
+{
+  "namespace": "ui.engines.FileViewersEngine",
+  "en": {
+    "sqlUnsupportedStatement": "unsupported statement: {statement}",
+    "sqlUnknownTable": "unknown table \"{name}\"; this browser holds the table \"{table}\"",
+    "sqlWhereClauseCouldNotBeRead": "the WHERE clause could not be read"
+  },
+  "de": {
+    "sqlUnsupportedStatement": "nicht unterstützte Anweisung: {statement}",
+    "sqlUnknownTable": "unbekannte Tabelle \"{name}\"; dieser Browser enthält die Tabelle \"{table}\"",
+    "sqlWhereClauseCouldNotBeRead": "die WHERE-Klausel konnte nicht gelesen werden"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "namespace": "ui.calculators.StatsTools",
+  "en": {
+    "sampleStandardDeviationSubtitle": "Uses the n − 1 formula for a sample taken from a larger population.",
+    "populationStandardDeviationSubtitle": "Uses the population formula (divide by N)."
+  },
+  "de": {
+    "sampleStandardDeviationSubtitle": "Verwendet die Formel n − 1 für eine Stichprobe aus einer größeren Grundgesamtheit.",
+    "populationStandardDeviationSubtitle": "Verwendet die Formel der Grundgesamtheit (Division durch N)."
+  }
+}

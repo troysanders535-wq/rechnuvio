@@ -3,14 +3,82 @@
 import React, { useState, useEffect, useRef } from "react";
 import QRCode from "qrcode";
 import JsBarcode from "jsbarcode";
-import { Download, Sparkles, Copy, QrCode, Barcode } from "lucide-react";
+import { Download, Copy, QrCode, Barcode } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 interface QrBarcodeEngineProps {
   slug: string;
 }
 
+/**
+ * The engine serves eleven tools. The dispatch is an explicit table: a slug
+ * that merely contains the word "barcode" is not the same tool as the bulk
+ * generator or as the ISBN generator.
+ */
+type Mode = "qr" | "single" | "bulk" | "isbn";
+
+const MODE_BY_SLUG: Record<string, Mode> = {
+  "qr-code-generator": "qr",
+  "url-to-qr-code": "qr",
+  "transparent-qr-code-generator": "qr",
+  "wifi-qr-code-generator": "qr",
+  "barcode-generator": "single",
+  "ean-13-barcode-generator": "single",
+  "upc-barcode-generator": "single",
+  "code-128-barcode-generator": "single",
+  "code-39-barcode-generator": "single",
+  "isbn-barcode-generator": "isbn",
+  "bulk-barcode-generator": "bulk",
+};
+
+type BarcodeFormat = "CODE128" | "EAN13" | "UPC" | "CODE39";
+
+/**
+ * Convert an ISBN-10 into its ISBN-13 form.
+ *
+ * The ISBN-10 check digit is verified first (the weighted sum of the ten
+ * digits has to be a multiple of eleven). The body of the ISBN-13 is the
+ * "978" prefix followed by the first nine digits, and the check digit follows
+ * the modulo 10 rule of the ISBN / EAN-13 standard.
+ *
+ * Returns null when the input is not a valid ISBN-10.
+ */
+export function isbn10To13(value: string): string | null {
+  const digits = (value || "").replace(/[^0-9Xx]/g, "");
+  if (digits.length !== 10) return null;
+
+  let sum = 0;
+  for (let i = 0; i < 10; i += 1) {
+    const char = digits[i];
+    const digit = char === "X" || char === "x" ? 10 : Number(char);
+    if (Number.isNaN(digit)) return null;
+    sum += digit * (10 - i);
+  }
+  if (sum % 11 !== 0) return null;
+
+  const body = `978${digits.slice(0, 9)}`;
+  let weighted = 0;
+  for (let i = 0; i < 12; i += 1) {
+    weighted += Number(body[i]) * (i % 2 === 0 ? 1 : 3);
+  }
+  return `${body}${(10 - (weighted % 10)) % 10}`;
+}
+
+/** The check digit of an ISBN-13, or null when the number is not valid. */
+function isbn13CheckDigit(value: string): number | null {
+  const digits = (value || "").replace(/[^0-9]/g, "");
+  if (digits.length !== 13) return null;
+  let weighted = 0;
+  for (let i = 0; i < 12; i += 1) {
+    weighted += Number(digits[i]) * (i % 2 === 0 ? 1 : 3);
+  }
+  return (10 - (weighted % 10)) % 10;
+}
+
 export function QrBarcodeEngine({ slug }: QrBarcodeEngineProps) {
-  const isBarcodeTool = slug.includes("barcode");
+  const tUi = useTranslations("ui.engines.QrBarcodeEngine");
+  const mode: Mode = MODE_BY_SLUG[slug] ?? "qr";
+  const isBarcodeTool = mode !== "qr";
 
   // QR state
   const [qrText, setQrText] = useState("https://www.digitaltoolpad.com");
@@ -21,9 +89,13 @@ export function QrBarcodeEngine({ slug }: QrBarcodeEngineProps) {
   const [qrDataUrl, setQrDataUrl] = useState("");
 
   // Barcode state
-  const [barcodeText, setBarcodeText] = useState("123456789012");
-  const [barcodeFormat, setBarcodeFormat] = useState<"CODE128" | "EAN13" | "UPC" | "CODE39">("CODE128");
-  const barcodeSvgRef = useRef<SVGSVGElement>(null);
+  const [barcodeText, setBarcodeText] = useState(
+    mode === "isbn" ? "9780306406157" : "123456789012",
+  );
+  const [barcodeFormat, setBarcodeFormat] = useState<BarcodeFormat>(
+    mode === "isbn" ? "EAN13" : "CODE128",
+  );
+  const barcodeRefs = useRef<Array<SVGSVGElement | null>>([]);
 
   useEffect(() => {
     if (!isBarcodeTool) {
@@ -41,29 +113,67 @@ export function QrBarcodeEngine({ slug }: QrBarcodeEngineProps) {
     }
   }, [qrText, fgColor, bgColor, transparentBg, errorLevel, isBarcodeTool]);
 
+  /* --------------------------------------------------------- barcode values -- */
+
+  const rawValues = React.useMemo(() => {
+    if (mode !== "bulk") return [barcodeText];
+    return barcodeText
+      .split(/[,;\n]+/)
+      .map((value) => value.trim())
+      .filter(Boolean);
+  }, [mode, barcodeText]);
+
+  /** The ISBN note of the ISBN tool: the converted number or the reason. */
+  const isbnResult = React.useMemo(() => {
+    if (mode !== "isbn") return null;
+    const raw = (barcodeText || "").replace(/[^0-9Xx]/g, "");
+    if (!raw) return { ok: false, reason: "empty" as const };
+    if (raw.length === 10) {
+      const converted = isbn10To13(raw);
+      if (!converted) return { ok: false, reason: "invalid" as const };
+      return { ok: true, value: converted };
+    }
+    if (raw.length === 13) {
+      const expected = isbn13CheckDigit(raw);
+      if (expected === null || expected !== Number(raw[12])) {
+        return { ok: false, reason: "invalid" as const };
+      }
+      return { ok: true, value: raw };
+    }
+    return { ok: false, reason: "invalid" as const };
+  }, [mode, barcodeText]);
+
+  const encodedValues = React.useMemo(() => {
+    if (mode !== "isbn") return rawValues;
+    if (!isbnResult || !isbnResult.ok) return rawValues;
+    return [isbnResult.value];
+  }, [mode, rawValues, isbnResult]);
+
   useEffect(() => {
-    if (isBarcodeTool && barcodeSvgRef.current) {
+    encodedValues.forEach((value, index) => {
+      const element = barcodeRefs.current[index];
+      if (!element) return;
+      const options = {
+        format: barcodeFormat,
+        lineColor: "#000000",
+        width: 2,
+        height: 80,
+        displayValue: true,
+      };
       try {
-        JsBarcode(barcodeSvgRef.current, barcodeText || "123456789", {
-          format: barcodeFormat,
-          lineColor: "#000000",
-          width: 2,
-          height: 80,
-          displayValue: true,
-        });
-      } catch (e) {
-        // Fallback to code128 if input is invalid for EAN/UPC
+        JsBarcode(element, value || "0", options);
+      } catch (err) {
+        // A value that does not fit the chosen symbology is still worth
+        // showing: it is drawn as a Code 128 symbol and the note below the
+        // symbol explains what happened.
         try {
-          JsBarcode(barcodeSvgRef.current, barcodeText || "123456789", {
-            format: "CODE128",
-            width: 2,
-            height: 80,
-            displayValue: true,
-          });
+          JsBarcode(element, value || "0", { ...options, format: "CODE128" });
         } catch {}
       }
-    }
-  }, [barcodeText, barcodeFormat, isBarcodeTool]);
+    });
+  }, [encodedValues, barcodeFormat]);
+
+  /* ------------------------------------------------------------------ actions -- */
 
   const handleDownloadQr = () => {
     const a = document.createElement("a");
@@ -73,17 +183,38 @@ export function QrBarcodeEngine({ slug }: QrBarcodeEngineProps) {
   };
 
   const handleDownloadBarcode = () => {
-    if (barcodeSvgRef.current) {
-      const xml = new XMLSerializer().serializeToString(barcodeSvgRef.current);
-      const blob = new Blob([xml], { type: "image/svg+xml" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "barcode.svg";
-      a.click();
-      URL.revokeObjectURL(url);
+    const symbols = barcodeRefs.current.filter(Boolean) as SVGSVGElement[];
+    if (!symbols.length) return;
+
+    let xml: string;
+    if (symbols.length === 1) {
+      xml = new XMLSerializer().serializeToString(symbols[0]);
+    } else {
+      // Several symbols in one file: they are placed one under the other.
+      const parts = symbols.map((symbol) => {
+        const copy = symbol.cloneNode(true) as SVGSVGElement;
+        copy.removeAttribute("style");
+        copy.removeAttribute("class");
+        return new XMLSerializer().serializeToString(copy);
+      });
+      const width = Math.max(...symbols.map((s) => Number(s.getAttribute("width")) || 0));
+      const height = symbols.reduce(
+        (sum, symbol) => sum + (Number(symbol.getAttribute("height")) || 0),
+        0,
+      );
+      xml = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">${parts.join("")}</svg>`;
     }
+
+    const blob = new Blob([xml], { type: "image/svg+xml" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "barcode.svg";
+    a.click();
+    URL.revokeObjectURL(url);
   };
+
+  /* ------------------------------------------------------------------ render -- */
 
   if (isBarcodeTool) {
     return (
@@ -92,30 +223,52 @@ export function QrBarcodeEngine({ slug }: QrBarcodeEngineProps) {
           <div className="space-y-4">
             <div>
               <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-                Barcode Value / Digits
+                {mode === "isbn"
+                  ? tUi("isbnNumberLabel")
+                  : mode === "bulk"
+                    ? tUi("bulkValuesLabel")
+                    : tUi("barcodeValueDigits")}
               </label>
               <input
                 type="text"
                 value={barcodeText}
                 onChange={(e) => setBarcodeText(e.target.value)}
-                placeholder="Enter numbers or text..."
+                placeholder={tUi("enterNumbersOrText")}
                 className="mt-1 w-full rounded-xl border border-slate-300 bg-white p-3 font-mono text-sm dark:border-slate-700 dark:bg-slate-900 dark:text-white"
               />
+              {mode === "bulk" ? (
+                <p className="mt-1 text-[11px] text-slate-500">{tUi("bulkHint")}</p>
+              ) : null}
+              {mode === "isbn" ? (
+                <p
+                  className={`mt-1 text-[11px] ${
+                    isbnResult && isbnResult.ok
+                      ? "text-emerald-600 dark:text-emerald-400"
+                      : "text-rose-600 dark:text-rose-400"
+                  }`}
+                >
+                  {isbnResult && isbnResult.ok
+                    ? `${tUi("isbnConvertedTo")} ${isbnResult.value}`
+                    : isbnResult && isbnResult.reason === "empty"
+                      ? tUi("isbnEmpty")
+                      : tUi("isbnInvalid")}
+                </p>
+              ) : null}
             </div>
 
             <div>
               <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-                Barcode Format
+                {tUi("barcodeFormat")}
               </label>
               <select
                 value={barcodeFormat}
-                onChange={(e) => setBarcodeFormat(e.target.value as any)}
+                onChange={(e) => setBarcodeFormat(e.target.value as BarcodeFormat)}
                 className="mt-1 w-full rounded-xl border border-slate-300 bg-white p-2.5 text-xs dark:border-slate-700 dark:bg-slate-900 dark:text-white"
               >
-                <option value="CODE128">Code 128 (Universal)</option>
-                <option value="EAN13">EAN-13 (13 digits)</option>
-                <option value="UPC">UPC (12 digits)</option>
-                <option value="CODE39">Code 39 (Alphanumeric)</option>
+                <option value="CODE128">{tUi("code128Universal")}</option>
+                <option value="EAN13">{tUi("eAN1313Digits")}</option>
+                <option value="UPC">{tUi("uPC12Digits")}</option>
+                <option value="CODE39">{tUi("code39Alphanumeric")}</option>
               </select>
             </div>
 
@@ -124,12 +277,24 @@ export function QrBarcodeEngine({ slug }: QrBarcodeEngineProps) {
               className="inline-flex items-center gap-1.5 rounded-xl bg-sky-800 px-4 py-2 text-xs font-semibold text-white hover:bg-sky-700"
             >
               <Download className="size-3.5" />
-              <span>Download Barcode SVG</span>
+              <span>{tUi("downloadBarcodeSVG")}</span>
             </button>
           </div>
 
-          <div className="flex flex-col items-center justify-center rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800">
-            <svg ref={barcodeSvgRef} className="max-w-full" />
+          <div className="flex flex-col items-center justify-center gap-4 rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800">
+            {encodedValues.length === 0 ? (
+              <p className="text-xs text-slate-500">{tUi("bulkNoValues")}</p>
+            ) : (
+              encodedValues.map((value, index) => (
+                <svg
+                  key={`${value}-${index}`}
+                  ref={(element) => {
+                    barcodeRefs.current[index] = element;
+                  }}
+                  className="max-w-full"
+                />
+              ))
+            )}
           </div>
         </div>
       </div>
@@ -143,13 +308,13 @@ export function QrBarcodeEngine({ slug }: QrBarcodeEngineProps) {
         <div className="space-y-4">
           <div>
             <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-              QR Code Content (URL, Text, or Wi-Fi)
+              {tUi("qRCodeContentURLTextOrWiFi")}
             </label>
             <textarea
               value={qrText}
               onChange={(e) => setQrText(e.target.value)}
               rows={4}
-              placeholder="https://yourwebsite.com or text..."
+              placeholder={tUi("qrContentPlaceholder")}
               className="mt-1 w-full rounded-xl border border-slate-300 bg-white p-3 text-sm dark:border-slate-700 dark:bg-slate-900 dark:text-white"
             />
           </div>
@@ -157,7 +322,7 @@ export function QrBarcodeEngine({ slug }: QrBarcodeEngineProps) {
           <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-                QR Code Color
+                {tUi("qRCodeColor")}
               </label>
               <div className="mt-1 flex items-center gap-2">
                 <input
@@ -172,7 +337,7 @@ export function QrBarcodeEngine({ slug }: QrBarcodeEngineProps) {
 
             <div>
               <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-                Background Color
+                {tUi("backgroundColor")}
               </label>
               <div className="mt-1 flex items-center gap-2">
                 <input
@@ -195,13 +360,13 @@ export function QrBarcodeEngine({ slug }: QrBarcodeEngineProps) {
                 onChange={(e) => setTransparentBg(e.target.checked)}
                 className="rounded accent-sky-700"
               />
-              <span>Transparent Background</span>
+              <span>{tUi("transparentBackground")}</span>
             </label>
           </div>
 
           <div>
             <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-              Error Correction Level
+              {tUi("errorCorrectionLevel")}
             </label>
             <div className="mt-1 flex gap-2">
               {(["L", "M", "Q", "H"] as const).map((lvl) => (
@@ -225,7 +390,7 @@ export function QrBarcodeEngine({ slug }: QrBarcodeEngineProps) {
             className="mt-2 inline-flex items-center gap-1.5 rounded-xl bg-sky-800 px-4 py-2.5 text-xs font-semibold text-white hover:bg-sky-700 shadow-sm"
           >
             <Download className="size-4" />
-            <span>Download PNG Image</span>
+            <span>{tUi("downloadPNGImage")}</span>
           </button>
         </div>
 
@@ -234,12 +399,12 @@ export function QrBarcodeEngine({ slug }: QrBarcodeEngineProps) {
           {qrDataUrl && (
             <img
               src={qrDataUrl}
-              alt="Generated QR Code"
+              alt={tUi("generatedQRCode")}
               className="size-64 rounded-xl border border-slate-200 bg-white p-2 shadow-sm dark:border-slate-700"
             />
           )}
           <span className="mt-4 text-xs font-medium text-slate-500">
-            Scan with any camera or scanner app
+            {tUi("scanWithAnyCameraOrScannerApp")}
           </span>
         </div>
       </div>

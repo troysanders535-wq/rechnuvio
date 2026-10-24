@@ -1,0 +1,37 @@
+{
+  "namespace": "ui.engines.MarkdownEngine",
+  "en": {
+    "exportToPDF": "Export to PDF",
+    "exportToWordDocx": "Export to Word (.docx)",
+    "openFile": "Open file",
+    "hTMLCopied": "Copied!",
+    "copyHTML": "Copy HTML",
+    "copyMarkdown": "Copy markdown",
+    "markdownSource": "Markdown Source",
+    "liveFormattedPreview": "Live Formatted Preview",
+    "htmlInput": "HTML input",
+    "markdownOutput": "Markdown output",
+    "formatBold": "Bold",
+    "formatItalic": "Italic",
+    "formatHeading": "Heading",
+    "formatList": "Bullet list",
+    "clearEditor": "Clear the editor"
+  },
+  "de": {
+    "exportToPDF": "Als PDF exportieren",
+    "exportToWordDocx": "Nach Word (.docx) exportieren",
+    "openFile": "Datei öffnen",
+    "hTMLCopied": "Kopiert!",
+    "copyHTML": "HTML kopieren",
+    "copyMarkdown": "Markdown kopieren",
+    "markdownSource": "Markdown-Quelltext",
+    "liveFormattedPreview": "Live-formatierte Vorschau",
+    "htmlInput": "HTML-Eingabe",
+    "markdownOutput": "Markdown-Ausgabe",
+    "formatBold": "Fett",
+    "formatItalic": "Kursiv",
+    "formatHeading": "Überschrift",
+    "formatList": "Aufzählung",
+    "clearEditor": "Editor leeren"
+  }
+}

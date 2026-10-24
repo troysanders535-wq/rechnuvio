@@ -17,6 +17,7 @@ import {
 } from "./shared";
 import { createPdfDoc, imageSize, imageToEmbeddable } from "./pdfLib";
 import { closePdf, openPdf } from "./pdfjs";
+import { useTranslations } from "next-intl";
 
 /* ------------------------------------------------------------------ */
 /* Images -> PDF                                                       */
@@ -30,6 +31,7 @@ const PAGE_SIZES: Record<Exclude<PageFit, "fit">, [number, number]> = {
 };
 
 export function PdfImageToPdfEngine() {
+  const tUi = useTranslations("ui.pdf.PdfImageEngine");
   const [files, setFiles] = useState<File[]>([]);
   const [fit, setFit] = useState<PageFit>("fit");
   const [margin, setMargin] = useState(0);
@@ -85,9 +87,9 @@ export function PdfImageToPdfEngine() {
 
       const bytes = await doc.save();
       downloadBytes(bytes, "images.pdf");
-      setInfo(`Created a ${files.length}-page PDF.`);
+      setInfo(tUi("createdAPdfWithPages", { count: files.length }));
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Could not build the PDF.");
+      setError(err instanceof Error ? err.message : tUi("couldNotBuildThePDF"));
     } finally {
       setBusy(false);
     }
@@ -95,14 +97,14 @@ export function PdfImageToPdfEngine() {
 
   return (
     <Workspace
-      title="Image to PDF Converter"
-      description="Turn JPG, PNG, WebP or GIF images into a single PDF document."
+      title={tUi("imageToPDFConverter")}
+      description={tUi("turnJPGPNGWebPOrGIFImagesIntoASinglePDFDocument")}
     >
       <DropZone
         accept="image/*,.png,.jpg,.jpeg,.webp,.gif,.bmp"
         multiple
-        label="Choose images"
-        hint="One image per page, in the order you add them."
+        label={tUi("chooseImages")}
+        hint={tUi("oneImagePerPageInTheOrderYouAddThem")}
         onFiles={(list) => {
           setFiles((prev) => [...prev, ...list]);
           setError(null);
@@ -131,7 +133,7 @@ export function PdfImageToPdfEngine() {
                     onClick={() => setFiles((prev) => prev.filter((_, x) => x !== i))}
                     className="text-xs font-semibold text-rose-600 hover:text-rose-700 dark:text-rose-400"
                   >
-                    Remove
+                    {tUi("remove")}
                   </button>
                 </span>
               </li>
@@ -139,19 +141,19 @@ export function PdfImageToPdfEngine() {
           </ul>
 
           <div className="mt-4 grid gap-4 sm:grid-cols-2">
-            <Field label="Page size">
+            <Field label={tUi("pageSize")}>
               <select
                 value={fit}
                 onChange={(e) => setFit(e.target.value as PageFit)}
                 className={selectClass}
               >
-                <option value="fit">Match image size</option>
-                <option value="a4">A4 (210 × 297 mm)</option>
-                <option value="letter">US Letter (8.5 × 11 in)</option>
+                <option value="fit">{tUi("matchImageSize")}</option>
+                <option value="a4">{tUi("a4210297Mm")}</option>
+                <option value="letter">{tUi("uSLetter8511In")}</option>
               </select>
             </Field>
             {fit !== "fit" ? (
-              <Field label="Margin (pt)">
+              <Field label={tUi("marginPt")}>
                 <input
                   type="number"
                   min={0}
@@ -166,14 +168,14 @@ export function PdfImageToPdfEngine() {
 
           <div className="mt-5 flex items-center gap-3">
             <ActionButton onClick={handleConvert} busy={busy}>
-              Create PDF ({files.length} page{files.length === 1 ? "" : "s"})
+              {tUi("createPdfWithPages", { count: files.length })}
             </ActionButton>
             <button
               type="button"
               onClick={() => setFiles([])}
               className="text-sm font-medium text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200"
             >
-              Clear
+              {tUi("clear")}
             </button>
           </div>
         </>
@@ -191,6 +193,7 @@ export function PdfImageToPdfEngine() {
 type ImageFormat = "png" | "jpeg";
 
 export function PdfToImageEngine() {
+  const tUi = useTranslations("ui.pdf.PdfImageEngine");
   const [file, setFile] = useState<File | null>(null);
   const [format, setFormat] = useState<ImageFormat>("png");
   const [scale, setScale] = useState(2);
@@ -217,7 +220,7 @@ export function PdfToImageEngine() {
       if (pages.trim()) {
         const { parsePageRanges } = await import("./shared");
         const parsed = parsePageRanges(pages, total);
-        if (!parsed) throw new Error(`Invalid page range (document has ${total} pages).`);
+        if (!parsed) throw new Error(tUi("invalidPageRange", { count: total }));
         indices = parsed;
       } else {
         indices = Array.from({ length: total }, (_, i) => i);
@@ -235,7 +238,7 @@ export function PdfToImageEngine() {
         canvas.width = Math.ceil(viewport.width);
         canvas.height = Math.ceil(viewport.height);
         const ctx = canvas.getContext("2d");
-        if (!ctx) throw new Error("Could not create a rendering canvas.");
+        if (!ctx) throw new Error(tUi("couldNotCreateARenderingCanvas"));
         ctx.fillStyle = "#ffffff";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         await page.render({ canvas, canvasContext: ctx, viewport }).promise;
@@ -243,7 +246,7 @@ export function PdfToImageEngine() {
         const blob = await new Promise<Blob | null>((resolve) =>
           canvas.toBlob(resolve, mime, format === "jpeg" ? quality : undefined),
         );
-        if (!blob) throw new Error(`Could not encode page ${idx + 1}.`);
+        if (!blob) throw new Error(tUi("couldNotEncodeThePage", { page: idx + 1 }));
 
         const name = `${stem}-page-${String(idx + 1).padStart(3, "0")}.${ext}`;
         outputs.push({ name, blob });
@@ -264,11 +267,11 @@ export function PdfToImageEngine() {
 
       setInfo(
         outputs.length === 1
-          ? `Exported page ${indices[0] + 1}.`
-          : `Exported ${outputs.length} page images.`,
+          ? tUi("exportedPage", { page: indices[0] + 1 })
+          : tUi("exportedPageImages", { count: outputs.length }),
       );
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Could not export the images.");
+      setError(err instanceof Error ? err.message : tUi("couldNotExportTheImages"));
     } finally {
       setBusy(false);
     }
@@ -276,13 +279,13 @@ export function PdfToImageEngine() {
 
   return (
     <Workspace
-      title="PDF to Image Converter"
-      description="Render every page of a PDF to a high-resolution PNG or JPG."
+      title={tUi("pDFToImageConverter")}
+      description={tUi("renderEveryPageOfAPDFToAHighResolutionPNGOrJPG")}
     >
       <DropZone
         accept="application/pdf,.pdf"
-        label={file ? "Replace PDF" : "Choose a PDF"}
-        hint="One .pdf file. Rendering happens locally in your browser."
+        label={file ? tUi("replacePDF") : tUi("chooseAPDF")}
+        hint={tUi("onePdfFileRenderingHappensLocallyInYourBrowser")}
         onFiles={(list) => {
           setFile(list[0] ?? null);
           setError(null);
@@ -295,17 +298,17 @@ export function PdfToImageEngine() {
       {file ? (
         <div className="mt-5 space-y-4">
           <div className="grid gap-4 sm:grid-cols-3">
-            <Field label="Format">
+            <Field label={tUi("format")}>
               <select
                 value={format}
                 onChange={(e) => setFormat(e.target.value as ImageFormat)}
                 className={selectClass}
               >
-                <option value="png">PNG (lossless)</option>
-                <option value="jpeg">JPG (smaller)</option>
+                <option value="png">{tUi("pNGLossless")}</option>
+                <option value="jpeg">{tUi("jPGSmaller")}</option>
               </select>
             </Field>
-            <Field label="Resolution" hint={`${Math.round(scale * 72)} DPI`}>
+            <Field label={tUi("resolution")} hint={`${Math.round(scale * 72)} DPI`}>
               <input
                 type="range"
                 min={1}
@@ -317,7 +320,7 @@ export function PdfToImageEngine() {
               />
             </Field>
             {format === "jpeg" ? (
-              <Field label="JPG quality">
+              <Field label={tUi("jPGQuality")}>
                 <input
                   type="range"
                   min={0.4}
@@ -331,19 +334,19 @@ export function PdfToImageEngine() {
             ) : null}
           </div>
 
-          <Field label="Pages" hint="Leave empty for every page. Example: 1-3, 5">
+          <Field label={tUi("pages")} hint={tUi("pageRangeHint", { range: "1-3, 5" })}>
             <input
               type="text"
               value={pages}
               onChange={(e) => setPages(e.target.value)}
-              placeholder="All pages"
+              placeholder={tUi("allPages")}
               className={inputClass}
             />
           </Field>
 
           <div className="flex items-center gap-3">
             <ActionButton onClick={handleConvert} busy={busy}>
-              Export images
+              {tUi("exportImages")}
             </ActionButton>
             <button
               type="button"
@@ -353,7 +356,7 @@ export function PdfToImageEngine() {
               }}
               className="text-sm font-medium text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200"
             >
-              Clear
+              {tUi("clear")}
             </button>
           </div>
 
@@ -361,7 +364,7 @@ export function PdfToImageEngine() {
             // eslint-disable-next-line @next/next/no-img-element
             <img
               src={preview}
-              alt="First exported page preview"
+              alt={tUi("firstExportedPagePreview")}
               className="mt-4 max-h-96 w-auto rounded-lg border border-slate-200 dark:border-slate-700"
             />
           ) : null}

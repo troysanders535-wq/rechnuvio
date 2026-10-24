@@ -4,12 +4,14 @@ import React, { useState } from "react";
 import * as Diff from "diff";
 import { Copy, Sparkles, Trash2, GitCompare } from "lucide-react";
 import { JsonCompareView } from "./json/JsonCompareView";
+import { useTranslations } from "next-intl";
 
 interface DiffEngineProps {
   slug: string;
 }
 
 export function DiffEngine({ slug }: DiffEngineProps) {
+  const tUi = useTranslations("ui.engines.DiffEngine");
   // If semantic compare, render dedicated semantic compare engine
   if (slug === "json-diff-compare") {
     return <JsonCompareView />;
@@ -62,7 +64,7 @@ export function DiffEngine({ slug }: DiffEngineProps) {
             className="inline-flex min-h-9 items-center gap-1.5 rounded-lg bg-sky-800 px-3.5 py-1.5 text-xs font-semibold text-white shadow-sm hover:bg-sky-900 dark:bg-sky-700"
           >
             <GitCompare className="size-3.5" />
-            <span>Compare Diffs</span>
+            <span>{tUi("compareDiffs")}</span>
           </button>
 
           <button
@@ -71,7 +73,7 @@ export function DiffEngine({ slug }: DiffEngineProps) {
             className="inline-flex min-h-9 items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 shadow-sm hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200"
           >
             <Sparkles className="size-3.5" />
-            <span>Beautify Both</span>
+            <span>{tUi("beautifyBoth")}</span>
           </button>
 
           <div className="flex items-center rounded-lg border border-slate-200 bg-white p-0.5 dark:border-slate-700 dark:bg-slate-800">
@@ -83,7 +85,7 @@ export function DiffEngine({ slug }: DiffEngineProps) {
                   : "text-slate-600 dark:text-slate-300"
               }`}
             >
-              Line Diff
+              {tUi("lineDiff")}
             </button>
             <button
               onClick={() => setDiffMode("words")}
@@ -93,7 +95,7 @@ export function DiffEngine({ slug }: DiffEngineProps) {
                   : "text-slate-600 dark:text-slate-300"
               }`}
             >
-              Word Diff
+              {tUi("wordDiff")}
             </button>
           </div>
         </div>
@@ -114,7 +116,7 @@ export function DiffEngine({ slug }: DiffEngineProps) {
               setTextB("");
             }}
             className="rounded p-1 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
-            title="Clear all"
+            title={tUi("clearAll")}
           >
             <Trash2 className="size-3.5" />
           </button>
@@ -125,7 +127,7 @@ export function DiffEngine({ slug }: DiffEngineProps) {
       <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-slate-800 bg-slate-950">
         <div className="flex flex-col">
           <div className="border-b border-slate-800 bg-slate-900/60 px-4 py-1.5 text-xs font-semibold text-slate-400">
-            Original JSON / Text
+            {tUi("originalJSONText")}
           </div>
           <textarea
             value={textA}
@@ -136,7 +138,7 @@ export function DiffEngine({ slug }: DiffEngineProps) {
         </div>
         <div className="flex flex-col">
           <div className="border-b border-slate-800 bg-slate-900/60 px-4 py-1.5 text-xs font-semibold text-slate-400">
-            Modified JSON / Text
+            {tUi("modifiedJSONText")}
           </div>
           <textarea
             value={textB}
@@ -150,7 +152,7 @@ export function DiffEngine({ slug }: DiffEngineProps) {
       {/* Live Diff Output */}
       <div className="border-t border-slate-800 bg-slate-950 p-4 font-mono text-xs leading-relaxed">
         <div className="mb-2 text-xs font-semibold text-slate-400">
-          Diff Visualizer
+          {tUi("diffVisualizer")}
         </div>
         <div className="max-h-96 overflow-auto rounded-lg border border-slate-800 bg-slate-900/40 p-3">
           {diffResult.map((part, index) => {

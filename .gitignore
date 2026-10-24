@@ -50,3 +50,6 @@ test-fixtures/
 tmp-*
 *.xlsx
 .cache/
+
+.next-audit/
+.~lock.*

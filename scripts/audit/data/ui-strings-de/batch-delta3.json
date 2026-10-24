@@ -1,0 +1,1560 @@
+{
+ "ui.engines.AiViewerEngine": {
+  "readingFileBytes": {
+   "text": "Dateibyte werden gelesen...",
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "theSelectedFileIsEmpty0Bytes": {
+   "text": "Die ausgewählte Datei ist leer (0 Bytes).",
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "thisIllustratorFileHasNoReadablePDFCompatiblePreviewReSaveItInAdobeIllustratorWithCreatePDFCompatibleFileEnabledOrExportItAsPDF": {
+   "text": "Diese Illustrator-Datei hat keine lesbare PDF-kompatible Vorschau. Speichern Sie sie in Adobe Illustrator erneut mit aktiviertem ‘Create PDF Compatible File’ oder exportieren Sie sie als PDF.",
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "parsingPDFCompatibleStreamWithPDFJs": {
+   "text": "PDF-kompatibler Stream wird mit PDF.js analysiert...",
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "unableToParseThisFileItMayBeCorruptedOrNotAValidPDFCompatibleIllustratorDocument": {
+   "text": "Diese Datei konnte nicht analysiert werden. Sie ist möglicherweise beschädigt oder kein gültiges PDF-kompatibles Illustrator-Dokument.",
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "couldNotInitializeOffscreenExportCanvas": {
+   "text": "Die Offscreen-Exportfläche konnte nicht initialisiert werden.",
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "uploadAdobeIllustratorFile": {
+   "text": "Adobe Illustrator-Datei hochladen",
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "previewPDFCompatibleAiFilesDirectlyInYourBrowserYourFilesStayOnYourDevice": {
+   "text": "PDF-kompatible .ai-Dateien direkt in Ihrem Browser ansehen. Ihre Dateien bleiben auf Ihrem Gerät.",
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "formatCompatibilityNotice": {
+   "text": "Hinweis zur Formatkompatibilität",
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "thisBrowserViewerUtilizes": {
+   "text": "Dieser Browser-Betrachter verwendet",
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "supportedViewZoomNavigatePagesAndExportToPNGJPG": {
+   "text": "Unterstützt. Ansehen, zoomen, Seiten durchblättern und\n                      als PNG/JPG exportieren.",
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "page": {
+   "text": "Seite",
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "pDFPagesExportedArtboards": {
+   "text": "PDF-Seiten / Exportierte Artboards (",
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  },
+  "adobeIllustratorAiFileViewerGuide": {
+   "text": "Anleitung zum Adobe Illustrator (.ai) Datei-Betrachter",
+   "file": "src/components/engines/AiViewerEngine.tsx"
+  }
+ },
+ "ui.engines.Base64Engine": {
+  "helloFromDigitalToolPad100ClientSidePrivacy": {
+   "text": "Hallo von Digital ToolPad! 100% clientseitiger Datenschutz.",
+   "file": "src/components/engines/Base64Engine.tsx"
+  },
+  "inputTextOrBase64": {
+   "text": "Text oder Base64 eingeben",
+   "file": "src/components/engines/Base64Engine.tsx"
+  },
+  "output": {
+   "text": "Ausgabe",
+   "file": "src/components/engines/Base64Engine.tsx"
+  },
+  "imagePreview": {
+   "text": "Bildvorschau",
+   "file": "src/components/engines/Base64Engine.tsx"
+  }
+ },
+ "ui.engines.CalculatorSuiteEngine": {
+  "noWorkspaceIsRegisteredFor": {
+   "text": "Kein Workspace registriert für",
+   "file": "src/components/engines/CalculatorSuiteEngine.tsx"
+  },
+  "theVariant": {
+   "text": "Die Variante",
+   "file": "src/components/engines/CalculatorSuiteEngine.tsx"
+  }
+ },
+ "ui.engines.Calendar2026Engine": {
+  "earlyMayBankHoliday": {
+   "text": "Bankfeiertag Anfang Mai",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "springBankHoliday": {
+   "text": "Bankfeiertag im Frühling",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "summerBankHoliday": {
+   "text": "Bankfeiertag im Sommer",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "boxingDaySubstituteDay": {
+   "text": "Boxing Day (Ersatztag)",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "nationwidePublicHolidaysDEJan1Apr3Apr6May1May14May25Oct3Dec25Dec26": {
+   "text": "Bundesweite Feiertage (DE): 1. Jan., 3. Apr., 6. Apr., 1. Mai, 14. Mai, 25. Mai, 3. Okt., 25. Dez., 26. Dez.",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "gesetzlicheFeiertageRotHervorgehoben": {
+   "text": "Gesetzliche Feiertage rot hervorgehoben",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "statutoryPublicHolidaysHighlightedInRed": {
+   "text": "Gesetzliche Feiertage rot hervorgehoben",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "zeigtAlle9BundesweitenFeiertageUndLNderspezifischeTermineAn": {
+   "text": "Zeigt alle 9 bundesweiten Feiertage und länderspezifische Termine an.",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "showsAllNationwideHolidaysAndRegionalDates": {
+   "text": "Zeigt alle bundesweiten Feiertage und länderspezifische Termine an.",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "brauchtumEreignisseKarnevalSommerzeitAdvent": {
+   "text": "Brauchtum & Ereignisse (Karneval, Sommerzeit, Advent …)",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "nutzenSieBundesweiteFeiertageDieAufEinenDonnerstagFallenZBChristiHimmelfahrtOderFronleichnamFRBrCkentageAmFreitagMitNur1UrlaubstagErhaltenSie4FreieTageAmStCk": {
+   "text": "Nutzen Sie bundesweite Feiertage, die auf einen Donnerstag fallen (z. B. Christi Himmelfahrt oder Fronleichnam), für Brückentage am Freitag: Mit nur 1 Urlaubstag erhalten Sie 4 freie Tage am Stück!",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "germanThursdayPublicHolidaysSuchAsAscensionDayOrCorpusChristiAllowYouToGain4ConsecutiveDaysOffWithJust1VacationDayOnFriday": {
+   "text": "Bundesweite Feiertage am Donnerstag (wie Christi Himmelfahrt oder Fronleichnam) ermöglichen es Ihnen, mit nur 1 Urlaubstag am Freitag 4 freie Tage am Stück zu gewinnen!",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "0Urlaubstage3TageFrei": {
+   "text": "0 Urlaubstage = 3 Tage frei",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "0Days3DaysOff": {
+   "text": "0 Tage = 3 Tage frei",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "bundesweit16LNder": {
+   "text": "Bundesweit (16 Länder)",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  },
+  "nationwide16States": {
+   "text": "Bundesweit (16 Länder)",
+   "file": "src/components/engines/Calendar2026Engine.tsx"
+  }
+ },
+ "ui.engines.ConstructionDiyEngine": {
+  "lengthFeet": {
+   "text": "Länge (ft)",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx"
+  },
+  "widthFeet": {
+   "text": "Breite (ft)",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx"
+  },
+  "thicknessDepthInches": {
+   "text": "Dicke / Tiefe (Zoll)",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx"
+  },
+  "cubicYardsReadyMix": {
+   "text": "Kubikyard (Fertigmisch)",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx"
+  },
+  "roomLengthFeet": {
+   "text": "Raumlänge (ft)",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx"
+  },
+  "roomWidthFeet": {
+   "text": "Raumbreite (ft)",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx"
+  },
+  "wastageMargin": {
+   "text": "Verlust (%)",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx"
+  },
+  "recommendedToPurchase": {
+   "text": "Empfohlene Menge (+",
+   "file": "src/components/engines/ConstructionDiyEngine.tsx"
+  }
+ },
+ "ui.engines.CryptoHashEngine": {
+  "digitalToolPad2026": {
+   "text": "Digital ToolPad 2026",
+   "file": "src/components/engines/CryptoHashEngine.tsx"
+  },
+  "invalidJWT": {
+   "text": "Ungültiges JWT",
+   "file": "src/components/engines/CryptoHashEngine.tsx"
+  },
+  "passwordGeneratorSettings": {
+   "text": "Einstellungen des Passwortgenerators",
+   "file": "src/components/engines/CryptoHashEngine.tsx"
+  },
+  "encodedJWTToken": {
+   "text": "Kodierter JWT-Token",
+   "file": "src/components/engines/CryptoHashEngine.tsx"
+  },
+  "inputStringToHash": {
+   "text": "Eingabestring zum Hashen",
+   "file": "src/components/engines/CryptoHashEngine.tsx"
+  },
+  "hash": {
+   "text": "Hash",
+   "file": "src/components/engines/CryptoHashEngine.tsx"
+  }
+ },
+ "ui.engines.CsvDataEngine": {
+  "cSVParseError": {
+   "text": "CSV-Parsefehler",
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "invalidJSONArrayObjectToConvertToCSV": {
+   "text": "Ungültiges JSON-Array bzw. -Objekt für die Umwandlung in CSV",
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "tSVJSON": {
+   "text": "TSV → JSON",
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "cSVJSON": {
+   "text": "CSV → JSON",
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "jSONTSV": {
+   "text": "JSON → TSV",
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "jSONCSV": {
+   "text": "JSON → CSV",
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "tSVInput": {
+   "text": "TSV-Eingabe",
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "cSVInput": {
+   "text": "CSV-Eingabe",
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "jSONInput": {
+   "text": "JSON-Eingabe",
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  },
+  "dataIsEmptyOrCouldNotBeFormattedIntoATable": {
+   "text": "Die Daten sind leer oder konnten nicht in eine Tabelle formatiert werden.",
+   "file": "src/components/engines/CsvDataEngine.tsx"
+  }
+ },
+ "ui.engines.DeveloperSuiteEngine": {
+  "fetchingResponse": {
+   "text": "Antwort wird abgerufen...",
+   "file": "src/components/engines/DeveloperSuiteEngine.tsx"
+  }
+ },
+ "ui.engines.DeviceTesterEngine": {
+  "microphoneInputDecibelTest": {
+   "text": "Mikrofon- & Dezibeltest",
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  },
+  "speakIntoYourMicrophoneToVerifyVolumeLevelsAndInputClarity": {
+   "text": "Sprechen Sie in Ihr Mikrofon, um Lautstärke und Klarheit der Aufnahme zu prüfen.",
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  },
+  "enableMicrophoneTest": {
+   "text": "Mikrofon-Test aktivieren",
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  },
+  "microphoneIsWorkingAudioSignalDetected": {
+   "text": "Das Mikrofon funktioniert! Audiosignal erkannt.",
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  },
+  "webcamVideoTest": {
+   "text": "Webcam-Videotest",
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  },
+  "testCameraResolutionLatencyAndMirrorModeSafelyOnYourDevice": {
+   "text": "Testen Sie Kameraauflösung, Latenz und Spiegelmodus sicher auf Ihrem Gerät.",
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  },
+  "startCameraTest": {
+   "text": "Kameratest starten",
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  },
+  "webcamIsOnlineAndStreamingLocally": {
+   "text": "Die Webcam ist online und streamt lokal.",
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  },
+  "keyboardGhostingKeyDetectionTest": {
+   "text": "Tastatur-Ghosting- & Tastenerkennungstest",
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  },
+  "pressAnyKeyOnYourKeyboardToTestResponsivenessAndDetectGhosting": {
+   "text": "Drücken Sie eine beliebige Taste, um die Reaktionszeit zu testen und Ghosting zu erkennen.",
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  },
+  "resetKeyHistory": {
+   "text": "Tastenverlauf zurücksetzen",
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  },
+  "mouseCPSClickSpeedTest": {
+   "text": "Maus-CPS- & Klickschnelligkeitstest",
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  },
+  "cLICKHERERAPIDLY": {
+   "text": "HIER SCHNELL KLICKEN!",
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  },
+  "resetScore": {
+   "text": "Punkte zurücksetzen",
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  }
+ },
+ "ui.engines.DiffEngine": {
+  "lineDiff": {
+   "text": "Zeilendiff",
+   "file": "src/components/engines/DiffEngine.tsx"
+  },
+  "wordDiff": {
+   "text": "Wortdiff",
+   "file": "src/components/engines/DiffEngine.tsx"
+  },
+  "originalJSONText": {
+   "text": "Original-JSON / -Text",
+   "file": "src/components/engines/DiffEngine.tsx"
+  },
+  "modifiedJSONText": {
+   "text": "Geändertes JSON / Text",
+   "file": "src/components/engines/DiffEngine.tsx"
+  },
+  "diffVisualizer": {
+   "text": "Diff-Visualisierung",
+   "file": "src/components/engines/DiffEngine.tsx"
+  }
+ },
+ "ui.engines.EncodingConvertersEngine": {
+  "unsupportedBase": {
+   "text": "Nicht unterstütztes Zahlensystem",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "enterAValue": {
+   "text": "Geben Sie einen Wert ein",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "enterRedGreenAndBlueValuesSuchAs25500": {
+   "text": "Geben Sie Rot-, Grün- und Blauwerte ein, z. B. 255, 0, 0",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "couldNotConvertThisValue": {
+   "text": "Dieser Wert konnte nicht umgewandelt werden",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "thisConverterIsNotAvailable": {
+   "text": "Dieser Konverter ist nicht verfügbar.",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "switchDirection": {
+   "text": "Richtung wechseln (",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "from": {
+   "text": "Von",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "to": {
+   "text": "Nach",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "input": {
+   "text": "Eingabe (",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "output": {
+   "text": "Ausgabe (",
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  }
+ },
+ "ui.engines.FileViewersEngine": {
+  "sELECTFROMUsersWHEREActive1ORDERBYIdDESC": {
+   "text": "SELECT * FROM users WHERE active = 1 ORDER BY id DESC;",
+   "file": "src/components/engines/FileViewersEngine.tsx"
+  },
+  "sQLiteDatabaseOnlineBrowserQueryRunner": {
+   "text": "SQLite-Datenbank: Online-Browser und Abfrageausführung",
+   "file": "src/components/engines/FileViewersEngine.tsx"
+  },
+  "executeSQL": {
+   "text": "SQL ausführen",
+   "file": "src/components/engines/FileViewersEngine.tsx"
+  }
+ },
+ "ui.engines.HeadsOrTailsEngine": {
+  "readyToFlipPressSpaceEnterOrClickTheCoin": {
+   "text": "Bereit zum Werfen. Drücken Sie Leertaste, Enter oder klicken Sie auf die Münze.",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "flippingCoin": {
+   "text": "Münze wird geworfen...",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "scoresAndStatisticsResetToZero": {
+   "text": "Punkte und Statistiken wurden auf null zurückgesetzt.",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "singleFlip": {
+   "text": "Einzelwurf",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "bestOf3": {
+   "text": "Beste von 3",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "bestOf5": {
+   "text": "Beste von 5",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "bestOf7": {
+   "text": "Beste von 7",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "seriesFirstTo": {
+   "text": "Serie (Erster Sieg bei",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "winsTheSeries": {
+   "text": "Gewinnt die Serie (",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "ePLURIBUSUNUM": {
+   "text": "E PLURIBUS UNUM",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "clickCoinOrPress": {
+   "text": "Münze anklicken oder drücken",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "independent5050Trials": {
+   "text": "Unabhängige 50/50-Versuche",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "noStreakYet": {
+   "text": "Noch keine Serie",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "recentFlipsLast": {
+   "text": "Neueste Würfe (Letzte",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "aboutTheHeadsOrTailsCoinFlip": {
+   "text": "Über das Kopf-oder-Zahl-Münzwurf-Spiel",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "yesUnlikePseudoRandomGeneratorsThatRepeatPatternsThisToolUses": {
+   "text": "Ja. Anders als Pseudozufallsgeneratoren, die Muster wiederholen, verwendet dieses Tool",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "keyboardAccessibilitySupport": {
+   "text": "Tastatur- & Barrierefreiheits-Unterstützung",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "flipQuicklyUsingThe": {
+   "text": "Schnell werfen mit der",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  },
+  "100ClientSidePrivacy": {
+   "text": "100% clientseitiger Datenschutz",
+   "file": "src/components/engines/HeadsOrTailsEngine.tsx"
+  }
+ },
+ "ui.engines.HealthFitnessEngine": {
+  "bodyCompositionCalorieSuite": {
+   "text": "Körperzusammensetzung & Kalorien-Suite",
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  },
+  "metricKgCm": {
+   "text": "Metrisch (kg/cm)",
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  },
+  "imperialLbsIn": {
+   "text": "Imperial (lbs/in)",
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  },
+  "biologicalSex": {
+   "text": "Biologisches Geschlecht",
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  },
+  "weight": {
+   "text": "Gewicht (",
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  },
+  "height": {
+   "text": "Größe (",
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  }
+ },
+ "ui.engines.ImageSuiteEngine": {
+  "uploadAnImageToResizeOrConvert": {
+   "text": "Bild zum Skalieren oder Konvertieren hochladen",
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "supportsPNGJPGWebPAVIFSVGBMPTIFFProcessedInYourBrowser": {
+   "text": "Unterstützt PNG, JPG, WebP, AVIF, SVG, BMP, TIFF. Die Verarbeitung erfolgt in Ihrem Browser.",
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "dimensions": {
+   "text": "Abmessungen",
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "targetFormat": {
+   "text": "Zielformat",
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "visualFilters": {
+   "text": "Visuelle Filter",
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  },
+  "new": {
+   "text": "Neu",
+   "file": "src/components/engines/ImageSuiteEngine.tsx"
+  }
+ },
+ "ui.engines.JsonEngine": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad",
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "100ClientSidePrivateWebUtilities": {
+   "text": "100% clientseitige private Web-Dienstprogramme",
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "dataFormats": {
+   "text": "Datenformate",
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "pDFSuite": {
+   "text": "PDF-Suite",
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "developerTools": {
+   "text": "Entwicklerwerkzeuge",
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "invalidJSONSyntax": {
+   "text": "Ungültige JSON-Syntax",
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "interactiveCollapsibleTreeTableViewer": {
+   "text": "Interaktiver, aufklappbarer Baum- und Tabellen-Betrachter",
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "jSONSource": {
+   "text": "JSON-Quelltext",
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "provideValidJSONInTheSourceEditorToInspect": {
+   "text": "Geben Sie gültiges JSON im Quelltext-Editor ein, um es anzuzeigen.",
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "clientSideProcessing": {
+   "text": "Clientseitige Verarbeitung",
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "zeroServerUploads": {
+   "text": "Keine Server-Uploads",
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "fastSecure": {
+   "text": "Schnell & sicher",
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "bytes": {
+   "text": "Bytes",
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "lines": {
+   "text": "Zeilen",
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "processedLocallyInYourBrowser": {
+   "text": "Wird lokal in Ihrem Browser verarbeitet",
+   "file": "src/components/engines/JsonEngine.tsx"
+  }
+ },
+ "ui.engines.MarkdownEngine": {
+  "markdownSource": {
+   "text": "Markdown-Quelltext",
+   "file": "src/components/engines/MarkdownEngine.tsx"
+  },
+  "liveFormattedPreview": {
+   "text": "Live-formatierte Vorschau",
+   "file": "src/components/engines/MarkdownEngine.tsx"
+  }
+ },
+ "ui.engines.MediaAudioVideoEngine": {
+  "highSpeedBrowserMediaTranscoder": {
+   "text": "Hochgeschwindigkeits-Medientranscoder im Browser",
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx"
+  },
+  "selectVideoOrAudioFile": {
+   "text": "Video- oder Audiodatei auswählen",
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx"
+  },
+  "convertMP4WebMAVIMOVMP3WAVOGGWithoutUploadingToAnyServer": {
+   "text": "MP4, WebM, AVI, MOV, MP3, WAV und OGG konvertieren, ohne Upload auf einen Server.",
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx"
+  },
+  "clear": {
+   "text": "Leeren",
+   "file": "src/components/engines/MediaAudioVideoEngine.tsx"
+  }
+ },
+ "ui.engines.NetworkingToolsEngine": {
+  "iPv4CIDRSubnetCalculator": {
+   "text": "IPv4-CIDR- & Subnetz-Rechner",
+   "file": "src/components/engines/NetworkingToolsEngine.tsx"
+  },
+  "iPAddress": {
+   "text": "IP-Adresse",
+   "file": "src/components/engines/NetworkingToolsEngine.tsx"
+  },
+  "cIDRPrefix": {
+   "text": "CIDR-Präfix (/",
+   "file": "src/components/engines/NetworkingToolsEngine.tsx"
+  },
+  "classA": {
+   "text": "Klasse A",
+   "file": "src/components/engines/NetworkingToolsEngine.tsx"
+  },
+  "classB": {
+   "text": "Klasse B",
+   "file": "src/components/engines/NetworkingToolsEngine.tsx"
+  },
+  "classC": {
+   "text": "Klasse C",
+   "file": "src/components/engines/NetworkingToolsEngine.tsx"
+  }
+ },
+ "ui.engines.QrBarcodeEngine": {
+  "barcodeValueDigits": {
+   "text": "Barcode-Wert / Ziffern",
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  },
+  "barcodeFormat": {
+   "text": "Barcode-Format",
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  },
+  "qRCodeContentURLTextOrWiFi": {
+   "text": "QR-Code-Inhalt (URL, Text oder Wi-Fi)",
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  },
+  "qRCodeColor": {
+   "text": "QR-Code-Farbe",
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  },
+  "backgroundColor": {
+   "text": "Hintergrundfarbe",
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  },
+  "errorCorrectionLevel": {
+   "text": "Fehlerkorrekturlevel",
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  },
+  "scanWithAnyCameraOrScannerApp": {
+   "text": "Mit jeder Kamera- oder Scanner-App scannen",
+   "file": "src/components/engines/QrBarcodeEngine.tsx"
+  }
+ },
+ "ui.engines.RandomizersGamesEngine": {
+  "coinFlipSimulatorHeadsOrTails": {
+   "text": "Münzwurf-Simulator (Kopf oder Zahl)",
+   "file": "src/components/engines/RandomizersGamesEngine.tsx"
+  },
+  "diceRollerD6D20": {
+   "text": "Würfelroller (d6 & d20)",
+   "file": "src/components/engines/RandomizersGamesEngine.tsx"
+  },
+  "wheelOfNamesRandomWinnerPicker": {
+   "text": "Glücksrad & Zufallsgewinner-Auswahl",
+   "file": "src/components/engines/RandomizersGamesEngine.tsx"
+  },
+  "namesItemsOnePerLine": {
+   "text": "Namen / Einträge (einer pro Zeile)",
+   "file": "src/components/engines/RandomizersGamesEngine.tsx"
+  }
+ },
+ "ui.engines.RegexEngine": {
+  "validRegularExpression": {
+   "text": "Gültiger regulärer Ausdruck •",
+   "file": "src/components/engines/RegexEngine.tsx"
+  },
+  "captureMatches": {
+   "text": "Erfasste Treffer (",
+   "file": "src/components/engines/RegexEngine.tsx"
+  },
+  "index": {
+   "text": "Index",
+   "file": "src/components/engines/RegexEngine.tsx"
+  },
+  "group": {
+   "text": "Gruppe",
+   "file": "src/components/engines/RegexEngine.tsx"
+  }
+ },
+ "ui.engines.TextCitationWorkspace": {
+  "smithJohn": {
+   "text": "Smith, John",
+   "file": "src/components/engines/TextCitationWorkspace.tsx"
+  },
+  "chicago17AuthorDate": {
+   "text": "Chicago 17 (Autor-Jahr)",
+   "file": "src/components/engines/TextCitationWorkspace.tsx"
+  },
+  "parseBibTeX": {
+   "text": "BibTeX parsen",
+   "file": "src/components/engines/TextCitationWorkspace.tsx"
+  }
+ },
+ "ui.engines.TextConvertWorkspace": {
+  "character": {
+   "text": "Zeichen",
+   "file": "src/components/engines/TextConvertWorkspace.tsx"
+  },
+  "codePoint": {
+   "text": "Codepoint",
+   "file": "src/components/engines/TextConvertWorkspace.tsx"
+  },
+  "uppercase": {
+   "text": "Großbuchstaben",
+   "file": "src/components/engines/TextConvertWorkspace.tsx"
+  },
+  "lowercase": {
+   "text": "Kleinbuchstaben",
+   "file": "src/components/engines/TextConvertWorkspace.tsx"
+  }
+ },
+ "ui.engines.TextCounterWorkspace": {
+  "clear": {
+   "text": "Leeren",
+   "file": "src/components/engines/TextCounterWorkspace.tsx"
+  },
+  "typeSomeTextToSeeTheMostFrequentWords": {
+   "text": "Geben Sie Text ein, um die häufigsten Wörter zu sehen.",
+   "file": "src/components/engines/TextCounterWorkspace.tsx"
+  }
+ },
+ "ui.engines.TextDiceWorkspace": {
+  "rollD20": {
+   "text": "d20 werfen",
+   "file": "src/components/engines/TextDiceWorkspace.tsx"
+  },
+  "clearHistory": {
+   "text": "Verlauf leeren",
+   "file": "src/components/engines/TextDiceWorkspace.tsx"
+  },
+  "noRollsYetPressRollD20ToStart": {
+   "text": "Noch keine Würfe - drücken Sie auf d20 werfen, um zu beginnen.",
+   "file": "src/components/engines/TextDiceWorkspace.tsx"
+  }
+ },
+ "ui.engines.TextDocxWorkspace": {
+  "theFileCouldNotBeRead": {
+   "text": "Die Datei konnte nicht gelesen werden.",
+   "file": "src/components/engines/TextDocxWorkspace.tsx"
+  },
+  "thisDocxFileDoesNotContainTheExpectedWordPart": {
+   "text": "Diese .docx-Datei enthält nicht den erwarteten Word-Teil.",
+   "file": "src/components/engines/TextDocxWorkspace.tsx"
+  },
+  "theDocumentPartOfThisFileIsNotValidXML": {
+   "text": "Der Dokumentteil dieser Datei ist kein gültiges XML.",
+   "file": "src/components/engines/TextDocxWorkspace.tsx"
+  },
+  "thisDocumentDoesNotContainAnyComments": {
+   "text": "Dieses Dokument enthält keine Kommentare.",
+   "file": "src/components/engines/TextDocxWorkspace.tsx"
+  },
+  "thisFileCouldNotBeConverted": {
+   "text": "Diese Datei konnte nicht konvertiert werden.",
+   "file": "src/components/engines/TextDocxWorkspace.tsx"
+  },
+  "thisFileCouldNotBeOpened": {
+   "text": "Diese Datei konnte nicht geöffnet werden.",
+   "file": "src/components/engines/TextDocxWorkspace.tsx"
+  },
+  "thisFileCouldNotBeProcessed": {
+   "text": "Diese Datei konnte nicht verarbeitet werden.",
+   "file": "src/components/engines/TextDocxWorkspace.tsx"
+  },
+  "readingTheDocumentAndAcceptingEveryTrackedChange": {
+   "text": "Dokument wird gelesen und alle nachverfolgten Änderungen werden übernommen...",
+   "file": "src/components/engines/TextDocxWorkspace.tsx"
+  },
+  "rewritingTheDocument": {
+   "text": "Dokument wird neu geschrieben...",
+   "file": "src/components/engines/TextDocxWorkspace.tsx"
+  },
+  "convertingTheDocument": {
+   "text": "Dokument wird konvertiert...",
+   "file": "src/components/engines/TextDocxWorkspace.tsx"
+  },
+  "theConverterReported": {
+   "text": "Der Konverter meldete",
+   "file": "src/components/engines/TextDocxWorkspace.tsx"
+  },
+  "saveAsPDF": {
+   "text": "Als PDF speichern",
+   "file": "src/components/engines/TextDocxWorkspace.tsx"
+  },
+  "openingTheDocument": {
+   "text": "Dokument wird geöffnet...",
+   "file": "src/components/engines/TextDocxWorkspace.tsx"
+  }
+ },
+ "ui.engines.TextFontWorkspace": {
+  "fancyText": {
+   "text": "Schöner Text",
+   "file": "src/components/engines/TextFontWorkspace.tsx"
+  },
+  "xTwitter": {
+   "text": "X / Twitter",
+   "file": "src/components/engines/TextFontWorkspace.tsx"
+  },
+  "instagramTikTokAndWhatsAppDropTheMathematicalLetterBlock": {
+   "text": "Instagram, TikTok und WhatsApp lassen den mathematischen Buchstabenblock weg.",
+   "file": "src/components/engines/TextFontWorkspace.tsx"
+  },
+  "markdownLikeBoldOnlyWorksWhereThePlatformSupportsIt": {
+   "text": "Markdown wie **fett** funktioniert nur dort, wo die Plattform es unterstützt.",
+   "file": "src/components/engines/TextFontWorkspace.tsx"
+  },
+  "thePreviewAboveShowsTheCharactersYourAudienceWillSee": {
+   "text": "Die Vorschau oben zeigt die Zeichen, die Ihr Publikum sehen wird.",
+   "file": "src/components/engines/TextFontWorkspace.tsx"
+  },
+  "plainUnicodeSurvivesACopyAndPasteIntoAnyTextField": {
+   "text": "Einfaches Unicode übersteht Kopieren und Einfügen in jedes Textfeld.",
+   "file": "src/components/engines/TextFontWorkspace.tsx"
+  },
+  "restoreFlippedText": {
+   "text": "Gespiegelten Text wiederherstellen",
+   "file": "src/components/engines/TextFontWorkspace.tsx"
+  },
+  "shuffle": {
+   "text": "Mischen",
+   "file": "src/components/engines/TextFontWorkspace.tsx"
+  },
+  "randomize": {
+   "text": "Randomisieren",
+   "file": "src/components/engines/TextFontWorkspace.tsx"
+  },
+  "cleanZalgoText": {
+   "text": "Zalgo-Text bereinigen",
+   "file": "src/components/engines/TextFontWorkspace.tsx"
+  }
+ },
+ "ui.engines.TextHandwritingWorkspace": {
+  "newVariation": {
+   "text": "Neue Variante",
+   "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+  },
+  "downloadPNG": {
+   "text": "PNG herunterladen",
+   "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+  },
+  "downloadPDF": {
+   "text": "PDF herunterladen",
+   "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+  },
+  "saveAsPNG": {
+   "text": "Als PNG speichern",
+   "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+  }
+ },
+ "ui.engines.TextNotepadWorkspace": {
+  "notepadStyleEditor": {
+   "text": "Editor im Notepad++-Stil",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx"
+  },
+  "openAndTypeNotepad": {
+   "text": "Notepad zum Tippen öffnen",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx"
+  },
+  "file": {
+   "text": "Datei",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx"
+  },
+  "new": {
+   "text": "Neu",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx"
+  },
+  "save": {
+   "text": "Speichern",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx"
+  },
+  "autosave": {
+   "text": "Automatisches Speichern",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx"
+  },
+  "multiTabEditingAutosaveAndSyntaxHighlightingAllClientSide": {
+   "text": "Bearbeiten mit mehreren Tabs, automatisches Speichern und Syntaxhervorhebung, alles clientseitig.",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx"
+  },
+  "aTabbedEditorThatRunsInTheBrowserOnMacOSLinuxAndChromeOS": {
+   "text": "Ein Editor mit Tabs, der im Browser auf macOS, Linux und ChromeOS läuft.",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx"
+  },
+  "openThePageAndStartTypingThereIsNoSignupAndNoUpload": {
+   "text": "Öffnen Sie die Seite und beginnen Sie zu tippen. Es gibt keine Anmeldung und keinen Upload.",
+   "file": "src/components/engines/TextNotepadWorkspace.tsx"
+  }
+ },
+ "ui.engines.TextTokenWorkspace": {
+  "gPT4GPT4o": {
+   "text": "GPT-4 / GPT-4o",
+   "file": "src/components/engines/TextTokenWorkspace.tsx"
+  },
+  "gPT5OSeries": {
+   "text": "GPT-5 / o-series",
+   "file": "src/components/engines/TextTokenWorkspace.tsx"
+  },
+  "clear": {
+   "text": "Leeren",
+   "file": "src/components/engines/TextTokenWorkspace.tsx"
+  },
+  "everythingRunsLocallyInYourBrowser": {
+   "text": "Alles läuft lokal in Ihrem Browser.",
+   "file": "src/components/engines/TextTokenWorkspace.tsx"
+  },
+  "loadingTokenizers": {
+   "text": "Tokenizer werden geladen...",
+   "file": "src/components/engines/TextTokenWorkspace.tsx"
+  },
+  "tokenizerUnavailableShowingEstimates": {
+   "text": "Tokenizer nicht verfügbar, es werden Schätzungen angezeigt.",
+   "file": "src/components/engines/TextTokenWorkspace.tsx"
+  },
+  "thisCountComesFromTheExactOpenAIBPETokenizer": {
+   "text": "Diese Anzahl stammt vom exakten OpenAI-BPE-Tokenizer.",
+   "file": "src/components/engines/TextTokenWorkspace.tsx"
+  },
+  "thisCountIsAnEstimateFromACharacterRatio": {
+   "text": "Diese Anzahl ist eine Schätzung aus einem Zeichenverhältnis.",
+   "file": "src/components/engines/TextTokenWorkspace.tsx"
+  },
+  "estimatedCostForThisText": {
+   "text": "Geschätzte Kosten für diesen Text",
+   "file": "src/components/engines/TextTokenWorkspace.tsx"
+  },
+  "pricePer1MInputTokens": {
+   "text": "Preis pro 1M Eingabetokens",
+   "file": "src/components/engines/TextTokenWorkspace.tsx"
+  }
+ },
+ "ui.engines.TextTransformWorkspace": {
+  "helloWorld": {
+   "text": "Hallo Welt",
+   "file": "src/components/engines/TextTransformWorkspace.tsx"
+  },
+  "theScannerLooksForZeroWidthCharactersAndCombiningMarks": {
+   "text": "Der Scanner sucht nach nullbreiten Zeichen und kombinierenden Zeichen.",
+   "file": "src/components/engines/TextTransformWorkspace.tsx"
+  }
+ },
+ "ui.engines.TimeCalendarEngine": {
+  "120000PM": {
+   "text": "12:00:00 PM",
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "070000AM": {
+   "text": "07:00:00 AM",
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "090000PM": {
+   "text": "09:00:00 PM",
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "work25m": {
+   "text": "Arbeit (25 Min.)",
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "shortBreak5m": {
+   "text": "Kurze Pause (5 Min.)",
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "longBreak15m": {
+   "text": "Lange Pause (15 Min.)",
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "dateDurationCalculator": {
+   "text": "Datums- & Zeitrechner",
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "startDate": {
+   "text": "Startdatum",
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "endDate": {
+   "text": "Enddatum",
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "days": {
+   "text": "Tage",
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "equivalentTo": {
+   "text": "Entspricht",
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "unixTimestampConverterTimezoneClocks": {
+   "text": "Unix-Timestamp-Umrechner & Zeitzonen-Uhren",
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "unixTimestampSecondsOrMilliseconds": {
+   "text": "Unix-Timestamp (Sekunden oder Millisekunden)",
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "currentTime": {
+   "text": "Aktuelle Uhrzeit",
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  },
+  "worldTimezones": {
+   "text": "Weltweite Zeitzonen",
+   "file": "src/components/engines/TimeCalendarEngine.tsx"
+  }
+ },
+ "ui.engines.UuidEngine": {
+  "version": {
+   "text": "Version",
+   "file": "src/components/engines/UuidEngine.tsx"
+  },
+  "quantity1500": {
+   "text": "Anzahl (1 - 500)",
+   "file": "src/components/engines/UuidEngine.tsx"
+  },
+  "format": {
+   "text": "Format",
+   "file": "src/components/engines/UuidEngine.tsx"
+  },
+  "braces": {
+   "text": "Geschweifte Klammern (",
+   "file": "src/components/engines/UuidEngine.tsx"
+  }
+ },
+ "ui.engines.YamlEngine": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad",
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "invalidYAMLSyntax": {
+   "text": "Ungültige YAML-Syntax",
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "invalidJSONSyntax": {
+   "text": "Ungültige JSON-Syntax",
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "valid": {
+   "text": "Gültig",
+   "file": "src/components/engines/YamlEngine.tsx"
+  }
+ },
+ "ui.calculators.DateTools": {
+  "includeTheEndDate": {
+   "text": "Enddatum einbeziehen",
+   "file": "src/components/calculators/DateTools.tsx"
+  }
+ },
+ "ui.calculators.GradeTools": {
+  "gPAGradePointsCreditHoursCreditHours": {
+   "text": "GPA = Σ (Qualitätspunkte × Credits) ÷ Σ Credits",
+   "file": "src/components/calculators/GradeTools.tsx"
+  }
+ },
+ "ui.calculators.NumberBaseTools": {
+  "enterValidBinaryDigits0And1Only": {
+   "text": "Geben Sie gültige Binärziffern ein (nur 0 und 1).",
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "enterValidHexDigits09AndAF": {
+   "text": "Geben Sie gültige Hex-Ziffern ein (0–9 und A–F).",
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  }
+ },
+ "ui.calculators.TimeTools": {
+  "530PM": {
+   "text": "5:30 PM",
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "allTimesAreHandledOnA24HourClockSoAddingPastMidnightWrapsToTheNextDay": {
+   "text": "Alle Zeiten werden im 24-Stunden-Format verarbeitet, sodass das Addieren über Mitternacht hinweg in den nächsten Tag übergeht.",
+   "file": "src/components/calculators/TimeTools.tsx"
+  }
+ },
+ "ui.pdf.Pdf417Engine": {
+  "couldNotEncodeTheBarcode": {
+   "text": "Der Barcode konnte nicht kodiert werden.",
+   "file": "src/components/pdf/Pdf417Engine.tsx"
+  },
+  "downloadedTheBarcodeAsAPDFAndAPNG": {
+   "text": "Der Barcode wurde als PDF und als PNG heruntergeladen.",
+   "file": "src/components/pdf/Pdf417Engine.tsx"
+  },
+  "couldNotGenerateTheBarcode": {
+   "text": "Der Barcode konnte nicht generiert werden.",
+   "file": "src/components/pdf/Pdf417Engine.tsx"
+  },
+  "printTheDataUnderneath": {
+   "text": "Die darunterliegenden Daten drucken",
+   "file": "src/components/pdf/Pdf417Engine.tsx"
+  },
+  "generateBarcode": {
+   "text": "Barcode generieren",
+   "file": "src/components/pdf/Pdf417Engine.tsx"
+  }
+ },
+ "ui.pdf.PdfBase64Engine": {
+  "pasteABase64PayloadFirst": {
+   "text": "Fügen Sie zuerst eine Base64-Nutzdaten ein.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "thePayloadDecodedButItIsNotAPDFPNGOrJPEG": {
+   "text": "Die Nutzdaten wurden dekodiert, sind aber keine PDF-, PNG- oder JPEG-Datei.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "couldNotDecodeThePayload": {
+   "text": "Die Nutzdaten konnten nicht dekodiert werden.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "thePayloadWasAlreadyAPDFAndWasDownloadedUnchanged": {
+   "text": "Die Nutzdaten waren bereits eine PDF-Datei und wurden unverändert heruntergeladen.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "onlyPDFPNGAndJPEGPayloadsCanBeTurnedIntoAPDFThisOneIsNotRecognised": {
+   "text": "Nur PDF-, PNG- und JPEG-Nutzdaten können in eine PDF-Datei umgewandelt werden. Diese wurden nicht erkannt.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "couldNotBuildThePDF": {
+   "text": "Die PDF-Datei konnte nicht erstellt werden.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "couldNotReadTheFile": {
+   "text": "Die Datei konnte nicht gelesen werden.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "inspectPayload": {
+   "text": "Nutzdaten prüfen",
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "convertToPDF": {
+   "text": "In PDF umwandeln",
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  }
+ },
+ "ui.pdf.PdfCompressEngine": {
+  "loadingPDF": {
+   "text": "PDF wird geladen…",
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "couldNotCreateARenderingCanvas": {
+   "text": "Die Renderingfläche konnte nicht erstellt werden.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "thisPDFIsAlreadyOptimisedNoSmallerVersionIsPossible": {
+   "text": "Diese PDF-Datei ist bereits optimiert — eine kleinere Version ist nicht möglich.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "thisPDFIsPasswordProtectedEnterThePasswordAndTryAgain": {
+   "text": "Diese PDF-Datei ist passwortgeschützt. Geben Sie das Passwort ein und versuchen Sie es erneut.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "couldNotCompressTheFile": {
+   "text": "Die Datei konnte nicht komprimiert werden.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "rewritingDocumentStructure": {
+   "text": "Dokumentstruktur wird neu geschrieben…",
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "thePagesWereKeptAsVectorDataSoTheTextStaysSelectable": {
+   "text": "Die Seiten wurden als Vektordaten beibehalten, sodass der Text auswählbar bleibt.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "couldNotOptimiseTheFile": {
+   "text": "Die Datei konnte nicht optimiert werden.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "optimiseKeepTextSelectable": {
+   "text": "Optimieren (Text auswählbar lassen)",
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "reducedBy": {
+   "text": "Reduziert um",
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfEmailEngine": {
+  "outlookMessageParsed": {
+   "text": "Outlook-Nachricht analysiert.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  },
+  "emailParsed": {
+   "text": "E-Mail analysiert.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  },
+  "couldNotReadTheEmail": {
+   "text": "Die E-Mail konnte nicht gelesen werden.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  },
+  "thisMessageHasNoReadableBodyText": {
+   "text": "Diese Nachricht enthält keinen lesbaren Text im Body.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  },
+  "emailConvertedToPDF": {
+   "text": "E-Mail in PDF umgewandelt.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  },
+  "couldNotBuildThePDF": {
+   "text": "Die PDF-Datei konnte nicht erstellt werden.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  },
+  "attachments": {
+   "text": "Anhänge",
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  },
+  "convertToPDF": {
+   "text": "In PDF umwandeln",
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfImageEngine": {
+  "couldNotBuildThePDF": {
+   "text": "Die PDF-Datei konnte nicht erstellt werden.",
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "remove": {
+   "text": "Entfernen",
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "createPDF": {
+   "text": "PDF erstellen (",
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "clear": {
+   "text": "Leeren",
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "couldNotCreateARenderingCanvas": {
+   "text": "Die Renderingfläche konnte nicht erstellt werden.",
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "couldNotExportTheImages": {
+   "text": "Die Bilder konnten nicht exportiert werden.",
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "exportImages": {
+   "text": "Bilder exportieren",
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfMergeEngine": {
+  "theSelectedFilesContainNoPages": {
+   "text": "Die ausgewählten Dateien enthalten keine Seiten.",
+   "file": "src/components/pdf/PdfMergeEngine.tsx"
+  },
+  "thisPDFIsPasswordProtectedEnterThePasswordAndTryAgain": {
+   "text": "Diese PDF-Datei ist passwortgeschützt. Geben Sie das Passwort ein und versuchen Sie es erneut.",
+   "file": "src/components/pdf/PdfMergeEngine.tsx"
+  },
+  "couldNotMergeTheFiles": {
+   "text": "Die Dateien konnten nicht zusammengeführt werden.",
+   "file": "src/components/pdf/PdfMergeEngine.tsx"
+  },
+  "remove": {
+   "text": "Entfernen",
+   "file": "src/components/pdf/PdfMergeEngine.tsx"
+  },
+  "pDFPassword": {
+   "text": "PDF-Passwort",
+   "file": "src/components/pdf/PdfMergeEngine.tsx"
+  },
+  "merge": {
+   "text": "Zusammenführen",
+   "file": "src/components/pdf/PdfMergeEngine.tsx"
+  },
+  "clear": {
+   "text": "Leeren",
+   "file": "src/components/pdf/PdfMergeEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfMetaEngine": {
+  "pDFMetadataViewer": {
+   "text": "PDF-Metadaten-Betrachter",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "inspectTheDocumentInformationStoredInsideAPDF": {
+   "text": "Prüfen Sie die in einer PDF-Datei gespeicherten Dokumentinformationen.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "readMetadata": {
+   "text": "Metadaten lesen",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "pDFMetadataEditor": {
+   "text": "PDF-Metadaten-Editor",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "changeTheTitleAuthorSubjectKeywordsAndProducerOfAPDF": {
+   "text": "Ändern Sie Titel, Autor, Betreff, Schlüsselwörter und Produzent einer PDF-Datei.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "saveMetadata": {
+   "text": "Metadaten speichern",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "pDFMetadataRemover": {
+   "text": "PDF-Metadaten-Entferner",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "stripAuthorProducerSoftwareDatesAndXMPPacketsFromAPDF": {
+   "text": "Entfernen Sie Autor, Produzent, Software, Datumsangaben und XMP-Pakete aus einer PDF-Datei.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "removeMetadata": {
+   "text": "Metadaten entfernen",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "thisPDFIsPasswordProtectedEnterThePasswordAndTryAgain": {
+   "text": "Diese PDF-Datei ist passwortgeschützt. Geben Sie das Passwort ein und versuchen Sie es erneut.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "couldNotReadTheFile": {
+   "text": "Die Datei konnte nicht gelesen werden.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "metadataUpdatedAndTheNewPDFWasDownloaded": {
+   "text": "Metadaten aktualisiert und die neue PDF-Datei wurde heruntergeladen.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "metadataStrippedAndTheNewPDFWasDownloaded": {
+   "text": "Metadaten entfernt und die neue PDF-Datei wurde heruntergeladen.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "couldNotWriteTheFile": {
+   "text": "Die Datei konnte nicht geschrieben werden.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "created": {
+   "text": "Erstellt",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "modified": {
+   "text": "Geändert",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "fileSize": {
+   "text": "Dateigröße",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  },
+  "producesANewFileTheOriginalIsUntouched": {
+   "text": "Erzeugt eine neue Datei; das Original bleibt unverändert.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfRedactEngine": {
+  "blackOutTextInPDF": {
+   "text": "Text in PDF schwärzen",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "findEveryOccurrenceOfAWordOrNumberAndPermanentlyRemoveItFromThePage": {
+   "text": "Finden Sie jedes Vorkommen eines Worts oder einer Zahl und entfernen Sie es dauerhaft von der Seite.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "blackOutMatches": {
+   "text": "Treffer schwärzen",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "pDFRedactionTool": {
+   "text": "PDF-Schwärzungswerkzeug",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "markTheAreasToRemoveRedactedContentIsBurnedIntoThePagePixelsItCannotBeUnHidden": {
+   "text": "Markieren Sie die zu entfernenden Bereiche. Geschwärzter Inhalt wird in die Seitenpixel eingebrannt — er kann nicht wieder sichtbar gemacht werden.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "applyRedaction": {
+   "text": "Schwärzung anwenden",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "couldNotOpenThisPDF": {
+   "text": "Diese PDF-Datei konnte nicht geöffnet werden.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "enterAtLeastOneWordOrNumberToSearchFor": {
+   "text": "Geben Sie mindestens ein Wort oder eine Zahl zum Suchen ein.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "noMatchesWereFoundInTheTextLayerOfThisPDF": {
+   "text": "In der Textebene dieser PDF-Datei wurden keine Treffer gefunden.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "theSearchFailed": {
+   "text": "Die Suche ist fehlgeschlagen.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "searchForATermFirstSoTheMatchesCanBeBlackedOut": {
+   "text": "Suchen Sie zuerst nach einem Begriff, damit die Treffer geschwärzt werden können.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "dragOverThePageToMarkTheAreasYouWantRemoved": {
+   "text": "Ziehen Sie über die Seite, um die zu entfernenden Bereiche zu markieren.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "couldNotCreateARenderingCanvas": {
+   "text": "Die Renderingfläche konnte nicht erstellt werden.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "couldNotWriteTheRedactedFile": {
+   "text": "Die geschwärzte Datei konnte nicht geschrieben werden.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "findMatches": {
+   "text": "Treffer suchen",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "page": {
+   "text": "Seite",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "previous": {
+   "text": "Zurück",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "next": {
+   "text": "Weiter",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "dragAcrossThePageToMarkAnAreaToRemove": {
+   "text": "Ziehen Sie quer über die Seite, um einen zu entfernenden Bereich zu markieren.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "markedAreasOnPage": {
+   "text": "Markierte Bereiche auf Seite",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "remove": {
+   "text": "Entfernen",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "clearMarks": {
+   "text": "Markierungen löschen",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "renderingPreview": {
+   "text": "Rendering-Vorschau…",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfSplitEngine": {
+  "thisPDFIsPasswordProtectedEnterThePasswordAndTryAgain": {
+   "text": "Diese PDF-Datei ist passwortgeschützt. Geben Sie das Passwort ein und versuchen Sie es erneut.",
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "couldNotSplitTheFile": {
+   "text": "Die Datei konnte nicht aufgeteilt werden.",
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "clear": {
+   "text": "Leeren",
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfTextEngine": {
+  "pDFToMarkdownConverter": {
+   "text": "PDF-zu-Markdown-Konverter",
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "turnTheTextLayerOfAPDFIntoCleanStructuredMarkdownYouCanPasteIntoAnyEditorOrAIAssistant": {
+   "text": "Verwandeln Sie die Textebene einer PDF-Datei in sauberes, strukturiertes Markdown, das Sie in jeden Editor oder KI-Assistenten einfügen können.",
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "convertToMarkdown": {
+   "text": "In Markdown umwandeln",
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "pDFToDOCXConverter": {
+   "text": "PDF-zu-DOCX-Konverter",
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "rebuildAPDFAsAnEditableWordDocumentWithHeadingsListsAndParagraphsPreserved": {
+   "text": "Erstellen Sie aus einer PDF-Datei ein bearbeitbares Word-Dokument mit erhaltenen Überschriften, Listen und Absätzen.",
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "convertToDOCX": {
+   "text": "In DOCX umwandeln",
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "readingThePDF": {
+   "text": "PDF wird gelesen…",
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "oCRDidNotFindReadableTextOnTheScannedPages": {
+   "text": "OCR hat auf den gescannten Seiten keinen lesbaren Text gefunden.",
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "everyPageAlreadyHadATextLayerSoOCRWasNotNeeded": {
+   "text": "Jede Seite hatte bereits eine Textebene, daher war OCR nicht nötig.",
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "couldNotConvertTheFile": {
+   "text": "Die Datei konnte nicht konvertiert werden.",
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "yourBrowserBlockedClipboardAccessSelectTheTextAndCopyItManually": {
+   "text": "Ihr Browser hat den Zugriff auf die Zwischenablage blockiert. Markieren Sie den Text und kopieren Sie ihn manuell.",
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "useOCRForScannedPages": {
+   "text": "OCR für gescannte Seiten verwenden",
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  },
+  "downloadMd": {
+   "text": ".md herunterladen",
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfTextToPdfEngine": {
+  "couldNotBuildThePDF": {
+   "text": "Die PDF-Datei konnte nicht erstellt werden.",
+   "file": "src/components/pdf/PdfTextToPdfEngine.tsx"
+  },
+  "generatePDF": {
+   "text": "PDF generieren",
+   "file": "src/components/pdf/PdfTextToPdfEngine.tsx"
+  }
+ },
+ "ui.pdf.shared": {
+  "remove": {
+   "text": "Entfernen",
+   "file": "src/components/pdf/shared.tsx"
+  }
+ },
+ "ui.engines.TextSuiteEngine": {
+  "thisToolIsNotAvailableRightNow": {
+   "text": "Dieses Werkzeug ist derzeit nicht verfügbar.",
+   "file": "src/components/engines/TextSuiteEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfVariantHost": {
+  "thisPDFToolIsNotWiredUpYet": {
+   "text": "Dieses PDF-Werkzeug ist noch nicht verdrahtet",
+   "file": "src/components/pdf/PdfVariantHost.tsx"
+  }
+ }
+}

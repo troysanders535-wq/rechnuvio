@@ -1,0 +1,27 @@
+{
+  "namespace": "ui.calculators.RatioTools",
+  "en": {
+    "simplifyRatiosSolveABCOrSplitATotalAndResizeWhileKeepingTheAspectRatio": "Simplify ratios, solve A : B = C : ?, split a total and resize while keeping the aspect ratio.",
+    "valueCForABC": "C (for A : B = C : ?)",
+    "solveLabel": "Solve A:B = C:?",
+    "working": "Working",
+    "solve": "Solve",
+    "split": "Split",
+    "resize": "Resize",
+    "heightChange": "Height change",
+    "part": "{count} part",
+    "simplifySolveSplitResizeFormulaNote": "Simplify: divide both sides by the GCD. Solve: ? = (B × C) ÷ A. Split: total × A/(A+B). Resize: the height follows the width so the ratio A:B is kept — new height = width × (B ÷ A)."
+  },
+  "de": {
+    "simplifyRatiosSolveABCOrSplitATotalAndResizeWhileKeepingTheAspectRatio": "Verhältnisse kürzen, A : B = C : ? lösen, einen Gesamtbetrag aufteilen und unter Beibehaltung des Seitenverhältnisses skalieren.",
+    "valueCForABC": "C (für A : B = C : ?)",
+    "solveLabel": "A:B = C:? lösen",
+    "working": "Rechenweg",
+    "solve": "Lösen",
+    "split": "Aufteilen",
+    "resize": "Skalieren",
+    "heightChange": "Höhenänderung",
+    "part": "Teil {count}",
+    "simplifySolveSplitResizeFormulaNote": "Kürzen: beide Seiten durch den GGT teilen. Lösen: ? = (B × C) ÷ A. Aufteilen: Gesamt × A/(A+B). Skalieren: die Höhe folgt der Breite, damit das Verhältnis A:B erhalten bleibt — neue Höhe = Breite × (B ÷ A)."
+  }
+}

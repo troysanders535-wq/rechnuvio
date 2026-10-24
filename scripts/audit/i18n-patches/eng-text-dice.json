@@ -1,0 +1,21 @@
+{
+  "namespace": "ui.engines.TextDiceWorkspace",
+  "en": {
+    "normal": "Normal",
+    "advantage": "Advantage",
+    "disadvantage": "Disadvantage",
+    "kept": "Kept",
+    "d20Roller": "d20 roller",
+    "advantageAndDisadvantageNote": "Advantage rolls two dice and keeps the higher one, disadvantage rolls two dice and keeps the lower one. The total is the kept die plus the modifier.",
+    "diceAreRolledInYourBrowser": "The dice are rolled in your browser with Math.random() - nothing is sent anywhere and the last ten rolls are kept in the page only."
+  },
+  "de": {
+    "normal": "Normal",
+    "advantage": "Vorteil",
+    "disadvantage": "Nachteil",
+    "kept": "Behalten",
+    "d20Roller": "d20-Würfel",
+    "advantageAndDisadvantageNote": "Vorteil würfelt zwei Würfel und behält den höheren, Nachteil würfelt zwei Würfel und behält den niedrigeren. Die Summe ist der behaltene Würfel zuzüglich des Modifikators.",
+    "diceAreRolledInYourBrowser": "Die Würfel werden in Ihrem Browser mit Math.random() gewürfelt - es wird nichts übertragen, und die letzten zehn Würfe bleiben nur in der Seite gespeichert."
+  }
+}

@@ -18,6 +18,7 @@ import { TimeTools } from "@/components/calculators/TimeTools";
 import { NumberBaseTools } from "@/components/calculators/NumberBaseTools";
 import { ConstructionTools } from "@/components/calculators/ConstructionTools";
 import { FitnessTools } from "@/components/calculators/FitnessTools";
+import { useTranslations } from "next-intl";
 
 const PERCENT_VARIANTS: CalculatorVariant[] = [
   "percent",
@@ -107,14 +108,15 @@ function includes(list: CalculatorVariant[], variant: CalculatorVariant): boolea
  * silently falling back to an unrelated calculator.
  */
 export function CalculatorSuiteEngine({ slug }: { slug: string }) {
+  const tUi = useTranslations("ui.engines.CalculatorSuiteEngine");
   const variant = getCalculatorVariant(slug);
 
   if (!variant) {
     return (
       <div className="rounded-2xl border border-amber-200 bg-amber-50 p-6 text-sm text-amber-900 dark:border-amber-900/60 dark:bg-amber-950/40 dark:text-amber-200">
-        <p className="font-semibold">This calculator is not wired up yet.</p>
+        <p className="font-semibold">{tUi("thisCalculatorIsNotWiredUpYet")}</p>
         <p className="mt-1 text-xs opacity-80">
-          No workspace is registered for <code>{slug}</code>. Add it to the calculator variant map
+          {tUi("noWorkspaceIsRegisteredFor")} <code>{slug}</code>. Add it to the calculator variant map
           to enable it.
         </p>
       </div>
@@ -135,9 +137,9 @@ export function CalculatorSuiteEngine({ slug }: { slug: string }) {
 
   return (
     <div className="rounded-2xl border border-amber-200 bg-amber-50 p-6 text-sm text-amber-900 dark:border-amber-900/60 dark:bg-amber-950/40 dark:text-amber-200">
-      <p className="font-semibold">This calculator is not wired up yet.</p>
+      <p className="font-semibold">{tUi("thisCalculatorIsNotWiredUpYet")}</p>
       <p className="mt-1 text-xs opacity-80">
-        The variant <code>{variant}</code> has no workspace component.
+        {tUi("theVariant")} <code>{variant}</code> has no workspace component.
       </p>
     </div>
   );

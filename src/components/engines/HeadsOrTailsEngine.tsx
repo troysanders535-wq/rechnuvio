@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef, useCallback } from "react";
+import { useTranslations } from "next-intl";
 import {
   RotateCcw,
   Sparkles,
@@ -26,6 +27,7 @@ interface FlipRecord {
 }
 
 export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string }) {
+  const tUi = useTranslations("ui.engines.HeadsOrTailsEngine");
   // Coin state
   const [currentFace, setCurrentFace] = useState<CoinSide>("HEADS");
   const [isFlipping, setIsFlipping] = useState<boolean>(false);
@@ -34,7 +36,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
 
   // Sound & Accessibility
   const [soundEnabled, setSoundEnabled] = useState<boolean>(true);
-  const [announcement, setAnnouncement] = useState<string>("Ready to flip. Press Space, Enter, or click the coin.");
+  const [announcement, setAnnouncement] = useState<string>(tUi("readyToFlipPressSpaceEnterOrClickTheCoin"));
   const [prefersReducedMotion, setPrefersReducedMotion] = useState<boolean>(false);
 
   // Statistics
@@ -140,7 +142,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
 
     setIsFlipping(true);
     setLastLanded(null);
-    setAnnouncement("Flipping coin...");
+    setAnnouncement(tUi("flippingCoin"));
     playCoinSound("flip");
 
     // Cryptographic independent 50/50 roll
@@ -193,6 +195,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
       ]);
 
       // Handle Series Mode logic
+      const sideLabel = outcome === "HEADS" ? tUi("heads2") : tUi("tails2");
       if (mode !== "single") {
         const newRounds = [...seriesRounds, outcome];
         setSeriesRounds(newRounds);
@@ -208,15 +211,17 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
         const needed = getTargetWins(mode);
         if (newH >= needed) {
           setSeriesWinner("HEADS");
-          setAnnouncement(`Heads! Heads wins the series ${newH} to ${newT}!`);
+          setAnnouncement(tUi("headsWinsTheSeries", { heads: newH, tails: newT }));
         } else if (newT >= needed) {
           setSeriesWinner("TAILS");
-          setAnnouncement(`Tails! Tails wins the series ${newT} to ${newH}!`);
+          setAnnouncement(tUi("tailsWinsTheSeries", { tails: newT, heads: newH }));
         } else {
-          setAnnouncement(`Landed on ${outcome}! Series score: Heads ${newH}, Tails ${newT}.`);
+          setAnnouncement(
+            tUi("landedOnSeriesScore", { side: sideLabel, heads: newH, tails: newT })
+          );
         }
       } else {
-        setAnnouncement(`Landed on ${outcome}!`);
+        setAnnouncement(tUi("landedOn", { side: sideLabel }));
       }
     }, animationDuration);
   }, [
@@ -243,7 +248,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
     setSeriesRounds([]);
     setSeriesWinner(null);
     setLastLanded(null);
-    setAnnouncement("Scores and statistics reset to zero.");
+    setAnnouncement(tUi("scoresAndStatisticsResetToZero"));
   };
 
   // Switch game mode
@@ -292,7 +297,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
                   : "text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white"
               }`}
             >
-              Single Flip
+              {tUi("singleFlip")}
             </button>
             <button
               type="button"
@@ -304,7 +309,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
                   : "text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white"
               }`}
             >
-              Best of 3
+              {tUi("bestOf3")}
             </button>
             <button
               type="button"
@@ -316,7 +321,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
                   : "text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white"
               }`}
             >
-              Best of 5
+              {tUi("bestOf5")}
             </button>
             <button
               type="button"
@@ -328,7 +333,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
                   : "text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white"
               }`}
             >
-              Best of 7
+              {tUi("bestOf7")}
             </button>
           </div>
 
@@ -338,8 +343,8 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
               type="button"
               onClick={() => setSoundEnabled((s) => !s)}
               className="inline-flex size-9 items-center justify-center rounded-xl border border-slate-300 bg-white text-slate-700 shadow-2xs hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
-              title={soundEnabled ? "Mute sound" : "Enable sound"}
-              aria-label={soundEnabled ? "Mute sound" : "Enable sound"}
+              title={soundEnabled ? tUi("muteSound") : tUi("enableSound")}
+              aria-label={soundEnabled ? tUi("muteSound") : tUi("enableSound")}
             >
               {soundEnabled ? <Volume2 className="size-4 text-indigo-600 dark:text-indigo-400" /> : <VolumeX className="size-4 text-slate-400" />}
             </button>
@@ -348,10 +353,10 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
               onClick={handleReset}
               disabled={isFlipping || totalFlips === 0}
               className="inline-flex items-center gap-1.5 rounded-xl border border-slate-300 bg-white px-3 py-1.5 text-xs font-semibold text-slate-700 shadow-2xs hover:bg-slate-50 disabled:opacity-40 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
-              title="Reset counters and series"
+              title={tUi("resetCountersAndSeries")}
             >
               <RotateCcw className="size-3.5" />
-              <span>Reset</span>
+              <span>{tUi("reset")}</span>
             </button>
           </div>
         </div>
@@ -362,18 +367,18 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
             <div className="mx-auto flex max-w-xl flex-col items-center justify-between gap-3 text-center sm:flex-row sm:text-left">
               <div>
                 <span className="text-[11px] font-bold uppercase tracking-wider text-indigo-700 dark:text-indigo-400">
-                  {mode.toUpperCase()} Series (First to {targetWins} wins)
+                  {mode.toUpperCase()} {tUi("seriesFirstTo", { count: targetWins })}
                 </span>
                 <div className="mt-1 flex items-center justify-center gap-3 sm:justify-start">
                   <div className="flex items-center gap-1.5">
-                    <span className="font-bold text-amber-700 dark:text-amber-400">HEADS:</span>
+                    <span className="font-bold text-amber-700 dark:text-amber-400">{tUi("heads2")}:</span>
                     <span className="font-mono text-xl font-extrabold text-slate-900 dark:text-white">
                       {seriesHeadsWins}
                     </span>
                   </div>
                   <span className="text-slate-400">—</span>
                   <div className="flex items-center gap-1.5">
-                    <span className="font-bold text-sky-700 dark:text-sky-400">TAILS:</span>
+                    <span className="font-bold text-sky-700 dark:text-sky-400">{tUi("tails2")}:</span>
                     <span className="font-mono text-xl font-extrabold text-slate-900 dark:text-white">
                       {seriesTailsWins}
                     </span>
@@ -383,7 +388,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
 
               {/* Your Pick Choice */}
               <div className="flex items-center gap-2 text-xs">
-                <span className="font-medium text-slate-600 dark:text-slate-400">Your call:</span>
+                <span className="font-medium text-slate-600 dark:text-slate-400">{tUi("yourCall")}</span>
                 <div className="inline-flex rounded-xl bg-white/80 p-0.5 shadow-2xs dark:bg-slate-800">
                   <button
                     type="button"
@@ -395,7 +400,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
                         : "text-slate-600 hover:text-slate-900 dark:text-slate-400"
                     }`}
                   >
-                    Heads
+                    {tUi("heads2")}
                   </button>
                   <button
                     type="button"
@@ -407,7 +412,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
                         : "text-slate-600 hover:text-slate-900 dark:text-slate-400"
                     }`}
                   >
-                    Tails
+                    {tUi("tails2")}
                   </button>
                 </div>
               </div>
@@ -419,11 +424,11 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
                 <div className="flex items-center justify-center gap-2 font-bold text-emerald-900 dark:text-emerald-200">
                   <Trophy className="size-5 text-amber-500" />
                   <span>
-                    🏆 {seriesWinner} Wins the Series ({Math.max(seriesHeadsWins, seriesTailsWins)} - {Math.min(seriesHeadsWins, seriesTailsWins)})!
+                    🏆 {seriesWinner === "HEADS" ? tUi("heads2") : tUi("tails2")} {tUi("winsTheSeries")}{Math.max(seriesHeadsWins, seriesTailsWins)} - {Math.min(seriesHeadsWins, seriesTailsWins)})!
                   </span>
                 </div>
                 <p className="mt-0.5 text-xs text-emerald-800 dark:text-emerald-300">
-                  {seriesWinner === chosenSide ? "🎉 Congratulations, you won your prediction!" : "Better luck next time!"}
+                  {seriesWinner === chosenSide ? tUi("congratulationsYouWonYourPrediction") : tUi("betterLuckNextTime")}
                 </p>
                 <button
                   type="button"
@@ -431,7 +436,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
                   className="mt-2 inline-flex items-center gap-1.5 rounded-xl bg-emerald-700 px-4 py-1.5 text-xs font-bold text-white shadow-xs hover:bg-emerald-800 dark:bg-emerald-600"
                 >
                   <RefreshCw className="size-3.5" />
-                  <span>Play New Series</span>
+                  <span>{tUi("playNewSeries")}</span>
                 </button>
               </div>
             )}
@@ -459,7 +464,9 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
                 onClick={flipCoin}
                 onKeyDown={handleKeyDown}
                 disabled={isFlipping || (mode !== "single" && seriesWinner !== null)}
-                aria-label={`Coin showing ${currentFace}. Click to flip.`}
+                aria-label={tUi("coinShowingFaceClickToFlip", {
+                  face: currentFace === "HEADS" ? tUi("heads2") : tUi("tails2"),
+                })}
                 className="group relative size-44 cursor-pointer outline-none transition-transform sm:size-52 disabled:cursor-not-allowed"
                 style={{
                   transformStyle: "preserve-3d",
@@ -587,7 +594,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
 
                   {/* Bottom Unit */}
                   <div className="pb-1 font-mono text-[10px] font-bold text-amber-900 drop-shadow-[0_1px_1px_rgba(255,255,255,0.6)]">
-                    E PLURIBUS UNUM
+                    {tUi("ePLURIBUSUNUM")}
                   </div>
                 </div>
               </button>
@@ -610,11 +617,11 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
               className="inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-amber-500 via-amber-600 to-amber-700 px-8 py-3 text-base font-bold text-white shadow-lg transition-all hover:scale-105 hover:from-amber-600 hover:to-amber-800 focus-visible:outline-2 focus-visible:outline-amber-500 disabled:opacity-50 disabled:hover:scale-100 dark:from-amber-600 dark:to-amber-800"
             >
               <Sparkles className="size-5" />
-              <span>{isFlipping ? "Flipping..." : "Flip Coin (Space / Enter)"}</span>
+              <span>{isFlipping ? tUi("flipping") : tUi("flipCoinSpaceEnter")}</span>
             </button>
 
             <span className="text-[11px] text-slate-500 dark:text-slate-400">
-              Click coin or press <kbd className="rounded border border-slate-300 bg-slate-100 px-1.5 py-0.5 font-mono text-[10px] dark:border-slate-700 dark:bg-slate-800">Space</kbd> / <kbd className="rounded border border-slate-300 bg-slate-100 px-1.5 py-0.5 font-mono text-[10px] dark:border-slate-700 dark:bg-slate-800">Enter</kbd>
+              {tUi("clickCoinOrPress")} <kbd className="rounded border border-slate-300 bg-slate-100 px-1.5 py-0.5 font-mono text-[10px] dark:border-slate-700 dark:bg-slate-800">{tUi("space")}</kbd> / <kbd className="rounded border border-slate-300 bg-slate-100 px-1.5 py-0.5 font-mono text-[10px] dark:border-slate-700 dark:bg-slate-800">{tUi("enter")}</kbd>
             </span>
           </div>
 
@@ -630,7 +637,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
               >
                 <CheckCircle2 className="size-5" />
                 <span className="text-xl font-extrabold tracking-tight">
-                  {lastLanded === "HEADS" ? "Heads!" : "Tails!"}
+                  {lastLanded === "HEADS" ? tUi("heads") : tUi("tails")}
                 </span>
               </div>
             </div>
@@ -643,21 +650,21 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
             {/* Total Flips */}
             <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-2xs dark:border-slate-800 dark:bg-slate-900">
               <div className="flex items-center justify-between text-slate-500">
-                <span className="text-xs font-semibold uppercase tracking-wider">Total Flips</span>
+                <span className="text-xs font-semibold uppercase tracking-wider">{tUi("totalFlips")}</span>
                 <BarChart3 className="size-4" />
               </div>
               <p className="mt-2 font-mono text-2xl font-extrabold text-slate-900 dark:text-white">
                 {totalFlips}
               </p>
               <p className="mt-0.5 text-[11px] text-slate-500">
-                Independent 50/50 trials
+                {tUi("independent5050Trials")}
               </p>
             </div>
 
             {/* Heads Count */}
             <div className="rounded-2xl border border-amber-200 bg-amber-50/40 p-4 shadow-2xs dark:border-amber-900/40 dark:bg-amber-950/20">
               <div className="flex items-center justify-between text-amber-700 dark:text-amber-400">
-                <span className="text-xs font-semibold uppercase tracking-wider">Heads</span>
+                <span className="text-xs font-semibold uppercase tracking-wider">{tUi("heads2")}</span>
                 <span className="font-mono text-xs font-bold">{headsPercent}%</span>
               </div>
               <p className="mt-2 font-mono text-2xl font-extrabold text-amber-900 dark:text-amber-300">
@@ -675,7 +682,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
             {/* Tails Count */}
             <div className="rounded-2xl border border-sky-200 bg-sky-50/40 p-4 shadow-2xs dark:border-sky-900/40 dark:bg-sky-950/20">
               <div className="flex items-center justify-between text-sky-700 dark:text-sky-400">
-                <span className="text-xs font-semibold uppercase tracking-wider">Tails</span>
+                <span className="text-xs font-semibold uppercase tracking-wider">{tUi("tails2")}</span>
                 <span className="font-mono text-xs font-bold">{tailsPercent}%</span>
               </div>
               <p className="mt-2 font-mono text-2xl font-extrabold text-sky-900 dark:text-sky-300">
@@ -693,14 +700,18 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
             {/* Current Streak */}
             <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-2xs dark:border-slate-800 dark:bg-slate-900">
               <div className="flex items-center justify-between text-slate-500">
-                <span className="text-xs font-semibold uppercase tracking-wider">Streak</span>
+                <span className="text-xs font-semibold uppercase tracking-wider">{tUi("streak")}</span>
                 <Flame className="size-4 text-orange-500" />
               </div>
               <p className="mt-2 font-mono text-2xl font-extrabold text-slate-900 dark:text-white">
                 {currentStreak ? `${currentStreak.count}x` : "—"}
               </p>
               <p className="mt-0.5 text-[11px] text-slate-500">
-                {currentStreak ? `${currentStreak.side} in a row` : "No streak yet"}
+                {currentStreak
+                  ? tUi("streakInARow", {
+                      side: currentStreak.side === "HEADS" ? tUi("heads2") : tUi("tails2"),
+                    })
+                  : tUi("noStreakYet")}
               </p>
             </div>
           </div>
@@ -711,9 +722,9 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300">
                   <History className="size-3.5" />
-                  <span>Recent Flips (Last {history.length})</span>
+                  <span>{tUi("recentFlipsLast")} {history.length})</span>
                 </div>
-                <span className="text-[11px] text-slate-400">Most recent first</span>
+                <span className="text-[11px] text-slate-400">{tUi("mostRecentFirst")}</span>
               </div>
 
               <div className="mt-2.5 flex gap-2 overflow-x-auto pb-2">
@@ -729,7 +740,7 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
                     <span className="flex size-4.5 items-center justify-center rounded-full bg-white font-mono text-[10px] font-extrabold shadow-2xs dark:bg-slate-800">
                       {h.result === "HEADS" ? "H" : "T"}
                     </span>
-                    <span>{h.result}</span>
+                    <span>{h.result === "HEADS" ? tUi("heads2") : tUi("tails2")}</span>
                     <span className="text-[10px] font-normal text-slate-400">#{totalFlips - idx}</span>
                   </div>
                 ))}
@@ -742,50 +753,49 @@ export function HeadsOrTailsEngine({ slug = "heads-or-tails" }: { slug?: string 
       {/* Guide, Rules & Cryptographic Proof Section */}
       <div className="mt-8 space-y-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
         <h3 className="text-base font-bold text-slate-900 dark:text-white">
-          About the Heads or Tails Coin Flip
+          {tUi("aboutTheHeadsOrTailsCoinFlip")}
         </h3>
         <div className="grid gap-4 sm:grid-cols-2 text-xs leading-relaxed text-slate-600 dark:text-slate-400">
           <div className="rounded-xl border border-slate-100 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950">
             <h4 className="font-bold text-slate-800 dark:text-slate-200">
-              Is this online coin flip truly 50/50?
+              {tUi("isThisOnlineCoinFlipTruly5050")}
             </h4>
             <p className="mt-1">
-              Yes. Unlike pseudo-random generators that repeat patterns, this tool uses
+              {tUi("yesUnlikePseudoRandomGeneratorsThatRepeatPatternsThisToolUses")}
               <code className="mx-1 rounded bg-slate-200 px-1 py-0.5 font-mono text-[11px] text-slate-800 dark:bg-slate-800 dark:text-slate-200">
                 crypto.getRandomValues()
               </code>
-              powered by your hardware operating system entropy. Every single toss is strictly independent and statistically fair.
+              , {tUi("poweredByYourHardwareOperatingSystemEntropy")}
             </p>
           </div>
 
           <div className="rounded-xl border border-slate-100 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950">
             <h4 className="font-bold text-slate-800 dark:text-slate-200">
-              How does the Best-of series mode work?
+              {tUi("howDoesTheBestOfSeriesModeWork")}
             </h4>
             <p className="mt-1">
-              Select Best of 3 (first to 2), Best of 5 (first to 3), or Best of 7 (first to 4) at the top.
-              Choose your side and flip until one side reaches the required number of victories. Great for sports, games, and resolving ties!
+              {tUi("bestOfSeriesModeExplanation")}
             </p>
           </div>
 
           <div className="rounded-xl border border-slate-100 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950">
             <h4 className="font-bold text-slate-800 dark:text-slate-200">
-              Keyboard &amp; Accessibility Support
+              {tUi("keyboardAccessibilitySupport")}
             </h4>
             <p className="mt-1">
-              Flip quickly using the <kbd className="rounded border bg-white px-1 font-mono text-[10px] dark:bg-slate-800">Spacebar</kbd> or <kbd className="rounded border bg-white px-1 font-mono text-[10px] dark:bg-slate-800">Enter</kbd> key.
-              Full screen reader announcements report results via live aria-regions.
-              Users with <code className="text-[11px]">prefers-reduced-motion</code> enjoy an instant accessible flip without 3D camera shakes.
+              {tUi("flipQuicklyUsingThe")} <kbd className="rounded border bg-white px-1 font-mono text-[10px] dark:bg-slate-800">{tUi("spacebar")}</kbd> {tUi("or")} <kbd className="rounded border bg-white px-1 font-mono text-[10px] dark:bg-slate-800">{tUi("enter")}</kbd>{tUi("keySuffix")}{" "}
+              {tUi("fullScreenReaderAnnouncementsReportResultsViaLiveAriaRegions")}{" "}
+              {tUi("usersWith")} <code className="text-[11px]">prefers-reduced-motion</code> {tUi("enjoyAnInstantAccessibleFlipWithout3DCameraShakes")}
             </p>
           </div>
 
           <div className="rounded-xl border border-slate-100 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950">
             <h4 className="font-bold text-slate-800 dark:text-slate-200">
-              100% Client-Side Privacy
+              {tUi("100ClientSidePrivacy")}
             </h4>
             <p className="mt-1">
-              All coin physics, animations, random rolls, and game scores run exclusively in your browser sandbox.
-              No cookies, analytics trackers, or network calls are made.
+              {tUi("allCoinPhysicsAnimationsRandomRollsAndGameScoresRunInYourBrowserSandbox")}{" "}
+              {tUi("noCookiesAnalyticsTrackersOrNetworkCallsAreMade")}
             </p>
           </div>
         </div>

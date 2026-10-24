@@ -20,6 +20,7 @@ import { JsonToonView } from "./json/JsonToonView";
 import { JsonToTsView } from "./json/JsonToTsView";
 import { JsonTreeViewer } from "./json/JsonTreeViewer";
 import { deepSortKeys } from "@/utils/jsonDiffCompare";
+import { useTranslations } from "next-intl";
 
 interface JsonEngineProps {
   slug: string;
@@ -68,12 +69,13 @@ export function JsonEngine({ slug }: JsonEngineProps) {
 }
 
 function JsonViewerStandaloneView() {
+  const tUi = useTranslations("ui.engines.JsonEngine");
   const defaultSample = JSON.stringify(
     {
-      company: "Digital ToolPad",
+      company: tUi("digitalToolPad"),
       established: 2026,
-      mission: "100% Client-Side Private Web Utilities",
-      categories: ["Data Formats", "PDF Suite", "Converters", "Developer Tools"],
+      mission: tUi("100ClientSidePrivateWebUtilities"),
+      categories: [tUi("dataFormats"), tUi("pDFSuite"), "Converters", tUi("developerTools")],
       sampleUsers: [
         { id: 1, name: "Alice Johnson", role: "Frontend Lead", email: "alice@example.com" },
         { id: 2, name: "Bob Smith", role: "Security Engineer", email: "bob@example.com" },
@@ -100,7 +102,7 @@ function JsonViewerStandaloneView() {
       setParsed(p);
       setError("");
     } catch (err: any) {
-      setError(err.message || "Invalid JSON syntax");
+      setError(err.message || tUi("invalidJSONSyntax"));
     }
   };
 
@@ -119,12 +121,12 @@ function JsonViewerStandaloneView() {
     <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
       <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-200 bg-slate-50/80 p-3 dark:border-slate-800 dark:bg-slate-950/60">
         <span className="text-xs font-bold text-slate-700 dark:text-slate-300">
-          Interactive Collapsible Tree & Table Viewer
+          {tUi("interactiveCollapsibleTreeTableViewer")}
         </span>
         <div className="flex items-center gap-1.5">
           <label className="inline-flex cursor-pointer items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200">
             <Upload className="size-3.5" />
-            <span>Open JSON file</span>
+            <span>{tUi("openJSONFile")}</span>
             <input type="file" accept=".json,.txt" onChange={handleFileUpload} className="hidden" />
           </label>
         </div>
@@ -134,12 +136,12 @@ function JsonViewerStandaloneView() {
         {/* Source Textarea */}
         <div className="lg:col-span-5 flex flex-col">
           <div className="bg-slate-100 px-4 py-1.5 text-[11px] font-bold text-slate-600 dark:bg-slate-900 dark:text-slate-400 border-b border-slate-200 dark:border-slate-800">
-            JSON Source
+            {tUi("jSONSource")}
           </div>
           <textarea
             value={input}
             onChange={(e) => handleInputChange(e.target.value)}
-            placeholder="Paste JSON to view in tree..."
+            placeholder={tUi("pasteJSONToViewInTree")}
             rows={18}
             spellCheck={false}
             className="w-full resize-y bg-slate-950 p-4 font-mono text-xs leading-relaxed text-emerald-400 outline-none placeholder:text-slate-600"
@@ -157,7 +159,7 @@ function JsonViewerStandaloneView() {
             <JsonTreeViewer data={parsed} />
           ) : (
             <div className="p-12 text-center text-xs text-slate-500">
-              Provide valid JSON in the source editor to inspect.
+              {tUi("provideValidJSONInTheSourceEditorToInspect")}
             </div>
           )}
         </div>
@@ -167,13 +169,14 @@ function JsonViewerStandaloneView() {
 }
 
 function JsonFormatterDefaultView({ slug }: { slug: string }) {
+  const tUi = useTranslations("ui.engines.JsonEngine");
   const isPrettyPrint = slug === "json-pretty-print";
 
   const defaultJson = JSON.stringify(
     {
-      appName: "Digital ToolPad",
+      appName: tUi("digitalToolPad"),
       version: "2.0.0",
-      features: ["Client-Side Processing", "Zero Server Uploads", "Fast & Secure"],
+      features: [tUi("clientSideProcessing"), tUi("zeroServerUploads"), tUi("fastSecure")],
       stats: {
         totalTools: 492,
         activeUsers: 150000,
@@ -214,7 +217,7 @@ function JsonFormatterDefaultView({ slug }: { slug: string }) {
       setErrorMessage("");
     } catch (err: any) {
       setIsValid(false);
-      setErrorMessage(err.message || "Invalid JSON syntax");
+      setErrorMessage(err.message || tUi("invalidJSONSyntax"));
       setStats({
         bytes: new Blob([jsonStr]).size,
         lines: jsonStr.split("\n").length,
@@ -294,7 +297,7 @@ function JsonFormatterDefaultView({ slug }: { slug: string }) {
             className="inline-flex min-h-9 items-center gap-1.5 rounded-lg bg-sky-800 px-3.5 py-1.5 text-xs font-semibold text-white shadow-sm hover:bg-sky-900 dark:bg-sky-700 dark:hover:bg-sky-600"
           >
             <Sparkles className="size-3.5" />
-            <span>{isPrettyPrint ? "Pretty Print" : "Format JSON"}</span>
+            <span>{isPrettyPrint ? tUi("prettyPrint") : tUi("formatJSON")}</span>
           </button>
           <button
             type="button"
@@ -302,14 +305,14 @@ function JsonFormatterDefaultView({ slug }: { slug: string }) {
             className="inline-flex min-h-9 items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 shadow-sm hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
           >
             <Minimize2 className="size-3.5" />
-            <span>Minify</span>
+            <span>{tUi("minify")}</span>
           </button>
 
           <span className="hidden h-5 w-px bg-slate-300 sm:block dark:bg-slate-700" />
 
           {/* Indent Selector */}
           <div className="flex items-center gap-1.5 text-xs">
-            <span className="text-slate-500 dark:text-slate-400">Indent:</span>
+            <span className="text-slate-500 dark:text-slate-400">{tUi("indent")}</span>
             <select
               value={indent}
               onChange={(e) =>
@@ -317,9 +320,9 @@ function JsonFormatterDefaultView({ slug }: { slug: string }) {
               }
               className="rounded-lg border border-slate-200 bg-white px-2 py-1 text-xs dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
             >
-              <option value={2}>2 Spaces</option>
-              <option value={4}>4 Spaces</option>
-              <option value="tab">Tabs</option>
+              <option value={2}>{tUi("2Spaces")}</option>
+              <option value={4}>{tUi("4Spaces")}</option>
+              <option value="tab">{tUi("tabs")}</option>
             </select>
           </div>
 
@@ -331,7 +334,7 @@ function JsonFormatterDefaultView({ slug }: { slug: string }) {
               onChange={(e) => setSortKeys(e.target.checked)}
               className="rounded border-slate-300 accent-sky-700"
             />
-            <span>Sort keys A-Z</span>
+            <span>{tUi("sortKeysAZ")}</span>
           </label>
         </div>
 
@@ -339,7 +342,7 @@ function JsonFormatterDefaultView({ slug }: { slug: string }) {
         <div className="flex items-center gap-1.5">
           <label className="inline-flex cursor-pointer items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800">
             <Upload className="size-3.5" />
-            <span className="hidden sm:inline">Open file</span>
+            <span className="hidden sm:inline">{tUi("openFile")}</span>
             <input type="file" accept=".json,.txt" onChange={handleFileUpload} className="hidden" />
           </label>
           <button
@@ -348,7 +351,7 @@ function JsonFormatterDefaultView({ slug }: { slug: string }) {
             className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
           >
             <Copy className="size-3.5" />
-            <span>{copied ? "Copied!" : "Copy"}</span>
+            <span>{copied ? tUi("copied") : tUi("copy")}</span>
           </button>
           <button
             type="button"
@@ -356,13 +359,13 @@ function JsonFormatterDefaultView({ slug }: { slug: string }) {
             className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
           >
             <Download className="size-3.5" />
-            <span className="hidden sm:inline">Download</span>
+            <span className="hidden sm:inline">{tUi("download")}</span>
           </button>
           <button
             type="button"
             onClick={() => setInput("")}
             className="inline-flex items-center rounded-lg border border-slate-200 bg-white p-1.5 text-xs text-rose-600 hover:bg-rose-50 dark:border-slate-700 dark:bg-slate-900 dark:hover:bg-slate-800"
-            title="Clear editor"
+            title={tUi("clearEditor")}
           >
             <Trash2 className="size-3.5" />
           </button>
@@ -374,7 +377,7 @@ function JsonFormatterDefaultView({ slug }: { slug: string }) {
         {isValid ? (
           <div className="flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400 font-medium">
             <CheckCircle2 className="size-4" />
-            <span>Valid JSON</span>
+            <span>{tUi("validJSON")}</span>
           </div>
         ) : (
           <div className="flex items-center gap-1.5 text-rose-600 dark:text-rose-400 font-medium">
@@ -389,7 +392,7 @@ function JsonFormatterDefaultView({ slug }: { slug: string }) {
         <textarea
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Paste or write your JSON here..."
+          placeholder={tUi("pasteOrWriteYourJSONHere")}
           rows={16}
           spellCheck={false}
           className="w-full resize-y bg-slate-950 p-4 font-mono text-sm leading-relaxed text-emerald-400 outline-none placeholder:text-slate-600 selection:bg-sky-900 selection:text-white"
@@ -399,12 +402,12 @@ function JsonFormatterDefaultView({ slug }: { slug: string }) {
       {/* Status Bar */}
       <div className="flex flex-wrap items-center justify-between border-t border-slate-200 bg-slate-50/80 px-4 py-2 text-xs text-slate-500 dark:border-slate-800 dark:bg-slate-950/60 dark:text-slate-400">
         <div className="flex items-center gap-4">
-          <span>{stats.bytes} Bytes</span>
-          <span>{stats.lines} Lines</span>
-          <span>Depth: {stats.depth}</span>
+          <span>{stats.bytes} {tUi("bytes")}</span>
+          <span>{stats.lines} {tUi("lines")}</span>
+          <span>{tUi("depth")}: {stats.depth}</span>
         </div>
         <span className="font-medium text-sky-700 dark:text-sky-400">
-          Processed locally in your browser
+          {tUi("processedLocallyInYourBrowser")}
         </span>
       </div>
     </div>

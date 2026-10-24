@@ -1,0 +1,19 @@
+{
+  "namespace": "ui.engines.json.JsonToonView",
+  "en": {
+    "copied": "Copied!",
+    "tokenReduction": "Token Reduction: Saved {saved}% LLM Context Tokens!",
+    "tokensJson": "JSON: ~{count} tokens",
+    "tokensToon": "TOON: ~{count} tokens",
+    "pasteJsonHere": "Paste JSON here...",
+    "pasteToonNotationHere": "Paste TOON notation here..."
+  },
+  "de": {
+    "copied": "Kopiert!",
+    "tokenReduction": "Token-Reduktion: {saved}% LLM-Kontext-Token gespart!",
+    "tokensJson": "JSON: ~{count} Token",
+    "tokensToon": "TOON: ~{count} Token",
+    "pasteJsonHere": "Fügen Sie hier JSON ein...",
+    "pasteToonNotationHere": "Fügen Sie hier TOON-Notation ein..."
+  }
+}

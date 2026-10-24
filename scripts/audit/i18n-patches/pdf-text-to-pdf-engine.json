@@ -1,0 +1,15 @@
+{
+  "namespace": "ui.pdf.PdfTextToPdfEngine",
+  "en": {
+    "turnMarkdownOrPlainTextIntoACleanPrintablePDF": "Turn Markdown or plain text into a clean, printable PDF. Headings, lists, quotes and code blocks are preserved.",
+    "markdownIsSupported": "Markdown is supported: # headings, - bullets, > quotes and ``` code blocks.",
+    "contentPlaceholder": "# Report\n\nWrite or paste your content here.",
+    "createdAPdfWithBlocks": "Created a PDF with {count} block(s)."
+  },
+  "de": {
+    "turnMarkdownOrPlainTextIntoACleanPrintablePDF": "Verwandeln Sie Markdown oder reinen Text in ein sauberes, druckbares PDF. Überschriften, Listen, Zitate und Codeblöcke bleiben erhalten.",
+    "markdownIsSupported": "Markdown wird unterstützt: # Überschriften, - Aufzählungen, > Zitate und ``` Codeblöcke.",
+    "contentPlaceholder": "# Bericht\n\nSchreiben oder fügen Sie hier Ihren Inhalt ein.",
+    "createdAPdfWithBlocks": "Eine PDF-Datei mit {count, plural, one {# Block} other {# Blöcken}} wurde erstellt."
+  }
+}

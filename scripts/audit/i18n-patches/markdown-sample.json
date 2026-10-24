@@ -1,0 +1,9 @@
+{
+  "namespace": "ui.engines.MarkdownEngine",
+  "en": {
+    "sampleMarkdown": "# Digital ToolPad Productivity Document\n\n## Welcome to the Offline Document Workspace\nAll your markdown editing, PDF generation, and Word docx conversions run **100% in your browser** without sending data to servers.\n\n### Key Capabilities\n- **Real-time Live Preview**: Renders GitHub Flavored Markdown instantly\n- **Direct PDF Export**: Generates printable PDF documents locally\n- **Word (.docx) Export**: Converts headers, bullet points, and text into valid Word documents\n\n> Privacy is not an afterthought; it is our fundamental architecture."
+  },
+  "de": {
+    "sampleMarkdown": "# Digital ToolPad Produktivitätsdokument\n\n## Willkommen im Offline-Dokument-Arbeitsbereich\nAlle Ihre Markdown-Bearbeitung, PDF-Erzeugung und Word-docx-Konvertierung laufen **zu 100 % in Ihrem Browser**, ohne Daten an Server zu senden.\n\n### Kernfunktionen\n- **Live-Vorschau in Echtzeit**: Rendert GitHub Flavored Markdown sofort\n- **Direkter PDF-Export**: Erzeugt druckbare PDF-Dokumente lokal\n- **Word-Export (.docx)**: Wandelt Überschriften, Aufzählungspunkte und Text in gültige Word-Dokumente um\n\n> Datenschutz ist kein Nachgedanke, sondern unsere Grundarchitektur."
+  }
+}

@@ -2,12 +2,14 @@
 
 import React, { useState } from "react";
 import { Hammer, Ruler, Layers, Sparkles } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 interface ConstructionDiyEngineProps {
   slug: string;
 }
 
 export function ConstructionDiyEngine({ slug }: ConstructionDiyEngineProps) {
+  const tUi = useTranslations("ui.engines.ConstructionDiyEngine");
   const isConcrete = slug.includes("concrete") || slug.includes("gravel") || slug.includes("mulch");
   const isTile = slug.includes("tile");
   const isPaint = slug.includes("paint");
@@ -36,7 +38,7 @@ export function ConstructionDiyEngine({ slug }: ConstructionDiyEngineProps) {
     <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
       <h3 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
         <Hammer className="size-5 text-sky-700" />
-        {isConcrete ? "Concrete & Slab Volume Calculator" : "Square Footage & Tile Estimator"}
+        {isConcrete ? tUi("concreteSlabVolumeCalculator") : tUi("squareFootageTileEstimator")}
       </h3>
 
       {isConcrete ? (
@@ -44,7 +46,7 @@ export function ConstructionDiyEngine({ slug }: ConstructionDiyEngineProps) {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
               <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-                Length (Feet)
+                {tUi("lengthFeet")}
               </label>
               <input
                 type="number"
@@ -55,7 +57,7 @@ export function ConstructionDiyEngine({ slug }: ConstructionDiyEngineProps) {
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-                Width (Feet)
+                {tUi("widthFeet")}
               </label>
               <input
                 type="number"
@@ -66,7 +68,7 @@ export function ConstructionDiyEngine({ slug }: ConstructionDiyEngineProps) {
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-                Thickness / Depth (Inches)
+                {tUi("thicknessDepthInches")}
               </label>
               <input
                 type="number"
@@ -83,20 +85,20 @@ export function ConstructionDiyEngine({ slug }: ConstructionDiyEngineProps) {
                 {cubicYards}
               </span>
               <p className="mt-1 text-xs font-medium text-slate-600 dark:text-slate-400">
-                Cubic Yards (Ready-Mix)
+                {tUi("cubicYardsReadyMix")}
               </p>
             </div>
             <div className="rounded-xl bg-slate-50 p-4 dark:bg-slate-950">
               <span className="text-3xl font-extrabold text-slate-900 dark:text-white">
                 {bags60}
               </span>
-              <p className="mt-1 text-xs text-slate-500">60 lb Pre-Mix Bags</p>
+              <p className="mt-1 text-xs text-slate-500">{tUi("60LbPreMixBags")}</p>
             </div>
             <div className="rounded-xl bg-slate-50 p-4 dark:bg-slate-950">
               <span className="text-3xl font-extrabold text-slate-900 dark:text-white">
                 {bags80}
               </span>
-              <p className="mt-1 text-xs text-slate-500">80 lb Pre-Mix Bags</p>
+              <p className="mt-1 text-xs text-slate-500">{tUi("80LbPreMixBags")}</p>
             </div>
           </div>
         </div>
@@ -105,7 +107,7 @@ export function ConstructionDiyEngine({ slug }: ConstructionDiyEngineProps) {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
               <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-                Room Length (Feet)
+                {tUi("roomLengthFeet")}
               </label>
               <input
                 type="number"
@@ -116,7 +118,7 @@ export function ConstructionDiyEngine({ slug }: ConstructionDiyEngineProps) {
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-                Room Width (Feet)
+                {tUi("roomWidthFeet")}
               </label>
               <input
                 type="number"
@@ -127,7 +129,7 @@ export function ConstructionDiyEngine({ slug }: ConstructionDiyEngineProps) {
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-                Wastage Margin (%)
+                {tUi("wastageMargin")}
               </label>
               <input
                 type="number"
@@ -143,14 +145,14 @@ export function ConstructionDiyEngine({ slug }: ConstructionDiyEngineProps) {
               <span className="text-3xl font-extrabold text-slate-900 dark:text-white">
                 {baseSqFt} sq ft
               </span>
-              <p className="mt-1 text-xs text-slate-500">Exact Floor Area</p>
+              <p className="mt-1 text-xs text-slate-500">{tUi("exactFloorArea")}</p>
             </div>
             <div className="rounded-xl bg-emerald-50 p-4 dark:bg-emerald-950/40">
               <span className="text-3xl font-extrabold text-emerald-700 dark:text-emerald-400">
                 {totalSqFtWithWaste} sq ft
               </span>
               <p className="mt-1 text-xs font-medium text-emerald-800 dark:text-emerald-300">
-                Recommended to Purchase (+{wasteMargin}% Waste)
+                {tUi("recommendedToPurchase")}{wasteMargin}% Waste)
               </p>
             </div>
           </div>

@@ -1,0 +1,17 @@
+{
+  "namespace": "ui.engines.developerSuite",
+  "en": {
+    "qwen05bParameters": "0.5B parameters, Q4 quantised, about 400 MB",
+    "qwen15bParameters": "1.5B parameters, Q4 quantised, about 1 GB",
+    "llama1bParameters": "1B parameters, Q4 quantised, about 800 MB",
+    "gemma2bParameters": "2B parameters, Q4 quantised, about 1.6 GB",
+    "phi3MiniParameters": "3.8B parameters, Q4 quantised, about 2.3 GB"
+  },
+  "de": {
+    "qwen05bParameters": "0.5B Parameter, Q4-quantisiert, etwa 400 MB",
+    "qwen15bParameters": "1.5B Parameter, Q4-quantisiert, etwa 1 GB",
+    "llama1bParameters": "1B Parameter, Q4-quantisiert, etwa 800 MB",
+    "gemma2bParameters": "2B Parameter, Q4-quantisiert, etwa 1.6 GB",
+    "phi3MiniParameters": "3.8B Parameter, Q4-quantisiert, etwa 2.3 GB"
+  }
+}

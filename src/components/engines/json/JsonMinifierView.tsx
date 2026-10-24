@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useMemo } from "react";
+import { useTranslations } from "next-intl";
 import {
   Minimize2,
   Copy,
@@ -11,16 +12,17 @@ import {
 } from "lucide-react";
 
 export function JsonMinifierView() {
+  const tUi = useTranslations("ui.engines.json.JsonMinifierView");
   const sampleJson = JSON.stringify(
     {
-      appName: "Digital ToolPad",
+      appName: tUi("digitalToolPad"),
       version: "2.0.0",
-      description: "Fast, secure client-side developer utility suite",
+      description: tUi("fastSecureClientSideDeveloperUtilitySuite"),
       features: [
-        "Client-Side Processing",
-        "Zero Server Uploads",
-        "Zero Telemetry",
-        "Sub-millisecond execution"
+        tUi("clientSideProcessing"),
+        tUi("zeroServerUploads"),
+        tUi("zeroTelemetry"),
+        tUi("subMillisecondExecution")
       ],
       stats: {
         totalTools: 492,
@@ -60,7 +62,7 @@ export function JsonMinifierView() {
     } catch (err: any) {
       return {
         output: "",
-        error: err.message || "Invalid JSON syntax",
+        error: err.message || tUi("invalidJSONSyntax"),
         originalBytes: new Blob([input]).size,
         minifiedBytes: 0,
         savedBytes: 0,
@@ -92,7 +94,7 @@ export function JsonMinifierView() {
         <div className="flex items-center gap-2">
           <span className="inline-flex items-center gap-1.5 rounded-lg bg-sky-800 px-3 py-1.5 text-xs font-semibold text-white">
             <Minimize2 className="size-3.5" />
-            <span>Instant Minifier</span>
+            <span>{tUi("instantMinifier")}</span>
           </span>
         </div>
 
@@ -104,7 +106,7 @@ export function JsonMinifierView() {
             className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 disabled:opacity-40"
           >
             <Copy className="size-3.5" />
-            <span>{copied ? "Copied Minified JSON!" : "Copy Minified JSON"}</span>
+            <span>{copied ? tUi("copiedMinifiedJSON") : tUi("copyMinifiedJSON")}</span>
           </button>
           <button
             type="button"
@@ -113,13 +115,13 @@ export function JsonMinifierView() {
             className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 disabled:opacity-40"
           >
             <Download className="size-3.5" />
-            <span className="hidden sm:inline">Download .min.json</span>
+            <span className="hidden sm:inline">{tUi("downloadMinJson")}</span>
           </button>
           <button
             type="button"
             onClick={() => setInput("")}
             className="rounded p-1.5 text-slate-400 hover:text-rose-600"
-            title="Clear"
+            title={tUi("clear")}
           >
             <Trash2 className="size-4" />
           </button>
@@ -140,7 +142,7 @@ export function JsonMinifierView() {
               Minified: {minification.minifiedBytes} B
             </span>
             <span className="rounded bg-emerald-100 px-1.5 py-0.5 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200">
-              Saved {minification.savedBytes} B
+              {tUi("saved")} {minification.savedBytes} B
             </span>
           </div>
         </div>
@@ -158,12 +160,12 @@ export function JsonMinifierView() {
       <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-slate-200 dark:divide-slate-800">
         <div className="flex flex-col">
           <div className="bg-slate-100 px-4 py-1.5 text-[11px] font-bold text-slate-600 dark:bg-slate-900 dark:text-slate-400 border-b border-slate-200 dark:border-slate-800">
-            Formatted Input
+            {tUi("formattedInput")}
           </div>
           <textarea
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Paste JSON here..."
+            placeholder={tUi("pasteJSONHere")}
             rows={14}
             spellCheck={false}
             className="w-full resize-y bg-slate-950 p-4 font-mono text-xs leading-relaxed text-emerald-400 outline-none placeholder:text-slate-600"
@@ -172,12 +174,12 @@ export function JsonMinifierView() {
 
         <div className="flex flex-col">
           <div className="bg-slate-100 px-4 py-1.5 text-[11px] font-bold text-slate-600 dark:bg-slate-900 dark:text-slate-400 border-b border-slate-200 dark:border-slate-800">
-            Minified Output (Single Line)
+            {tUi("minifiedOutputSingleLine")}
           </div>
           <textarea
             value={minification.output}
             readOnly
-            placeholder="Minified JSON will appear here..."
+            placeholder={tUi("minifiedJSONWillAppearHere")}
             rows={14}
             spellCheck={false}
             className="w-full resize-y bg-slate-950 p-4 font-mono text-xs leading-relaxed text-sky-400 outline-none placeholder:text-slate-600 break-all"

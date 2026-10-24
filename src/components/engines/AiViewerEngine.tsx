@@ -22,6 +22,7 @@ import {
   X
 } from "lucide-react";
 import { openPdf, closePdf, OpenPdf } from "@/components/pdf/pdfjs";
+import { useTranslations } from "next-intl";
 
 type ExportResolution = "1" | "2" | "3" | "4.167";
 
@@ -35,6 +36,7 @@ interface PageDimensions {
 }
 
 export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
+  const tUi = useTranslations("ui.engines.AiViewerEngine");
   // File state
   const [file, setFile] = useState<File | null>(null);
   const [fileName, setFileName] = useState<string>("");
@@ -125,7 +127,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
     setError(null);
     setIsUnsupportedAi(false);
     setLoading(true);
-    setLoadingMessage("Reading file bytes...");
+    setLoadingMessage(tUi("readingFileBytes"));
 
     try {
       await cleanupCurrentDoc();
@@ -134,7 +136,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
       setFileSize(selectedFile.size);
 
       if (selectedFile.size === 0) {
-        throw new Error("The selected file is empty (0 bytes).");
+        throw new Error(tUi("theSelectedFileIsEmpty0Bytes"));
       }
 
       // Read binary buffer
@@ -147,11 +149,11 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
       if (pdfOffset === -1) {
         setIsUnsupportedAi(true);
         throw new Error(
-          "This Illustrator file has no readable PDF-compatible preview. Re-save it in Adobe Illustrator with ‘Create PDF Compatible File’ enabled, or export it as PDF."
+          tUi("thisIllustratorFileHasNoReadablePDFCompatiblePreviewReSaveItInAdobeIllustratorWithCreatePDFCompatibleFileEnabledOrExportItAsPDF")
         );
       }
 
-      setLoadingMessage("Parsing PDF-compatible stream with PDF.js...");
+      setLoadingMessage(tUi("parsingPDFCompatibleStreamWithPDFJs"));
       const pdfBytes = pdfOffset === 0 ? rawBytes : rawBytes.subarray(pdfOffset);
       setPdfData(pdfBytes);
 
@@ -176,7 +178,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
       } else {
         setError(
           err.message ||
-            "Unable to parse this file. It may be corrupted or not a valid PDF-compatible Illustrator document."
+            tUi("unableToParseThisFileItMayBeCorruptedOrNotAValidPDFCompatibleIllustratorDocument")
         );
       }
       setFile(null);
@@ -331,7 +333,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
       offscreenCanvas.height = Math.floor(exportViewport.height);
 
       const ctx = offscreenCanvas.getContext("2d", { alpha: format === "png" });
-      if (!ctx) throw new Error("Could not initialize offscreen export canvas.");
+      if (!ctx) throw new Error(tUi("couldNotInitializeOffscreenExportCanvas"));
 
       if (format === "jpg") {
         // Solid white background for JPG
@@ -375,7 +377,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
       );
     } catch (err: any) {
       console.error("Export failed:", err);
-      setError(`Export failed: ${err.message || "Unknown error"}`);
+      setError(tUi("exportFailedWithMessage", { message: err.message || tUi("unknownError") }));
       setExporting(false);
     }
   };
@@ -451,11 +453,11 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
               </div>
 
               <h2 className="mt-4 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl dark:text-white">
-                Upload Adobe Illustrator File
+                {tUi("uploadAdobeIllustratorFile")}
               </h2>
 
               <p className="mx-auto mt-2 max-w-md text-xs leading-relaxed text-slate-600 sm:text-sm dark:text-slate-400">
-                Preview PDF-compatible .ai files directly in your browser. Your files stay on your device.
+                {tUi("previewPDFCompatibleAiFilesDirectlyInYourBrowserYourFilesStayOnYourDevice")}
               </p>
 
               <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
@@ -465,7 +467,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                   className="inline-flex min-h-11 items-center gap-2 rounded-xl bg-indigo-600 px-6 py-2.5 text-sm font-bold text-white shadow-md transition hover:bg-indigo-700 focus-visible:outline-2 dark:bg-indigo-500 dark:hover:bg-indigo-400"
                 >
                   <Upload className="size-4" />
-                  <span>Choose AI File</span>
+                  <span>{tUi("chooseAIFile")}</span>
                 </button>
               </div>
 
@@ -473,11 +475,11 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                 <span className="rounded bg-slate-200 px-1.5 py-0.5 font-mono text-[10px] text-slate-700 dark:bg-slate-800 dark:text-slate-300">
                   .AI
                 </span>
-                <span>or</span>
+                <span>{tUi("or")}</span>
                 <span className="rounded bg-slate-200 px-1.5 py-0.5 font-mono text-[10px] text-slate-700 dark:bg-slate-800 dark:text-slate-300">
                   .PDF
                 </span>
-                <span>files supported (100% Client-Side)</span>
+                <span>{tUi("filesSupported100ClientSide")}</span>
               </div>
             </div>
 
@@ -485,7 +487,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
             {loading && (
               <div className="mt-6 flex items-center justify-center gap-3 rounded-xl border border-indigo-200 bg-indigo-50/80 p-4 text-xs font-semibold text-indigo-900 dark:border-indigo-900 dark:bg-indigo-950/40 dark:text-indigo-200">
                 <div className="size-4 animate-spin rounded-full border-2 border-indigo-600 border-t-transparent dark:border-indigo-400" />
-                <span>{loadingMessage || "Processing Illustrator file..."}</span>
+                <span>{loadingMessage || tUi("processingIllustratorFile")}</span>
               </div>
             )}
 
@@ -503,18 +505,13 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                   <AlertCircle className="mt-0.5 size-5 shrink-0 text-amber-600 dark:text-amber-400" />
                   <div className="space-y-2">
                     <p className="font-bold text-sm">
-                      {isUnsupportedAi ? "Non-PDF-Compatible Illustrator File" : "Error Opening File"}
+                      {isUnsupportedAi ? tUi("nonPDFCompatibleIllustratorFile") : tUi("errorOpeningFile")}
                     </p>
                     <p>{error}</p>
                     {isUnsupportedAi && (
                       <div className="mt-2 text-[11px] text-amber-800 dark:text-amber-300">
-                        <p className="font-semibold">Why does this happen?</p>
-                        <p className="mt-0.5">
-                          Adobe Illustrator saves files with an embedded PDF preview stream when the
-                          &quot;Create PDF Compatible File&quot; checkbox is turned on (Illustrator default).
-                          Files saved without this option contain only proprietary PostScript/Illustrator
-                          vectors that require the native Adobe Illustrator desktop app to decode.
-                        </p>
+                        <p className="font-semibold">{tUi("whyDoesThisHappen")}</p>
+                        <p className="mt-0.5">{tUi("whyDoesThisHappenExplanation")}</p>
                       </div>
                     )}
                     <button
@@ -523,7 +520,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                       className="mt-3 inline-flex items-center gap-1.5 rounded-lg bg-amber-700 px-3 py-1.5 text-xs font-bold text-white hover:bg-amber-800 dark:bg-amber-600"
                     >
                       <Upload className="size-3.5" />
-                      <span>Choose another .ai file</span>
+                      <span>{tUi("chooseAnotherAiFile")}</span>
                     </button>
                   </div>
                 </div>
@@ -536,24 +533,24 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                 <Info className="mt-0.5 size-5 shrink-0 text-indigo-600 dark:text-indigo-400" />
                 <div className="space-y-1 text-xs leading-relaxed text-slate-600 dark:text-slate-400">
                   <h3 className="font-bold text-slate-900 dark:text-white">
-                    Format Compatibility Notice
+                    {tUi("formatCompatibilityNotice")}
                   </h3>
                   <p>
-                    This browser viewer utilizes <strong>Mozilla PDF.js</strong> to render the
-                    PDF-compatible stream embedded inside modern Adobe Illustrator (.ai) artwork.
+                    {tUi("thisBrowserViewerUtilizes")} <strong>{tUi("mozillaPDFJs")}</strong>{" "}
+                    {tUi("rendersThePDFCompatibleStreamEmbeddedInModernAdobeIllustratorArtwork")}
                   </p>
                   <ul className="mt-1 list-disc list-inside space-y-0.5 text-[11px]">
                     <li>
-                      <strong>PDF-Compatible AI:</strong> Supported. View, zoom, navigate pages, and
-                      export to PNG/JPG.
+                      <strong>{tUi("pdfCompatibleAILabel")}</strong>{" "}
+                      {tUi("supportedViewZoomNavigatePagesAndExportToPNGJPG")}
                     </li>
                     <li>
-                      <strong>Illustrator Editing &amp; Native Layers:</strong> Not supported. PDF.js is
-                      a high-fidelity document renderer, not an Illustrator vector editor.
+                      <strong>{tUi("illustratorEditingAndNativeLayersLabel")}</strong>{" "}
+                      {tUi("illustratorEditingAndNativeLayersNotSupported")}
                     </li>
                     <li>
-                      <strong>Multi-page Artboards:</strong> When saved with PDF compatibility, available
-                      PDF pages in the stream correspond to exported artboards.
+                      <strong>{tUi("multiPageArtboardsLabel")}</strong>{" "}
+                      {tUi("multiPageArtboardsWhenSavedWithPDFCompatibility")}
                     </li>
                   </ul>
                 </div>
@@ -580,7 +577,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                     <span>{(fileSize / 1024).toFixed(1)} KB</span>
                     <span>•</span>
                     <span className="font-semibold text-indigo-600 dark:text-indigo-400">
-                      Page {currentPage} of {numPages} (PDF stream)
+                      {tUi("pageOfTotalPdfStream", { page: currentPage, total: numPages })}
                     </span>
                   </div>
                 </div>
@@ -594,7 +591,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                     onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
                     disabled={currentPage <= 1}
                     className="inline-flex size-7 items-center justify-center rounded-lg text-slate-600 hover:bg-slate-100 disabled:opacity-40 dark:text-slate-300 dark:hover:bg-slate-800"
-                    title="Previous page"
+                    title={tUi("previousPage")}
                   >
                     <ChevronLeft className="size-4" />
                   </button>
@@ -606,7 +603,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                     onClick={() => setCurrentPage((p) => Math.min(numPages, p + 1))}
                     disabled={currentPage >= numPages}
                     className="inline-flex size-7 items-center justify-center rounded-lg text-slate-600 hover:bg-slate-100 disabled:opacity-40 dark:text-slate-300 dark:hover:bg-slate-800"
-                    title="Next page"
+                    title={tUi("nextPage")}
                   >
                     <ChevronRight className="size-4" />
                   </button>
@@ -621,16 +618,16 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                   className="inline-flex items-center gap-1.5 rounded-xl border border-slate-300 bg-white px-3 py-1.5 text-xs font-semibold text-slate-700 shadow-2xs hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
                 >
                   <RefreshCw className="size-3.5" />
-                  <span>Replace File</span>
+                  <span>{tUi("replaceFile")}</span>
                 </button>
                 <button
                   type="button"
                   onClick={handleClear}
                   className="inline-flex items-center gap-1.5 rounded-xl border border-slate-300 bg-white px-3 py-1.5 text-xs font-semibold text-rose-600 shadow-2xs hover:bg-rose-50 dark:border-slate-700 dark:bg-slate-800 dark:text-rose-400 dark:hover:bg-rose-950/30"
-                  title="Clear file and reset view"
+                  title={tUi("clearFileAndResetView")}
                 >
                   <X className="size-3.5" />
-                  <span>Close</span>
+                  <span>{tUi("close")}</span>
                 </button>
               </div>
             </div>
@@ -644,7 +641,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                   onClick={handleZoomOut}
                   disabled={zoom <= 0.25}
                   className="inline-flex size-8 items-center justify-center rounded-lg border border-slate-200 text-slate-700 hover:bg-slate-100 disabled:opacity-40 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
-                  title="Zoom Out"
+                  title={tUi("zoomOut")}
                 >
                   <ZoomOut className="size-3.5" />
                 </button>
@@ -656,7 +653,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                   onClick={handleZoomIn}
                   disabled={zoom >= 4.0}
                   className="inline-flex size-8 items-center justify-center rounded-lg border border-slate-200 text-slate-700 hover:bg-slate-100 disabled:opacity-40 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
-                  title="Zoom In"
+                  title={tUi("zoomIn")}
                 >
                   <ZoomIn className="size-3.5" />
                 </button>
@@ -665,16 +662,16 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                   type="button"
                   onClick={handleFitToWidth}
                   className="inline-flex items-center gap-1 rounded-lg border border-slate-200 px-2.5 py-1 text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
-                  title="Fit to width"
+                  title={tUi("fitToWidth")}
                 >
                   <Maximize2 className="size-3" />
-                  <span>Fit</span>
+                  <span>{tUi("fit")}</span>
                 </button>
                 <button
                   type="button"
                   onClick={handleZoomReset}
                   className="inline-flex items-center gap-1 rounded-lg border border-slate-200 px-2 py-1 text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
-                  title="Reset to 100%"
+                  title={tUi("resetTo100")}
                 >
                   <RotateCcw className="size-3" />
                   <span>100%</span>
@@ -684,7 +681,9 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
               {/* Explicit Dimensions Badge (Requirement 6) */}
               {dimensions && (
                 <div className="flex flex-wrap items-center gap-2 text-[11px] text-slate-500 dark:text-slate-400">
-                  <span className="font-semibold text-slate-700 dark:text-slate-300">Dimensions:</span>
+                  <span className="font-semibold text-slate-700 dark:text-slate-300">
+                    {tUi("dimensions")}
+                  </span>
                   <span className="rounded bg-slate-100 px-2 py-0.5 font-mono text-slate-800 dark:bg-slate-800 dark:text-slate-200">
                     {dimensions.widthPt.toFixed(1)} × {dimensions.heightPt.toFixed(1)} pt
                   </span>
@@ -697,16 +696,16 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
               {/* Export Controls (Requirement 7) */}
               <div className="flex items-center gap-2">
                 <div className="flex items-center gap-1 text-[11px] text-slate-600 dark:text-slate-400">
-                  <span>Res:</span>
+                  <span>{tUi("resolution")}</span>
                   <select
                     value={exportRes}
                     onChange={(e) => setExportRes(e.target.value as ExportResolution)}
                     className="rounded-lg border border-slate-300 bg-white px-2 py-1 text-xs font-medium text-slate-900 dark:border-slate-700 dark:bg-slate-800 dark:text-white"
                   >
-                    <option value="1">1x (72 DPI - Standard)</option>
-                    <option value="2">2x (144 DPI - High Res)</option>
-                    <option value="3">3x (216 DPI - Retina)</option>
-                    <option value="4.167">4x (300 DPI - Print)</option>
+                    <option value="1">{tUi("1x72DPIStandard")}</option>
+                    <option value="2">{tUi("2x144DPIHighRes")}</option>
+                    <option value="3">{tUi("3x216DPIRetina")}</option>
+                    <option value="4.167">{tUi("4x300DPIPrint")}</option>
                   </select>
                 </div>
 
@@ -715,7 +714,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                   onClick={() => handleExportImage("png")}
                   disabled={exporting}
                   className="inline-flex items-center gap-1.5 rounded-xl bg-indigo-600 px-3 py-1.5 text-xs font-bold text-white shadow-xs hover:bg-indigo-700 disabled:opacity-50 dark:bg-indigo-500"
-                  title="Export page as transparent PNG"
+                  title={tUi("exportPageAsTransparentPNG")}
                 >
                   <Download className="size-3.5" />
                   <span>PNG</span>
@@ -726,7 +725,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                   onClick={() => handleExportImage("jpg")}
                   disabled={exporting}
                   className="inline-flex items-center gap-1.5 rounded-xl border border-slate-300 bg-white px-3 py-1.5 text-xs font-bold text-slate-700 shadow-2xs hover:bg-slate-50 disabled:opacity-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
-                  title="Export page as JPG with white background"
+                  title={tUi("exportPageAsJPGWithWhiteBackground")}
                 >
                   <Download className="size-3.5" />
                   <span>JPG</span>
@@ -737,7 +736,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                     type="button"
                     onClick={handleDownloadPdf}
                     className="inline-flex items-center gap-1.5 rounded-xl border border-slate-300 bg-white px-3 py-1.5 text-xs font-semibold text-slate-700 shadow-2xs hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
-                    title="Download original PDF preview stream"
+                    title={tUi("downloadOriginalPDFPreviewStream")}
                   >
                     <Download className="size-3.5" />
                     <span>PDF</span>
@@ -767,9 +766,9 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
               <div className="border-t border-slate-200 bg-slate-50 p-3 dark:border-slate-800 dark:bg-slate-950">
                 <div className="mb-2 flex items-center justify-between">
                   <span className="text-[11px] font-bold uppercase tracking-wider text-slate-500">
-                    PDF Pages / Exported Artboards ({numPages})
+                    {tUi("pDFPagesExportedArtboards")}{numPages})
                   </span>
-                  <span className="text-[11px] text-slate-400">Click to switch page</span>
+                  <span className="text-[11px] text-slate-400">{tUi("clickToSwitchPage")}</span>
                 </div>
                 <div className="flex gap-3 overflow-x-auto pb-1">
                   {thumbnails.map((thumb, idx) => {
@@ -789,7 +788,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
                           src={thumb}
-                          alt={`Page ${pageNum}`}
+                          alt={tUi("pageAlt", { page: pageNum })}
                           className="h-20 w-auto rounded border border-slate-100 object-contain shadow-xs dark:border-slate-800"
                         />
                         <span
@@ -799,7 +798,7 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
                               : "text-slate-600 dark:text-slate-400"
                           }`}
                         >
-                          Page {pageNum}
+                          {tUi("page")} {pageNum}
                         </span>
                       </button>
                     );
@@ -814,50 +813,35 @@ export function AiViewerEngine({ slug = "ai-viewer" }: { slug?: string }) {
       {/* Technical FAQ & Guide Section */}
       <div className="mt-8 space-y-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
         <h3 className="text-base font-bold text-slate-900 dark:text-white">
-          Adobe Illustrator (.ai) File Viewer Guide
+          {tUi("adobeIllustratorAiFileViewerGuide")}
         </h3>
         <div className="grid gap-4 sm:grid-cols-2 text-xs leading-relaxed text-slate-600 dark:text-slate-400">
           <div className="rounded-xl border border-slate-100 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950">
             <h4 className="font-bold text-slate-800 dark:text-slate-200">
-              How does this viewer open .ai files?
+              {tUi("howDoesThisViewerOpenAiFiles")}
             </h4>
-            <p className="mt-1">
-              When saving in Adobe Illustrator, the &quot;Create PDF Compatible File&quot; option is
-              enabled by default. This bundles a complete PDF vector preview stream inside the .ai
-              container. Our viewer parses this stream 100% locally using Mozilla PDF.js.
-            </p>
+            <p className="mt-1">{tUi("howDoesThisViewerOpenAiFilesAnswer")}</p>
           </div>
 
           <div className="rounded-xl border border-slate-100 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950">
             <h4 className="font-bold text-slate-800 dark:text-slate-200">
-              Why do some .ai files say &quot;No readable preview&quot;?
+              {tUi("whyDoSomeAiFilesSayNoReadablePreview")}
             </h4>
-            <p className="mt-1">
-              If an Illustrator file was saved with &quot;Create PDF Compatible File&quot; disabled or
-              in legacy Illustrator 8 format, it contains only proprietary PostScript code and no PDF
-              data. Simply re-save the file in Illustrator with PDF compatibility enabled.
-            </p>
+            <p className="mt-1">{tUi("whyDoSomeAiFilesSayNoReadablePreviewAnswer")}</p>
           </div>
 
           <div className="rounded-xl border border-slate-100 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950">
             <h4 className="font-bold text-slate-800 dark:text-slate-200">
-              Can I export high-resolution PNG or JPG?
+              {tUi("canIExportHighResolutionPngOrJpg")}
             </h4>
-            <p className="mt-1">
-              Yes. You can select 1x (72 DPI), 2x (144 DPI), 3x (216 DPI), or 4x (300 DPI print quality)
-              from the resolution dropdown. PNG exports preserve vector transparency, while JPG exports
-              include a solid white background.
-            </p>
+            <p className="mt-1">{tUi("canIExportHighResolutionPngOrJpgAnswer")}</p>
           </div>
 
           <div className="rounded-xl border border-slate-100 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950">
             <h4 className="font-bold text-slate-800 dark:text-slate-200">
-              Is my artwork uploaded to any server?
+              {tUi("isMyArtworkUploadedToAnyServer")}
             </h4>
-            <p className="mt-1">
-              Never. File decoding, vector rasterization, and image generation run entirely within your
-              browser&apos;s Web Worker sandbox. No file data is ever transmitted across the internet.
-            </p>
+            <p className="mt-1">{tUi("isMyArtworkUploadedToAnyServerAnswer")}</p>
           </div>
         </div>
       </div>

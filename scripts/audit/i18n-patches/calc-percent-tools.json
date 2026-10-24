@@ -1,0 +1,21 @@
+{
+  "namespace": "ui.calculators.PercentTools",
+  "en": {
+    "working": "Working",
+    "changeFromAToB": "Change from A to B",
+    "percentOfWhatPercentAndWholeFormulaNote": "percent of = (percent ÷ 100) × value · what percent = (part ÷ whole) × 100 · whole from part = (part ÷ percent) × 100",
+    "percentageChangeAndPointsFormulaNote": "Percentage change compares two values relative to the starting value. Percentage points compare two percentages directly ({points} points here).",
+    "percentageIncreaseFormulaNote": "percentage increase = ((new − old) ÷ old) × 100 · increased value = old × (1 + percent ÷ 100)",
+    "percentageDecreaseFormulaNote": "percentage decrease = ((before − after) ÷ before) × 100 · reduced value = before × (1 − percent ÷ 100)",
+    "percentageDifferenceVersusChangeFormulaNote": "Use percentage difference when the two numbers have no meaningful order (percentages of two different populations). Use percentage change when one value is the starting point."
+  },
+  "de": {
+    "working": "Rechenweg",
+    "changeFromAToB": "Änderung von A zu B",
+    "percentOfWhatPercentAndWholeFormulaNote": "Prozent von = (Prozent ÷ 100) × Wert · welcher Prozentsatz = (Teil ÷ Ganzes) × 100 · Ganzes aus Teil = (Teil ÷ Prozent) × 100",
+    "percentageChangeAndPointsFormulaNote": "Die Prozentänderung vergleicht zwei Werte relativ zum Startwert. Prozentpunkte vergleichen zwei Prozentsätze direkt ({points} Prozentpunkte hier).",
+    "percentageIncreaseFormulaNote": "Prozentsteigerung = ((neu − alt) ÷ alt) × 100 · erhöhter Wert = alt × (1 + Prozent ÷ 100)",
+    "percentageDecreaseFormulaNote": "Prozentminderung = ((vorher − nachher) ÷ vorher) × 100 · reduzierter Wert = vorher × (1 − Prozent ÷ 100)",
+    "percentageDifferenceVersusChangeFormulaNote": "Verwenden Sie die Prozentdifferenz, wenn die beiden Zahlen keine sinnvolle Reihenfolge haben (Prozentsätze zweier unterschiedlicher Grundgesamtheiten). Verwenden Sie die Prozentänderung, wenn ein Wert der Ausgangswert ist."
+  }
+}

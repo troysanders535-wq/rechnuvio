@@ -1,0 +1,402 @@
+{
+  "ui.engines.TextDiceWorkspace": {
+    "keptDie": {
+      "text": "Kept die",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    },
+    "modifier": {
+      "text": "Modifier",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    },
+    "total": {
+      "text": "Total",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    },
+    "rolls": {
+      "text": "Rolls",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    },
+    "dice": {
+      "text": "Dice",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    },
+    "discarded": {
+      "text": "Discarded",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    },
+    "kept": {
+      "text": "Kept",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    },
+    "result": {
+      "text": "Result",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    },
+    "copy": {
+      "text": "Copy",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    },
+    "copyTheResultOfTheLastRoll": {
+      "text": "Copy the result of the last roll",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    },
+    "settings": {
+      "text": "Settings",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    },
+    "mode": {
+      "text": "Mode",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    },
+    "normal": {
+      "text": "Normal",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    },
+    "advantage": {
+      "text": "Advantage",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    },
+    "disadvantage": {
+      "text": "Disadvantage",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    },
+    "history": {
+      "text": "History",
+      "file": "src/components/engines/TextDiceWorkspace.tsx"
+    }
+  },
+  "ui.engines.TextDocxWorkspace": {
+    "acceptAllTrackedChanges": {
+      "text": "Accept all tracked changes",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "chooseDocx": {
+      "text": "Choose .docx",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "download": {
+      "text": "Download",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "insertionsAccepted": {
+      "text": "Insertions accepted",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "deletionsRemoved": {
+      "text": "Deletions removed",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "reviewerNamesCleared": {
+      "text": "Reviewer names cleared",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "commentAnchorsRemoved": {
+      "text": "Comment anchors removed",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "acceptedText": {
+      "text": "Accepted text",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "copy": {
+      "text": "Copy",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "summary": {
+      "text": "Summary",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "removeCommentsFromWord": {
+      "text": "Remove comments from Word",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "whatShouldHappen": {
+      "text": "What should happen",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "removeAllComments": {
+      "text": "Remove all comments",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "keepCommentsClearReviewerNames": {
+      "text": "Keep comments, clear reviewer names",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "wordToHTML": {
+      "text": "Word to HTML",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "hTMLCharacters": {
+      "text": "HTML characters",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "conversionNotes": {
+      "text": "Conversion notes",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "hTMLSource": {
+      "text": "HTML source",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "preview": {
+      "text": "Preview",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "wordViewer": {
+      "text": "Word viewer",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "copyText": {
+      "text": "Copy text",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "words": {
+      "text": "Words",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "characters": {
+      "text": "Characters",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "author": {
+      "text": "Author",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    },
+    "title": {
+      "text": "Title",
+      "file": "src/components/engines/TextDocxWorkspace.tsx"
+    }
+  },
+  "ui.engines.TextHandwritingWorkspace": {
+    "plain": {
+      "text": "Plain",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "ruled": {
+      "text": "Ruled",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "grid": {
+      "text": "Grid",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "letter": {
+      "text": "Letter",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "handwritingGenerator": {
+      "text": "Handwriting generator",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "textToHandwriting": {
+      "text": "Text to handwriting",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "copyText": {
+      "text": "Copy text",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "clear": {
+      "text": "Clear",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "textToWriteByHand": {
+      "text": "Text to write by hand",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "typeTheTextToWriteByHand": {
+      "text": "Type the text to write by hand",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "handwritingFont": {
+      "text": "Handwriting font",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "inkColour": {
+      "text": "Ink colour",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "paperColour": {
+      "text": "Paper colour",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "paperType": {
+      "text": "Paper type",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "letterSize": {
+      "text": "Letter size",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "letterSpacing": {
+      "text": "Letter spacing",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "pageSize": {
+      "text": "Page size",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "characters": {
+      "text": "Characters",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "words": {
+      "text": "Words",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "lines": {
+      "text": "Lines",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "paper": {
+      "text": "Paper",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "preview": {
+      "text": "Preview",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "freehandPad": {
+      "text": "Freehand pad",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "hidePad": {
+      "text": "Hide pad",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "showPad": {
+      "text": "Show pad",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "brushSize": {
+      "text": "Brush size",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    },
+    "penColour": {
+      "text": "Pen colour",
+      "file": "src/components/engines/TextHandwritingWorkspace.tsx"
+    }
+  },
+  "ui.engines.TextNotepadWorkspace": {
+    "untitled": {
+      "text": "Untitled",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "plainText": {
+      "text": "Plain text",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "javaScript": {
+      "text": "JavaScript",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "markdown": {
+      "text": "Markdown",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "language": {
+      "text": "Language",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "saved": {
+      "text": "Saved",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "saving": {
+      "text": "Saving…",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "importFile": {
+      "text": "Import file",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "download": {
+      "text": "Download",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "copy": {
+      "text": "Copy",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "deleteAllSavedData": {
+      "text": "Delete all saved data",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "open": {
+      "text": "Open",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "wordWrap": {
+      "text": "Word wrap",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "zoom": {
+      "text": "Zoom %",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "doubleClickToRename": {
+      "text": "Double click to rename",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "closeTab": {
+      "text": "Close tab",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "newTab": {
+      "text": "New tab",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "tabName": {
+      "text": "Tab name",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "startTypingHere": {
+      "text": "Start typing here…",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "words": {
+      "text": "Words",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "characters": {
+      "text": "Characters",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "lines": {
+      "text": "Lines",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "readingTimeMin": {
+      "text": "Reading time (min)",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "find": {
+      "text": "Find",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "textToFind": {
+      "text": "Text to find",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "replace": {
+      "text": "Replace",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "replaceWith": {
+      "text": "Replace with",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "replaceAll": {
+      "text": "Replace all",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "hideSyntaxPreview": {
+      "text": "Hide syntax preview",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    },
+    "showSyntaxPreview": {
+      "text": "Show syntax preview",
+      "file": "src/components/engines/TextNotepadWorkspace.tsx"
+    }
+  }
+}

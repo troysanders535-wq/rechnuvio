@@ -1,0 +1,33 @@
+{
+  "namespace": "ui.engines.FileViewersEngine",
+  "en": {
+    "msgSubject": "Subject",
+    "msgFrom": "From",
+    "msgTo": "To",
+    "msgCc": "Cc",
+    "msgDate": "Date",
+    "msgBody": "Message",
+    "msgNoBody": "This message has no text body.",
+    "msgAttachments": "Attachments",
+    "msgNoAttachments": "This message has no attachments.",
+    "msgDownloadAttachment": "Download",
+    "msgHeaders": "Headers",
+    "msgSaveAsPdf": "Save as PDF",
+    "msgViewerNote": "The message is read from the compound file in your browser: the subject, the headers, the body and the attachments come from the property streams of the file. Nothing is uploaded."
+  },
+  "de": {
+    "msgSubject": "Betreff",
+    "msgFrom": "Von",
+    "msgTo": "An",
+    "msgCc": "Kopie an",
+    "msgDate": "Datum",
+    "msgBody": "Nachricht",
+    "msgNoBody": "Diese Nachricht hat keinen Textkörper.",
+    "msgAttachments": "Anhänge",
+    "msgNoAttachments": "Diese Nachricht hat keine Anhänge.",
+    "msgDownloadAttachment": "Herunterladen",
+    "msgHeaders": "Header",
+    "msgSaveAsPdf": "Als PDF speichern",
+    "msgViewerNote": "Die Nachricht wird in Ihrem Browser aus der Compound-Datei gelesen: Betreff, Header, Text und Anhänge stammen aus den Eigenschafts-Strömen der Datei. Es wird nichts hochgeladen."
+  }
+}

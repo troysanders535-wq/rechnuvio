@@ -12,6 +12,7 @@ import { PdfBase64Engine } from "./PdfBase64Engine";
 import { PdfEmailEngine } from "./PdfEmailEngine";
 import { PdfTextToPdfEngine } from "./PdfTextToPdfEngine";
 import { Pdf417Engine } from "./Pdf417Engine";
+import { useTranslations } from "next-intl";
 
 /**
  * Renders the workspace for a PDF tool.
@@ -21,6 +22,7 @@ import { Pdf417Engine } from "./Pdf417Engine";
  * falling back to an unrelated tool.
  */
 export function PdfVariantHost({ slug }: { slug: string }) {
+  const tUi = useTranslations("ui.pdf.PdfVariantHost");
   const variant = getPdfVariant(slug);
 
   switch (variant) {
@@ -60,7 +62,7 @@ export function PdfVariantHost({ slug }: { slug: string }) {
       return (
         <div className="rounded-2xl border border-amber-200 bg-amber-50 p-6 dark:border-amber-900/60 dark:bg-amber-950/40">
           <h3 className="text-base font-bold text-amber-900 dark:text-amber-200">
-            This PDF tool is not wired up yet
+            {tUi("thisPDFToolIsNotWiredUpYet")}
           </h3>
           <p className="mt-1 text-sm text-amber-800 dark:text-amber-300">
             <code className="rounded bg-amber-100 px-1.5 py-0.5 font-mono text-xs dark:bg-amber-900/60">

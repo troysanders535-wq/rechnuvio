@@ -1,0 +1,9 @@
+{
+  "namespace": "ui.pdf.Pdf417Engine",
+  "en": {
+    "scaleFactor": "Scale — {scale}×"
+  },
+  "de": {
+    "scaleFactor": "Maßstab — {scale}×"
+  }
+}

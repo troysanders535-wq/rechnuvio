@@ -1,0 +1,1096 @@
+{
+ "ui.calculators.ConstructionTools": {
+  "roomsFloorsAndLotsRectanglesCirclesAndTrianglesConvertedToMAndAcres": {
+   "text": "Räume, Etagen und Grundstücke — Rechtecke, Kreise und Dreiecke, umgerechnet in m² und Acres.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "howMuchConcreteASlabFootingOrPostHoleNeedsWithBagsAndCost": {
+   "text": "Wie viel Beton eine Platte, ein Fundament oder ein Pfostenloch benötigt — mit Säcken und Kosten.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "howMuchGravelCrushedStoneRiverRockOrSandYouNeedInTonsAndCubicYards": {
+   "text": "Wie viel Kies, Splitt, Flussstein oder Sand Sie in Tonnen und Kubikyard benötigen.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "howMuchMulchAGardenBedNeedsInCubicYardsAndBags": {
+   "text": "Wie viel Mulch ein Beet in Kubikyard und Säcken benötigt.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "23InForMostBeds": {
+   "text": "2–3 in für die meisten Beete",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "howManyTilesYouNeedFromTheAreaTileSizeAndGroutWidthPlusBoxesAndCost": {
+   "text": "Wie viele Fliesen Sie für Fläche, Fliesengröße und Fugenbreite benötigen — plus Kartons und Kosten.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "5TilesPerBox": {
+   "text": "5 Fliesen pro Karton",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "howManyGallonsOfPaintARoomNeedsWithOpeningsAndCoats": {
+   "text": "Wie viele Gallonen Farbe ein Raum benötigt, mit Öffnungen und Anstrichen.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "roofAreaRoofingSquaresAndShingleBundlesFromYourHouseSizeAndPitch": {
+   "text": "Dachfläche, Dachquadrate und Schindelbündel aus Hausgröße und Dachneigung.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "66In12": {
+   "text": "6 = 6 in 12",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "3SquaresPerBundle": {
+   "text": "3 Dachquadrate pro Bündel",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "theBTUAndACSizeARoomNeedsFromItsSizeCeilingHeightSunAndOccupants": {
+   "text": "Die BTU- und AC-Größe, die ein Raum aufgrund seiner Größe, Deckenhöhe, Sonneneinstrahlung und Personenzahl benötigt.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  }
+ },
+ "ui.calculators.DateTools": {
+  "exactAgeInYearsMonthsAndDaysPlusTheCountdownToTheNextBirthday": {
+   "text": "Exaktes Alter in Jahren, Monaten und Tagen sowie der Countdown bis zum nächsten Geburtstag.",
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "yYYYMMDD": {
+   "text": "YYYY-MM-DD",
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "convertDogYearsToHumanYearsBySizeWithTheNewerEpigeneticFormula": {
+   "text": "Hundejahre nach Größe in Menschenjahre umrechnen, mit der neueren epigenetischen Formel.",
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "addOrSubtractDaysWeeksMonthsOrYearsAndFindTheTimeBetweenTwoDates": {
+   "text": "Tage, Wochen, Monate oder Jahre addieren bzw. subtrahieren und die Zeit zwischen zwei Daten berechnen.",
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "countTheDaysBetweenTwoDatesInYearsMonthsWeeksAndWeekdays": {
+   "text": "Tage zwischen zwei Daten in Jahren, Monaten, Wochen und Wochentagen zählen.",
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "workingDaysBetweenTwoDatesSkippingWeekendsAndHolidays": {
+   "text": "Werktage zwischen zwei Daten, ohne Wochenenden und Feiertage.",
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "yYYYMMDDSeparatedByCommas": {
+   "text": "YYYY-MM-DD, durch Kommas getrennt",
+   "file": "src/components/calculators/DateTools.tsx"
+  }
+ },
+ "ui.calculators.FitnessTools": {
+  "estimateYour1RMFromAnySetOf115RepsWithTheEpleyBrzyckiAndLombardiFormulas": {
+   "text": "Schätzen Sie Ihren 1RM aus jedem Satz mit 1–15 Wiederholungen anhand der Epley-, Brzycki- und Lombardi-Formeln.",
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "1To15": {
+   "text": "1 bis 15",
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "howMuchWaterToDrinkADayFromYourWeightExerciseAndClimate": {
+   "text": "Wie viel Wasser Sie pro Tag trinken sollten, berechnet aus Gewicht, Bewegung und Klima.",
+   "file": "src/components/calculators/FitnessTools.tsx"
+  }
+ },
+ "ui.calculators.FractionTools": {
+  "addSubtractMultiplyAndDivideFractionsMixedNumbersAndWholeNumbers": {
+   "text": "Brüche, gemischte Zahlen und Ganzzahlen addieren, subtrahieren, multiplizieren und dividieren.",
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "reduceAnyFractionOrMixedNumberToLowestTerms": {
+   "text": "Jeden Bruch oder jede gemischte Zahl vollständig kürzen.",
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "workWithMixedNumbersImproperFractionsAndWholeNumbers": {
+   "text": "Mit gemischten Zahlen, uneigentlichen Brüchen und Ganzzahlen arbeiten.",
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "findTheLeastCommonDenominatorOf2To10FractionsAndRewriteThem": {
+   "text": "Den kleinsten gemeinsamen Nenner von 2 bis 10 Brüchen finden und sie umformen.",
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "2To10": {
+   "text": "2 bis 10",
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "convertAnyDecimalIncludingRepeatingOnesIntoAFractionInSimplestForm": {
+   "text": "Beliebige Dezimalzahlen — auch periodische — in einen Bruch in einfachster Form umwandeln.",
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "convertFractionsAndMixedNumbersToDecimalsAndPercentages": {
+   "text": "Brüche und gemischte Zahlen in Dezimalzahlen und Prozentwerte umwandeln.",
+   "file": "src/components/calculators/FractionTools.tsx"
+  }
+ },
+ "ui.calculators.GradeTools": {
+  "weightedAndUnweightedGPASideBySideWithHonoursAPAndIBWeighting": {
+   "text": "Gewichtete und ungewichtete GPA nebeneinander, mit Gewichtung für Honours, AP und IB.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "typeReportCardPercentagesOrLetterGradesNoCreditHoursNeeded": {
+   "text": "Geben Sie Zeugnis-Prozentsätze oder Buchstabennoten ein — Credits sind nicht erforderlich.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "combineYourCurrentGPAAndCreditsWithNewSemesterGrades": {
+   "text": "Aktuelle GPA und Credits mit den Noten des neuen Semesters kombinieren.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "whatYouNeedNextSemesterToReachYourTargetGPA": {
+   "text": "Was Sie im nächsten Semester benötigen, um Ihre Ziel-GPA zu erreichen.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "weightedClassGradeWithCategoriesPlusTheScoreNeededOnTheFinal": {
+   "text": "Gewichtete Gesamtnote mit Kategorien, zuzüglich der benötigten Punktzahl in der Abschlussprüfung.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "weightedGradeFromCategoriesUsePercentWeightsOrPoints": {
+   "text": "Gewichtete Note aus Kategorien — verwenden Sie Prozentgewichte oder Punkte.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "theScoreYouNeedOnTheFinalExamToReachYourGoalGrade": {
+   "text": "Die Punktzahl, die Sie in der Abschlussprüfung benötigen, um Ihre Zielnote zu erreichen.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "yourTestScoreFromTheNumberOfCorrectAnswers": {
+   "text": "Ihre Testnote aus der Anzahl der richtigen Antworten.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  }
+ },
+ "ui.calculators.MoneyTools": {
+  "salePriceSavingsStackedDiscountsAndSalesTax": {
+   "text": "Verkaufspreis, Ersparnis, kombinierte Rabatte und Verkaufssteuer.",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "profitMarginFromCostAndPriceOrTheSellingPriceForATargetMargin": {
+   "text": "Gewinnmarge aus Kosten und Preis oder der Verkaufspreis für eine Zielmarge.",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "sellingPriceFromAMarkupOrTheMarkupOfAGivenPrice": {
+   "text": "Verkaufspreis aus einem Aufschlag oder der Aufschlag eines bestimmten Preises.",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "convertAnAnnualSalaryToAnHourlyWageAndOtherPayPeriods": {
+   "text": "Jahresgehalt in einen Stundenlohn und andere Abrechnungszeiträume umrechnen.",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "convertAnHourlyWageToAnnualWeeklyBiWeeklyAndDailyPay": {
+   "text": "Stundenlohn in Jahres-, Wochen-, Zweiwochen- und Tagesvergütung umrechnen.",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "timeAndAHalfAndDoubleTimeWithTheRegularAndOvertimePaySplitOut": {
+   "text": "1,5-fache und doppelte Vergütung, mit getrennt ausgewiesener Regel- und Überstundenvergütung.",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "8Hours": {
+   "text": "8 Stunden",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "15TimeAndAHalf": {
+   "text": "1.5 = 1,5-fache Vergütung",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "whatAnApplianceCostsToRunPerDayMonthAndYear": {
+   "text": "Was ein Elektrogerät pro Tag, Monat und Jahr im Betrieb kostet.",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  }
+ },
+ "ui.calculators.NumberBaseTools": {
+  "convertNumbersToRomanNumeralsAndBackFrom1To3999999": {
+   "text": "Zahlen in römische Zahlen und zurück umrechnen, von 1 bis 3,999,999.",
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "convertAnyDateToRomanNumeralsForTattoosRingsAndWeddingGifts": {
+   "text": "Beliebige Daten in römische Zahlen für Tattoos, Ringe und Hochzeitsgeschenke umrechnen.",
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "yYYYMMDD": {
+   "text": "YYYY-MM-DD",
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  }
+ },
+ "ui.calculators.PercentTools": {
+  "xOfYWhatPercentXIsOfYPercentageChangeAndTheWholeFromAPart": {
+   "text": "X % von Y, welcher Prozentsatz X von Y ist, Prozentänderung und das Ganze aus einem Teil.",
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "percentageChangeBetweenAnOldAndANewValue": {
+   "text": "Prozentänderung zwischen einem alten und einem neuen Wert.",
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "increaseANumberByAPercentOrFindTheOriginalValue": {
+   "text": "Eine Zahl um einen Prozentsatz erhöhen oder den Ausgangswert finden.",
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "reduceANumberByAPercentOrFindTheValueBeforeADecrease": {
+   "text": "Eine Zahl um einen Prozentsatz reduzieren oder den Wert vor der Verringerung finden.",
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "usesTheAverageOfTheTwoNumbersAsTheReferenceIdealForComparingUnlikeValues": {
+   "text": "Verwendet den Mittelwert der beiden Zahlen als Referenz — ideal zum Vergleich unterschiedlicher Werte.",
+   "file": "src/components/calculators/PercentTools.tsx"
+  }
+ },
+ "ui.calculators.StatsTools": {
+  "meanMedianModeRangeAndStandardDeviationForAnyListOfNumbers": {
+   "text": "Mittelwert, Median, Modalwert, Spannweite und Standardabweichung für jede Zahlenliste.",
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "separateTheNumbersWithCommasSpacesOrNewLines": {
+   "text": "Trennen Sie die Zahlen durch Kommas, Leerzeichen oder Zeilenumbrüche.",
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "sampleVarianceSAndPopulationVarianceWithTheSumOfSquares": {
+   "text": "Stichprobenvarianz (s²) und Grundgesamtheitsvarianz (σ²) mit der Summe der quadrierten Abweichungen.",
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "theAverageDistanceOfEveryValueFromTheMean": {
+   "text": "Der durchschnittliche Abstand jedes Wertes vom Mittelwert.",
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "howManyStandardDeviationsAValueSitsFromTheMeanWithItsPercentile": {
+   "text": "Wie viele Standardabweichungen ein Wert vom Mittelwert abweicht, mit seinem Perzentil.",
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "q1MedianQ3TheInterquartileRangeOutliersAndTheFiveNumberSummary": {
+   "text": "Q1, Median, Q3, Interquartilsabstand, Ausreißer und Fünf-Zahlen-Zusammenfassung.",
+   "file": "src/components/calculators/StatsTools.tsx"
+  }
+ },
+ "ui.calculators.TimeTools": {
+  "hoursAndMinutesBetweenTwoTimesWithBreaksAndOvernightShifts": {
+   "text": "Stunden und Minuten zwischen zwei Zeiten, mit Pausen und Nachtschichten.",
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "addAndSubtractTimesTotalAListOfTimesOrAddADurationToAClockTime": {
+   "text": "Zeiten addieren und subtrahieren, eine Liste von Zeiten summieren oder eine Dauer zu einer Uhrzeit addieren.",
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "clockInAndClockOutTimesWithBreaksOvertimeAndPay": {
+   "text": "Ein- und Ausstempelzeiten mit Pausen, Überstunden und Vergütung.",
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "1730Or173000": {
+   "text": "1730 oder 173000",
+   "file": "src/components/calculators/TimeTools.tsx"
+  }
+ },
+ "ui.pdf.Pdf417Engine": {
+  "createAScannablePDF417BarcodeAndDownloadItAsAPDFOrAPNG": {
+   "text": "Erstellen Sie einen scannbaren PDF417-Barcode und laden Sie ihn als PDF oder PNG herunter.",
+   "file": "src/components/pdf/Pdf417Engine.tsx"
+  },
+  "upToAFewThousandCharactersOfData": {
+   "text": "Bis zu ein paar Tausend Zeichen an Daten.",
+   "file": "src/components/pdf/Pdf417Engine.tsx"
+  }
+ },
+ "ui.pdf.PdfBase64Engine": {
+  "decodeABase64PayloadAndTurnItIntoAPDFOrDownloadTheOriginalFile": {
+   "text": "Dekodieren Sie eine Base64-Nutzlast und wandeln Sie sie in eine PDF-Datei um oder laden Sie die Originaldatei herunter.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "orPasteTheBase64PayloadBelow": {
+   "text": "Oder fügen Sie die Base64-Nutzlast unten ein.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  }
+ },
+ "ui.pdf.PdfCompressEngine": {
+  "shrinkAPDFByReEncodingItsPagesOrRewriteItsStructureWithoutTouchingTheText": {
+   "text": "Verkleinern Sie eine PDF-Datei durch Neukodierung der Seiten oder schreiben Sie ihre Struktur neu, ohne den Text zu verändern.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "onePdfFileEverythingRunsInYourBrowser": {
+   "text": "Eine .pdf-Datei. Alles läuft in Ihrem Browser.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfEmailEngine": {
+  "turnAnEmlOrMsgEmailIntoAReadablePDFIncludingItsHeadersAndAttachmentList": {
+   "text": "Verwandeln Sie eine .eml- oder .msg-E-Mail in eine lesbare PDF-Datei, einschließlich ihrer Kopfzeilen und Anhangsliste.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  },
+  "anEmlFileExportedFromAMailClientOrAnOutlookMsgFile": {
+   "text": "Eine aus einem Mailprogramm exportierte .eml-Datei oder eine Outlook-.msg-Datei.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfImageEngine": {
+  "turnJPGPNGWebPOrGIFImagesIntoASinglePDFDocument": {
+   "text": "Verwandeln Sie JPG-, PNG-, WebP- oder GIF-Bilder in ein einzelnes PDF-Dokument.",
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "oneImagePerPageInTheOrderYouAddThem": {
+   "text": "Ein Bild pro Seite, in der Reihenfolge, in der Sie sie hinzufügen.",
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "renderEveryPageOfAPDFToAHighResolutionPNGOrJPG": {
+   "text": "Rendern Sie jede Seite einer PDF-Datei in ein hochauflösendes PNG oder JPG.",
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "onePdfFileRenderingHappensLocallyInYourBrowser": {
+   "text": "Eine .pdf-Datei. Das Rendern erfolgt lokal in Ihrem Browser.",
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfMergeEngine": {
+  "combineSeveralPDFsIntoOneDocumentInTheOrderYouSet": {
+   "text": "Führen Sie mehrere PDF-Dateien in einem Dokument zusammen, in der Reihenfolge, die Sie festlegen.",
+   "file": "src/components/pdf/PdfMergeEngine.tsx"
+  },
+  "addTwoOrMorePdfFilesEverythingRunsInYourBrowser": {
+   "text": "Fügen Sie zwei oder mehr .pdf-Dateien hinzu. Alles läuft in Ihrem Browser.",
+   "file": "src/components/pdf/PdfMergeEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfMetaEngine": {
+  "onePdfFileEverythingRunsInYourBrowser": {
+   "text": "Eine .pdf-Datei. Alles läuft in Ihrem Browser.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfRedactEngine": {
+  "onePdfFileTheDocumentNeverLeavesYourDevice": {
+   "text": "Eine .pdf-Datei. Das Dokument verlässt Ihr Gerät nie.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "separateMultipleTermsWithACommaMatchesAreLocatedInThePDFTextLayer": {
+   "text": "Trennen Sie mehrere Begriffe durch ein Komma. Treffer werden in der PDF-Textebene gefunden.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfSplitEngine": {
+  "extractAPageRangeSplitIntoSinglePagesOrCutIntoFixedSizeChunks": {
+   "text": "Extrahieren Sie einen Seitenbereich, teilen Sie in einzelne Seiten auf oder schneiden Sie in Blöcke fester Größe.",
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "onePdfFileEverythingRunsInYourBrowser": {
+   "text": "Eine .pdf-Datei. Alles läuft in Ihrem Browser.",
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "use1BasedPageNumbersEG135810": {
+   "text": "Verwenden Sie 1-basierte Seitenzahlen, z. B. 1-3, 5, 8-10",
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfTextEngine": {
+  "onePdfFileEverythingRunsInYourBrowser": {
+   "text": "Eine .pdf-Datei. Alles läuft in Ihrem Browser.",
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfTextToPdfEngine": {
+  "optionalShownAsTheTopLevelHeading": {
+   "text": "Optional — wird als übergeordnete Überschrift angezeigt.",
+   "file": "src/components/pdf/PdfTextToPdfEngine.tsx"
+  }
+ },
+ "ui.engines.json.JsonCompareView": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "invalidJSONInDocumentA": {
+   "text": "Ungültiges JSON in Dokument A",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "invalidJSONInDocumentB": {
+   "text": "Ungültiges JSON in Dokument B",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "differencesDetected": {
+   "text": "Unterschiede erkannt",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "swapAB": {
+   "text": "A ⇄ B tauschen",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "ignoreKeyOrder": {
+   "text": "Schlüsselreihenfolge ignorieren",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "copiedReport": {
+   "text": "Bericht kopiert!",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "copyReport": {
+   "text": "Bericht kopieren",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "clearBothInputs": {
+   "text": "Beide Eingaben leeren",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "100SemanticallyIdenticalZeroDifferencesFoundBetweenDocumentAAndDocumentB": {
+   "text": "100% semantisch identisch — keine Unterschiede zwischen Dokument A und Dokument B gefunden.",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "added": {
+   "text": "Hinzugefügt",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "removed": {
+   "text": "Entfernt",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "modified": {
+   "text": "Geändert",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "typeMismatch": {
+   "text": "Typenkonflikt",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "documentAOriginal": {
+   "text": "Dokument A (Original)",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "pasteFirstJSONDocument": {
+   "text": "Erstes JSON-Dokument einfügen...",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "documentBModifiedCompared": {
+   "text": "Dokument B (Geändert / Verglichen)",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "pasteSecondJSONDocument": {
+   "text": "Zweites JSON-Dokument einfügen...",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "structuralDifferences": {
+   "text": "Strukturelle Unterschiede (",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "type": {
+   "text": "Typ",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "path": {
+   "text": "Pfad",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "documentA": {
+   "text": "Dokument A",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "documentB": {
+   "text": "Dokument B",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "none": {
+   "text": "Keine",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  }
+ },
+ "ui.engines.json.JsonEditorView": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "jSONFormatter": {
+   "text": "JSON-Formatter",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "dataFormats": {
+   "text": "Datenformate",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "jSONValidator": {
+   "text": "JSON-Validator",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "jSONViewer": {
+   "text": "JSON-Viewer",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "invalidJSONSyntax": {
+   "text": "Ungültige JSON-Syntax",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "codeEditor": {
+   "text": "Code-Editor",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "treeView": {
+   "text": "Baumansicht",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "format": {
+   "text": "Format",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "minify": {
+   "text": "Minifizieren",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "findReplace": {
+   "text": "Suchen & Ersetzen",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "2Spaces": {
+   "text": "2 Leerzeichen",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "4Spaces": {
+   "text": "4 Leerzeichen",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "tabs": {
+   "text": "Tabulatoren",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "openFile": {
+   "text": "Datei öffnen",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "save": {
+   "text": "Speichern",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "clear": {
+   "text": "Leeren",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "findText": {
+   "text": "Text suchen...",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "replaceWith": {
+   "text": "Ersetzen mit...",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "replaceAll": {
+   "text": "Alle ersetzen",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "validJSONSyntax": {
+   "text": "Gültige JSON-Syntax",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "pasteOrWriteJSONHere": {
+   "text": "JSON hier einfügen oder schreiben...",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  }
+ },
+ "ui.engines.json.JsonMinifierView": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "fastSecureClientSideDeveloperUtilitySuite": {
+   "text": "Schnelle, sichere clientseitige Entwicklerwerkzeug-Suite",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "clientSideProcessing": {
+   "text": "Clientseitige Verarbeitung",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "zeroServerUploads": {
+   "text": "Keine Server-Uploads",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "zeroTelemetry": {
+   "text": "Keine Telemetrie",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "subMillisecondExecution": {
+   "text": "Ausführung in unter einer Millisekunde",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "invalidJSONSyntax": {
+   "text": "Ungültige JSON-Syntax",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "instantMinifier": {
+   "text": "Sofort-Minifizierer",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "copiedMinifiedJSON": {
+   "text": "Minifiziertes JSON kopiert!",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "copyMinifiedJSON": {
+   "text": "Minifiziertes JSON kopieren",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "downloadMinJson": {
+   "text": ".min.json herunterladen",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "clear": {
+   "text": "Leeren",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "saved": {
+   "text": "Gespeichert",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "formattedInput": {
+   "text": "Formatierte Eingabe",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "pasteJSONHere": {
+   "text": "JSON hier einfügen...",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "minifiedOutputSingleLine": {
+   "text": "Minifizierte Ausgabe (einzeilig)",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "minifiedJSONWillAppearHere": {
+   "text": "Minifiziertes JSON erscheint hier...",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  }
+ },
+ "ui.engines.json.JsonToonView": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "zeroServerUploads": {
+   "text": "Keine Server-Uploads",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "conversionError": {
+   "text": "Konvertierungsfehler",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "modeJSONTOON": {
+   "text": "Modus: JSON → TOON",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "modeTOONJSON": {
+   "text": "Modus: TOON → JSON",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "copyOutput": {
+   "text": "Ausgabe kopieren",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "download": {
+   "text": "Herunterladen",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "clear": {
+   "text": "Leeren",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "jSONInput": {
+   "text": "JSON-Eingabe",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "tOONInput": {
+   "text": "TOON-Eingabe",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "tOONOutputCompact": {
+   "text": "TOON-Ausgabe (kompakt)",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "jSONOutput": {
+   "text": "JSON-Ausgabe",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "convertedResultWillAppearHere": {
+   "text": "Das konvertierte Ergebnis erscheint hier...",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  }
+ },
+ "ui.engines.json.JsonToTsView": {
+  "leanneGraham": {
+   "text": "Leanne Graham",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "kulasLight": {
+   "text": "Kulas Light",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "apt556": {
+   "text": "Apt. 556",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "17707368031X56442": {
+   "text": "1-770-736-8031 x56442",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "multiLayeredClientServerNeuralNet": {
+   "text": "Multi-layered client-server neural-net",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "invalidJSONSyntax": {
+   "text": "Ungültige JSON-Syntax",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "export": {
+   "text": "Export",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "copiedTS": {
+   "text": "TS kopiert!",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "copyTypeScript": {
+   "text": "TypeScript kopieren",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "downloadDTs": {
+   "text": ".d.ts herunterladen",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "clear": {
+   "text": "Leeren",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "jSONInputSample": {
+   "text": "JSON-Beispieleingabe",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "pasteYourJSONHereToGenerateTypeScriptTypes": {
+   "text": "Fügen Sie hier Ihr JSON ein, um TypeScript-Typen zu erzeugen...",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "generatedTypeScriptDeclarations": {
+   "text": "Erzeugte TypeScript-Deklarationen",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "typeScriptInterfaceCodeWillGenerateHereAutomatically": {
+   "text": "Der TypeScript-Interface-Code wird hier automatisch erzeugt...",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  }
+ },
+ "ui.engines.json.JsonTreeViewer": {
+  "tree": {
+   "text": "Baum",
+   "file": "src/components/engines/json/JsonTreeViewer.tsx"
+  },
+  "table": {
+   "text": "Tabelle",
+   "file": "src/components/engines/json/JsonTreeViewer.tsx"
+  },
+  "raw": {
+   "text": "Roh",
+   "file": "src/components/engines/json/JsonTreeViewer.tsx"
+  },
+  "expandAll": {
+   "text": "Alle aufklappen",
+   "file": "src/components/engines/json/JsonTreeViewer.tsx"
+  },
+  "collapseAll": {
+   "text": "Alle zuklappen",
+   "file": "src/components/engines/json/JsonTreeViewer.tsx"
+  },
+  "searchKeysValues": {
+   "text": "Schlüssel / Werte suchen...",
+   "file": "src/components/engines/json/JsonTreeViewer.tsx"
+  }
+ },
+ "ui.engines.json.JsonValidatorView": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "100ClientSide": {
+   "text": "100% clientseitig",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "format": {
+   "text": "Format",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "minify": {
+   "text": "Minifizieren",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "autoRepairSyntax": {
+   "text": "Syntax automatisch reparieren",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "repairedFormatted": {
+   "text": "Repariert und formatiert!",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "openFile": {
+   "text": "Datei öffnen",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "download": {
+   "text": "Herunterladen",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "clear": {
+   "text": "Leeren",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "validJSONSyntax": {
+   "text": "Gültige JSON-Syntax",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "size": {
+   "text": "Größe",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "bytes": {
+   "text": "Bytes",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "lines": {
+   "text": "Zeilen",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "keys": {
+   "text": "Schlüssel",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "arrays": {
+   "text": "Arrays",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "depth": {
+   "text": "Tiefe",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "characters": {
+   "text": "Zeichen",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "invalidJSONSyntaxErrorOnLine": {
+   "text": "Ungültige JSON-Syntax — Fehler in Zeile",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "pasteJSONToValidate": {
+   "text": "JSON zum Prüfen einfügen...",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  }
+ },
+ "ui.engines.viewer3d.Model3DViewer": {
+  "loadingModel": {
+   "text": "Modell wird geladen...",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "0Bytes": {
+   "text": "0 Bytes",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "reading3DGeometry": {
+   "text": "3D-Geometrie wird gelesen...",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "unableToParseThe3DModelPleaseCheckTheFileFormatOrEnsureAllDependentTexturesAndMaterialMtlBinFilesWereSelectedTogether": {
+   "text": "Das 3D-Modell konnte nicht analysiert werden. Bitte prüfen Sie das Dateiformat oder stellen Sie sicher, dass alle abhängigen Texturen und Materialdateien (.mtl / .bin) gemeinsam ausgewählt wurden.",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "unknownErrorInitializing3DViewer": {
+   "text": "Unbekannter Fehler beim Initialisieren des 3D-Viewers",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "noModelLoadedToExport": {
+   "text": "Kein Modell zum Exportieren geladen.",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "exportFailed": {
+   "text": "Export fehlgeschlagen",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "online3DModelCADViewer": {
+   "text": "Online-3D-Modell- & CAD-Viewer",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "webGLHardwareAccelerated100PrivateClientSideSandbox": {
+   "text": "WebGL-Hardwarebeschleunigung • 100% private clientseitige Sandbox",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "selectOrDropAnother3DModel": {
+   "text": "Wählen Sie ein anderes 3D-Modell aus oder legen Sie es hier ab",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "openFile": {
+   "text": "Datei öffnen",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "exportOrConvertThis3DModel": {
+   "text": "Dieses 3D-Modell exportieren oder konvertieren",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "export": {
+   "text": "Export",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "dragDropYour3DModelHere": {
+   "text": "Ziehen Sie Ihr 3D-Modell hierher",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "open3DFile": {
+   "text": "3D-Datei öffnen",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "trySampleModel": {
+   "text": "Beispielmodell ausprobieren",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "supportedFormats": {
+   "text": "Unterstützte Formate",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "dropFilesToLoadNew3DModel": {
+   "text": "Dateien ablegen, um ein neues 3D-Modell zu laden",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "supportsMultiFileSelectionObjMtlGltfBin": {
+   "text": "Unterstützt die Auswahl mehrerer Dateien (.obj+.mtl, .gltf+.bin)",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "renderingGeometryInWebGL": {
+   "text": "Geometrie wird in WebGL gerendert...",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "fitToView": {
+   "text": "In die Ansicht einpassen",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "resetCameraView": {
+   "text": "Kameraansicht zurücksetzen",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "zoomIn": {
+   "text": "Vergrößern",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "zoomOut": {
+   "text": "Verkleinern",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "toggleWireframeMeshEdges": {
+   "text": "Drahtgitter-Kanten des Meshes umschalten",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "wireframe": {
+   "text": "Drahtgitter",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "changeViewerBackground": {
+   "text": "Viewer-Hintergrund ändern",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "theme": {
+   "text": "Farbschema",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "background": {
+   "text": "Hintergrund",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "toggleGeometryStats": {
+   "text": "Geometrie-Statistiken umschalten",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "triangles": {
+   "text": "Dreiecke",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "vertices": {
+   "text": "Eckpunkte",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "meshes": {
+   "text": "Meshes",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "boundingBox": {
+   "text": "Begrenzungsrahmen",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "volume": {
+   "text": "Volumen",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "dismiss": {
+   "text": "Schließen",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "3DEnginePoweredBy": {
+   "text": "3D-Engine, angetrieben von",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "online3DViewer": {
+   "text": "Online3DViewer",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "webGLThreeJsClientSideExecution": {
+   "text": "WebGL • Three.js • Clientseitige Ausführung",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "export3DModel": {
+   "text": "3D-Modell exportieren",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "sTLBinary": {
+   "text": "STL (Binär)",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "standardFor3DPrinting": {
+   "text": "Standard für 3D-Druck",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "sTLASCII": {
+   "text": "STL (ASCII)",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "humanReadableMesh": {
+   "text": "Lesbares Mesh",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "gLBBinary": {
+   "text": "GLB (Binär)",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "compactGlTFWithMaterials": {
+   "text": "Kompaktes glTF mit Materialien",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "standardWeb3DFormat": {
+   "text": "Standard-Web-3D-Format",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "wavefrontOBJ": {
+   "text": "Wavefront OBJ",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "includesMtlInZIP": {
+   "text": ".mtl in ZIP enthalten",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "pLYBinary": {
+   "text": "PLY (Binär)",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "polygonFormatWithColors": {
+   "text": "Polygonformat mit Farben",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "pLYASCII": {
+   "text": "PLY (ASCII)",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "textPolygonFormat": {
+   "text": "Text-Polygonformat",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "objectFileFormat": {
+   "text": "Objektdateiformat",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "bIMBim": {
+   "text": "BIM (.bim)",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "lightweightBIMModel": {
+   "text": "Leichtgewichtiges BIM-Modell",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "close": {
+   "text": "Schließen",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  }
+ }
+}

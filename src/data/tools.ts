@@ -17,7 +17,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "2026-calendar",
     "name": "2026 Calendar",
     "category": "Productivity",
-    "description": "2026 CalendarFree printable 2026 calendar with US or UK holidays. Whole year on one page or monthly pages, Sunday or Monday start and week numbers. Instant PDF.",
+    "description": "Free printable 2026 calendar with German, US or UK holidays. Whole year on one page or monthly pages, Sunday or Monday start and week numbers. Instant PDF.",
     "engine": "time-calendar",
     "keywords": [
       "2026",
@@ -26,11 +26,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "2026 calendar"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 numeric value: Year.",
+      "Choose between Holidays (4 values) and Federal State (Holiday jurisdiction) (8 values).",
+      "Provides 10 actions: Monday (ISO), Sunday, A4 (DIN Standard), US Letter and 6 more.",
+      "Copy, download or print the result with Download PDF and Print.",
+      "Works with PDF."
     ],
     "faqs": [
       {
@@ -44,6 +44,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does 2026 Calendar handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -51,7 +55,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "2027-calendar",
     "name": "2027 Calendar",
     "category": "Productivity",
-    "description": "2027 CalendarFree printable 2027 calendar with US or UK holidays. Whole year on one page or 12 monthly pages, Sunday or Monday start, week numbers. PDF, no sign-up.",
+    "description": "Free printable 2027 calendar: all twelve months as a table, Monday start. Print it straight away or download it as a PDF, no sign-up.",
     "engine": "time-calendar",
     "keywords": [
       "2027",
@@ -60,11 +64,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "2027 calendar"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 numeric value: Year.",
+      "Provides 2 actions: Print, Download PDF.",
+      "Copy, download or print the result with Print and Download PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - 2027 Calendar never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -78,6 +82,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does 2027 Calendar handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -85,7 +93,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "2027-holidays",
     "name": "2027 Holidays",
     "category": "Productivity",
-    "description": "2027 HolidaysAll 2027 US federal holidays with observed dates, plus UK bank holidays and key observances. See days away and add them to your calendar with one .ics file.",
+    "description": "All US federal holidays and UK bank holidays of any year with the date they fall on and, when they fall on a weekend, the day they are observed on. Pick the year and the region.",
     "engine": "time-calendar",
     "keywords": [
       "2027",
@@ -94,11 +102,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "2027 holidays"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 numeric value: Year.",
+      "Provides 2 actions: United States, United Kingdom.",
+      "Runs entirely in your browser - 2027 Holidays never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -112,6 +120,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does 2027 Holidays need as input?",
+        "a": "You enter your data in Start Date and End Date. Nothing else is required."
       }
     ]
   },
@@ -131,11 +143,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "obj viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Interactive orbit, pan, zoom, fit-to-view, and reset camera controls",
-      "Multi-file selection for 3D meshes, materials, and textures",
-      "Wireframe edge inspection and customizable background themes",
-      "Direct model export to STL, OBJ, glTF, GLB, PLY, OFF, and BIM"
+      "Reads files straight from your device: File.",
+      "Provides 2 actions: Open 3D File, Try Sample Model.",
+      "Works with STL, OBJ, GLB, 3MF, PLY, FBX.",
+      "Runs entirely in your browser - 3D Model Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -149,6 +161,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does 3D Model Viewer handle?",
+        "a": "It handles STL, OBJ, GLB, 3MF, PLY, FBX. The processing happens entirely in your browser."
       }
     ]
   },
@@ -156,7 +172,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "3mf-viewer",
     "name": "3MF Viewer",
     "category": "Design",
-    "description": "3MF ViewerView 3MF files from PrusaSlicer, Bambu Studio, Cura and CAD tools: colours, multiple objects, size, volume and weight. Export to STL. No upload needed.",
+    "description": "View 3MF files from PrusaSlicer, Bambu Studio, Cura and CAD tools: colours, multiple objects, size, volume and weight. Export to STL. No upload needed.",
     "engine": "file-viewers",
     "keywords": [
       "3mf",
@@ -165,11 +181,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "3mf viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: File.",
+      "Provides 2 actions: Open 3D File, Try Sample Model.",
+      "Works with 3MF, STL.",
+      "Runs entirely in your browser - 3MF Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -183,6 +199,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does 3MF Viewer handle?",
+        "a": "It handles 3MF, STL. The processing happens entirely in your browser."
       }
     ]
   },
@@ -190,7 +210,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "accept-all-changes-in-word",
     "name": "Accept All Changes in Word",
     "category": "Text Processing",
-    "description": "Accept All Changes in WordAccept all tracked changes in a Word document without Word: insertions kept, deletions removed, reviewer names cleared. Private, in your browser.",
+    "description": "Accept all tracked changes in a Word document without Word: insertions kept, deletions removed, reviewer names cleared. Private, in your browser.",
     "engine": "text-suite",
     "keywords": [
       "accept",
@@ -201,11 +221,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "accept all changes in word"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose .docx.",
+      "Runs entirely in your browser - Accept All Changes in Word never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -219,6 +238,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Accept All Changes in Word need as input?",
+        "a": "You enter your data in Choose .docx. Nothing else is required."
       }
     ]
   },
@@ -226,7 +249,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "adult-bmi-calculator",
     "name": "Adult BMI Calculator",
     "category": "Lifestyle",
-    "description": "Adult BMI CalculatorCalculate an adult BMI estimate from height and weight using metric or imperial units, directly in your browser.",
+    "description": "Calculate an adult BMI estimate from height and weight using metric or imperial units, directly in your browser.",
     "engine": "health-fitness",
     "keywords": [
       "adult",
@@ -236,11 +259,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "adult bmi calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Choose Biological Sex: Male, Female.",
+      "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
+      "Runs entirely in your browser - Adult BMI Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -254,6 +277,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Adult BMI Calculator?",
+        "a": "You can choose Biological Sex. The result is calculated right on the page."
       }
     ]
   },
@@ -261,7 +288,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "age-calculator",
     "name": "Age Calculator",
     "category": "Calculators",
-    "description": "Age CalculatorCalculate your exact age in years, months, and days, your age on any date, total days lived, and the countdown to your next birthday. Free.",
+    "description": "Calculate your exact age in years, months, and days, your age on any date, total days lived, and the countdown to your next birthday. Free.",
     "engine": "calculator-suite",
     "keywords": [
       "age",
@@ -270,11 +297,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "age calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Date of birth and Age on.",
+      "Runs entirely in your browser - Age Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -288,14 +314,18 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Age Calculator need as input?",
+        "a": "You enter your data in Date of birth and Age on. Nothing else is required."
       }
     ]
   },
   {
     "slug": "background-remover",
-    "name": "AI Background Remover",
+    "name": "Background Remover",
     "category": "Design",
-    "description": "AI Background RemoverRemove image backgrounds for free in your browser. Download a transparent PNG or choose a solid background color. Your photo is processed on your device.",
+    "description": "Make the background of a picture transparent: the colour of the border of the picture is treated as the background and removed, and the tolerance decides how many shades around it are caught. Download a transparent PNG or pick a solid background colour. Runs in your browser.",
     "engine": "image-suite",
     "keywords": [
       "background",
@@ -304,11 +334,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "background remover"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with PNG.",
+      "Runs entirely in your browser - Background Remover never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -322,6 +352,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does AI Background Remover handle?",
+        "a": "It handles PNG. The processing happens entirely in your browser."
+      },
+      {
+        "q": "Which file formats does Background Remover handle?",
+        "a": "It handles PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -340,11 +378,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "design"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads, files stay on your device",
-      "Mozilla PDF.js vector rendering engine for PDF-compatible .ai files",
-      "Interactive zoom, fit-to-width, and explicit page dimensions (pt, mm, in)",
-      "Multi-page navigation and thumbnail drawer for multi-artboard documents",
-      "High-resolution PNG (transparent) and JPG (white background) export up to 300 DPI"
+      "Reads files straight from your device: File.",
+      "Runs one action: Choose AI File.",
+      "Works with PDF, PNG, JPG.",
+      "Runs entirely in your browser - Adobe Illustrator (.ai) File Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -362,6 +400,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Is my artwork uploaded to any server?",
         "a": "No. All file reading, vector parsing, and image rasterization happen 100% locally on your computer inside the browser sandbox. No file data is ever transmitted."
+      },
+      {
+        "q": "Which file formats does Adobe Illustrator (.ai) File Viewer handle?",
+        "a": "It handles PDF, PNG, JPG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -369,7 +411,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "ai-to-pdf",
     "name": "AI to PDF Converter",
     "category": "Design",
-    "description": "AI to PDF ConverterConvert Illustrator .ai files to PDF without Illustrator: preview every artboard and save the vector PDF instantly. Detects incompatible files. Free.",
+    "description": "Open an Adobe Illustrator .ai file in your browser and download the page as a PDF. Choose the target format, preview the artwork and save it. No Illustrator, no upload.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -378,11 +420,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "ai to pdf"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Document titleOptional — shown as the top-level heading. and ContentMarkdown is supported: # headings, - bullets, > quotes and ``` code blocks..",
+      "Runs one action: Generate PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - AI to PDF Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -396,6 +438,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does AI to PDF Converter handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -403,7 +449,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "ai-to-png",
     "name": "AI to PNG Converter",
     "category": "Design",
-    "description": "AI to PNG ConverterConvert Adobe Illustrator .ai files to PNG at 72, 150 or 300 DPI. Export one artboard or all of them in a ZIP. In your browser: no Illustrator, no upload.",
+    "description": "Open an Adobe Illustrator .ai file in your browser and download the page as a PNG. Choose the target format, preview the artwork and save it. No Illustrator, no upload.",
     "engine": "image-suite",
     "keywords": [
       "png",
@@ -412,11 +458,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "ai to png"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose an Illustrator file.",
+      "Works with PNG.",
+      "Runs entirely in your browser - AI to PNG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -430,6 +476,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does AI to PNG Converter handle?",
+        "a": "It handles PNG, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -437,7 +487,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "ai-token-counter",
     "name": "AI Token Counter",
     "category": "Coding",
-    "description": "AI Token CounterEstimate the token length of AI prompts and see how the selected tokenizer affects the count before you hit a context limit. Free and runs in your browser.",
+    "description": "Estimate the token length of AI prompts and see how the selected tokenizer affects the count before you hit a context limit. Free and runs in your browser.",
     "engine": "text-suite",
     "keywords": [
       "token",
@@ -446,11 +496,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "ai token counter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Paste a prompt or text to count tokens and Price per 1M input tokens (USD).",
+      "Choose between Model (5 values) and Context window (6 values).",
+      "Provides 2 actions: Clear, Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - AI Token Counter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -464,6 +514,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in AI Token Counter?",
+        "a": "You can choose Model and Context window. The result is calculated right on the page."
       }
     ]
   },
@@ -471,7 +525,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "alphabetical-order-tool",
     "name": "Alphabetical Order Tool",
     "category": "Text Processing",
-    "description": "Alphabetical Order ToolSort lines of text into alphabetical order, A to Z or Z to A, with optional duplicate and whitespace cleanup. Free online alphabetical order tool, instant.",
+    "description": "Sort lines of text into alphabetical order, A to Z or Z to A, with optional duplicate and whitespace cleanup. Free online alphabetical order tool, instant.",
     "engine": "text-suite",
     "keywords": [
       "alphabetical",
@@ -481,11 +535,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "alphabetical order tool"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Type or paste one item per line.",
+      "Provides 10 actions: Clear, Sort A to Z, Sort Z to A, Remove duplicates and 6 more.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Alphabetical Order Tool never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -499,6 +553,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Alphabetical Order Tool need as input?",
+        "a": "You enter your data in Type or paste one item per line. Nothing else is required."
       }
     ]
   },
@@ -506,7 +564,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "apa-citation-generator",
     "name": "APA Citation Generator",
     "category": "Text Processing",
-    "description": "APA Citation GeneratorBuild APA 7 references for books, journal articles, and websites. Format citations in your browser, import BibTeX, and export to Word. Free, with no signup.",
+    "description": "Build APA 7 references for books, journal articles, and websites. Format citations in your browser, import BibTeX, and export to Word. Free, with no signup.",
     "engine": "text-suite",
     "keywords": [
       "apa",
@@ -516,11 +574,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "apa citation generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 7 inputs: Author(s), Year, Title, Publisher, Edition, Place and DOI or URL.",
+      "Choose Source type: Book, Journal article, Website.",
+      "Provides 6 actions: Download .txt, Download .doc, Download .bib, Copy and 2 more.",
+      "Copy, download or print the result with Download .txt, Download .doc and Download .bib.",
+      "Runs entirely in your browser - APA Citation Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -534,6 +592,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in APA Citation Generator?",
+        "a": "You can choose Source type. The result is calculated right on the page."
       }
     ]
   },
@@ -541,7 +603,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "api-tester",
     "name": "API Tester",
     "category": "Coding",
-    "description": "API TesterTest your REST APIs online instantly. A fast, free, and 100% client-side browser API testing tool with syntax highlighting, code snippets, and detailed responses.",
+    "description": "Test your REST APIs online instantly. A fast, free, and 100% client-side browser API testing tool with syntax highlighting, code snippets, and detailed responses.",
     "engine": "developer-suite",
     "keywords": [
       "api",
@@ -550,11 +612,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "api tester"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: GETPOSTPUTDELETE.",
+      "Runs one action: Send Request.",
+      "Runs entirely in your browser - API Tester never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -568,6 +630,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does API Tester need as input?",
+        "a": "You enter your data in GETPOSTPUTDELETE. Nothing else is required."
       }
     ]
   },
@@ -575,7 +641,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "asn1-decoder",
     "name": "ASN.1 Decoder",
     "category": "Coding",
-    "description": "ASN.1 DecoderDecode ASN.1 DER from PEM, Base64 or hex into a tree with tags, lengths, OIDs and strings. Nested OCTET and BIT STRINGs expanded. Free and private.",
+    "description": "Decode ASN.1 DER from PEM, Base64 or hex into a tree with tags, lengths, OIDs and strings. Nested OCTET and BIT STRINGs expanded. Free and private.",
     "engine": "crypto-hash",
     "keywords": [
       "asn",
@@ -584,11 +650,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "asn1 decoder"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste a DER structure as a hexadecimal string, for example 30 06 02 01 01 02 01 05.",
+      "Provides 2 actions: Decode the structure, Clear.",
+      "Runs entirely in your browser - ASN.1 Decoder never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -602,6 +668,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does ASN.1 Decoder need as input?",
+        "a": "You enter your data in Type or paste any text to hash.... Nothing else is required."
       }
     ]
   },
@@ -609,7 +679,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "average-calculator",
     "name": "Average Calculator",
     "category": "Calculators",
-    "description": "Average CalculatorPaste a list of numbers to get the average (mean), median, mode, range and standard deviation, or work out a weighted average for grades. Free, instant.",
+    "description": "Paste a list of numbers to get the average (mean), median, mode, range and standard deviation, or work out a weighted average for grades. Free, instant.",
     "engine": "calculator-suite",
     "keywords": [
       "average",
@@ -618,11 +688,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "average calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: 12, 15, 23, 27, 34.",
+      "Runs entirely in your browser - Average Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -636,28 +705,32 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Average Calculator need as input?",
+        "a": "You enter your data in 12, 15, 23, 27, 34. Nothing else is required."
       }
     ]
   },
   {
     "slug": "avi-to-mp4",
     "name": "AVI to MP4 Converter",
-    "category": "Video &amp; Audio",
-    "description": "AVI to MP4 ConverterConvert old AVI videos (DivX, Xvid, MJPEG) to H.264 MP4 in your browser. Plays on phones, TVs and editors. No upload, no file size limit, no watermark.",
+    "category": "Video & Audio",
+    "description": "Check whether your AVI video can be converted to MP4 in your browser. Chrome and Edge cannot decode the AVI container, and this tool says so instead of handing out the original file under a new name. Convert the AVI to MP4 or WebM with a video editor first, then work on it here. No upload, no sign-up.",
     "engine": "media-audio-video",
     "keywords": [
       "avi",
       "mp4",
       "converter",
-      "video &amp; audio",
+      "video & audio",
       "avi to mp4"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Select a media file.",
+      "Choose Convert to: MP3 - MPEG audio, MP4 - H.264 video, WAV - uncompressed PCM, WebM - VP8 video and 1 more.",
+      "Provides 2 actions: Convert now, Clear.",
+      "Works with AVI, MP4.",
+      "Runs entirely in your browser - AVI to MP4 Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -671,6 +744,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does AVI to MP4 Converter handle?",
+        "a": "Why can this tool not convert my AVI file? Chrome and Edge cannot decode the AVI container, so the tool tells you that plainly instead of producing a file that only pretends to be an MP4. Convert the AVI to MP4 or WebM with a video editor first."
       }
     ]
   },
@@ -678,7 +755,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "avif-to-jpg",
     "name": "AVIF to JPG Converter",
     "category": "Design",
-    "description": "AVIF to JPG ConverterConvert AVIF images to JPG in your browser. Batch convert, choose quality, resize, and download a ZIP. Free, no upload, no sign-up and no file-size limits.",
+    "description": "Convert AVIF images to JPG in your browser. Set the quality and the output size, then download the file. Free, no upload, no sign-up.",
     "engine": "image-suite",
     "keywords": [
       "avif",
@@ -688,11 +765,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "avif to jpg"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with AVIF, JPG.",
+      "Runs entirely in your browser - AVIF to JPG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -706,6 +783,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does AVIF to JPG Converter handle?",
+        "a": "It handles AVIF, JPG, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -713,7 +794,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "avif-to-png",
     "name": "AVIF to PNG Converter",
     "category": "Design",
-    "description": "AVIF to PNG ConverterConvert AVIF to PNG in your browser, keeping transparency and full quality. Batch convert and download a ZIP. Free, no upload, no sign-up and no size limit.",
+    "description": "Convert AVIF to PNG in your browser, keeping the transparency. Set the output size and download the file. Free, no upload, no sign-up.",
     "engine": "image-suite",
     "keywords": [
       "avif",
@@ -723,11 +804,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "avif to png"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with AVIF, PNG.",
+      "Runs entirely in your browser - AVIF to PNG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -741,6 +822,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does AVIF to PNG Converter handle?",
+        "a": "It handles AVIF, PNG, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -748,7 +833,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "baby-boy-name-generator",
     "name": "Baby Boy Name Generator",
     "category": "Lifestyle",
-    "description": "Baby Boy Name GeneratorExplore baby boy name ideas with origin, style, and length preferences using AI that runs in your browser after setup.",
+    "description": "Get boy name ideas with the origin, the style and the length you want: the generator draws from the names that ship with the tool and shows eight suggestions at a time. Nothing is uploaded.",
     "engine": "randomizers-games",
     "keywords": [
       "baby",
@@ -759,11 +844,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "baby boy name generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Choose between Origin (8 values) and Style (8 values).",
+      "Provides 10 actions: Another name, Surprise me, Navid, Roman and 6 more.",
+      "Runs entirely in your browser - Baby Boy Name Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -777,6 +862,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Baby Boy Name Generator need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
+      },
+      {
+        "q": "Which settings can I choose in Baby Boy Name Generator?",
+        "a": "You can choose Origin, Style and Length. The result is calculated right on the page."
       }
     ]
   },
@@ -784,7 +877,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "baby-girl-name-generator",
     "name": "Baby Girl Name Generator",
     "category": "Lifestyle",
-    "description": "Baby Girl Name GeneratorFind baby girl name ideas with adjustable origin, starting letter, length, and style preferences in a browser-based AI workspace.",
+    "description": "Get girl name ideas with the origin, the style and the length you want: the generator draws from the names that ship with the tool and shows eight suggestions at a time. Nothing is uploaded.",
     "engine": "randomizers-games",
     "keywords": [
       "baby",
@@ -795,11 +888,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "baby girl name generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Choose between Origin (8 values) and Style (8 values).",
+      "Provides 10 actions: Another name, Surprise me, Marisol, Marlowe and 6 more.",
+      "Runs entirely in your browser - Baby Girl Name Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -813,14 +906,22 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Baby Girl Name Generator need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
+      },
+      {
+        "q": "Which settings can I choose in Baby Girl Name Generator?",
+        "a": "You can choose Origin, Style and Length. The result is calculated right on the page."
       }
     ]
   },
   {
     "slug": "baby-name-ai",
-    "name": "Baby Name AI Generator",
+    "name": "Baby Name Generator",
     "category": "Lifestyle",
-    "description": "Baby Name AI GeneratorAI-powered baby name generator that runs 100% offline. Find the perfect name with meanings based on gender, cultural origin, name style, and more.",
+    "description": "Find a baby name from the list that ships with the tool: narrow it down by the gender, the cultural origin, the style and the length, and the generator draws eight suggestions from the names that fit. No model runs here, and nothing is uploaded.",
     "engine": "randomizers-games",
     "keywords": [
       "baby",
@@ -830,11 +931,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "baby name ai"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Choose between Gender (4 values) and Origin (8 values).",
+      "Provides 10 actions: Another name, Surprise me, Nasra, Beatriz and 6 more.",
+      "Runs entirely in your browser - Baby Name Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -848,6 +949,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Baby Name AI Generator need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
+      },
+      {
+        "q": "Which settings can I choose in Baby Name Generator?",
+        "a": "You can choose Gender, Origin, Style and Length. The result is calculated right on the page."
       }
     ]
   },
@@ -855,7 +964,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "baby-shower-bingo",
     "name": "Baby Shower Bingo Cards",
     "category": "Productivity",
-    "description": "Baby Shower Bingo CardsFree printable baby shower bingo: unique gift bingo cards with 48 baby gift ideas, pastel theme, 1 to 1,000 cards and a blank option. PDF, no sign-up.",
+    "description": "Free printable baby shower bingo: unique gift bingo cards with 48 baby gift ideas, pastel theme, 1 to 1,000 cards and a blank option. PDF, no sign-up.",
     "engine": "randomizers-games",
     "keywords": [
       "baby",
@@ -866,11 +975,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "baby shower bingo"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: New card.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Baby Shower Bingo Cards never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -884,6 +993,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Baby Shower Bingo Cards handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -891,7 +1004,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "backwards-text-generator",
     "name": "Backwards Text Generator",
     "category": "Text Processing",
-    "description": "Backwards Text GeneratorWrite text backwards: reverse letters, word order or each word, or create mirror text. Emoji and accents stay intact. Copy in one click. Free and private.",
+    "description": "Write text backwards: reverse letters, word order or each word, or create mirror text. Emoji and accents stay intact. Copy in one click. Free and private.",
     "engine": "text-suite",
     "keywords": [
       "backwards",
@@ -901,11 +1014,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "backwards text generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Your text and Result.",
+      "Choose Mode: Reverse all characters, Reverse word order, Reverse each word, Mirror (upside-down mirror).",
+      "Provides 2 actions: Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Backwards Text Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -919,6 +1032,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Backwards Text Generator?",
+        "a": "You can choose Mode. The result is calculated right on the page."
       }
     ]
   },
@@ -926,7 +1043,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "bank-statement-converter",
     "name": "Bank Statement Converter",
     "category": "Productivity",
-    "description": "Bank Statement ConverterEasily convert PDF bank statements from thousands of banks worldwide into clean Excel (XLS) or CSV format. 100% free, secure, and accurate. Trusted by accountants and businesses.",
+    "description": "Convert a text-based PDF bank statement into a clean table you can read, filter and export: the tool extracts the transaction lines from the PDF and hands them over as CSV or JSON. It runs in your browser, so the statement never leaves your device.",
     "engine": "csv-data",
     "keywords": [
       "bank",
@@ -936,11 +1053,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bank statement converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste CSV or TSV data here... and Converted output will appear here....",
+      "Choose Delimiter:: Comma (,), Tab (\\t), Semicolon (;), Pipe (|) and 1 more.",
+      "Provides 5 actions: CSV → JSON, JSON Output, Table, Copy and 1 more.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with PDF, CSV, JSON."
     ],
     "faqs": [
       {
@@ -954,6 +1071,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Bank Statement Converter handle?",
+        "a": "It handles PDF, CSV. The processing happens entirely in your browser."
       }
     ]
   },
@@ -961,7 +1082,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "bank-statement-to-csv",
     "name": "Bank Statement to CSV",
     "category": "Productivity",
-    "description": "Bank Statement to CSVExtract transactions from a text-based PDF bank statement into a CSV file, with local processing and a review table.",
+    "description": "Extract transactions from a text-based PDF bank statement into a CSV file, with local processing and a review table.",
     "engine": "csv-data",
     "keywords": [
       "bank",
@@ -971,11 +1092,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bank statement to csv"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste CSV or TSV data here... and Converted output will appear here....",
+      "Choose Delimiter:: Comma (,), Tab (\\t), Semicolon (;), Pipe (|) and 1 more.",
+      "Provides 5 actions: CSV → JSON, JSON Output, Table, Copy and 1 more.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with PDF, CSV."
     ],
     "faqs": [
       {
@@ -989,6 +1110,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Bank Statement to CSV handle?",
+        "a": "It handles PDF, CSV. The processing happens entirely in your browser."
       }
     ]
   },
@@ -996,7 +1121,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "bank-statement-to-excel",
     "name": "Bank Statement to Excel",
     "category": "Productivity",
-    "description": "Bank Statement to ExcelTurn text-based PDF statement transactions into an Excel-compatible table you can review, filter, and organize locally.",
+    "description": "Turn the transactions of a text-based PDF statement into a table you can review and export: the tool extracts the lines and hands them over as CSV, which Excel, LibreOffice and Google Sheets open directly.",
     "engine": "csv-data",
     "keywords": [
       "bank",
@@ -1006,11 +1131,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bank statement to excel"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste CSV or TSV data here... and Converted output will appear here....",
+      "Choose Delimiter:: Comma (,), Tab (\\t), Semicolon (;), Pipe (|) and 1 more.",
+      "Provides 5 actions: CSV → JSON, JSON Output, Table, Copy and 1 more.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with PDF, CSV."
     ],
     "faqs": [
       {
@@ -1024,6 +1149,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Bank Statement to Excel handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -1031,7 +1160,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "barcode-generator",
     "name": "Barcode Generator",
     "category": "Design",
-    "description": "Barcode GeneratorFree barcode generator for UPC, EAN-13, Code 128, Code 39, ITF-14, Data Matrix, PDF417 and more. Download PNG or SVG, or print bulk label sheets. No sign-up.",
+    "description": "Free barcode generator for UPC, EAN-13, Code 128, Code 39, ITF-14, Data Matrix, PDF417 and more. Download PNG or SVG, or print bulk label sheets. No sign-up.",
     "engine": "qr-barcode",
     "keywords": [
       "barcode",
@@ -1040,11 +1169,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "barcode generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Enter numbers or text....",
+      "Choose Barcode Format: Code 128 (Universal), EAN-13 (13 digits), UPC (12 digits), Code 39 (Alphanumeric).",
+      "Runs one action: Download Barcode SVG.",
+      "Copy, download or print the result with Download Barcode SVG.",
+      "Works with PNG, SVG."
     ],
     "faqs": [
       {
@@ -1058,6 +1187,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Barcode Generator handle?",
+        "a": "It handles PNG, SVG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -1065,7 +1198,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "base64-decoder",
     "name": "Base64 Decoder",
     "category": "Encoding",
-    "description": "Base64 DecoderDecode Base64 text and encoded data online, with a dedicated decoding workspace and copy controls. Free, instant, and processed locally in your browser.",
+    "description": "Decode Base64 text and encoded data online, with a dedicated decoding workspace and copy controls. Free, instant, and processed locally in your browser.",
     "engine": "base64",
     "keywords": [
       "base64",
@@ -1074,11 +1207,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "base64 decoder"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: File to Base64, Input Text or Base64 and Output.",
+      "Provides 4 actions: Encode to Base64, Decode Base64, Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Base64 Decoder never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1092,6 +1225,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Base64 Decoder need as input?",
+        "a": "You enter your data in File to Base64, Input Text or Base64 and Output. Nothing else is required."
       }
     ]
   },
@@ -1099,7 +1236,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "base64-encoder",
     "name": "Base64 Encoder",
     "category": "Encoding",
-    "description": "Base64 EncoderEncode text or file data as Base64 in your browser for test payloads, data transport, and development examples.",
+    "description": "Encode text or file data as Base64 in your browser for test payloads, data transport, and development examples.",
     "engine": "base64",
     "keywords": [
       "base64",
@@ -1108,11 +1245,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "base64 encoder"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: File to Base64, Input Text or Base64 and Output.",
+      "Provides 4 actions: Encode to Base64, Decode Base64, Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Base64 Encoder never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1126,6 +1263,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Base64 Encoder need as input?",
+        "a": "You enter your data in File to Base64, Input Text or Base64 and Output. Nothing else is required."
       }
     ]
   },
@@ -1133,7 +1274,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "base64-encoder-decoder",
     "name": "Base64 Encoder/Decoder",
     "category": "Encoding",
-    "description": "Base64 Encoder/DecoderEncode and decode Base64 strings with support for text, images, and files.",
+    "description": "Encode and decode Base64 strings with support for text, images, and files.",
     "engine": "base64",
     "keywords": [
       "base64",
@@ -1143,11 +1284,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "base64 encoder decoder"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: File to Base64, Input Text or Base64 and Output.",
+      "Provides 4 actions: Encode to Base64, Decode Base64, Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Base64 Encoder/Decoder never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1161,6 +1302,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Base64 Encoder/Decoder need as input?",
+        "a": "You enter your data in File to Base64, Input Text or Base64 and Output. Nothing else is required."
       }
     ]
   },
@@ -1168,7 +1313,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "base64-image-decoder",
     "name": "Base64 Image Decoder",
     "category": "Encoding",
-    "description": "Base64 Image DecoderDecode an image stored as Base64, preview its pixels, and download the recovered PNG, JPG, or GIF file. Free and private: nothing is uploaded to a server.",
+    "description": "Decode an image stored as Base64, preview its pixels, and download the recovered PNG, JPG, or GIF file. Free and private: nothing is uploaded to a server.",
     "engine": "base64",
     "keywords": [
       "base64",
@@ -1178,11 +1323,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "base64 image decoder"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: File to Base64, Input Text or Base64 and Output.",
+      "Provides 4 actions: Encode to Base64, Decode Base64, Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with PNG, JPG, GIF.",
+      "Runs entirely in your browser - Base64 Image Decoder never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -1196,6 +1341,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Base64 Image Decoder handle?",
+        "a": "It handles PNG, JPG, GIF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -1203,7 +1352,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "base64-image-viewer",
     "name": "Base64 Image Viewer",
     "category": "Encoding",
-    "description": "Base64 Image ViewerView a Base64-encoded image or data URI directly in your browser and inspect it before saving a local copy. Free, instant, and no uploads required.",
+    "description": "View a Base64-encoded image or data URI directly in your browser and inspect it before saving a local copy. Free, instant, and no uploads required.",
     "engine": "base64",
     "keywords": [
       "base64",
@@ -1213,11 +1362,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "base64 image viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: File to Base64, Input Text or Base64 and Output.",
+      "Provides 4 actions: Encode to Base64, Decode Base64, Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Base64 Image Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1231,6 +1380,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Base64 Image Viewer need as input?",
+        "a": "You enter your data in File to Base64, Input Text or Base64 and Output. Nothing else is required."
       }
     ]
   },
@@ -1238,7 +1391,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "base64-to-image",
     "name": "Base64 to Image Converter",
     "category": "Encoding",
-    "description": "Base64 to Image ConverterDecode Base64 strings to images directly in your browser. 100% offline, private, and secure.",
+    "description": "Decode Base64 strings to images directly in your browser. 100% offline, private, and secure.",
     "engine": "base64",
     "keywords": [
       "base64",
@@ -1248,11 +1401,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "base64 to image"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: File to Base64, Input Text or Base64 and Output.",
+      "Provides 4 actions: Encode to Base64, Decode Base64, Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Base64 to Image Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1266,6 +1419,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Base64 to Image Converter need as input?",
+        "a": "You enter your data in File to Base64, Input Text or Base64 and Output. Nothing else is required."
       }
     ]
   },
@@ -1273,7 +1430,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "base64-to-pdf",
     "name": "Base64 to PDF",
     "category": "PDF",
-    "description": "Base64 to PDFRecover a PDF from Base64 data, or turn supported Base64 text and images into a PDF using local browser processing.",
+    "description": "Recover a PDF from Base64 data, or turn supported Base64 text and images into a PDF using local browser processing.",
     "engine": "pdf-suite",
     "keywords": [
       "base64",
@@ -1281,11 +1438,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "base64 to pdf"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Choose a .b64 file and Base64 payload.",
+      "Provides 3 actions: Choose a .b64 file, Inspect payload, Convert to PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Base64 to PDF never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1299,6 +1456,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Base64 to PDF handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -1306,7 +1467,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "base64-to-pdf-converter",
     "name": "Base64 to PDF Converter",
     "category": "PDF",
-    "description": "Base64 to PDF ConverterConvert Base64 encoded data to PDF files instantly. Support for text, images, and custom content with real-time validation and preview.",
+    "description": "Convert Base64 encoded data to PDF files instantly. Support for text, images, and custom content with real-time validation and preview.",
     "engine": "pdf-suite",
     "keywords": [
       "base64",
@@ -1315,11 +1476,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "base64 to pdf converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Choose a .b64 file and Base64 payload.",
+      "Provides 3 actions: Choose a .b64 file, Inspect payload, Convert to PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Base64 to PDF Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1333,6 +1494,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Base64 to PDF Converter handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -1340,7 +1505,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "base64-to-pdf-decoder",
     "name": "Base64 to PDF Decoder",
     "category": "PDF",
-    "description": "Base64 to PDF DecoderDecode Base64 PDF bytes and download the original document without sending the encoded content to a server. Free online decoder that runs in your browser.",
+    "description": "Decode Base64 PDF bytes and download the original document without sending the encoded content to a server. Free online decoder that runs in your browser.",
     "engine": "pdf-suite",
     "keywords": [
       "base64",
@@ -1349,11 +1514,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "base64 to pdf decoder"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Choose a .b64 file and Base64 payload.",
+      "Provides 3 actions: Choose a .b64 file, Inspect payload, Convert to PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Base64 to PDF Decoder never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1367,6 +1532,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Base64 to PDF Decoder handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -1374,7 +1543,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "binary-calculator",
     "name": "Binary Calculator",
     "category": "Calculators",
-    "description": "Binary CalculatorFree binary calculator: add, subtract, multiply and divide binary numbers, plus AND, OR, XOR, NOT and bit shifts. Results in binary, decimal, hex and octal.",
+    "description": "Free binary calculator: add, subtract, multiply and divide binary numbers, plus AND, OR, XOR, NOT and bit shifts. Results in binary, decimal, hex and octal.",
     "engine": "calculator-suite",
     "keywords": [
       "binary",
@@ -1383,11 +1552,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "binary calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: First number (binary) and Second number (binary).",
+      "Provides 9 actions: Add, Subtract, Multiply, Divide and 5 more.",
+      "Runs entirely in your browser - Binary Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -1401,6 +1570,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Binary Calculator need as input?",
+        "a": "You enter your data in First number (binary) and Second number (binary). Nothing else is required."
       }
     ]
   },
@@ -1408,7 +1581,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "binary-to-decimal",
     "name": "Binary to Decimal Converter",
     "category": "Encoding",
-    "description": "Binary to Decimal ConverterConvert binary to decimal instantly with the place-value working shown. Signed two’s complement, any length, and hex and octal results as well. Free.",
+    "description": "Convert binary to decimal instantly with the place-value working shown. Signed two’s complement, any length, and hex and octal results as well. Free.",
     "engine": "encoding-converters",
     "keywords": [
       "binary",
@@ -1418,11 +1591,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "binary to decimal"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (Binary) and Output (Decimal).",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Binary to Decimal Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1436,6 +1609,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Binary to Decimal Converter need as input?",
+        "a": "You enter your data in Input (Binary) and Output (Decimal). Nothing else is required."
       }
     ]
   },
@@ -1443,7 +1620,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "binary-to-hex",
     "name": "Binary to Hex Converter",
     "category": "Encoding",
-    "description": "Binary to Hex ConverterConvert binary to hexadecimal instantly by grouping bits in fours. Any length, two’s complement, and decimal and octal results with the working shown. Free.",
+    "description": "Convert binary to hexadecimal instantly by grouping bits in fours. Any length, two’s complement, and decimal and octal results with the working shown. Free.",
     "engine": "encoding-converters",
     "keywords": [
       "binary",
@@ -1453,11 +1630,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "binary to hex"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (Binary) and Output (Hexadecimal).",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Binary to Hex Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1471,6 +1648,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Binary to Hex Converter need as input?",
+        "a": "You enter your data in Input (Binary) and Output (Hexadecimal). Nothing else is required."
       }
     ]
   },
@@ -1478,7 +1659,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "binary-to-text",
     "name": "Binary to Text Converter",
     "category": "Encoding",
-    "description": "Binary to Text ConverterDecode binary to text instantly. Paste 0s and 1s with or without spaces and read them as English, including UTF-8 emoji and accents. Free, private, no sign-up.",
+    "description": "Decode binary to text instantly. Paste 0s and 1s with or without spaces and read them as English, including UTF-8 emoji and accents. Free, private, no sign-up.",
     "engine": "text-suite",
     "keywords": [
       "binary",
@@ -1488,11 +1669,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "binary to text"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Binary to decode and Decoded text.",
+      "Provides 2 actions: Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Binary to Text Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1506,6 +1687,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Binary to Text Converter need as input?",
+        "a": "You enter your data in Binary to decode and Decoded text. Nothing else is required."
       }
     ]
   },
@@ -1513,7 +1698,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "binary-translator",
     "name": "Binary Translator",
     "category": "Encoding",
-    "description": "Binary TranslatorTranslate binary code to text and text to binary instantly. Full UTF-8 support for emoji and accents, custom separators and a byte-by-byte breakdown. Free.",
+    "description": "Translate binary code to text and text to binary instantly. Full UTF-8 support for emoji and accents, custom separators and a byte-by-byte breakdown. Free.",
     "engine": "encoding-converters",
     "keywords": [
       "binary",
@@ -1522,11 +1707,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "binary translator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (Text) and Output (Binary).",
+      "Provides 2 actions: Switch Direction (Forward), Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Binary Translator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1540,6 +1725,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Binary Translator need as input?",
+        "a": "You enter your data in Input (Text) and Output (Binary). Nothing else is required."
       }
     ]
   },
@@ -1547,7 +1736,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "bingo-card-generator",
     "name": "Bingo Card Generator",
     "category": "Productivity",
-    "description": "Bingo Card GeneratorFree bingo card generator: make up to 1,000 unique cards with numbers 1-75, your own words or emoji. 3x3, 4x4 or 5x5, PDF 1, 2 or 4 per page, built-in caller.",
+    "description": "Free bingo card generator: make up to 1,000 unique cards with numbers 1-75, your own words or emoji. 3x3, 4x4 or 5x5, PDF 1, 2 or 4 per page, built-in caller.",
     "engine": "randomizers-games",
     "keywords": [
       "bingo",
@@ -1557,11 +1746,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bingo card generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: New card.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Bingo Card Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1575,6 +1764,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Bingo Card Generator handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -1582,7 +1775,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "black-out-text-in-pdf",
     "name": "Black Out Text in PDF",
     "category": "PDF",
-    "description": "Black Out Text in PDFBlack out text in a PDF so it can&#x27;t be copied, searched or recovered. Mark words or draw boxes, then download. Free and private, in your browser.",
+    "description": "Black out text in a PDF so it can't be copied, searched or recovered. Mark words or draw boxes, then download. Free and private, in your browser.",
     "engine": "pdf-suite",
     "keywords": [
       "black",
@@ -1592,11 +1785,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "black out text in pdf"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Black Out Text in PDF never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1610,6 +1803,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Black Out Text in PDF handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -1617,7 +1814,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "blank-bingo-card",
     "name": "Blank Bingo Card Template",
     "category": "Productivity",
-    "description": "Blank Bingo Card TemplateFree blank bingo card template to print and fill in by hand: 3x3, 4x4 or 5x5, with or without a free space and B-I-N-G-O header. PDF, 1, 2 or 4 per page.",
+    "description": "Free blank bingo card template to print and fill in by hand: 3x3, 4x4 or 5x5, with or without a free space and B-I-N-G-O header. PDF, 1, 2 or 4 per page.",
     "engine": "randomizers-games",
     "keywords": [
       "blank",
@@ -1628,11 +1825,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "blank bingo card"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: Print the cards.",
+      "Copy, download or print the result with Print the cards.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Blank Bingo Card Template never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -1646,6 +1843,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Blank Bingo Card Template handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -1653,7 +1854,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "blank-text-generator",
     "name": "Blank Text Generator",
     "category": "Text Processing",
-    "description": "Blank Text GeneratorGenerate blank text: any number of empty characters and blank lines to copy into Instagram, TikTok, WhatsApp, Discord and game names. Free, instant.",
+    "description": "Generate blank text: any number of empty characters and blank lines to copy into Instagram, TikTok, WhatsApp, Discord and game names. Free, instant.",
     "engine": "text-suite",
     "keywords": [
       "blank",
@@ -1663,11 +1864,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "blank text generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Character count, Blank lines and Result.",
+      "Choose Character type: Zero-width space (U+200B), Braille blank (U+2800), Hangul filler (U+3164), Word joiner (U+2060) and 1 more.",
+      "Provides 2 actions: Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Blank Text Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -1681,6 +1882,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Blank Text Generator?",
+        "a": "You can choose Character type. The result is calculated right on the page."
       }
     ]
   },
@@ -1688,7 +1893,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "blur-face",
     "name": "Blur Face in Photo",
     "category": "Design",
-    "description": "Blur Face in PhotoBlur faces in photos automatically. AI finds every face on your device; tap one to keep it visible, then download. Free, no upload, no watermark, batch ZIP.",
+    "description": "Blur a face in a photo: mark the face with a rectangle or a brush and the tool softens that area before you download the picture. Runs in your browser, nothing is uploaded.",
     "engine": "image-suite",
     "keywords": [
       "blur",
@@ -1698,11 +1903,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "blur face"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Blur Face in Photo never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -1716,6 +1920,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Blur Face in Photo handle?",
+        "a": "It handles ZIP. The processing happens entirely in your browser."
+      },
+      {
+        "q": "What does Blur Face in Photo need as input?",
+        "a": "You enter your data in Choose a picture. Nothing else is required."
       }
     ]
   },
@@ -1723,7 +1935,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "blur-image",
     "name": "Blur Image",
     "category": "Design",
-    "description": "Blur ImageBlur an image online for free. Blur a whole photo, faces, text or the background with rectangle, ellipse and brush tools. Runs in your browser: no upload.",
+    "description": "Blur an image online for free. Blur a whole photo, faces, text or the background with rectangle, ellipse and brush tools. Runs in your browser: no upload.",
     "engine": "image-suite",
     "keywords": [
       "blur",
@@ -1732,11 +1944,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "blur image"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Blur Image never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -1750,6 +1961,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Blur Image need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -1757,7 +1972,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "blur-text-in-image",
     "name": "Blur Text in Image",
     "category": "Design",
-    "description": "Blur Text in ImageBlur text in an image online. Hide emails, names, numbers and passwords in screenshots with blur, pixelate or a solid bar. Free, private, in your browser.",
+    "description": "Blur text in an image online. Hide emails, names, numbers and passwords in screenshots with blur, pixelate or a solid bar. Free, private, in your browser.",
     "engine": "image-suite",
     "keywords": [
       "blur",
@@ -1767,11 +1982,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "blur text in image"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Blur Text in Image never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -1785,6 +1999,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Blur Text in Image need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -1792,7 +2010,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "bmi-calculator",
     "name": "BMI Calculator",
     "category": "Lifestyle",
-    "description": "BMI CalculatorCalculate your Body Mass Index in metric or imperial units, see your weight category, and find your healthy weight range.",
+    "description": "Calculate your Body Mass Index in metric or imperial units, see your weight category, and find your healthy weight range.",
     "engine": "health-fitness",
     "keywords": [
       "bmi",
@@ -1801,11 +2019,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bmi calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Choose Biological Sex: Male, Female.",
+      "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
+      "Runs entirely in your browser - BMI Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1819,6 +2037,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in BMI Calculator?",
+        "a": "You can choose Biological Sex. The result is calculated right on the page."
       }
     ]
   },
@@ -1826,7 +2048,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "bmi-calculator-for-women",
     "name": "BMI Calculator for Women",
     "category": "Lifestyle",
-    "description": "BMI Calculator for WomenCalculate BMI for adult women from height and weight in metric or imperial units, with the standard BMI categories and clear notes on screening limits.",
+    "description": "Calculate BMI for adult women from height and weight in metric or imperial units, with the standard BMI categories and clear notes on screening limits.",
     "engine": "health-fitness",
     "keywords": [
       "bmi",
@@ -1837,11 +2059,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bmi calculator for women"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Choose Biological Sex: Male, Female.",
+      "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
+      "Runs entirely in your browser - BMI Calculator for Women never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1855,6 +2077,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in BMI Calculator for Women?",
+        "a": "You can choose Biological Sex. The result is calculated right on the page."
       }
     ]
   },
@@ -1862,7 +2088,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "bmp-to-jpg",
     "name": "BMP to JPG Converter",
     "category": "Design",
-    "description": "BMP to JPG ConverterConvert BMP bitmaps to JPG (or PNG) in your browser and cut file sizes dramatically. Batch convert, set quality, download a ZIP. Free, no upload, no sign-up.",
+    "description": "Convert BMP bitmaps to JPG in your browser. Set the quality and the output size, then download the file. Free, no upload, no sign-up.",
     "engine": "image-suite",
     "keywords": [
       "bmp",
@@ -1872,11 +2098,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bmp to jpg"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with BMP, JPG.",
+      "Runs entirely in your browser - BMP to JPG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -1890,6 +2116,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does BMP to JPG Converter handle?",
+        "a": "It handles BMP, JPG, PNG, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -1897,7 +2127,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "bmr-calculator",
     "name": "BMR Calculator",
     "category": "Lifestyle",
-    "description": "BMR CalculatorEstimate basal metabolic rate from the calculator&#x27;s body-measurement inputs and inspect the result separately from activity needs.",
+    "description": "Estimate basal metabolic rate from the calculator's body-measurement inputs and inspect the result separately from activity needs.",
     "engine": "health-fitness",
     "keywords": [
       "bmr",
@@ -1906,11 +2136,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bmr calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Choose between Biological Sex (2 values) and Activity Level (5 values).",
+      "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
+      "Runs entirely in your browser - BMR Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1924,6 +2154,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in BMR Calculator?",
+        "a": "You can choose Biological Sex. The result is calculated right on the page."
       }
     ]
   },
@@ -1931,7 +2165,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "bold-text-generator",
     "name": "Bold Text Generator",
     "category": "Text Processing",
-    "description": "Bold Text GeneratorMake bold Unicode text you can copy and paste into Instagram, LinkedIn, X, and anywhere else without a bold button.",
+    "description": "Make bold Unicode text you can copy and paste into Instagram, LinkedIn, X, and anywhere else without a bold button.",
     "engine": "text-suite",
     "keywords": [
       "bold",
@@ -1941,11 +2175,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bold text generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Your text and Result.",
+      "Choose Style: Bold, Bold Italic.",
+      "Provides 2 actions: Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Bold Text Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -1959,6 +2193,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Bold Text Generator?",
+        "a": "You can choose Style. The result is calculated right on the page."
       }
     ]
   },
@@ -1966,7 +2204,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "bracket-generator",
     "name": "Bracket Generator",
     "category": "Productivity",
-    "description": "Bracket GeneratorFree bracket generator: paste names, pick single or double elimination or round robin, click winners to advance, then print a PDF or share a link. No signup.",
+    "description": "Free bracket generator: paste names, pick single or double elimination or round robin, click winners to advance, then print a PDF or share a link. No signup.",
     "engine": "randomizers-games",
     "keywords": [
       "bracket",
@@ -1975,11 +2213,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bracket generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Names or teams (one per line)Between 2 and 16 names, the bracket is padded with byes..",
+      "Provides 10 actions: Generate the bracket, Shuffle the seeds, Alpha, Bravo and 6 more.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Bracket Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -1993,6 +2231,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Bracket Generator handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -2000,7 +2242,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "bracket-maker",
     "name": "Bracket Maker",
     "category": "Productivity",
-    "description": "Bracket MakerFree online bracket maker for tournaments, game night and votes. Single or double elimination and round robin, with byes, seeding, scores, PDF and PNG. No account.",
+    "description": "Free online bracket maker for tournaments, game night and votes. Single or double elimination and round robin, with byes, seeding, scores, PDF and PNG. No account.",
     "engine": "randomizers-games",
     "keywords": [
       "bracket",
@@ -2009,11 +2251,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bracket maker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Names or teams (one per line)Between 2 and 16 names, the bracket is padded with byes..",
+      "Provides 10 actions: Generate the bracket, Shuffle the seeds, Alpha, Bravo and 6 more.",
+      "Works with PDF, PNG.",
+      "Runs entirely in your browser - Bracket Maker never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -2027,6 +2269,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Bracket Maker handle?",
+        "a": "It handles PDF, PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -2034,7 +2280,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "btu-calculator",
     "name": "BTU Calculator",
     "category": "Calculators",
-    "description": "BTU CalculatorFind the BTU and AC size you need for a room from its size, ceiling height, sun exposure, occupants and use as a kitchen. Recommends a standard AC size. Free.",
+    "description": "Find the BTU and AC size you need for a room from its size, ceiling height, sun exposure, occupants and use as a kitchen. Recommends a standard AC size. Free.",
     "engine": "calculator-suite",
     "keywords": [
       "btu",
@@ -2043,11 +2289,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "btu calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Room size (sq ft), Ceiling height (ft) and Occupants.",
+      "Choose between Sun exposure (3 values) and Kitchen? (2 values).",
+      "Runs entirely in your browser - BTU Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -2061,6 +2307,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in BTU Calculator?",
+        "a": "You can choose Sun exposure and Kitchen?. The result is calculated right on the page."
       }
     ]
   },
@@ -2068,7 +2318,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "bulk-barcode-generator",
     "name": "Bulk Barcode Generator",
     "category": "Design",
-    "description": "Bulk Barcode GeneratorGenerate hundreds of barcodes at once: paste a list from Excel or Sheets, add captions, then download a ZIP of PNG/SVG files or a PDF on Avery label sheets.",
+    "description": "Generate hundreds of barcodes at once: paste a list from Excel or Sheets, add captions, then download a ZIP of PNG/SVG files or a PDF on Avery label sheets.",
     "engine": "qr-barcode",
     "keywords": [
       "bulk",
@@ -2078,11 +2328,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bulk barcode generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Enter numbers or text....",
+      "Choose Barcode Format: Code 128 (Universal), EAN-13 (13 digits), UPC (12 digits), Code 39 (Alphanumeric).",
+      "Runs one action: Download Barcode SVG.",
+      "Copy, download or print the result with Download Barcode SVG.",
+      "Works with ZIP, PNG, SVG, PDF."
     ],
     "faqs": [
       {
@@ -2096,6 +2346,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Bulk Barcode Generator handle?",
+        "a": "It handles ZIP, PNG, SVG, PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -2103,7 +2357,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "business-days-calculator",
     "name": "Business Days Calculator",
     "category": "Calculators",
-    "description": "Business Days CalculatorCount business days between two dates, skipping weekends, US federal or UK bank holidays, and your own days off. Free and instant.",
+    "description": "Count business days between two dates, skipping weekends, US federal or UK bank holidays, and your own days off. Free and instant.",
     "engine": "calculator-suite",
     "keywords": [
       "business",
@@ -2113,11 +2367,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "business days calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: From date, To date and Your own days off.",
+      "Choose Holiday calendar: No holidays, US federal holidays, UK bank holidays.",
+      "Runs entirely in your browser - Business Days Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -2131,6 +2385,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Business Days Calculator?",
+        "a": "You can choose Holiday calendar. The result is calculated right on the page."
       }
     ]
   },
@@ -2138,7 +2396,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "carb-calculator",
     "name": "Carb Calculator",
     "category": "Lifestyle",
-    "description": "Carb CalculatorCalculate daily carbohydrate grams from the calories left after your protein and fat targets. Free carb calculator for cutting, maintenance, or bulking.",
+    "description": "Calculate daily carbohydrate grams from the calories left after your protein and fat targets. Free carb calculator for cutting, maintenance, or bulking.",
     "engine": "health-fitness",
     "keywords": [
       "carb",
@@ -2147,11 +2405,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "carb calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Choose between Biological Sex (2 values) and Activity Level (5 values).",
+      "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
+      "Runs entirely in your browser - Carb Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -2165,6 +2423,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Carb Calculator?",
+        "a": "You can choose Biological Sex. The result is calculated right on the page."
       }
     ]
   },
@@ -2172,7 +2434,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "censor-face",
     "name": "Censor Face in Photo",
     "category": "Design",
-    "description": "Censor Face in PhotoCensor faces in photos with a black box, emoji, blur or pixels. Faces are detected on your device and nothing is uploaded. Free, no sign-up, no watermark.",
+    "description": "Censor a face in a photo with a black box, an emoji, a blur or pixels: mark the face yourself and the marked area is covered. Runs in your browser, nothing is uploaded.",
     "engine": "image-suite",
     "keywords": [
       "censor",
@@ -2182,11 +2444,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "censor face"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Censor Face in Photo never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -2200,6 +2461,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Censor Face in Photo need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -2207,7 +2472,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "censor-image",
     "name": "Censor Image",
     "category": "Design",
-    "description": "Censor ImageCensor an image online: black-bar redaction, pixelate or blur faces, text and sensitive details. Free, no sign-up, and your photo never leaves your browser.",
+    "description": "Censor an image online: black-bar redaction, pixelate or blur faces, text and sensitive details. Free, no sign-up, and your photo never leaves your browser.",
     "engine": "image-suite",
     "keywords": [
       "censor",
@@ -2216,11 +2481,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "censor image"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Censor Image never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -2234,6 +2498,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Censor Image need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -2241,7 +2509,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "character-counter",
     "name": "Character Counter",
     "category": "Text Processing",
-    "description": "Character CounterCount characters, words, sentences, and lines in real time, with reading time, frequency analysis, and SEO length checks.",
+    "description": "Count characters, words, sentences, and lines in real time, with reading time, frequency analysis, and SEO length checks.",
     "engine": "text-suite",
     "keywords": [
       "character",
@@ -2250,11 +2518,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "character counter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Type or paste your text here, Meta title and Meta description.",
+      "Provides 2 actions: Clear, Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Character Counter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -2268,6 +2536,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Character Counter need as input?",
+        "a": "You enter your data in Type or paste your text here, Meta title and Meta description. Nothing else is required."
       }
     ]
   },
@@ -2275,7 +2547,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "chicago-citation-generator",
     "name": "Chicago Citation Generator",
     "category": "Text Processing",
-    "description": "Chicago Citation GeneratorBuild Chicago Author-Date references for books, journal articles, and websites. Format citations locally in your browser and export to Word or BibTeX.",
+    "description": "Build Chicago Author-Date references for books, journal articles, and websites. Format citations locally in your browser and export to Word or BibTeX.",
     "engine": "text-suite",
     "keywords": [
       "chicago",
@@ -2285,11 +2557,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "chicago citation generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 7 inputs: Author(s), Year, Title, Publisher, Edition, Place and DOI or URL.",
+      "Choose Source type: Book, Journal article, Website.",
+      "Provides 6 actions: Download .txt, Download .doc, Download .bib, Copy and 2 more.",
+      "Copy, download or print the result with Download .txt, Download .doc and Download .bib.",
+      "Runs entirely in your browser - Chicago Citation Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -2303,6 +2575,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Chicago Citation Generator?",
+        "a": "You can choose Source type. The result is calculated right on the page."
       }
     ]
   },
@@ -2310,7 +2586,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "christmas-bingo",
     "name": "Christmas Bingo Cards",
     "category": "Productivity",
-    "description": "Christmas Bingo CardsFree printable Christmas bingo: make unique cards with Christmas words or picture emoji, festive colours and a caller. PDF 1, 2 or 4 per page. No sign-up.",
+    "description": "Free printable Christmas bingo: make unique cards with Christmas words or picture emoji, festive colours and a caller. PDF 1, 2 or 4 per page. No sign-up.",
     "engine": "randomizers-games",
     "keywords": [
       "christmas",
@@ -2320,11 +2596,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "christmas bingo"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: New card.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Christmas Bingo Cards never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -2338,6 +2614,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Christmas Bingo Cards handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -2345,7 +2625,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "christmas-budget-planner",
     "name": "Christmas Budget Planner",
     "category": "Productivity",
-    "description": "Christmas Budget PlannerFree Christmas budget planner: set a total gift budget, split it per person, and see spent, still to buy and money left as you shop. Print a PDF, no sign-up.",
+    "description": "Free Christmas budget planner: set a total gift budget, split it per person, and see spent, still to buy and money left as you shop. Print a PDF, no sign-up.",
     "engine": "randomizers-games",
     "keywords": [
       "christmas",
@@ -2355,11 +2635,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "christmas budget planner"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 8 numeric values: Total budget, Gifts, Food and drinks, Decoration, Cards, Travel, Donations and Wrapping material.",
+      "Runs one action: Print the budget.",
+      "Copy, download or print the result with Print the budget.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Christmas Budget Planner never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -2373,6 +2653,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Christmas Budget Planner handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -2380,7 +2664,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "christmas-gift-tracker",
     "name": "Christmas Gift Tracker",
     "category": "Productivity",
-    "description": "Christmas Gift TrackerFree Christmas gift tracker: list everyone you buy for, set budgets, and track each gift from idea to bought, wrapped and given. Print a PDF, no sign-up.",
+    "description": "Free Christmas gift tracker: list everyone you buy for, set budgets, and track each gift from idea to bought, wrapped and given. Print a PDF, no sign-up. Your list stays in the memory of the tab.",
     "engine": "image-suite",
     "keywords": [
       "christmas",
@@ -2390,11 +2674,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "christmas gift tracker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Gift and Budget.",
+      "Provides 2 actions: Add gift, Clear the list.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Christmas Gift Tracker never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -2408,6 +2692,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Christmas Gift Tracker handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -2415,7 +2703,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "christmas-list-maker",
     "name": "Christmas List Maker",
     "category": "Productivity",
-    "description": "Christmas List MakerMake a Christmas list in minutes: add gifts with links, prices, sizes and priority, then print a PDF or share a link. Free, no sign-up, saved on your device.",
+    "description": "Make a Christmas list in minutes: add gifts with links, prices, sizes and priority, then print a PDF or share a link. Free, no sign-up, saved on your device.",
     "engine": "randomizers-games",
     "keywords": [
       "christmas",
@@ -2425,11 +2713,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "christmas list maker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Gift and For whom.",
+      "Provides 2 actions: Print the list, Add.",
+      "Copy, download or print the result with Print the list.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Christmas List Maker never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -2443,6 +2731,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Christmas List Maker handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -2450,7 +2742,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "christmas-wish-list-maker",
     "name": "Christmas Wish List Maker",
     "category": "Productivity",
-    "description": "Christmas Wish List MakerFree Christmas wish list maker: add gifts from any store with links, sizes and priority, then share a read-only link or print it. No account needed.",
+    "description": "Free Christmas wish list maker: add gifts from any store with links, sizes and priority, then share a read-only link or print it. No account needed.",
     "engine": "randomizers-games",
     "keywords": [
       "christmas",
@@ -2461,11 +2753,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "christmas wish list maker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Your wish.",
+      "Provides 2 actions: Print the list, Add.",
+      "Copy, download or print the result with Print the list.",
+      "Runs entirely in your browser - Christmas Wish List Maker never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -2479,6 +2771,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Christmas Wish List Maker need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
       }
     ]
   },
@@ -2486,7 +2782,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "cidr-calculator",
     "name": "CIDR Calculator",
     "category": "Coding",
-    "description": "CIDR CalculatorConvert CIDR notation to an IP range, and an IP range to the smallest list of CIDR blocks. First and last address, host count and masks, instantly.",
+    "description": "Convert CIDR notation to an IP range, and an IP range to the smallest list of CIDR blocks. First and last address, host count and masks, instantly.",
     "engine": "networking-tools",
     "keywords": [
       "cidr",
@@ -2495,11 +2791,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "cidr calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: IP Address.",
+      "Choose CIDR Prefix (/24): /0 (Class A), /1 (Class A), /2 (Class A), /3 (Class A) and 4 more.",
+      "Provides 2 actions: IPv4, IPv6.",
+      "Runs entirely in your browser - CIDR Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -2513,6 +2809,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in CIDR Calculator?",
+        "a": "You can choose CIDR Prefix (/24). The result is calculated right on the page."
       }
     ]
   },
@@ -2520,7 +2820,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "citation-generator",
     "name": "Citation Generator",
     "category": "Text Processing",
-    "description": "Citation GeneratorInstantly generate accurate APA, MLA, Chicago, and Harvard citations. Export to Word or BibTeX.",
+    "description": "Instantly generate accurate APA, MLA, Chicago, and Harvard citations. Export to Word or BibTeX.",
     "engine": "text-suite",
     "keywords": [
       "citation",
@@ -2529,11 +2829,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "citation generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 11 inputs: Author(s), Year, Title, Publisher, Edition, Place, DOI or URL, APA 7Copy, MLA 9Copy, Chicago 17 (author-date)Copy and HarvardCopy.",
+      "Choose between Source type (3 values) and Citation style (4 values).",
+      "Provides 6 actions: Download .txt, Download .doc, Download .bib, Copy and 2 more.",
+      "Copy, download or print the result with Download .txt, Download .doc and Download .bib.",
+      "Runs entirely in your browser - Citation Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -2547,6 +2847,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Citation Generator?",
+        "a": "You can choose Source type and Citation style. The result is calculated right on the page."
       }
     ]
   },
@@ -2554,7 +2858,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "code-128-barcode-generator",
     "name": "Code 128 Barcode Generator",
     "category": "Design",
-    "description": "Code 128 Barcode GeneratorGenerate Code 128 and GS1-128 barcodes for inventory, shipping and asset tags. Letters, numbers and symbols, bulk from Excel, Avery label sheets. Free.",
+    "description": "Generate Code 128 and GS1-128 barcodes for inventory, shipping and asset tags. Letters, numbers and symbols, bulk from Excel, Avery label sheets. Free.",
     "engine": "qr-barcode",
     "keywords": [
       "code",
@@ -2565,11 +2869,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "code 128 barcode generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Enter numbers or text....",
+      "Choose Barcode Format: Code 128 (Universal), EAN-13 (13 digits), UPC (12 digits), Code 39 (Alphanumeric).",
+      "Runs one action: Download Barcode SVG.",
+      "Copy, download or print the result with Download Barcode SVG.",
+      "Runs entirely in your browser - Code 128 Barcode Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -2583,6 +2887,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Code 128 Barcode Generator?",
+        "a": "You can choose Barcode Format. The result is calculated right on the page."
       }
     ]
   },
@@ -2590,7 +2898,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "code-39-barcode-generator",
     "name": "Code 39 Barcode Generator",
     "category": "Design",
-    "description": "Code 39 Barcode GeneratorCreate Code 39 and Code 93 barcodes for industrial, automotive and government labels. Capital letters, digits and - . $ / + %. PNG, SVG and bulk label sheets.",
+    "description": "Create Code 39 and Code 93 barcodes for industrial, automotive and government labels. Capital letters, digits and - . $ / + %. PNG, SVG and bulk label sheets.",
     "engine": "qr-barcode",
     "keywords": [
       "code",
@@ -2600,11 +2908,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "code 39 barcode generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Enter numbers or text....",
+      "Choose Barcode Format: Code 128 (Universal), EAN-13 (13 digits), UPC (12 digits), Code 39 (Alphanumeric).",
+      "Runs one action: Download Barcode SVG.",
+      "Copy, download or print the result with Download Barcode SVG.",
+      "Works with PNG, SVG."
     ],
     "faqs": [
       {
@@ -2618,6 +2926,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Code 39 Barcode Generator handle?",
+        "a": "It handles PNG, SVG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -2625,7 +2937,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "code-screenshot-generator",
     "name": "Code Screenshot Generator",
     "category": "Coding",
-    "description": "Code Screenshot GeneratorCreate a clean screenshot-style PNG of your code with adjustable themes, padding, and optional social branding. Free code screenshot generator online.",
+    "description": "Create a clean screenshot-style PNG of your code with adjustable themes, padding, and optional social branding. Free code screenshot generator online.",
     "engine": "developer-suite",
     "keywords": [
       "code",
@@ -2635,11 +2947,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "code screenshot generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Padding (32px) and Paste a code snippet here....",
+      "Choose between Theme (4 values) and Language (6 values).",
+      "Provides 4 actions: Render screenshot, Download PNG, Clear, Load example.",
+      "Copy, download or print the result with Download PNG.",
+      "Works with PNG."
     ],
     "faqs": [
       {
@@ -2653,6 +2965,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Code Screenshot Generator handle?",
+        "a": "It handles PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -2660,7 +2976,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "code-snippet-screenshot",
     "name": "Code Snippet Screenshot",
     "category": "Coding",
-    "description": "Code Snippet ScreenshotCreate beautiful screenshots of code snippets with customizable backgrounds, syntax highlighting, and social media branding. Perfect for sharing on Twitter, LinkedIn, and presentations.",
+    "description": "Create beautiful screenshots of code snippets with customizable backgrounds, syntax highlighting, and social media branding. Perfect for sharing on Twitter, LinkedIn, and presentations.",
     "engine": "developer-suite",
     "keywords": [
       "code",
@@ -2670,11 +2986,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "code snippet screenshot"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Padding (32px) and Paste a code snippet here....",
+      "Choose between Theme (4 values) and Language (6 values).",
+      "Provides 4 actions: Render screenshot, Download PNG, Clear, Load example.",
+      "Copy, download or print the result with Download PNG.",
+      "Runs entirely in your browser - Code Snippet Screenshot never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -2688,6 +3004,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Code Snippet Screenshot?",
+        "a": "You can choose Format SQL. The result is calculated right on the page."
       }
     ]
   },
@@ -2695,7 +3015,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "code-to-image",
     "name": "Code to Image",
     "category": "Coding",
-    "description": "Code to ImageTurn a code snippet into a styled image with syntax highlighting, themes, and background choices, then export a PNG. Free code to image tool, no signup.",
+    "description": "Turn a code snippet into a styled image with syntax highlighting, themes, and background choices, then export a PNG. Free code to image tool, no signup.",
     "engine": "image-suite",
     "keywords": [
       "code",
@@ -2704,11 +3024,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "code to image"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Code.",
+      "Choose between Language (7 values) and Theme (2 values).",
+      "Provides 2 actions: Download Image, Clear.",
+      "Copy, download or print the result with Download Image.",
+      "Works with PNG."
     ],
     "faqs": [
       {
@@ -2722,6 +3042,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Code to Image handle?",
+        "a": "It handles PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -2729,7 +3053,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "coin-flip",
     "name": "Coin Flip",
     "category": "Lifestyle",
-    "description": "Coin FlipGet a random coin flip with an animated toss and live statistics. Flip multiple coins, run up to 100,000 trials, and export results. Free and client-side.",
+    "description": "Get a random coin flip with an animated toss and live statistics. Flip multiple coins, run up to 100,000 trials, and export results. Free and client-side.",
     "engine": "randomizers-games",
     "keywords": [
       "coin",
@@ -2738,11 +3062,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "coin flip"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Provides 6 actions: Single Flip, Best of 3, Best of 5, Best of 7 and 2 more.",
+      "Runs entirely in your browser - Coin Flip never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -2756,6 +3080,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Coin Flip?",
+        "a": "Press \"Single Flip\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -2763,7 +3091,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "coin-flip-simulator",
     "name": "Coin Flip Simulator",
     "category": "Lifestyle",
-    "description": "Coin Flip SimulatorFlip a coin online with a realistic animation. Toss multiple coins, play best of 3, or simulate 100,000 flips. Free, private, and entirely in your browser.",
+    "description": "Flip a coin online with a realistic animation. Toss multiple coins, play best of 3, or simulate 100,000 flips. Free, private, and entirely in your browser.",
     "engine": "randomizers-games",
     "keywords": [
       "coin",
@@ -2773,11 +3101,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "coin flip simulator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Provides 6 actions: Single Flip, Best of 3, Best of 5, Best of 7 and 2 more.",
+      "Runs entirely in your browser - Coin Flip Simulator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -2791,6 +3119,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Coin Flip Simulator?",
+        "a": "Press \"Single Flip\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -2798,7 +3130,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "college-gpa-calculator",
     "name": "College GPA Calculator",
     "category": "Calculators",
-    "description": "College GPA CalculatorFree college GPA calculator: enter courses, credit hours and grades to get your semester GPA and cumulative GPA on a 4.0 scale, plus the GPA you need next term.",
+    "description": "Free college GPA calculator: enter courses, credit hours and grades to get your semester GPA and cumulative GPA on a 4.0 scale, plus the GPA you need next term.",
     "engine": "calculator-suite",
     "keywords": [
       "college",
@@ -2808,11 +3140,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "college gpa calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 10 inputs: Current GPA, Credits earned, Course 1 name, Mathematics credits, Course 2 name, Physics credits, Course 3 name, History credits, Course 4 name and Literature credits.",
+      "Choose between Mathematics grade (8 values) and Physics grade (8 values).",
+      "Runs one action: + Add course.",
+      "Runs entirely in your browser - College GPA Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -2826,6 +3158,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in College GPA Calculator?",
+        "a": "You can choose Mathematics grade, Physics grade, History grade and Literature grade. The result is calculated right on the page."
       }
     ]
   },
@@ -2833,7 +3169,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "combine-pdf",
     "name": "Combine PDF",
     "category": "PDF",
-    "description": "Combine PDFCombine PDF files in the order you choose and download one consolidated document. Free, no signup, and your files are processed in your browser, not uploaded.",
+    "description": "Combine PDF files in the order you choose and download one consolidated document. Free, no signup, and your files are processed in your browser, not uploaded.",
     "engine": "pdf-suite",
     "keywords": [
       "combine",
@@ -2841,11 +3177,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "combine pdf"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose PDF files.",
+      "Runs one action: Choose PDF files.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Combine PDF never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -2859,6 +3195,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Combine PDF handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -2866,7 +3206,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "common-denominator-calculator",
     "name": "Common Denominator Calculator",
     "category": "Calculators",
-    "description": "Common Denominator CalculatorFind the least common denominator (LCD) of 2 to 10 fractions, rewrite them as equivalent fractions and order them from least to greatest. With steps.",
+    "description": "Find the least common denominator (LCD) of 2 to 10 fractions, rewrite them as equivalent fractions and order them from least to greatest. With steps.",
     "engine": "calculator-suite",
     "keywords": [
       "common",
@@ -2876,11 +3216,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "common denominator calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 5 text inputs: Numerator A, Denominator A, How many fractions, Numerator B and Denominator B.",
+      "Runs entirely in your browser - Common Denominator Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -2894,6 +3233,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Common Denominator Calculator need as input?",
+        "a": "You enter your data in Numerator A, Denominator A, How many fractions, Numerator B and Denominator B. Nothing else is required."
       }
     ]
   },
@@ -2901,7 +3244,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "compress-pdf",
     "name": "Compress PDF",
     "category": "PDF",
-    "description": "Compress PDFShrink PDF files to fit email and upload limits with three quality presets, processed 100% on your device, never uploaded.",
+    "description": "Shrink PDF files to fit email and upload limits with three quality presets, processed 100% on your device, never uploaded.",
     "engine": "pdf-suite",
     "keywords": [
       "compress",
@@ -2909,11 +3252,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "compress pdf"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Compress PDF never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -2927,6 +3270,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Compress PDF handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -2934,7 +3281,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "concrete-calculator",
     "name": "Concrete Calculator",
     "category": "Calculators",
-    "description": "Concrete CalculatorWork out how much concrete you need for a slab, footing or post holes in cubic yards, cubic metres and 40, 50, 60 or 80 lb bags. Includes waste and cost. Free.",
+    "description": "Work out how much concrete you need for a slab, footing or post holes in cubic yards, cubic metres and 40, 50, 60 or 80 lb bags. Includes waste and cost. Free.",
     "engine": "calculator-suite",
     "keywords": [
       "concrete",
@@ -2943,11 +3290,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "concrete calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 4 text inputs: Length (ft), Width (ft), Depth (inches) and Waste (%).",
+      "Runs entirely in your browser - Concrete Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -2961,6 +3307,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Concrete Calculator need as input?",
+        "a": "You enter your data in Length (ft), Width (ft), Depth (inches) and Waste (%). Nothing else is required."
       }
     ]
   },
@@ -2968,7 +3318,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "countdown-to-date",
     "name": "Countdown to Any Date",
     "category": "Productivity",
-    "description": "Countdown to Any DateCreate a live countdown to any date and time: birthdays, weddings, trips, exams or launches. See days, hours and sleeps left, go fullscreen and share a link.",
+    "description": "Create a live countdown to any date and time: birthdays, weddings, trips, exams or launches. See days, hours and sleeps left, go fullscreen and share a link.",
     "engine": "time-calendar",
     "keywords": [
       "countdown",
@@ -2978,11 +3328,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "countdown to date"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Start Date and End Date.",
+      "Runs entirely in your browser - Countdown to Any Date never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -2996,6 +3345,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Countdown to Any Date need as input?",
+        "a": "You enter your data in Start Date and End Date. Nothing else is required."
       }
     ]
   },
@@ -3003,7 +3356,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "cps-test",
     "name": "CPS Test",
     "category": "Device Tests",
-    "description": "CPS TestFree CPS test: click as fast as you can for 1, 5, 10, 15, 30, 60 or 100 seconds and see your clicks per second, total clicks and best score. Works on mobile.",
+    "description": "Free CPS test: click as fast as you can for 1, 5, 10, 15, 30, 60 or 100 seconds and see your clicks per second, total clicks and best score. Works on mobile.",
     "engine": "device-tester",
     "keywords": [
       "cps",
@@ -3012,11 +3365,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "cps test"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Provides 2 actions: CLICK HERE RAPIDLY!, Reset Score.",
+      "Runs entirely in your browser - CPS Test never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -3030,6 +3383,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use CPS Test?",
+        "a": "Press \"CLICK HERE RAPIDLY!\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -3037,7 +3394,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "cron-expression-generator",
     "name": "Cron Expression Generator",
     "category": "Productivity",
-    "description": "Cron Expression GeneratorBuild a cron schedule from common presets and inspect its description and upcoming run times before copying it.",
+    "description": "Build a cron schedule from common presets and inspect its description and upcoming run times before copying it.",
     "engine": "time-calendar",
     "keywords": [
       "cron",
@@ -3047,11 +3404,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "cron expression generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 5 text inputs: Minute, Hour, Day of the month, Month and Day of the week.",
+      "Provides 6 actions: Every minute, Every 5 minutes, Every hour, Every day at midnight and 2 more.",
+      "Runs entirely in your browser - Cron Expression Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -3065,6 +3422,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Cron Expression Generator?",
+        "a": "Press \"Current Time\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "What does Cron Expression Generator need as input?",
+        "a": "You enter your data in Minute, Hour, Day of the month, Month and Day of the week. Nothing else is required."
       }
     ]
   },
@@ -3072,7 +3437,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "cron-expression-parser",
     "name": "Cron Expression Parser",
     "category": "Productivity",
-    "description": "Cron Expression ParserParse a cron expression into plain language and preview its next scheduled run times. Free online cron parser for crontab schedules, runs in your browser.",
+    "description": "Parse a cron expression into plain language and preview its next scheduled run times. Free online cron parser for crontab schedules, runs in your browser.",
     "engine": "time-calendar",
     "keywords": [
       "cron",
@@ -3082,11 +3447,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "cron expression parser"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: The cron expression to read.",
+      "Runs entirely in your browser - Cron Expression Parser never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -3100,6 +3464,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Cron Expression Parser?",
+        "a": "Press \"Current Time\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "What does Cron Expression Parser need as input?",
+        "a": "You enter your data in The cron expression to read. Nothing else is required."
       }
     ]
   },
@@ -3107,7 +3479,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "crontab-generator",
     "name": "Crontab Generator",
     "category": "Productivity",
-    "description": "Crontab GeneratorBuild and understand cron expressions with live description and next run times. Includes presets and cheatsheet.",
+    "description": "Build and understand cron expressions with live description and next run times. Includes presets and cheatsheet.",
     "engine": "time-calendar",
     "keywords": [
       "crontab",
@@ -3116,11 +3488,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "crontab generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Description of the schedule, Command and Cron expression.",
+      "Provides 2 actions: Copy the crontab, Download crontab.txt.",
+      "Copy, download or print the result with Copy the crontab and Download crontab.txt.",
+      "Runs entirely in your browser - Crontab Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -3134,6 +3506,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Crontab Generator?",
+        "a": "Press \"Current Time\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "What does Crontab Generator need as input?",
+        "a": "You enter your data in Description of the schedule, Command and Cron expression. Nothing else is required."
       }
     ]
   },
@@ -3141,7 +3521,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "csr-decoder",
     "name": "CSR Decoder",
     "category": "Coding",
-    "description": "CSR DecoderDecode and check a CSR before sending it to a CA: subject, SANs, key size and signature. Flags bad country codes, URLs in CN and weak keys. Nothing uploaded.",
+    "description": "Decode and check a CSR before sending it to a CA: subject, SANs, key size and signature. Flags bad country codes, URLs in CN and weak keys. Nothing uploaded.",
     "engine": "crypto-hash",
     "keywords": [
       "csr",
@@ -3150,11 +3530,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "csr decoder"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste a PEM encoded certificate signing request here....",
+      "Provides 3 actions: Decode the structure, Clear, Load example.",
+      "Runs entirely in your browser - CSR Decoder never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -3168,6 +3548,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does CSR Decoder need as input?",
+        "a": "You enter your data in Type or paste any text to hash.... Nothing else is required."
       }
     ]
   },
@@ -3185,11 +3569,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "csv to json converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste CSV or TSV data here... and Converted output will appear here....",
+      "Choose Delimiter:: Comma (,), Tab (\\t), Semicolon (;), Pipe (|) and 1 more.",
+      "Provides 5 actions: CSV → JSON, JSON Output, Table, Copy and 1 more.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with CSV, JSON."
     ],
     "faqs": [
       {
@@ -3203,6 +3587,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does CSV to JSON Converter handle?",
+        "a": "It handles CSV, JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -3210,7 +3598,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "csv-viewer",
     "name": "CSV Viewer",
     "category": "Coding",
-    "description": "CSV ViewerOpen CSV files as a sortable table in your browser. Auto-detects delimiter and encoding, searches every cell, shows column stats, exports to Excel. No upload.",
+    "description": "Open CSV files as a sortable table in your browser. Auto-detects delimiter and encoding, searches every cell, shows column stats, exports to Excel. No upload.",
     "engine": "csv-data",
     "keywords": [
       "csv",
@@ -3219,11 +3607,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "csv viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste CSV or TSV data here... and Converted output will appear here....",
+      "Choose Delimiter:: Comma (,), Tab (\\t), Semicolon (;), Pipe (|) and 1 more.",
+      "Provides 5 actions: CSV → JSON, JSON Output, Table, Copy and 1 more.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with CSV."
     ],
     "faqs": [
       {
@@ -3237,6 +3625,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does CSV Viewer handle?",
+        "a": "It handles CSV. The processing happens entirely in your browser."
       }
     ]
   },
@@ -3244,7 +3636,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "cumulative-gpa-calculator",
     "name": "Cumulative GPA Calculator",
     "category": "Calculators",
-    "description": "Cumulative GPA CalculatorFree cumulative GPA calculator: combine your current GPA and credits with new semester grades to get your overall GPA, and see what you need to reach a target.",
+    "description": "Free cumulative GPA calculator: combine your current GPA and credits with new semester grades to get your overall GPA, and see what you need to reach a target.",
     "engine": "calculator-suite",
     "keywords": [
       "cumulative",
@@ -3254,11 +3646,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "cumulative gpa calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 11 inputs: Current GPA, Credits earned, Target GPA, Course 1 name, Mathematics credits, Course 2 name, Physics credits, Course 3 name, History credits, Course 4 name and Literature credits.",
+      "Choose between Mathematics grade (8 values) and Physics grade (8 values).",
+      "Runs one action: + Add course.",
+      "Runs entirely in your browser - Cumulative GPA Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -3272,6 +3664,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Cumulative GPA Calculator?",
+        "a": "You can choose Mathematics grade, Physics grade, History grade and Literature grade. The result is calculated right on the page."
       }
     ]
   },
@@ -3279,7 +3675,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "cursive-text-generator",
     "name": "Cursive Text Generator",
     "category": "Text Processing",
-    "description": "Cursive Text GeneratorTurn plain words into elegant cursive, script, and blackletter Unicode text you can copy and paste anywhere.",
+    "description": "Turn plain words into elegant cursive, script, and blackletter Unicode text you can copy and paste anywhere.",
     "engine": "text-suite",
     "keywords": [
       "cursive",
@@ -3289,11 +3685,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "cursive text generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Your text and Result.",
+      "Choose Style: Script, Bold Script, Fraktur.",
+      "Provides 2 actions: Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Cursive Text Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -3307,6 +3703,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Cursive Text Generator?",
+        "a": "You can choose Style. The result is calculated right on the page."
       }
     ]
   },
@@ -3314,7 +3714,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "custom-bingo-card-maker",
     "name": "Custom Bingo Card Maker",
     "category": "Productivity",
-    "description": "Custom Bingo Card MakerMake custom bingo cards with your own words, names, phrases or emoji. Ready lists, 3x3 to 5x5 grids, 10 themes, unique cards and a free PDF. No account.",
+    "description": "Make custom bingo cards with your own words, names, phrases or emoji. Ready lists, 3x3 to 5x5 grids, 10 themes, unique cards and a free PDF. No account.",
     "engine": "randomizers-games",
     "keywords": [
       "custom",
@@ -3325,11 +3725,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "custom bingo card maker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Your squares (one per line)The first 24 lines fill the card, the rest is ignored..",
+      "Runs one action: Fill the card.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Custom Bingo Card Maker never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -3343,14 +3743,18 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Custom Bingo Card Maker handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
   {
     "slug": "dnd-dice-roller",
-    "name": "D&amp;D Dice Roller",
+    "name": "D&D Dice Roller",
     "category": "Lifestyle",
-    "description": "D&amp;D Dice RollerRoll DnD dice online: d4, d6, d8, d10, d12, d20 and d100. Use dice notation, modifiers and d20 advantage, then copy or export your rolls. 100% client-side.",
+    "description": "Roll DnD dice online: d4, d6, d8, d10, d12, d20 and d100. Use dice notation, modifiers and d20 advantage, then copy or export your rolls. 100% client-side.",
     "engine": "randomizers-games",
     "keywords": [
       "amp",
@@ -3360,16 +3764,16 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "dnd dice roller"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 numeric value: Modifier.",
+      "Provides 8 actions: Roll all dice, d4, d6, d8 and 4 more.",
+      "Runs entirely in your browser - D&D Dice Roller never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
-        "q": "Is this D&amp;D Dice Roller tool free to use?",
-        "a": "Yes, D&amp;D Dice Roller on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "q": "Is this D&D Dice Roller tool free to use?",
+        "a": "Yes, D&D Dice Roller on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3378,6 +3782,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use D&D Dice Roller?",
+        "a": "Press \"d6\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "What does D&D Dice Roller need as input?",
+        "a": "You enter your data in Modifier. Nothing else is required."
       }
     ]
   },
@@ -3385,7 +3797,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "d20-roller",
     "name": "D20 Roller",
     "category": "Lifestyle",
-    "description": "D20 RollerRoll a d20 online with advantage, disadvantage and modifiers. See both dice, the kept result and your total. Animated, free and entirely in your browser.",
+    "description": "Roll a d20 online with advantage, disadvantage and modifiers. See both dice, the kept result and your total. Animated, free and entirely in your browser.",
     "engine": "text-suite",
     "keywords": [
       "d20",
@@ -3394,11 +3806,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "d20 roller"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 numeric value: Modifier.",
+      "Choose Mode: Normal, Advantage, Disadvantage.",
+      "Provides 2 actions: Roll d20, Clear history.",
+      "Runs entirely in your browser - D20 Roller never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -3412,6 +3824,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in D20 Roller?",
+        "a": "You can choose Mode. The result is calculated right on the page."
       }
     ]
   },
@@ -3419,7 +3835,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "data-matrix-generator",
     "name": "Data Matrix Generator",
     "category": "Design",
-    "description": "Data Matrix GeneratorCreate Data Matrix and GS1 DataMatrix codes for parts, healthcare and electronics. Encode text, URLs or GS1 data; download PNG or vector SVG, or bulk sheets.",
+    "description": "Create Data Matrix and GS1 DataMatrix codes for parts, healthcare and electronics. Encode text, URLs or GS1 data; download PNG or vector SVG, or bulk sheets.",
     "engine": "image-suite",
     "keywords": [
       "data",
@@ -3429,11 +3845,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "data matrix generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Text to encode.",
+      "Runs one action: Download Image.",
+      "Copy, download or print the result with Download Image.",
+      "Works with PNG, SVG.",
+      "Runs entirely in your browser - Data Matrix Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -3447,6 +3863,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Data Matrix Generator handle?",
+        "a": "It handles PNG, SVG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -3454,7 +3874,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "date-calculator",
     "name": "Date Calculator",
     "category": "Calculators",
-    "description": "Date CalculatorAdd or subtract days, weeks, months or years from any date, count business days only, or find the time between two dates. Free, instant, with the weekday shown.",
+    "description": "Add or subtract days, weeks, months or years from any date, count business days only, or find the time between two dates. Free, instant, with the weekday shown.",
     "engine": "calculator-suite",
     "keywords": [
       "date",
@@ -3463,11 +3883,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "date calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Start date, End date and Amount.",
+      "Choose between Unit (4 values) and Direction (2 values).",
+      "Runs entirely in your browser - Date Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -3481,6 +3901,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Date Calculator?",
+        "a": "You can choose Unit and Direction. The result is calculated right on the page."
       }
     ]
   },
@@ -3488,7 +3912,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "days-between-dates",
     "name": "Days Between Dates Calculator",
     "category": "Calculators",
-    "description": "Days Between Dates CalculatorCount the days between two dates or until a date, with results in years, months, weeks, and weekdays. Optionally include the end date. Free.",
+    "description": "Count the days between two dates or until a date, with results in years, months, weeks, and weekdays. Optionally include the end date. Free.",
     "engine": "calculator-suite",
     "keywords": [
       "days",
@@ -3499,11 +3923,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "days between dates"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: From date and To date.",
+      "Runs entirely in your browser - Days Between Dates Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -3517,6 +3940,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Days Between Dates Calculator need as input?",
+        "a": "You enter your data in From date and To date. Nothing else is required."
       }
     ]
   },
@@ -3524,7 +3951,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "db-viewer",
     "name": "DB File Viewer",
     "category": "Coding",
-    "description": "DB File ViewerOpen .db files online: if it is an SQLite database, browse its tables, view the schema and run SQL in your browser. Checks the file type first. Free.",
+    "description": "Open .db files online: if it is an SQLite database, browse its tables, view the schema and run SQL in your browser. Checks the file type first. Free.",
     "engine": "file-viewers",
     "keywords": [
       "file",
@@ -3533,11 +3960,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "db viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: SQL query.",
+      "Runs one action: Execute SQL.",
+      "Runs entirely in your browser - DB File Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -3551,6 +3978,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use DB File Viewer?",
+        "a": "Press \"Execute SQL\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "What does DB File Viewer need as input?",
+        "a": "You enter your data in SQL query. Nothing else is required."
       }
     ]
   },
@@ -3558,7 +3993,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "dead-pixel-test",
     "name": "Dead Pixel Test",
     "category": "Device Tests",
-    "description": "Dead Pixel TestCheck your screen for dead and stuck pixels with fullscreen colour screens, gradients for banding and a stuck pixel fixer. Monitors, laptops, phones and TVs.",
+    "description": "Check your screen for dead and stuck pixels with fullscreen colour screens, gradients for banding and a stuck pixel fixer. Monitors, laptops, phones and TVs.",
     "engine": "device-tester",
     "keywords": [
       "dead",
@@ -3568,11 +4003,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "dead pixel test"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 input: Zoom 8x.",
+      "Provides 6 actions: Black, White, Red, Green and 2 more.",
+      "Runs entirely in your browser - Dead Pixel Test never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -3586,6 +4021,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Dead Pixel Test?",
+        "a": "Press \"CLICK HERE RAPIDLY!\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "What does Dead Pixel Test need as input?",
+        "a": "You enter your data in Zoom 8x. Nothing else is required."
       }
     ]
   },
@@ -3593,7 +4036,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "decimal-to-binary",
     "name": "Decimal to Binary Converter",
     "category": "Encoding",
-    "description": "Decimal to Binary ConverterConvert decimal to binary instantly, with the divide-by-2 working shown. Signed two’s complement for 8 to 64 bits, clickable bit view and big-number support.",
+    "description": "Convert decimal to binary instantly, with the divide-by-2 working shown. Signed two’s complement for 8 to 64 bits, clickable bit view and big-number support.",
     "engine": "encoding-converters",
     "keywords": [
       "decimal",
@@ -3603,11 +4046,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "decimal to binary"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (Decimal) and Output (Binary).",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Decimal to Binary Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -3621,6 +4064,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Decimal to Binary Converter need as input?",
+        "a": "You enter your data in Input (Decimal) and Output (Binary). Nothing else is required."
       }
     ]
   },
@@ -3628,7 +4075,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "decimal-to-fraction-calculator",
     "name": "Decimal to Fraction Calculator",
     "category": "Calculators",
-    "description": "Decimal to Fraction CalculatorConvert any decimal to a fraction in simplest form, including repeating decimals like 0.333... Round to the nearest 1/16 or 1/64 inch. Steps shown.",
+    "description": "Convert any decimal to a fraction in simplest form, including repeating decimals like 0.333... Round to the nearest 1/16 or 1/64 inch. Steps shown.",
     "engine": "calculator-suite",
     "keywords": [
       "decimal",
@@ -3638,11 +4085,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "decimal to fraction calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Decimal.",
+      "Runs entirely in your browser - Decimal to Fraction Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -3656,6 +4102,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Decimal to Fraction Calculator need as input?",
+        "a": "You enter your data in Decimal. Nothing else is required."
       }
     ]
   },
@@ -3663,7 +4113,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "decimal-to-hex",
     "name": "Decimal to Hex Converter",
     "category": "Encoding",
-    "description": "Decimal to Hex ConverterConvert decimal to hexadecimal instantly, with the repeated-division working shown. Big numbers, negative two’s complement values and binary and octal too.",
+    "description": "Convert decimal to hexadecimal instantly, with the repeated-division working shown. Big numbers, negative two’s complement values and binary and octal too.",
     "engine": "encoding-converters",
     "keywords": [
       "decimal",
@@ -3673,11 +4123,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "decimal to hex"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (Decimal) and Output (Hexadecimal).",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Decimal to Hex Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -3691,6 +4141,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Decimal to Hex Converter need as input?",
+        "a": "You enter your data in Input (Decimal) and Output (Hexadecimal). Nothing else is required."
       }
     ]
   },
@@ -3698,7 +4152,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "dice-roller",
     "name": "Dice Roller",
     "category": "Lifestyle",
-    "description": "Dice RollerRoll a dice online with smooth animation. Roll up to 100 dice, choose d4–d100 or custom sides, add modifiers and save your history. Free and 100% client-side.",
+    "description": "Roll a dice online in your browser. Roll up to 100 dice, choose d4-d100 or custom sides, add modifiers and keep a history of your rolls. Free and 100% client-side.",
     "engine": "randomizers-games",
     "keywords": [
       "dice",
@@ -3707,11 +4161,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "dice roller"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 numeric values: Number of dice and Modifier.",
+      "Provides 8 actions: Roll Again, d4, d6, d8 and 4 more.",
+      "Runs entirely in your browser - Dice Roller never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -3725,6 +4179,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Dice Roller?",
+        "a": "Press \"d6\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "What does Dice Roller need as input?",
+        "a": "You enter your data in Number of dice and Modifier. Nothing else is required."
       }
     ]
   },
@@ -3732,7 +4194,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "dirty-santa-rules",
     "name": "Dirty Santa Rules",
     "category": "Productivity",
-    "description": "Dirty Santa RulesDirty Santa rules explained: draw numbers, open or steal, a gift is dead after 3 steals. Plus a free Dirty Santa game tracker with random order and undo.",
+    "description": "Dirty Santa rules explained: draw numbers, open or steal, a gift is dead after 3 steals. Plus a free Dirty Santa game tracker with random order and undo.",
     "engine": "randomizers-games",
     "keywords": [
       "dirty",
@@ -3742,11 +4204,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "dirty santa rules"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs entirely in your browser - Dirty Santa Rules never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -3760,6 +4221,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Dirty Santa Rules need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
+      },
+      {
+        "q": "How do I use Dirty Santa Rules?",
+        "a": "Run the tool on the page and read the result directly below the workspace."
       }
     ]
   },
@@ -3767,7 +4236,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "discord-username-generator",
     "name": "Discord Username Generator",
     "category": "Text Processing",
-    "description": "Discord Username GeneratorGenerate a Discord username with lowercase letters, periods or underscores. Add your own word, save favorites and copy a handle. Free and client-side.",
+    "description": "Generate a Discord username with lowercase letters, periods or underscores. Add your own word, save favorites and copy a handle. Free and client-side.",
     "engine": "randomizers-games",
     "keywords": [
       "discord",
@@ -3777,11 +4246,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "discord username generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Your own word.",
+      "Choose Style: _, ., without a separator.",
+      "Provides 10 actions: Generate names, Spry_Tiger334, Amber_Meteor894, Winter_Canyon and 6 more.",
+      "Runs entirely in your browser - Discord Username Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -3795,6 +4264,18 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Discord Username Generator need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
+      },
+      {
+        "q": "How do I use Discord Username Generator?",
+        "a": "Press \"Generate names\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "Which settings can I choose in Discord Username Generator?",
+        "a": "You can choose Style. The result is calculated right on the page."
       }
     ]
   },
@@ -3802,7 +4283,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "discount-calculator",
     "name": "Discount Calculator",
     "category": "Calculators",
-    "description": "Discount CalculatorCalculate the sale price and savings for any percent off, stack extra discounts, add sales tax, or find the original price. Free and instant.",
+    "description": "Calculate the sale price and savings for any percent off, stack extra discounts, add sales tax, or find the original price. Free and instant.",
     "engine": "calculator-suite",
     "keywords": [
       "discount",
@@ -3811,11 +4292,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "discount calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 4 text inputs: Original price, Discount (%), Extra discount (%) and Sales tax (%).",
+      "Runs entirely in your browser - Discount Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -3829,6 +4309,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Discount Calculator need as input?",
+        "a": "You enter your data in Original price, Discount (%), Extra discount (%) and Sales tax (%). Nothing else is required."
       }
     ]
   },
@@ -3836,7 +4320,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "docx-viewer",
     "name": "DOCX Viewer",
     "category": "Productivity",
-    "description": "DOCX ViewerView .docx files in your browser with real page layout: tables, images, headers and comments. See author and word count, copy text or save as PDF. No upload.",
+    "description": "View .docx files in your browser with real page layout: tables, images, headers and comments. See author and word count, copy text or save as PDF. No upload.",
     "engine": "file-viewers",
     "keywords": [
       "docx",
@@ -3845,11 +4329,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "docx viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Open a Word document.",
+      "Works with PDF.",
+      "Runs entirely in your browser - DOCX Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -3863,6 +4347,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does DOCX Viewer handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -3870,7 +4358,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "dog-age-calculator",
     "name": "Dog Age Calculator",
     "category": "Calculators",
-    "description": "Dog Age CalculatorConvert dog years to human years by size (small, medium, large or giant) using the AVMA chart plus the newer epigenetic formula, with life stage. Free.",
+    "description": "Convert dog years to human years by size (small, medium, large or giant) using the AVMA chart plus the newer epigenetic formula, with life stage. Free.",
     "engine": "calculator-suite",
     "keywords": [
       "dog",
@@ -3880,11 +4368,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "dog age calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Dog's age in years.",
+      "Choose Size: Small (up to 20 lb), Medium (21 – 50 lb), Large (51 – 90 lb), Giant (over 90 lb).",
+      "Runs entirely in your browser - Dog Age Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -3898,6 +4386,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Dog Age Calculator?",
+        "a": "You can choose Size. The result is calculated right on the page."
       }
     ]
   },
@@ -3905,7 +4397,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "double-click-test",
     "name": "Double Click Test",
     "category": "Device Tests",
-    "description": "Double Click TestIs your mouse double-clicking by itself? Single-click in the box and any press that registers twice is flagged with its timing. Adjustable threshold, free.",
+    "description": "Is your mouse double-clicking by itself? Single-click in the box and any press that registers twice is flagged with its timing. Adjustable threshold, free.",
     "engine": "device-tester",
     "keywords": [
       "double",
@@ -3915,11 +4407,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "double click test"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 numeric value: The limit of a double click in milliseconds.",
+      "Runs one action: Reset the measurement.",
+      "Runs entirely in your browser - Double Click Test never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -3933,6 +4425,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Double Click Test?",
+        "a": "Press \"CLICK HERE RAPIDLY!\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "What does Double Click Test need as input?",
+        "a": "You enter your data in The limit of a double click in milliseconds. Nothing else is required."
       }
     ]
   },
@@ -3940,7 +4440,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "double-elimination-bracket",
     "name": "Double Elimination Bracket Generator",
     "category": "Productivity",
-    "description": "Double Elimination Bracket GeneratorFree double elimination bracket generator with winners and losers brackets, a grand final and an optional reset. Byes for any number of teams, PDF and PNG.",
+    "description": "Free double elimination bracket generator with winners and losers brackets, a grand final and an optional reset. Byes for any number of teams, PDF and PNG.",
     "engine": "randomizers-games",
     "keywords": [
       "double",
@@ -3951,11 +4451,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "double elimination bracket"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Names or teams (one per line)Between 2 and 16 names, the bracket is padded with byes..",
+      "Provides 9 actions: Generate the bracket, Shuffle the seeds, Print the bracket, Alpha and 5 more.",
+      "Copy, download or print the result with Print the bracket.",
+      "Works with PDF, PNG.",
+      "Runs entirely in your browser - Double Elimination Bracket Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -3969,6 +4469,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Double Elimination Bracket Generator handle?",
+        "a": "It handles PDF, PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -3976,7 +4480,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "ean-13-barcode-generator",
     "name": "EAN-13 Barcode Generator",
     "category": "Design",
-    "description": "EAN-13 Barcode GeneratorGenerate EAN-13 and EAN-8 barcodes for products sold in Europe and worldwide. Check digit added automatically; download PNG or vector SVG at standard size.",
+    "description": "Generate EAN-13 and EAN-8 barcodes for products sold in Europe and worldwide. Check digit added automatically; download PNG or vector SVG at standard size.",
     "engine": "qr-barcode",
     "keywords": [
       "ean",
@@ -3986,11 +4490,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "ean 13 barcode generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Enter numbers or text....",
+      "Choose Barcode Format: Code 128 (Universal), EAN-13 (13 digits), UPC (12 digits), Code 39 (Alphanumeric).",
+      "Runs one action: Download Barcode SVG.",
+      "Copy, download or print the result with Download Barcode SVG.",
+      "Works with PNG, SVG."
     ],
     "faqs": [
       {
@@ -4004,6 +4508,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does EAN-13 Barcode Generator handle?",
+        "a": "It handles PNG, SVG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -4011,7 +4519,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "easy-grader",
     "name": "Easy Grader",
     "category": "Calculators",
-    "description": "Easy GraderFree online easy grader for teachers. Enter the number of questions to get a printable grading chart with the percentage and letter for every number wrong.",
+    "description": "Free online easy grader for teachers. Enter the number of questions to get a printable grading chart with the percentage and letter for every number wrong.",
     "engine": "calculator-suite",
     "keywords": [
       "easy",
@@ -4020,11 +4528,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "easy grader"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Number of questions and Questions answered correctly.",
+      "Runs entirely in your browser - Easy Grader never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4038,6 +4545,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Easy Grader need as input?",
+        "a": "You enter your data in Number of questions and Questions answered correctly. Nothing else is required."
       }
     ]
   },
@@ -4045,7 +4556,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "electricity-cost-calculator",
     "name": "Electricity Cost Calculator",
     "category": "Calculators",
-    "description": "Electricity Cost CalculatorWork out how much an appliance costs to run per day, month and year from its watts, hours of use and your price per kWh. Heaters, AC, PCs and more. Free.",
+    "description": "Work out how much an appliance costs to run per day, month and year from its watts, hours of use and your price per kWh. Heaters, AC, PCs and more. Free.",
     "engine": "calculator-suite",
     "keywords": [
       "electricity",
@@ -4055,11 +4566,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "electricity cost calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Wattage, Hours used per day and Price per kWh.",
+      "Runs entirely in your browser - Electricity Cost Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4073,6 +4583,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Electricity Cost Calculator need as input?",
+        "a": "You enter your data in Wattage, Hours used per day and Price per kWh. Nothing else is required."
       }
     ]
   },
@@ -4080,7 +4594,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "email-header-analyzer",
     "name": "Email Header Analyzer",
     "category": "Productivity",
-    "description": "Email Header AnalyzerPaste email headers or open an .eml/.msg to trace each delivery hop and delay, check SPF, DKIM and DMARC, and spot phishing signs. Free and private.",
+    "description": "Paste email headers or open an .eml/.msg to trace each delivery hop and delay, check SPF, DKIM and DMARC, and spot phishing signs. Free and private.",
     "engine": "time-calendar",
     "keywords": [
       "email",
@@ -4090,11 +4604,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "email header analyzer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Raw email.",
+      "Provides 2 actions: Load the example, Clear.",
+      "Runs entirely in your browser - Email Header Analyzer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4108,6 +4622,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Email Header Analyzer?",
+        "a": "Press \"Current Time\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "What does Email Header Analyzer need as input?",
+        "a": "You enter your data in Raw email. Nothing else is required."
       }
     ]
   },
@@ -4115,7 +4637,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "eml-to-pdf",
     "name": "EML to PDF Converter",
     "category": "Productivity",
-    "description": "EML to PDF ConverterConvert .eml emails to PDF in your browser, with sender, recipients, date and attachments listed on top. Inline images kept, tracking blocked. Free.",
+    "description": "Convert .eml emails to PDF in your browser, with sender, recipients, date and attachments listed on top. Inline images kept, tracking blocked. Free.",
     "engine": "pdf-suite",
     "keywords": [
       "eml",
@@ -4125,11 +4647,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "eml to pdf"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose an email file.",
+      "Runs one action: Choose an email file.",
+      "Works with PDF.",
+      "Runs entirely in your browser - EML to PDF Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -4143,6 +4665,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does EML to PDF Converter handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -4150,7 +4676,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "eml-viewer",
     "name": "EML Viewer",
     "category": "Productivity",
-    "description": "EML ViewerOpen .eml files in your browser: read the message, download attachments, check headers and SPF/DKIM, and save as PDF. Tracking pixels blocked. No upload.",
+    "description": "Open .eml files in your browser: read the message, download attachments, check headers and SPF/DKIM, and save as PDF. Tracking pixels blocked. No upload.",
     "engine": "file-viewers",
     "keywords": [
       "eml",
@@ -4159,11 +4685,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "eml viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Open an e-mail message.",
+      "Works with PDF.",
+      "Runs entirely in your browser - EML Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4177,6 +4703,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does EML Viewer handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -4184,7 +4714,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "epoch-converter",
     "name": "Epoch Converter",
     "category": "Data Formats",
-    "description": "Epoch ConverterConvert Unix epoch timestamps in seconds or milliseconds into readable dates, and generate timestamps from date inputs. Free online epoch converter.",
+    "description": "Convert Unix epoch timestamps in seconds or milliseconds into readable dates, and generate timestamps from date inputs. Free online epoch converter.",
     "engine": "time-calendar",
     "keywords": [
       "epoch",
@@ -4193,11 +4723,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "epoch converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: Current Time.",
+      "Runs entirely in your browser - Epoch Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4211,6 +4741,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Epoch Converter?",
+        "a": "Press \"Current Time\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -4218,7 +4752,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "excel-to-csv",
     "name": "Excel to CSV Converter",
     "category": "Coding",
-    "description": "Excel to CSV ConverterConvert Excel spreadsheets to CSV online without uploading: pick the sheet and delimiter, keep dates and leading zeros, or export all sheets as a ZIP.",
+    "description": "Convert an Excel spreadsheet to CSV in your browser: pick the sheet and the delimiter and the tool reads the workbook itself - dates and percentages keep the format of the workbook. The file never leaves your device.",
     "engine": "csv-data",
     "keywords": [
       "excel",
@@ -4228,11 +4762,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "excel to csv"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste CSV or TSV data here... and Converted output will appear here....",
+      "Choose Delimiter:: Comma (,), Tab (\\t), Semicolon (;), Pipe (|) and 1 more.",
+      "Provides 5 actions: CSV → JSON, JSON Output, Table, Copy and 1 more.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with CSV."
     ],
     "faqs": [
       {
@@ -4246,6 +4780,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Excel to CSV Converter handle?",
+        "a": "It handles CSV, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -4253,7 +4791,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "excel-viewer",
     "name": "Excel Viewer",
     "category": "Coding",
-    "description": "Excel ViewerView Excel spreadsheets online: every sheet as a sortable, searchable table with formatted dates, column stats and CSV export. Files stay on your device.",
+    "description": "Open an Excel spreadsheet in the browser: every sheet becomes a table you can sort by clicking a column header, and the sheet can be exported as CSV. The file never leaves your device.",
     "engine": "csv-data",
     "keywords": [
       "excel",
@@ -4262,11 +4800,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "excel viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste CSV or TSV data here... and Converted output will appear here....",
+      "Choose Delimiter:: Comma (,), Tab (\\t), Semicolon (;), Pipe (|) and 1 more.",
+      "Provides 5 actions: CSV → JSON, JSON Output, Table, Copy and 1 more.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with CSV."
     ],
     "faqs": [
       {
@@ -4280,6 +4818,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Excel Viewer handle?",
+        "a": "It handles CSV. The processing happens entirely in your browser."
       }
     ]
   },
@@ -4287,7 +4829,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "exif-remover",
     "name": "EXIF Remover",
     "category": "Design",
-    "description": "EXIF RemoverRemove EXIF and other photo metadata, including GPS location and camera details, then download a cleaned image copy. Free, private, and processed locally.",
+    "description": "Remove EXIF and other photo metadata, including GPS location and camera details, then download a cleaned image copy. Free, private, and processed locally.",
     "engine": "image-suite",
     "keywords": [
       "exif",
@@ -4296,11 +4838,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "exif remover"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - EXIF Remover never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4314,6 +4855,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does EXIF Remover need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -4321,7 +4866,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "exif-viewer",
     "name": "EXIF Viewer",
     "category": "Design",
-    "description": "EXIF ViewerRead EXIF data from a photo, including camera model, lens, exposure settings, and GPS location. Free online EXIF viewer that runs in your browser, no uploads.",
+    "description": "Read EXIF data from a photo, including camera model, lens, exposure settings, and GPS location. Free online EXIF viewer that runs in your browser, no uploads.",
     "engine": "image-suite",
     "keywords": [
       "exif",
@@ -4330,11 +4875,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "exif viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - EXIF Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4348,6 +4892,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does EXIF Viewer need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -4355,7 +4903,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "extract-pdf-pages",
     "name": "Extract PDF Pages",
     "category": "PDF",
-    "description": "Extract PDF PagesSelect pages from a PDF and save them as a separate document, all in your browser. Free online tool to extract PDF pages with no uploads or watermark.",
+    "description": "Select pages from a PDF and save them as a separate document, all in your browser. Free online tool to extract PDF pages with no uploads or watermark.",
     "engine": "pdf-suite",
     "keywords": [
       "extract",
@@ -4364,11 +4912,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "extract pdf pages"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Extract PDF Pages never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -4382,6 +4930,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Extract PDF Pages handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -4389,7 +4941,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "face-pixelator",
     "name": "Face Pixelator",
     "category": "Design",
-    "description": "Face PixelatorPixelate faces in any photo automatically. Set the pixel size, keep the faces you want, and download at full size. Runs in your browser; nothing is uploaded.",
+    "description": "Pixelate a face in a photo: mark the face and set the pixel size, then the marked area becomes a mosaic. Runs in your browser, nothing is uploaded.",
     "engine": "image-suite",
     "keywords": [
       "face",
@@ -4398,11 +4950,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "face pixelator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Face Pixelator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4416,6 +4967,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Face Pixelator need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -4423,7 +4978,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "fancy-text-generator",
     "name": "Fancy Text Generator",
     "category": "Text Processing",
-    "description": "Fancy Text GeneratorTurn plain words into fancy Unicode text and symbol frames you can copy and paste into any bio, username, or caption.",
+    "description": "Turn plain words into fancy Unicode text and symbol frames you can copy and paste into any bio, username, or caption.",
     "engine": "text-suite",
     "keywords": [
       "fancy",
@@ -4433,11 +4988,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "fancy text generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Your text and Search styles.",
+      "Choose between Featured style (8 values) and Symbol frame (8 values).",
+      "Provides 2 actions: Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Fancy Text Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -4451,6 +5006,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Fancy Text Generator?",
+        "a": "You can choose Featured style and Symbol frame. The result is calculated right on the page."
       }
     ]
   },
@@ -4458,7 +5017,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "favicon-generator",
     "name": "Favicon Generator",
     "category": "Design",
-    "description": "Favicon GeneratorCreate professional favicons from images with customizable sizes, backgrounds, and formats (ICO, PNG, SVG).",
+    "description": "Create professional favicons from images with customizable sizes, backgrounds, and formats (ICO, PNG, SVG).",
     "engine": "image-suite",
     "keywords": [
       "favicon",
@@ -4467,11 +5026,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "favicon generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with ICO, PNG, SVG.",
+      "Runs entirely in your browser - Favicon Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4485,6 +5044,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Favicon Generator handle?",
+        "a": "It handles ICO, PNG, SVG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -4492,7 +5055,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "favicon-maker",
     "name": "Favicon Maker",
     "category": "Design",
-    "description": "Favicon MakerMake a browser-tab icon from a library symbol, customize colors and shape, and export a PNG or SVG favicon. Free online favicon maker that runs in your browser.",
+    "description": "Make a browser-tab icon from a library symbol, customize colors and shape, and export a PNG or SVG favicon. Free online favicon maker that runs in your browser.",
     "engine": "image-suite",
     "keywords": [
       "favicon",
@@ -4501,11 +5064,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "favicon maker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Colour and Stroke width2.",
+      "Choose Icon size: 16 × 16, 32 × 32, 48 × 48, 64 × 64.",
+      "Provides 2 actions: Download Image, Reset the icon.",
+      "Copy, download or print the result with Download Image.",
+      "Works with PNG, SVG."
     ],
     "faqs": [
       {
@@ -4519,6 +5082,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Favicon Maker handle?",
+        "a": "It handles PNG, SVG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -4526,7 +5093,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "fbx-viewer",
     "name": "FBX Viewer",
     "category": "Design",
-    "description": "FBX ViewerView Autodesk FBX files in your browser: meshes, materials, textures and animations. Check the rig, read stats and export to GLB or STL. Free, no upload.",
+    "description": "View Autodesk FBX files in your browser: meshes, materials, textures and animations. Check the rig, read stats and export to GLB or STL. Free, no upload.",
     "engine": "file-viewers",
     "keywords": [
       "fbx",
@@ -4535,11 +5102,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "fbx viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: File.",
+      "Provides 2 actions: Open 3D File, Try Sample Model.",
+      "Works with FBX, GLB, STL.",
+      "Runs entirely in your browser - FBX Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -4553,6 +5120,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does FBX Viewer handle?",
+        "a": "It handles FBX, GLB, STL. The processing happens entirely in your browser."
       }
     ]
   },
@@ -4560,7 +5131,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "final-grade-calculator",
     "name": "Final Grade Calculator",
     "category": "Calculators",
-    "description": "Final Grade CalculatorFind the score you need on your final exam to get an A, B or C. Enter your current grade, the final’s weight and your goal; see every letter. Free, no sign-up.",
+    "description": "Find the score you need on your final exam to get an A, B or C. Enter your current grade, the final’s weight and your goal; see every letter. Free, no sign-up.",
     "engine": "calculator-suite",
     "keywords": [
       "final",
@@ -4570,11 +5141,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "final grade calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Current grade (%), Final weight (%) and Goal grade (%).",
+      "Runs entirely in your browser - Final Grade Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4588,28 +5158,32 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Final Grade Calculator need as input?",
+        "a": "You enter your data in Current grade (%), Final weight (%) and Goal grade (%). Nothing else is required."
       }
     ]
   },
   {
     "slug": "flac-to-mp3",
     "name": "FLAC to MP3 Converter",
-    "category": "Video &amp; Audio",
-    "description": "FLAC to MP3 ConverterConvert FLAC to MP3 in your browser at up to 320 kbps. Convert whole albums at once and download a ZIP. Free, no upload, no sign-up and no file size limits.",
+    "category": "Video & Audio",
+    "description": "Convert a FLAC recording to a real MP3 file in your browser. The sound is decoded locally and re-encoded with the LAME encoder at 192 kbps and 44.1 kHz. Free, no upload, no sign-up.",
     "engine": "media-audio-video",
     "keywords": [
       "flac",
       "mp3",
       "converter",
-      "video &amp; audio",
+      "video & audio",
       "flac to mp3"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Select a media file.",
+      "Choose Convert to: MP3 - MPEG audio, MP4 - H.264 video, WAV - uncompressed PCM, WebM - VP8 video and 1 more.",
+      "Provides 2 actions: Convert now, Clear.",
+      "Works with FLAC, MP3.",
+      "Runs entirely in your browser - FLAC to MP3 Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -4623,6 +5197,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does FLAC to MP3 Converter handle?",
+        "a": "It reads FLAC recordings and writes an MP3 file. Decoding, encoding and the download all happen in your browser."
       }
     ]
   },
@@ -4630,7 +5208,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "flip-a-coin",
     "name": "Flip a Coin",
     "category": "Lifestyle",
-    "description": "Flip a CoinFlip a coin online for a quick heads or tails decision. Add your own choices, toss up to five coins, or play best of 3. Free and entirely in your browser.",
+    "description": "Flip a coin online for a quick heads or tails decision. Add your own choices, toss up to five coins, or play best of 3. Free and entirely in your browser.",
     "engine": "randomizers-games",
     "keywords": [
       "flip",
@@ -4639,11 +5217,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "flip a coin"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Provides 6 actions: Single Flip, Best of 3, Best of 5, Best of 7 and 2 more.",
+      "Runs entirely in your browser - Flip a Coin never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4657,6 +5235,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Flip a Coin?",
+        "a": "Press \"Single Flip\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -4664,7 +5246,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "focus-timer",
     "name": "Focus Timer",
     "category": "Productivity",
-    "description": "Focus TimerRun a focused work countdown with adjustable session lengths, break intervals, and alerts to stay on task. Free online focus timer, no signup or install.",
+    "description": "Run a focused work countdown with adjustable session lengths, break intervals, and alerts to stay on task. Free online focus timer, no signup or install.",
     "engine": "time-calendar",
     "keywords": [
       "focus",
@@ -4673,11 +5255,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "focus timer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Provides 4 actions: Work (25m), Short Break (5m), Long Break (15m), Start Focus.",
+      "Runs entirely in your browser - Focus Timer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4691,6 +5273,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Focus Timer?",
+        "a": "Press \"Work (25m)\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -4698,7 +5284,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "font-generator",
     "name": "Font Generator",
     "category": "Text Processing",
-    "description": "Font GeneratorTurn plain text into 100+ fancy Unicode fonts you can copy and paste anywhere, with live platform compatibility checks.",
+    "description": "Turn plain text into 100+ fancy Unicode fonts you can copy and paste anywhere, with live platform compatibility checks.",
     "engine": "text-suite",
     "keywords": [
       "font",
@@ -4707,11 +5293,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "font generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Your text and Search styles.",
+      "Choose Featured style: Bold, Italic, Bold Italic, Script and 4 more.",
+      "Provides 2 actions: Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Font Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -4725,6 +5311,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Font Generator?",
+        "a": "You can choose Featured style. The result is calculated right on the page."
       }
     ]
   },
@@ -4732,7 +5322,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "instagram-fonts",
     "name": "Fonts for Instagram",
     "category": "Text Processing",
-    "description": "Fonts for InstagramCopy-and-paste fonts for Instagram bios, names, captions and Stories, checked against Instagram&#x27;s own limits and filtering.",
+    "description": "Copy-and-paste fonts for Instagram bios, names, captions and Stories, checked against Instagram's own limits and filtering.",
     "engine": "image-suite",
     "keywords": [
       "fonts",
@@ -4742,11 +5332,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "instagram fonts"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Text of the preview.",
+      "Choose Font of the preview: Classic, Modern, Neon, Strong and 4 more.",
+      "Runs entirely in your browser - Fonts for Instagram never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4760,6 +5350,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Fonts for Instagram need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
+      },
+      {
+        "q": "Which settings can I choose in Fonts for Instagram?",
+        "a": "You can choose Font of the preview. The result is calculated right on the page."
       }
     ]
   },
@@ -4767,7 +5365,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "fraction-calculator",
     "name": "Fraction Calculator",
     "category": "Calculators",
-    "description": "Fraction CalculatorAdd, subtract, multiply and divide fractions, mixed numbers and whole numbers. Get simplified, mixed and decimal answers with clear steps. Free.",
+    "description": "Add, subtract, multiply and divide fractions, mixed numbers and whole numbers. Get simplified, mixed and decimal answers with clear steps. Free.",
     "engine": "calculator-suite",
     "keywords": [
       "fraction",
@@ -4776,11 +5374,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "fraction calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 4 text inputs: Numerator A, Denominator A, Numerator B and Denominator B.",
+      "Provides 4 actions: Add, Subtract, Multiply, Divide.",
+      "Runs entirely in your browser - Fraction Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4794,6 +5392,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Fraction Calculator need as input?",
+        "a": "You enter your data in Numerator A, Denominator A, Numerator B and Denominator B. Nothing else is required."
       }
     ]
   },
@@ -4801,7 +5403,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "fraction-to-decimal-calculator",
     "name": "Fraction to Decimal Calculator",
     "category": "Calculators",
-    "description": "Fraction to Decimal CalculatorConvert fractions and mixed numbers to decimals and percentages. Shows repeating decimals with a bar, the long division steps and a conversion chart.",
+    "description": "Convert fractions and mixed numbers to decimals and percentages. Shows repeating decimals with a bar, the long division steps and a conversion chart.",
     "engine": "calculator-suite",
     "keywords": [
       "fraction",
@@ -4811,11 +5413,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "fraction to decimal calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Numerator, Denominator and Compare with.",
+      "Runs entirely in your browser - Fraction to Decimal Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4829,6 +5430,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Fraction to Decimal Calculator need as input?",
+        "a": "You enter your data in Numerator, Denominator and Compare with. Nothing else is required."
       }
     ]
   },
@@ -4836,7 +5441,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "gamepad-tester",
     "name": "Gamepad Tester",
     "category": "Device Tests",
-    "description": "Gamepad TesterTest your controller online: buttons, triggers, sticks, drift, circularity and vibration. Works with Xbox, PS5, PS4 and Switch Pro. Free, no install.",
+    "description": "Test your controller online: buttons, triggers, sticks, drift, circularity and vibration. Works with Xbox, PS5, PS4 and Switch Pro. Free, no install.",
     "engine": "device-tester",
     "keywords": [
       "gamepad",
@@ -4845,11 +5450,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "gamepad tester"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: Start the test.",
+      "Runs entirely in your browser - Gamepad Tester never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4863,28 +5468,32 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Gamepad Tester?",
+        "a": "Press \"CLICK HERE RAPIDLY!\" to run the tool and read the result directly on the page."
       }
     ]
   },
   {
     "slug": "gif-to-mp4",
     "name": "GIF to MP4 Converter",
-    "category": "Video &amp; Audio",
-    "description": "GIF to MP4 ConverterConvert animated GIFs to MP4 video in your browser: often 90% smaller, smooth playback, works on Instagram, X and WhatsApp. No upload, no watermark, free.",
+    "category": "Video & Audio",
+    "description": "Convert animated GIFs to MP4 video in your browser: often 90% smaller, smooth playback, works on Instagram, X and WhatsApp. No upload, no watermark, free.",
     "engine": "image-suite",
     "keywords": [
       "gif",
       "mp4",
       "converter",
-      "video &amp; audio",
+      "video & audio",
       "gif to mp4"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose an animation.",
+      "Works with MP4.",
+      "Runs entirely in your browser - GIF to MP4 Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4898,6 +5507,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does GIF to MP4 Converter handle?",
+        "a": "It handles MP4. The processing happens entirely in your browser."
       }
     ]
   },
@@ -4905,7 +5518,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "gif-to-png",
     "name": "GIF to PNG Converter",
     "category": "Design",
-    "description": "GIF to PNG ConverterConvert GIF to PNG with transparency kept. Save the first frame or extract every frame of an animated GIF to a ZIP of PNGs. Free, no upload, no sign-up.",
+    "description": "Convert a GIF to PNG with the transparency kept. Choose the output size and download the picture. Free, no upload, no sign-up.",
     "engine": "image-suite",
     "keywords": [
       "gif",
@@ -4915,11 +5528,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "gif to png"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with GIF, PNG.",
+      "Runs entirely in your browser - GIF to PNG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4933,6 +5546,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does GIF to PNG Converter handle?",
+        "a": "It handles GIF, PNG, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -4940,7 +5557,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "gift-exchange-generator",
     "name": "Gift Exchange Generator",
     "category": "Productivity",
-    "description": "Gift Exchange GeneratorFree gift exchange generator for work, family, friends and birthdays. Draw names, exclude couples, set a budget and send private links. No email or sign-up.",
+    "description": "Free gift exchange generator for work, family, friends and birthdays. Draw names, exclude couples, set a budget and send private links. No email or sign-up.",
     "engine": "image-suite",
     "keywords": [
       "gift",
@@ -4950,11 +5567,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "gift exchange generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Names of the participantsOne name per line. and Exclude these namesNames separated by a comma are left out of the draw..",
+      "Provides 2 actions: Draw, Clear.",
+      "Runs entirely in your browser - Gift Exchange Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -4968,6 +5585,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Gift Exchange Generator need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -4975,7 +5596,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "glb-viewer",
     "name": "GLB Viewer",
     "category": "Design",
-    "description": "GLB ViewerView GLB files in your browser with PBR materials, textures and animations. Supports Draco and meshopt compression. Inspect, measure and export. No upload.",
+    "description": "View GLB files in your browser with PBR materials, textures and animations. Supports Draco and meshopt compression. Inspect, measure and export. No upload.",
     "engine": "file-viewers",
     "keywords": [
       "glb",
@@ -4984,11 +5605,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "glb viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: File.",
+      "Provides 2 actions: Open 3D File, Try Sample Model.",
+      "Works with GLB.",
+      "Runs entirely in your browser - GLB Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -5002,6 +5623,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does GLB Viewer handle?",
+        "a": "It handles GLB. The processing happens entirely in your browser."
       }
     ]
   },
@@ -5009,7 +5634,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "glitch-text-generator",
     "name": "Glitch Text Generator",
     "category": "Text Processing",
-    "description": "Glitch Text GeneratorCreate glitchy, distorted text for bios, gaming names and posts. Light to heavy glitch effects, shuffle and copy in one click. Free, private and instant.",
+    "description": "Create glitchy, distorted text for bios, gaming names and posts. Light to heavy glitch effects, shuffle and copy in one click. Free, private and instant.",
     "engine": "text-suite",
     "keywords": [
       "glitch",
@@ -5019,11 +5644,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "glitch text generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Your text and Glitched result.",
+      "Choose Intensity: Light, Medium, Heavy.",
+      "Provides 4 actions: Copy, Download, Shuffle, Randomize.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Glitch Text Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -5037,6 +5662,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Glitch Text Generator?",
+        "a": "You can choose Intensity. The result is calculated right on the page."
       }
     ]
   },
@@ -5044,7 +5673,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "gltf-viewer",
     "name": "glTF Viewer",
     "category": "Design",
-    "description": "glTF ViewerOpen glTF 2.0 models with their .bin and textures in your browser. PBR materials, animations, Draco and meshopt support, stats and export to GLB. No upload.",
+    "description": "Open glTF 2.0 models with their .bin and textures in your browser. PBR materials, animations, Draco and meshopt support, stats and export to GLB. No upload.",
     "engine": "file-viewers",
     "keywords": [
       "gltf",
@@ -5053,11 +5682,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "gltf viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: File.",
+      "Provides 2 actions: Open 3D File, Try Sample Model.",
+      "Works with GLB.",
+      "Runs entirely in your browser - glTF Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -5071,6 +5700,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does glTF Viewer handle?",
+        "a": "It handles GLB. The processing happens entirely in your browser."
       }
     ]
   },
@@ -5078,7 +5711,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "gpa-calculator",
     "name": "GPA Calculator",
     "category": "Calculators",
-    "description": "GPA CalculatorFree GPA calculator for high school and college. Add classes, credits and letter or percent grades to get your semester, cumulative and weighted GPA. No signup.",
+    "description": "Free GPA calculator for high school and college. Add classes, credits and letter or percent grades to get your semester, cumulative and weighted GPA. No signup.",
     "engine": "calculator-suite",
     "keywords": [
       "gpa",
@@ -5087,11 +5720,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "gpa calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 10 inputs: Current GPA, Credits earned, Course 1 name, Mathematics credits, Course 2 name, Physics credits, Course 3 name, History credits, Course 4 name and Literature credits.",
+      "Choose between Mathematics grade (8 values) and Physics grade (8 values).",
+      "Runs one action: + Add course.",
+      "Runs entirely in your browser - GPA Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -5105,6 +5738,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in GPA Calculator?",
+        "a": "You can choose Mathematics grade, Physics grade, History grade and Literature grade. The result is calculated right on the page."
       }
     ]
   },
@@ -5112,7 +5749,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "grade-calculator",
     "name": "Grade Calculator",
     "category": "Calculators",
-    "description": "Grade CalculatorFree grade calculator: enter categories, weights or points to get your class grade and letter, see what you need on the final, and score tests. No sign-up.",
+    "description": "Free grade calculator: enter categories, weights or points to get your class grade and letter, see what you need on the final, and score tests. No sign-up.",
     "engine": "calculator-suite",
     "keywords": [
       "grade",
@@ -5121,11 +5758,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "grade calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 9 inputs: Category 1, Homework weight, Homework score, Category 2, Midterm weight, Midterm score, Category 3, Final exam weight and Final exam score.",
+      "Runs entirely in your browser - Grade Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -5139,14 +5775,18 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Grade Calculator need as input?",
+        "a": "You enter your data in Category 1, Homework weight, Homework score, Category 2, Midterm weight, Midterm score, Category 3, Final exam weight and Final exam score. Nothing else is required."
       }
     ]
   },
   {
     "slug": "graphql-formatter-beautifier",
-    "name": "GraphQL Formatter &amp; Beautifier",
+    "name": "GraphQL Formatter & Beautifier",
     "category": "Database",
-    "description": "GraphQL Formatter &amp; BeautifierFormat, validate, and beautify GraphQL queries, mutations, and schemas with syntax highlighting and query analysis.",
+    "description": "Format, validate, and beautify GraphQL queries, mutations, and schemas with syntax highlighting and query analysis.",
     "engine": "developer-suite",
     "keywords": [
       "graphql",
@@ -5157,16 +5797,16 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "graphql formatter beautifier"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste a GraphQL document here....",
+      "Provides 4 actions: Format GraphQL, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - GraphQL Formatter & Beautifier never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
-        "q": "Is this GraphQL Formatter &amp; Beautifier tool free to use?",
-        "a": "Yes, GraphQL Formatter &amp; Beautifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "q": "Is this GraphQL Formatter & Beautifier tool free to use?",
+        "a": "Yes, GraphQL Formatter & Beautifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5175,6 +5815,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in GraphQL Formatter & Beautifier?",
+        "a": "You can choose Format SQL. The result is calculated right on the page."
+      },
+      {
+        "q": "What does GraphQL Formatter & Beautifier need as input?",
+        "a": "You enter your data in Paste a GraphQL document here.... Nothing else is required."
       }
     ]
   },
@@ -5182,7 +5830,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "graphql-minifier",
     "name": "GraphQL Minifier",
     "category": "Database",
-    "description": "GraphQL MinifierMinify GraphQL queries and schemas into compact single-line strings: smaller payloads, ready to embed in code.",
+    "description": "Minify GraphQL queries and schemas into compact single-line strings: smaller payloads, ready to embed in code.",
     "engine": "developer-suite",
     "keywords": [
       "graphql",
@@ -5191,11 +5839,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "graphql minifier"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste a GraphQL document here....",
+      "Provides 4 actions: Minify GraphQL, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - GraphQL Minifier never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -5209,6 +5857,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in GraphQL Minifier?",
+        "a": "You can choose Format SQL. The result is calculated right on the page."
+      },
+      {
+        "q": "What does GraphQL Minifier need as input?",
+        "a": "You enter your data in Paste a GraphQL document here.... Nothing else is required."
       }
     ]
   },
@@ -5216,7 +5872,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "graphql-schema-explorer",
     "name": "GraphQL Schema Explorer",
     "category": "Database",
-    "description": "GraphQL Schema ExplorerBrowse GraphQL types, fields, arguments, and definitions in a searchable schema explorer. Paste your SDL and navigate it for free, processed in your browser.",
+    "description": "Browse GraphQL types, fields, arguments, and definitions in a searchable schema explorer. Paste your SDL and navigate it for free, processed in your browser.",
     "engine": "developer-suite",
     "keywords": [
       "graphql",
@@ -5226,11 +5882,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "graphql schema explorer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste a GraphQL schema (SDL) here....",
+      "Provides 4 actions: Read schema, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - GraphQL Schema Explorer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -5244,6 +5900,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in GraphQL Schema Explorer?",
+        "a": "You can choose Format SQL. The result is calculated right on the page."
+      },
+      {
+        "q": "What does GraphQL Schema Explorer need as input?",
+        "a": "You enter your data in Paste a GraphQL schema (SDL) here.... Nothing else is required."
       }
     ]
   },
@@ -5251,7 +5915,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "graphql-schema-validator",
     "name": "GraphQL Schema Validator",
     "category": "Database",
-    "description": "GraphQL Schema ValidatorValidate GraphQL schema definitions (SDL) and inspect reported syntax or schema errors with line details. Free online validator that runs in your browser.",
+    "description": "Validate GraphQL schema definitions (SDL) and inspect reported syntax or schema errors with line details. Free online validator that runs in your browser.",
     "engine": "developer-suite",
     "keywords": [
       "graphql",
@@ -5261,11 +5925,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "graphql schema validator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste a GraphQL schema (SDL) here....",
+      "Provides 4 actions: Validate schema, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - GraphQL Schema Validator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -5279,14 +5943,22 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in GraphQL Schema Validator?",
+        "a": "You can choose Format SQL. The result is calculated right on the page."
+      },
+      {
+        "q": "What does GraphQL Schema Validator need as input?",
+        "a": "You enter your data in Paste a GraphQL schema (SDL) here.... Nothing else is required."
       }
     ]
   },
   {
     "slug": "graphql-schema-viewer-validator",
-    "name": "GraphQL Schema Viewer &amp; Validator",
+    "name": "GraphQL Schema Viewer & Validator",
     "category": "Database",
-    "description": "GraphQL Schema Viewer &amp; ValidatorVisualize, validate, and explore GraphQL schemas (SDL) with an interactive type explorer and beautifier.",
+    "description": "Visualize, validate, and explore GraphQL schemas (SDL) with an interactive type explorer and beautifier.",
     "engine": "developer-suite",
     "keywords": [
       "graphql",
@@ -5298,16 +5970,16 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "graphql schema viewer validator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste a GraphQL schema (SDL) here....",
+      "Provides 4 actions: Show schema, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - GraphQL Schema Viewer & Validator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
-        "q": "Is this GraphQL Schema Viewer &amp; Validator tool free to use?",
-        "a": "Yes, GraphQL Schema Viewer &amp; Validator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "q": "Is this GraphQL Schema Viewer & Validator tool free to use?",
+        "a": "Yes, GraphQL Schema Viewer & Validator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5316,6 +5988,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in GraphQL Schema Viewer & Validator?",
+        "a": "You can choose Format SQL. The result is calculated right on the page."
+      },
+      {
+        "q": "What does GraphQL Schema Viewer & Validator need as input?",
+        "a": "You enter your data in Paste a GraphQL schema (SDL) here.... Nothing else is required."
       }
     ]
   },
@@ -5323,7 +6003,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "graphql-validator",
     "name": "GraphQL Validator",
     "category": "Database",
-    "description": "GraphQL ValidatorValidate GraphQL queries, mutations, and schemas as you type: syntax errors flagged with line numbers, plus query analysis.",
+    "description": "Validate GraphQL queries, mutations, and schemas as you type: syntax errors flagged with line numbers, plus query analysis.",
     "engine": "developer-suite",
     "keywords": [
       "graphql",
@@ -5332,11 +6012,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "graphql validator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste a GraphQL document here....",
+      "Provides 4 actions: Validate GraphQL, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - GraphQL Validator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -5350,6 +6030,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in GraphQL Validator?",
+        "a": "You can choose Format SQL. The result is calculated right on the page."
+      },
+      {
+        "q": "What does GraphQL Validator need as input?",
+        "a": "You enter your data in Paste a GraphQL document here.... Nothing else is required."
       }
     ]
   },
@@ -5357,7 +6045,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "gravel-calculator",
     "name": "Gravel Calculator",
     "category": "Calculators",
-    "description": "Gravel CalculatorCalculate how much gravel, crushed stone, river rock or sand you need in tons and cubic yards from your area and depth. Editable density, waste and cost. Free.",
+    "description": "Calculate how much gravel, crushed stone, river rock or sand you need in tons and cubic yards from your area and depth. Editable density, waste and cost. Free.",
     "engine": "calculator-suite",
     "keywords": [
       "gravel",
@@ -5366,11 +6054,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "gravel calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 4 text inputs: Area (sq ft), Depth (inches), Density (tons/yd³) and Waste (%).",
+      "Runs entirely in your browser - Gravel Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -5384,6 +6071,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Gravel Calculator need as input?",
+        "a": "You enter your data in Area (sq ft), Depth (inches), Density (tons/yd³) and Waste (%). Nothing else is required."
       }
     ]
   },
@@ -5391,7 +6082,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "handwriting-generator",
     "name": "Handwriting Generator",
     "category": "Text Processing",
-    "description": "Handwriting GeneratorGenerate handwriting from text online. 12 handwriting and cursive fonts, paper and ink colours. Download handwritten notes as PNG or PDF. Free and private.",
+    "description": "Generate handwriting from text online. 12 handwriting and cursive fonts, paper and ink colours. Download handwritten notes as PNG or PDF. Free and private.",
     "engine": "text-suite",
     "keywords": [
       "handwriting",
@@ -5400,11 +6091,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "handwriting generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 7 inputs: Text to write by hand, Ink colour, Paper colour, Letter size, Letter spacing, Brush size and Pen colour.",
+      "Choose between Handwriting font (8 values) and Paper type (3 values).",
+      "Provides 6 actions: New variation, Copy text, Clear, Download PNG and 2 more.",
+      "Copy, download or print the result with Copy text, Download PNG and Download PDF.",
+      "Works with PNG, PDF."
     ],
     "faqs": [
       {
@@ -5418,6 +6109,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Handwriting Generator handle?",
+        "a": "It handles PNG, PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -5425,7 +6120,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "harvard-citation-generator",
     "name": "Harvard Citation Generator",
     "category": "Text Processing",
-    "description": "Harvard Citation GeneratorGenerate Harvard author-date references for books, articles, and websites. Enter details privately in your browser, import BibTeX, and export to Word.",
+    "description": "Generate Harvard author-date references for books, articles, and websites. Enter details privately in your browser, import BibTeX, and export to Word.",
     "engine": "text-suite",
     "keywords": [
       "harvard",
@@ -5435,11 +6130,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "harvard citation generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 7 inputs: Author(s), Year, Title, Publisher, Edition, Place and DOI or URL.",
+      "Choose Source type: Book, Journal article, Website.",
+      "Provides 6 actions: Download .txt, Download .doc, Download .bib, Copy and 2 more.",
+      "Copy, download or print the result with Download .txt, Download .doc and Download .bib.",
+      "Runs entirely in your browser - Harvard Citation Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -5453,6 +6148,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Harvard Citation Generator?",
+        "a": "You can choose Source type. The result is calculated right on the page."
       }
     ]
   },
@@ -5460,7 +6159,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "hash-generator",
     "name": "Hash Generator",
     "category": "Security",
-    "description": "Hash GeneratorSecure, client-side hash generator supporting MD5, SHA-256, bcrypt, and more. Hash texts or files instantly offline.",
+    "description": "Secure, client-side hash generator supporting MD5, SHA-256, bcrypt, and more. Hash texts or files instantly offline.",
     "engine": "crypto-hash",
     "keywords": [
       "hash",
@@ -5469,11 +6168,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "hash generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Type or paste any text to hash....",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Hash Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -5487,6 +6186,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Hash Generator need as input?",
+        "a": "You enter your data in Type or paste any text to hash.... Nothing else is required."
       }
     ]
   },
@@ -5494,7 +6197,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "headphone-test",
     "name": "Headphone Test",
     "category": "Device Tests",
-    "description": "Headphone TestTest headphones and earbuds online: left/right audio test, stereo and polarity check, frequency sweep and tone generator. Works with Bluetooth and wired. Free.",
+    "description": "Test headphones and earbuds online: left/right audio test, stereo and polarity check, frequency sweep and tone generator. Works with Bluetooth and wired. Free.",
     "engine": "device-tester",
     "keywords": [
       "headphone",
@@ -5503,11 +6206,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "headphone test"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Provides 5 actions: Left channel, Right channel, Both channels, Sine sweep 20 Hz - 20 kHz and 1 more.",
+      "Runs entirely in your browser - Headphone Test never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -5521,6 +6224,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Headphone Test?",
+        "a": "Press \"CLICK HERE RAPIDLY!\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -5540,11 +6247,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "50 50 chance"
     ],
     "features": [
-      "Realistic 3D Coin Physics: Smooth 1.7-second flip with lift and landing effects",
-      "Cryptographic 50/50 Randomness: Uses window.crypto.getRandomValues for unbiased fairness",
-      "Multi-Mode Game Support: Play standard Single Flip or competitive Best-of-3, 5, or 7 series",
-      "Live Stats & History: Track total flips, percentage breakdown, streak counter, and recent flip log",
-      "Accessible & Touch-Friendly: Space/Enter keyboard support, screen-reader announcements, and reduced-motion option"
+      "No input needed - choose an option and run the tool.",
+      "Provides 6 actions: Single Flip, Best of 3, Best of 5, Best of 7 and 2 more.",
+      "Runs entirely in your browser - Heads or Tails Coin Flip never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -5562,6 +6269,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Does this tool work offline and protect my privacy?",
         "a": "Yes. All coin animations, physics, sound effects, and cryptographic rolls execute 100% locally on your device with zero data transmitted to any external server."
+      },
+      {
+        "q": "How do I use Heads or Tails Coin Flip?",
+        "a": "Press \"Single Flip\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -5569,7 +6280,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "heic-to-jpg-converter",
     "name": "HEIC to JPG Converter",
     "category": "Design",
-    "description": "HEIC to JPG ConverterConvert iPhone HEIC/HEIF photos to universal JPG files, decoded entirely on your device, photos never uploaded.",
+    "description": "Check whether a HEIC photo can be turned into a JPEG in your browser. No browser this site runs in ships a HEIC decoder, so the picture cannot be decoded and no JPEG can be produced from it. The tool reads the container and shows the format brand, the compatible brands and the size of the picture. Convert the photo to JPG first, then work on the JPG here. No upload, no sign-up.",
     "engine": "image-suite",
     "keywords": [
       "heic",
@@ -5579,11 +6290,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "heic to jpg converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a HEIC photo.",
+      "Works with HEIC, JPG.",
+      "Runs entirely in your browser - HEIC to JPG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -5597,6 +6308,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does HEIC to JPG Converter handle?",
+        "a": "It handles HEIC, JPG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -5604,7 +6319,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "hex-calculator",
     "name": "Hex Calculator",
     "category": "Calculators",
-    "description": "Hex CalculatorFree hex calculator: add, subtract, multiply and divide hexadecimal numbers, plus AND, OR, XOR, NOT and shifts. Results in hex, decimal, binary and octal.",
+    "description": "Free hex calculator: add, subtract, multiply and divide hexadecimal numbers, plus AND, OR, XOR, NOT and shifts. Results in hex, decimal, binary and octal.",
     "engine": "calculator-suite",
     "keywords": [
       "hex",
@@ -5613,11 +6328,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "hex calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: First number (hex) and Second number (hex).",
+      "Provides 9 actions: Add, Subtract, Multiply, Divide and 5 more.",
+      "Runs entirely in your browser - Hex Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -5631,6 +6346,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Hex Calculator need as input?",
+        "a": "You enter your data in First number (hex) and Second number (hex). Nothing else is required."
       }
     ]
   },
@@ -5638,7 +6357,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "hex-to-ascii",
     "name": "Hex to ASCII Converter",
     "category": "Encoding",
-    "description": "Hex to ASCII ConverterConvert hex to ASCII text instantly. Paste hex with or without spaces, 0x or \\x prefixes and decode it as UTF-8 text, with a byte table. Free and private.",
+    "description": "Convert hex to ASCII text instantly. Paste hex with or without spaces, 0x or \\x prefixes and decode it as UTF-8 text, with a byte table. Free and private.",
     "engine": "encoding-converters",
     "keywords": [
       "hex",
@@ -5648,11 +6367,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "hex to ascii"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (Hexadecimal) and Output (Text).",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Hex to ASCII Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -5666,6 +6385,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Hex to ASCII Converter need as input?",
+        "a": "You enter your data in Input (Hexadecimal) and Output (Text). Nothing else is required."
       }
     ]
   },
@@ -5673,7 +6396,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "hex-to-binary",
     "name": "Hex to Binary Converter",
     "category": "Encoding",
-    "description": "Hex to Binary ConverterConvert hex to binary instantly. Each hex digit maps to 4 bits, with grouping, a clickable bit view, two’s complement and decimal and octal results too.",
+    "description": "Convert hex to binary instantly. Each hex digit maps to 4 bits, with grouping, a clickable bit view, two’s complement and decimal and octal results too.",
     "engine": "encoding-converters",
     "keywords": [
       "hex",
@@ -5683,11 +6406,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "hex to binary"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (Hexadecimal) and Output (Binary).",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Hex to Binary Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -5701,6 +6424,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Hex to Binary Converter need as input?",
+        "a": "You enter your data in Input (Hexadecimal) and Output (Binary). Nothing else is required."
       }
     ]
   },
@@ -5708,7 +6435,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "hex-to-decimal",
     "name": "Hex to Decimal Converter",
     "category": "Encoding",
-    "description": "Hex to Decimal ConverterConvert hex to decimal instantly with the working shown. Supports 0x prefixes, big numbers and signed two’s complement values. Also shows binary and octal.",
+    "description": "Convert hex to decimal instantly with the working shown. Supports 0x prefixes, big numbers and signed two’s complement values. Also shows binary and octal.",
     "engine": "encoding-converters",
     "keywords": [
       "hex",
@@ -5718,11 +6445,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "hex to decimal"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (Hexadecimal) and Output (Decimal).",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Hex to Decimal Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -5736,6 +6463,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Hex to Decimal Converter need as input?",
+        "a": "You enter your data in Input (Hexadecimal) and Output (Decimal). Nothing else is required."
       }
     ]
   },
@@ -5743,7 +6474,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "hex-to-rgb",
     "name": "HEX to RGB",
     "category": "Design",
-    "description": "HEX to RGBConvert a hexadecimal color code into red, green, and blue values with a live color preview. Free online HEX to RGB converter with one-click copy.",
+    "description": "Convert a hexadecimal color code into red, green, and blue values with a live color preview. Free online HEX to RGB converter with one-click copy.",
     "engine": "encoding-converters",
     "keywords": [
       "hex",
@@ -5752,11 +6483,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "hex to rgb"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (Hexadecimal) and Output (RGB).",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - HEX to RGB never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -5770,6 +6501,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does HEX to RGB need as input?",
+        "a": "You enter your data in Input (Hexadecimal) and Output (RGB). Nothing else is required."
       }
     ]
   },
@@ -5777,7 +6512,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "hex-to-rgb-calculator",
     "name": "HEX to RGB Calculator",
     "category": "Design",
-    "description": "HEX to RGB CalculatorCalculate RGB channel values from any HEX color code and compare the resulting color visually. Free HEX to RGB calculator with instant results and copy.",
+    "description": "Calculate RGB channel values from any HEX color code and compare the resulting color visually. Free HEX to RGB calculator with instant results and copy.",
     "engine": "encoding-converters",
     "keywords": [
       "hex",
@@ -5787,11 +6522,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "hex to rgb calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (Hexadecimal) and Output (RGB).",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - HEX to RGB Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -5805,6 +6540,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does HEX to RGB Calculator need as input?",
+        "a": "You enter your data in Input (Hexadecimal) and Output (RGB). Nothing else is required."
       }
     ]
   },
@@ -5812,7 +6551,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "hex-rgb-converter",
     "name": "HEX to RGB Converter",
     "category": "Design",
-    "description": "HEX to RGB ConverterConvert HEX color codes to RGB format instantly. A 100% client-side tool with live color previews and CSS output generation.",
+    "description": "Convert HEX color codes to RGB format instantly. A 100% client-side tool with live color previews and CSS output generation.",
     "engine": "encoding-converters",
     "keywords": [
       "hex",
@@ -5822,11 +6561,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "hex rgb converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (Hexadecimal) and Output (RGB).",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - HEX to RGB Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -5840,6 +6579,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does HEX to RGB Converter need as input?",
+        "a": "You enter your data in Input (Hexadecimal) and Output (RGB). Nothing else is required."
       }
     ]
   },
@@ -5847,7 +6590,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "high-school-gpa-calculator",
     "name": "High School GPA Calculator",
     "category": "Calculators",
-    "description": "High School GPA CalculatorFree high school GPA calculator. Add classes, grades and Honors, AP or IB levels to see your weighted and unweighted GPA for each semester and overall. No signup.",
+    "description": "Free high school GPA calculator. Add classes, grades and Honors, AP or IB levels to see your weighted and unweighted GPA for each semester and overall. No signup.",
     "engine": "calculator-suite",
     "keywords": [
       "high",
@@ -5858,11 +6601,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "high school gpa calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 8 inputs: Course 1 name, Mathematics credits, Course 2 name, Physics credits, Course 3 name, History credits, Course 4 name and Literature credits.",
+      "Choose between Mathematics weighting (3 values) and Mathematics grade (8 values).",
+      "Runs one action: + Add course.",
+      "Runs entirely in your browser - High School GPA Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -5876,6 +6619,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in High School GPA Calculator?",
+        "a": "You can choose Mathematics weighting, Mathematics grade, Physics weighting, Physics grade, History weighting, History grade, Literature weighting and Literature grade. The result is calculated right on the page."
       }
     ]
   },
@@ -5883,7 +6630,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "hourly-to-salary-calculator",
     "name": "Hourly to Salary Calculator",
     "category": "Calculators",
-    "description": "Hourly to Salary CalculatorConvert an hourly wage to annual salary, plus monthly, biweekly, weekly and daily pay. Adjust hours per week and paid weeks per year. Free, instant, private.",
+    "description": "Convert an hourly wage to annual salary, plus monthly, biweekly, weekly and daily pay. Adjust hours per week and paid weeks per year. Free, instant, private.",
     "engine": "calculator-suite",
     "keywords": [
       "hourly",
@@ -5893,11 +6640,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "hourly to salary calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Hourly wage, Hours per week and Paid weeks per year.",
+      "Runs entirely in your browser - Hourly to Salary Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -5911,6 +6657,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Hourly to Salary Calculator need as input?",
+        "a": "You enter your data in Hourly wage, Hours per week and Paid weeks per year. Nothing else is required."
       }
     ]
   },
@@ -5918,7 +6668,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "hours-calculator",
     "name": "Hours Calculator",
     "category": "Calculators",
-    "description": "Hours CalculatorCalculate the hours and minutes between two times, subtract a break, handle overnight shifts and get decimal hours and pay. Free, instant and private.",
+    "description": "Calculate the hours and minutes between two times, subtract a break, handle overnight shifts and get decimal hours and pay. Free, instant and private.",
     "engine": "calculator-suite",
     "keywords": [
       "hours",
@@ -5927,11 +6677,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "hours calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Start time, End time and Break (minutes).",
+      "Runs entirely in your browser - Hours Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -5945,6 +6694,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Hours Calculator need as input?",
+        "a": "You enter your data in Start time, End time and Break (minutes). Nothing else is required."
       }
     ]
   },
@@ -5952,7 +6705,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "days-until-christmas",
     "name": "How Many Days Until Christmas?",
     "category": "Productivity",
-    "description": "How Many Days Until Christmas?Live Christmas countdown: days, hours, minutes and seconds until Christmas Day, plus sleeps, weeks, weekdays and weekends left. Fullscreen mode, no sign-up.",
+    "description": "Live Christmas countdown: days, hours, minutes and seconds until Christmas Day, plus sleeps, weeks, weekdays and weekends left. Fullscreen mode, no sign-up.",
     "engine": "randomizers-games",
     "keywords": [
       "how",
@@ -5964,11 +6717,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "days until christmas"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: Count again.",
+      "Runs entirely in your browser - How Many Days Until Christmas? never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -5982,6 +6735,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does How Many Days Until Christmas? need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
+      },
+      {
+        "q": "How do I use How Many Days Until Christmas??",
+        "a": "Press \"Count again\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -5989,7 +6750,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "days-until-halloween",
     "name": "How Many Days Until Halloween?",
     "category": "Productivity",
-    "description": "How Many Days Until Halloween?Live Halloween countdown: days, hours, minutes and seconds until October 31, plus weekends left to plan costumes and parties. Fullscreen mode, no sign-up.",
+    "description": "Live Halloween countdown: days, hours, minutes and seconds until October 31, plus weekends left to plan costumes and parties. Fullscreen mode, no sign-up.",
     "engine": "randomizers-games",
     "keywords": [
       "how",
@@ -6001,11 +6762,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "days until halloween"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: Count again.",
+      "Runs entirely in your browser - How Many Days Until Halloween? never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -6019,6 +6780,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does How Many Days Until Halloween? need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
+      },
+      {
+        "q": "How do I use How Many Days Until Halloween??",
+        "a": "Press \"Count again\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -6026,7 +6795,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "html-beautifier",
     "name": "HTML Beautifier",
     "category": "Coding",
-    "description": "HTML BeautifierBeautify minified HTML with indentation, wrapped lines and formatted inline CSS and JS. Tabs or spaces, attribute wrapping and live preview. Free, private.",
+    "description": "Beautify minified HTML with indentation, wrapped lines and formatted inline CSS and JS. Tabs or spaces, attribute wrapping and live preview. Free, private.",
     "engine": "developer-suite",
     "keywords": [
       "html",
@@ -6035,11 +6804,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "html beautifier"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste an HTML document here....",
+      "Provides 4 actions: Format HTML, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Works with HTML.",
+      "Runs entirely in your browser - HTML Beautifier never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -6053,6 +6822,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does HTML Beautifier handle?",
+        "a": "It handles HTML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6060,7 +6833,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "html-formatter",
     "name": "HTML Formatter",
     "category": "Coding",
-    "description": "HTML FormatterFormat minified HTML into clean, indented code. Formats embedded CSS and JavaScript, wraps long lines, flags unclosed tags and previews the page. Free.",
+    "description": "Format minified HTML into clean, indented code. Formats embedded CSS and JavaScript, wraps long lines, flags unclosed tags and previews the page. Free.",
     "engine": "developer-suite",
     "keywords": [
       "html",
@@ -6069,11 +6842,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "html formatter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste an HTML document here....",
+      "Provides 4 actions: Format HTML, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Works with HTML.",
+      "Runs entirely in your browser - HTML Formatter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -6087,6 +6860,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does HTML Formatter handle?",
+        "a": "It handles HTML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6094,7 +6871,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "html-minifier",
     "name": "HTML Minifier",
     "category": "Coding",
-    "description": "HTML MinifierMinify HTML safely: remove comments, collapse whitespace, compress inline CSS and JSON-LD, optionally drop attribute quotes. Shows bytes saved. Free, private.",
+    "description": "Minify HTML safely: remove comments, collapse whitespace, compress inline CSS and JSON-LD, optionally drop attribute quotes. Shows bytes saved. Free, private.",
     "engine": "developer-suite",
     "keywords": [
       "html",
@@ -6103,11 +6880,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "html minifier"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste an HTML document here....",
+      "Provides 4 actions: Minify HTML, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Works with HTML, JSON.",
+      "Runs entirely in your browser - HTML Minifier never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -6121,6 +6898,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does HTML Minifier handle?",
+        "a": "It handles HTML, JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6128,7 +6909,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "html-table-to-markdown",
     "name": "HTML Table to Markdown",
     "category": "Text Processing",
-    "description": "HTML Table to MarkdownConvert HTML tables into Markdown table syntax and review the output before using it in docs or a README. Free, instant, and processed locally in your browser.",
+    "description": "Convert HTML tables into Markdown table syntax and review the output before using it in docs or a README. Free, instant, and processed locally in your browser.",
     "engine": "markdown-docs",
     "keywords": [
       "html",
@@ -6138,11 +6919,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "html table to markdown"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, HTML input and Markdown output.",
+      "Runs one action: Copy markdown.",
+      "Copy, download or print the result with Copy markdown.",
+      "Works with HTML.",
+      "Runs entirely in your browser - HTML Table to Markdown never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -6156,6 +6937,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does HTML Table to Markdown handle?",
+        "a": "It handles HTML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6163,7 +6948,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "html-to-markdown",
     "name": "HTML to Markdown Converter",
     "category": "Text Processing",
-    "description": "HTML to Markdown ConverterConvert HTML to clean Markdown format with live preview. Perfect for documentation, blog posts, and content migration.",
+    "description": "Convert HTML to clean Markdown format with live preview. Perfect for documentation, blog posts, and content migration.",
     "engine": "markdown-docs",
     "keywords": [
       "html",
@@ -6173,11 +6958,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "html to markdown"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, HTML input and Markdown output.",
+      "Runs one action: Copy markdown.",
+      "Copy, download or print the result with Copy markdown.",
+      "Works with HTML.",
+      "Runs entirely in your browser - HTML to Markdown Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -6191,6 +6976,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does HTML to Markdown Converter handle?",
+        "a": "It handles HTML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6198,7 +6987,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "html-to-md",
     "name": "HTML to MD Converter",
     "category": "Text Processing",
-    "description": "HTML to MD ConverterConvert HTML content into clean, editable Markdown for documentation, notes, and repository files. Free online HTML to MD converter that runs in your browser.",
+    "description": "Convert HTML content into clean, editable Markdown for documentation, notes, and repository files. Free online HTML to MD converter that runs in your browser.",
     "engine": "text-suite",
     "keywords": [
       "html",
@@ -6207,11 +6996,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "html to md"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: HTML source and Markdown output.",
+      "Provides 2 actions: Copy, Download .md.",
+      "Copy, download or print the result with Copy and Download .md.",
+      "Works with HTML.",
+      "Runs entirely in your browser - HTML to MD Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -6225,6 +7014,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does HTML to MD Converter handle?",
+        "a": "It handles HTML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6232,7 +7025,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "http-request-tester",
     "name": "HTTP Request Tester",
     "category": "Coding",
-    "description": "HTTP Request TesterCompose an HTTP request, adjust its headers and body, and inspect the server response in one browser workspace.",
+    "description": "Compose an HTTP request, adjust its headers and body, and inspect the server response in one browser workspace.",
     "engine": "developer-suite",
     "keywords": [
       "http",
@@ -6242,11 +7035,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "http request tester"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: GETPOSTPUTDELETE.",
+      "Runs one action: Send Request.",
+      "Runs entirely in your browser - HTTP Request Tester never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -6260,6 +7053,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does HTTP Request Tester need as input?",
+        "a": "You enter your data in GETPOSTPUTDELETE. Nothing else is required."
       }
     ]
   },
@@ -6267,7 +7064,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "ico-converter",
     "name": "ICO Converter",
     "category": "Design",
-    "description": "ICO ConverterConvert PNG, JPG, WebP, SVG, GIF and BMP to multi-size ICO icons, or extract every image inside an ICO as PNG. Free, private and runs in your browser.",
+    "description": "Convert PNG, JPG, WebP, SVG, GIF and BMP to multi-size ICO icons, or extract every image inside an ICO as PNG. Free, private and runs in your browser.",
     "engine": "image-suite",
     "keywords": [
       "ico",
@@ -6276,11 +7073,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "ico converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with PNG, JPG, SVG, GIF, BMP, ICO.",
+      "Runs entirely in your browser - ICO Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -6294,6 +7091,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does ICO Converter handle?",
+        "a": "It handles PNG, JPG, SVG, GIF, BMP, ICO. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6301,7 +7102,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "ico-to-png",
     "name": "ICO to PNG Converter",
     "category": "Design",
-    "description": "ICO to PNG ConverterConvert ICO to PNG and extract every size inside the icon, from 16 px to 256 px, with transparency kept. Download one PNG or all as a ZIP. No upload needed.",
+    "description": "Convert an ICO icon to PNG and keep the transparency. Choose the output size and download the picture. No upload needed.",
     "engine": "image-suite",
     "keywords": [
       "ico",
@@ -6311,11 +7112,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "ico to png"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with ICO, PNG.",
+      "Runs entirely in your browser - ICO to PNG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -6329,6 +7130,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does ICO to PNG Converter handle?",
+        "a": "It handles ICO, PNG, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6336,7 +7141,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "image-metadata-viewer",
     "name": "Image Metadata Viewer",
     "category": "Design",
-    "description": "Image Metadata ViewerInspect embedded image metadata, including camera, descriptive, and GPS fields, for JPG, PNG, and more. Free online image metadata viewer with no uploads.",
+    "description": "Inspect embedded image metadata, including camera, descriptive, and GPS fields, for JPG, PNG, and more. Free online image metadata viewer with no uploads.",
     "engine": "image-suite",
     "keywords": [
       "image",
@@ -6346,11 +7151,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "image metadata viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with JPG, PNG.",
+      "Runs entirely in your browser - Image Metadata Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -6364,6 +7169,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Image Metadata Viewer handle?",
+        "a": "It handles JPG, PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6371,7 +7180,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "image-resizer",
     "name": "Image Resizer",
     "category": "Design",
-    "description": "Image ResizerProfessional image resizing and cropping tool. Resize by dimensions, percentage, or social media presets. Export in multiple formats with file size control.",
+    "description": "Resize a picture in your browser: set the new width and the new height, keep the aspect ratio or set both by hand, choose the output format and the quality, then download it. Free and private, no uploads.",
     "engine": "image-suite",
     "keywords": [
       "image",
@@ -6380,11 +7189,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "image resizer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Image Resizer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -6398,6 +7206,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Image Resizer need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -6405,7 +7217,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "image-to-pdf",
     "name": "Image to PDF Converter",
     "category": "PDF",
-    "description": "Image to PDF ConverterConvert images to PDF free: combine up to 20 JPG, PNG, WebP, GIF or BMP images. Choose page size and margins. No signup, watermark, or image uploads.",
+    "description": "Convert images to PDF free: combine up to 20 JPG, PNG, WebP, GIF or BMP images. Choose page size and margins. No signup, watermark, or image uploads.",
     "engine": "pdf-suite",
     "keywords": [
       "image",
@@ -6414,11 +7226,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "image to pdf"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose images.",
+      "Runs one action: Choose images.",
+      "Works with PDF, JPG, PNG, GIF, BMP.",
+      "Runs entirely in your browser - Image to PDF Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -6432,6 +7244,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Image to PDF Converter handle?",
+        "a": "It handles PDF, JPG, PNG, GIF, BMP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6439,7 +7255,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "instagram-grid-maker",
     "name": "Instagram Grid Maker",
     "category": "Design",
-    "description": "Instagram Grid MakerSplit your photos into a perfect puzzle grid for Instagram. 100% free, highly functional, and preserves high-resolution quality.",
+    "description": "Split your photos into a perfect puzzle grid for Instagram. 100% free, highly functional, and preserves high-resolution quality.",
     "engine": "image-suite",
     "keywords": [
       "instagram",
@@ -6449,11 +7265,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "instagram grid maker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Instagram Grid Maker never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -6467,6 +7282,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Instagram Grid Maker need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -6474,7 +7293,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "instagram-image-splitter",
     "name": "Instagram Image Splitter",
     "category": "Design",
-    "description": "Instagram Image SplitterSplit an image into 3x1, 3x2, or 3x3 grid tiles for an Instagram profile layout and download the pieces in posting order. Free and private, no uploads.",
+    "description": "Split an image into 3x1, 3x2, or 3x3 grid tiles for an Instagram profile layout and download the pieces in posting order. Free and private, no uploads.",
     "engine": "image-suite",
     "keywords": [
       "instagram",
@@ -6484,11 +7303,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "instagram image splitter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Instagram Image Splitter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -6502,6 +7320,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Instagram Image Splitter need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -6509,7 +7331,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "instagram-photo-splitter",
     "name": "Instagram Photo Splitter",
     "category": "Design",
-    "description": "Instagram Photo SplitterDivide a photo into coordinated tiles with a crop preview for a seamless multi-post Instagram grid. Free online photo splitter that runs in your browser.",
+    "description": "Divide a photo into coordinated tiles with a crop preview for a seamless multi-post Instagram grid. Free online photo splitter that runs in your browser.",
     "engine": "image-suite",
     "keywords": [
       "instagram",
@@ -6519,11 +7341,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "instagram photo splitter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Instagram Photo Splitter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -6537,6 +7358,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Instagram Photo Splitter need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -6544,7 +7369,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "invisible-character",
     "name": "Invisible Character",
     "category": "Text Processing",
-    "description": "Invisible CharacterCopy invisible characters and blank text (ㅤ U+3164, ⠀ U+2800, zero-width space) for empty names, messages and bios. Plus a detector for hidden characters.",
+    "description": "Copy invisible characters and blank text (ㅤ U+3164, ⠀ U+2800, zero-width space) for empty names, messages and bios. Plus a detector for hidden characters.",
     "engine": "text-suite",
     "keywords": [
       "invisible",
@@ -6553,11 +7378,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "invisible character"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste text to scan.",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Invisible Character never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -6571,6 +7396,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Invisible Character need as input?",
+        "a": "You enter your data in Paste text to scan. Nothing else is required."
       }
     ]
   },
@@ -6578,7 +7407,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "ipv6-subnet-calculator",
     "name": "IPv6 Subnet Calculator",
     "category": "Coding",
-    "description": "IPv6 Subnet CalculatorIPv6 subnet calculator: compressed and expanded address, network prefix, first and last address, number of /64s, address type and ip6.arpa zone. Free.",
+    "description": "IPv6 subnet calculator: compressed and expanded address, network prefix, first and last address, number of /64s, address type and ip6.arpa zone. Free.",
     "engine": "networking-tools",
     "keywords": [
       "ipv6",
@@ -6588,11 +7417,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "ipv6 subnet calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: IP Address.",
+      "Choose CIDR Prefix (/64): /0, /1, /2, /3 and 4 more.",
+      "Provides 2 actions: IPv4, IPv6.",
+      "Runs entirely in your browser - IPv6 Subnet Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -6606,6 +7435,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in IPv6 Subnet Calculator?",
+        "a": "You can choose CIDR Prefix (/24). The result is calculated right on the page."
       }
     ]
   },
@@ -6613,7 +7446,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "isbn-barcode-generator",
     "name": "ISBN Barcode Generator",
     "category": "Design",
-    "description": "ISBN Barcode GeneratorCreate an ISBN barcode for your book cover from an ISBN-13 or ISBN-10. Converts ISBN-10, checks the digits and exports vector SVG or 600 DPI PNG. Free.",
+    "description": "Create an ISBN barcode for your book cover from an ISBN-13 or ISBN-10. Converts ISBN-10, checks the digits and exports vector SVG or 600 DPI PNG. Free.",
     "engine": "qr-barcode",
     "keywords": [
       "isbn",
@@ -6623,11 +7456,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "isbn barcode generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Enter numbers or text....",
+      "Choose Barcode Format: Code 128 (Universal), EAN-13 (13 digits), UPC (12 digits), Code 39 (Alphanumeric).",
+      "Runs one action: Download Barcode SVG.",
+      "Copy, download or print the result with Download Barcode SVG.",
+      "Works with SVG, PNG."
     ],
     "faqs": [
       {
@@ -6641,6 +7474,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does ISBN Barcode Generator handle?",
+        "a": "It handles SVG, PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6648,7 +7485,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "javascript-regex-tester",
     "name": "JavaScript Regex Tester",
     "category": "Text Processing",
-    "description": "JavaScript Regex TesterTest JavaScript regular expressions against sample text with highlighted matches, capture groups, and flags. Free online JS regex tester, runs in your browser.",
+    "description": "Test JavaScript regular expressions against sample text with highlighted matches, capture groups, and flags. Free online JS regex tester, runs in your browser.",
     "engine": "regex",
     "keywords": [
       "javascript",
@@ -6658,11 +7495,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "javascript regex tester"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Insert regex pattern... and Paste or write text to test....",
+      "Provides 4 actions: g, i, m, s.",
+      "Runs entirely in your browser - JavaScript Regex Tester never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -6676,6 +7513,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does JavaScript Regex Tester need as input?",
+        "a": "You enter your data in Insert regex pattern... and Paste or write text to test.... Nothing else is required."
       }
     ]
   },
@@ -6683,7 +7524,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "jfif-to-jpg",
     "name": "JFIF to JPG Converter",
     "category": "Design",
-    "description": "JFIF to JPG ConverterConvert JFIF to JPG in your browser and get standard .jpg files that every app accepts. Batch convert many images and download a ZIP. Free and private.",
+    "description": "Convert JFIF images to JPG in your browser and get standard .jpg files that every app accepts. Set the quality and the output size. Free and private.",
     "engine": "image-suite",
     "keywords": [
       "jfif",
@@ -6693,11 +7534,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "jfif to jpg"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with JPG.",
+      "Runs entirely in your browser - JFIF to JPG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -6711,6 +7552,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JFIF to JPG Converter handle?",
+        "a": "It handles JPG, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6718,7 +7563,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "jpg-to-ico",
     "name": "JPG to ICO Converter",
     "category": "Design",
-    "description": "JPG to ICO ConverterConvert JPG or JPEG photos to ICO icons. Crop to a square, round the corners or add padding and pack 16–256 px sizes into one .ico file. Private, no upload.",
+    "description": "Convert JPG or JPEG photos to ICO icons. Crop to a square, round the corners or add padding and pack 16–256 px sizes into one .ico file. Private, no upload.",
     "engine": "image-suite",
     "keywords": [
       "jpg",
@@ -6728,11 +7573,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "jpg to ico"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with JPG, JPEG, ICO.",
+      "Runs entirely in your browser - JPG to ICO Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -6746,6 +7591,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JPG to ICO Converter handle?",
+        "a": "It handles JPG, JPEG, ICO. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6753,7 +7602,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "jpg-to-pdf-converter",
     "name": "JPG to PDF Converter",
     "category": "PDF",
-    "description": "JPG to PDF ConverterConvert JPG, PNG, GIF, BMP, and TIFF images to PDF instantly. 100% offline, secure, and fast with no file limits.",
+    "description": "Convert JPG, PNG, GIF, BMP, and TIFF images to PDF instantly. 100% offline, secure, and fast with no file limits.",
     "engine": "pdf-suite",
     "keywords": [
       "jpg",
@@ -6762,11 +7611,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "jpg to pdf converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose images.",
+      "Runs one action: Choose images.",
+      "Works with JPG, PNG, GIF, BMP, TIFF, PDF.",
+      "Runs entirely in your browser - JPG to PDF Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -6780,6 +7629,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JPG to PDF Converter handle?",
+        "a": "It handles JPG, PNG, GIF, BMP, TIFF, PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6787,7 +7640,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "jpg-to-png-converter",
     "name": "JPG to PNG Converter",
     "category": "Design",
-    "description": "JPG to PNG ConverterConvert JPG images to lossless PNG in your browser, for tools that only accept PNG, and for editing without further quality loss.",
+    "description": "Convert JPG images to lossless PNG in your browser, for tools that only accept PNG. Set the output size and download the file. No uploads.",
     "engine": "image-suite",
     "keywords": [
       "jpg",
@@ -6797,11 +7650,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "jpg to png converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with JPG, PNG.",
+      "Runs entirely in your browser - JPG to PNG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -6815,6 +7668,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JPG to PNG Converter handle?",
+        "a": "It handles JPG, PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6822,7 +7679,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "jpg-to-webp-converter",
     "name": "JPG to WebP Converter",
     "category": "Design",
-    "description": "JPG to WebP ConverterCompress JPG photos into WebP files 25–34% smaller at the same visual quality. 100% in your browser, no uploads.",
+    "description": "Convert JPG photos to WebP in your browser. Set the quality and the output size, then download the file. 100% in your browser, no uploads.",
     "engine": "image-suite",
     "keywords": [
       "jpg",
@@ -6832,11 +7689,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "jpg to webp converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with JPG.",
+      "Runs entirely in your browser - JPG to WebP Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -6850,6 +7707,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JPG to WebP Converter handle?",
+        "a": "It handles JPG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6866,11 +7727,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "json compare"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Paste first JSON document... and Paste second JSON document....",
+      "Provides 2 actions: Swap A ⇄ B, Copy Report.",
+      "Copy, download or print the result with Copy Report.",
+      "Works with JSON.",
+      "Runs entirely in your browser - JSON Compare never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -6884,6 +7745,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JSON Compare handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6900,11 +7765,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "json diff"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Original JSON / Text and Modified JSON / Text.",
+      "Provides 4 actions: Compare Diffs, Beautify Both, Line Diff, Word Diff.",
+      "Works with JSON.",
+      "Runs entirely in your browser - JSON Diff never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -6918,6 +7783,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JSON Diff handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6934,11 +7803,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "json editor"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Paste or write JSON here....",
+      "Choose Find & Replace: 2 Spaces, 4 Spaces, Tabs.",
+      "Provides 7 actions: Code Editor, Tree View, Format, Minify and 3 more.",
+      "Copy, download or print the result with Copy and Save.",
+      "Works with JSON."
     ],
     "faqs": [
       {
@@ -6952,6 +7821,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JSON Editor handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -6970,11 +7843,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "json formatter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Paste or write your JSON here....",
+      "Choose Indent:: 2 Spaces, 4 Spaces, Tabs.",
+      "Provides 4 actions: Format JSON, Minify, Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with JSON."
     ],
     "faqs": [
       {
@@ -6988,6 +7861,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JSON Formatter & Validator handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -7004,11 +7881,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "json minifier"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Paste JSON here... and Minified JSON will appear here....",
+      "Provides 2 actions: Copy Minified JSON, Download .min.json.",
+      "Copy, download or print the result with Copy Minified JSON and Download .min.json.",
+      "Works with JSON.",
+      "Runs entirely in your browser - JSON Minifier never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -7022,6 +7899,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JSON Minifier handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -7039,11 +7920,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "json pretty print"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Paste or write your JSON here....",
+      "Choose Indent:: 2 Spaces, 4 Spaces, Tabs.",
+      "Provides 4 actions: Pretty Print, Minify, Copy, Download.",
+      "Copy, download or print the result with Pretty Print, Copy and Download.",
+      "Works with JSON."
     ],
     "faqs": [
       {
@@ -7057,6 +7938,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JSON Pretty Print handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -7076,11 +7961,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "json diff compare"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Paste first JSON document... and Paste second JSON document....",
+      "Provides 2 actions: Swap A ⇄ B, Copy Report.",
+      "Copy, download or print the result with Copy Report.",
+      "Works with JSON.",
+      "Runs entirely in your browser - JSON Semantic Diff & Compare never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -7094,6 +7979,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JSON Semantic Diff & Compare handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -7111,11 +8000,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "json to csv converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste JSON array or object here... and Converted output will appear here....",
+      "Choose Delimiter:: Comma (,), Tab (\\t), Semicolon (;), Pipe (|) and 1 more.",
+      "Provides 5 actions: JSON → CSV, CSV Output, Table, Copy and 1 more.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with JSON, CSV."
     ],
     "faqs": [
       {
@@ -7129,6 +8018,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JSON to CSV Converter handle?",
+        "a": "It handles JSON, CSV. The processing happens entirely in your browser."
       }
     ]
   },
@@ -7145,11 +8038,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "json to toon"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Paste JSON here... and Converted result will appear here....",
+      "Provides 3 actions: Mode: JSON → TOON, Copy Output, Download.",
+      "Copy, download or print the result with Copy Output and Download.",
+      "Works with JSON.",
+      "Runs entirely in your browser - JSON to TOON never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -7163,6 +8056,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JSON to TOON handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -7180,11 +8077,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "json to toon converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Paste JSON here... and Converted result will appear here....",
+      "Provides 3 actions: Mode: JSON → TOON, Copy Output, Download.",
+      "Copy, download or print the result with Copy Output and Download.",
+      "Works with JSON.",
+      "Runs entirely in your browser - JSON to TOON Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -7198,6 +8095,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JSON to TOON Converter handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -7213,11 +8114,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "json to ts"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Root Name:, Paste your JSON here to generate TypeScript types... and TypeScript interface code will generate here automatically....",
+      "Choose Kind:: interface, type alias.",
+      "Provides 2 actions: Copy TypeScript, Download .d.ts.",
+      "Copy, download or print the result with Copy TypeScript and Download .d.ts.",
+      "Works with JSON."
     ],
     "faqs": [
       {
@@ -7231,6 +8132,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JSON to TS handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -7248,11 +8153,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "json to typescript"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Root Name:, Paste your JSON here to generate TypeScript types... and TypeScript interface code will generate here automatically....",
+      "Choose Kind:: interface, type alias.",
+      "Provides 2 actions: Copy TypeScript, Download .d.ts.",
+      "Copy, download or print the result with Copy TypeScript and Download .d.ts.",
+      "Works with JSON."
     ],
     "faqs": [
       {
@@ -7266,6 +8171,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JSON to TypeScript Converter handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -7283,11 +8192,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "json to typescript interface"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Root Name:, Paste your JSON here to generate TypeScript types... and TypeScript interface code will generate here automatically....",
+      "Choose Kind:: interface, type alias.",
+      "Provides 2 actions: Copy TypeScript, Download .d.ts.",
+      "Copy, download or print the result with Copy TypeScript and Download .d.ts.",
+      "Works with JSON."
     ],
     "faqs": [
       {
@@ -7301,6 +8210,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JSON to TypeScript Interface handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -7317,11 +8230,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "json validator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Paste JSON to validate....",
+      "Provides 4 actions: Format, Minify, Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with JSON.",
+      "Runs entirely in your browser - JSON Validator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -7335,6 +8248,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JSON Validator handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -7351,11 +8268,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "json viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open JSON file, Paste JSON to view in tree... and Search keys / values....",
+      "Provides 5 actions: Tree, Table, Raw, Expand All and 1 more.",
+      "Works with JSON.",
+      "Runs entirely in your browser - JSON Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -7369,6 +8286,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JSON Viewer handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -7376,7 +8297,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "jwt-decoder",
     "name": "JWT Decoder",
     "category": "Security",
-    "description": "JWT DecoderDecode a JWT header and payload to inspect its claims, expiry, and issued-at times. Free online JWT decoder; tokens stay in your browser and are never sent.",
+    "description": "Decode a JWT header and payload to inspect its claims, expiry, and issued-at times. Free online JWT decoder; tokens stay in your browser and are never sent.",
     "engine": "crypto-hash",
     "keywords": [
       "jwt",
@@ -7385,11 +8306,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "jwt decoder"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste a JWT here....",
+      "Runs entirely in your browser - JWT Decoder never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -7403,6 +8323,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does JWT Decoder need as input?",
+        "a": "You enter your data in Encoded JWT Token. Nothing else is required."
       }
     ]
   },
@@ -7410,7 +8334,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "jwt-decoder-encoder",
     "name": "JWT Decoder / Encoder",
     "category": "Security",
-    "description": "JWT Decoder / EncoderInstantly decode, verify, and generate JSON Web Tokens (JWT) locally in your browser. Supports HS256, RS256, and more.",
+    "description": "Instantly decode, verify, and generate JSON Web Tokens (JWT) locally in your browser. Supports HS256, RS256, and more.",
     "engine": "crypto-hash",
     "keywords": [
       "jwt",
@@ -7420,11 +8344,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "jwt decoder encoder"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Paste a JWT here..., Signing key (secret) and Claims (JSON).",
+      "Choose Algorithm: HS256, HS384, HS512.",
+      "Works with JSON.",
+      "Runs entirely in your browser - JWT Decoder / Encoder never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -7438,6 +8362,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does JWT Decoder / Encoder handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -7445,7 +8373,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "jwt-encoder",
     "name": "JWT Encoder",
     "category": "Security",
-    "description": "JWT EncoderEncode JWT header and payload data and sign test tokens for development and debugging. Free online JWT encoder that runs locally, keys never leave your device.",
+    "description": "Encode JWT header and payload data and sign test tokens for development and debugging. Free online JWT encoder that runs locally, keys never leave your device.",
     "engine": "crypto-hash",
     "keywords": [
       "jwt",
@@ -7454,11 +8382,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "jwt encoder"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Signing key (secret) and Claims (JSON).",
+      "Choose Algorithm: HS256, HS384, HS512.",
+      "Runs entirely in your browser - JWT Encoder never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -7472,6 +8400,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does JWT Encoder need as input?",
+        "a": "You enter your data in Encoded JWT Token. Nothing else is required."
+      },
+      {
+        "q": "Which settings can I choose in JWT Encoder?",
+        "a": "You can choose Algorithm. The result is calculated right on the page."
       }
     ]
   },
@@ -7479,7 +8415,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "keyboard-test",
     "name": "Keyboard Test",
     "category": "Device Tests",
-    "description": "Keyboard TestTest your keyboard online: every key lights up as it registers, with key rollover, chatter detection and a JavaScript key-code log. Free, private, no install.",
+    "description": "Test your keyboard online: every key lights up as it registers, with key rollover, chatter detection and a JavaScript key-code log. Free, private, no install.",
     "engine": "device-tester",
     "keywords": [
       "keyboard",
@@ -7488,11 +8424,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "keyboard test"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: Reset Key History.",
+      "Runs entirely in your browser - Keyboard Test never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -7506,6 +8442,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Keyboard Test?",
+        "a": "Press \"Reset Key History\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -7513,7 +8453,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "latex-equation-editor",
     "name": "LaTeX Equation Editor",
     "category": "Productivity",
-    "description": "LaTeX Equation EditorWrite LaTeX math with a live preview, clear error messages and 200+ clickable symbols. Render to PNG, SVG or PDF, or copy MathML. Free, private, no signup.",
+    "description": "Write a LaTeX equation and watch it render: the live preview shows real MathML, a palette of clickable symbols helps you write, and you can copy the MathML. Free, private, no signup.",
     "engine": "developer-suite",
     "keywords": [
       "latex",
@@ -7523,11 +8463,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "latex equation editor"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Write a formula, for example: E = mc^2.",
+      "Provides 10 actions: Render equation, Copy MathML, Clear, Load example and 6 more.",
+      "Copy, download or print the result with Copy MathML.",
+      "Runs entirely in your browser - LaTeX Equation Editor never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -7541,6 +8481,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does LaTeX Equation Editor handle?",
+        "a": "It handles PNG, SVG, PDF. The processing happens entirely in your browser."
+      },
+      {
+        "q": "What does LaTeX Equation Editor need as input?",
+        "a": "You enter your data in Write a formula, for example: E = mc^2. Nothing else is required."
       }
     ]
   },
@@ -7548,7 +8496,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "latex-to-image",
     "name": "LaTeX to Image Converter",
     "category": "Productivity",
-    "description": "LaTeX to Image ConverterConvert LaTeX equations to PNG, SVG, JPG or PDF in your browser. Transparent background, any color, up to 8× resolution, alt text included. Free, no signup.",
+    "description": "Convert LaTeX equations to PNG, SVG, JPG or PDF in your browser. Transparent background, any color, up to 8× resolution, alt text included. Free, no signup.",
     "engine": "image-suite",
     "keywords": [
       "latex",
@@ -7558,11 +8506,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "latex to image"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: LaTeX formula.",
+      "Choose Resolution: 1x (600 × 200 px), 2x (1200 × 400 px), 3x (1800 × 600 px).",
+      "Provides 2 actions: Download Image, Clear.",
+      "Copy, download or print the result with Download Image.",
+      "Works with PNG, SVG, JPG, PDF."
     ],
     "faqs": [
       {
@@ -7576,6 +8524,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does LaTeX to Image Converter handle?",
+        "a": "It handles PNG, SVG, JPG, PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -7583,7 +8535,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "latex-to-word-equation",
     "name": "LaTeX to Word Equation",
     "category": "Productivity",
-    "description": "LaTeX to Word EquationConvert LaTeX to an editable Microsoft Word equation. Paste LaTeX or type visually, click Copy for Word, then paste into Word. Free, private, no add-in.",
+    "description": "Convert LaTeX to an editable Microsoft Word equation. Paste LaTeX or type visually, click Copy for Word, then paste into Word. Free, private, no add-in.",
     "engine": "text-suite",
     "keywords": [
       "latex",
@@ -7593,11 +8545,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "latex to word equation"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: LaTeX expression and Word (UnicodeMath) output.",
+      "Provides 10 actions: Copy for Word, Download, √, ∛ and 6 more.",
+      "Copy, download or print the result with Copy for Word and Download.",
+      "Runs entirely in your browser - LaTeX to Word Equation never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -7611,6 +8563,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does LaTeX to Word Equation need as input?",
+        "a": "You enter your data in LaTeX expression and Word (UnicodeMath) output. Nothing else is required."
       }
     ]
   },
@@ -7618,7 +8574,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "letter-to-santa-template",
     "name": "Letter to Santa Template",
     "category": "Productivity",
-    "description": "Letter to Santa TemplateFree letter to Santa template: type your child’s name, age and wishes, and print a decorated Dear Santa letter with a space to draw. PDF, no sign-up.",
+    "description": "Free letter to Santa template: type your child’s name, age and wishes, and print a decorated Dear Santa letter with a space to draw. PDF, no sign-up.",
     "engine": "randomizers-games",
     "keywords": [
       "letter",
@@ -7628,11 +8584,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "letter to santa template"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Provides 2 actions: Copy the letter, Print the letter.",
+      "Copy, download or print the result with Copy the letter and Print the letter.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Letter to Santa Template never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -7646,6 +8602,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Letter to Santa Template handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -7653,7 +8613,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "list-randomizer",
     "name": "List Randomizer",
     "category": "Productivity",
-    "description": "List RandomizerShuffle names, numbers or any list into random order. Open a file, remove duplicates, pick items or create groups. Free, private and entirely in your browser.",
+    "description": "Shuffle names, numbers or any list into random order. Open a file, remove duplicates, pick items or create groups. Free, private and entirely in your browser.",
     "engine": "randomizers-games",
     "keywords": [
       "list",
@@ -7662,11 +8622,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "list randomizer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Your list (one item per line)The list is shuffled with the random source of your browser..",
+      "Runs one action: Shuffle the list.",
+      "Runs entirely in your browser - List Randomizer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -7680,6 +8640,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does List Randomizer need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
       }
     ]
   },
@@ -7687,7 +8651,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "llm-token-counter",
     "name": "LLM Token Counter",
     "category": "Coding",
-    "description": "LLM Token CounterCount tokens and estimate API cost for GPT-5, GPT-4o, Claude, Gemini, Llama and more: exact tiktoken counts, 100% in your browser.",
+    "description": "Count tokens and estimate API cost for GPT-5, GPT-4o, Claude, Gemini, Llama and more: exact tiktoken counts, 100% in your browser.",
     "engine": "text-suite",
     "keywords": [
       "llm",
@@ -7697,11 +8661,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "llm token counter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Paste a prompt or text to count tokens and Price per 1M input tokens (USD).",
+      "Choose Model: GPT-4 / GPT-4o (exact), GPT-5 / o-series (exact), Claude (estimate), Gemini (estimate) and 1 more.",
+      "Provides 2 actions: Clear, Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - LLM Token Counter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -7715,6 +8679,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in LLM Token Counter?",
+        "a": "You can choose Model. The result is calculated right on the page."
       }
     ]
   },
@@ -7722,7 +8690,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "local-ai-chat",
     "name": "Local AI Chat",
     "category": "Productivity",
-    "description": "Local AI ChatRun an AI chat model like Qwen or Llama locally in your browser with WebGPU, with on-device response generation after a one-time model download. Free.",
+    "description": "A chat workspace for a language model that runs on your own device. No model ships with the site: the tool loads the weights for Qwen2.5 or Llama from this origin when you place them there, reports whether WebGPU is available and keeps every prompt on your device. The inference runtime is not part of this site yet, so no reply is generated and none is ever invented.",
     "engine": "developer-suite",
     "keywords": [
       "local",
@@ -7731,11 +8699,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "local ai chat"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Prompt.",
+      "Choose Model: Qwen2.5 0.5B Instruct, Llama 3.2 1B Instruct, Gemma 2 2B Instruct.",
+      "Provides 4 actions: Load model, Copy, Clear chat, Send prompt.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Local AI Chat never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -7749,6 +8717,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Local AI Chat?",
+        "a": "You can choose Format SQL. The result is calculated right on the page."
       }
     ]
   },
@@ -7756,7 +8728,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "lowercase-converter",
     "name": "Lowercase Converter",
     "category": "Text Processing",
-    "description": "Lowercase ConverterConvert any text to lowercase instantly to fix Caps Lock accidents and normalize data with one click.",
+    "description": "Convert any text to lowercase instantly to fix Caps Lock accidents and normalize data with one click.",
     "engine": "text-suite",
     "keywords": [
       "lowercase",
@@ -7765,11 +8737,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "lowercase converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Type or paste your text here.",
+      "Provides 10 actions: Copy, Clear, UPPERCASE, lowercase and 6 more.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Lowercase Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -7783,28 +8755,32 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Lowercase Converter need as input?",
+        "a": "You enter your data in Type or paste your text here. Nothing else is required."
       }
     ]
   },
   {
     "slug": "m4a-to-mp3",
     "name": "M4A to MP3 Converter",
-    "category": "Video &amp; Audio",
-    "description": "M4A to MP3 ConverterConvert M4A to MP3 in your browser, including iPhone Voice Memos and iTunes audio. Choose 128–320 kbps, trim and batch convert. No upload, no signup, free.",
+    "category": "Video & Audio",
+    "description": "Convert an M4A recording (AAC, iPhone Voice Memos) to a real MP3 file in your browser. The sound is decoded locally and re-encoded with the LAME encoder at 192 kbps and 44.1 kHz. No upload, no sign-up.",
     "engine": "media-audio-video",
     "keywords": [
       "m4a",
       "mp3",
       "converter",
-      "video &amp; audio",
+      "video & audio",
       "m4a to mp3"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Select a media file.",
+      "Choose Convert to: MP3 - MPEG audio, MP4 - H.264 video, WAV - uncompressed PCM, WebM - VP8 video and 1 more.",
+      "Provides 2 actions: Convert now, Clear.",
+      "Works with M4A, MP3.",
+      "Runs entirely in your browser - M4A to MP3 Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -7818,6 +8794,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does M4A to MP3 Converter handle?",
+        "a": "It reads M4A files (AAC audio) and writes an MP3 file. Decoding, encoding and the download all happen in your browser."
       }
     ]
   },
@@ -7825,7 +8805,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "macro-calculator",
     "name": "Macro Calculator",
     "category": "Lifestyle",
-    "description": "Macro CalculatorCalculate your daily calories, protein, carbs, fat, fiber and water from your body weight, instantly and privately.",
+    "description": "Calculate your daily calories, protein, carbs, fat, fiber and water from your body weight, instantly and privately.",
     "engine": "health-fitness",
     "keywords": [
       "macro",
@@ -7834,11 +8814,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "macro calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Choose between Biological Sex (2 values) and Activity Level (5 values).",
+      "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
+      "Runs entirely in your browser - Macro Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -7852,6 +8832,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Macro Calculator?",
+        "a": "You can choose Biological Sex. The result is calculated right on the page."
       }
     ]
   },
@@ -7859,7 +8843,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "magic-eraser",
     "name": "Magic Eraser",
     "category": "Design",
-    "description": "Magic EraserErase unwanted objects from a photo by brushing over them, with local AI inpainting to fill the area. Free online magic eraser, your image is never uploaded.",
+    "description": "Erase unwanted objects from a photo by brushing over them: the brushed area is filled with the average colour of the surrounding pixels. No model reconstructs what was behind it and nothing is uploaded.",
     "engine": "image-suite",
     "keywords": [
       "magic",
@@ -7868,11 +8852,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "magic eraser"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Magic Eraser never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -7886,6 +8869,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Magic Eraser need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -7893,7 +8880,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "maintenance-calorie-calculator",
     "name": "Maintenance Calorie Calculator",
     "category": "Lifestyle",
-    "description": "Maintenance Calorie CalculatorHighly functional, beautifully designed calorie calculator to determine your daily maintenance calories, BMR, and macro targets for weight loss or gain.",
+    "description": "Highly functional, beautifully designed calorie calculator to determine your daily maintenance calories, BMR, and macro targets for weight loss or gain.",
     "engine": "health-fitness",
     "keywords": [
       "maintenance",
@@ -7903,11 +8890,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "maintenance calorie calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Choose between Biological Sex (2 values) and Activity Level (5 values).",
+      "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
+      "Runs entirely in your browser - Maintenance Calorie Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -7921,6 +8908,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Maintenance Calorie Calculator?",
+        "a": "You can choose Biological Sex. The result is calculated right on the page."
       }
     ]
   },
@@ -7928,7 +8919,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "margin-calculator",
     "name": "Margin Calculator",
     "category": "Calculators",
-    "description": "Margin CalculatorCalculate profit margin from cost and price, or the selling price you need for a target margin. See profit and markup side by side, with formulas. Free.",
+    "description": "Calculate profit margin from cost and price, or the selling price you need for a target margin. See profit and markup side by side, with formulas. Free.",
     "engine": "calculator-suite",
     "keywords": [
       "margin",
@@ -7937,11 +8928,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "margin calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Cost, Selling price and Target margin (%).",
+      "Runs entirely in your browser - Margin Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -7955,6 +8945,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Margin Calculator need as input?",
+        "a": "You enter your data in Cost, Selling price and Target margin (%). Nothing else is required."
       }
     ]
   },
@@ -7962,7 +8956,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "markdown-file-viewer",
     "name": "Markdown File Viewer",
     "category": "Text Processing",
-    "description": "Markdown File ViewerOpen a .md file from your device and read its formatted content in your browser, with tables and code highlighted. Free Markdown file viewer, no uploads.",
+    "description": "Open a .md file from your device and read its formatted content in your browser, with tables and code highlighted. Free Markdown file viewer, no uploads.",
     "engine": "markdown-docs",
     "keywords": [
       "markdown",
@@ -7972,11 +8966,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "markdown file viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Markdown Source.",
+      "Provides 3 actions: Export to PDF, Export to Word (.docx), Copy HTML.",
+      "Copy, download or print the result with Export to PDF, Export to Word (.docx) and Copy HTML.",
+      "Runs entirely in your browser - Markdown File Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -7990,6 +8984,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Markdown File Viewer need as input?",
+        "a": "You enter your data in Open file and Markdown Source. Nothing else is required."
       }
     ]
   },
@@ -7997,7 +8995,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "markdown-preview",
     "name": "Markdown Preview",
     "category": "Text Processing",
-    "description": "Markdown PreviewWrite and preview Markdown with live HTML rendering, syntax highlighting, and LaTeX math support.",
+    "description": "Write and preview Markdown with live HTML rendering, syntax highlighting, and LaTeX math support.",
     "engine": "markdown-docs",
     "keywords": [
       "markdown",
@@ -8006,11 +9004,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "markdown preview"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Markdown Source.",
+      "Provides 3 actions: Export to PDF, Export to Word (.docx), Copy HTML.",
+      "Copy, download or print the result with Export to PDF, Export to Word (.docx) and Copy HTML.",
+      "Works with HTML.",
+      "Runs entirely in your browser - Markdown Preview never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -8024,6 +9022,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Markdown Preview handle?",
+        "a": "It handles HTML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -8031,7 +9033,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "markdown-to-docx",
     "name": "Markdown to DOCX Converter",
     "category": "Text Processing",
-    "description": "Markdown to DOCX ConverterConvert Markdown documents to DOCX with live preview and one-click export.",
+    "description": "Convert Markdown documents to DOCX with live preview and one-click export.",
     "engine": "markdown-docs",
     "keywords": [
       "markdown",
@@ -8041,11 +9043,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "markdown to docx"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Markdown Source.",
+      "Provides 3 actions: Export to PDF, Export to Word (.docx), Copy HTML.",
+      "Copy, download or print the result with Export to PDF, Export to Word (.docx) and Copy HTML.",
+      "Works with DOCX.",
+      "Runs entirely in your browser - Markdown to DOCX Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -8059,6 +9061,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Markdown to DOCX Converter handle?",
+        "a": "It handles DOCX. The processing happens entirely in your browser."
       }
     ]
   },
@@ -8066,7 +9072,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "markdown-to-pdf",
     "name": "Markdown to PDF",
     "category": "Text Processing",
-    "description": "Markdown to PDFConvert Markdown documents to PDF with live preview and one-click export.",
+    "description": "Convert Markdown documents to PDF with live preview and one-click export.",
     "engine": "markdown-docs",
     "keywords": [
       "markdown",
@@ -8075,11 +9081,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "markdown to pdf"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Markdown Source.",
+      "Provides 3 actions: Export to PDF, Export to Word (.docx), Copy HTML.",
+      "Copy, download or print the result with Export to PDF, Export to Word (.docx) and Copy HTML.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Markdown to PDF never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -8093,6 +9099,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Markdown to PDF handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -8100,7 +9110,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "markdown-to-pdf-converter",
     "name": "Markdown to PDF Converter",
     "category": "Text Processing",
-    "description": "Markdown to PDF ConverterConvert Markdown to PDF with a live preview of headings, tables, and code, then download a clean document. Free online converter with no signup or uploads.",
+    "description": "Convert Markdown to PDF with a live preview of headings, tables, and code, then download a clean document. Free online converter with no signup or uploads.",
     "engine": "markdown-docs",
     "keywords": [
       "markdown",
@@ -8110,11 +9120,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "markdown to pdf converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Markdown Source.",
+      "Provides 3 actions: Export to PDF, Export to Word (.docx), Copy HTML.",
+      "Copy, download or print the result with Export to PDF, Export to Word (.docx) and Copy HTML.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Markdown to PDF Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -8128,6 +9138,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Markdown to PDF Converter handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -8135,7 +9149,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "markdown-to-word",
     "name": "Markdown to Word",
     "category": "Text Processing",
-    "description": "Markdown to WordConvert Markdown into a Word-compatible DOCX document with headings, lists, tables, and code preserved. Free online Markdown to Word converter, no uploads.",
+    "description": "Convert Markdown into a Word-compatible DOCX document with headings, lists, tables, and code preserved. Free online Markdown to Word converter, no uploads.",
     "engine": "markdown-docs",
     "keywords": [
       "markdown",
@@ -8144,11 +9158,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "markdown to word"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Markdown Source.",
+      "Provides 3 actions: Export to PDF, Export to Word (.docx), Copy HTML.",
+      "Copy, download or print the result with Export to PDF, Export to Word (.docx) and Copy HTML.",
+      "Works with DOCX.",
+      "Runs entirely in your browser - Markdown to Word never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -8162,6 +9176,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Markdown to Word handle?",
+        "a": "It handles DOCX. The processing happens entirely in your browser."
       }
     ]
   },
@@ -8169,7 +9187,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "markdown-viewer",
     "name": "Markdown Viewer",
     "category": "Text Processing",
-    "description": "Markdown ViewerView rendered Markdown alongside its source with tables, code blocks, and headings formatted. Free online Markdown viewer, private and processed locally.",
+    "description": "View rendered Markdown alongside its source with tables, code blocks, and headings formatted. Free online Markdown viewer, private and processed locally.",
     "engine": "markdown-docs",
     "keywords": [
       "markdown",
@@ -8178,11 +9196,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "markdown viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Markdown Source.",
+      "Provides 3 actions: Export to PDF, Export to Word (.docx), Copy HTML.",
+      "Copy, download or print the result with Export to PDF, Export to Word (.docx) and Copy HTML.",
+      "Runs entirely in your browser - Markdown Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -8196,6 +9214,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Markdown Viewer need as input?",
+        "a": "You enter your data in Open file and Markdown Source. Nothing else is required."
       }
     ]
   },
@@ -8203,7 +9225,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "markdown-wysiwyg-editor",
     "name": "Markdown WYSIWYG Editor",
     "category": "Text Processing",
-    "description": "Markdown WYSIWYG EditorEdit Markdown visually with WYSIWYG formatting controls instead of typing every syntax marker by hand, then copy or export. Free and runs in your browser.",
+    "description": "Edit Markdown visually with WYSIWYG formatting controls instead of typing every syntax marker by hand, then copy or export. Free and runs in your browser.",
     "engine": "markdown-docs",
     "keywords": [
       "markdown",
@@ -8213,11 +9235,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "markdown wysiwyg editor"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Markdown Source.",
+      "Provides 7 actions: Export to PDF, Export to Word (.docx), Bold, Italic and 3 more.",
+      "Copy, download or print the result with Export to PDF, Export to Word (.docx) and Copy HTML.",
+      "Runs entirely in your browser - Markdown WYSIWYG Editor never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -8231,6 +9253,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Markdown WYSIWYG Editor need as input?",
+        "a": "You enter your data in Open file and Markdown Source. Nothing else is required."
       }
     ]
   },
@@ -8238,7 +9264,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "markup-calculator",
     "name": "Markup Calculator",
     "category": "Calculators",
-    "description": "Markup CalculatorCalculate the selling price from cost and markup, or the markup percentage from cost and price. Compare with profit margin instantly, with Excel formulas.",
+    "description": "Calculate the selling price from cost and markup, or the markup percentage from cost and price. Compare with profit margin instantly, with Excel formulas.",
     "engine": "calculator-suite",
     "keywords": [
       "markup",
@@ -8247,11 +9273,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "markup calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Cost, Markup (%) and Selling price.",
+      "Runs entirely in your browser - Markup Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -8265,6 +9290,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Markup Calculator need as input?",
+        "a": "You enter your data in Cost, Markup (%) and Selling price. Nothing else is required."
       }
     ]
   },
@@ -8272,7 +9301,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "md-to-docx",
     "name": "MD to DOCX",
     "category": "Text Processing",
-    "description": "MD to DOCXTurn an MD file into an editable DOCX document with a live conversion preview, then download it. Free MD to DOCX converter that runs in your browser.",
+    "description": "Turn an MD file into an editable DOCX document with a live conversion preview, then download it. Free MD to DOCX converter that runs in your browser.",
     "engine": "markdown-docs",
     "keywords": [
       "docx",
@@ -8280,11 +9309,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "md to docx"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Markdown Source.",
+      "Provides 3 actions: Export to PDF, Export to Word (.docx), Copy HTML.",
+      "Copy, download or print the result with Export to PDF, Export to Word (.docx) and Copy HTML.",
+      "Works with DOCX.",
+      "Runs entirely in your browser - MD to DOCX never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -8298,6 +9327,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does MD to DOCX handle?",
+        "a": "It handles DOCX. The processing happens entirely in your browser."
       }
     ]
   },
@@ -8305,7 +9338,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "md-to-pdf",
     "name": "MD to PDF",
     "category": "Text Processing",
-    "description": "MD to PDFConvert an MD document into a downloadable PDF with headings, tables, and code blocks styled. Free MD to PDF converter that runs locally, no uploads.",
+    "description": "Convert an MD document into a downloadable PDF with headings, tables, and code blocks styled. Free MD to PDF converter that runs locally, no uploads.",
     "engine": "markdown-docs",
     "keywords": [
       "pdf",
@@ -8313,11 +9346,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "md to pdf"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Markdown Source.",
+      "Provides 3 actions: Export to PDF, Export to Word (.docx), Copy HTML.",
+      "Copy, download or print the result with Export to PDF, Export to Word (.docx) and Copy HTML.",
+      "Works with PDF.",
+      "Runs entirely in your browser - MD to PDF never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -8331,6 +9364,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does MD to PDF handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -8338,7 +9375,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "md5-generator",
     "name": "MD5 Hash Generator",
     "category": "Security",
-    "description": "MD5 Hash GeneratorGenerate MD5 checksums from text or files instantly. 100% client-side. Verify downloads and deduplicate files without uploading anything.",
+    "description": "Generate MD5 checksums from text or files instantly. 100% client-side. Verify downloads and deduplicate files without uploading anything.",
     "engine": "crypto-hash",
     "keywords": [
       "md5",
@@ -8348,11 +9385,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "md5 generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Type or paste any text to hash....",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - MD5 Hash Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -8366,6 +9403,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does MD5 Hash Generator need as input?",
+        "a": "You enter your data in Type or paste any text to hash.... Nothing else is required."
       }
     ]
   },
@@ -8373,7 +9414,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "mean-absolute-deviation-calculator",
     "name": "Mean Absolute Deviation Calculator",
     "category": "Calculators",
-    "description": "Mean Absolute Deviation CalculatorFind the mean absolute deviation (MAD) of a data set: the average distance from the mean, with each step and the absolute deviations table shown. Free.",
+    "description": "Find the mean absolute deviation (MAD) of a data set: the average distance from the mean, with each step and the absolute deviations table shown. Free.",
     "engine": "calculator-suite",
     "keywords": [
       "mean",
@@ -8384,11 +9425,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "mean absolute deviation calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: 12, 15, 23, 27, 34.",
+      "Runs entirely in your browser - Mean Absolute Deviation Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -8402,6 +9442,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Mean Absolute Deviation Calculator need as input?",
+        "a": "You enter your data in 12, 15, 23, 27, 34. Nothing else is required."
       }
     ]
   },
@@ -8409,7 +9453,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "meeting-planner",
     "name": "Meeting Planner",
     "category": "Productivity",
-    "description": "Meeting PlannerFind a good meeting time across time zones with city clocks and a 24-hour slider that shows working hours. Free online meeting planner for remote teams.",
+    "description": "Find a good meeting time across time zones with city clocks and a 24-hour slider that shows working hours. Free online meeting planner for remote teams.",
     "engine": "time-calendar",
     "keywords": [
       "meeting",
@@ -8418,11 +9462,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "meeting planner"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 7 inputs: Participants, Agenda, Date, Duration in minutes, The working day starts at, The working day ends at and Busy slots.",
+      "Provides 2 actions: Load the example, Clear.",
+      "Runs entirely in your browser - Meeting Planner never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -8436,6 +9480,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Meeting Planner?",
+        "a": "Press \"Current Time\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "What does Meeting Planner need as input?",
+        "a": "You enter your data in Participants, Agenda, Date, Duration in minutes, The working day starts at, The working day ends at and Busy slots. Nothing else is required."
       }
     ]
   },
@@ -8443,7 +9495,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "merge-pdf",
     "name": "Merge PDF Files",
     "category": "PDF",
-    "description": "Merge PDF FilesMerge PDF files free in your browser. Reorder pages, remove unwanted pages, and download one PDF. No signup, no watermark, and no document uploads.",
+    "description": "Merge PDF files free in your browser. Reorder pages, remove unwanted pages, and download one PDF. No signup, no watermark, and no document uploads.",
     "engine": "pdf-suite",
     "keywords": [
       "merge",
@@ -8452,11 +9504,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "merge pdf"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose PDF files.",
+      "Runs one action: Choose PDF files.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Merge PDF Files never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -8470,6 +9522,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Merge PDF Files handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -8477,7 +9533,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "mic-test",
     "name": "Mic Test",
     "category": "Device Tests",
-    "description": "Mic TestTest your microphone online: live level meter, waveform, noise floor, clipping check and 10-second playback. Free, no sign-up, audio never leaves your device.",
+    "description": "Test your microphone online: a live input level meter that shows the signal of your microphone while you speak. Free, private, the audio never leaves your device.",
     "engine": "device-tester",
     "keywords": [
       "mic",
@@ -8486,11 +9542,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "mic test"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: Enable Microphone Test.",
+      "Runs entirely in your browser - Mic Test never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -8504,6 +9560,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Mic Test?",
+        "a": "Press \"Enable Microphone Test\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -8511,7 +9571,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "middle-school-gpa-calculator",
     "name": "Middle School GPA Calculator",
     "category": "Calculators",
-    "description": "Middle School GPA CalculatorFree middle school GPA calculator. Type report card percentages or letter grades, no credits needed, and get a GPA on the 4.0 scale for 6th, 7th and 8th grade.",
+    "description": "Free middle school GPA calculator. Type report card percentages or letter grades, no credits needed, and get a GPA on the 4.0 scale for 6th, 7th and 8th grade.",
     "engine": "calculator-suite",
     "keywords": [
       "middle",
@@ -8522,11 +9582,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "middle school gpa calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 4 text inputs: Course 1 name, Course 2 name, Course 3 name and Course 4 name.",
+      "Choose between Mathematics grade (8 values) and Physics grade (8 values).",
+      "Runs one action: + Add course.",
+      "Runs entirely in your browser - Middle School GPA Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -8540,6 +9600,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Middle School GPA Calculator?",
+        "a": "You can choose Mathematics grade, Physics grade, History grade and Literature grade. The result is calculated right on the page."
       }
     ]
   },
@@ -8547,7 +9611,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "military-time-converter",
     "name": "Military Time Converter",
     "category": "Calculators",
-    "description": "Military Time ConverterConvert military time to standard time and back instantly: 1730 = 5:30 PM. Full military time chart, how to say it, and the current time in military format.",
+    "description": "Convert military time to standard time and back instantly: 1730 = 5:30 PM. Full military time chart, how to say it, and the current time in military format.",
     "engine": "calculator-suite",
     "keywords": [
       "military",
@@ -8557,11 +9621,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "military time converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Military time and Standard time.",
+      "Runs entirely in your browser - Military Time Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -8575,6 +9638,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Military Time Converter need as input?",
+        "a": "You enter your data in Military time and Standard time. Nothing else is required."
       }
     ]
   },
@@ -8582,7 +9649,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "mixed-number-calculator",
     "name": "Mixed Number Calculator",
     "category": "Calculators",
-    "description": "Mixed Number CalculatorAdd, subtract, multiply and divide mixed numbers, fractions and whole numbers. Convert mixed numbers to improper fractions and back, with every step.",
+    "description": "Add, subtract, multiply and divide mixed numbers, fractions and whole numbers. Convert mixed numbers to improper fractions and back, with every step.",
     "engine": "calculator-suite",
     "keywords": [
       "mixed",
@@ -8592,11 +9659,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "mixed number calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 6 text inputs: Whole A, Num A, Den A, Whole B, Num B and Den B.",
+      "Provides 4 actions: Add, Subtract, Multiply, Divide.",
+      "Runs entirely in your browser - Mixed Number Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -8610,28 +9677,32 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Mixed Number Calculator need as input?",
+        "a": "You enter your data in Whole A, Num A, Den A, Whole B, Num B and Den B. Nothing else is required."
       }
     ]
   },
   {
     "slug": "mkv-to-mp4",
     "name": "MKV to MP4 Converter",
-    "category": "Video &amp; Audio",
-    "description": "MKV to MP4 ConverterConvert MKV to MP4 in your browser. H.264 videos are remuxed in seconds with no quality loss; other codecs convert to H.264. No upload, no size limit, free.",
+    "category": "Video & Audio",
+    "description": "Convert a Matroska video to a real MP4 file in your browser. The browser decodes the picture and the sound and records them again as MP4 with H.264 video and AAC sound. Free, no upload, no sign-up.",
     "engine": "media-audio-video",
     "keywords": [
       "mkv",
       "mp4",
       "converter",
-      "video &amp; audio",
+      "video & audio",
       "mkv to mp4"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Select a media file.",
+      "Choose Convert to: MP3 - MPEG audio, MP4 - H.264 video, WAV - uncompressed PCM, WebM - VP8 video and 1 more.",
+      "Provides 2 actions: Convert now, Clear.",
+      "Works with MP4.",
+      "Runs entirely in your browser - MKV to MP4 Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -8645,6 +9716,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does MKV to MP4 Converter handle?",
+        "a": "It reads Matroska videos that the browser can decode and writes an MP4 file. The recording happens in your browser."
       }
     ]
   },
@@ -8652,7 +9727,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "mla-citation-generator",
     "name": "MLA Citation Generator",
     "category": "Text Processing",
-    "description": "MLA Citation GeneratorCreate MLA 9 Works Cited entries for books, journal articles, and websites. Keep source details in your browser and export to Word or BibTeX. Free to use.",
+    "description": "Create MLA 9 Works Cited entries for books, journal articles, and websites. Keep source details in your browser and export to Word or BibTeX. Free to use.",
     "engine": "text-suite",
     "keywords": [
       "mla",
@@ -8662,11 +9737,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "mla citation generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 7 inputs: Author(s), Year, Title, Publisher, Edition, Place and DOI or URL.",
+      "Choose Source type: Book, Journal article, Website.",
+      "Provides 6 actions: Download .txt, Download .doc, Download .bib, Copy and 2 more.",
+      "Copy, download or print the result with Download .txt, Download .doc and Download .bib.",
+      "Runs entirely in your browser - MLA Citation Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -8680,6 +9755,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in MLA Citation Generator?",
+        "a": "You can choose Source type. The result is calculated right on the page."
       }
     ]
   },
@@ -8687,7 +9766,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "morse-code-translator",
     "name": "Morse Code Translator",
     "category": "Encoding",
-    "description": "Morse Code TranslatorTranslate English to Morse code and Morse code to text as you type. Play it as sound or light, adjust WPM and Farnsworth speed, and download a WAV. Free.",
+    "description": "Translate English to Morse code and Morse code to text as you type. Play it as sound or light, adjust WPM and Farnsworth speed, and download a WAV. Free.",
     "engine": "encoding-converters",
     "keywords": [
       "morse",
@@ -8697,11 +9776,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "morse code translator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (Text) and Output (Morse).",
+      "Provides 2 actions: Switch Direction (Forward), Copy.",
+      "Copy, download or print the result with Copy.",
+      "Works with WAV.",
+      "Runs entirely in your browser - Morse Code Translator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -8715,6 +9794,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Morse Code Translator handle?",
+        "a": "It handles WAV. The processing happens entirely in your browser."
       }
     ]
   },
@@ -8722,7 +9805,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "mouse-test",
     "name": "Mouse Test",
     "category": "Device Tests",
-    "description": "Mouse TestTest your mouse online: left, right, middle, back and forward buttons, scroll wheel, unwanted double clicks and pointer rate. Free, private, no install.",
+    "description": "Test your mouse online: left, right, middle, back and forward buttons, scroll wheel, unwanted double clicks and pointer rate. Free, private, no install.",
     "engine": "device-tester",
     "keywords": [
       "mouse",
@@ -8731,11 +9814,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "mouse test"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: Reset the counters.",
+      "Runs entirely in your browser - Mouse Test never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -8749,28 +9832,32 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Mouse Test?",
+        "a": "Press \"CLICK HERE RAPIDLY!\" to run the tool and read the result directly on the page."
       }
     ]
   },
   {
     "slug": "mov-to-mp4",
     "name": "MOV to MP4 Converter",
-    "category": "Video &amp; Audio",
-    "description": "MOV to MP4 ConverterConvert MOV to MP4 free in your browser. iPhone videos convert in seconds without re-encoding when possible. No upload, no 1 GB cap, no credits or watermark.",
+    "category": "Video & Audio",
+    "description": "Convert a QuickTime video to a real MP4 file in your browser. The browser decodes the picture and the sound and records them again as MP4 with H.264 video and AAC sound. Free, no upload, no sign-up.",
     "engine": "media-audio-video",
     "keywords": [
       "mov",
       "mp4",
       "converter",
-      "video &amp; audio",
+      "video & audio",
       "mov to mp4"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Select a media file.",
+      "Choose Convert to: MP3 - MPEG audio, MP4 - H.264 video, WAV - uncompressed PCM, WebM - VP8 video and 1 more.",
+      "Provides 2 actions: Convert now, Clear.",
+      "Works with MP4.",
+      "Runs entirely in your browser - MOV to MP4 Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -8784,28 +9871,32 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does MOV to MP4 Converter handle?",
+        "a": "It reads QuickTime videos that the browser can decode and writes an MP4 file. The recording happens in your browser."
       }
     ]
   },
   {
     "slug": "mp3-to-wav",
     "name": "MP3 to WAV Converter",
-    "category": "Video &amp; Audio",
-    "description": "MP3 to WAV ConverterConvert MP3 to WAV in your browser for audio editors, samplers and CD burning. 16-bit PCM, stereo or mono, batch with ZIP. Free, no upload, no size limit.",
+    "category": "Video & Audio",
+    "description": "Convert an MP3 recording to a real WAV file in your browser. The sound is decoded locally and written as 16 bit PCM at 44.1 kHz, ready for audio editors, samplers and CD burning. Free, no upload, no sign-up.",
     "engine": "media-audio-video",
     "keywords": [
       "mp3",
       "wav",
       "converter",
-      "video &amp; audio",
+      "video & audio",
       "mp3 to wav"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Select a media file.",
+      "Choose Convert to: MP3 - MPEG audio, MP4 - H.264 video, WAV - uncompressed PCM, WebM - VP8 video and 1 more.",
+      "Provides 2 actions: Convert now, Clear.",
+      "Works with MP3, WAV.",
+      "Runs entirely in your browser - MP3 to WAV Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -8819,28 +9910,32 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does MP3 to WAV Converter handle?",
+        "a": "It reads MP3 files and writes a WAV file. Decoding and the download all happen in your browser."
       }
     ]
   },
   {
     "slug": "mp4-to-mp3",
     "name": "MP4 to MP3 Converter",
-    "category": "Video &amp; Audio",
-    "description": "MP4 to MP3 ConverterConvert MP4 to MP3 in your browser. Extract audio from videos at 128–320 kbps, trim, batch convert and download. Free, no upload, no signup and no daily limits.",
+    "category": "Video & Audio",
+    "description": "Extract the sound track of an MP4 video as a real MP3 file in your browser. The audio track is decoded locally and re-encoded with the LAME encoder at 192 kbps and 44.1 kHz. Free, no upload, no sign-up.",
     "engine": "media-audio-video",
     "keywords": [
       "mp4",
       "mp3",
       "converter",
-      "video &amp; audio",
+      "video & audio",
       "mp4 to mp3"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Select a media file.",
+      "Choose Convert to: MP3 - MPEG audio, MP4 - H.264 video, WAV - uncompressed PCM, WebM - VP8 video and 1 more.",
+      "Provides 2 actions: Convert now, Clear.",
+      "Works with MP4, MP3.",
+      "Runs entirely in your browser - MP4 to MP3 Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -8854,6 +9949,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does MP4 to MP3 Converter handle?",
+        "a": "It reads MP4 videos, takes their sound track and writes an MP3 file. Every step happens in your browser."
       }
     ]
   },
@@ -8861,7 +9960,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "msg-to-pdf",
     "name": "MSG to PDF Converter",
     "category": "Productivity",
-    "description": "MSG to PDF ConverterConvert Outlook .msg files to PDF without Outlook: the message with sender, recipients, date and attachments listed on top. Works on Mac. No upload.",
+    "description": "Convert Outlook .msg files to PDF without Outlook: the message with sender, recipients, date and attachments listed on top. Works on Mac. No upload.",
     "engine": "pdf-suite",
     "keywords": [
       "msg",
@@ -8871,11 +9970,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "msg to pdf"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose an email file.",
+      "Runs one action: Choose an email file.",
+      "Works with PDF.",
+      "Runs entirely in your browser - MSG to PDF Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -8889,6 +9988,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does MSG to PDF Converter handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -8896,7 +9999,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "msg-viewer",
     "name": "MSG Viewer",
     "category": "Productivity",
-    "description": "MSG ViewerOpen Outlook .msg files in any browser, on Mac or Windows: read the email, download attachments, check headers and save as PDF. Nothing is uploaded.",
+    "description": "Open Outlook .msg files in any browser, on Mac or Windows: read the email, download attachments, check headers and save as PDF. Nothing is uploaded.",
     "engine": "file-viewers",
     "keywords": [
       "msg",
@@ -8905,11 +10008,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "msg viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Open an Outlook message.",
+      "Works with PDF.",
+      "Runs entirely in your browser - MSG Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -8923,6 +10026,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does MSG Viewer handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -8930,7 +10037,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "mulch-calculator",
     "name": "Mulch Calculator",
     "category": "Calculators",
-    "description": "Mulch CalculatorCalculate how much mulch you need in cubic yards and bags for garden beds of any shape. Depth guidance, 1.5, 2 or 3 cu ft bags, and bulk cost. Free and instant.",
+    "description": "Calculate how much mulch you need in cubic yards and bags for garden beds of any shape. Depth guidance, 1.5, 2 or 3 cu ft bags, and bulk cost. Free and instant.",
     "engine": "calculator-suite",
     "keywords": [
       "mulch",
@@ -8939,11 +10046,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "mulch calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Area (sq ft), Depth (inches) and Waste (%).",
+      "Runs entirely in your browser - Mulch Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -8957,6 +10063,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Mulch Calculator need as input?",
+        "a": "You enter your data in Area (sq ft), Depth (inches) and Waste (%). Nothing else is required."
       }
     ]
   },
@@ -8964,7 +10074,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "new-year-countdown",
     "name": "New Year Countdown",
     "category": "Productivity",
-    "description": "New Year CountdownLive New Year countdown to midnight in your time zone, with a fullscreen party clock and a world list showing when each city reaches 2027. Free, no sign-up.",
+    "description": "Live New Year countdown to midnight in your time zone, with a fullscreen party clock and a world list showing when each city reaches 2027. Free, no sign-up.",
     "engine": "time-calendar",
     "keywords": [
       "new",
@@ -8974,11 +10084,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "new year countdown"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs entirely in your browser - New Year Countdown never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -8992,14 +10101,18 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use New Year Countdown?",
+        "a": "Press \"Current Time\" to run the tool and read the result directly on the page."
       }
     ]
   },
   {
     "slug": "new-years-bingo",
-    "name": "New Year&#x27;s Bingo Cards",
+    "name": "New Year's Bingo Cards",
     "category": "Productivity",
-    "description": "New Year&#x27;s Bingo CardsFree New Year&#x27;s Eve bingo cards and resolution bingo boards: party words or your own goals, midnight gold theme, unique cards and a caller. Free PDF.",
+    "description": "Free New Year's Eve bingo cards and resolution bingo boards: party words or your own goals, midnight gold theme, unique cards and a caller. Free PDF.",
     "engine": "randomizers-games",
     "keywords": [
       "new",
@@ -9011,16 +10124,16 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "new years bingo"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: New card.",
+      "Works with PDF.",
+      "Runs entirely in your browser - New Year's Bingo Cards never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
-        "q": "Is this New Year&#x27;s Bingo Cards tool free to use?",
-        "a": "Yes, New Year&#x27;s Bingo Cards on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "q": "Is this New Year's Bingo Cards tool free to use?",
+        "a": "Yes, New Year's Bingo Cards on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9029,6 +10142,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does New Year's Bingo Cards handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -9036,7 +10153,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "notepad-plus-plus-online",
     "name": "Notepad++ Online",
     "category": "Coding",
-    "description": "Notepad++ OnlineNotepad++ style tabbed editor that runs in the browser: syntax highlighting and autosave on macOS, Linux and ChromeOS, with nothing to install.",
+    "description": "Notepad++ style tabbed editor that runs in the browser: syntax highlighting, find and replace, word wrap and zoom on macOS, Linux and ChromeOS, with nothing to install. Your text stays in the memory of the tab - download it to keep it.",
     "engine": "text-suite",
     "keywords": [
       "notepad",
@@ -9045,11 +10162,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "notepad plus plus online"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 6 inputs: Import file, Open, Zoom %, Start typing here…, Find and Replace.",
+      "Choose Language: Plain text, JSON, XML, HTML and 4 more.",
+      "Provides 10 actions: New tab, Download, Copy, Clear all text and 6 more.",
+      "Copy, download or print the result with Download, Copy and Save.",
+      "Runs entirely in your browser - Notepad++ Online never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -9063,6 +10180,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Notepad++ Online?",
+        "a": "You can choose Language. The result is calculated right on the page."
       }
     ]
   },
@@ -9070,7 +10191,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "number-base-converter",
     "name": "Number Base Converter",
     "category": "Encoding",
-    "description": "Number Base ConverterConvert numbers between binary, octal, decimal, hexadecimal and any base from 2 to 36, with step-by-step working, two’s complement and big-number support.",
+    "description": "Convert numbers between binary, octal, decimal, hexadecimal and any base from 2 to 36, with step-by-step working, two’s complement and big-number support.",
     "engine": "encoding-converters",
     "keywords": [
       "number",
@@ -9080,11 +10201,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "number base converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (Decimal) and Output (Binary).",
+      "Choose between From (4 values) and To (4 values).",
+      "Provides 2 actions: Switch Direction (Forward), Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Number Base Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -9098,6 +10219,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Number Base Converter?",
+        "a": "You can choose FromBinary (2)Octal (8)Decimal (10)Hexadecimal (16) and ToBinary (2)Octal (8)Decimal (10)Hexadecimal (16). The result is calculated right on the page."
       }
     ]
   },
@@ -9105,7 +10230,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "obj-viewer",
     "name": "OBJ Viewer",
     "category": "Design",
-    "description": "OBJ ViewerView Wavefront OBJ files online with their MTL materials and textures. Measure size and volume, check the mesh, export to STL or GLB. Free, nothing uploaded.",
+    "description": "View Wavefront OBJ files online with their MTL materials and textures. Measure size and volume, check the mesh, export to STL or GLB. Free, nothing uploaded.",
     "engine": "file-viewers",
     "keywords": [
       "obj",
@@ -9114,11 +10239,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "obj viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: File.",
+      "Provides 2 actions: Open 3D File, Try Sample Model.",
+      "Works with OBJ, STL, GLB.",
+      "Runs entirely in your browser - OBJ Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -9132,6 +10257,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does OBJ Viewer handle?",
+        "a": "It handles OBJ, STL, GLB. The processing happens entirely in your browser."
       }
     ]
   },
@@ -9139,7 +10268,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "offline-ai-chat",
     "name": "Offline AI Chat",
     "category": "Productivity",
-    "description": "Offline AI ChatChat with AI locally on your device using open-source language models. No internet connection required, ensuring privacy and security.",
+    "description": "A private chat workspace for open-source language models that run on your device. No model is bundled: the tool loads the weights for Qwen2.5 or Llama from this origin when you place them there and reports whether WebGPU is available. The inference runtime is not part of this site yet, so no reply is generated. It never calls a remote service.",
     "engine": "developer-suite",
     "keywords": [
       "offline",
@@ -9148,11 +10277,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "offline ai chat"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Prompt.",
+      "Choose Model: Qwen2.5 1.5B Instruct, Llama 3.2 1B Instruct.",
+      "Provides 4 actions: Load model, Copy, Clear chat, Send prompt.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Offline AI Chat never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -9166,6 +10295,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Offline AI Chat?",
+        "a": "You can choose Format SQL. The result is calculated right on the page."
       }
     ]
   },
@@ -9173,7 +10306,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "og-image-generator",
     "name": "OG Image Generator",
     "category": "Design",
-    "description": "OG Image GeneratorCreate social-share images from customizable templates and download as PNG.",
+    "description": "Create social-share images from customizable templates and download as PNG.",
     "engine": "image-suite",
     "keywords": [
       "image",
@@ -9182,11 +10315,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "og image generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Title and Subtitle.",
+      "Choose Template: Minimal, Gradient, Split.",
+      "Provides 2 actions: Download Image, Clear.",
+      "Copy, download or print the result with Download Image.",
+      "Works with PNG."
     ],
     "faqs": [
       {
@@ -9200,6 +10333,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does OG Image Generator handle?",
+        "a": "It handles PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -9207,7 +10344,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "og-image-maker",
     "name": "OG Image Maker",
     "category": "Design",
-    "description": "OG Image MakerMake an OG share card with a custom title, subtitle, colors, and template styling for social link previews. Free OG image maker that runs in your browser.",
+    "description": "Make an OG share card with a custom title, subtitle, colors, and template styling for social link previews. Free OG image maker that runs in your browser.",
     "engine": "image-suite",
     "keywords": [
       "image",
@@ -9216,11 +10353,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "og image maker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Title and Subtitle.",
+      "Choose Template: Minimal, Gradient, Split.",
+      "Provides 2 actions: Download Image, Clear.",
+      "Copy, download or print the result with Download Image.",
+      "Runs entirely in your browser - OG Image Maker never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -9234,28 +10371,36 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does OG Image Maker need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
+      },
+      {
+        "q": "Which settings can I choose in OG Image Maker?",
+        "a": "You can choose Template. The result is calculated right on the page."
       }
     ]
   },
   {
     "slug": "ogg-to-mp3",
     "name": "OGG to MP3 Converter",
-    "category": "Video &amp; Audio",
-    "description": "OGG to MP3 ConverterConvert OGG (Vorbis or Opus) and WhatsApp voice notes to MP3 in your browser. 128–320 kbps, trimming and batch ZIP. Free, private, no upload or size limit.",
+    "category": "Video & Audio",
+    "description": "Convert an Ogg Vorbis file to a real MP3 file in your browser. The sound is decoded locally and re-encoded with the LAME encoder at 192 kbps and 44.1 kHz. Free, no upload, no sign-up.",
     "engine": "media-audio-video",
     "keywords": [
       "ogg",
       "mp3",
       "converter",
-      "video &amp; audio",
+      "video & audio",
       "ogg to mp3"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Select a media file.",
+      "Choose Convert to: MP3 - MPEG audio, MP4 - H.264 video, WAV - uncompressed PCM, WebM - VP8 video and 1 more.",
+      "Provides 2 actions: Convert now, Clear.",
+      "Works with MP3.",
+      "Runs entirely in your browser - OGG to MP3 Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -9269,6 +10414,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does OGG to MP3 Converter handle?",
+        "a": "It reads Ogg Vorbis files and writes an MP3 file. Decoding, encoding and the download all happen in your browser."
       }
     ]
   },
@@ -9276,7 +10425,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "one-rep-max-calculator",
     "name": "One Rep Max Calculator",
     "category": "Calculators",
-    "description": "One Rep Max CalculatorEstimate your one rep max (1RM) from any set of 1–15 reps using the Epley, Brzycki and Lombardi formulas, with a training percentage chart. lb or kg. Free.",
+    "description": "Estimate your one rep max (1RM) from any set of 1–15 reps using the Epley, Brzycki and Lombardi formulas, with a training percentage chart. lb or kg. Free.",
     "engine": "calculator-suite",
     "keywords": [
       "one",
@@ -9287,11 +10436,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "one rep max calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Weight lifted and Reps performed.",
+      "Choose Formula: Epley (most common), Brzycki, Lombardi.",
+      "Runs entirely in your browser - One Rep Max Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -9305,6 +10454,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in One Rep Max Calculator?",
+        "a": "You can choose Formula. The result is calculated right on the page."
       }
     ]
   },
@@ -9312,7 +10465,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "bingo-caller",
     "name": "Online Bingo Caller",
     "category": "Productivity",
-    "description": "Online Bingo CallerFree online bingo caller and 1-75 number generator: call next, auto call, read numbers aloud, full-screen board for a TV and winner check. No app or sign-up.",
+    "description": "Free online bingo caller and 1-75 number generator: call next, auto call, read numbers aloud, full-screen board for a TV and winner check. No app or sign-up.",
     "engine": "randomizers-games",
     "keywords": [
       "online",
@@ -9322,11 +10475,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bingo caller"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Provides 2 actions: Call the next number, Start a new game.",
+      "Runs entirely in your browser - Online Bingo Caller never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -9340,6 +10493,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Online Bingo Caller need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
+      },
+      {
+        "q": "How do I use Online Bingo Caller?",
+        "a": "Press \"Call the next number\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -9347,7 +10508,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "diff-checker",
     "name": "Online Diff Checker",
     "category": "Text Processing",
-    "description": "Online Diff CheckerCompare two text documents side-by-side with highlighted differences. Line-by-line comparison with additions, deletions, and modifications.",
+    "description": "Compare two text documents side-by-side with highlighted differences. Line-by-line comparison with additions, deletions, and modifications.",
     "engine": "diff",
     "keywords": [
       "online",
@@ -9357,11 +10518,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "diff checker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Original JSON / Text and Modified JSON / Text.",
+      "Provides 4 actions: Compare Diffs, Beautify Both, Line Diff, Word Diff.",
+      "Runs entirely in your browser - Online Diff Checker never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -9375,6 +10536,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Online Diff Checker need as input?",
+        "a": "You enter your data in Original JSON / Text and Modified JSON / Text. Nothing else is required."
       }
     ]
   },
@@ -9382,7 +10547,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "equation-editor",
     "name": "Online Equation Editor",
     "category": "Productivity",
-    "description": "Online Equation EditorFree online equation editor and equation writer. Build equations visually or in LaTeX, then copy to Word or Google Docs or download PNG, SVG and PDF. No signup.",
+    "description": "Free online equation editor and equation writer. Build equations visually or in LaTeX, then copy to Word or Google Docs or download PNG, SVG and PDF. No signup.",
     "engine": "time-calendar",
     "keywords": [
       "online",
@@ -9392,11 +10557,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "equation editor"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: The formula in LaTeX.",
+      "Provides 10 actions: x², xⁿ, xᵢ, a/b and 6 more.",
+      "Works with PNG, SVG, PDF.",
+      "Runs entirely in your browser - Online Equation Editor never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -9410,6 +10575,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Online Equation Editor handle?",
+        "a": "It handles PNG, SVG, PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -9417,7 +10586,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "markdown-editor",
     "name": "Online Markdown Editor",
     "category": "Text Processing",
-    "description": "Online Markdown EditorHighly functional, fast, and beautifully designed Online Markdown Editor with a robust WYSIWYG side-by-side preview and offline sync.",
+    "description": "Highly functional, fast, and beautifully designed Online Markdown Editor with a robust WYSIWYG side-by-side preview and offline sync.",
     "engine": "markdown-docs",
     "keywords": [
       "online",
@@ -9427,11 +10596,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "markdown editor"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Markdown Source.",
+      "Provides 3 actions: Export to PDF, Export to Word (.docx), Copy HTML.",
+      "Copy, download or print the result with Export to PDF, Export to Word (.docx) and Copy HTML.",
+      "Runs entirely in your browser - Online Markdown Editor never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -9445,6 +10614,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Online Markdown Editor need as input?",
+        "a": "You enter your data in Open file and Markdown Source. Nothing else is required."
       }
     ]
   },
@@ -9452,7 +10625,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "online-markdown-editor",
     "name": "Online Markdown Editor with Export",
     "category": "Text Processing",
-    "description": "Online Markdown Editor with ExportWrite Markdown in a rich-text editor with a toolbar, live formatting, and export to .md or HTML. Free online Markdown editor that saves nothing to a server.",
+    "description": "Write Markdown in a rich-text editor with a toolbar, live formatting, and export to .md or HTML. Free online Markdown editor that saves nothing to a server.",
     "engine": "markdown-docs",
     "keywords": [
       "online",
@@ -9464,11 +10637,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "online markdown editor"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Open file and Markdown Source.",
+      "Provides 3 actions: Export to PDF, Export to Word (.docx), Copy HTML.",
+      "Copy, download or print the result with Export to PDF, Export to Word (.docx) and Copy HTML.",
+      "Works with HTML.",
+      "Runs entirely in your browser - Online Markdown Editor with Export never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -9482,6 +10655,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Online Markdown Editor with Export handle?",
+        "a": "It handles HTML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -9489,7 +10666,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "math-editor",
     "name": "Online Math Editor",
     "category": "Productivity",
-    "description": "Online Math EditorFree online math editor: type equations visually or in LaTeX, with a math keyboard and symbols. Copy to Word or Google Docs, or export PNG and SVG. No signup.",
+    "description": "Write a mathematical formula in LaTeX and watch it render: the live preview shows real MathML, a palette of clickable symbols helps you write, and you can copy the MathML. Free, private, no signup.",
     "engine": "developer-suite",
     "keywords": [
       "online",
@@ -9499,11 +10676,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "math editor"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Write a formula, for example: E = mc^2.",
+      "Provides 10 actions: Render equation, Copy MathML, Clear, Load example and 6 more.",
+      "Copy, download or print the result with Copy MathML.",
+      "Runs entirely in your browser - Online Math Editor never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -9517,6 +10694,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Online Math Editor handle?",
+        "a": "It handles PNG, SVG. The processing happens entirely in your browser."
+      },
+      {
+        "q": "What does Online Math Editor need as input?",
+        "a": "You enter your data in Write a formula, for example: E = mc^2. Nothing else is required."
       }
     ]
   },
@@ -9524,7 +10709,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "math-keyboard",
     "name": "Online Math Keyboard",
     "category": "Productivity",
-    "description": "Online Math KeyboardFree online math keyboard: type fractions, roots, Greek letters and 200+ math symbols, then copy as text, LaTeX, an image or a Word equation. Works on phones.",
+    "description": "Free online math keyboard: type fractions, roots, Greek letters and 200+ math symbols, then copy as text, LaTeX, an image or a Word equation. Works on phones.",
     "engine": "device-tester",
     "keywords": [
       "online",
@@ -9534,11 +10719,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "math keyboard"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: The formula.",
+      "Provides 10 actions: +, −, ×, ÷ and 6 more.",
+      "Runs entirely in your browser - Online Math Keyboard never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -9552,6 +10737,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Online Math Keyboard?",
+        "a": "Press \"Reset Key History\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "What does Online Math Keyboard need as input?",
+        "a": "You enter your data in The formula. Nothing else is required."
       }
     ]
   },
@@ -9559,7 +10752,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "online-notepad",
     "name": "Online Notepad",
     "category": "Coding",
-    "description": "Online NotepadFree online notepad with multi-tab editing, autosave, and syntax highlighting. 100% client-side storage.",
+    "description": "Free online notepad with multi-tab editing and syntax highlighting. Your text stays in the memory of the tab - download it to keep it. 100% client-side, no signup.",
     "engine": "text-suite",
     "keywords": [
       "online",
@@ -9568,11 +10761,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "online notepad"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 4 inputs: Import file, Start typing here…, Find and Replace.",
+      "Choose Language: Plain text, JSON, XML, HTML and 4 more.",
+      "Provides 10 actions: New tab, Download, Copy, Clear all text and 6 more.",
+      "Copy, download or print the result with Download and Copy.",
+      "Runs entirely in your browser - Online Notepad never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -9586,6 +10779,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Online Notepad?",
+        "a": "You can choose Language. The result is calculated right on the page."
       }
     ]
   },
@@ -9593,7 +10790,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "tone-generator",
     "name": "Online Tone Generator",
     "category": "Device Tests",
-    "description": "Online Tone GeneratorFree online tone generator: play any frequency from 1 Hz to 22 kHz as a sine, square, triangle or sawtooth wave, with balance, note names, sweep and noise.",
+    "description": "Free online tone generator: play any frequency from 1 Hz to 22 kHz as a sine, square, triangle or sawtooth wave, with balance, note names, sweep and noise.",
     "engine": "device-tester",
     "keywords": [
       "online",
@@ -9603,11 +10800,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "tone generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Frequency in Hz, Duration in seconds and Volume 30 %.",
+      "Choose Waveform: Sine, Square, Sawtooth, Triangle.",
+      "Provides 2 actions: Play the tone, Stop.",
+      "Runs entirely in your browser - Online Tone Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -9621,6 +10818,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Online Tone Generator?",
+        "a": "Press \"CLICK HERE RAPIDLY!\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "Which settings can I choose in Online Tone Generator?",
+        "a": "You can choose Waveform. The result is calculated right on the page."
       }
     ]
   },
@@ -9628,7 +10833,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "open-graph-checker",
     "name": "Open Graph Checker",
     "category": "Design",
-    "description": "Open Graph CheckerCheck a page&#x27;s Open Graph tags and preview the title, description, and image used when the link is shared on social media. Free online OG checker.",
+    "description": "Read the Open Graph and Twitter Card tags of a page: paste the HTML of the head, the tool lists every og: and twitter: tag with its content and shows how the link looks when it is shared. Nothing is fetched from the network.",
     "engine": "image-suite",
     "keywords": [
       "open",
@@ -9638,11 +10843,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "open graph checker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Page URLThe address of the page you want to check. and Paste the page sourceThe tags are read from this text, in your browser..",
+      "Provides 2 actions: Read the tags, Clear.",
+      "Works with HTML.",
+      "Runs entirely in your browser - Open Graph Checker never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -9656,6 +10861,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Open Graph Checker need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
+      },
+      {
+        "q": "Which file formats does Open Graph Checker handle?",
+        "a": "It handles HTML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -9663,7 +10876,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "open-graph-image-generator",
     "name": "Open Graph Image Generator",
     "category": "Design",
-    "description": "Open Graph Image GeneratorCreate a 1200x630 share image for Open Graph metadata using editable card templates, then download a PNG. Free online OG image generator, no signup.",
+    "description": "Create a 1200x630 share image for Open Graph metadata using editable card templates, then download a PNG. Free online OG image generator, no signup.",
     "engine": "image-suite",
     "keywords": [
       "open",
@@ -9674,11 +10887,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "open graph image generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Title and Subtitle.",
+      "Choose Template: Minimal, Gradient, Split.",
+      "Provides 2 actions: Download Image, Clear.",
+      "Copy, download or print the result with Download Image.",
+      "Works with PNG."
     ],
     "faqs": [
       {
@@ -9692,6 +10905,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Open Graph Image Generator handle?",
+        "a": "It handles PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -9699,7 +10916,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "open-graph-preview",
     "name": "Open Graph Preview",
     "category": "Design",
-    "description": "Open Graph PreviewPreview and debug your Open Graph (OG) meta tags and Twitter Cards instantly. Auto-fetch from URLs.",
+    "description": "Preview the Open Graph and Twitter Card tags of a page: paste the HTML of the head and the tool shows the title, the description and the image the social networks would use for the link. Nothing is fetched from the network.",
     "engine": "image-suite",
     "keywords": [
       "open",
@@ -9709,11 +10926,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "open graph preview"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Page URLThe address of the page you want to check. and Paste the page sourceThe tags are read from this text, in your browser..",
+      "Provides 2 actions: Read the tags, Clear.",
+      "Works with HTML.",
+      "Runs entirely in your browser - Open Graph Preview never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -9727,14 +10944,22 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Open Graph Preview need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
+      },
+      {
+        "q": "Which file formats does Open Graph Preview handle?",
+        "a": "It handles HTML. The processing happens entirely in your browser."
       }
     ]
   },
   {
     "slug": "openapi-viewer",
-    "name": "OpenAPI &amp; Swagger Viewer",
+    "name": "OpenAPI & Swagger Viewer",
     "category": "Coding",
-    "description": "OpenAPI &amp; Swagger ViewerOpen an OpenAPI 3.x or Swagger 2.0 file in JSON or YAML and explore endpoints, parameters, schemas, and responses in an interactive UI.",
+    "description": "Open an OpenAPI 3.x or Swagger 2.0 file in JSON or YAML and explore endpoints, parameters, schemas, and responses in an interactive UI.",
     "engine": "developer-suite",
     "keywords": [
       "openapi",
@@ -9745,16 +10970,16 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "openapi viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste an OpenAPI or Swagger document (JSON or YAML) here....",
+      "Provides 4 actions: List operations, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Works with JSON, YAML.",
+      "Runs entirely in your browser - OpenAPI & Swagger Viewer never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
-        "q": "Is this OpenAPI &amp; Swagger Viewer tool free to use?",
-        "a": "Yes, OpenAPI &amp; Swagger Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "q": "Is this OpenAPI & Swagger Viewer tool free to use?",
+        "a": "Yes, OpenAPI & Swagger Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9763,6 +10988,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does OpenAPI & Swagger Viewer handle?",
+        "a": "It handles JSON, YAML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -9770,7 +10999,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "openapi-editor",
     "name": "OpenAPI Editor",
     "category": "Coding",
-    "description": "OpenAPI EditorEdit an OpenAPI specification&#x27;s YAML or JSON source and browse the parsed operations and schemas side by side. Free online OpenAPI editor, processed locally.",
+    "description": "Edit an OpenAPI specification's YAML or JSON source and browse the parsed operations and schemas side by side. Free online OpenAPI editor, processed locally.",
     "engine": "developer-suite",
     "keywords": [
       "openapi",
@@ -9779,11 +11008,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "openapi editor"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste an OpenAPI or Swagger document (JSON or YAML) here....",
+      "Provides 4 actions: Parse specification, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Works with YAML, JSON.",
+      "Runs entirely in your browser - OpenAPI Editor never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -9797,6 +11026,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does OpenAPI Editor handle?",
+        "a": "It handles YAML, JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -9804,7 +11037,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "overtime-calculator",
     "name": "Overtime Calculator",
     "category": "Calculators",
-    "description": "Overtime CalculatorCalculate overtime pay at time-and-a-half or any multiplier, plus double time. See regular, overtime and total pay before tax, with the working shown. Free.",
+    "description": "Calculate overtime pay at time-and-a-half or any multiplier, plus double time. See regular, overtime and total pay before tax, with the working shown. Free.",
     "engine": "calculator-suite",
     "keywords": [
       "overtime",
@@ -9813,11 +11046,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "overtime calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 5 text inputs: Hours worked, Hourly rate, Overtime after (h), Double time after (h) and Overtime multiplier.",
+      "Runs entirely in your browser - Overtime Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -9831,6 +11063,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Overtime Calculator need as input?",
+        "a": "You enter your data in Hours worked, Hourly rate, Overtime after (h), Double time after (h) and Overtime multiplier. Nothing else is required."
       }
     ]
   },
@@ -9838,7 +11074,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "paint-calculator",
     "name": "Paint Calculator",
     "category": "Calculators",
-    "description": "Paint CalculatorWork out how many gallons of paint you need for a room: walls, optional ceiling, doors, windows and coats at your paint’s coverage. Gallons, quarts, litres.",
+    "description": "Work out how many gallons of paint you need for a room: walls, optional ceiling, doors, windows and coats at your paint’s coverage. Gallons, quarts, litres.",
     "engine": "calculator-suite",
     "keywords": [
       "paint",
@@ -9847,11 +11083,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "paint calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 7 text inputs: Room length (ft), Room width (ft), Wall height (ft), Doors (sq ft), Windows (sq ft), Coverage (sq ft/gal) and Coats.",
+      "Runs entirely in your browser - Paint Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -9865,6 +11100,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Paint Calculator need as input?",
+        "a": "You enter your data in Room length (ft), Room width (ft), Wall height (ft), Doors (sq ft), Windows (sq ft), Coverage (sq ft/gal) and Coats. Nothing else is required."
       }
     ]
   },
@@ -9872,7 +11111,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "parquet-to-csv",
     "name": "Parquet to CSV Converter",
     "category": "Coding",
-    "description": "Parquet to CSV ConverterConvert Parquet files to CSV, JSON or Excel in your browser. Preview the schema and data first. Snappy and Zstd supported. Free, nothing is uploaded.",
+    "description": "A browser has no Parquet reader: Parquet is a column store that no browser opens without a library, so this tool does not offer the file type at all. It explains what Parquet is and which readers can show the rows.",
     "engine": "csv-data",
     "keywords": [
       "parquet",
@@ -9882,11 +11121,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "parquet to csv"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste CSV or TSV data here... and Converted output will appear here....",
+      "Choose Delimiter:: Comma (,), Tab (\\t), Semicolon (;), Pipe (|) and 1 more.",
+      "Provides 5 actions: CSV → JSON, JSON Output, Table, Copy and 1 more.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Parquet to CSV Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -9900,6 +11139,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Parquet to CSV Converter handle?",
+        "a": "It handles CSV, JSON. The processing happens entirely in your browser."
+      },
+      {
+        "q": "Which settings can I choose in Parquet to CSV Converter?",
+        "a": "You can choose Delimiter:. The result is calculated right on the page."
       }
     ]
   },
@@ -9907,7 +11154,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "parquet-viewer",
     "name": "Parquet Viewer",
     "category": "Coding",
-    "description": "Parquet ViewerView Parquet files in your browser: schema, row groups, compression and data as a sortable table. Snappy, Gzip, Zstd and Brotli. Export to CSV or JSON.",
+    "description": "A browser has no Parquet reader, so a Parquet file cannot be opened here. The tool explains the format, the row groups and the compression codecs it uses and points to the readers that can show the data.",
     "engine": "csv-data",
     "keywords": [
       "parquet",
@@ -9916,11 +11163,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "parquet viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste CSV or TSV data here... and Converted output will appear here....",
+      "Choose Delimiter:: Comma (,), Tab (\\t), Semicolon (;), Pipe (|) and 1 more.",
+      "Provides 5 actions: CSV → JSON, JSON Output, Table, Copy and 1 more.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Parquet Viewer never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -9934,6 +11181,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Parquet Viewer handle?",
+        "a": "It handles CSV, JSON. The processing happens entirely in your browser."
+      },
+      {
+        "q": "Which settings can I choose in Parquet Viewer?",
+        "a": "You can choose Delimiter:. The result is calculated right on the page."
       }
     ]
   },
@@ -9941,7 +11196,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "password-generator",
     "name": "Password Generator",
     "category": "Security",
-    "description": "Password GeneratorGenerate strong random passwords with cryptographically secure randomness: length, character sets, and strength meter, all on your device.",
+    "description": "Generate strong random passwords with cryptographically secure randomness: length, character sets, and strength meter, all on your device.",
     "engine": "crypto-hash",
     "keywords": [
       "password",
@@ -9950,11 +11205,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "password generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 input: Password Length: 16 characters.",
+      "Provides 2 actions: Copy, Regenerate Password.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Password Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -9968,6 +11223,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Password Generator need as input?",
+        "a": "You enter your data in Password Length: 16 characters. Nothing else is required."
       }
     ]
   },
@@ -9975,7 +11234,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-compressor",
     "name": "PDF Compressor",
     "category": "PDF",
-    "description": "PDF CompressorCompress a PDF online with quality presets and a before-and-after size comparison. Free PDF compressor that processes your file locally, never uploaded.",
+    "description": "Compress a PDF online with quality presets and a before-and-after size comparison. Free PDF compressor that processes your file locally, never uploaded.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -9983,11 +11242,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf compressor"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - PDF Compressor never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10001,6 +11260,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF Compressor handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10008,7 +11271,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-merger",
     "name": "PDF Merger",
     "category": "PDF",
-    "description": "PDF MergerMerge several PDFs into a single document, reorder files before joining, and download the result. Free online PDF merger with no uploads or watermark.",
+    "description": "Merge several PDFs into a single document, reorder files before joining, and download the result. Free online PDF merger with no uploads or watermark.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -10016,11 +11279,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf merger"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose PDF files.",
+      "Runs one action: Choose PDF files.",
+      "Works with PDF.",
+      "Runs entirely in your browser - PDF Merger never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10034,6 +11297,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF Merger handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10041,7 +11308,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-metadata-editor",
     "name": "PDF Metadata Editor",
     "category": "PDF",
-    "description": "PDF Metadata EditorEdit PDF metadata online: change the title, author, subject, keywords and dates, or add custom fields. Runs in your browser; nothing is uploaded.",
+    "description": "Edit PDF metadata online: change the title, author, subject, keywords and dates, or add custom fields. Runs in your browser; nothing is uploaded.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -10050,11 +11317,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf metadata editor"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - PDF Metadata Editor never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10068,6 +11335,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF Metadata Editor handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10075,7 +11346,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-metadata-remover",
     "name": "PDF Metadata Remover",
     "category": "PDF",
-    "description": "PDF Metadata RemoverRemove PDF metadata in your browser: author, software, dates, XMP history, earlier versions and photo GPS. See what&#x27;s hidden first. Free, private.",
+    "description": "Remove PDF metadata in your browser: author, software, dates, XMP history, earlier versions and photo GPS. See what's hidden first. Free, private.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -10084,11 +11355,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf metadata remover"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - PDF Metadata Remover never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10102,6 +11373,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF Metadata Remover handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10109,7 +11384,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-metadata-viewer",
     "name": "PDF Metadata Viewer",
     "category": "PDF",
-    "description": "PDF Metadata ViewerView PDF metadata online: author, software, dates, XMP edit history, document ID, earlier versions, photo GPS and attachments. Private, in your browser.",
+    "description": "View PDF metadata online: author, software, dates, XMP edit history, document ID, earlier versions, photo GPS and attachments. Private, in your browser.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -10118,11 +11393,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf metadata viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - PDF Metadata Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10136,6 +11411,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF Metadata Viewer handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10143,7 +11422,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-redaction-tool",
     "name": "PDF Redaction Tool",
     "category": "PDF",
-    "description": "PDF Redaction ToolA free PDF redaction tool with search, automatic detection of emails, card and account numbers, manual boxes and a built-in leak check. Runs on your device.",
+    "description": "A free PDF redaction tool with search, automatic detection of emails, card and account numbers, manual boxes and a built-in leak check. Runs on your device.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -10152,11 +11431,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf redaction tool"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - PDF Redaction Tool never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10170,6 +11449,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF Redaction Tool handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10177,7 +11460,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-splitter",
     "name": "PDF Splitter",
     "category": "PDF",
-    "description": "PDF SplitterSplit a PDF into smaller documents by page ranges, selected pages, or fixed intervals. Free online PDF splitter that processes files locally, never uploaded.",
+    "description": "Split a PDF into smaller documents by page ranges, selected pages, or fixed intervals. Free online PDF splitter that processes files locally, never uploaded.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -10185,11 +11468,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf splitter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - PDF Splitter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10203,6 +11486,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF Splitter handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10210,7 +11497,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-to-docx",
     "name": "PDF to DOCX Converter",
     "category": "PDF",
-    "description": "PDF to DOCX ConverterConvert PDF to Word free in your browser. Preview selectable text and download an editable DOCX. No uploads or signup. Scanned PDFs need OCR first.",
+    "description": "Convert PDF to Word free in your browser. Preview selectable text and download an editable DOCX. No uploads or signup. Scanned PDFs need OCR first.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -10219,11 +11506,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf to docx"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF, DOCX.",
+      "Runs entirely in your browser - PDF to DOCX Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10237,6 +11524,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF to DOCX Converter handle?",
+        "a": "It handles PDF, DOCX. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10244,7 +11535,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-to-image-converter",
     "name": "PDF to Image Converter",
     "category": "PDF",
-    "description": "PDF to Image ConverterConvert PDF pages to JPG, PNG or WebP images at up to 600 DPI, with visual page selection and ZIP download. 100% in your browser.",
+    "description": "Convert PDF pages to JPG, PNG or WebP images at up to 600 DPI, with visual page selection and ZIP download. 100% in your browser.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -10253,11 +11544,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf to image converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF, JPG, PNG, ZIP.",
+      "Runs entirely in your browser - PDF to Image Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10271,6 +11562,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF to Image Converter handle?",
+        "a": "It handles PDF, JPG, PNG, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10278,7 +11573,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-to-jpg-converter",
     "name": "PDF to JPG Converter",
     "category": "PDF",
-    "description": "PDF to JPG ConverterConvert PDF pages to high-resolution JPG images: pick pages visually, choose up to 600 DPI, download singly or as a ZIP. 100% in your browser.",
+    "description": "Convert PDF pages to high-resolution JPG images: pick pages visually, choose up to 600 DPI, download singly or as a ZIP. 100% in your browser.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -10287,11 +11582,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf to jpg converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF, JPG, ZIP.",
+      "Runs entirely in your browser - PDF to JPG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10305,6 +11600,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF to JPG Converter handle?",
+        "a": "It handles PDF, JPG, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10312,7 +11611,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-to-markdown",
     "name": "PDF to Markdown Converter",
     "category": "PDF",
-    "description": "PDF to Markdown ConverterConvert PDF to Markdown in your browser. Select pages, edit with live preview, and download .md. Free, no signup, and your PDF stays on your device.",
+    "description": "Convert PDF to Markdown in your browser. Select pages, edit with live preview, and download .md. Free, no signup, and your PDF stays on your device.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -10321,11 +11620,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf to markdown"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - PDF to Markdown Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10339,6 +11638,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF to Markdown Converter handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10346,7 +11649,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-to-markdown-for-claude",
     "name": "PDF to Markdown for Claude",
     "category": "PDF",
-    "description": "PDF to Markdown for ClaudePrepare PDF text for Claude locally. Select relevant pages, edit Markdown, and copy a focused excerpt. Private conversion with clear token-saving limitations.",
+    "description": "Prepare PDF text for Claude locally. Select relevant pages, edit Markdown, and copy a focused excerpt. Private conversion with clear token-saving limitations.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -10356,11 +11659,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf to markdown for claude"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - PDF to Markdown for Claude never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10374,6 +11677,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF to Markdown for Claude handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10381,7 +11688,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-to-md",
     "name": "PDF to MD Converter",
     "category": "PDF",
-    "description": "PDF to MD ConverterTurn a text-based PDF into an editable .md file. Preview Markdown, select pages, and save notes for Obsidian or documentation. Runs in your browser.",
+    "description": "Turn a text-based PDF into an editable .md file. Preview Markdown, select pages, and save notes for Obsidian or documentation. Runs in your browser.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -10389,11 +11696,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf to md"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - PDF to MD Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10407,6 +11714,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF to MD Converter handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10414,7 +11725,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-to-png-converter",
     "name": "PDF to PNG Converter",
     "category": "PDF",
-    "description": "PDF to PNG ConverterRender PDF pages as lossless PNG images with sharp text, optional transparent background and up to 600 DPI. 100% in your browser.",
+    "description": "Render PDF pages as lossless PNG images with sharp text, optional transparent background and up to 600 DPI. 100% in your browser.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -10423,11 +11734,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf to png converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF, PNG.",
+      "Runs entirely in your browser - PDF to PNG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10441,6 +11752,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF to PNG Converter handle?",
+        "a": "It handles PDF, PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10448,7 +11763,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-to-word",
     "name": "PDF to Word",
     "category": "PDF",
-    "description": "PDF to WordConvert text-based PDF content into an editable Word-compatible DOCX file, processed locally in your browser. Free online PDF to Word converter, no uploads.",
+    "description": "Convert text-based PDF content into an editable Word-compatible DOCX file, processed locally in your browser. Free online PDF to Word converter, no uploads.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -10456,11 +11771,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf to word"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF, DOCX.",
+      "Runs entirely in your browser - PDF to Word never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10474,6 +11789,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF to Word handle?",
+        "a": "It handles PDF, DOCX. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10481,7 +11800,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf-to-word-converter",
     "name": "PDF to Word Converter",
     "category": "PDF",
-    "description": "PDF to Word ConverterCreate an editable DOCX from a text PDF with browser-local conversion and instant download. Free PDF to Word converter with no signup, email, or file upload.",
+    "description": "Create an editable DOCX from a text PDF with browser-local conversion and instant download. Free PDF to Word converter with no signup, email, or file upload.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf",
@@ -10490,11 +11809,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf to word converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with DOCX, PDF.",
+      "Runs entirely in your browser - PDF to Word Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10508,6 +11827,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF to Word Converter handle?",
+        "a": "It handles DOCX, PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10515,7 +11838,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pdf417-generator",
     "name": "PDF417 Barcode Generator",
     "category": "Design",
-    "description": "PDF417 Barcode GeneratorGenerate PDF417 2D barcodes for IDs, boarding passes, shipping and documents. Encode up to ~1,800 characters; download PNG or vector SVG. Free, no sign-up.",
+    "description": "Generate PDF417 2D barcodes for IDs, boarding passes, shipping and documents. Encode up to ~1,800 characters; download PNG or vector SVG. Free, no sign-up.",
     "engine": "pdf-suite",
     "keywords": [
       "pdf417",
@@ -10525,11 +11848,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pdf417 generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Barcode contentUp to a few thousand characters of data. and Scale — 3×.",
+      "Runs one action: Generate barcode.",
+      "Works with PNG, SVG.",
+      "Runs entirely in your browser - PDF417 Barcode Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10543,6 +11866,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PDF417 Barcode Generator handle?",
+        "a": "It handles PNG, SVG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10550,7 +11877,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pem-decoder",
     "name": "PEM Decoder",
     "category": "Coding",
-    "description": "PEM DecoderDecode any PEM file: certificates, chains, CSRs, public keys and PKCS#7 bundles. Convert PEM to DER, DER to PEM and CRT to PEM. Private, runs in-browser.",
+    "description": "Decode any PEM file: certificates, chains, CSRs, public keys and PKCS#7 bundles. Convert PEM to DER, DER to PEM and CRT to PEM. Private, runs in-browser.",
     "engine": "crypto-hash",
     "keywords": [
       "pem",
@@ -10559,11 +11886,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pem decoder"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste a PEM block, for example -----BEGIN CERTIFICATE-----.",
+      "Provides 3 actions: Decode the structure, Clear, Load example.",
+      "Runs entirely in your browser - PEM Decoder never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -10577,6 +11904,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does PEM Decoder need as input?",
+        "a": "You enter your data in Type or paste any text to hash.... Nothing else is required."
       }
     ]
   },
@@ -10584,7 +11915,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "percentage-calculator",
     "name": "Percentage Calculator",
     "category": "Calculators",
-    "description": "Percentage CalculatorFree percentage calculator: find X% of Y, what percent X is of Y, percentage change, and the whole from a part. Answers with steps and Excel formulas.",
+    "description": "Free percentage calculator: find X% of Y, what percent X is of Y, percentage change, and the whole from a part. Answers with steps and Excel formulas.",
     "engine": "calculator-suite",
     "keywords": [
       "percentage",
@@ -10593,11 +11924,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "percentage calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Percent (%), Value and Target percent (%).",
+      "Runs entirely in your browser - Percentage Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -10611,6 +11941,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Percentage Calculator need as input?",
+        "a": "You enter your data in Percent (%), Value and Target percent (%). Nothing else is required."
       }
     ]
   },
@@ -10618,7 +11952,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "percentage-change-calculator",
     "name": "Percentage Change Calculator",
     "category": "Calculators",
-    "description": "Percentage Change CalculatorCalculate the percentage change between an old and new value, with the working shown, percent vs percentage points, and an Excel formula.",
+    "description": "Calculate the percentage change between an old and new value, with the working shown, percent vs percentage points, and an Excel formula.",
     "engine": "calculator-suite",
     "keywords": [
       "percentage",
@@ -10628,11 +11962,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "percentage change calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Old value and New value.",
+      "Runs entirely in your browser - Percentage Change Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -10646,6 +11979,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Percentage Change Calculator need as input?",
+        "a": "You enter your data in Old value and New value. Nothing else is required."
       }
     ]
   },
@@ -10653,7 +11990,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "percentage-decrease-calculator",
     "name": "Percentage Decrease Calculator",
     "category": "Calculators",
-    "description": "Percentage Decrease CalculatorFind the percentage decrease between two numbers, reduce a number by a percent, or find the value before a decrease. Free, with steps and formulas.",
+    "description": "Find the percentage decrease between two numbers, reduce a number by a percent, or find the value before a decrease. Free, with steps and formulas.",
     "engine": "calculator-suite",
     "keywords": [
       "percentage",
@@ -10663,11 +12000,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "percentage decrease calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Value before decrease, Value after decrease and Percent (%).",
+      "Runs entirely in your browser - Percentage Decrease Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -10681,6 +12017,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Percentage Decrease Calculator need as input?",
+        "a": "You enter your data in Value before decrease and Value after decrease. Nothing else is required."
       }
     ]
   },
@@ -10688,7 +12028,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "percentage-difference-calculator",
     "name": "Percentage Difference Calculator",
     "category": "Calculators",
-    "description": "Percentage Difference CalculatorFind the percentage difference between two numbers using their average as the reference, with the working, an Excel formula, and when to use it.",
+    "description": "Find the percentage difference between two numbers using their average as the reference, with the working, an Excel formula, and when to use it.",
     "engine": "calculator-suite",
     "keywords": [
       "percentage",
@@ -10698,11 +12038,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "percentage difference calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Value A and Value B.",
+      "Runs entirely in your browser - Percentage Difference Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -10716,6 +12055,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Percentage Difference Calculator need as input?",
+        "a": "You enter your data in Value A and Value B. Nothing else is required."
       }
     ]
   },
@@ -10723,7 +12066,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "percentage-increase-calculator",
     "name": "Percentage Increase Calculator",
     "category": "Calculators",
-    "description": "Percentage Increase CalculatorCalculate the percentage increase between two numbers, increase a number by a percent, or find the original value. Instant answers with steps.",
+    "description": "Calculate the percentage increase between two numbers, increase a number by a percent, or find the original value. Instant answers with steps.",
     "engine": "calculator-suite",
     "keywords": [
       "percentage",
@@ -10733,11 +12076,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "percentage increase calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Original value, New value and Percent (%).",
+      "Runs entirely in your browser - Percentage Increase Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -10751,6 +12093,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Percentage Increase Calculator need as input?",
+        "a": "You enter your data in Original value and New value. Nothing else is required."
       }
     ]
   },
@@ -10758,7 +12104,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "photo-metadata-remover",
     "name": "Photo Metadata Remover",
     "category": "Design",
-    "description": "Photo Metadata RemoverSecurely scrub sensitive EXIF data, camera settings, and GPS coordinates from your images securely in your browser before sharing them.",
+    "description": "Securely scrub sensitive EXIF data, camera settings, and GPS coordinates from your images securely in your browser before sharing them.",
     "engine": "image-suite",
     "keywords": [
       "photo",
@@ -10768,11 +12114,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "photo metadata remover"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Photo Metadata Remover never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -10786,6 +12131,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Photo Metadata Remover need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -10793,7 +12142,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "photo-metadata-viewer",
     "name": "Photo Metadata Viewer",
     "category": "Design",
-    "description": "Photo Metadata ViewerSecurely discover hidden EXIF data, camera settings, and GPS location stored inside your images without any server uploads.",
+    "description": "Securely discover hidden EXIF data, camera settings, and GPS location stored inside your images without any server uploads.",
     "engine": "image-suite",
     "keywords": [
       "photo",
@@ -10803,11 +12152,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "photo metadata viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Photo Metadata Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -10821,6 +12169,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Photo Metadata Viewer need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -10828,7 +12180,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "photo-resizer",
     "name": "Photo Resizer",
     "category": "Design",
-    "description": "Photo ResizerResize a photo to new pixel dimensions or a percentage with a live preview, then download the result. Free online photo resizer, no uploads or watermark.",
+    "description": "Resize a photo to new pixel dimensions with a live preview, then download the result. Keep the aspect ratio or set the width and the height yourself. Free online photo resizer, no uploads or watermark.",
     "engine": "image-suite",
     "keywords": [
       "photo",
@@ -10837,11 +12189,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "photo resizer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Photo Resizer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -10855,6 +12206,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Photo Resizer need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -10862,7 +12217,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pixelate-image",
     "name": "Pixelate Image",
     "category": "Design",
-    "description": "Pixelate ImagePixelate an image online for free. Mosaic faces, text or licence plates, or the whole photo. Adjustable pixel size, full resolution, 100% in your browser.",
+    "description": "Pixelate an image online for free. Mosaic faces, text or licence plates, or the whole photo. Adjustable pixel size, full resolution, 100% in your browser.",
     "engine": "image-suite",
     "keywords": [
       "pixelate",
@@ -10871,11 +12226,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pixelate image"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Pixelate Image never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -10889,6 +12243,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Pixelate Image need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -10896,7 +12254,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "ply-viewer",
     "name": "PLY Viewer",
     "category": "Design",
-    "description": "PLY ViewerOpen PLY meshes and point clouds in your browser, with vertex colours. Measure size and volume, check the mesh and export to STL or GLB. Free and private.",
+    "description": "Open PLY meshes and point clouds in your browser, with vertex colours. Measure size and volume, check the mesh and export to STL or GLB. Free and private.",
     "engine": "file-viewers",
     "keywords": [
       "ply",
@@ -10905,11 +12263,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "ply viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: File.",
+      "Provides 2 actions: Open 3D File, Try Sample Model.",
+      "Works with PLY, STL, GLB.",
+      "Runs entirely in your browser - PLY Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -10923,6 +12281,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PLY Viewer handle?",
+        "a": "It handles PLY, STL, GLB. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10930,7 +12292,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "png-background-remover",
     "name": "PNG Background Remover",
     "category": "Design",
-    "description": "PNG Background RemoverRemove the background from a PNG image and save a new PNG cutout with transparent or solid-color surroundings.",
+    "description": "Remove the background from a PNG image: the colour of the border of the picture is made transparent and the cutout is saved as a new PNG with a transparent or a solid colour background.",
     "engine": "image-suite",
     "keywords": [
       "png",
@@ -10940,11 +12302,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "png background remover"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with PNG.",
+      "Runs entirely in your browser - PNG Background Remover never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -10958,6 +12320,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PNG Background Remover handle?",
+        "a": "It handles PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -10965,7 +12331,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "png-to-ico",
     "name": "PNG to ICO Converter",
     "category": "Design",
-    "description": "PNG to ICO ConverterConvert PNG to ICO with 16–256 px sizes in one file. Keeps transparency, adds padding or rounded corners and previews every size. No upload needed.",
+    "description": "Convert PNG to ICO with 16–256 px sizes in one file. Keeps transparency, adds padding or rounded corners and previews every size. No upload needed.",
     "engine": "image-suite",
     "keywords": [
       "png",
@@ -10975,11 +12341,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "png to ico"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with PNG, ICO.",
+      "Runs entirely in your browser - PNG to ICO Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -10993,6 +12359,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PNG to ICO Converter handle?",
+        "a": "It handles PNG, ICO. The processing happens entirely in your browser."
       }
     ]
   },
@@ -11000,7 +12370,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "png-to-jpg-converter",
     "name": "PNG to JPG Converter",
     "category": "Design",
-    "description": "PNG to JPG ConverterConvert PNG images to JPG in your browser. Batch conversion with a quality slider, transparency flattened to white, and nothing uploaded.",
+    "description": "Convert PNG images to JPG in your browser. Set the quality and the output size, the transparency is flattened to white. Nothing is uploaded.",
     "engine": "image-suite",
     "keywords": [
       "png",
@@ -11010,11 +12380,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "png to jpg converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with PNG, JPG.",
+      "Runs entirely in your browser - PNG to JPG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -11028,6 +12398,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PNG to JPG Converter handle?",
+        "a": "It handles PNG, JPG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -11035,7 +12409,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "png-to-pdf",
     "name": "PNG to PDF",
     "category": "PDF",
-    "description": "PNG to PDFCombine PNG images into a single PDF with controls for page size, layout, image order, and margins. Free online PNG to PDF converter, files never uploaded.",
+    "description": "Combine PNG images into a single PDF with controls for page size, layout, image order, and margins. Free online PNG to PDF converter, files never uploaded.",
     "engine": "pdf-suite",
     "keywords": [
       "png",
@@ -11043,11 +12417,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "png to pdf"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose images.",
+      "Runs one action: Choose images.",
+      "Works with PNG, PDF.",
+      "Runs entirely in your browser - PNG to PDF never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -11061,6 +12435,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PNG to PDF handle?",
+        "a": "It handles PNG, PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -11068,7 +12446,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "png-to-webp-converter",
     "name": "PNG to WebP Converter",
     "category": "Design",
-    "description": "PNG to WebP ConverterConvert PNG images to WebP in bulk, up to 26% smaller with transparency preserved. 100% in your browser, no uploads.",
+    "description": "Convert PNG images to WebP in your browser. Choose the target format, set the quality and the output size, then download the file. 100% in your browser, no uploads.",
     "engine": "image-suite",
     "keywords": [
       "png",
@@ -11078,11 +12456,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "png to webp converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with PNG.",
+      "Runs entirely in your browser - PNG to WebP Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -11096,6 +12474,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PNG to WebP Converter handle?",
+        "a": "It handles PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -11103,7 +12485,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "pomodoro-timer",
     "name": "Pomodoro Timer",
     "category": "Productivity",
-    "description": "Pomodoro TimerFree online Pomodoro timer to boost productivity and focus. 25-minute work sessions, 5-minute short breaks, and 15-minute long breaks with sound notifications.",
+    "description": "Free online Pomodoro timer to boost productivity and focus. 25-minute work sessions, 5-minute short breaks, and 15-minute long breaks with sound notifications.",
     "engine": "time-calendar",
     "keywords": [
       "pomodoro",
@@ -11112,11 +12494,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "pomodoro timer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Provides 4 actions: Work (25m), Short Break (5m), Long Break (15m), Start Focus.",
+      "Runs entirely in your browser - Pomodoro Timer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -11130,6 +12512,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Pomodoro Timer?",
+        "a": "Press \"Work (25m)\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -11137,7 +12523,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "population-standard-deviation-calculator",
     "name": "Population Standard Deviation Calculator",
     "category": "Calculators",
-    "description": "Population Standard Deviation CalculatorCalculate the population standard deviation σ and population variance σ² of a data set, dividing by N, with step-by-step working. Free, no sign-up.",
+    "description": "Calculate the population standard deviation σ and population variance σ² of a data set, dividing by N, with step-by-step working. Free, no sign-up.",
     "engine": "calculator-suite",
     "keywords": [
       "population",
@@ -11148,11 +12534,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "population standard deviation calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: 12, 15, 23, 27, 34.",
+      "Runs entirely in your browser - Population Standard Deviation Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -11166,6 +12551,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Population Standard Deviation Calculator need as input?",
+        "a": "You enter your data in 12, 15, 23, 27, 34. Nothing else is required."
       }
     ]
   },
@@ -11173,7 +12562,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "printable-bingo-cards",
     "name": "Printable Bingo Cards",
     "category": "Productivity",
-    "description": "Printable Bingo CardsFree printable bingo cards 1-75: download a PDF of unique, numbered 5x5 cards, 1, 2 or 4 per page on Letter or A4, with a caller sheet. No sign-up.",
+    "description": "Free printable bingo cards 1-75: download a PDF of unique, numbered 5x5 cards, 1, 2 or 4 per page on Letter or A4, with a caller sheet. No sign-up.",
     "engine": "randomizers-games",
     "keywords": [
       "printable",
@@ -11183,11 +12572,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "printable bingo cards"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 numeric value: Number of cards.",
+      "Provides 2 actions: Print the cards, New cards.",
+      "Copy, download or print the result with Print the cards.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Printable Bingo Cards never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -11201,6 +12590,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Printable Bingo Cards handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -11208,7 +12601,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "printable-bracket",
     "name": "Printable Bracket Maker",
     "category": "Productivity",
-    "description": "Printable Bracket MakerMake a printable tournament bracket for 2 to 128 teams. Fill in names or print it blank, with byes and game numbers. Vector PDF for Letter, A4, Tabloid or A3.",
+    "description": "Make a printable tournament bracket for 2 to 128 teams. Fill in names or print it blank, with byes and game numbers. Vector PDF for Letter, A4, Tabloid or A3.",
     "engine": "randomizers-games",
     "keywords": [
       "printable",
@@ -11218,11 +12611,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "printable bracket"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Names or teams (one per line)Between 2 and 16 names, the bracket is padded with byes..",
+      "Provides 10 actions: Generate the bracket, Print the bracket, Alpha, Bravo and 6 more.",
+      "Copy, download or print the result with Print the bracket.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Printable Bracket Maker never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -11236,6 +12629,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Printable Bracket Maker handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -11243,7 +12640,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "printable-calendar",
     "name": "Printable Calendar Maker",
     "category": "Productivity",
-    "description": "Printable Calendar MakerMake a printable calendar for any year: monthly pages with notes or a one-page year, US or UK holidays, week numbers and 5 colours. Free PDF, no sign-up.",
+    "description": "Make a printable calendar for any year: monthly pages with notes or a one-page year, German, US or UK holidays, week numbers and 5 colours. Free PDF, no sign-up.",
     "engine": "time-calendar",
     "keywords": [
       "printable",
@@ -11253,11 +12650,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "printable calendar"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 numeric value: Year.",
+      "Choose between Holidays (4 values) and Federal State (Holiday jurisdiction) (8 values).",
+      "Provides 10 actions: Monday (ISO), Sunday, A4 (DIN Standard), US Letter and 6 more.",
+      "Copy, download or print the result with Download PDF and Print.",
+      "Works with PDF."
     ],
     "faqs": [
       {
@@ -11271,6 +12668,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Printable Calendar Maker handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -11278,7 +12679,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "christmas-list-template",
     "name": "Printable Christmas List Template",
     "category": "Productivity",
-    "description": "Printable Christmas List TemplateFree printable Christmas list template: type your gifts online or leave blank lines to fill in by hand, then print or save a PDF. Letter or A4, no sign-up.",
+    "description": "Free printable Christmas list template: type your gifts online or leave blank lines to fill in by hand, then print or save a PDF. Letter or A4, no sign-up.",
     "engine": "randomizers-games",
     "keywords": [
       "printable",
@@ -11289,11 +12690,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "christmas list template"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: Print the list.",
+      "Copy, download or print the result with Print the list.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Printable Christmas List Template never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -11307,6 +12708,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Printable Christmas List Template handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -11314,7 +12719,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "private-ai-chatbot",
     "name": "Private AI Chatbot",
     "category": "Productivity",
-    "description": "Private AI ChatbotChat with a browser-run AI model whose prompts are processed on your device, never sent to a server. Free private AI chatbot that works offline after setup.",
+    "description": "A chatbot surface for a model that runs in your browser: your prompts stay on your device. No model is included with the site - the tool loads the weights for Phi-3 or Qwen2.5 from this origin when you place them there and reports whether WebGPU is available. The inference runtime is not part of this site yet, so no reply is generated and none is ever invented.",
     "engine": "developer-suite",
     "keywords": [
       "private",
@@ -11323,11 +12728,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "private ai chatbot"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Prompt.",
+      "Choose Model: Phi-3 Mini, Qwen2.5 0.5B Instruct.",
+      "Provides 4 actions: Load model, Copy, Clear chat, Send prompt.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Private AI Chatbot never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -11341,6 +12746,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Private AI Chatbot?",
+        "a": "You can choose Format SQL. The result is calculated right on the page."
       }
     ]
   },
@@ -11348,7 +12757,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "protein-calculator",
     "name": "Protein Calculator",
     "category": "Lifestyle",
-    "description": "Protein CalculatorCalculate how many grams of protein you need per day from body weight and an adjustable grams-per-kilogram factor for your goal. Free protein calculator.",
+    "description": "Calculate how many grams of protein you need per day from body weight and an adjustable grams-per-kilogram factor for your goal. Free protein calculator.",
     "engine": "health-fitness",
     "keywords": [
       "protein",
@@ -11357,11 +12766,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "protein calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Choose Biological Sex: Male, Female.",
+      "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
+      "Runs entirely in your browser - Protein Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -11375,6 +12784,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Protein Calculator?",
+        "a": "You can choose Biological Sex. The result is calculated right on the page."
       }
     ]
   },
@@ -11382,7 +12795,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "psd-to-jpg",
     "name": "PSD to JPG Converter",
     "category": "Design",
-    "description": "PSD to JPG ConverterConvert PSD to JPG online: choose quality and size, preview the result and download. Transparent areas become white. Free and private, no upload.",
+    "description": "Open a PSD file in your browser and download the artwork as a JPG on a white background. Choose the target format and save the picture. Free, private, no upload.",
     "engine": "image-suite",
     "keywords": [
       "psd",
@@ -11392,11 +12805,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "psd to jpg"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a Photoshop document.",
+      "Works with JPG.",
+      "Runs entirely in your browser - PSD to JPG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -11410,6 +12823,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PSD to JPG Converter handle?",
+        "a": "It handles JPG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -11417,7 +12834,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "psd-to-png",
     "name": "PSD to PNG Converter",
     "category": "Design",
-    "description": "PSD to PNG ConverterConvert PSD to PNG in your browser with transparency kept. Export the image at full or reduced size, or every layer as its own PNG in a ZIP. Free.",
+    "description": "Open a PSD file in your browser and download the artwork as a PNG with the transparency kept. Choose the target format and save the picture. Free, no upload.",
     "engine": "image-suite",
     "keywords": [
       "psd",
@@ -11427,11 +12844,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "psd to png"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a Photoshop document.",
+      "Works with PNG.",
+      "Runs entirely in your browser - PSD to PNG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -11445,6 +12862,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PSD to PNG Converter handle?",
+        "a": "It handles PNG, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -11452,7 +12873,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "psd-viewer",
     "name": "PSD Viewer",
     "category": "Design",
-    "description": "PSD ViewerOpen PSD and PSB files in your browser: view the image, browse and hide layers, read text and fonts, and export PNG, JPG or each layer. Free, no upload.",
+    "description": "Open PSD and PSB files in your browser: view the image, browse and hide layers, read text and fonts, and export PNG, JPG or each layer. Free, no upload.",
     "engine": "file-viewers",
     "keywords": [
       "psd",
@@ -11461,11 +12882,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "psd viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Open a Photoshop document.",
+      "Works with PNG, JPG.",
+      "Runs entirely in your browser - PSD Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -11479,6 +12900,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does PSD Viewer handle?",
+        "a": "It handles PNG, JPG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -11486,7 +12911,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "qr-code-generator",
     "name": "QR Code Generator",
     "category": "Design",
-    "description": "QR Code GeneratorGenerate custom QR codes for URLs with customizable colors, sizes, backgrounds, and downloadable in multiple formats (PNG, SVG, PDF, JPG).",
+    "description": "Generate custom QR codes for URLs with customizable colors, sizes, backgrounds, and downloadable in multiple formats (PNG, SVG, PDF, JPG).",
     "engine": "qr-barcode",
     "keywords": [
       "code",
@@ -11495,11 +12920,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "qr code generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: https://yourwebsite.com or text....",
+      "Provides 5 actions: L (7%), M (15%), Q (25%), H (30%) and 1 more.",
+      "Copy, download or print the result with Download PNG Image.",
+      "Works with PNG, SVG, PDF, JPG.",
+      "Runs entirely in your browser - QR Code Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -11513,6 +12938,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does QR Code Generator handle?",
+        "a": "It handles PNG, SVG, PDF, JPG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -11520,7 +12949,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "quartile-calculator",
     "name": "Quartile and IQR Calculator",
     "category": "Calculators",
-    "description": "Quartile and IQR CalculatorFind Q1, the median, Q3 and the interquartile range of a data set, with the five number summary, outliers and a box plot. Textbook and Excel methods.",
+    "description": "Find Q1, the median, Q3 and the interquartile range of a data set, with the five number summary, outliers and a box plot. Textbook and Excel methods.",
     "engine": "calculator-suite",
     "keywords": [
       "quartile",
@@ -11531,11 +12960,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "quartile calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: 12, 15, 23, 27, 34.",
+      "Runs entirely in your browser - Quartile and IQR Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -11549,6 +12977,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Quartile and IQR Calculator need as input?",
+        "a": "You enter your data in 12, 15, 23, 27, 34. Nothing else is required."
       }
     ]
   },
@@ -11556,7 +12988,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "quote-image-generator",
     "name": "Quote Image Generator",
     "category": "Design",
-    "description": "Quote Image GeneratorGenerate a downloadable quote image with configurable typography, colors, and background settings for social media. Free quote image generator, no signup.",
+    "description": "Generate a downloadable quote image with configurable typography, colors, and background settings for social media. Free quote image generator, no signup.",
     "engine": "image-suite",
     "keywords": [
       "quote",
@@ -11566,11 +12998,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "quote image generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Quote and Author / attribution.",
+      "Choose between Template (3 values) and Font (4 values).",
+      "Provides 2 actions: Download Image, Clear.",
+      "Copy, download or print the result with Download Image.",
+      "Runs entirely in your browser - Quote Image Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -11584,6 +13016,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Quote Image Generator need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
+      },
+      {
+        "q": "Which settings can I choose in Quote Image Generator?",
+        "a": "You can choose Template and Font. The result is calculated right on the page."
       }
     ]
   },
@@ -11591,7 +13031,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "quote-image-maker",
     "name": "Quote Image Maker",
     "category": "Design",
-    "description": "Quote Image MakerCreate beautiful quote images with custom backgrounds, gradients, and social media branding. Perfect for Instagram, Twitter, Facebook, and TikTok.",
+    "description": "Create beautiful quote images with custom backgrounds, gradients, and social media branding. Perfect for Instagram, Twitter, Facebook, and TikTok.",
     "engine": "image-suite",
     "keywords": [
       "quote",
@@ -11601,11 +13041,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "quote image maker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Quote and Author / attribution.",
+      "Choose between Template (3 values) and Font (4 values).",
+      "Provides 2 actions: Download Image, Clear.",
+      "Copy, download or print the result with Download Image.",
+      "Runs entirely in your browser - Quote Image Maker never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -11619,6 +13059,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Quote Image Maker need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
+      },
+      {
+        "q": "Which settings can I choose in Quote Image Maker?",
+        "a": "You can choose Template and Font. The result is calculated right on the page."
       }
     ]
   },
@@ -11626,7 +13074,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "quote-maker",
     "name": "Quote Maker",
     "category": "Design",
-    "description": "Quote MakerDesign a quote card with custom text, attribution, fonts, and visual styling for Instagram or other social posts. Free online quote maker, download as PNG.",
+    "description": "Design a quote card with custom text, attribution, fonts, and visual styling for Instagram or other social posts. Free online quote maker, download as PNG.",
     "engine": "image-suite",
     "keywords": [
       "quote",
@@ -11635,11 +13083,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "quote maker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Quote and Author / attribution.",
+      "Choose between Template (3 values) and Font (4 values).",
+      "Provides 2 actions: Download Image, Clear.",
+      "Copy, download or print the result with Download Image.",
+      "Works with PNG."
     ],
     "faqs": [
       {
@@ -11653,6 +13101,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Quote Maker handle?",
+        "a": "It handles PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -11660,7 +13112,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "raise-gpa-calculator",
     "name": "Raise GPA Calculator",
     "category": "Calculators",
-    "description": "Raise GPA CalculatorFree raise GPA calculator: enter your current GPA, credits and target to see the GPA you need next semester, or how many credits of A’s it takes to get there.",
+    "description": "Free raise GPA calculator: enter your current GPA, credits and target to see the GPA you need next semester, or how many credits of A’s it takes to get there.",
     "engine": "calculator-suite",
     "keywords": [
       "raise",
@@ -11670,11 +13122,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "raise gpa calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 4 text inputs: Current GPA, Credits earned, Target GPA and Credits next term.",
+      "Runs entirely in your browser - Raise GPA Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -11688,6 +13139,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Raise GPA Calculator need as input?",
+        "a": "You enter your data in Current GPA, Credits earned, Target GPA and Credits next term. Nothing else is required."
       }
     ]
   },
@@ -11695,7 +13150,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "random-group-generator",
     "name": "Random Group Generator",
     "category": "Productivity",
-    "description": "Random Group GeneratorSplit a list of names into balanced random groups or teams. Choose the number of groups, check duplicates and export all assignments. Private and client-side.",
+    "description": "Split a list of names into balanced random groups or teams. Choose the number of groups, check duplicates and export all assignments. Private and client-side.",
     "engine": "randomizers-games",
     "keywords": [
       "random",
@@ -11705,11 +13160,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "random group generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Names (one per line)Every name lands in exactly one group. and Number of groups.",
+      "Runs one action: Create the groups.",
+      "Runs entirely in your browser - Random Group Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -11723,6 +13178,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Random Group Generator need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
       }
     ]
   },
@@ -11730,7 +13189,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "random-item-picker",
     "name": "Random Item Picker",
     "category": "Productivity",
-    "description": "Random Item PickerPick one or more random names from your list without replacement within a draw. Review duplicates, copy results and save TXT or CSV. All processing is local.",
+    "description": "Pick one or more random names from your list without replacement within a draw. Review duplicates, copy results and save TXT or CSV. All processing is local.",
     "engine": "randomizers-games",
     "keywords": [
       "random",
@@ -11740,11 +13199,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "random item picker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Items (one per line)Every item becomes a slice of the wheel..",
+      "Provides 2 actions: SPIN THE WHEEL!, Reset the entries.",
+      "Works with TXT, CSV.",
+      "Runs entirely in your browser - Random Item Picker never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -11758,6 +13217,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Random Item Picker handle?",
+        "a": "It handles TXT, CSV. The processing happens entirely in your browser."
       }
     ]
   },
@@ -11765,7 +13228,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "random-letter-generator",
     "name": "Random Letter Generator",
     "category": "Productivity",
-    "description": "Random Letter GeneratorGenerate a random letter from A to Z, vowels only, consonants or your own alphabet. Exclude hard letters, avoid repeats and show it big for class or games.",
+    "description": "Generate a random letter from A to Z, vowels only, consonants or your own alphabet. Exclude hard letters, avoid repeats and show it big for class or games.",
     "engine": "randomizers-games",
     "keywords": [
       "random",
@@ -11775,11 +13238,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "random letter generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 numeric value: How many letters.",
+      "Choose Letter case: Mixed, Upper case, Lower case.",
+      "Runs one action: Draw letters.",
+      "Runs entirely in your browser - Random Letter Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -11793,6 +13256,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Random Letter Generator need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
+      },
+      {
+        "q": "Which settings can I choose in Random Letter Generator?",
+        "a": "You can choose Letter case. The result is calculated right on the page."
       }
     ]
   },
@@ -11800,7 +13271,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "random-name-picker",
     "name": "Random Name Picker",
     "category": "Productivity",
-    "description": "Random Name PickerSpin the wheel to randomly select names for games, parties, board game nights, or any group activity. Fair, fun, and completely random selection.",
+    "description": "Spin the wheel to randomly select names for games, parties, board game nights, or any group activity. Fair, fun, and completely random selection.",
     "engine": "randomizers-games",
     "keywords": [
       "random",
@@ -11810,11 +13281,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "random name picker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Names (one per line)Write one name per line and spin the wheel..",
+      "Provides 2 actions: SPIN THE WHEEL!, Reset the entries.",
+      "Runs entirely in your browser - Random Name Picker never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -11828,6 +13299,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Random Name Picker need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
       }
     ]
   },
@@ -11835,7 +13310,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "random-number-generator",
     "name": "Random Number Generator",
     "category": "Productivity",
-    "description": "Random Number GeneratorGenerate random numbers in any range: 1–10, 1–100, lottery picks and decimals. No repeats, exclusions, sorting and history. Free, instant and truly unbiased.",
+    "description": "Generate random numbers in any range: 1–10, 1–100, lottery picks and decimals. No repeats, exclusions, sorting and history. Free, instant and truly unbiased.",
     "engine": "randomizers-games",
     "keywords": [
       "random",
@@ -11845,11 +13320,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "random number generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 numeric values: Smallest number, Largest number and How many numbers.",
+      "Runs one action: Draw a number.",
+      "Runs entirely in your browser - Random Number Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -11863,6 +13338,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Random Number Generator need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
       }
     ]
   },
@@ -11870,7 +13349,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "random-password-generator",
     "name": "Random Password Generator",
     "category": "Security",
-    "description": "Random Password GeneratorGenerate random passwords with configurable length, symbols, numbers, and letter cases. Free random password generator that runs locally and stores nothing.",
+    "description": "Generate random passwords with configurable length, symbols, numbers, and letter cases. Free random password generator that runs locally and stores nothing.",
     "engine": "crypto-hash",
     "keywords": [
       "random",
@@ -11880,11 +13359,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "random password generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 input: Password Length: 16 characters.",
+      "Provides 2 actions: Copy, Regenerate Password.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Random Password Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -11898,6 +13377,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Random Password Generator need as input?",
+        "a": "You enter your data in Password Length: 16 characters. Nothing else is required."
       }
     ]
   },
@@ -11905,7 +13388,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "random-team-generator",
     "name": "Random Team Generator",
     "category": "Productivity",
-    "description": "Random Team GeneratorSplit names into random teams by number of teams or players per team. Balanced sizes, team-by-team results, CSV export. Free, private, no signup.",
+    "description": "Split names into random teams by number of teams or players per team. Balanced sizes, team-by-team results, CSV export. Free, private, no signup.",
     "engine": "randomizers-games",
     "keywords": [
       "random",
@@ -11915,11 +13398,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "random team generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Names (one per line)Every name lands in exactly one group. and Number of groups.",
+      "Runs one action: Create the teams.",
+      "Works with CSV.",
+      "Runs entirely in your browser - Random Team Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -11933,6 +13416,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Random Team Generator handle?",
+        "a": "It handles CSV. The processing happens entirely in your browser."
       }
     ]
   },
@@ -11940,7 +13427,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "random-winner-picker",
     "name": "Random Winner Picker",
     "category": "Productivity",
-    "description": "Random Winner PickerPick a random winner from a list of names or entries for a giveaway, raffle, or contest, with a fair random draw. Free online winner picker, no signup.",
+    "description": "Pick a random winner from a list of names or entries for a giveaway, raffle, or contest, with a fair random draw. Free online winner picker, no signup.",
     "engine": "randomizers-games",
     "keywords": [
       "random",
@@ -11950,11 +13437,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "random winner picker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Participants (one per line)Everybody in the list takes part in the draw..",
+      "Provides 2 actions: SPIN THE WHEEL!, Reset the entries.",
+      "Runs entirely in your browser - Random Winner Picker never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -11968,6 +13455,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Random Winner Picker need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
       }
     ]
   },
@@ -11975,7 +13466,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "rapidtables-notepad-alternative",
     "name": "RapidTables Notepad Alternative",
     "category": "Productivity",
-    "description": "RapidTables Notepad AlternativeA free open-and-type online notepad with no signup, plus named tabs, continuous autosave and syntax highlighting.",
+    "description": "A free open-and-type online notepad with no signup, plus named tabs and syntax highlighting. Your text stays in the memory of the tab - download it to keep it.",
     "engine": "text-suite",
     "keywords": [
       "rapidtables",
@@ -11985,11 +13476,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "rapidtables notepad alternative"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 5 inputs: Import file, Tab name, Start typing here…, Find and Replace.",
+      "Choose Language: Plain text, JSON, XML, HTML and 4 more.",
+      "Provides 10 actions: New tab, Download, Copy, Clear all text and 6 more.",
+      "Copy, download or print the result with Download and Copy.",
+      "Runs entirely in your browser - RapidTables Notepad Alternative never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -12003,6 +13494,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in RapidTables Notepad Alternative?",
+        "a": "You can choose Language. The result is calculated right on the page."
       }
     ]
   },
@@ -12010,7 +13505,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "ratio-calculator",
     "name": "Ratio Calculator",
     "category": "Calculators",
-    "description": "Ratio CalculatorFree ratio calculator: simplify ratios like 24:36 to 2:3, solve A:B = C:?, split a total in any ratio and resize while keeping the aspect ratio. With steps.",
+    "description": "Free ratio calculator: simplify ratios like 24:36 to 2:3, solve A:B = C:?, split a total in any ratio and resize while keeping the aspect ratio. With steps.",
     "engine": "calculator-suite",
     "keywords": [
       "ratio",
@@ -12019,11 +13514,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "ratio calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 6 text inputs: A, B, C (for A : B = C : ?), Total to split, Original width and Original height.",
+      "Runs entirely in your browser - Ratio Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12037,6 +13531,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Ratio Calculator need as input?",
+        "a": "You enter your data in A, B, C (for A : B = C : ?), Total to split, Original width and Original height. Nothing else is required."
       }
     ]
   },
@@ -12044,7 +13542,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "redact-bank-statement",
     "name": "Redact Bank Statement",
     "category": "PDF",
-    "description": "Redact Bank StatementRedact a bank statement before you send it to a landlord or lender. Hide account, card and ID numbers but keep the last 4 digits. Private and free.",
+    "description": "Redact a bank statement before you send it to a landlord or lender. Hide account, card and ID numbers but keep the last 4 digits. Private and free.",
     "engine": "pdf-suite",
     "keywords": [
       "redact",
@@ -12054,11 +13552,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "redact bank statement"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Runs entirely in your browser - Redact Bank Statement never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12072,6 +13570,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Redact Bank Statement need as input?",
+        "a": "You enter your data in Choose a PDF. Nothing else is required."
       }
     ]
   },
@@ -12079,7 +13581,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "redact-pdf",
     "name": "Redact PDF",
     "category": "PDF",
-    "description": "Redact PDFRedact a PDF in your browser. Find names, account numbers and emails, black them out, and download a PDF where the text is truly gone. Free, no upload.",
+    "description": "Redact a PDF in your browser. Find names, account numbers and emails, black them out, and download a PDF where the text is truly gone. Free, no upload.",
     "engine": "pdf-suite",
     "keywords": [
       "redact",
@@ -12087,11 +13589,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "redact pdf"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Redact PDF never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -12105,6 +13607,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Redact PDF handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -12112,7 +13618,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "reddit-username-generator",
     "name": "Reddit Username Generator",
     "category": "Text Processing",
-    "description": "Reddit Username GeneratorGenerate a Reddit username from funny, random, or personalized word combinations within the 20-character limit, then save and copy your favorites.",
+    "description": "Generate a Reddit username from funny, random, or personalized word combinations within the 30-character limit, then save and copy your favorites.",
     "engine": "randomizers-games",
     "keywords": [
       "reddit",
@@ -12122,11 +13628,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "reddit username generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Your own word.",
+      "Choose Style: _, without a separator.",
+      "Provides 10 actions: Generate names, Polar_Wren, Fearless_Valley, Ocean_Meadow622 and 6 more.",
+      "Runs entirely in your browser - Reddit Username Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -12140,6 +13646,18 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Reddit Username Generator need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
+      },
+      {
+        "q": "How do I use Reddit Username Generator?",
+        "a": "Press \"Generate names\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "Which settings can I choose in Reddit Username Generator?",
+        "a": "You can choose Style. The result is calculated right on the page."
       }
     ]
   },
@@ -12147,7 +13665,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "reduce-pdf-size",
     "name": "Reduce PDF Size",
     "category": "PDF",
-    "description": "Reduce PDF SizeReduce a PDF&#x27;s file size for an attachment or submission, with local processing and adjustable output quality.",
+    "description": "Reduce a PDF's file size for an attachment or submission, with local processing and adjustable output quality.",
     "engine": "pdf-suite",
     "keywords": [
       "reduce",
@@ -12156,11 +13674,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "reduce pdf size"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Reduce PDF Size never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -12174,6 +13692,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Reduce PDF Size handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -12181,7 +13703,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "refresh-rate-test",
     "name": "Refresh Rate Test",
     "category": "Device Tests",
-    "description": "Refresh Rate TestCheck your monitor refresh rate online: measured Hz, frame time, jitter and dropped frames, plus a motion test and screen details. 60, 120, 144, 240 Hz.",
+    "description": "Check your monitor refresh rate online: measured Hz, frame time, jitter and dropped frames, plus a motion test and screen details. 60, 120, 144, 240 Hz.",
     "engine": "device-tester",
     "keywords": [
       "refresh",
@@ -12191,11 +13713,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "refresh rate test"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: Measure again.",
+      "Runs entirely in your browser - Refresh Rate Test never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12209,6 +13731,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Refresh Rate Test?",
+        "a": "Press \"CLICK HERE RAPIDLY!\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -12216,7 +13742,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "regex-checker",
     "name": "Regex Checker",
     "category": "Text Processing",
-    "description": "Regex CheckerCheck regex syntax and inspect matches, groups, and match positions against your own sample text. Free online regex checker that runs locally in your browser.",
+    "description": "Check regex syntax and inspect matches, groups, and match positions against your own sample text. Free online regex checker that runs locally in your browser.",
     "engine": "regex",
     "keywords": [
       "regex",
@@ -12225,11 +13751,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "regex checker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Insert regex pattern... and Paste or write text to test....",
+      "Provides 4 actions: g, i, m, s.",
+      "Runs entirely in your browser - Regex Checker never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12243,6 +13769,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Regex Checker need as input?",
+        "a": "You enter your data in Insert regex pattern... and Paste or write text to test.... Nothing else is required."
       }
     ]
   },
@@ -12250,7 +13780,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "regex-explainer",
     "name": "Regex Explainer",
     "category": "Text Processing",
-    "description": "Regex ExplainerAsk a local AI model to explain a regular expression in plain language, token by token. Free online regex explainer that runs privately in your browser.",
+    "description": "Explain a regular expression token by token: every group, quantifier, character class and escape is written out in plain language together with the part of the text it matches.",
     "engine": "regex",
     "keywords": [
       "regex",
@@ -12259,11 +13789,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "regex explainer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Insert regex pattern... and Paste or write text to test....",
+      "Provides 4 actions: g, i, m, s.",
+      "Runs entirely in your browser - Regex Explainer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12277,6 +13807,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Regex Explainer need as input?",
+        "a": "You enter your data in Insert regex pattern... and Paste or write text to test.... Nothing else is required."
       }
     ]
   },
@@ -12284,7 +13818,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "regex-generator",
     "name": "Regex Generator",
     "category": "Text Processing",
-    "description": "Regex GeneratorGenerate a draft regular expression from a plain-English description using an AI model that runs in your browser. Free regex generator, no API key needed.",
+    "description": "Build a regular expression from a plain-English description: pick the kind of pattern, type what you need and the tool assembles a matching expression from deterministic rules. No model and no API key needed.",
     "engine": "regex",
     "keywords": [
       "regex",
@@ -12293,11 +13827,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "regex generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Describe the pattern and Paste or write text to test....",
+      "Provides 4 actions: g, i, m, s.",
+      "Runs entirely in your browser - Regex Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12311,14 +13845,18 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Regex Generator need as input?",
+        "a": "You enter your data in Insert regex pattern... and Paste or write text to test.... Nothing else is required."
       }
     ]
   },
   {
     "slug": "regex-ai",
-    "name": "Regex Offline AI",
+    "name": "Regex Pattern Assistant",
     "category": "Text Processing",
-    "description": "Regex Offline AIAI-powered Regex Generator. Generate, test, and validate regular expressions with AI assistance.",
+    "description": "A pattern assistant for regular expressions: it assembles a well formed pattern from a description, breaks every token down in plain language and tests the result live. Deterministic rules, no model and no API key.",
     "engine": "regex",
     "keywords": [
       "regex",
@@ -12327,11 +13865,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "regex ai"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: e.g. an email address and Paste or write text to test....",
+      "Choose Kind of pattern: From the description, Email address, URL, Date (YYYY-MM-DD) and 4 more.",
+      "Provides 4 actions: g, i, m, s.",
+      "Runs entirely in your browser - Regex Pattern Assistant never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -12345,14 +13883,22 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Regex Offline AI need as input?",
+        "a": "You enter your data in Insert regex pattern... and Paste or write text to test.... Nothing else is required."
+      },
+      {
+        "q": "Which settings can I choose in Regex Pattern Assistant?",
+        "a": "You can choose Kind of pattern. The result is calculated right on the page."
       }
     ]
   },
   {
     "slug": "regex-tester",
-    "name": "Regex Tester &amp; Builder",
+    "name": "Regex Tester & Builder",
     "category": "Text Processing",
-    "description": "Regex Tester &amp; BuilderTest and build regular expressions with real-time matching and detailed explanations.",
+    "description": "Test and build regular expressions with real-time matching and detailed explanations.",
     "engine": "regex",
     "keywords": [
       "regex",
@@ -12363,16 +13909,16 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "regex tester"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Insert regex pattern... and Paste or write text to test....",
+      "Provides 4 actions: g, i, m, s.",
+      "Runs entirely in your browser - Regex Tester & Builder never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
-        "q": "Is this Regex Tester &amp; Builder tool free to use?",
-        "a": "Yes, Regex Tester &amp; Builder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "q": "Is this Regex Tester & Builder tool free to use?",
+        "a": "Yes, Regex Tester & Builder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12381,6 +13927,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Regex Tester & Builder need as input?",
+        "a": "You enter your data in Insert regex pattern... and Paste or write text to test.... Nothing else is required."
       }
     ]
   },
@@ -12388,7 +13938,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "remove-comments-from-word",
     "name": "Remove Comments from Word",
     "category": "Text Processing",
-    "description": "Remove Comments from WordRemove all comments from a Word .docx file at once, or keep them and remove reviewer names. Works in your browser without Word; nothing is uploaded.",
+    "description": "Remove all comments from a Word .docx file at once, or keep them and remove reviewer names. Works in your browser without Word; nothing is uploaded.",
     "engine": "text-suite",
     "keywords": [
       "remove",
@@ -12399,11 +13949,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "remove comments from word"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose .docx.",
+      "Choose What should happen: Remove all comments, Keep comments, clear reviewer names.",
+      "Runs entirely in your browser - Remove Comments from Word never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12417,6 +13967,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Remove Comments from Word?",
+        "a": "You can choose What should happen. The result is calculated right on the page."
       }
     ]
   },
@@ -12424,8 +13978,8 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "remove-duplicate-lines",
     "name": "Remove Duplicate Lines",
     "category": "Text Processing",
-    "description": "Remove Duplicate LinesRemove duplicate lines from a text list with case-sensitive or case-insensitive comparison and optional sorting. Free online tool that runs in your browser.",
-    "engine": "media-audio-video",
+    "description": "Remove duplicate lines from a text list with case-sensitive or case-insensitive comparison and optional sorting. Free online tool that runs in your browser.",
+    "engine": "text-suite",
     "keywords": [
       "remove",
       "duplicate",
@@ -12434,11 +13988,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "remove duplicate lines"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Type or paste one item per line.",
+      "Provides 10 actions: Clear, Sort A to Z, Sort Z to A, Remove duplicates and 6 more.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Remove Duplicate Lines never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -12452,14 +14006,18 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Remove Duplicate Lines need as input?",
+        "a": "You enter your data in Type or paste one item per line. Nothing else is required."
       }
     ]
   },
   {
     "slug": "remove-duplicate-lines-and-sort",
-    "name": "Remove Duplicate Lines &amp; Sort",
+    "name": "Remove Duplicate Lines & Sort",
     "category": "Text Processing",
-    "description": "Remove Duplicate Lines &amp; SortFree, client-side tool to remove duplicate lines, sort alphabetically, reverse, remove empty lines, and trim whitespace instantly.",
+    "description": "Free, client-side tool to remove duplicate lines, sort alphabetically, reverse, remove empty lines, and trim whitespace instantly.",
     "engine": "text-suite",
     "keywords": [
       "remove",
@@ -12471,16 +14029,16 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "remove duplicate lines and sort"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Type or paste one item per line.",
+      "Provides 10 actions: Clear, Remove duplicates, Remove duplicates and sort, Remove empty lines and 6 more.",
+      "Runs entirely in your browser - Remove Duplicate Lines & Sort never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
-        "q": "Is this Remove Duplicate Lines &amp; Sort tool free to use?",
-        "a": "Yes, Remove Duplicate Lines &amp; Sort on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "q": "Is this Remove Duplicate Lines & Sort tool free to use?",
+        "a": "Yes, Remove Duplicate Lines & Sort on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12489,6 +14047,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Remove Duplicate Lines & Sort need as input?",
+        "a": "You enter your data in Type or paste one item per line. Nothing else is required."
       }
     ]
   },
@@ -12496,7 +14058,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "remove-metadata-from-word",
     "name": "Remove Metadata from Word",
     "category": "Text Processing",
-    "description": "Remove Metadata from WordRemove metadata from Word .docx files in your browser: author, company, comments, tracked changes, hidden text, template paths and photo GPS. Free and private.",
+    "description": "Remove metadata from Word .docx files in your browser: author, company, comments, tracked changes, hidden text, template paths and photo GPS. Free and private.",
     "engine": "image-suite",
     "keywords": [
       "remove",
@@ -12507,11 +14069,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "remove metadata from word"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Word file.",
+      "Runs entirely in your browser - Remove Metadata from Word never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12525,6 +14086,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Remove Metadata from Word need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -12532,7 +14097,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "remove-object-from-photo",
     "name": "Remove Objects from Photos",
     "category": "Design",
-    "description": "Remove Objects from PhotosRemove an object, person, text, or watermark from a picture. Just select the photo and paint over the selected item to clean up the picture.",
+    "description": "Remove an object, a person, text or a watermark from a picture: select the photo, paint over what should go and the painted area is filled with the colour of the surrounding pixels. Nothing is uploaded.",
     "engine": "image-suite",
     "keywords": [
       "remove",
@@ -12543,11 +14108,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "remove object from photo"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Remove Objects from Photos never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12561,6 +14125,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Remove Objects from Photos need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -12568,7 +14136,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "remove-photo-location",
     "name": "Remove Photo Location",
     "category": "Design",
-    "description": "Remove Photo LocationRemove GPS location data embedded in a photo before sharing it online, then download a cleaned copy. Free and private: your photo never leaves your device.",
+    "description": "Remove GPS location data embedded in a photo before sharing it online, then download a cleaned copy. Free and private: your photo never leaves your device.",
     "engine": "image-suite",
     "keywords": [
       "remove",
@@ -12578,11 +14146,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "remove photo location"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Remove Photo Location never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12596,6 +14163,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Remove Photo Location need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -12603,7 +14174,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "remove-text-from-image",
     "name": "Remove Text from Image",
     "category": "Design",
-    "description": "Remove Text from ImageBrush over unwanted text, captions, or watermarks in an image and fill the area using nearby image content. Free, private, and processed in your browser.",
+    "description": "Brush over unwanted text, captions, or watermarks in an image and fill the area using nearby image content. Free, private, and processed in your browser.",
     "engine": "image-suite",
     "keywords": [
       "remove",
@@ -12614,11 +14185,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "remove text from image"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Runs entirely in your browser - Remove Text from Image never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12632,6 +14202,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Remove Text from Image need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -12639,7 +14213,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "resize-png",
     "name": "Resize PNG",
     "category": "Design",
-    "description": "Resize PNGChange a PNG image&#x27;s width and height while keeping transparency, then export the resized file from your browser. Free online PNG resizer, no uploads.",
+    "description": "Change a PNG image's width and height while keeping transparency, then export the resized file from your browser. Free online PNG resizer, no uploads.",
     "engine": "image-suite",
     "keywords": [
       "resize",
@@ -12648,11 +14222,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "resize png"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with PNG.",
+      "Runs entirely in your browser - Resize PNG never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12666,6 +14240,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Resize PNG handle?",
+        "a": "It handles PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -12673,7 +14251,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "rest-api-tester",
     "name": "REST API Tester",
     "category": "Coding",
-    "description": "REST API TesterTest REST endpoints from your browser with custom methods, headers, query parameters, and JSON bodies. Free online API client, no install or signup.",
+    "description": "Test REST endpoints from your browser with custom methods, headers, query parameters, and JSON bodies. Free online API client, no install or signup.",
     "engine": "developer-suite",
     "keywords": [
       "rest",
@@ -12683,11 +14261,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "rest api tester"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: GETPOSTPUTDELETE.",
+      "Runs one action: Send Request.",
+      "Works with JSON.",
+      "Runs entirely in your browser - REST API Tester never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -12701,6 +14279,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does REST API Tester handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -12708,7 +14290,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "rgb-to-hex",
     "name": "RGB to HEX",
     "category": "Design",
-    "description": "RGB to HEXConvert red, green, and blue channel values into a hexadecimal color code with a live preview. Free online RGB to HEX converter with one-click copy.",
+    "description": "Convert red, green, and blue channel values into a hexadecimal color code with a live preview. Free online RGB to HEX converter with one-click copy.",
     "engine": "encoding-converters",
     "keywords": [
       "rgb",
@@ -12717,11 +14299,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "rgb to hex"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (RGB) and Output (Hexadecimal).",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - RGB to HEX never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -12735,6 +14317,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does RGB to HEX need as input?",
+        "a": "You enter your data in Input (RGB) and Output (Hexadecimal). Nothing else is required."
       }
     ]
   },
@@ -12742,7 +14328,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "rgb-to-hex-calculator",
     "name": "RGB to HEX Calculator",
     "category": "Design",
-    "description": "RGB to HEX CalculatorCalculate a HEX color code from RGB channel values (0-255) and inspect the resulting color visually. Free RGB to HEX calculator with instant results.",
+    "description": "Calculate a HEX color code from RGB channel values (0-255) and inspect the resulting color visually. Free RGB to HEX calculator with instant results.",
     "engine": "encoding-converters",
     "keywords": [
       "rgb",
@@ -12752,11 +14338,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "rgb to hex calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (RGB) and Output (Hexadecimal).",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - RGB to HEX Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -12770,6 +14356,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does RGB to HEX Calculator need as input?",
+        "a": "You enter your data in Input (RGB) and Output (Hexadecimal). Nothing else is required."
       }
     ]
   },
@@ -12777,7 +14367,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "rgb-hex-converter",
     "name": "RGB to HEX Converter",
     "category": "Design",
-    "description": "RGB to HEX ConverterConvert RGB values to HEX color format instantly. A 100% client-side tool with live color previews and HEX code generation.",
+    "description": "Convert RGB values to HEX color format instantly. A 100% client-side tool with live color previews and HEX code generation.",
     "engine": "encoding-converters",
     "keywords": [
       "rgb",
@@ -12787,11 +14377,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "rgb hex converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (RGB) and Output (Hexadecimal).",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - RGB to HEX Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -12805,6 +14395,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does RGB to HEX Converter need as input?",
+        "a": "You enter your data in Input (RGB) and Output (Hexadecimal). Nothing else is required."
       }
     ]
   },
@@ -12812,7 +14406,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "roll-two-dice",
     "name": "Roll Two Dice",
     "category": "Lifestyle",
-    "description": "Roll Two DiceRoll two dice online and see both faces and their sum. Free animated 2d6 roller with history, CSV export and a two-dice probability guide. Entirely client-side.",
+    "description": "Roll two dice online and see both faces and their sum. Free 2d6 roller with a roll history, CSV export and a two-dice probability guide. Entirely client-side.",
     "engine": "randomizers-games",
     "keywords": [
       "roll",
@@ -12822,11 +14416,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "roll two dice"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: Roll the two dice.",
+      "Works with CSV.",
+      "Runs entirely in your browser - Roll Two Dice never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -12840,6 +14434,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Roll Two Dice handle?",
+        "a": "It handles CSV. The processing happens entirely in your browser."
       }
     ]
   },
@@ -12847,7 +14445,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "roman-numeral-converter",
     "name": "Roman Numeral Converter",
     "category": "Calculators",
-    "description": "Roman Numeral ConverterConvert numbers to Roman numerals and Roman numerals to numbers instantly, from 1 to 3,999,999, with a step-by-step breakdown and validity check. Free.",
+    "description": "Convert numbers to Roman numerals and Roman numerals to numbers instantly, from 1 to 3,999,999, with a step-by-step breakdown and validity check. Free.",
     "engine": "calculator-suite",
     "keywords": [
       "roman",
@@ -12857,11 +14455,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "roman numeral converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Number and Roman numeral.",
+      "Runs entirely in your browser - Roman Numeral Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12875,6 +14472,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Roman Numeral Converter need as input?",
+        "a": "You enter your data in Number and Roman numeral. Nothing else is required."
       }
     ]
   },
@@ -12882,7 +14483,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "roman-numeral-date-converter",
     "name": "Roman Numeral Date Converter",
     "category": "Calculators",
-    "description": "Roman Numeral Date ConverterConvert any date to Roman numerals for tattoos, rings and wedding gifts. Choose US, UK or ISO order and dot, bullet, dash or slash separators. Free, instant.",
+    "description": "Convert any date to Roman numerals for tattoos, rings and wedding gifts. Choose US, UK or ISO order and dot, bullet, dash or slash separators. Free, instant.",
     "engine": "calculator-suite",
     "keywords": [
       "roman",
@@ -12893,11 +14494,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "roman numeral date converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Date.",
+      "Choose between Order (3 values) and Separator (4 values).",
+      "Runs entirely in your browser - Roman Numeral Date Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12911,6 +14512,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Roman Numeral Date Converter?",
+        "a": "You can choose Order and Separator. The result is calculated right on the page."
       }
     ]
   },
@@ -12918,7 +14523,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "roofing-calculator",
     "name": "Roofing Calculator",
     "category": "Calculators",
-    "description": "Roofing CalculatorEstimate roof area, roofing squares and shingle bundles from your house size, roof pitch, overhang and waste, with the pitch multiplier and underlayment.",
+    "description": "Estimate roof area, roofing squares and shingle bundles from your house size, roof pitch, overhang and waste, with the pitch multiplier and underlayment.",
     "engine": "calculator-suite",
     "keywords": [
       "roofing",
@@ -12927,11 +14532,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "roofing calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 4 text inputs: Footprint (sq ft), Roof pitch, Overhang (in) and Waste (%).",
+      "Runs entirely in your browser - Roofing Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12945,6 +14549,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Roofing Calculator need as input?",
+        "a": "You enter your data in Footprint (sq ft), Roof pitch, Overhang (in) and Waste (%). Nothing else is required."
       }
     ]
   },
@@ -12952,7 +14560,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "round-robin-generator",
     "name": "Round Robin Generator",
     "category": "Productivity",
-    "description": "Round Robin GeneratorFree round robin generator: make a fair schedule where every team plays every other team, with byes for odd numbers, scores and a live standings table. Print or share.",
+    "description": "Free round robin generator: make a fair schedule where every team plays every other team, with byes for odd numbers, scores and a live standings table. Print or share.",
     "engine": "time-calendar",
     "keywords": [
       "round",
@@ -12962,11 +14570,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "round robin generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Players or teams.",
+      "Provides 2 actions: Load the example, Clear.",
+      "Runs entirely in your browser - Round Robin Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -12980,6 +14588,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Round Robin Generator?",
+        "a": "Press \"Current Time\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "What does Round Robin Generator need as input?",
+        "a": "You enter your data in Players or teams. Nothing else is required."
       }
     ]
   },
@@ -12987,7 +14603,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "salary-to-hourly-calculator",
     "name": "Salary to Hourly Calculator",
     "category": "Calculators",
-    "description": "Salary to Hourly CalculatorConvert an annual salary to an hourly wage for any hours per week and paid weeks per year. See monthly, biweekly and weekly pay too. Free and private.",
+    "description": "Convert an annual salary to an hourly wage for any hours per week and paid weeks per year. See monthly, biweekly and weekly pay too. Free and private.",
     "engine": "calculator-suite",
     "keywords": [
       "salary",
@@ -12997,11 +14613,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "salary to hourly calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Annual salary, Hours per week and Paid weeks per year.",
+      "Runs entirely in your browser - Salary to Hourly Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -13015,6 +14630,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Salary to Hourly Calculator need as input?",
+        "a": "You enter your data in Annual salary, Hours per week and Paid weeks per year. Nothing else is required."
       }
     ]
   },
@@ -13022,7 +14641,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "sample-standard-deviation-calculator",
     "name": "Sample Standard Deviation Calculator",
     "category": "Calculators",
-    "description": "Sample Standard Deviation CalculatorFind the sample standard deviation s of a data set with the n − 1 formula, plus sample variance, mean and standard error, with every step shown. Free.",
+    "description": "Find the sample standard deviation s of a data set with the n − 1 formula, plus sample variance, mean and standard error, with every step shown. Free.",
     "engine": "calculator-suite",
     "keywords": [
       "sample",
@@ -13033,11 +14652,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "sample standard deviation calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: 12, 15, 23, 27, 34.",
+      "Runs entirely in your browser - Sample Standard Deviation Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -13051,6 +14669,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Sample Standard Deviation Calculator need as input?",
+        "a": "You enter your data in 12, 15, 23, 27, 34. Nothing else is required."
       }
     ]
   },
@@ -13058,7 +14680,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "secret-santa-generator",
     "name": "Secret Santa Generator",
     "category": "Productivity",
-    "description": "Secret Santa GeneratorFree Secret Santa generator: add names, set exclusions for couples, and send everyone a private link to their match. No email, no account needed.",
+    "description": "Free Secret Santa generator: add names, set exclusions for couples, and send everyone a private link to their match. No email, no account needed.",
     "engine": "randomizers-games",
     "keywords": [
       "secret",
@@ -13068,11 +14690,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "secret santa generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Names (one per line)At least two names are needed for a draw..",
+      "Runs one action: Draw the pairs.",
+      "Runs entirely in your browser - Secret Santa Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -13086,6 +14708,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Secret Santa Generator need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
       }
     ]
   },
@@ -13093,7 +14719,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "sha256-generator",
     "name": "SHA-256 Hash Generator",
     "category": "Security",
-    "description": "SHA-256 Hash GeneratorCompute SHA-256 hashes of text and files instantly. 100% client-side. Verify release checksums and fingerprint data without uploading anything.",
+    "description": "Compute SHA-256 hashes of text and files instantly. 100% client-side. Verify release checksums and fingerprint data without uploading anything.",
     "engine": "crypto-hash",
     "keywords": [
       "sha",
@@ -13104,11 +14730,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "sha256 generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Type or paste any text to hash....",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - SHA-256 Hash Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -13122,6 +14748,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does SHA-256 Hash Generator need as input?",
+        "a": "You enter your data in Type or paste any text to hash.... Nothing else is required."
       }
     ]
   },
@@ -13129,7 +14759,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "simplify-fractions-calculator",
     "name": "Simplify Fractions Calculator",
     "category": "Calculators",
-    "description": "Simplify Fractions CalculatorReduce any fraction or mixed number to lowest terms. See the greatest common factor, the prime factors and each step. Works with very large numbers.",
+    "description": "Reduce any fraction or mixed number to lowest terms. See the greatest common factor, the prime factors and each step. Works with very large numbers.",
     "engine": "calculator-suite",
     "keywords": [
       "simplify",
@@ -13139,11 +14769,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "simplify fractions calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Numerator, Denominator and Whole number.",
+      "Runs entirely in your browser - Simplify Fractions Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -13157,6 +14786,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Simplify Fractions Calculator need as input?",
+        "a": "You enter your data in Numerator, Denominator and Whole number. Nothing else is required."
       }
     ]
   },
@@ -13164,7 +14797,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "single-elimination-bracket",
     "name": "Single Elimination Bracket Generator",
     "category": "Productivity",
-    "description": "Single Elimination Bracket GeneratorMake a single elimination bracket for 2 to 128 teams. Standard seeding, automatic byes, an optional third place game, click-to-advance winners and a printable PDF.",
+    "description": "Make a single elimination bracket for 2 to 128 teams. Standard seeding, automatic byes, an optional third place game, click-to-advance winners and a printable PDF.",
     "engine": "randomizers-games",
     "keywords": [
       "single",
@@ -13175,11 +14808,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "single elimination bracket"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Names or teams (one per line)Between 2 and 16 names, the bracket is padded with byes..",
+      "Provides 10 actions: Generate the bracket, Print the bracket, Alpha, Bravo and 6 more.",
+      "Copy, download or print the result with Print the bracket.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Single Elimination Bracket Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -13193,6 +14826,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Single Elimination Bracket Generator handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -13200,7 +14837,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "small-text-generator",
     "name": "Small Text Generator",
     "category": "Text Processing",
-    "description": "Small Text GeneratorConvert text into tiny, small caps, superscript and subscript Unicode letters you can copy and paste anywhere.",
+    "description": "Convert text into tiny, small caps, superscript and subscript Unicode letters you can copy and paste anywhere.",
     "engine": "text-suite",
     "keywords": [
       "small",
@@ -13210,11 +14847,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "small text generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Your text and Result.",
+      "Choose Style: Small Caps, Superscript, Subscript, Small Text.",
+      "Provides 2 actions: Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Small Text Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -13228,6 +14865,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Small Text Generator?",
+        "a": "You can choose Style. The result is calculated right on the page."
       }
     ]
   },
@@ -13235,7 +14876,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "social-media-preview",
     "name": "Social Media Preview",
     "category": "Design",
-    "description": "Social Media PreviewPreview how a public link will look when shared on Facebook, X, LinkedIn, and Slack, based on its detected sharing metadata. Free social media preview tool.",
+    "description": "Preview how a public link will look when shared on Facebook, X, LinkedIn, and Slack, based on its detected sharing metadata. Free social media preview tool.",
     "engine": "image-suite",
     "keywords": [
       "social",
@@ -13245,11 +14886,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "social media preview"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Page URLThe address of the page you want to check..",
+      "Runs entirely in your browser - Social Media Preview never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -13263,6 +14903,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Social Media Preview need as input?",
+        "a": "You enter your data in Choose Image. Nothing else is required."
       }
     ]
   },
@@ -13270,7 +14914,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "sound-test",
     "name": "Sound Test",
     "category": "Device Tests",
-    "description": "Sound TestTest speakers and headphones online: left/right channel test, 20 Hz–20 kHz sweep, polarity check, pink noise and a tone generator. Free, nothing to install.",
+    "description": "Test speakers and headphones online: left/right channel test, 20 Hz–20 kHz sweep, polarity check, pink noise and a tone generator. Free, nothing to install.",
     "engine": "device-tester",
     "keywords": [
       "sound",
@@ -13279,11 +14923,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "sound test"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Provides 8 actions: 125 Hz, 440 Hz, 1 kHz, 4 kHz and 4 more.",
+      "Runs entirely in your browser - Sound Test never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -13297,6 +14941,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Sound Test?",
+        "a": "Press \"CLICK HERE RAPIDLY!\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -13304,7 +14952,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "split-pdf",
     "name": "Split PDF Files",
     "category": "PDF",
-    "description": "Split PDF FilesSplit PDF files free in your browser. Extract selected pages into one PDF or split into separate PDFs in a ZIP. No signup, no watermark, no uploads.",
+    "description": "Split PDF files free in your browser. Extract selected pages into one PDF or split into separate PDFs in a ZIP. No signup, no watermark, no uploads.",
     "engine": "pdf-suite",
     "keywords": [
       "split",
@@ -13313,11 +14961,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "split pdf"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a PDF.",
+      "Runs one action: Choose a PDF.",
+      "Works with PDF, ZIP.",
+      "Runs entirely in your browser - Split PDF Files never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -13331,6 +14979,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Split PDF Files handle?",
+        "a": "It handles PDF, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -13338,7 +14990,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "sql-beautifier",
     "name": "SQL Beautifier",
     "category": "Database",
-    "description": "SQL BeautifierBeautify messy SQL with consistent spacing, line breaks, and indentation for easier reading and code review. Free SQL beautifier that runs in your browser.",
+    "description": "Beautify messy SQL with consistent spacing, line breaks, and indentation for easier reading and code review. Free SQL beautifier that runs in your browser.",
     "engine": "developer-suite",
     "keywords": [
       "sql",
@@ -13347,11 +14999,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "sql beautifier"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste SQL query here....",
+      "Choose Format SQL: PostgreSQL, MySQL, SQLite, Standard SQL.",
+      "Provides 2 actions: Format SQL, Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - SQL Beautifier never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -13365,6 +15017,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in SQL Beautifier?",
+        "a": "You can choose Format SQL. The result is calculated right on the page."
       }
     ]
   },
@@ -13372,7 +15028,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "sql-formatter",
     "name": "SQL Formatter",
     "category": "Database",
-    "description": "SQL FormatterFormat SQL queries with selectable dialect, keyword case, and indentation settings for MySQL, PostgreSQL, and more. Free online SQL formatter, runs locally.",
+    "description": "Format SQL queries with selectable dialect, keyword case, and indentation settings for MySQL, PostgreSQL, and more. Free online SQL formatter, runs locally.",
     "engine": "developer-suite",
     "keywords": [
       "sql",
@@ -13381,11 +15037,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "sql formatter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste SQL query here....",
+      "Choose Format SQL: PostgreSQL, MySQL, SQLite, Standard SQL.",
+      "Provides 2 actions: Format SQL, Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - SQL Formatter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -13399,14 +15055,18 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in SQL Formatter?",
+        "a": "You can choose Format SQL. The result is calculated right on the page."
       }
     ]
   },
   {
     "slug": "sql-formatter-beautifier",
-    "name": "SQL Formatter &amp; Beautifier",
+    "name": "SQL Formatter & Beautifier",
     "category": "Database",
-    "description": "SQL Formatter &amp; BeautifierFormat and beautify SQL queries with syntax highlighting, multiple dialect support, and customizable formatting options.",
+    "description": "Format and beautify SQL queries with syntax highlighting, multiple dialect support, and customizable formatting options.",
     "engine": "developer-suite",
     "keywords": [
       "sql",
@@ -13417,16 +15077,16 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "sql formatter beautifier"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste SQL query here....",
+      "Choose Format SQL: PostgreSQL, MySQL, SQLite, Standard SQL.",
+      "Provides 2 actions: Format SQL, Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - SQL Formatter & Beautifier never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
-        "q": "Is this SQL Formatter &amp; Beautifier tool free to use?",
-        "a": "Yes, SQL Formatter &amp; Beautifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "q": "Is this SQL Formatter & Beautifier tool free to use?",
+        "a": "Yes, SQL Formatter & Beautifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13435,6 +15095,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in SQL Formatter & Beautifier?",
+        "a": "You can choose Format SQL. The result is calculated right on the page."
       }
     ]
   },
@@ -13442,7 +15106,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "sqlite-browser",
     "name": "SQLite Browser",
     "category": "Coding",
-    "description": "SQLite BrowserA free online SQLite browser: open a database, browse tables, inspect the schema, run SQL and save changes as a new file. Runs locally, no install.",
+    "description": "A free online SQLite browser: open a database, browse tables, inspect the schema, run SQL and save changes as a new file. Runs locally, no install.",
     "engine": "file-viewers",
     "keywords": [
       "sqlite",
@@ -13451,11 +15115,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "sqlite browser"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: SQL query.",
+      "Runs one action: Execute SQL.",
+      "Runs entirely in your browser - SQLite Browser never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -13469,6 +15133,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use SQLite Browser?",
+        "a": "Press \"Execute SQL\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "What does SQLite Browser need as input?",
+        "a": "You enter your data in SQL query. Nothing else is required."
       }
     ]
   },
@@ -13476,7 +15148,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "sqlite-online",
     "name": "SQLite Online",
     "category": "Coding",
-    "description": "SQLite OnlineWrite and run SQLite queries online: start a new database or open your own, create tables, insert data, run SELECTs and download the .sqlite file. Free.",
+    "description": "Write and run SQLite queries online: start a new database or open your own, create tables, insert data, run SELECTs and download the .sqlite file. Free.",
     "engine": "file-viewers",
     "keywords": [
       "sqlite",
@@ -13485,11 +15157,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "sqlite online"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: SQL query.",
+      "Runs one action: Execute SQL.",
+      "Runs entirely in your browser - SQLite Online never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -13503,6 +15175,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use SQLite Online?",
+        "a": "Press \"Execute SQL\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "What does SQLite Online need as input?",
+        "a": "You enter your data in SQL query. Nothing else is required."
       }
     ]
   },
@@ -13510,7 +15190,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "sqlite-viewer",
     "name": "SQLite Viewer",
     "category": "Coding",
-    "description": "SQLite ViewerOpen SQLite databases in your browser: browse tables and views, see schemas and foreign keys, run SQL and export CSV or JSON. Nothing is uploaded. Free.",
+    "description": "Open SQLite databases in your browser: browse tables and views, see schemas and foreign keys, run SQL and export CSV or JSON. Nothing is uploaded. Free.",
     "engine": "file-viewers",
     "keywords": [
       "sqlite",
@@ -13519,11 +15199,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "sqlite viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: SQL query.",
+      "Runs one action: Execute SQL.",
+      "Works with CSV, JSON.",
+      "Runs entirely in your browser - SQLite Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -13537,6 +15217,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does SQLite Viewer handle?",
+        "a": "It handles CSV, JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -13544,7 +15228,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "square-footage-calculator",
     "name": "Square Footage Calculator",
     "category": "Calculators",
-    "description": "Square Footage CalculatorCalculate square footage for rooms, floors, and lots. Combine rectangles, circles, and triangles, subtract cut-outs, and convert to m² or acres.",
+    "description": "Calculate square footage for rooms, floors, and lots. Combine rectangles, circles, and triangles, subtract cut-outs, and convert to m² or acres.",
     "engine": "calculator-suite",
     "keywords": [
       "square",
@@ -13554,11 +15238,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "square footage calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Side A (ft), Side B (ft) and How many.",
+      "Choose Shape: Rectangle, Circle, Triangle.",
+      "Runs entirely in your browser - Square Footage Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -13572,6 +15256,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Square Footage Calculator?",
+        "a": "You can choose Shape. The result is calculated right on the page."
       }
     ]
   },
@@ -13579,7 +15267,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "ssl-certificate-decoder",
     "name": "SSL Certificate Decoder",
     "category": "Coding",
-    "description": "SSL Certificate DecoderDecode SSL/TLS certificates instantly: subject, issuer, SANs, expiry, key, fingerprints and extensions. Verifies chain signatures. Private, nothing uploaded.",
+    "description": "Decode SSL/TLS certificates instantly: subject, issuer, SANs, expiry, key, fingerprints and extensions. Verifies chain signatures. Private, nothing uploaded.",
     "engine": "crypto-hash",
     "keywords": [
       "ssl",
@@ -13589,11 +15277,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "ssl certificate decoder"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste a PEM encoded certificate here....",
+      "Provides 3 actions: Decode the structure, Clear, Load example.",
+      "Runs entirely in your browser - SSL Certificate Decoder never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -13607,6 +15295,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does SSL Certificate Decoder need as input?",
+        "a": "You enter your data in Type or paste any text to hash.... Nothing else is required."
       }
     ]
   },
@@ -13614,7 +15306,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "standard-deviation-calculator",
     "name": "Standard Deviation Calculator",
     "category": "Calculators",
-    "description": "Standard Deviation CalculatorFree standard deviation calculator: paste numbers to get sample and population SD, variance, mean, median, quartiles and z-scores, with every step shown.",
+    "description": "Free standard deviation calculator: paste numbers to get sample and population SD, variance, mean, median, quartiles and z-scores, with every step shown.",
     "engine": "calculator-suite",
     "keywords": [
       "standard",
@@ -13624,11 +15316,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "standard deviation calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: 12, 15, 23, 27, 34.",
+      "Runs entirely in your browser - Standard Deviation Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -13642,6 +15333,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Standard Deviation Calculator need as input?",
+        "a": "You enter your data in 12, 15, 23, 27, 34. Nothing else is required."
       }
     ]
   },
@@ -13649,7 +15344,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "stick-drift-test",
     "name": "Stick Drift Test",
     "category": "Device Tests",
-    "description": "Stick Drift TestCheck your controller for stick drift: see resting values for both joysticks, compare with a deadzone and score circularity. PS5, Xbox and Switch Pro. Free.",
+    "description": "Check your controller for stick drift: see resting values for both joysticks, compare with a deadzone and score circularity. PS5, Xbox and Switch Pro. Free.",
     "engine": "device-tester",
     "keywords": [
       "stick",
@@ -13659,11 +15354,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "stick drift test"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 numeric value: The limit of the drift in percent.",
+      "Provides 2 actions: Start the test, Measure the neutral position.",
+      "Runs entirely in your browser - Stick Drift Test never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -13677,6 +15372,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Stick Drift Test?",
+        "a": "Press \"CLICK HERE RAPIDLY!\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "What does Stick Drift Test need as input?",
+        "a": "You enter your data in The limit of the drift in percent. Nothing else is required."
       }
     ]
   },
@@ -13684,7 +15387,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "stl-viewer",
     "name": "STL Viewer",
     "category": "Design",
-    "description": "STL ViewerOpen STL files in your browser: rotate, zoom, measure size, volume and print weight, check if the mesh is watertight and cut sections. Free, no upload needed.",
+    "description": "Open STL files in your browser: rotate, zoom, measure size, volume and print weight, check if the mesh is watertight and cut sections. Free, no upload needed.",
     "engine": "file-viewers",
     "keywords": [
       "stl",
@@ -13693,11 +15396,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "stl viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: File.",
+      "Provides 2 actions: Open 3D File, Try Sample Model.",
+      "Works with STL.",
+      "Runs entirely in your browser - STL Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -13711,6 +15414,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does STL Viewer handle?",
+        "a": "It handles STL. The processing happens entirely in your browser."
       }
     ]
   },
@@ -13718,7 +15425,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "strikethrough-text-generator",
     "name": "Strikethrough Text Generator",
     "category": "Text Processing",
-    "description": "Strikethrough Text GeneratorGenerate strikethrough, slash, underline and overline text to copy and paste into Instagram, Facebook, X, Discord and more. Free, instant, no sign-up.",
+    "description": "Generate strikethrough, slash, underline and overline text to copy and paste into Instagram, Facebook, X, Discord and more. Free, instant, no sign-up.",
     "engine": "text-suite",
     "keywords": [
       "strikethrough",
@@ -13728,11 +15435,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "strikethrough text generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Your text and Result.",
+      "Choose Style: Strikethrough, Underline, Overline, Slash.",
+      "Provides 2 actions: Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Strikethrough Text Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -13746,6 +15453,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Strikethrough Text Generator?",
+        "a": "You can choose Style. The result is calculated right on the page."
       }
     ]
   },
@@ -13753,7 +15464,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "string-length-calculator",
     "name": "String Length Calculator",
     "category": "Text Processing",
-    "description": "String Length CalculatorMeasure a text string&#x27;s length and compare counts with and without spaces in a live counter. Free string length calculator that runs in your browser.",
+    "description": "Measure a text string's length and compare counts with and without spaces in a live counter. Free string length calculator that runs in your browser.",
     "engine": "text-suite",
     "keywords": [
       "string",
@@ -13763,11 +15474,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "string length calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Type or paste your text here.",
+      "Provides 2 actions: Clear, Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - String Length Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -13781,6 +15492,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does String Length Calculator need as input?",
+        "a": "You enter your data in Type or paste your text here. Nothing else is required."
       }
     ]
   },
@@ -13788,7 +15503,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "strong-password-generator",
     "name": "Strong Password Generator",
     "category": "Security",
-    "description": "Strong Password GeneratorCreate long, strong passwords with control over symbols, numbers, and letter cases, using your browser&#x27;s secure random generator. Free and nothing is stored.",
+    "description": "Create long, strong passwords with control over symbols, numbers, and letter cases, using your browser's secure random generator. Free and nothing is stored.",
     "engine": "crypto-hash",
     "keywords": [
       "strong",
@@ -13798,11 +15513,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "strong password generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 input: Password Length: 16 characters.",
+      "Provides 2 actions: Copy, Regenerate Password.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Strong Password Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -13816,6 +15531,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Strong Password Generator need as input?",
+        "a": "You enter your data in Password Length: 16 characters. Nothing else is required."
       }
     ]
   },
@@ -13823,7 +15542,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "study-timer",
     "name": "Study Timer",
     "category": "Productivity",
-    "description": "Study TimerPlan focused study sessions with a configurable Pomodoro countdown, scheduled breaks, and sound alerts. Free online study timer that works in any browser.",
+    "description": "Plan focused study sessions with a configurable Pomodoro countdown, scheduled breaks, and sound alerts. Free online study timer that works in any browser.",
     "engine": "time-calendar",
     "keywords": [
       "study",
@@ -13832,11 +15551,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "study timer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Provides 4 actions: Work (25m), Short Break (5m), Long Break (15m), Start Focus.",
+      "Runs entirely in your browser - Study Timer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -13850,6 +15569,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Study Timer?",
+        "a": "Press \"Work (25m)\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -13857,7 +15580,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "subnet-calculator",
     "name": "Subnet Calculator",
     "category": "Coding",
-    "description": "Subnet CalculatorFree IPv4 subnet calculator: network, broadcast, usable host range, subnet and wildcard masks, binary view and subnet splitting for any IP and CIDR or mask.",
+    "description": "Free IPv4 subnet calculator: network, broadcast, usable host range, subnet and wildcard masks, binary view and subnet splitting for any IP and CIDR or mask.",
     "engine": "networking-tools",
     "keywords": [
       "subnet",
@@ -13866,11 +15589,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "subnet calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: IP Address.",
+      "Choose CIDR Prefix (/24): /0 (Class A), /1 (Class A), /2 (Class A), /3 (Class A) and 4 more.",
+      "Provides 2 actions: IPv4, IPv6.",
+      "Runs entirely in your browser - Subnet Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -13884,6 +15607,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Subnet Calculator?",
+        "a": "You can choose CIDR Prefix (/24). The result is calculated right on the page."
       }
     ]
   },
@@ -13891,7 +15618,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "subnet-cheat-sheet",
     "name": "Subnet Cheat Sheet",
     "category": "Coding",
-    "description": "Subnet Cheat SheetComplete IPv4 subnet cheat sheet: every CIDR prefix from /0 to /32 with subnet mask, wildcard mask, total addresses and usable hosts, plus a live calculator.",
+    "description": "Complete IPv4 subnet cheat sheet: every CIDR prefix from /0 to /32 with subnet mask, wildcard mask, total addresses and usable hosts, plus a live calculator.",
     "engine": "networking-tools",
     "keywords": [
       "subnet",
@@ -13901,11 +15628,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "subnet cheat sheet"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: IP Address.",
+      "Choose CIDR Prefix (/24): /0, /1, /2, /3 and 4 more.",
+      "Runs entirely in your browser - Subnet Cheat Sheet never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -13919,6 +15646,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Subnet Cheat Sheet?",
+        "a": "You can choose CIDR Prefix (/24). The result is calculated right on the page."
       }
     ]
   },
@@ -13926,7 +15657,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "svg-favicon-generator",
     "name": "SVG Favicon Generator",
     "category": "Design",
-    "description": "SVG Favicon GeneratorCreate an SVG favicon from an icon library with custom colors, sizing, and background shapes, then download it. Free SVG favicon generator, no signup needed.",
+    "description": "Create an SVG favicon from an icon library with custom colors, sizing, and background shapes, then download it. Free SVG favicon generator, no signup needed.",
     "engine": "image-suite",
     "keywords": [
       "svg",
@@ -13936,11 +15667,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "svg favicon generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Colour and Stroke width2.",
+      "Choose Icon size: 16 × 16, 32 × 32, 48 × 48, 64 × 64.",
+      "Provides 3 actions: Download Image, Reset the icon, Copy.",
+      "Copy, download or print the result with Download Image and Copy.",
+      "Works with SVG."
     ],
     "faqs": [
       {
@@ -13954,6 +15685,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does SVG Favicon Generator handle?",
+        "a": "It handles SVG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -13961,7 +15696,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "svg-to-base64",
     "name": "SVG to Base64 Converter",
     "category": "Design",
-    "description": "SVG to Base64 ConverterConvert an SVG to a Base64 data URI or a smaller URL-encoded data URI, with live preview, file size and an &lt;img&gt; tag ready to paste. Nothing is uploaded.",
+    "description": "Convert an SVG to a Base64 data URI or a smaller URL-encoded data URI, with live preview, file size and an <img> tag ready to paste. Nothing is uploaded.",
     "engine": "base64",
     "keywords": [
       "svg",
@@ -13971,11 +15706,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "svg to base64"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: File to Base64, Input Text or Base64 and Output.",
+      "Provides 4 actions: Encode to Base64, Decode Base64, Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with SVG.",
+      "Runs entirely in your browser - SVG to Base64 Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -13989,6 +15724,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does SVG to Base64 Converter handle?",
+        "a": "It handles SVG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -13996,7 +15735,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "svg-to-css",
     "name": "SVG to CSS Converter",
     "category": "Design",
-    "description": "SVG to CSS ConverterTurn an SVG into CSS: an optimised URL-encoded background-image, or a mask you can recolour with background-color. Preview, check size and copy. Free.",
+    "description": "Turn an SVG into CSS: an optimised URL-encoded background-image, or a mask you can recolour with background-color. Preview, check size and copy. Free.",
     "engine": "image-suite",
     "keywords": [
       "svg",
@@ -14006,11 +15745,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "svg to css"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: SVG source and CSS class.",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Works with SVG.",
+      "Runs entirely in your browser - SVG to CSS Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -14024,6 +15763,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does SVG to CSS Converter handle?",
+        "a": "It handles SVG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -14031,7 +15774,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "svg-to-ico",
     "name": "SVG to ICO Converter",
     "category": "Design",
-    "description": "SVG to ICO ConverterConvert SVG logos to ICO. Each size from 16 to 256 px is rendered straight from the vector for sharp edges, with transparency kept. Free, no upload needed.",
+    "description": "Convert SVG logos to ICO. Each size from 16 to 256 px is rendered straight from the vector for sharp edges, with transparency kept. Free, no upload needed.",
     "engine": "image-suite",
     "keywords": [
       "svg",
@@ -14041,11 +15784,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "svg to ico"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with SVG, ICO.",
+      "Runs entirely in your browser - SVG to ICO Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -14059,6 +15802,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does SVG to ICO Converter handle?",
+        "a": "It handles SVG, ICO. The processing happens entirely in your browser."
       }
     ]
   },
@@ -14066,7 +15813,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "svg-to-jpg",
     "name": "SVG to JPG Converter",
     "category": "Design",
-    "description": "SVG to JPG ConverterConvert SVG to JPG at any resolution with a background colour of your choice. Set quality, batch convert and download a ZIP. Free, private and no file limits.",
+    "description": "Convert an SVG drawing to JPG in your browser, the transparency is flattened to white. Set the quality and the output size. Free, private and no file limits.",
     "engine": "image-suite",
     "keywords": [
       "svg",
@@ -14076,11 +15823,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "svg to jpg"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with SVG, JPG.",
+      "Runs entirely in your browser - SVG to JPG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -14094,6 +15841,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does SVG to JPG Converter handle?",
+        "a": "It handles SVG, JPG, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -14101,7 +15852,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "svg-to-png",
     "name": "SVG to PNG Converter",
     "category": "Design",
-    "description": "SVG to PNG ConverterConvert SVG to PNG at 1×, 2×, 4× or 8× or an exact width, keeping transparency. Batch convert and download a ZIP. Free, no upload and no file-size limit.",
+    "description": "Convert an SVG drawing to PNG in your browser, with the transparency kept. Choose the output size and download the picture. Free, no upload.",
     "engine": "image-suite",
     "keywords": [
       "svg",
@@ -14111,11 +15862,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "svg to png"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with SVG, PNG.",
+      "Runs entirely in your browser - SVG to PNG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -14129,6 +15880,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does SVG to PNG Converter handle?",
+        "a": "It handles SVG, PNG, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -14136,7 +15891,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "svg-viewer",
     "name": "SVG Viewer",
     "category": "Design",
-    "description": "SVG ViewerOpen or paste an SVG to preview it with zoom and backgrounds, see its size, viewBox, colours and fonts, check for scripts and export PNG or a data URI. Free.",
+    "description": "Open or paste an SVG to preview it with zoom and backgrounds, see its size, viewBox, colours and fonts, check for scripts and export PNG or a data URI. Free.",
     "engine": "image-suite",
     "keywords": [
       "svg",
@@ -14145,11 +15900,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "svg viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: SVG source.",
+      "Provides 2 actions: Reset the example, Clear.",
+      "Works with SVG, PNG.",
+      "Runs entirely in your browser - SVG Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -14163,6 +15918,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does SVG Viewer handle?",
+        "a": "It handles SVG, PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -14170,7 +15929,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "swagger-viewer",
     "name": "Swagger Viewer",
     "category": "Coding",
-    "description": "Swagger ViewerBrowse OpenAPI and Swagger API documents in a readable reference with endpoints, parameters, and schemas. Free online Swagger viewer that runs in your browser.",
+    "description": "Browse OpenAPI and Swagger API documents in a readable reference with endpoints, parameters, and schemas. Free online Swagger viewer that runs in your browser.",
     "engine": "developer-suite",
     "keywords": [
       "swagger",
@@ -14179,11 +15938,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "swagger viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste an OpenAPI or Swagger document (JSON or YAML) here....",
+      "Provides 4 actions: List operations, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Swagger Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -14197,6 +15956,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Swagger Viewer?",
+        "a": "You can choose Format SQL. The result is calculated right on the page."
+      },
+      {
+        "q": "What does Swagger Viewer need as input?",
+        "a": "You enter your data in Paste an OpenAPI or Swagger document (JSON or YAML) here.... Nothing else is required."
       }
     ]
   },
@@ -14204,7 +15971,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "tdee-calculator",
     "name": "TDEE Calculator",
     "category": "Lifestyle",
-    "description": "TDEE CalculatorCalculate your TDEE (total daily energy expenditure) from age, sex, height, weight, and activity level to find maintenance calories. Free and private.",
+    "description": "Calculate your TDEE (total daily energy expenditure) from age, sex, height, weight, and activity level to find maintenance calories. Free and private.",
     "engine": "health-fitness",
     "keywords": [
       "tdee",
@@ -14213,11 +15980,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "tdee calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Choose between Biological Sex (2 values) and Activity Level (5 values).",
+      "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
+      "Runs entirely in your browser - TDEE Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -14231,6 +15998,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in TDEE Calculator?",
+        "a": "You can choose Biological Sex. The result is calculated right on the page."
       }
     ]
   },
@@ -14238,7 +16009,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "test-grade-calculator",
     "name": "Test Grade Calculator",
     "category": "Calculators",
-    "description": "Test Grade CalculatorEnter the number of questions and how many you got wrong to get your test score as a percentage and letter grade, with a grading chart. Free, instant.",
+    "description": "Enter the number of questions and how many you got wrong to get your test score as a percentage and letter grade, with a grading chart. Free, instant.",
     "engine": "calculator-suite",
     "keywords": [
       "test",
@@ -14248,11 +16019,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "test grade calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Questions on the test and Correct answers.",
+      "Runs entirely in your browser - Test Grade Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -14266,6 +16036,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Test Grade Calculator need as input?",
+        "a": "You enter your data in Questions on the test and Correct answers. Nothing else is required."
       }
     ]
   },
@@ -14273,7 +16047,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "text-case-converter",
     "name": "Text Case Converter",
     "category": "Text Processing",
-    "description": "Text Case ConverterConvert text between different case formats with live preview and one-click export.",
+    "description": "Convert text between different case formats with live preview and one-click export.",
     "engine": "text-suite",
     "keywords": [
       "text",
@@ -14283,11 +16057,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "text case converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 11 text inputs: Type or paste your text here, UPPERCASECopy, lowercaseCopy, Title CaseCopy, Sentence caseCopy, camelCaseCopy, PascalCaseCopy, kebab-caseCopy, snake_caseCopy, CONSTANT CASECopy and aLtErNaTiNgCopy.",
+      "Provides 5 actions: Edit, Preview, Copy all, Clear and 1 more.",
+      "Copy, download or print the result with Copy all and Copy.",
+      "Runs entirely in your browser - Text Case Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -14301,6 +16075,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Text Case Converter need as input?",
+        "a": "You enter your data in Type or paste your text here, UPPERCASECopy, lowercaseCopy, Title CaseCopy, Sentence caseCopy, camelCaseCopy, PascalCaseCopy, kebab-caseCopy, snake_caseCopy, CONSTANT CASECopy and aLtErNaTiNgCopy. Nothing else is required."
       }
     ]
   },
@@ -14308,7 +16086,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "text-compare",
     "name": "Text Compare",
     "category": "Text Processing",
-    "description": "Text CompareCompare two versions of text side by side and see highlighted additions, deletions, and changed lines. Free online text compare tool, private and instant.",
+    "description": "Compare two versions of text side by side and see highlighted additions, deletions, and changed lines. Free online text compare tool, private and instant.",
     "engine": "diff",
     "keywords": [
       "text",
@@ -14317,11 +16095,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "text compare"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Original JSON / Text and Modified JSON / Text.",
+      "Provides 4 actions: Compare Diffs, Beautify Both, Line Diff, Word Diff.",
+      "Runs entirely in your browser - Text Compare never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -14335,6 +16113,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Text Compare need as input?",
+        "a": "You enter your data in Original JSON / Text and Modified JSON / Text. Nothing else is required."
       }
     ]
   },
@@ -14342,7 +16124,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "text-diff",
     "name": "Text Diff",
     "category": "Text Processing",
-    "description": "Text DiffRun a line-by-line text diff with highlighted insertions and deletions, entirely in your browser. Free online diff tool with no uploads or signup required.",
+    "description": "Run a line-by-line text diff with highlighted insertions and deletions, entirely in your browser. Free online diff tool with no uploads or signup required.",
     "engine": "diff",
     "keywords": [
       "text",
@@ -14351,11 +16133,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "text diff"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Original JSON / Text and Modified JSON / Text.",
+      "Provides 4 actions: Compare Diffs, Beautify Both, Line Diff, Word Diff.",
+      "Runs entirely in your browser - Text Diff never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -14369,6 +16151,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Text Diff need as input?",
+        "a": "You enter your data in Original JSON / Text and Modified JSON / Text. Nothing else is required."
       }
     ]
   },
@@ -14376,7 +16162,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "text-repeater",
     "name": "Text Repeater",
     "category": "Text Processing",
-    "description": "Text RepeaterRepeat any text or emoji hundreds or thousands of times with spaces, new lines or commas between, and optional numbering. Copy in one click. Free, instant.",
+    "description": "Repeat any text or emoji hundreds or thousands of times with spaces, new lines or commas between, and optional numbering. Copy in one click. Free, instant.",
     "engine": "text-suite",
     "keywords": [
       "text",
@@ -14385,11 +16171,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "text repeater"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Your text, Repeat count and Result.",
+      "Choose Separator: None, Space, New line, Comma and 1 more.",
+      "Provides 2 actions: Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Text Repeater never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -14403,6 +16189,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Text Repeater?",
+        "a": "You can choose Separator. The result is calculated right on the page."
       }
     ]
   },
@@ -14410,7 +16200,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "text-to-binary",
     "name": "Text to Binary Converter",
     "category": "Encoding",
-    "description": "Text to Binary ConverterConvert text to binary code instantly: 8 bits per byte, UTF-8 for emoji and accents, with space, comma or no separators and a per-character table. Free.",
+    "description": "Convert text to binary code instantly: 8 bits per byte, UTF-8 for emoji and accents, with space, comma or no separators and a per-character table. Free.",
     "engine": "text-suite",
     "keywords": [
       "text",
@@ -14420,11 +16210,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "text to binary"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Text to encode and Binary output.",
+      "Choose Separator: Space, Comma, None.",
+      "Provides 2 actions: Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Text to Binary Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -14438,6 +16228,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Text to Binary Converter?",
+        "a": "You can choose Separator. The result is calculated right on the page."
       }
     ]
   },
@@ -14445,7 +16239,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "text-to-handwriting",
     "name": "Text to Handwriting Converter",
     "category": "Text Processing",
-    "description": "Text to Handwriting ConverterConvert text to realistic handwriting online. 12 handwriting fonts, ruled paper, ink colours and natural letter variation. Download PDF or PNG. Free.",
+    "description": "Convert text to realistic handwriting online. 12 handwriting fonts, ruled paper, ink colours and natural letter variation. Download PDF or PNG. Free.",
     "engine": "text-suite",
     "keywords": [
       "text",
@@ -14455,11 +16249,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "text to handwriting"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 5 inputs: Text to write by hand, Ink colour, Paper colour, Letter size and Letter spacing.",
+      "Choose between Handwriting font (8 values) and Paper type (3 values).",
+      "Provides 7 actions: New variation, Copy text, Clear, Download PNG and 3 more.",
+      "Copy, download or print the result with Copy text, Download PNG and Download PDF.",
+      "Works with PDF, PNG."
     ],
     "faqs": [
       {
@@ -14473,6 +16267,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Text to Handwriting Converter handle?",
+        "a": "It handles PDF, PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -14480,7 +16278,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "text-to-hex",
     "name": "Text to Hex Converter",
     "category": "Encoding",
-    "description": "Text to Hex ConverterConvert text to hex instantly. UTF-8 bytes as hexadecimal with spaces, no separator or 0x prefix, upper or lower case, plus a per-character table. Free.",
+    "description": "Convert text to hex instantly. UTF-8 bytes as hexadecimal with spaces, no separator or 0x prefix, upper or lower case, plus a per-character table. Free.",
     "engine": "text-suite",
     "keywords": [
       "text",
@@ -14490,11 +16288,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "text to hex"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Text to encode and Hex output.",
+      "Choose Format: Spaced, No separator, 0x prefix.",
+      "Provides 4 actions: Copy, Download, Uppercase, Lowercase.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Text to Hex Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -14508,6 +16306,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Text to Hex Converter?",
+        "a": "You can choose Format. The result is calculated right on the page."
       }
     ]
   },
@@ -14515,7 +16317,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "thanksgiving-bingo",
     "name": "Thanksgiving Bingo Cards",
     "category": "Productivity",
-    "description": "Thanksgiving Bingo CardsFree printable Thanksgiving bingo cards: unique cards with 46 Thanksgiving words, autumn colours and a caller. Make 1 to 1,000 cards, PDF 1, 2 or 4 per page.",
+    "description": "Free printable Thanksgiving bingo cards: unique cards with 46 Thanksgiving words, autumn colours and a caller. Make 1 to 1,000 cards, PDF 1, 2 or 4 per page.",
     "engine": "randomizers-games",
     "keywords": [
       "thanksgiving",
@@ -14525,11 +16327,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "thanksgiving bingo"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: New card.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Thanksgiving Bingo Cards never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -14543,6 +16345,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Thanksgiving Bingo Cards handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -14550,7 +16356,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "thanksgiving-countdown",
     "name": "Thanksgiving Countdown",
     "category": "Productivity",
-    "description": "Thanksgiving CountdownHow many days until Thanksgiving? Live countdown to the fourth Thursday of November, with Canadian Thanksgiving, weeks and weekdays left, and future dates.",
+    "description": "How many days until Thanksgiving? Live countdown to the fourth Thursday of November, with Canadian Thanksgiving, weeks and weekdays left, and future dates.",
     "engine": "time-calendar",
     "keywords": [
       "thanksgiving",
@@ -14559,11 +16365,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "thanksgiving countdown"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs entirely in your browser - Thanksgiving Countdown never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -14577,6 +16382,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Thanksgiving Countdown?",
+        "a": "Press \"Current Time\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -14584,7 +16393,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "tiff-to-jpg",
     "name": "TIFF to JPG Converter",
     "category": "Design",
-    "description": "TIFF to JPG ConverterConvert TIFF to JPG in your browser, including every page of multi-page TIFFs from scanners and fax. Set quality, resize and download a ZIP. Free, no upload.",
+    "description": "Open a TIFF scan in your browser and download it as a JPG. Choose the target format, preview the scan and save the picture. Free, no upload.",
     "engine": "image-suite",
     "keywords": [
       "tiff",
@@ -14594,11 +16403,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "tiff to jpg"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a TIFF scan.",
+      "Works with TIFF, JPG.",
+      "Runs entirely in your browser - TIFF to JPG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -14612,6 +16421,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does TIFF to JPG Converter handle?",
+        "a": "It handles TIFF, JPG, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -14619,7 +16432,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "tile-calculator",
     "name": "Tile Calculator",
     "category": "Calculators",
-    "description": "Tile CalculatorCalculate how many floor or wall tiles you need from the area, tile size and grout width, with extra for cuts. Get boxes and cost too. Free, inches or cm.",
+    "description": "Calculate how many floor or wall tiles you need from the area, tile size and grout width, with extra for cuts. Get boxes and cost too. Free, inches or cm.",
     "engine": "calculator-suite",
     "keywords": [
       "tile",
@@ -14628,11 +16441,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "tile calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 6 text inputs: Floor area (sq ft), Tile length (in), Tile width (in), Grout width (in), Waste / cuts (%) and Cost per sq ft.",
+      "Runs entirely in your browser - Tile Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -14646,6 +16458,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Tile Calculator need as input?",
+        "a": "You enter your data in Floor area (sq ft), Tile length (in), Tile width (in), Grout width (in), Waste / cuts (%) and Cost per sq ft. Nothing else is required."
       }
     ]
   },
@@ -14653,7 +16469,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "time-calculator",
     "name": "Time Calculator",
     "category": "Calculators",
-    "description": "Time CalculatorAdd and subtract hours and minutes, total up a list of times, or add a duration to a clock time. Results in h:mm, decimal hours and minutes. Free and instant.",
+    "description": "Add and subtract hours and minutes, total up a list of times, or add a duration to a clock time. Results in h:mm, decimal hours and minutes. Free and instant.",
     "engine": "calculator-suite",
     "keywords": [
       "time",
@@ -14662,11 +16478,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "time calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Times to total, Add hours and Add minutes.",
+      "Runs entirely in your browser - Time Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -14680,6 +16495,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Time Calculator need as input?",
+        "a": "You enter your data in Times to total, Add hours and Add minutes. Nothing else is required."
       }
     ]
   },
@@ -14687,7 +16506,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "time-card-calculator",
     "name": "Time Card Calculator",
     "category": "Calculators",
-    "description": "Time Card CalculatorFree weekly time card calculator: clock-in and clock-out times with breaks, overnight shifts, overtime and pay, rounding, and CSV export.",
+    "description": "Free weekly time card calculator: clock-in and clock-out times with breaks, overnight shifts, overtime and pay, rounding, and CSV export.",
     "engine": "calculator-suite",
     "keywords": [
       "time",
@@ -14697,11 +16516,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "time card calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Shifts (in-out), Hourly rate and Overtime after (h/day).",
+      "Works with CSV.",
+      "Runs entirely in your browser - Time Card Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -14715,6 +16534,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Time Card Calculator handle?",
+        "a": "It handles CSV. The processing happens entirely in your browser."
       }
     ]
   },
@@ -14722,7 +16545,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "time-zone-converter",
     "name": "Time Zone Converter",
     "category": "Productivity",
-    "description": "Time Zone ConverterCompare current and nearby times across multiple time zones with city clocks and a time slider. Free online time zone converter with daylight saving handled.",
+    "description": "Compare current and nearby times across multiple time zones with city clocks and a time slider. Free online time zone converter with daylight saving handled.",
     "engine": "time-calendar",
     "keywords": [
       "time",
@@ -14732,11 +16555,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "time zone converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Date and Time.",
+      "Choose between From time zone (8 values) and To time zone (8 values).",
+      "Runs one action: Copy the converted time.",
+      "Copy, download or print the result with Copy the converted time.",
+      "Runs entirely in your browser - Time Zone Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -14750,6 +16573,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Time Zone Converter?",
+        "a": "Press \"Current Time\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "Which settings can I choose in Time Zone Converter?",
+        "a": "You can choose From time zone and To time zone. The result is calculated right on the page."
       }
     ]
   },
@@ -14757,7 +16588,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "title-case-converter",
     "name": "Title Case Converter",
     "category": "Text Processing",
-    "description": "Title Case ConverterCapitalize The First Letter Of Every Word, perfect for headlines, titles, and headings. One click, in your browser.",
+    "description": "Capitalize The First Letter Of Every Word, perfect for headlines, titles, and headings. One click, in your browser.",
     "engine": "text-suite",
     "keywords": [
       "title",
@@ -14767,11 +16598,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "title case converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Type or paste your text here.",
+      "Provides 10 actions: Copy, Clear, UPPERCASE, lowercase and 6 more.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Title Case Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -14785,6 +16616,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Title Case Converter need as input?",
+        "a": "You enter your data in Type or paste your text here. Nothing else is required."
       }
     ]
   },
@@ -14792,7 +16627,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "token-counter",
     "name": "Token Counter",
     "category": "Coding",
-    "description": "Token CounterCount tokens in text with local tokenizers and compare estimates across popular AI models like GPT, Claude, and Llama. Free and private, no API key needed.",
+    "description": "Count tokens in text with local tokenizers and compare estimates across popular AI models like GPT, Claude, and Llama. Free and private, no API key needed.",
     "engine": "text-suite",
     "keywords": [
       "token",
@@ -14801,11 +16636,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "token counter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste a prompt or text to count tokens.",
+      "Choose Model: GPT-4 / GPT-4o (exact), GPT-5 / o-series (exact), Claude (estimate), Gemini (estimate) and 1 more.",
+      "Provides 2 actions: Clear, Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Token Counter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -14819,6 +16654,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Token Counter?",
+        "a": "You can choose Model. The result is calculated right on the page."
       }
     ]
   },
@@ -14835,11 +16674,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "toon to json"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Paste TOON notation here... and Converted result will appear here....",
+      "Provides 3 actions: Mode: TOON → JSON, Copy Output, Download.",
+      "Copy, download or print the result with Copy Output and Download.",
+      "Works with JSON.",
+      "Runs entirely in your browser - TOON to JSON never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -14853,6 +16692,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does TOON to JSON handle?",
+        "a": "It handles JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -14860,7 +16703,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "transparent-background-maker",
     "name": "Transparent Background Maker",
     "category": "Design",
-    "description": "Transparent Background MakerRemove a photo&#x27;s background and export a transparent PNG for product pictures, profile images, and design layouts.",
+    "description": "Make the background of a photo transparent: the colour of the border of the picture is treated as the background and removed, then the cutout is exported as a transparent PNG for product pictures and design layouts.",
     "engine": "image-suite",
     "keywords": [
       "transparent",
@@ -14870,11 +16713,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "transparent background maker"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with PNG.",
+      "Runs entirely in your browser - Transparent Background Maker never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -14888,6 +16731,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Transparent Background Maker handle?",
+        "a": "It handles PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -14895,7 +16742,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "transparent-qr-code-generator",
     "name": "Transparent QR Code Generator",
     "category": "Design",
-    "description": "Transparent QR Code GeneratorCreate a URL QR code with a transparent background for use in a design, slide, or document, then download a PNG or SVG. Free and no signup required.",
+    "description": "Create a URL QR code with a transparent background for use in a design, slide, or document, then download a PNG or SVG. Free and no signup required.",
     "engine": "qr-barcode",
     "keywords": [
       "transparent",
@@ -14905,11 +16752,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "transparent qr code generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: https://yourwebsite.com or text....",
+      "Provides 5 actions: L (7%), M (15%), Q (25%), H (30%) and 1 more.",
+      "Copy, download or print the result with Download PNG Image.",
+      "Works with PNG, SVG.",
+      "Runs entirely in your browser - Transparent QR Code Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -14923,6 +16770,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Transparent QR Code Generator handle?",
+        "a": "It handles PNG, SVG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -14940,11 +16791,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "tsv to json"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste CSV or TSV data here... and Converted output will appear here....",
+      "Choose Delimiter:: Comma (,), Tab (\\t), Semicolon (;), Pipe (|) and 1 more.",
+      "Provides 5 actions: TSV → JSON, JSON Output, Table, Copy and 1 more.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with TSV, JSON."
     ],
     "faqs": [
       {
@@ -14958,6 +16809,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does TSV to JSON Converter handle?",
+        "a": "It handles TSV, JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -14965,7 +16820,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "twitch-username-generator",
     "name": "Twitch Username Generator",
     "category": "Text Processing",
-    "description": "Twitch Username GeneratorGenerate a memorable Twitch username for your streaming channel with letters, numbers, or underscores, then save your shortlist. Free and client-side.",
+    "description": "Generate a memorable Twitch username for your streaming channel with letters, numbers, or underscores, then save your shortlist. Free and client-side.",
     "engine": "randomizers-games",
     "keywords": [
       "twitch",
@@ -14975,11 +16830,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "twitch username generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Your own word.",
+      "Choose Style: _, without a separator.",
+      "Provides 10 actions: Generate names, Hidden_Wolf, Fearless_Falconer, Happy_Tiger214 and 6 more.",
+      "Runs entirely in your browser - Twitch Username Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -14993,6 +16848,18 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Twitch Username Generator need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
+      },
+      {
+        "q": "How do I use Twitch Username Generator?",
+        "a": "Press \"Generate names\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "Which settings can I choose in Twitch Username Generator?",
+        "a": "You can choose Style. The result is calculated right on the page."
       }
     ]
   },
@@ -15000,7 +16867,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "unix-timestamp-converter",
     "name": "Unix Timestamp Converter",
     "category": "Data Formats",
-    "description": "Unix Timestamp ConverterConvert Unix timestamps to human-readable dates in UTC or local time, and turn dates back into numeric timestamps. Free online Unix timestamp converter.",
+    "description": "Convert Unix timestamps to human-readable dates in UTC or local time, and turn dates back into numeric timestamps. Free online Unix timestamp converter.",
     "engine": "time-calendar",
     "keywords": [
       "unix",
@@ -15010,11 +16877,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "unix timestamp converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: Current Time.",
+      "Runs entirely in your browser - Unix Timestamp Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -15028,14 +16895,18 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Unix Timestamp Converter?",
+        "a": "Press \"Current Time\" to run the tool and read the result directly on the page."
       }
     ]
   },
   {
     "slug": "timestamp-converter-generator",
-    "name": "Unix Timestamp Generator &amp; Converter",
+    "name": "Unix Timestamp Generator & Converter",
     "category": "Data Formats",
-    "description": "Unix Timestamp Generator &amp; ConverterConvert between Unix timestamps and human-readable dates. Generate current timestamps, convert to different timezones, and understand epoch time.",
+    "description": "Convert between Unix timestamps and human-readable dates. Generate current timestamps, convert to different timezones, and understand epoch time.",
     "engine": "time-calendar",
     "keywords": [
       "unix",
@@ -15047,16 +16918,16 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "timestamp converter generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: Current Time.",
+      "Runs entirely in your browser - Unix Timestamp Generator & Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
-        "q": "Is this Unix Timestamp Generator &amp; Converter tool free to use?",
-        "a": "Yes, Unix Timestamp Generator &amp; Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "q": "Is this Unix Timestamp Generator & Converter tool free to use?",
+        "a": "Yes, Unix Timestamp Generator & Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15065,6 +16936,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Unix Timestamp Generator & Converter?",
+        "a": "Press \"Current Time\" to run the tool and read the result directly on the page."
       }
     ]
   },
@@ -15072,7 +16947,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "upc-barcode-generator",
     "name": "UPC Barcode Generator",
     "category": "Design",
-    "description": "UPC Barcode GeneratorCreate UPC-A and UPC-E barcodes for retail products. The check digit is calculated or verified for you; download print-ready PNG or SVG at 100% size. Free.",
+    "description": "Create UPC-A and UPC-E barcodes for retail products. The check digit is calculated or verified for you; download print-ready PNG or SVG at 100% size. Free.",
     "engine": "qr-barcode",
     "keywords": [
       "upc",
@@ -15082,11 +16957,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "upc barcode generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Enter numbers or text....",
+      "Choose Barcode Format: Code 128 (Universal), EAN-13 (13 digits), UPC (12 digits), Code 39 (Alphanumeric).",
+      "Runs one action: Download Barcode SVG.",
+      "Copy, download or print the result with Download Barcode SVG.",
+      "Works with PNG, SVG."
     ],
     "faqs": [
       {
@@ -15100,6 +16975,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does UPC Barcode Generator handle?",
+        "a": "It handles PNG, SVG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -15107,7 +16986,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "uppercase-converter",
     "name": "Uppercase Converter",
     "category": "Text Processing",
-    "description": "Uppercase ConverterConvert any text to UPPERCASE instantly: paste, click, copy. Selection-aware, with live text statistics.",
+    "description": "Convert any text to UPPERCASE instantly: paste, click, copy. Selection-aware, with live text statistics.",
     "engine": "text-suite",
     "keywords": [
       "uppercase",
@@ -15116,11 +16995,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "uppercase converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Type or paste your text here.",
+      "Provides 10 actions: Copy, Clear, UPPERCASE, lowercase and 6 more.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Uppercase Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -15134,6 +17013,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Uppercase Converter need as input?",
+        "a": "You enter your data in Type or paste your text here. Nothing else is required."
       }
     ]
   },
@@ -15141,7 +17024,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "upside-down-text-generator",
     "name": "Upside Down Text Generator",
     "category": "Text Processing",
-    "description": "Upside Down Text GeneratorFlip text upside down and copy it anywhere: letters, numbers and punctuation rotated 180°, with an option to keep the order. Paste flipped text to restore it.",
+    "description": "Flip text upside down and copy it anywhere: letters, numbers and punctuation rotated 180°, with an option to keep the order. Paste flipped text to restore it.",
     "engine": "text-suite",
     "keywords": [
       "upside",
@@ -15152,11 +17035,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "upside down text generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Your text, Flipped result and Restored original.",
+      "Provides 3 actions: Copy, Download, Restore flipped text.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Upside Down Text Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -15170,6 +17053,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Upside Down Text Generator need as input?",
+        "a": "You enter your data in Your text, Flipped result and Restored original. Nothing else is required."
       }
     ]
   },
@@ -15177,7 +17064,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "url-decoder",
     "name": "URL Decoder",
     "category": "Encoding",
-    "description": "URL DecoderDecode percent-encoded URL text and query strings back into readable characters. Free online URL decoder with instant results and private, local processing.",
+    "description": "Decode percent-encoded URL text and query strings back into readable characters. Free online URL decoder with instant results and private, local processing.",
     "engine": "encoding-converters",
     "keywords": [
       "url",
@@ -15186,11 +17073,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "url decoder"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (URL-encoded) and Output (Text).",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - URL Decoder never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -15204,6 +17091,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does URL Decoder need as input?",
+        "a": "You enter your data in Input (URL-encoded) and Output (Text). Nothing else is required."
       }
     ]
   },
@@ -15211,7 +17102,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "url-encoder",
     "name": "URL Encoder",
     "category": "Encoding",
-    "description": "URL EncoderPercent-encode URL text and query strings with selectable encoding behavior for components or full URLs. Free online URL encoder that runs in your browser.",
+    "description": "Percent-encode URL text and query strings with selectable encoding behavior for components or full URLs. Free online URL encoder that runs in your browser.",
     "engine": "encoding-converters",
     "keywords": [
       "url",
@@ -15220,11 +17111,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "url encoder"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (Text) and Output (URL-encoded).",
+      "Runs one action: Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - URL Encoder never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -15238,6 +17129,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does URL Encoder need as input?",
+        "a": "You enter your data in Input (Text) and Output (URL-encoded). Nothing else is required."
       }
     ]
   },
@@ -15245,7 +17140,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "url-encoder-decoder",
     "name": "URL Encoder/Decoder",
     "category": "Encoding",
-    "description": "URL Encoder/DecoderEncode and decode URLs with support for component-level and full URL encoding. Perfect for web development and SEO optimization.",
+    "description": "Encode and decode URLs with support for component-level and full URL encoding. Perfect for web development and SEO optimization.",
     "engine": "encoding-converters",
     "keywords": [
       "url",
@@ -15255,11 +17150,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "url encoder decoder"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Input (Text) and Output (URL-encoded).",
+      "Provides 2 actions: Switch Direction (Forward), Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - URL Encoder/Decoder never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -15273,6 +17168,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does URL Encoder/Decoder need as input?",
+        "a": "You enter your data in Input (Text) and Output (URL-encoded). Nothing else is required."
       }
     ]
   },
@@ -15280,7 +17179,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "url-to-qr-code",
     "name": "URL to QR Code",
     "category": "Design",
-    "description": "URL to QR CodeTurn a website URL into a downloadable QR code with adjustable colors and size, then save it as PNG or SVG. Free URL to QR code generator that never expires.",
+    "description": "Turn a website URL into a downloadable QR code with adjustable colors and size, then save it as PNG or SVG. Free URL to QR code generator that never expires.",
     "engine": "qr-barcode",
     "keywords": [
       "url",
@@ -15289,11 +17188,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "url to qr code"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: https://yourwebsite.com or text....",
+      "Provides 5 actions: L (7%), M (15%), Q (25%), H (30%) and 1 more.",
+      "Copy, download or print the result with Download PNG Image.",
+      "Works with PNG, SVG.",
+      "Runs entirely in your browser - URL to QR Code never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -15307,6 +17206,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does URL to QR Code handle?",
+        "a": "It handles PNG, SVG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -15314,7 +17217,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "username-generator",
     "name": "Username Generator",
     "category": "Text Processing",
-    "description": "Username GeneratorGenerate a username with your own word or explore random ideas. Choose a style, save favorites and copy your shortlist. Free and processed in your browser.",
+    "description": "Generate a username with your own word or explore random ideas. Choose a style, save favorites and copy your shortlist. Free and processed in your browser.",
     "engine": "randomizers-games",
     "keywords": [
       "username",
@@ -15323,11 +17226,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "username generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Your own word.",
+      "Choose Style: _, without a separator.",
+      "Provides 10 actions: Generate names, Electric_Panther220, Amber_Lynx636, Deep_Thunder and 6 more.",
+      "Runs entirely in your browser - Username Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -15341,6 +17244,18 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Username Generator need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
+      },
+      {
+        "q": "How do I use Username Generator?",
+        "a": "Press \"Generate names\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "Which settings can I choose in Username Generator?",
+        "a": "You can choose Style. The result is calculated right on the page."
       }
     ]
   },
@@ -15348,7 +17263,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "uuid-generator",
     "name": "UUID Generator",
     "category": "Data Formats",
-    "description": "UUID GeneratorGenerate universally unique identifiers with support for different versions and bulk generation.",
+    "description": "Generate universally unique identifiers with support for different versions and bulk generation.",
     "engine": "uuid",
     "keywords": [
       "uuid",
@@ -15357,11 +17272,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "uuid generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 numeric value: Quantity (1 - 500).",
+      "Choose between Version (4 values) and Format (4 values).",
+      "Provides 3 actions: Generate New UUIDs, Copy All, Download.",
+      "Copy, download or print the result with Copy All and Download.",
+      "Runs entirely in your browser - UUID Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -15375,6 +17290,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in UUID Generator?",
+        "a": "You can choose Version and Format. The result is calculated right on the page."
       }
     ]
   },
@@ -15382,7 +17301,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "uuid-v4-generator",
     "name": "UUID v4 Generator",
     "category": "Data Formats",
-    "description": "UUID v4 GeneratorGenerate random UUID v4 identifiers instantly, single or bulk up to 1000, in standard, compact, braces, or URN format.",
+    "description": "Generate random UUID v4 identifiers instantly, single or bulk up to 1000, in standard, compact, braces, or URN format.",
     "engine": "uuid",
     "keywords": [
       "uuid",
@@ -15391,11 +17310,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "uuid v4 generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 numeric value: Quantity (1 - 500).",
+      "Choose between Version (4 values) and Format (4 values).",
+      "Provides 3 actions: Generate New UUIDs, Copy All, Download.",
+      "Copy, download or print the result with Copy All and Download.",
+      "Runs entirely in your browser - UUID v4 Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -15409,6 +17328,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in UUID v4 Generator?",
+        "a": "You can choose Version and Format. The result is calculated right on the page."
       }
     ]
   },
@@ -15416,7 +17339,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "uuid-v7-generator",
     "name": "UUID v7 Generator",
     "category": "Data Formats",
-    "description": "UUID v7 GeneratorGenerate time-ordered UUID v7 identifiers: sortable, database-friendly, RFC 9562 compliant. Single or bulk up to 1000.",
+    "description": "Generate time-ordered UUID v7 identifiers: sortable, database-friendly, RFC 9562 compliant. Single or bulk up to 1000.",
     "engine": "uuid",
     "keywords": [
       "uuid",
@@ -15425,11 +17348,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "uuid v7 generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 numeric value: Quantity (1 - 500).",
+      "Choose between Version (4 values) and Format (4 values).",
+      "Provides 3 actions: Generate New UUIDs, Copy All, Download.",
+      "Copy, download or print the result with Copy All and Download.",
+      "Runs entirely in your browser - UUID v7 Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -15443,6 +17366,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in UUID v7 Generator?",
+        "a": "You can choose Version and Format. The result is calculated right on the page."
       }
     ]
   },
@@ -15450,7 +17377,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "variance-calculator",
     "name": "Variance Calculator",
     "category": "Calculators",
-    "description": "Variance CalculatorFree variance calculator: paste a data set to get sample variance (s²) and population variance (σ²), the sum of squares and standard deviation, with steps.",
+    "description": "Free variance calculator: paste a data set to get sample variance (s²) and population variance (σ²), the sum of squares and standard deviation, with steps.",
     "engine": "calculator-suite",
     "keywords": [
       "variance",
@@ -15459,11 +17386,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "variance calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: 12, 15, 23, 27, 34.",
+      "Runs entirely in your browser - Variance Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -15477,28 +17403,32 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Variance Calculator need as input?",
+        "a": "You enter your data in 12, 15, 23, 27, 34. Nothing else is required."
       }
     ]
   },
   {
     "slug": "video-to-gif",
     "name": "Video to GIF Converter",
-    "category": "Video &amp; Audio",
-    "description": "Video to GIF ConverterTurn MP4, MOV or WebM clips into GIFs in your browser. Trim, set frame rate, width and speed, preview and download. No upload, no watermark, completely free.",
+    "category": "Video & Audio",
+    "description": "Turn MP4, MOV or WebM clips into animated GIFs in your browser. Set the frame count, the frame rate, the trim range and the output width, preview the clip and download the GIF. No upload, no watermark, completely free.",
     "engine": "image-suite",
     "keywords": [
       "video",
       "gif",
       "converter",
-      "video &amp; audio",
+      "video & audio",
       "video to gif"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a video clip.",
+      "Works with MP4, MOV, GIF.",
+      "Runs entirely in your browser - Video to GIF Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -15512,6 +17442,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Video to GIF Converter handle?",
+        "a": "It handles MP4, MOV. The processing happens entirely in your browser."
       }
     ]
   },
@@ -15519,7 +17453,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "vlsm-calculator",
     "name": "VLSM Calculator",
     "category": "Coding",
-    "description": "VLSM CalculatorPlan subnets of different sizes with VLSM: enter a network and the hosts each subnet needs to get networks, masks, host ranges and broadcasts, largest first.",
+    "description": "Plan subnets of different sizes with VLSM: enter a network and the hosts each subnet needs to get networks, masks, host ranges and broadcasts, largest first.",
     "engine": "networking-tools",
     "keywords": [
       "vlsm",
@@ -15528,11 +17462,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "vlsm calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Base Network, e.g. 100 and e.g. 100.",
+      "Choose CIDR Prefix (/24): /0, /1, /2, /3 and 4 more.",
+      "Runs one action: Add Subnet.",
+      "Runs entirely in your browser - VLSM Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -15546,6 +17480,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in VLSM Calculator?",
+        "a": "You can choose CIDR Prefix (/24). The result is calculated right on the page."
       }
     ]
   },
@@ -15553,7 +17491,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "water-intake-calculator",
     "name": "Water Intake Calculator",
     "category": "Calculators",
-    "description": "Water Intake CalculatorEstimate how much water to drink a day from your weight, exercise and climate, in ounces, litres, cups and bottles. Free and private, with the formula shown.",
+    "description": "Estimate how much water to drink a day from your weight, exercise and climate, in ounces, litres, cups and bottles. Free and private, with the formula shown.",
     "engine": "calculator-suite",
     "keywords": [
       "water",
@@ -15563,11 +17501,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "water intake calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Body weight and Exercise (min/day).",
+      "Choose between Unit (2 values) and Climate (3 values).",
+      "Runs entirely in your browser - Water Intake Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -15581,28 +17519,32 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Water Intake Calculator?",
+        "a": "You can choose Unit and Climate. The result is calculated right on the page."
       }
     ]
   },
   {
     "slug": "wav-to-mp3",
     "name": "WAV to MP3 Converter",
-    "category": "Video &amp; Audio",
-    "description": "WAV to MP3 ConverterConvert WAV to MP3 in your browser at 128–320 kbps, stereo or mono, with trimming and batch ZIP download. Shrink audio by 90%. Free, no upload, no limits.",
+    "category": "Video & Audio",
+    "description": "Convert a WAV recording to a real MP3 file in your browser. The samples are decoded locally and re-encoded with the LAME encoder at 192 kbps and 44.1 kHz, so the MP3 is much smaller than the WAV it came from. No upload, no sign-up.",
     "engine": "media-audio-video",
     "keywords": [
       "wav",
       "mp3",
       "converter",
-      "video &amp; audio",
+      "video & audio",
       "wav to mp3"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Select a media file.",
+      "Choose Convert to: MP3 - MPEG audio, MP4 - H.264 video, WAV - uncompressed PCM, WebM - VP8 video and 1 more.",
+      "Provides 2 actions: Convert now, Clear.",
+      "Works with WAV, MP3.",
+      "Runs entirely in your browser - WAV to MP3 Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -15616,6 +17558,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does WAV to MP3 Converter handle?",
+        "a": "It reads WAV files and writes an MP3 file. Decoding, encoding and the download all happen in your browser."
       }
     ]
   },
@@ -15623,7 +17569,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "webcam-test",
     "name": "Webcam Test",
     "category": "Device Tests",
-    "description": "Webcam TestTest your webcam online: live preview, real resolution, measured FPS, supported resolutions, lighting check, photo and clip. Free, private, nothing uploaded.",
+    "description": "Test your webcam online: a live preview of the camera in your browser, with the video kept on your device. Free, private, nothing uploaded.",
     "engine": "device-tester",
     "keywords": [
       "webcam",
@@ -15632,11 +17578,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "webcam test"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs one action: Start Camera Test.",
+      "Runs entirely in your browser - Webcam Test never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -15650,27 +17596,31 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use Webcam Test?",
+        "a": "Press \"Start Camera Test\" to run the tool and read the result directly on the page."
       }
     ]
   },
   {
     "slug": "webm-converter",
     "name": "WebM Converter",
-    "category": "Video &amp; Audio",
-    "description": "WebM ConverterConvert WebM files into MP4 with local processing and a downloadable result, so your video never leaves your device. Free online WebM converter, no signup.",
+    "category": "Video & Audio",
+    "description": "Convert a WebM video to a real MP4 file, or take its sound out as MP3 or WAV. The browser decodes the file and writes the target format itself, so your video never leaves the device. Free, no upload, no sign-up.",
     "engine": "media-audio-video",
     "keywords": [
       "webm",
       "converter",
-      "video &amp; audio",
+      "video & audio",
       "webm converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Select a media file.",
+      "Choose Convert to: MP3 - MPEG audio, MP4 - H.264 video, WAV - uncompressed PCM, WebM - VP8 video and 1 more.",
+      "Provides 2 actions: Convert now, Clear.",
+      "Works with MP4, MP3, WAV.",
+      "Runs entirely in your browser - WebM Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -15684,27 +17634,31 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does WebM Converter handle?",
+        "a": "It reads WebM videos and writes an MP4, MP3 or WAV file. Everything happens in your browser."
       }
     ]
   },
   {
     "slug": "webm-to-mp4",
     "name": "WebM to MP4",
-    "category": "Video &amp; Audio",
-    "description": "WebM to MP4Convert a WebM video to MP4 locally in your browser, then download the result. Free online WebM to MP4 converter with no uploads, signup, or watermark.",
+    "category": "Video & Audio",
+    "description": "Convert a WebM video to a real MP4 file in your browser. The browser decodes the picture and the sound and records them again as MP4 with H.264 video and AAC sound. Free, no upload, no sign-up.",
     "engine": "media-audio-video",
     "keywords": [
       "webm",
       "mp4",
-      "video &amp; audio",
+      "video & audio",
       "webm to mp4"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Select a media file.",
+      "Choose Convert to: MP3 - MPEG audio, MP4 - H.264 video, WAV - uncompressed PCM, WebM - VP8 video and 1 more.",
+      "Provides 2 actions: Convert now, Clear.",
+      "Works with MP4.",
+      "Runs entirely in your browser - WebM to MP4 never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -15718,28 +17672,32 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does WebM to MP4 handle?",
+        "a": "It reads WebM videos and writes an MP4 file. The recording happens in your browser."
       }
     ]
   },
   {
     "slug": "webm-to-mp4-converter",
     "name": "WebM to MP4 Converter",
-    "category": "Video &amp; Audio",
-    "description": "WebM to MP4 ConverterConvert WebM to MP4 for free. 100% client-side local conversion using WebAssembly for ultimate privacy.",
+    "category": "Video & Audio",
+    "description": "Convert a WebM video to a real MP4 file, entirely in your browser. The browser decodes the picture and the sound and records them again as MP4 with H.264 video and AAC sound. Free, no upload, no sign-up, no watermark.",
     "engine": "media-audio-video",
     "keywords": [
       "webm",
       "mp4",
       "converter",
-      "video &amp; audio",
+      "video & audio",
       "webm to mp4 converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Select a media file.",
+      "Choose Convert to: MP3 - MPEG audio, MP4 - H.264 video, WAV - uncompressed PCM, WebM - VP8 video and 1 more.",
+      "Provides 2 actions: Convert now, Clear.",
+      "Works with MP4.",
+      "Runs entirely in your browser - WebM to MP4 Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -15753,6 +17711,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does WebM to MP4 Converter handle?",
+        "a": "It reads WebM videos and writes an MP4 file. The recording happens in your browser."
       }
     ]
   },
@@ -15760,7 +17722,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "webp-converter",
     "name": "WebP Converter",
     "category": "Design",
-    "description": "WebP ConverterConvert JPG, PNG to WebP and vice versa. 100% browser-based batch image processing with quality control.",
+    "description": "Convert JPG and PNG images to WebP and back again. Choose the target format, set the quality and the output size. 100% browser-based, nothing is uploaded.",
     "engine": "image-suite",
     "keywords": [
       "webp",
@@ -15769,11 +17731,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "webp converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with JPG, PNG.",
+      "Runs entirely in your browser - WebP Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -15787,6 +17749,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does WebP Converter handle?",
+        "a": "It handles JPG, PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -15794,7 +17760,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "webp-to-gif",
     "name": "WebP to GIF Converter",
     "category": "Design",
-    "description": "WebP to GIF ConverterConvert animated WebP to GIF in your browser, keeping frame timing and transparency, or save a still WebP as GIF, PNG or JPG. Free, no upload, no watermark.",
+    "description": "Convert animated WebP to GIF in your browser, keeping frame timing and transparency, or save a still WebP as GIF, PNG or JPG. Free, no upload, no watermark.",
     "engine": "image-suite",
     "keywords": [
       "webp",
@@ -15804,11 +17770,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "webp to gif"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with GIF, PNG, JPG.",
+      "Runs entirely in your browser - WebP to GIF Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -15822,6 +17788,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does WebP to GIF Converter handle?",
+        "a": "It handles GIF, PNG, JPG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -15829,7 +17799,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "webp-to-ico",
     "name": "WebP to ICO Converter",
     "category": "Design",
-    "description": "WebP to ICO ConverterConvert WebP images to ICO icons and favicons. Transparency kept, sizes from 16 to 256 px in one file, padding and rounded corners. Runs in your browser.",
+    "description": "Convert WebP images to ICO icons and favicons. Transparency kept, sizes from 16 to 256 px in one file, padding and rounded corners. Runs in your browser.",
     "engine": "image-suite",
     "keywords": [
       "webp",
@@ -15839,11 +17809,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "webp to ico"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with ICO.",
+      "Runs entirely in your browser - WebP to ICO Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -15857,6 +17827,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does WebP to ICO Converter handle?",
+        "a": "It handles ICO. The processing happens entirely in your browser."
       }
     ]
   },
@@ -15864,7 +17838,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "webp-to-jpg-converter",
     "name": "WebP to JPG Converter",
     "category": "Design",
-    "description": "WebP to JPG ConverterConvert WebP images to universally supported JPG files with adjustable quality. 100% in your browser, no uploads.",
+    "description": "Convert WebP images to universally supported JPG files with adjustable quality. Set the output size and download the file. 100% in your browser, no uploads.",
     "engine": "image-suite",
     "keywords": [
       "webp",
@@ -15874,11 +17848,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "webp to jpg converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with JPG.",
+      "Runs entirely in your browser - WebP to JPG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -15892,6 +17866,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does WebP to JPG Converter handle?",
+        "a": "It handles JPG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -15899,7 +17877,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "webp-to-png-converter",
     "name": "WebP to PNG Converter",
     "category": "Design",
-    "description": "WebP to PNG ConverterConvert WebP images to universally compatible PNG files with zero quality loss. 100% in your browser, no uploads.",
+    "description": "Convert WebP images to universally compatible PNG files in your browser. Set the output size and download the file. No uploads.",
     "engine": "image-suite",
     "keywords": [
       "webp",
@@ -15909,11 +17887,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "webp to png converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose a picture.",
+      "Works with PNG.",
+      "Runs entirely in your browser - WebP to PNG Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -15927,6 +17905,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does WebP to PNG Converter handle?",
+        "a": "It handles PNG. The processing happens entirely in your browser."
       }
     ]
   },
@@ -15934,7 +17916,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "weighted-gpa-calculator",
     "name": "Weighted GPA Calculator",
     "category": "Calculators",
-    "description": "Weighted GPA CalculatorFree weighted GPA calculator with your unweighted GPA beside it. Mark Honors (+0.5), AP, IB and dual enrollment (+1.0) classes, or set your school’s own weights.",
+    "description": "Free weighted GPA calculator with your unweighted GPA beside it. Mark Honors (+0.5), AP, IB and dual enrollment (+1.0) classes, or set your school’s own weights.",
     "engine": "calculator-suite",
     "keywords": [
       "weighted",
@@ -15944,11 +17926,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "weighted gpa calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 8 inputs: Course 1 name, Mathematics credits, Course 2 name, Physics credits, Course 3 name, History credits, Course 4 name and Literature credits.",
+      "Choose between Mathematics weighting (3 values) and Mathematics grade (8 values).",
+      "Runs one action: + Add course.",
+      "Runs entirely in your browser - Weighted GPA Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -15962,6 +17944,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Weighted GPA Calculator?",
+        "a": "You can choose Mathematics weighting, Mathematics grade, Physics weighting, Physics grade, History weighting, History grade, Literature weighting and Literature grade. The result is calculated right on the page."
       }
     ]
   },
@@ -15969,7 +17955,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "weighted-grade-calculator",
     "name": "Weighted Grade Calculator",
     "category": "Calculators",
-    "description": "Weighted Grade CalculatorCalculate a weighted grade from categories like homework 20% and exams 50%. Use percent weights or points; weights need not add to 100. Free, private.",
+    "description": "Calculate a weighted grade from categories like homework 20% and exams 50%. Use percent weights or points; weights need not add to 100. Free, private.",
     "engine": "calculator-suite",
     "keywords": [
       "weighted",
@@ -15979,11 +17965,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "weighted grade calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 9 inputs: Category 1, Homework weight, Homework score, Category 2, Midterm weight, Midterm score, Category 3, Final exam weight and Final exam score.",
+      "Runs entirely in your browser - Weighted Grade Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -15997,6 +17982,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Weighted Grade Calculator need as input?",
+        "a": "You enter your data in Category 1, Homework weight, Homework score, Category 2, Midterm weight, Midterm score, Category 3, Final exam weight and Final exam score. Nothing else is required."
       }
     ]
   },
@@ -16004,7 +17993,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "wheel-of-names",
     "name": "Wheel of Names Spinner",
     "category": "Productivity",
-    "description": "Wheel of Names SpinnerFree spinner wheel for classrooms, giveaways and group decisions. Type names, spin, get a winner. No signup, and every name stays in your browser.",
+    "description": "Free spinner wheel for classrooms, giveaways and group decisions. Type names, spin, get a winner. No signup, and every name stays in your browser.",
     "engine": "randomizers-games",
     "keywords": [
       "wheel",
@@ -16014,11 +18003,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "wheel of names"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Names (one per line)Every line becomes a slice of the wheel..",
+      "Provides 2 actions: SPIN THE WHEEL!, Reset the entries.",
+      "Runs entirely in your browser - Wheel of Names Spinner never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -16032,6 +18021,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Wheel of Names Spinner need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
       }
     ]
   },
@@ -16039,7 +18032,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "white-elephant-generator",
     "name": "White Elephant Generator",
     "category": "Productivity",
-    "description": "White Elephant GeneratorFree White Elephant generator: draw a random turn order, then track every gift, steal and frozen gift with undo. Set your own rules. No sign-up or app.",
+    "description": "Free White Elephant generator: draw a random turn order, then track every gift, steal and frozen gift with undo. Set your own rules. No sign-up or app.",
     "engine": "randomizers-games",
     "keywords": [
       "white",
@@ -16049,11 +18042,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "white elephant generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Names (one per line)The first name opens the game and hands out the first present..",
+      "Runs one action: Draw the order.",
+      "Runs entirely in your browser - White Elephant Generator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -16067,6 +18060,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does White Elephant Generator need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
       }
     ]
   },
@@ -16074,7 +18071,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "white-elephant-rules",
     "name": "White Elephant Rules",
     "category": "Productivity",
-    "description": "White Elephant RulesWhite Elephant rules explained step by step: turn order, stealing, the 3-steal freeze and the final swap, plus popular variations and a free tracker.",
+    "description": "White Elephant rules explained step by step: turn order, stealing, the 3-steal freeze and the final swap, plus popular variations and a free tracker.",
     "engine": "randomizers-games",
     "keywords": [
       "white",
@@ -16084,11 +18081,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "white elephant rules"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs entirely in your browser - White Elephant Rules never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -16102,6 +18098,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does White Elephant Rules need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
+      },
+      {
+        "q": "How do I use White Elephant Rules?",
+        "a": "Run the tool on the page and read the result directly below the workspace."
       }
     ]
   },
@@ -16109,7 +18113,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "wifi-qr-code-generator",
     "name": "WiFi QR Code Generator",
     "category": "Productivity",
-    "description": "WiFi QR Code GeneratorCreate a QR code that joins guests to your Wi-Fi in one scan, with a printable card and PNG, SVG and PDF downloads.",
+    "description": "Create a QR code that joins guests to your Wi-Fi in one scan, with a printable card and PNG, SVG and PDF downloads.",
     "engine": "qr-barcode",
     "keywords": [
       "wifi",
@@ -16119,11 +18123,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "wifi qr code generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: https://yourwebsite.com or text....",
+      "Provides 5 actions: L (7%), M (15%), Q (25%), H (30%) and 1 more.",
+      "Copy, download or print the result with Download PNG Image.",
+      "Works with PNG, SVG, PDF.",
+      "Runs entirely in your browser - WiFi QR Code Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -16137,6 +18141,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does WiFi QR Code Generator handle?",
+        "a": "It handles PNG, SVG, PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16144,7 +18152,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "word-counter",
     "name": "Word Counter",
     "category": "Text Processing",
-    "description": "Word CounterCount words, characters, sentences, and paragraphs as you type, with reading time, speaking time, and word frequency analysis.",
+    "description": "Count words, characters, sentences, and paragraphs as you type, with reading time, speaking time, and word frequency analysis.",
     "engine": "text-suite",
     "keywords": [
       "word",
@@ -16153,11 +18161,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "word counter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Type or paste your text here, Meta title and Meta description.",
+      "Provides 2 actions: Clear, Copy.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - Word Counter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -16171,6 +18179,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Word Counter need as input?",
+        "a": "You enter your data in Type or paste your text here, Meta title and Meta description. Nothing else is required."
       }
     ]
   },
@@ -16178,7 +18190,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "word-to-html",
     "name": "Word to HTML Converter",
     "category": "Productivity",
-    "description": "Word to HTML ConverterConvert Word .docx to clean, semantic HTML: headings, lists, tables, links and images, without Word’s inline styles. Preview, copy or download, privately.",
+    "description": "Convert Word .docx to clean, semantic HTML: headings, lists, tables, links and images, without Word’s inline styles. Preview, copy or download, privately.",
     "engine": "text-suite",
     "keywords": [
       "word",
@@ -16188,11 +18200,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "word to html"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose .docx.",
+      "Works with HTML.",
+      "Runs entirely in your browser - Word to HTML Converter never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -16206,6 +18218,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Word to HTML Converter handle?",
+        "a": "It handles HTML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16213,7 +18229,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "word-viewer",
     "name": "Word Viewer",
     "category": "Productivity",
-    "description": "Word ViewerFree online Word viewer for .docx files: read every page with its formatting, check author and word count, copy the text or save as PDF. Nothing is uploaded.",
+    "description": "Free online Word viewer for .docx files: read every page with its formatting, check author and word count, copy the text or save as PDF. Nothing is uploaded.",
     "engine": "text-suite",
     "keywords": [
       "word",
@@ -16222,11 +18238,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "word viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Reads files straight from your device: Choose .docx.",
+      "Works with PDF.",
+      "Runs entirely in your browser - Word Viewer never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -16240,6 +18256,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does Word Viewer handle?",
+        "a": "It handles PDF. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16247,7 +18267,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "world-time-converter",
     "name": "World Time Converter",
     "category": "Productivity",
-    "description": "World Time ConverterVisually convert and compare times across multiple cities securely in your browser. Easily coordinate meetings across timezones with a visual slider.",
+    "description": "Visually convert and compare times across multiple cities securely in your browser. Easily coordinate meetings across timezones with a visual slider.",
     "engine": "time-calendar",
     "keywords": [
       "world",
@@ -16257,11 +18277,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "world time converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 inputs: Date and Time.",
+      "Choose between From time zone (8 values) and To time zone (8 values).",
+      "Runs one action: Copy the converted time.",
+      "Copy, download or print the result with Copy the converted time.",
+      "Runs entirely in your browser - World Time Converter never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -16275,6 +18295,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "How do I use World Time Converter?",
+        "a": "Press \"Current Time\" to run the tool and read the result directly on the page."
+      },
+      {
+        "q": "Which settings can I choose in World Time Converter?",
+        "a": "You can choose From time zone and To time zone. The result is calculated right on the page."
       }
     ]
   },
@@ -16282,7 +18310,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "xlsx-to-csv",
     "name": "XLSX to CSV Converter",
     "category": "Coding",
-    "description": "XLSX to CSV ConverterConvert XLSX to CSV in your browser: pick a sheet or convert all sheets to a ZIP, choose comma, semicolon or tab, keep dates readable. Free, nothing uploaded.",
+    "description": "Convert an XLSX file to CSV in your browser: pick the sheet and the delimiter, and the tool reads the workbook itself - a date cell keeps the format of the workbook. Nothing is uploaded.",
     "engine": "csv-data",
     "keywords": [
       "xlsx",
@@ -16292,11 +18320,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "xlsx to csv"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste CSV or TSV data here... and Converted output will appear here....",
+      "Choose Delimiter:: Comma (,), Tab (\\t), Semicolon (;), Pipe (|) and 1 more.",
+      "Provides 5 actions: CSV → JSON, JSON Output, Table, Copy and 1 more.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with XLSX, CSV."
     ],
     "faqs": [
       {
@@ -16310,6 +18338,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does XLSX to CSV Converter handle?",
+        "a": "It handles XLSX, CSV, ZIP. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16317,7 +18349,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "xlsx-viewer",
     "name": "XLSX Viewer",
     "category": "Coding",
-    "description": "XLSX ViewerOpen .xlsx spreadsheets without Excel: every sheet, formatted dates and percentages, sort, search and column stats. Export to CSV. Nothing uploaded.",
+    "description": "Open an .xlsx file without Excel: every sheet becomes a table you can sort by clicking a column header, dates and percentages keep the format of the workbook, and the sheet can be exported as CSV. Nothing is uploaded.",
     "engine": "csv-data",
     "keywords": [
       "xlsx",
@@ -16326,11 +18358,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "xlsx viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste CSV or TSV data here... and Converted output will appear here....",
+      "Choose Delimiter:: Comma (,), Tab (\\t), Semicolon (;), Pipe (|) and 1 more.",
+      "Provides 5 actions: CSV → JSON, JSON Output, Table, Copy and 1 more.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with CSV."
     ],
     "faqs": [
       {
@@ -16344,14 +18376,18 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does XLSX Viewer handle?",
+        "a": "It handles CSV. The processing happens entirely in your browser."
       }
     ]
   },
   {
     "slug": "xml-formatter",
-    "name": "XML Formatter &amp; Validator",
+    "name": "XML Formatter & Validator",
     "category": "Data Formats",
-    "description": "XML Formatter &amp; ValidatorFormat, validate, minify and explore XML with a tree viewer and XPath tester, entirely in your browser.",
+    "description": "Format, validate, minify and explore XML with a tree viewer and XPath tester, entirely in your browser.",
     "engine": "developer-suite",
     "keywords": [
       "xml",
@@ -16362,16 +18398,16 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "xml formatter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste an XML document here....",
+      "Provides 4 actions: Format XML, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Works with XML.",
+      "Runs entirely in your browser - XML Formatter & Validator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
-        "q": "Is this XML Formatter &amp; Validator tool free to use?",
-        "a": "Yes, XML Formatter &amp; Validator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "q": "Is this XML Formatter & Validator tool free to use?",
+        "a": "Yes, XML Formatter & Validator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16380,6 +18416,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does XML Formatter & Validator handle?",
+        "a": "It handles XML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16387,7 +18427,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "xml-validator",
     "name": "XML Validator",
     "category": "Data Formats",
-    "description": "XML ValidatorCheck XML well-formedness and inspect parser errors with line details, all in your browser. Free online XML validator with no uploads or signup required.",
+    "description": "Check XML well-formedness and inspect parser errors with line details, all in your browser. Free online XML validator with no uploads or signup required.",
     "engine": "developer-suite",
     "keywords": [
       "xml",
@@ -16396,11 +18436,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "xml validator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste an XML document here....",
+      "Provides 4 actions: Validate XML, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Works with XML.",
+      "Runs entirely in your browser - XML Validator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -16414,6 +18454,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does XML Validator handle?",
+        "a": "It handles XML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16421,7 +18465,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "xml-viewer",
     "name": "XML Viewer",
     "category": "Data Formats",
-    "description": "XML ViewerView XML source as a formatted, collapsible tree and inspect its parsed structure. Free online XML viewer that runs in your browser, with no file uploads.",
+    "description": "View XML source as a formatted, collapsible tree and inspect its parsed structure. Free online XML viewer that runs in your browser, with no file uploads.",
     "engine": "developer-suite",
     "keywords": [
       "xml",
@@ -16430,11 +18474,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "xml viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste an XML document here....",
+      "Provides 4 actions: Build tree, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Works with XML.",
+      "Runs entirely in your browser - XML Viewer never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -16448,6 +18492,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does XML Viewer handle?",
+        "a": "It handles XML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16455,7 +18503,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "xsd-editor",
     "name": "XSD Editor",
     "category": "Data Formats",
-    "description": "XSD EditorEdit XSD source and inspect the schema&#x27;s parsed elements and types side by side in your browser. Free online XSD editor with private, local processing.",
+    "description": "Edit XSD source and inspect the schema's parsed elements and types side by side in your browser. Free online XSD editor with private, local processing.",
     "engine": "developer-suite",
     "keywords": [
       "xsd",
@@ -16464,11 +18512,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "xsd editor"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste an XSD schema here....",
+      "Provides 4 actions: Check schema, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Runs entirely in your browser - XSD Editor never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
     "faqs": [
       {
@@ -16482,6 +18530,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in XSD Editor?",
+        "a": "You can choose Format SQL. The result is calculated right on the page."
+      },
+      {
+        "q": "What does XSD Editor need as input?",
+        "a": "You enter your data in Paste an XSD schema here.... Nothing else is required."
       }
     ]
   },
@@ -16489,7 +18545,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "xsd-schema-viewer",
     "name": "XSD Schema Viewer",
     "category": "Data Formats",
-    "description": "XSD Schema ViewerOpen and explore XML Schema Definition (XSD) files with interactive type navigation and detailed property analysis.",
+    "description": "Open and explore XML Schema Definition (XSD) files with interactive type navigation and detailed property analysis.",
     "engine": "developer-suite",
     "keywords": [
       "xsd",
@@ -16499,11 +18555,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "xsd schema viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste an XSD schema here....",
+      "Provides 4 actions: List types, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Works with XML.",
+      "Runs entirely in your browser - XSD Schema Viewer never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -16517,6 +18573,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does XSD Schema Viewer handle?",
+        "a": "It handles XML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16524,7 +18584,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "xsd-viewer",
     "name": "XSD Viewer",
     "category": "Data Formats",
-    "description": "XSD ViewerBrowse XML Schema (XSD) definitions and inspect their elements, attributes, and type declarations in a navigable tree. Free online XSD viewer, no uploads.",
+    "description": "Browse XML Schema (XSD) definitions and inspect their elements, attributes, and type declarations in a navigable tree. Free online XSD viewer, no uploads.",
     "engine": "developer-suite",
     "keywords": [
       "xsd",
@@ -16533,11 +18593,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "xsd viewer"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Paste an XSD schema here....",
+      "Provides 4 actions: List elements, Copy, Clear, Load example.",
+      "Copy, download or print the result with Copy.",
+      "Works with XML.",
+      "Runs entirely in your browser - XSD Viewer never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -16551,6 +18611,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does XSD Viewer handle?",
+        "a": "It handles XML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16558,7 +18622,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "yaml-beautifier",
     "name": "YAML Beautifier",
     "category": "Data Formats",
-    "description": "YAML BeautifierBeautify YAML with consistent indentation and layout, and inspect the parsed result before copying it. Free online YAML beautifier that runs in your browser.",
+    "description": "Beautify YAML with consistent indentation and layout, and inspect the parsed result before copying it. Free online YAML beautifier that runs in your browser.",
     "engine": "yaml",
     "keywords": [
       "yaml",
@@ -16567,11 +18631,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "yaml beautifier"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste input here... and Converted output will appear here....",
+      "Choose Indent:: 2 Spaces, 4 Spaces.",
+      "Provides 2 actions: Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with YAML."
     ],
     "faqs": [
       {
@@ -16585,6 +18649,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does YAML Beautifier handle?",
+        "a": "It handles YAML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16592,7 +18660,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "yaml-editor",
     "name": "YAML Editor",
     "category": "Data Formats",
-    "description": "YAML EditorEdit YAML with syntax highlighting and instant error feedback in a local browser workspace. Free online YAML editor for configs, CI files, and manifests.",
+    "description": "Edit YAML with syntax highlighting and instant error feedback in a local browser workspace. Free online YAML editor for configs, CI files, and manifests.",
     "engine": "yaml",
     "keywords": [
       "yaml",
@@ -16601,11 +18669,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "yaml editor"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste input here... and Converted output will appear here....",
+      "Choose Indent:: 2 Spaces, 4 Spaces.",
+      "Provides 3 actions: YAML → JSON, Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with YAML."
     ],
     "faqs": [
       {
@@ -16619,14 +18687,18 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does YAML Editor handle?",
+        "a": "It handles YAML. The processing happens entirely in your browser."
       }
     ]
   },
   {
     "slug": "yaml-formatter",
-    "name": "YAML Formatter &amp; Beautifier",
+    "name": "YAML Formatter & Beautifier",
     "category": "Data Formats",
-    "description": "YAML Formatter &amp; BeautifierFormat and beautify YAML without losing comments or anchors, and catch the mistakes that still parse.",
+    "description": "Format and beautify YAML without losing comments or anchors, and catch the mistakes that still parse.",
     "engine": "yaml",
     "keywords": [
       "yaml",
@@ -16637,16 +18709,16 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "yaml formatter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste input here... and Converted output will appear here....",
+      "Choose Indent:: 2 Spaces, 4 Spaces.",
+      "Provides 2 actions: Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with YAML."
     ],
     "faqs": [
       {
-        "q": "Is this YAML Formatter &amp; Beautifier tool free to use?",
-        "a": "Yes, YAML Formatter &amp; Beautifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "q": "Is this YAML Formatter & Beautifier tool free to use?",
+        "a": "Yes, YAML Formatter & Beautifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16655,6 +18727,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does YAML Formatter & Beautifier handle?",
+        "a": "It handles YAML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16662,7 +18738,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "yaml-minifier",
     "name": "YAML Minifier",
     "category": "Data Formats",
-    "description": "YAML MinifierMinify YAML by collapsing it into compact flow-style output, then review the result before copying. Free online YAML minifier with private, local processing.",
+    "description": "Minify YAML by collapsing it into compact flow-style output, then review the result before copying. Free online YAML minifier with private, local processing.",
     "engine": "yaml",
     "keywords": [
       "yaml",
@@ -16671,11 +18747,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "yaml minifier"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste input here... and Converted output will appear here....",
+      "Choose Indent:: 2 Spaces, 4 Spaces.",
+      "Provides 2 actions: Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with YAML."
     ],
     "faqs": [
       {
@@ -16689,6 +18765,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does YAML Minifier handle?",
+        "a": "It handles YAML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16705,11 +18785,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "yaml to json"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste input here... and Converted output will appear here....",
+      "Choose Indent:: 2 Spaces, 4 Spaces.",
+      "Provides 3 actions: YAML → JSON, Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with YAML, JSON."
     ],
     "faqs": [
       {
@@ -16723,6 +18803,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does YAML to JSON handle?",
+        "a": "It handles YAML, JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16740,11 +18824,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "yaml json converter"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste input here... and Converted output will appear here....",
+      "Choose Indent:: 2 Spaces, 4 Spaces.",
+      "Provides 3 actions: YAML → JSON, Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with YAML, JSON."
     ],
     "faqs": [
       {
@@ -16758,6 +18842,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does YAML to JSON Converter handle?",
+        "a": "It handles YAML, JSON. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16765,7 +18853,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "yaml-validator",
     "name": "YAML Validator",
     "category": "Data Formats",
-    "description": "YAML ValidatorValidate YAML syntax and see parsing errors with line numbers in a browser-based editor. Free online YAML validator for config files, no uploads or signup.",
+    "description": "Validate YAML syntax and see parsing errors with line numbers in a browser-based editor. Free online YAML validator for config files, no uploads or signup.",
     "engine": "yaml",
     "keywords": [
       "yaml",
@@ -16774,11 +18862,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "yaml validator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste input here... and Converted output will appear here....",
+      "Choose Indent:: 2 Spaces, 4 Spaces.",
+      "Provides 3 actions: YAML → JSON, Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with YAML."
     ],
     "faqs": [
       {
@@ -16792,14 +18880,18 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does YAML Validator handle?",
+        "a": "It handles YAML. The processing happens entirely in your browser."
       }
     ]
   },
   {
     "slug": "yaml-editor-validator",
-    "name": "YAML Validator &amp; Editor",
+    "name": "YAML Validator & Editor",
     "category": "Data Formats",
-    "description": "YAML Validator &amp; EditorValidate YAML syntax and structure with real-time error detection and syntax highlighting.",
+    "description": "Validate YAML syntax and structure with real-time error detection and syntax highlighting.",
     "engine": "yaml",
     "keywords": [
       "yaml",
@@ -16810,16 +18902,16 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "yaml editor validator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste input here... and Converted output will appear here....",
+      "Choose Indent:: 2 Spaces, 4 Spaces.",
+      "Provides 3 actions: YAML → JSON, Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with YAML."
     ],
     "faqs": [
       {
-        "q": "Is this YAML Validator &amp; Editor tool free to use?",
-        "a": "Yes, YAML Validator &amp; Editor on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "q": "Is this YAML Validator & Editor tool free to use?",
+        "a": "Yes, YAML Validator & Editor on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16828,6 +18920,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does YAML Validator & Editor handle?",
+        "a": "It handles YAML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16835,7 +18931,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "yankee-swap-rules",
     "name": "Yankee Swap Rules",
     "category": "Productivity",
-    "description": "Yankee Swap RulesYankee Swap rules explained: draw numbers, open or swap, the 3-swap freeze and player 1’s last turn. Free tracker for turn order and swaps, with undo.",
+    "description": "Yankee Swap rules explained: draw numbers, open or swap, the 3-swap freeze and player 1’s last turn. Free tracker for turn order and swaps, with undo.",
     "engine": "randomizers-games",
     "keywords": [
       "yankee",
@@ -16845,11 +18941,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "yankee swap rules"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "No input needed - choose an option and run the tool.",
+      "Runs entirely in your browser - Yankee Swap Rules never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -16863,6 +18958,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Yankee Swap Rules need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
+      },
+      {
+        "q": "How do I use Yankee Swap Rules?",
+        "a": "Run the tool on the page and read the result directly below the workspace."
       }
     ]
   },
@@ -16870,7 +18973,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "yes-or-no-wheel",
     "name": "Yes or No Wheel",
     "category": "Productivity",
-    "description": "Yes or No WheelSpin the yes or no wheel for a fair 50/50 answer, or add Maybe. Rename the answers, keep a tally and decide best of three. Free and instant, with no signup.",
+    "description": "Spin the yes or no wheel for a fair 50/50 answer, or add Maybe. Rename the answers, keep a tally and decide best of three. Free and instant, with no signup.",
     "engine": "randomizers-games",
     "keywords": [
       "yes",
@@ -16879,11 +18982,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "yes or no wheel"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: Choices (one per line)The usual answers are Yes and No..",
+      "Provides 2 actions: SPIN THE WHEEL!, Reset the entries.",
+      "Runs entirely in your browser - Yes or No Wheel never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -16897,6 +19000,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Yes or No Wheel need as input?",
+        "a": "You enter your data in Names / Items (one per line). Nothing else is required."
       }
     ]
   },
@@ -16913,11 +19020,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "yml to json"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 inputs: Open file, Paste input here... and Converted output will appear here....",
+      "Choose Indent:: 2 Spaces, 4 Spaces.",
+      "Provides 3 actions: YAML → JSON, Copy, Download.",
+      "Copy, download or print the result with Copy and Download.",
+      "Works with JSON, YML."
     ],
     "faqs": [
       {
@@ -16931,6 +19038,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does YML to JSON handle?",
+        "a": "It handles JSON, YML. The processing happens entirely in your browser."
       }
     ]
   },
@@ -16938,7 +19049,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "youtube-thumbnail-downloader",
     "name": "YouTube Thumbnail Downloader",
     "category": "Design",
-    "description": "YouTube Thumbnail DownloaderDownload YouTube thumbnails in HD (1280×720), SD and HQ. Paste a video or Shorts link, see only the sizes that exist, and save as JPG, PNG or WebP. Free.",
+    "description": "Build the official thumbnail addresses of a YouTube video: paste a video or Shorts link and the tool reads the video ID and lists the addresses of the thumbnails YouTube serves in every size. The pictures stay on YouTube's own server, this site does not download them.",
     "engine": "image-suite",
     "keywords": [
       "youtube",
@@ -16948,11 +19059,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "youtube thumbnail downloader"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: YouTube linkThe address of the video, for example https://www.youtube.com/watch?v=….",
+      "Runs entirely in your browser - YouTube Thumbnail Downloader never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -16966,6 +19076,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does YouTube Thumbnail Downloader handle?",
+        "a": "It handles JPG, PNG. The processing happens entirely in your browser."
+      },
+      {
+        "q": "What does YouTube Thumbnail Downloader need as input?",
+        "a": "You enter your data in YouTube linkThe address of the video, for example https://www.youtube.com/watch?v=…. Nothing else is required."
       }
     ]
   },
@@ -16973,7 +19091,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "youtube-thumbnail-grabber",
     "name": "YouTube Thumbnail Grabber",
     "category": "Design",
-    "description": "YouTube Thumbnail GrabberGrab YouTube thumbnails from up to 50 videos at once. Paste links or IDs, see every available size and download them all as a ZIP in JPG, PNG or WebP.",
+    "description": "Build the thumbnail addresses of up to 50 YouTube videos at once: paste links or video IDs and the tool lists the address of every thumbnail size for each of them. The pictures stay on YouTube's own server, this site does not download them.",
     "engine": "image-suite",
     "keywords": [
       "youtube",
@@ -16983,11 +19101,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "youtube thumbnail grabber"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 1 text input: YouTube linkThe address of the video, for example https://www.youtube.com/watch?v=….",
+      "Runs entirely in your browser - YouTube Thumbnail Grabber never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -17001,6 +19118,14 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which file formats does YouTube Thumbnail Grabber handle?",
+        "a": "It handles ZIP, JPG, PNG. The processing happens entirely in your browser."
+      },
+      {
+        "q": "What does YouTube Thumbnail Grabber need as input?",
+        "a": "You enter your data in YouTube linkThe address of the video, for example https://www.youtube.com/watch?v=…. Nothing else is required."
       }
     ]
   },
@@ -17008,7 +19133,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "z-score-calculator",
     "name": "Z-Score Calculator",
     "category": "Calculators",
-    "description": "Z-Score CalculatorFree z-score calculator: find z from a value, mean and standard deviation, with its percentile and normal probability, or z-scores for a whole data set.",
+    "description": "Free z-score calculator: find z from a value, mean and standard deviation, with its percentile and normal probability, or z-scores for a whole data set.",
     "engine": "calculator-suite",
     "keywords": [
       "score",
@@ -17017,11 +19142,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "z score calculator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 3 text inputs: Value (x), Mean (μ) and Standard deviation (σ).",
+      "Runs entirely in your browser - Z-Score Calculator never uploads your data and stores nothing on your device.",
+      "Works offline once the page has loaded - no account, no API key, no usage limit.",
+      "Light and dark theme, responsive from phone to desktop."
     ],
     "faqs": [
       {
@@ -17035,6 +19159,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "What does Z-Score Calculator need as input?",
+        "a": "You enter your data in Value (x), Mean (μ) and Standard deviation (σ). Nothing else is required."
       }
     ]
   },
@@ -17042,7 +19170,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "slug": "zalgo-text-generator",
     "name": "Zalgo Text Generator",
     "category": "Text Processing",
-    "description": "Zalgo Text GeneratorMake creepy Zalgo text that spills above and below the line. Adjust intensity, shuffle, clean it back up and copy to Discord, TikTok or Instagram. Free.",
+    "description": "Make creepy Zalgo text that spills above and below the line. Adjust intensity, shuffle, clean it back up and copy to Discord, TikTok or Instagram. Free.",
     "engine": "text-suite",
     "keywords": [
       "zalgo",
@@ -17052,11 +19180,11 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "zalgo text generator"
     ],
     "features": [
-      "100% Client-Side Processing - zero server uploads",
-      "Instant real-time execution in modern browsers",
-      "One-click copy to clipboard and file download",
-      "Dark and light theme support",
-      "Free forever with no usage limits or sign-up required"
+      "Takes 2 text inputs: Your text and Zalgo result.",
+      "Choose Intensity: Off, Light, Medium, Heavy and 1 more.",
+      "Provides 5 actions: Copy, Download, Clean zalgo text, Shuffle and 1 more.",
+      "Copy, download or print the result with Copy and Download.",
+      "Runs entirely in your browser - Zalgo Text Generator never uploads your data and stores nothing on your device."
     ],
     "faqs": [
       {
@@ -17070,6 +19198,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "Can I use this tool on mobile devices?",
         "a": "Yes, our responsive interface works seamlessly across desktops, laptops, tablets, and smartphones."
+      },
+      {
+        "q": "Which settings can I choose in Zalgo Text Generator?",
+        "a": "You can choose Intensity. The result is calculated right on the page."
       }
     ]
   }

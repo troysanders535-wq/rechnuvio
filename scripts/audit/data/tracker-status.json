@@ -1,0 +1,28 @@
+{
+ "generatedAt": "2026-10-24T10:27:20.206Z",
+ "rows": 492,
+ "counts": {
+  "PASS": 482,
+  "BLOCKED_TECHNICAL": 9,
+  "FAIL": 1
+ },
+ "routePasses": [
+  "chrome-de-desktop-dark",
+  "chrome-de-desktop-light",
+  "chrome-de-mobile-dark",
+  "chrome-de-mobile-light",
+  "chrome-en-desktop-dark",
+  "chrome-en-desktop-light",
+  "chrome-en-mobile-dark",
+  "chrome-en-mobile-light",
+  "edge-de-desktop-light",
+  "edge-de-mobile-dark",
+  "edge-en-desktop-light",
+  "firefox-de-desktop-light",
+  "firefox-de-mobile-dark",
+  "firefox-en-desktop-light",
+  "webkit-de-desktop-light",
+  "webkit-en-desktop-light",
+  "webkit-en-mobile-dark"
+ ]
+}

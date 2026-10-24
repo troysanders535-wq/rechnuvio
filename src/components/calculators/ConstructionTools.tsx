@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { useLocale, useTranslations } from "next-intl";
 import { Hammer, Ruler } from "lucide-react";
 import type { CalculatorVariant } from "@/data/calculatorTools";
 import {
@@ -27,6 +28,8 @@ import {
 } from "./calc";
 
 export function ConstructionTools({ variant }: { variant: CalculatorVariant }) {
+  const tUi = useTranslations("ui.calculators.ConstructionTools");
+  const locale = useLocale();
   const [length, setLength] = useState("20");
   const [width, setWidth] = useState("16");
   const [depth, setDepth] = useState("4");
@@ -64,41 +67,38 @@ export function ConstructionTools({ variant }: { variant: CalculatorVariant }) {
     const total = areaValue * count;
     return (
       <CalcPanel
-        title="Square Footage Calculator"
-        subtitle="Rooms, floors and lots — rectangles, circles and triangles, converted to m² and acres."
+        title={tUi("squareFootageCalculator")}
+        subtitle={tUi("roomsFloorsAndLotsRectanglesCirclesAndTrianglesConvertedToMAndAcres")}
         icon={<Ruler className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-4">
           <SelectField
-            label="Shape"
+            label={tUi("shape")}
             value={shapeKind}
             onChange={setShapeKind}
             options={[
-              { value: "rectangle", label: "Rectangle" },
-              { value: "circle", label: "Circle" },
-              { value: "triangle", label: "Triangle" },
+              { value: "rectangle", label: tUi("rectangle") },
+              { value: "circle", label: tUi("circle") },
+              { value: "triangle", label: tUi("triangle") },
             ]}
           />
           {shapeKind === "circle" ? (
-            <NumberField label="Radius (ft)" value={circleRadius} onChange={setCircleRadius} />
+            <NumberField label={tUi("radiusFt")} value={circleRadius} onChange={setCircleRadius} />
           ) : (
-            <NumberField label="Side A (ft)" value={shapeA} onChange={setShapeA} />
+            <NumberField label={tUi("sideAFt")} value={shapeA} onChange={setShapeA} />
           )}
           {shapeKind !== "circle" ? (
-            <NumberField label="Side B (ft)" value={shapeB} onChange={setShapeB} />
+            <NumberField label={tUi("sideBFt")} value={shapeB} onChange={setShapeB} />
           ) : null}
-          <NumberField label="How many" value={shapeCount} onChange={setShapeCount} />
+          <NumberField label={tUi("howMany")} value={shapeCount} onChange={setShapeCount} />
         </div>
         <ResultGrid>
-          <ResultCard label="Total area" value={round(total, 2)} unit="sq ft" tone="emerald" />
-          <ResultCard label="Square metres" value={round(total * 0.092903, 2)} unit="m²" tone="sky" />
-          <ResultCard label="Acres" value={round(total / 43560, 4)} tone="slate" />
-          <ResultCard label="Square yards" value={round(total / 9, 2)} unit="yd²" tone="slate" />
+          <ResultCard label={tUi("totalArea")} value={round(total, 2)} unit="sq ft" tone="emerald" />
+          <ResultCard label={tUi("squareMetres")} value={round(total * 0.092903, 2)} unit="m²" tone="sky" />
+          <ResultCard label={tUi("acres")} value={round(total / 43560, 4)} tone="slate" />
+          <ResultCard label={tUi("squareYards")} value={round(total / 9, 2)} unit="yd²" tone="slate" />
         </ResultGrid>
-        <FormulaNote>
-          Rectangle = length × width · Circle = π × radius² · Triangle = (base × height) ÷ 2.
-          Square metres = sq ft × 0.092903 · Acres = sq ft ÷ 43,560.
-        </FormulaNote>
+        <FormulaNote>{tUi("rectangleCircleTriangleAreaFormulas")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -113,36 +113,33 @@ export function ConstructionTools({ variant }: { variant: CalculatorVariant }) {
     const price = num(cost);
     return (
       <CalcPanel
-        title="Concrete Calculator"
-        subtitle="How much concrete a slab, footing or post hole needs — with bags and cost."
+        title={tUi("concreteCalculator")}
+        subtitle={tUi("howMuchConcreteASlabFootingOrPostHoleNeedsWithBagsAndCost")}
         icon={<Hammer className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-4">
-          <NumberField label="Length (ft)" value={length} onChange={setLength} />
-          <NumberField label="Width (ft)" value={width} onChange={setWidth} />
-          <NumberField label="Depth (inches)" value={depth} onChange={setDepth} />
-          <NumberField label="Waste (%)" value={waste} onChange={setWaste} />
+          <NumberField label={tUi("lengthFt")} value={length} onChange={setLength} />
+          <NumberField label={tUi("widthFt")} value={width} onChange={setWidth} />
+          <NumberField label={tUi("depthInches")} value={depth} onChange={setDepth} />
+          <NumberField label={tUi("waste")} value={waste} onChange={setWaste} />
         </div>
         <ResultGrid>
-          <ResultCard label="Cubic yards" value={round(result.cubicYards, 2)} tone="emerald" />
-          <ResultCard label="Cubic feet" value={round(result.cubicFeet, 2)} tone="sky" />
-          <ResultCard label="Cubic metres" value={round(result.cubicMeters, 2)} tone="slate" />
+          <ResultCard label={tUi("cubicYards")} value={round(result.cubicYards, 2)} tone="emerald" />
+          <ResultCard label={tUi("cubicFeet")} value={round(result.cubicFeet, 2)} tone="sky" />
+          <ResultCard label={tUi("cubicMetres")} value={round(result.cubicMeters, 2)} tone="slate" />
           <ResultCard
-            label={`Cost at $${cost}/yd³`}
+            label={tUi("costAtPerYd3", { amount: cost })}
             value={round(result.cubicYards * price, 2)}
             tone="amber"
           />
         </ResultGrid>
         <ResultGrid>
-          <ResultCard label="40 lb bags" value={result.bags[40]} tone="slate" />
-          <ResultCard label="50 lb bags" value={result.bags[50]} tone="slate" />
-          <ResultCard label="60 lb bags" value={result.bags[60]} tone="slate" />
-          <ResultCard label="80 lb bags" value={result.bags[80]} tone="slate" />
+          <ResultCard label={tUi("40LbBags")} value={result.bags[40]} tone="slate" />
+          <ResultCard label={tUi("50LbBags")} value={result.bags[50]} tone="slate" />
+          <ResultCard label={tUi("60LbBags")} value={result.bags[60]} tone="slate" />
+          <ResultCard label={tUi("80LbBags")} value={result.bags[80]} tone="slate" />
         </ResultGrid>
-        <FormulaNote>
-          cubic feet = length × width × (depth ÷ 12) · cubic yards = cubic feet ÷ 27 · an 80 lb bag
-          yields about 0.60 ft³, a 60 lb bag 0.45 ft³.
-        </FormulaNote>
+        <FormulaNote>{tUi("cubicFeetAndCubicYardsWithBagYields")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -156,32 +153,29 @@ export function ConstructionTools({ variant }: { variant: CalculatorVariant }) {
     );
     return (
       <CalcPanel
-        title="Gravel Calculator"
-        subtitle="How much gravel, crushed stone, river rock or sand you need in tons and cubic yards."
+        title={tUi("gravelCalculator")}
+        subtitle={tUi("howMuchGravelCrushedStoneRiverRockOrSandYouNeedInTonsAndCubicYards")}
         icon={<Hammer className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-4">
-          <NumberField label="Area (sq ft)" value={area} onChange={setArea} />
-          <NumberField label="Depth (inches)" value={depth} onChange={setDepth} />
-          <NumberField label="Density (tons/yd³)" value={density} onChange={setDensity} />
-          <NumberField label="Waste (%)" value={waste} onChange={setWaste} />
+          <NumberField label={tUi("areaSqFt")} value={area} onChange={setArea} />
+          <NumberField label={tUi("depthInches")} value={depth} onChange={setDepth} />
+          <NumberField label={tUi("densityTonsYd")} value={density} onChange={setDensity} />
+          <NumberField label={tUi("waste")} value={waste} onChange={setWaste} />
         </div>
         <ResultGrid>
-          <ResultCard label="Tons" value={round(result.tons, 2)} tone="emerald" />
-          <ResultCard label="Metric tons" value={round(result.metricTons, 2)} tone="sky" />
-          <ResultCard label="Cubic yards" value={round(result.cubicYards, 2)} tone="slate" />
-          <ResultCard label="Cubic feet" value={round(result.cubicFeet, 2)} tone="slate" />
+          <ResultCard label={tUi("tons")} value={round(result.tons, 2)} tone="emerald" />
+          <ResultCard label={tUi("metricTons")} value={round(result.metricTons, 2)} tone="sky" />
+          <ResultCard label={tUi("cubicYards")} value={round(result.cubicYards, 2)} tone="slate" />
+          <ResultCard label={tUi("cubicFeet")} value={round(result.cubicFeet, 2)} tone="slate" />
         </ResultGrid>
         <DetailList
           items={[
-            { label: "Cost at $" + cost + "/ton", value: round(result.tons * (num(cost)), 2) },
-            { label: "Working", value: `${area} sq ft × ${depth} in ÷ 12 = ${round(result.cubicFeet, 2)} ft³` },
+            { label: tUi("costAtPerTon", { amount: cost }), value: round(result.tons * (num(cost)), 2) },
+            { label: tUi("working"), value: `${area} sq ft × ${depth} in ÷ 12 = ${round(result.cubicFeet, 2)} ft³` },
           ]}
         />
-        <FormulaNote>
-          Tons = (area × depth in feet ÷ 27) × density. Pea gravel is about 1.4 tons per cubic
-          yard, crushed stone about 1.35 and sand about 1.3.
-        </FormulaNote>
+        <FormulaNote>{tUi("tonsAndGravelDensities")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -190,32 +184,30 @@ export function ConstructionTools({ variant }: { variant: CalculatorVariant }) {
     const result = mulchVolume(num(area), num(depth), num(waste));
     return (
       <CalcPanel
-        title="Mulch Calculator"
-        subtitle="How much mulch a garden bed needs in cubic yards and bags."
+        title={tUi("mulchCalculator")}
+        subtitle={tUi("howMuchMulchAGardenBedNeedsInCubicYardsAndBags")}
         icon={<Hammer className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-3">
-          <NumberField label="Area (sq ft)" value={area} onChange={setArea} />
-          <NumberField label="Depth (inches)" value={depth} onChange={setDepth} hint="2–3 in for most beds" />
-          <NumberField label="Waste (%)" value={waste} onChange={setWaste} />
+          <NumberField label={tUi("areaSqFt")} value={area} onChange={setArea} />
+          <NumberField label={tUi("depthInches")} value={depth} onChange={setDepth} hint={tUi("23InForMostBeds")} />
+          <NumberField label={tUi("waste")} value={waste} onChange={setWaste} />
         </div>
         <ResultGrid>
-          <ResultCard label="Cubic yards" value={round(result.cubicYards, 2)} tone="emerald" />
-          <ResultCard label="Cubic feet" value={round(result.cubicFeet, 2)} tone="sky" />
-          <ResultCard label="1.5 cu ft bags" value={result.bags[1.5]} tone="slate" />
-          <ResultCard label="2 cu ft bags" value={result.bags[2]} tone="slate" />
+          <ResultCard label={tUi("cubicYards")} value={round(result.cubicYards, 2)} tone="emerald" />
+          <ResultCard label={tUi("cubicFeet")} value={round(result.cubicFeet, 2)} tone="sky" />
+          <ResultCard label={tUi("15CuFtBags")} value={result.bags[1.5]} tone="slate" />
+          <ResultCard label={tUi("2CuFtBags")} value={result.bags[2]} tone="slate" />
         </ResultGrid>
         <ResultGrid>
-          <ResultCard label="3 cu ft bags" value={result.bags[3]} tone="slate" />
+          <ResultCard label={tUi("3CuFtBags")} value={result.bags[3]} tone="slate" />
           <ResultCard
-            label={`Cost at $${cost}/yd³`}
+            label={tUi("costAtPerYd3", { amount: cost })}
             value={round(result.cubicYards * (num(cost)), 2)}
             tone="amber"
           />
         </ResultGrid>
-        <FormulaNote>
-          cubic feet = area × (depth ÷ 12) · cubic yards = cubic feet ÷ 27.
-        </FormulaNote>
+        <FormulaNote>{tUi("mulchCubicFeetAndCubicYards")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -231,34 +223,31 @@ export function ConstructionTools({ variant }: { variant: CalculatorVariant }) {
     );
     return (
       <CalcPanel
-        title="Tile Calculator"
-        subtitle="How many tiles you need from the area, tile size and grout width, plus boxes and cost."
+        title={tUi("tileCalculator")}
+        subtitle={tUi("howManyTilesYouNeedFromTheAreaTileSizeAndGroutWidthPlusBoxesAndCost")}
         icon={<Hammer className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-3">
-          <NumberField label="Floor area (sq ft)" value={area} onChange={setArea} />
-          <NumberField label="Tile length (in)" value={tileLength} onChange={setTileLength} />
-          <NumberField label="Tile width (in)" value={tileWidth} onChange={setTileWidth} />
+          <NumberField label={tUi("floorAreaSqFt")} value={area} onChange={setArea} />
+          <NumberField label={tUi("tileLengthIn")} value={tileLength} onChange={setTileLength} />
+          <NumberField label={tUi("tileWidthIn")} value={tileWidth} onChange={setTileWidth} />
         </div>
         <div className="grid gap-4 sm:grid-cols-3">
-          <NumberField label="Grout width (in)" value={grout} onChange={setGrout} />
-          <NumberField label="Waste / cuts (%)" value={waste} onChange={setWaste} />
-          <NumberField label="Cost per sq ft" value={cost} onChange={setCost} />
+          <NumberField label={tUi("groutWidthIn")} value={grout} onChange={setGrout} />
+          <NumberField label={tUi("wasteCuts")} value={waste} onChange={setWaste} />
+          <NumberField label={tUi("costPerSqFt")} value={cost} onChange={setCost} />
         </div>
         <ResultGrid>
-          <ResultCard label="Tiles needed" value={result.tilesNeeded} tone="emerald" />
-          <ResultCard label="Boxes needed" value={result.boxesNeeded} tone="sky" hint="5 tiles per box" />
-          <ResultCard label="Floor area" value={round(result.squareFeet, 2)} unit="sq ft" tone="slate" />
+          <ResultCard label={tUi("tilesNeeded")} value={result.tilesNeeded} tone="emerald" />
+          <ResultCard label={tUi("boxesNeeded")} value={result.boxesNeeded} tone="sky" hint={tUi("5TilesPerBox")} />
+          <ResultCard label={tUi("floorArea")} value={round(result.squareFeet, 2)} unit="sq ft" tone="slate" />
           <ResultCard
-            label="Material cost"
+            label={tUi("materialCost")}
             value={round(result.squareFeet * (num(cost)), 2)}
             tone="amber"
           />
         </ResultGrid>
-        <FormulaNote>
-          Tile area includes the grout joint: (length + grout) × (width + grout) ÷ 144. Tiles = area ÷
-          tile area, plus the waste allowance.
-        </FormulaNote>
+        <FormulaNote>{tUi("tileAreaIncludesTheGroutJoint")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -276,31 +265,28 @@ export function ConstructionTools({ variant }: { variant: CalculatorVariant }) {
     );
     return (
       <CalcPanel
-        title="Paint Calculator"
-        subtitle="How many gallons of paint a room needs, with openings and coats."
+        title={tUi("paintCalculator")}
+        subtitle={tUi("howManyGallonsOfPaintARoomNeedsWithOpeningsAndCoats")}
         icon={<Hammer className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-3">
-          <NumberField label="Room length (ft)" value={length} onChange={setLength} />
-          <NumberField label="Room width (ft)" value={width} onChange={setWidth} />
-          <NumberField label="Wall height (ft)" value={roomHeight} onChange={setRoomHeight} />
+          <NumberField label={tUi("roomLengthFt")} value={length} onChange={setLength} />
+          <NumberField label={tUi("roomWidthFt")} value={width} onChange={setWidth} />
+          <NumberField label={tUi("wallHeightFt")} value={roomHeight} onChange={setRoomHeight} />
         </div>
         <div className="grid gap-4 sm:grid-cols-4">
-          <NumberField label="Doors (sq ft)" value={doors} onChange={setDoors} />
-          <NumberField label="Windows (sq ft)" value={windows} onChange={setWindows} />
-          <NumberField label="Coverage (sq ft/gal)" value={coverage} onChange={setCoverage} />
-          <NumberField label="Coats" value={coats} onChange={setCoats} />
+          <NumberField label={tUi("doorsSqFt")} value={doors} onChange={setDoors} />
+          <NumberField label={tUi("windowsSqFt")} value={windows} onChange={setWindows} />
+          <NumberField label={tUi("coverageSqFtGal")} value={coverage} onChange={setCoverage} />
+          <NumberField label={tUi("coats")} value={coats} onChange={setCoats} />
         </div>
         <ResultGrid>
-          <ResultCard label="Gallons" value={round(result.gallons, 2)} tone="emerald" />
-          <ResultCard label="Quarts" value={round(result.quarts, 1)} tone="sky" />
-          <ResultCard label="Litres" value={round(result.litres, 1)} tone="slate" />
-          <ResultCard label="Wall area" value={round(result.wallAreaSqFt, 2)} unit="sq ft" tone="slate" />
+          <ResultCard label={tUi("gallons")} value={round(result.gallons, 2)} tone="emerald" />
+          <ResultCard label={tUi("quarts")} value={round(result.quarts, 1)} tone="sky" />
+          <ResultCard label={tUi("litres")} value={round(result.litres, 1)} tone="slate" />
+          <ResultCard label={tUi("wallArea")} value={round(result.wallAreaSqFt, 2)} unit="sq ft" tone="slate" />
         </ResultGrid>
-        <FormulaNote>
-          Wall area = perimeter × height − doors − windows. Gallons = area ÷ coverage × coats. One
-          gallon covers roughly 350 sq ft.
-        </FormulaNote>
+        <FormulaNote>{tUi("wallAreaAndGallons")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -315,34 +301,31 @@ export function ConstructionTools({ variant }: { variant: CalculatorVariant }) {
     );
     return (
       <CalcPanel
-        title="Roofing Calculator"
-        subtitle="Roof area, roofing squares and shingle bundles from your house size and pitch."
+        title={tUi("roofingCalculator")}
+        subtitle={tUi("roofAreaRoofingSquaresAndShingleBundlesFromYourHouseSizeAndPitch")}
         icon={<Hammer className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-4">
-          <NumberField label="Footprint (sq ft)" value={area} onChange={setArea} />
-          <NumberField label="Roof pitch" value={pitch} onChange={setPitch} hint="6 = 6 in 12" />
-          <NumberField label="Overhang (in)" value={overhang} onChange={setOverhang} />
-          <NumberField label="Waste (%)" value={waste} onChange={setWaste} />
+          <NumberField label={tUi("footprintSqFt")} value={area} onChange={setArea} />
+          <NumberField label={tUi("roofPitch")} value={pitch} onChange={setPitch} hint={tUi("66In12")} />
+          <NumberField label={tUi("overhangIn")} value={overhang} onChange={setOverhang} />
+          <NumberField label={tUi("waste")} value={waste} onChange={setWaste} />
         </div>
         <ResultGrid>
-          <ResultCard label="Roof area" value={round(result.areaSqFt, 2)} unit="sq ft" tone="emerald" />
-          <ResultCard label="Roofing squares" value={round(result.squares, 2)} tone="sky" />
-          <ResultCard label="Bundles needed" value={result.bundles} tone="amber" hint="3 squares per bundle" />
-          <ResultCard label="Pitch multiplier" value={round(result.pitchMultiplier, 4)} tone="slate" />
+          <ResultCard label={tUi("roofArea")} value={round(result.areaSqFt, 2)} unit="sq ft" tone="emerald" />
+          <ResultCard label={tUi("roofingSquares")} value={round(result.squares, 2)} tone="sky" />
+          <ResultCard label={tUi("bundlesNeeded")} value={result.bundles} tone="amber" hint={tUi("3SquaresPerBundle")} />
+          <ResultCard label={tUi("pitchMultiplier")} value={round(result.pitchMultiplier, 4)} tone="slate" />
         </ResultGrid>
         <ResultGrid>
-          <ResultCard label="Underlayment (sq ft)" value={round(result.underlaymentSqFt, 2)} tone="slate" />
+          <ResultCard label={tUi("underlaymentSqFt")} value={round(result.underlaymentSqFt, 2)} tone="slate" />
           <ResultCard
-            label={`Cost at $${cost}/square`}
+            label={tUi("costAtPerSquare", { amount: cost })}
             value={round(result.squares * (num(cost)), 2)}
             tone="slate"
           />
         </ResultGrid>
-        <FormulaNote>
-          Pitch multiplier = √(1 + (pitch ÷ 12)²). One roofing square is 100 sq ft; three squares
-          make a bundle of shingles.
-        </FormulaNote>
+        <FormulaNote>{tUi("pitchMultiplierAndRoofingSquares")}</FormulaNote>
       </CalcPanel>
     );
   }
@@ -357,46 +340,43 @@ export function ConstructionTools({ variant }: { variant: CalculatorVariant }) {
   );
   return (
     <CalcPanel
-      title="BTU Calculator"
-      subtitle="The BTU and AC size a room needs from its size, ceiling height, sun and occupants."
+      title={tUi("bTUCalculator")}
+      subtitle={tUi("theBTUAndACSizeARoomNeedsFromItsSizeCeilingHeightSunAndOccupants")}
       icon={<Hammer className="size-5 text-sky-700" />}
     >
       <div className="grid gap-4 sm:grid-cols-3">
-        <NumberField label="Room size (sq ft)" value={area} onChange={setArea} />
-        <NumberField label="Ceiling height (ft)" value={ceilHeight} onChange={setCeilHeight} />
-        <NumberField label="Occupants" value={occupants} onChange={setOccupants} />
+        <NumberField label={tUi("roomSizeSqFt")} value={area} onChange={setArea} />
+        <NumberField label={tUi("ceilingHeightFt")} value={ceilHeight} onChange={setCeilHeight} />
+        <NumberField label={tUi("occupants")} value={occupants} onChange={setOccupants} />
       </div>
       <div className="grid gap-4 sm:grid-cols-2">
         <SelectField
-          label="Sun exposure"
+          label={tUi("sunExposure")}
           value={sun}
           onChange={setSun}
           options={[
-            { value: "low", label: "Low — shaded" },
-            { value: "medium", label: "Medium" },
-            { value: "high", label: "High — lots of sun" },
+            { value: "low", label: tUi("lowShaded") },
+            { value: "medium", label: tUi("medium") },
+            { value: "high", label: tUi("highLotsOfSun") },
           ]}
         />
         <SelectField
-          label="Kitchen?"
+          label={tUi("kitchen")}
           value={kitchen}
           onChange={setKitchen}
           options={[
-            { value: "no", label: "No" },
-            { value: "yes", label: "Yes — add 1,200 BTU" },
+            { value: "no", label: tUi("no") },
+            { value: "yes", label: tUi("yesAdd1200BTU", { btu: 1200 }) },
           ]}
         />
       </div>
       <ResultGrid>
-        <ResultCard label="BTU needed" value={result.btu.toLocaleString()} tone="emerald" />
-        <ResultCard label="Recommended AC" value={result.recommended} tone="sky" />
-        <ResultCard label="Tons" value={result.recommendedTons} tone="slate" />
-        <ResultCard label="Room size" value={result.squareFeet} unit="sq ft" tone="slate" />
+        <ResultCard label={tUi("bTUNeeded")} value={result.btu.toLocaleString(locale)} tone="emerald" />
+        <ResultCard label={tUi("recommendedAC")} value={result.recommended} tone="sky" />
+        <ResultCard label={tUi("tons")} value={result.recommendedTons} tone="slate" />
+        <ResultCard label={tUi("roomSize")} value={result.squareFeet} unit="sq ft" tone="slate" />
       </ResultGrid>
-      <FormulaNote>
-        Base = 30 BTU per sq ft · high ceilings add 5 BTU per sq ft · each occupant adds 300 BTU ·
-        a kitchen adds 1,200 BTU. One ton of cooling equals 12,000 BTU.
-      </FormulaNote>
+      <FormulaNote>{tUi("bTUBaseWithCeilingsOccupantsAndKitchen")}</FormulaNote>
     </CalcPanel>
   );
 }

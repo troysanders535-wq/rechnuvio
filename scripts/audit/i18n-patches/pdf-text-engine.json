@@ -1,0 +1,35 @@
+{
+  "namespace": "ui.pdf.PdfTextEngine",
+  "en": {
+    "replacePDF": "Replace PDF",
+    "chooseAPDF": "Choose a PDF",
+    "oCRDidNotFindReadableTextOnTheScannedPages": "OCR did not find readable text on the scanned pages.",
+    "everyPageAlreadyHadATextLayerSoOCRWasNotNeeded": "Every page already had a text layer, so OCR was not needed.",
+    "runningOcrOnPage": "Running OCR on page {page}…",
+    "runningOcrOnScannedPages": "OCR on {count} scanned page(s)…",
+    "scannedPagesWereReadWithOcr": "{count} scanned page(s) were read with OCR.",
+    "convertedBlocks": "Converted {count} block(s).",
+    "convertedBlocksWithOcrNote": "Converted {count} block(s). {note}",
+    "buildingTheWordDocument": "Building the Word document…",
+    "buildingTheWordDocumentWithOcrNote": "Building the Word document… {note}",
+    "downloadedTheDocxFile": "Downloaded {file}.docx.",
+    "ocrExplainsTheTesseractRendering": "Pages without a text layer are rendered and read with Tesseract.js. The first run downloads the English language data.",
+    "extractedBlocksCount": "{count} block(s) extracted. Edit the output before copying if you like."
+  },
+  "de": {
+    "replacePDF": "PDF ersetzen",
+    "chooseAPDF": "PDF auswählen",
+    "oCRDidNotFindReadableTextOnTheScannedPages": "OCR hat auf den gescannten Seiten keinen lesbaren Text gefunden.",
+    "everyPageAlreadyHadATextLayerSoOCRWasNotNeeded": "Jede Seite hatte bereits eine Textebene, daher war OCR nicht nötig.",
+    "runningOcrOnPage": "OCR wird auf Seite {page} ausgeführt…",
+    "runningOcrOnScannedPages": "OCR für {count, plural, one {# gescannte Seite} other {# gescannte Seiten}}…",
+    "scannedPagesWereReadWithOcr": "{count, plural, one {# gescannte Seite wurde} other {# gescannte Seiten wurden}} mit OCR gelesen.",
+    "convertedBlocks": "{count, plural, one {# Block wurde} other {# Blöcke wurden}} konvertiert.",
+    "convertedBlocksWithOcrNote": "{count, plural, one {# Block wurde} other {# Blöcke wurden}} konvertiert. {note}",
+    "buildingTheWordDocument": "Das Word-Dokument wird erstellt…",
+    "buildingTheWordDocumentWithOcrNote": "Das Word-Dokument wird erstellt… {note}",
+    "downloadedTheDocxFile": "{file}.docx wurde heruntergeladen.",
+    "ocrExplainsTheTesseractRendering": "Seiten ohne Textebene werden gerendert und mit Tesseract.js gelesen. Beim ersten Lauf werden die englischen Sprachdaten heruntergeladen.",
+    "extractedBlocksCount": "{count, plural, one {# Block wurde} other {# Blöcke wurden}} extrahiert. Bearbeiten Sie die Ausgabe vor dem Kopieren, wenn Sie möchten."
+  }
+}

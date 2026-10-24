@@ -1,0 +1,11 @@
+{
+  "namespace": "ui.engines.JsonEngine",
+  "en": {
+    "indent": "Indent:",
+    "depth": "Depth"
+  },
+  "de": {
+    "indent": "Einrückung:",
+    "depth": "Tiefe"
+  }
+}

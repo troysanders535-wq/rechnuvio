@@ -12,8 +12,10 @@ import {
   inputClass,
 } from "./shared";
 import { createPdfDoc } from "./pdfLib";
+import { useTranslations } from "next-intl";
 
 export function Pdf417Engine() {
+  const tUi = useTranslations("ui.pdf.Pdf417Engine");
   const [text, setText] = useState("");
   const [scale, setScale] = useState(3);
   const [includeText, setIncludeText] = useState(true);
@@ -46,7 +48,7 @@ export function Pdf417Engine() {
       const blob = await new Promise<Blob | null>((resolve) =>
         canvas.toBlob(resolve, "image/png"),
       );
-      if (!blob) throw new Error("Could not encode the barcode.");
+      if (!blob) throw new Error(tUi("couldNotEncodeTheBarcode"));
 
       const doc = await createPdfDoc();
       const png = await doc.embedPng(new Uint8Array(await blob.arrayBuffer()));
@@ -68,10 +70,10 @@ export function Pdf417Engine() {
       const bytes = await doc.save();
       downloadBytes(bytes, "pdf417-barcode.pdf");
       downloadBlob(blob, "pdf417-barcode.png");
-      setInfo("Downloaded the barcode as a PDF and a PNG.");
+      setInfo(tUi("downloadedTheBarcodeAsAPDFAndAPNG"));
     } catch (err) {
       setError(
-        err instanceof Error ? err.message : "Could not generate the barcode.",
+        err instanceof Error ? err.message : tUi("couldNotGenerateTheBarcode"),
       );
     } finally {
       setBusy(false);
@@ -80,21 +82,21 @@ export function Pdf417Engine() {
 
   return (
     <Workspace
-      title="PDF417 Barcode Generator"
-      description="Create a scannable PDF417 barcode and download it as a PDF or a PNG."
+      title={tUi("pDF417BarcodeGenerator")}
+      description={tUi("createAScannablePDF417BarcodeAndDownloadItAsAPDFOrAPNG")}
     >
-      <Field label="Barcode content" hint="Up to a few thousand characters of data.">
+      <Field label={tUi("barcodeContent")} hint={tUi("upToAFewThousandCharactersOfData")}>
         <textarea
           value={text}
           onChange={(e) => setText(e.target.value)}
-          placeholder="Enter the data to encode"
+          placeholder={tUi("enterTheDataToEncode")}
           spellCheck={false}
           className="mt-1.5 min-h-28 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 font-mono text-sm text-slate-900 outline-none focus:border-sky-500 focus:ring-2 focus:ring-sky-500/30 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
         />
       </Field>
 
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
-        <Field label={`Scale — ${scale}×`}>
+        <Field label={tUi("scaleFactor", { scale })}>
           <input
             type="range"
             min={1}
@@ -112,13 +114,13 @@ export function Pdf417Engine() {
             onChange={(e) => setIncludeText(e.target.checked)}
             className="size-4 rounded border-slate-300 text-sky-600 focus:ring-sky-500 dark:border-slate-600 dark:bg-slate-800"
           />
-          Print the data underneath
+          {tUi("printTheDataUnderneath")}
         </label>
       </div>
 
       <div className="mt-5">
         <ActionButton onClick={render} busy={busy} disabled={!text.trim()}>
-          Generate barcode
+          {tUi("generateBarcode")}
         </ActionButton>
       </div>
 
@@ -126,7 +128,7 @@ export function Pdf417Engine() {
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={preview}
-          alt="Generated PDF417 barcode preview"
+          alt={tUi("generatedPDF417BarcodePreview")}
           className="mt-5 max-w-full rounded-lg border border-slate-200 bg-white p-3 dark:border-slate-700"
         />
       ) : null}

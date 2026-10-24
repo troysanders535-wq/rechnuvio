@@ -1,0 +1,9 @@
+{
+  "namespace": "ui.engines.QrBarcodeEngine",
+  "en": {
+    "qrContentPlaceholder": "https://yourwebsite.com or text..."
+  },
+  "de": {
+    "qrContentPlaceholder": "https://yourwebsite.com oder Text ..."
+  }
+}

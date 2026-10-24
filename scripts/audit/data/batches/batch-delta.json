@@ -1,0 +1,1096 @@
+{
+ "ui.calculators.ConstructionTools": {
+  "roomsFloorsAndLotsRectanglesCirclesAndTrianglesConvertedToMAndAcres": {
+   "text": "Rooms, floors and lots — rectangles, circles and triangles, converted to m² and acres.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "howMuchConcreteASlabFootingOrPostHoleNeedsWithBagsAndCost": {
+   "text": "How much concrete a slab, footing or post hole needs — with bags and cost.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "howMuchGravelCrushedStoneRiverRockOrSandYouNeedInTonsAndCubicYards": {
+   "text": "How much gravel, crushed stone, river rock or sand you need in tons and cubic yards.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "howMuchMulchAGardenBedNeedsInCubicYardsAndBags": {
+   "text": "How much mulch a garden bed needs in cubic yards and bags.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "23InForMostBeds": {
+   "text": "2–3 in for most beds",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "howManyTilesYouNeedFromTheAreaTileSizeAndGroutWidthPlusBoxesAndCost": {
+   "text": "How many tiles you need from the area, tile size and grout width, plus boxes and cost.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "5TilesPerBox": {
+   "text": "5 tiles per box",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "howManyGallonsOfPaintARoomNeedsWithOpeningsAndCoats": {
+   "text": "How many gallons of paint a room needs, with openings and coats.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "roofAreaRoofingSquaresAndShingleBundlesFromYourHouseSizeAndPitch": {
+   "text": "Roof area, roofing squares and shingle bundles from your house size and pitch.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "66In12": {
+   "text": "6 = 6 in 12",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "3SquaresPerBundle": {
+   "text": "3 squares per bundle",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  },
+  "theBTUAndACSizeARoomNeedsFromItsSizeCeilingHeightSunAndOccupants": {
+   "text": "The BTU and AC size a room needs from its size, ceiling height, sun and occupants.",
+   "file": "src/components/calculators/ConstructionTools.tsx"
+  }
+ },
+ "ui.calculators.DateTools": {
+  "exactAgeInYearsMonthsAndDaysPlusTheCountdownToTheNextBirthday": {
+   "text": "Exact age in years, months and days, plus the countdown to the next birthday.",
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "yYYYMMDD": {
+   "text": "YYYY-MM-DD",
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "convertDogYearsToHumanYearsBySizeWithTheNewerEpigeneticFormula": {
+   "text": "Convert dog years to human years by size, with the newer epigenetic formula.",
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "addOrSubtractDaysWeeksMonthsOrYearsAndFindTheTimeBetweenTwoDates": {
+   "text": "Add or subtract days, weeks, months or years — and find the time between two dates.",
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "countTheDaysBetweenTwoDatesInYearsMonthsWeeksAndWeekdays": {
+   "text": "Count the days between two dates in years, months, weeks and weekdays.",
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "workingDaysBetweenTwoDatesSkippingWeekendsAndHolidays": {
+   "text": "Working days between two dates, skipping weekends and holidays.",
+   "file": "src/components/calculators/DateTools.tsx"
+  },
+  "yYYYMMDDSeparatedByCommas": {
+   "text": "YYYY-MM-DD, separated by commas",
+   "file": "src/components/calculators/DateTools.tsx"
+  }
+ },
+ "ui.calculators.FitnessTools": {
+  "estimateYour1RMFromAnySetOf115RepsWithTheEpleyBrzyckiAndLombardiFormulas": {
+   "text": "Estimate your 1RM from any set of 1–15 reps with the Epley, Brzycki and Lombardi formulas.",
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "1To15": {
+   "text": "1 to 15",
+   "file": "src/components/calculators/FitnessTools.tsx"
+  },
+  "howMuchWaterToDrinkADayFromYourWeightExerciseAndClimate": {
+   "text": "How much water to drink a day from your weight, exercise and climate.",
+   "file": "src/components/calculators/FitnessTools.tsx"
+  }
+ },
+ "ui.calculators.FractionTools": {
+  "addSubtractMultiplyAndDivideFractionsMixedNumbersAndWholeNumbers": {
+   "text": "Add, subtract, multiply and divide fractions, mixed numbers and whole numbers.",
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "reduceAnyFractionOrMixedNumberToLowestTerms": {
+   "text": "Reduce any fraction or mixed number to lowest terms.",
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "workWithMixedNumbersImproperFractionsAndWholeNumbers": {
+   "text": "Work with mixed numbers, improper fractions and whole numbers.",
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "findTheLeastCommonDenominatorOf2To10FractionsAndRewriteThem": {
+   "text": "Find the least common denominator of 2 to 10 fractions and rewrite them.",
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "2To10": {
+   "text": "2 to 10",
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "convertAnyDecimalIncludingRepeatingOnesIntoAFractionInSimplestForm": {
+   "text": "Convert any decimal — including repeating ones — into a fraction in simplest form.",
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "convertFractionsAndMixedNumbersToDecimalsAndPercentages": {
+   "text": "Convert fractions and mixed numbers to decimals and percentages.",
+   "file": "src/components/calculators/FractionTools.tsx"
+  }
+ },
+ "ui.calculators.GradeTools": {
+  "weightedAndUnweightedGPASideBySideWithHonoursAPAndIBWeighting": {
+   "text": "Weighted and unweighted GPA side by side, with Honours, AP and IB weighting.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "typeReportCardPercentagesOrLetterGradesNoCreditHoursNeeded": {
+   "text": "Type report card percentages or letter grades — no credit hours needed.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "combineYourCurrentGPAAndCreditsWithNewSemesterGrades": {
+   "text": "Combine your current GPA and credits with new semester grades.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "whatYouNeedNextSemesterToReachYourTargetGPA": {
+   "text": "What you need next semester to reach your target GPA.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "weightedClassGradeWithCategoriesPlusTheScoreNeededOnTheFinal": {
+   "text": "Weighted class grade with categories, plus the score needed on the final.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "weightedGradeFromCategoriesUsePercentWeightsOrPoints": {
+   "text": "Weighted grade from categories — use percent weights or points.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "theScoreYouNeedOnTheFinalExamToReachYourGoalGrade": {
+   "text": "The score you need on the final exam to reach your goal grade.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  },
+  "yourTestScoreFromTheNumberOfCorrectAnswers": {
+   "text": "Your test score from the number of correct answers.",
+   "file": "src/components/calculators/GradeTools.tsx"
+  }
+ },
+ "ui.calculators.MoneyTools": {
+  "salePriceSavingsStackedDiscountsAndSalesTax": {
+   "text": "Sale price, savings, stacked discounts and sales tax.",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "profitMarginFromCostAndPriceOrTheSellingPriceForATargetMargin": {
+   "text": "Profit margin from cost and price, or the selling price for a target margin.",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "sellingPriceFromAMarkupOrTheMarkupOfAGivenPrice": {
+   "text": "Selling price from a markup, or the markup of a given price.",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "convertAnAnnualSalaryToAnHourlyWageAndOtherPayPeriods": {
+   "text": "Convert an annual salary to an hourly wage and other pay periods.",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "convertAnHourlyWageToAnnualWeeklyBiWeeklyAndDailyPay": {
+   "text": "Convert an hourly wage to annual, weekly, bi-weekly and daily pay.",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "timeAndAHalfAndDoubleTimeWithTheRegularAndOvertimePaySplitOut": {
+   "text": "Time-and-a-half and double time, with the regular and overtime pay split out.",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "8Hours": {
+   "text": "8 hours",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "15TimeAndAHalf": {
+   "text": "1.5 = time and a half",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  },
+  "whatAnApplianceCostsToRunPerDayMonthAndYear": {
+   "text": "What an appliance costs to run per day, month and year.",
+   "file": "src/components/calculators/MoneyTools.tsx"
+  }
+ },
+ "ui.calculators.NumberBaseTools": {
+  "convertNumbersToRomanNumeralsAndBackFrom1To3999999": {
+   "text": "Convert numbers to Roman numerals and back, from 1 to 3,999,999.",
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "convertAnyDateToRomanNumeralsForTattoosRingsAndWeddingGifts": {
+   "text": "Convert any date to Roman numerals for tattoos, rings and wedding gifts.",
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "yYYYMMDD": {
+   "text": "YYYY-MM-DD",
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  }
+ },
+ "ui.calculators.PercentTools": {
+  "xOfYWhatPercentXIsOfYPercentageChangeAndTheWholeFromAPart": {
+   "text": "X% of Y, what percent X is of Y, percentage change and the whole from a part.",
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "percentageChangeBetweenAnOldAndANewValue": {
+   "text": "Percentage change between an old and a new value.",
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "increaseANumberByAPercentOrFindTheOriginalValue": {
+   "text": "Increase a number by a percent, or find the original value.",
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "reduceANumberByAPercentOrFindTheValueBeforeADecrease": {
+   "text": "Reduce a number by a percent, or find the value before a decrease.",
+   "file": "src/components/calculators/PercentTools.tsx"
+  },
+  "usesTheAverageOfTheTwoNumbersAsTheReferenceIdealForComparingUnlikeValues": {
+   "text": "Uses the average of the two numbers as the reference — ideal for comparing unlike values.",
+   "file": "src/components/calculators/PercentTools.tsx"
+  }
+ },
+ "ui.calculators.StatsTools": {
+  "meanMedianModeRangeAndStandardDeviationForAnyListOfNumbers": {
+   "text": "Mean, median, mode, range and standard deviation for any list of numbers.",
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "separateTheNumbersWithCommasSpacesOrNewLines": {
+   "text": "Separate the numbers with commas, spaces or new lines.",
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "sampleVarianceSAndPopulationVarianceWithTheSumOfSquares": {
+   "text": "Sample variance (s²) and population variance (σ²) with the sum of squares.",
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "theAverageDistanceOfEveryValueFromTheMean": {
+   "text": "The average distance of every value from the mean.",
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "howManyStandardDeviationsAValueSitsFromTheMeanWithItsPercentile": {
+   "text": "How many standard deviations a value sits from the mean, with its percentile.",
+   "file": "src/components/calculators/StatsTools.tsx"
+  },
+  "q1MedianQ3TheInterquartileRangeOutliersAndTheFiveNumberSummary": {
+   "text": "Q1, median, Q3, the interquartile range, outliers and the five number summary.",
+   "file": "src/components/calculators/StatsTools.tsx"
+  }
+ },
+ "ui.calculators.TimeTools": {
+  "hoursAndMinutesBetweenTwoTimesWithBreaksAndOvernightShifts": {
+   "text": "Hours and minutes between two times, with breaks and overnight shifts.",
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "addAndSubtractTimesTotalAListOfTimesOrAddADurationToAClockTime": {
+   "text": "Add and subtract times, total a list of times or add a duration to a clock time.",
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "clockInAndClockOutTimesWithBreaksOvertimeAndPay": {
+   "text": "Clock-in and clock-out times with breaks, overtime and pay.",
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "1730Or173000": {
+   "text": "1730 or 173000",
+   "file": "src/components/calculators/TimeTools.tsx"
+  }
+ },
+ "ui.pdf.Pdf417Engine": {
+  "createAScannablePDF417BarcodeAndDownloadItAsAPDFOrAPNG": {
+   "text": "Create a scannable PDF417 barcode and download it as a PDF or a PNG.",
+   "file": "src/components/pdf/Pdf417Engine.tsx"
+  },
+  "upToAFewThousandCharactersOfData": {
+   "text": "Up to a few thousand characters of data.",
+   "file": "src/components/pdf/Pdf417Engine.tsx"
+  }
+ },
+ "ui.pdf.PdfBase64Engine": {
+  "decodeABase64PayloadAndTurnItIntoAPDFOrDownloadTheOriginalFile": {
+   "text": "Decode a Base64 payload and turn it into a PDF, or download the original file.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  },
+  "orPasteTheBase64PayloadBelow": {
+   "text": "Or paste the Base64 payload below.",
+   "file": "src/components/pdf/PdfBase64Engine.tsx"
+  }
+ },
+ "ui.pdf.PdfCompressEngine": {
+  "shrinkAPDFByReEncodingItsPagesOrRewriteItsStructureWithoutTouchingTheText": {
+   "text": "Shrink a PDF by re-encoding its pages, or rewrite its structure without touching the text.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  },
+  "onePdfFileEverythingRunsInYourBrowser": {
+   "text": "One .pdf file. Everything runs in your browser.",
+   "file": "src/components/pdf/PdfCompressEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfEmailEngine": {
+  "turnAnEmlOrMsgEmailIntoAReadablePDFIncludingItsHeadersAndAttachmentList": {
+   "text": "Turn an .eml or .msg email into a readable PDF, including its headers and attachment list.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  },
+  "anEmlFileExportedFromAMailClientOrAnOutlookMsgFile": {
+   "text": "An .eml file exported from a mail client, or an Outlook .msg file.",
+   "file": "src/components/pdf/PdfEmailEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfImageEngine": {
+  "turnJPGPNGWebPOrGIFImagesIntoASinglePDFDocument": {
+   "text": "Turn JPG, PNG, WebP or GIF images into a single PDF document.",
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "oneImagePerPageInTheOrderYouAddThem": {
+   "text": "One image per page, in the order you add them.",
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "renderEveryPageOfAPDFToAHighResolutionPNGOrJPG": {
+   "text": "Render every page of a PDF to a high-resolution PNG or JPG.",
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  },
+  "onePdfFileRenderingHappensLocallyInYourBrowser": {
+   "text": "One .pdf file. Rendering happens locally in your browser.",
+   "file": "src/components/pdf/PdfImageEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfMergeEngine": {
+  "combineSeveralPDFsIntoOneDocumentInTheOrderYouSet": {
+   "text": "Combine several PDFs into one document, in the order you set.",
+   "file": "src/components/pdf/PdfMergeEngine.tsx"
+  },
+  "addTwoOrMorePdfFilesEverythingRunsInYourBrowser": {
+   "text": "Add two or more .pdf files. Everything runs in your browser.",
+   "file": "src/components/pdf/PdfMergeEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfMetaEngine": {
+  "onePdfFileEverythingRunsInYourBrowser": {
+   "text": "One .pdf file. Everything runs in your browser.",
+   "file": "src/components/pdf/PdfMetaEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfRedactEngine": {
+  "onePdfFileTheDocumentNeverLeavesYourDevice": {
+   "text": "One .pdf file. The document never leaves your device.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  },
+  "separateMultipleTermsWithACommaMatchesAreLocatedInThePDFTextLayer": {
+   "text": "Separate multiple terms with a comma. Matches are located in the PDF text layer.",
+   "file": "src/components/pdf/PdfRedactEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfSplitEngine": {
+  "extractAPageRangeSplitIntoSinglePagesOrCutIntoFixedSizeChunks": {
+   "text": "Extract a page range, split into single pages, or cut into fixed-size chunks.",
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "onePdfFileEverythingRunsInYourBrowser": {
+   "text": "One .pdf file. Everything runs in your browser.",
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  },
+  "use1BasedPageNumbersEG135810": {
+   "text": "Use 1-based page numbers, e.g. 1-3, 5, 8-10",
+   "file": "src/components/pdf/PdfSplitEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfTextEngine": {
+  "onePdfFileEverythingRunsInYourBrowser": {
+   "text": "One .pdf file. Everything runs in your browser.",
+   "file": "src/components/pdf/PdfTextEngine.tsx"
+  }
+ },
+ "ui.pdf.PdfTextToPdfEngine": {
+  "optionalShownAsTheTopLevelHeading": {
+   "text": "Optional — shown as the top-level heading.",
+   "file": "src/components/pdf/PdfTextToPdfEngine.tsx"
+  }
+ },
+ "ui.engines.json.JsonCompareView": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "invalidJSONInDocumentA": {
+   "text": "Invalid JSON in Document A",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "invalidJSONInDocumentB": {
+   "text": "Invalid JSON in Document B",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "differencesDetected": {
+   "text": "Differences Detected",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "swapAB": {
+   "text": "Swap A ⇄ B",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "ignoreKeyOrder": {
+   "text": "Ignore key order",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "copiedReport": {
+   "text": "Copied Report!",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "copyReport": {
+   "text": "Copy Report",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "clearBothInputs": {
+   "text": "Clear both inputs",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "100SemanticallyIdenticalZeroDifferencesFoundBetweenDocumentAAndDocumentB": {
+   "text": "100% Semantically Identical — Zero differences found between Document A and Document B.",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "added": {
+   "text": "Added",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "removed": {
+   "text": "Removed",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "modified": {
+   "text": "Modified",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "typeMismatch": {
+   "text": "Type Mismatch",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "documentAOriginal": {
+   "text": "Document A (Original)",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "pasteFirstJSONDocument": {
+   "text": "Paste first JSON document...",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "documentBModifiedCompared": {
+   "text": "Document B (Modified / Compared)",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "pasteSecondJSONDocument": {
+   "text": "Paste second JSON document...",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "structuralDifferences": {
+   "text": "Structural Differences (",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "type": {
+   "text": "Type",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "path": {
+   "text": "Path",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "documentA": {
+   "text": "Document A",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "documentB": {
+   "text": "Document B",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  },
+  "none": {
+   "text": "None",
+   "file": "src/components/engines/json/JsonCompareView.tsx"
+  }
+ },
+ "ui.engines.json.JsonEditorView": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "jSONFormatter": {
+   "text": "JSON Formatter",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "dataFormats": {
+   "text": "Data Formats",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "jSONValidator": {
+   "text": "JSON Validator",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "jSONViewer": {
+   "text": "JSON Viewer",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "invalidJSONSyntax": {
+   "text": "Invalid JSON syntax",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "codeEditor": {
+   "text": "Code Editor",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "treeView": {
+   "text": "Tree View",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "format": {
+   "text": "Format",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "minify": {
+   "text": "Minify",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "findReplace": {
+   "text": "Find & Replace",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "2Spaces": {
+   "text": "2 Spaces",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "4Spaces": {
+   "text": "4 Spaces",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "tabs": {
+   "text": "Tabs",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "openFile": {
+   "text": "Open file",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "save": {
+   "text": "Save",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "clear": {
+   "text": "Clear",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "findText": {
+   "text": "Find text...",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "replaceWith": {
+   "text": "Replace with...",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "replaceAll": {
+   "text": "Replace All",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "validJSONSyntax": {
+   "text": "Valid JSON Syntax",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  },
+  "pasteOrWriteJSONHere": {
+   "text": "Paste or write JSON here...",
+   "file": "src/components/engines/json/JsonEditorView.tsx"
+  }
+ },
+ "ui.engines.json.JsonMinifierView": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "fastSecureClientSideDeveloperUtilitySuite": {
+   "text": "Fast, secure client-side developer utility suite",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "clientSideProcessing": {
+   "text": "Client-Side Processing",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "zeroServerUploads": {
+   "text": "Zero Server Uploads",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "zeroTelemetry": {
+   "text": "Zero Telemetry",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "subMillisecondExecution": {
+   "text": "Sub-millisecond execution",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "invalidJSONSyntax": {
+   "text": "Invalid JSON syntax",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "instantMinifier": {
+   "text": "Instant Minifier",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "copiedMinifiedJSON": {
+   "text": "Copied Minified JSON!",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "copyMinifiedJSON": {
+   "text": "Copy Minified JSON",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "downloadMinJson": {
+   "text": "Download .min.json",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "clear": {
+   "text": "Clear",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "saved": {
+   "text": "Saved",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "formattedInput": {
+   "text": "Formatted Input",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "pasteJSONHere": {
+   "text": "Paste JSON here...",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "minifiedOutputSingleLine": {
+   "text": "Minified Output (Single Line)",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  },
+  "minifiedJSONWillAppearHere": {
+   "text": "Minified JSON will appear here...",
+   "file": "src/components/engines/json/JsonMinifierView.tsx"
+  }
+ },
+ "ui.engines.json.JsonToonView": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "zeroServerUploads": {
+   "text": "Zero Server Uploads",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "conversionError": {
+   "text": "Conversion error",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "modeJSONTOON": {
+   "text": "Mode: JSON → TOON",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "modeTOONJSON": {
+   "text": "Mode: TOON → JSON",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "copyOutput": {
+   "text": "Copy Output",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "download": {
+   "text": "Download",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "clear": {
+   "text": "Clear",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "jSONInput": {
+   "text": "JSON Input",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "tOONInput": {
+   "text": "TOON Input",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "tOONOutputCompact": {
+   "text": "TOON Output (Compact)",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "jSONOutput": {
+   "text": "JSON Output",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  },
+  "convertedResultWillAppearHere": {
+   "text": "Converted result will appear here...",
+   "file": "src/components/engines/json/JsonToonView.tsx"
+  }
+ },
+ "ui.engines.json.JsonToTsView": {
+  "leanneGraham": {
+   "text": "Leanne Graham",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "kulasLight": {
+   "text": "Kulas Light",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "apt556": {
+   "text": "Apt. 556",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "17707368031X56442": {
+   "text": "1-770-736-8031 x56442",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "multiLayeredClientServerNeuralNet": {
+   "text": "Multi-layered client-server neural-net",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "invalidJSONSyntax": {
+   "text": "Invalid JSON syntax",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "export": {
+   "text": "Export",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "copiedTS": {
+   "text": "Copied TS!",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "copyTypeScript": {
+   "text": "Copy TypeScript",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "downloadDTs": {
+   "text": "Download .d.ts",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "clear": {
+   "text": "Clear",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "jSONInputSample": {
+   "text": "JSON Input Sample",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "pasteYourJSONHereToGenerateTypeScriptTypes": {
+   "text": "Paste your JSON here to generate TypeScript types...",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "generatedTypeScriptDeclarations": {
+   "text": "Generated TypeScript Declarations",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  },
+  "typeScriptInterfaceCodeWillGenerateHereAutomatically": {
+   "text": "TypeScript interface code will generate here automatically...",
+   "file": "src/components/engines/json/JsonToTsView.tsx"
+  }
+ },
+ "ui.engines.json.JsonTreeViewer": {
+  "tree": {
+   "text": "Tree",
+   "file": "src/components/engines/json/JsonTreeViewer.tsx"
+  },
+  "table": {
+   "text": "Table",
+   "file": "src/components/engines/json/JsonTreeViewer.tsx"
+  },
+  "raw": {
+   "text": "Raw",
+   "file": "src/components/engines/json/JsonTreeViewer.tsx"
+  },
+  "expandAll": {
+   "text": "Expand All",
+   "file": "src/components/engines/json/JsonTreeViewer.tsx"
+  },
+  "collapseAll": {
+   "text": "Collapse All",
+   "file": "src/components/engines/json/JsonTreeViewer.tsx"
+  },
+  "searchKeysValues": {
+   "text": "Search keys / values...",
+   "file": "src/components/engines/json/JsonTreeViewer.tsx"
+  }
+ },
+ "ui.engines.json.JsonValidatorView": {
+  "digitalToolPad": {
+   "text": "Digital ToolPad",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "100ClientSide": {
+   "text": "100% Client-Side",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "format": {
+   "text": "Format",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "minify": {
+   "text": "Minify",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "autoRepairSyntax": {
+   "text": "Auto-Repair Syntax",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "repairedFormatted": {
+   "text": "Repaired & formatted!",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "openFile": {
+   "text": "Open file",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "download": {
+   "text": "Download",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "clear": {
+   "text": "Clear",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "validJSONSyntax": {
+   "text": "Valid JSON Syntax",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "size": {
+   "text": "Size",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "bytes": {
+   "text": "Bytes",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "lines": {
+   "text": "Lines",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "keys": {
+   "text": "Keys",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "arrays": {
+   "text": "Arrays",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "depth": {
+   "text": "Depth",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "characters": {
+   "text": "Characters",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "invalidJSONSyntaxErrorOnLine": {
+   "text": "Invalid JSON Syntax — Error on Line",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  },
+  "pasteJSONToValidate": {
+   "text": "Paste JSON to validate...",
+   "file": "src/components/engines/json/JsonValidatorView.tsx"
+  }
+ },
+ "ui.engines.viewer3d.Model3DViewer": {
+  "loadingModel": {
+   "text": "Loading model...",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "0Bytes": {
+   "text": "0 Bytes",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "reading3DGeometry": {
+   "text": "Reading 3D geometry...",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "unableToParseThe3DModelPleaseCheckTheFileFormatOrEnsureAllDependentTexturesAndMaterialMtlBinFilesWereSelectedTogether": {
+   "text": "Unable to parse the 3D model. Please check the file format or ensure all dependent textures and material (.mtl / .bin) files were selected together.",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "unknownErrorInitializing3DViewer": {
+   "text": "Unknown error initializing 3D viewer",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "noModelLoadedToExport": {
+   "text": "No model loaded to export.",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "exportFailed": {
+   "text": "Export failed",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "online3DModelCADViewer": {
+   "text": "Online 3D Model & CAD Viewer",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "webGLHardwareAccelerated100PrivateClientSideSandbox": {
+   "text": "WebGL Hardware Accelerated • 100% Private Client-Side Sandbox",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "selectOrDropAnother3DModel": {
+   "text": "Select or drop another 3D model",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "openFile": {
+   "text": "Open File",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "exportOrConvertThis3DModel": {
+   "text": "Export or convert this 3D model",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "export": {
+   "text": "Export",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "dragDropYour3DModelHere": {
+   "text": "Drag & Drop Your 3D Model Here",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "open3DFile": {
+   "text": "Open 3D File",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "trySampleModel": {
+   "text": "Try Sample Model",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "supportedFormats": {
+   "text": "Supported Formats",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "dropFilesToLoadNew3DModel": {
+   "text": "Drop files to load new 3D model",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "supportsMultiFileSelectionObjMtlGltfBin": {
+   "text": "Supports multi-file selection (.obj+.mtl, .gltf+.bin)",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "renderingGeometryInWebGL": {
+   "text": "Rendering geometry in WebGL...",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "fitToView": {
+   "text": "Fit to View",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "resetCameraView": {
+   "text": "Reset Camera View",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "zoomIn": {
+   "text": "Zoom In",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "zoomOut": {
+   "text": "Zoom Out",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "toggleWireframeMeshEdges": {
+   "text": "Toggle Wireframe Mesh Edges",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "wireframe": {
+   "text": "Wireframe",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "changeViewerBackground": {
+   "text": "Change Viewer Background",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "theme": {
+   "text": "Theme",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "background": {
+   "text": "Background",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "toggleGeometryStats": {
+   "text": "Toggle Geometry Stats",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "triangles": {
+   "text": "Triangles",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "vertices": {
+   "text": "Vertices",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "meshes": {
+   "text": "Meshes",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "boundingBox": {
+   "text": "Bounding Box",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "volume": {
+   "text": "Volume",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "dismiss": {
+   "text": "Dismiss",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "3DEnginePoweredBy": {
+   "text": "3D Engine powered by",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "online3DViewer": {
+   "text": "Online3DViewer",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "webGLThreeJsClientSideExecution": {
+   "text": "WebGL • Three.js • Client-Side Execution",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "export3DModel": {
+   "text": "Export 3D Model",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "sTLBinary": {
+   "text": "STL (Binary)",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "standardFor3DPrinting": {
+   "text": "Standard for 3D Printing",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "sTLASCII": {
+   "text": "STL (ASCII)",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "humanReadableMesh": {
+   "text": "Human-readable mesh",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "gLBBinary": {
+   "text": "GLB (Binary)",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "compactGlTFWithMaterials": {
+   "text": "Compact glTF with materials",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "standardWeb3DFormat": {
+   "text": "Standard Web 3D format",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "wavefrontOBJ": {
+   "text": "Wavefront OBJ",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "includesMtlInZIP": {
+   "text": "Includes .mtl in ZIP",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "pLYBinary": {
+   "text": "PLY (Binary)",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "polygonFormatWithColors": {
+   "text": "Polygon format with colors",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "pLYASCII": {
+   "text": "PLY (ASCII)",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "textPolygonFormat": {
+   "text": "Text polygon format",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "objectFileFormat": {
+   "text": "Object File Format",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "bIMBim": {
+   "text": "BIM (.bim)",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "lightweightBIMModel": {
+   "text": "Lightweight BIM model",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  },
+  "close": {
+   "text": "Close",
+   "file": "src/components/engines/viewer3d/Model3DViewer.tsx"
+  }
+ }
+}

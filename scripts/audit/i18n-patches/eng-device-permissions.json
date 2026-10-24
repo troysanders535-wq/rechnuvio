@@ -1,0 +1,11 @@
+{
+  "namespace": "ui.engines.DeviceTesterEngine",
+  "en": {
+    "microphoneUnavailable": "The microphone is not available. Allow the microphone permission in your browser or connect a microphone, then try again.",
+    "cameraUnavailable": "The camera is not available. Allow the camera permission in your browser or connect a camera, then try again."
+  },
+  "de": {
+    "microphoneUnavailable": "Das Mikrofon ist nicht verfügbar. Erlauben Sie die Mikrofonberechtigung in Ihrem Browser oder schließen Sie ein Mikrofon an und versuchen Sie es erneut.",
+    "cameraUnavailable": "Die Kamera ist nicht verfügbar. Erlauben Sie die Kameraberechtigung in Ihrem Browser oder schließen Sie eine Kamera an und versuchen Sie es erneut."
+  }
+}

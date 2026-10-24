@@ -1,0 +1,1829 @@
+{
+ "ui.engines.CalculatorSuiteEngine": {
+  "thisCalculatorIsNotWiredUpYet": {
+   "text": "This calculator is not wired up yet.",
+   "count": 2,
+   "lines": [
+    115,
+    138
+   ],
+   "file": "src/components/engines/CalculatorSuiteEngine.tsx"
+  }
+ },
+ "ui.engines.ConstructionDiyEngine": {
+  "concreteSlabVolumeCalculator": {
+   "text": "Concrete & Slab Volume Calculator",
+   "count": 1,
+   "lines": [
+    39
+   ],
+   "file": "src/components/engines/ConstructionDiyEngine.tsx"
+  },
+  "squareFootageTileEstimator": {
+   "text": "Square Footage & Tile Estimator",
+   "count": 1,
+   "lines": [
+    39
+   ],
+   "file": "src/components/engines/ConstructionDiyEngine.tsx"
+  },
+  "60LbPreMixBags": {
+   "text": "60 lb Pre-Mix Bags",
+   "count": 1,
+   "lines": [
+    93
+   ],
+   "file": "src/components/engines/ConstructionDiyEngine.tsx"
+  },
+  "80LbPreMixBags": {
+   "text": "80 lb Pre-Mix Bags",
+   "count": 1,
+   "lines": [
+    99
+   ],
+   "file": "src/components/engines/ConstructionDiyEngine.tsx"
+  },
+  "exactFloorArea": {
+   "text": "Exact Floor Area",
+   "count": 1,
+   "lines": [
+    146
+   ],
+   "file": "src/components/engines/ConstructionDiyEngine.tsx"
+  }
+ },
+ "ui.engines.CryptoHashEngine": {
+  "uppercaseAZ": {
+   "text": "Uppercase (A-Z)",
+   "count": 1,
+   "lines": [
+    130
+   ],
+   "file": "src/components/engines/CryptoHashEngine.tsx"
+  },
+  "lowercaseAZ": {
+   "text": "Lowercase (a-z)",
+   "count": 1,
+   "lines": [
+    139
+   ],
+   "file": "src/components/engines/CryptoHashEngine.tsx"
+  },
+  "numbers09": {
+   "text": "Numbers (0-9)",
+   "count": 1,
+   "lines": [
+    148
+   ],
+   "file": "src/components/engines/CryptoHashEngine.tsx"
+  },
+  "regeneratePassword": {
+   "text": "Regenerate Password",
+   "count": 1,
+   "lines": [
+    166
+   ],
+   "file": "src/components/engines/CryptoHashEngine.tsx"
+  },
+  "typeOrPasteAnyTextToHash": {
+   "text": "Type or paste any text to hash...",
+   "count": 1,
+   "lines": [
+    218
+   ],
+   "file": "src/components/engines/CryptoHashEngine.tsx"
+  },
+  "copy": {
+   "text": "Copy",
+   "count": 1,
+   "lines": [
+    238
+   ],
+   "file": "src/components/engines/CryptoHashEngine.tsx"
+  }
+ },
+ "ui.engines.DeveloperSuiteEngine": {
+  "gambardellaMatthew": {
+   "text": "Gambardella, Matthew",
+   "count": 1,
+   "lines": [
+    30
+   ],
+   "file": "src/components/engines/DeveloperSuiteEngine.tsx"
+  },
+  "computer": {
+   "text": "Computer",
+   "count": 1,
+   "lines": [
+    30
+   ],
+   "file": "src/components/engines/DeveloperSuiteEngine.tsx"
+  },
+  "anInDepthLookAtCreatingApplicationsWithXML": {
+   "text": "An in-depth look at creating applications with XML.",
+   "count": 1,
+   "lines": [
+    30
+   ],
+   "file": "src/components/engines/DeveloperSuiteEngine.tsx"
+  },
+  "sendRequest": {
+   "text": "Send Request",
+   "count": 1,
+   "lines": [
+    82
+   ],
+   "file": "src/components/engines/DeveloperSuiteEngine.tsx"
+  },
+  "responsePayload": {
+   "text": "Response Payload",
+   "count": 1,
+   "lines": [
+    88
+   ],
+   "file": "src/components/engines/DeveloperSuiteEngine.tsx"
+  },
+  "formatSQL": {
+   "text": "Format SQL",
+   "count": 1,
+   "lines": [
+    117
+   ],
+   "file": "src/components/engines/DeveloperSuiteEngine.tsx"
+  },
+  "postgreSQL": {
+   "text": "PostgreSQL",
+   "count": 1,
+   "lines": [
+    124
+   ],
+   "file": "src/components/engines/DeveloperSuiteEngine.tsx"
+  },
+  "mySQL": {
+   "text": "MySQL",
+   "count": 1,
+   "lines": [
+    125
+   ],
+   "file": "src/components/engines/DeveloperSuiteEngine.tsx"
+  },
+  "sQLite": {
+   "text": "SQLite",
+   "count": 1,
+   "lines": [
+    126
+   ],
+   "file": "src/components/engines/DeveloperSuiteEngine.tsx"
+  },
+  "standardSQL": {
+   "text": "Standard SQL",
+   "count": 1,
+   "lines": [
+    127
+   ],
+   "file": "src/components/engines/DeveloperSuiteEngine.tsx"
+  },
+  "copy": {
+   "text": "Copy",
+   "count": 1,
+   "lines": [
+    137
+   ],
+   "file": "src/components/engines/DeveloperSuiteEngine.tsx"
+  },
+  "pasteSQLQueryHere": {
+   "text": "Paste SQL query here...",
+   "count": 1,
+   "lines": [
+    152
+   ],
+   "file": "src/components/engines/DeveloperSuiteEngine.tsx"
+  }
+ },
+ "ui.engines.DeviceTesterEngine": {
+  "inputLevel": {
+   "text": "Input Level",
+   "count": 1,
+   "lines": [
+    118
+   ],
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  },
+  "pressAnyKeyOnYourKeyboard": {
+   "text": "Press any key on your keyboard...",
+   "count": 1,
+   "lines": [
+    183
+   ],
+   "file": "src/components/engines/DeviceTesterEngine.tsx"
+  }
+ },
+ "ui.engines.EncodingConvertersEngine": {
+  "forward": {
+   "text": "Forward",
+   "count": 1,
+   "lines": [
+    309
+   ],
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "reverse": {
+   "text": "Reverse",
+   "count": 1,
+   "lines": [
+    309
+   ],
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "binary2": {
+   "text": "Binary (2)",
+   "count": 2,
+   "lines": [
+    322,
+    335
+   ],
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "octal8": {
+   "text": "Octal (8)",
+   "count": 2,
+   "lines": [
+    323,
+    336
+   ],
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "decimal10": {
+   "text": "Decimal (10)",
+   "count": 2,
+   "lines": [
+    324,
+    337
+   ],
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "hexadecimal16": {
+   "text": "Hexadecimal (16)",
+   "count": 2,
+   "lines": [
+    325,
+    338
+   ],
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "copied": {
+   "text": "Copied!",
+   "count": 1,
+   "lines": [
+    355
+   ],
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "copy": {
+   "text": "Copy",
+   "count": 1,
+   "lines": [
+    355
+   ],
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  },
+  "clear": {
+   "text": "Clear",
+   "count": 2,
+   "lines": [
+    364,
+    364
+   ],
+   "file": "src/components/engines/EncodingConvertersEngine.tsx"
+  }
+ },
+ "ui.engines.HealthFitnessEngine": {
+  "underweight": {
+   "text": "Underweight",
+   "count": 1,
+   "lines": [
+    30
+   ],
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  },
+  "normalWeightHealthy": {
+   "text": "Normal Weight (Healthy)",
+   "count": 1,
+   "lines": [
+    31
+   ],
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  },
+  "overweight": {
+   "text": "Overweight",
+   "count": 1,
+   "lines": [
+    32
+   ],
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  },
+  "obese": {
+   "text": "Obese",
+   "count": 1,
+   "lines": [
+    33
+   ],
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  },
+  "male": {
+   "text": "Male",
+   "count": 1,
+   "lines": [
+    88
+   ],
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  },
+  "female": {
+   "text": "Female",
+   "count": 1,
+   "lines": [
+    89
+   ],
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  },
+  "age": {
+   "text": "Age",
+   "count": 1,
+   "lines": [
+    94
+   ],
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  },
+  "tDEECaloriesDay": {
+   "text": "TDEE Calories/day",
+   "count": 1,
+   "lines": [
+    149
+   ],
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  },
+  "targetProtein": {
+   "text": "Target Protein",
+   "count": 1,
+   "lines": [
+    156
+   ],
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  },
+  "waterDay": {
+   "text": "Water / Day",
+   "count": 1,
+   "lines": [
+    163
+   ],
+   "file": "src/components/engines/HealthFitnessEngine.tsx"
+  }
+ },
+ "ui.engines.JsonEngine": {
+  "openJSONFile": {
+   "text": "Open JSON file",
+   "count": 1,
+   "lines": [
+    127
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "pasteJSONToViewInTree": {
+   "text": "Paste JSON to view in tree...",
+   "count": 1,
+   "lines": [
+    142
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "prettyPrint": {
+   "text": "Pretty Print",
+   "count": 1,
+   "lines": [
+    297
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "formatJSON": {
+   "text": "Format JSON",
+   "count": 1,
+   "lines": [
+    297
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "minify": {
+   "text": "Minify",
+   "count": 1,
+   "lines": [
+    305
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "2Spaces": {
+   "text": "2 Spaces",
+   "count": 1,
+   "lines": [
+    320
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "4Spaces": {
+   "text": "4 Spaces",
+   "count": 1,
+   "lines": [
+    321
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "tabs": {
+   "text": "Tabs",
+   "count": 1,
+   "lines": [
+    322
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "sortKeysAZ": {
+   "text": "Sort keys A-Z",
+   "count": 1,
+   "lines": [
+    334
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "openFile": {
+   "text": "Open file",
+   "count": 1,
+   "lines": [
+    342
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "copied": {
+   "text": "Copied!",
+   "count": 1,
+   "lines": [
+    351
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "copy": {
+   "text": "Copy",
+   "count": 1,
+   "lines": [
+    351
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "download": {
+   "text": "Download",
+   "count": 1,
+   "lines": [
+    359
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "clearEditor": {
+   "text": "Clear editor",
+   "count": 1,
+   "lines": [
+    365
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "validJSON": {
+   "text": "Valid JSON",
+   "count": 1,
+   "lines": [
+    377
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  },
+  "pasteOrWriteYourJSONHere": {
+   "text": "Paste or write your JSON here...",
+   "count": 1,
+   "lines": [
+    392
+   ],
+   "file": "src/components/engines/JsonEngine.tsx"
+  }
+ },
+ "ui.engines.RandomizersGamesEngine": {
+  "flipCoinAgain": {
+   "text": "Flip Coin Again",
+   "count": 1,
+   "lines": [
+    174
+   ],
+   "file": "src/components/engines/RandomizersGamesEngine.tsx"
+  },
+  "rollAgain": {
+   "text": "Roll Again",
+   "count": 1,
+   "lines": [
+    214
+   ],
+   "file": "src/components/engines/RandomizersGamesEngine.tsx"
+  },
+  "sPINTHEWHEEL": {
+   "text": "SPIN THE WHEEL!",
+   "count": 1,
+   "lines": [
+    241
+   ],
+   "file": "src/components/engines/RandomizersGamesEngine.tsx"
+  }
+ },
+ "ui.engines.TextSuiteEngine": {
+  "words": {
+   "text": "Words",
+   "count": 1,
+   "lines": [
+    81
+   ],
+   "file": "src/components/engines/TextSuiteEngine.tsx"
+  },
+  "characters": {
+   "text": "Characters",
+   "count": 1,
+   "lines": [
+    87
+   ],
+   "file": "src/components/engines/TextSuiteEngine.tsx"
+  },
+  "noSpaces": {
+   "text": "No Spaces",
+   "count": 1,
+   "lines": [
+    93
+   ],
+   "file": "src/components/engines/TextSuiteEngine.tsx"
+  },
+  "sentences": {
+   "text": "Sentences",
+   "count": 1,
+   "lines": [
+    99
+   ],
+   "file": "src/components/engines/TextSuiteEngine.tsx"
+  },
+  "paragraphs": {
+   "text": "Paragraphs",
+   "count": 1,
+   "lines": [
+    105
+   ],
+   "file": "src/components/engines/TextSuiteEngine.tsx"
+  },
+  "tokens": {
+   "text": "Tokens",
+   "count": 1,
+   "lines": [
+    111
+   ],
+   "file": "src/components/engines/TextSuiteEngine.tsx"
+  },
+  "readingTime": {
+   "text": "Reading Time",
+   "count": 1,
+   "lines": [
+    117
+   ],
+   "file": "src/components/engines/TextSuiteEngine.tsx"
+  },
+  "copied": {
+   "text": "Copied!",
+   "count": 1,
+   "lines": [
+    177
+   ],
+   "file": "src/components/engines/TextSuiteEngine.tsx"
+  },
+  "copy": {
+   "text": "Copy",
+   "count": 1,
+   "lines": [
+    177
+   ],
+   "file": "src/components/engines/TextSuiteEngine.tsx"
+  },
+  "clear": {
+   "text": "Clear",
+   "count": 1,
+   "lines": [
+    182
+   ],
+   "file": "src/components/engines/TextSuiteEngine.tsx"
+  },
+  "typeWriteOrPasteYourTextHere": {
+   "text": "Type, write, or paste your text here...",
+   "count": 1,
+   "lines": [
+    194
+   ],
+   "file": "src/components/engines/TextSuiteEngine.tsx"
+  }
+ },
+ "ui.engines.YamlEngine": {
+  "yAMLJSON": {
+   "text": "YAML → JSON",
+   "count": 1,
+   "lines": [
+    144
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "jSONYAML": {
+   "text": "JSON → YAML",
+   "count": 1,
+   "lines": [
+    144
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "2Spaces": {
+   "text": "2 Spaces",
+   "count": 1,
+   "lines": [
+    155
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "4Spaces": {
+   "text": "4 Spaces",
+   "count": 1,
+   "lines": [
+    156
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "openFile": {
+   "text": "Open file",
+   "count": 1,
+   "lines": [
+    164
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "copied": {
+   "text": "Copied!",
+   "count": 1,
+   "lines": [
+    179
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "copy": {
+   "text": "Copy",
+   "count": 1,
+   "lines": [
+    179
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "download": {
+   "text": "Download",
+   "count": 1,
+   "lines": [
+    188
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "clear": {
+   "text": "Clear",
+   "count": 1,
+   "lines": [
+    194
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "yAMLInput": {
+   "text": "YAML Input",
+   "count": 1,
+   "lines": [
+    207
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "jSONInput": {
+   "text": "JSON Input",
+   "count": 2,
+   "lines": [
+    207,
+    222
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "yAMLYMLInput": {
+   "text": "YAML / YML Input",
+   "count": 1,
+   "lines": [
+    222
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "pasteInputHere": {
+   "text": "Paste input here...",
+   "count": 1,
+   "lines": [
+    227
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "convertedJSONOutput": {
+   "text": "Converted JSON Output",
+   "count": 1,
+   "lines": [
+    236
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "convertedYAMLOutput": {
+   "text": "Converted YAML Output",
+   "count": 1,
+   "lines": [
+    236
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  },
+  "convertedOutputWillAppearHere": {
+   "text": "Converted output will appear here...",
+   "count": 1,
+   "lines": [
+    241
+   ],
+   "file": "src/components/engines/YamlEngine.tsx"
+  }
+ },
+ "ui.calculators.FractionTools": {
+  "add": {
+   "text": "Add",
+   "count": 1,
+   "lines": [
+    34
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "subtract": {
+   "text": "Subtract",
+   "count": 1,
+   "lines": [
+    35
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "multiply": {
+   "text": "Multiply",
+   "count": 1,
+   "lines": [
+    36
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "divide": {
+   "text": "Divide",
+   "count": 1,
+   "lines": [
+    37
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "fractionCalculator": {
+   "text": "Fraction Calculator",
+   "count": 1,
+   "lines": [
+    74
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "numeratorA": {
+   "text": "Numerator A",
+   "count": 1,
+   "lines": [
+    80
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "denominatorA": {
+   "text": "Denominator A",
+   "count": 1,
+   "lines": [
+    81
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "numeratorB": {
+   "text": "Numerator B",
+   "count": 1,
+   "lines": [
+    84
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "denominatorB": {
+   "text": "Denominator B",
+   "count": 1,
+   "lines": [
+    85
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "answer": {
+   "text": "Answer",
+   "count": 2,
+   "lines": [
+    105,
+    194
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "mixedNumber": {
+   "text": "Mixed number",
+   "count": 4,
+   "lines": [
+    106,
+    195,
+    266,
+    302
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "percent": {
+   "text": "Percent",
+   "count": 3,
+   "lines": [
+    108,
+    267,
+    301
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "simplifyFractionsCalculator": {
+   "text": "Simplify Fractions Calculator",
+   "count": 1,
+   "lines": [
+    126
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "numerator": {
+   "text": "Numerator",
+   "count": 2,
+   "lines": [
+    131,
+    291
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "denominator": {
+   "text": "Denominator",
+   "count": 2,
+   "lines": [
+    132,
+    292
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "wholeNumber": {
+   "text": "Whole number",
+   "count": 1,
+   "lines": [
+    133
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "inLowestTerms": {
+   "text": "In lowest terms",
+   "count": 1,
+   "lines": [
+    136
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "asAMixedNumber": {
+   "text": "As a mixed number",
+   "count": 1,
+   "lines": [
+    137
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "greatestCommonFactor": {
+   "text": "Greatest common factor",
+   "count": 1,
+   "lines": [
+    140
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "mixedNumberCalculator": {
+   "text": "Mixed Number Calculator",
+   "count": 1,
+   "lines": [
+    161
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "wholeA": {
+   "text": "Whole A",
+   "count": 1,
+   "lines": [
+    167
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "numA": {
+   "text": "Num A",
+   "count": 1,
+   "lines": [
+    168
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "denA": {
+   "text": "Den A",
+   "count": 1,
+   "lines": [
+    169
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "wholeB": {
+   "text": "Whole B",
+   "count": 1,
+   "lines": [
+    172
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "numB": {
+   "text": "Num B",
+   "count": 1,
+   "lines": [
+    173
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "denB": {
+   "text": "Den B",
+   "count": 1,
+   "lines": [
+    174
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "aAsImproper": {
+   "text": "A as improper",
+   "count": 1,
+   "lines": [
+    197
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "commonDenominatorCalculator": {
+   "text": "Common Denominator Calculator",
+   "count": 1,
+   "lines": [
+    222
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "firstNumerator": {
+   "text": "First numerator",
+   "count": 1,
+   "lines": [
+    227
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "commonDenominator": {
+   "text": "Common denominator",
+   "count": 1,
+   "lines": [
+    228
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "howManyFractions": {
+   "text": "How many fractions",
+   "count": 1,
+   "lines": [
+    229
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "leastCommonDenominator": {
+   "text": "Least common denominator",
+   "count": 1,
+   "lines": [
+    232
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "fractions": {
+   "text": "Fractions",
+   "count": 1,
+   "lines": [
+    233
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "lCMOfDenominators": {
+   "text": "LCM of denominators",
+   "count": 1,
+   "lines": [
+    234
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "smallestValue": {
+   "text": "Smallest value",
+   "count": 1,
+   "lines": [
+    235
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "fraction": {
+   "text": "Fraction",
+   "count": 2,
+   "lines": [
+    238,
+    265
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "withLCD": {
+   "text": "With LCD",
+   "count": 1,
+   "lines": [
+    238
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "orderedFromLeastToGreatest": {
+   "text": "Ordered from least to greatest",
+   "count": 1,
+   "lines": [
+    241
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "decimalToFractionCalculator": {
+   "text": "Decimal to Fraction Calculator",
+   "count": 1,
+   "lines": [
+    254
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "fractionToDecimalCalculator": {
+   "text": "Fraction to Decimal Calculator",
+   "count": 1,
+   "lines": [
+    286
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "compareWith": {
+   "text": "Compare with",
+   "count": 1,
+   "lines": [
+    293
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "yes": {
+   "text": "Yes",
+   "count": 1,
+   "lines": [
+    303
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "no": {
+   "text": "No",
+   "count": 1,
+   "lines": [
+    303
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "equivalentDecimal": {
+   "text": "Equivalent decimal",
+   "count": 1,
+   "lines": [
+    308
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  },
+  "difference": {
+   "text": "Difference",
+   "count": 1,
+   "lines": [
+    309
+   ],
+   "file": "src/components/calculators/FractionTools.tsx"
+  }
+ },
+ "ui.calculators.NumberBaseTools": {
+  "add": {
+   "text": "Add",
+   "count": 1,
+   "lines": [
+    30
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "subtract": {
+   "text": "Subtract",
+   "count": 1,
+   "lines": [
+    31
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "multiply": {
+   "text": "Multiply",
+   "count": 1,
+   "lines": [
+    32
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "divide": {
+   "text": "Divide",
+   "count": 1,
+   "lines": [
+    33
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "shiftLeft": {
+   "text": "Shift left",
+   "count": 1,
+   "lines": [
+    37
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "shiftRight": {
+   "text": "Shift right",
+   "count": 1,
+   "lines": [
+    38
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "binaryCalculator": {
+   "text": "Binary Calculator",
+   "count": 1,
+   "lines": [
+    86
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "hexCalculator": {
+   "text": "Hex Calculator",
+   "count": 1,
+   "lines": [
+    86
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "firstNumberBinary": {
+   "text": "First number (binary)",
+   "count": 1,
+   "lines": [
+    96
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "firstNumberHex": {
+   "text": "First number (hex)",
+   "count": 1,
+   "lines": [
+    96
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "secondNumberBinary": {
+   "text": "Second number (binary)",
+   "count": 1,
+   "lines": [
+    101
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "secondNumberHex": {
+   "text": "Second number (hex)",
+   "count": 1,
+   "lines": [
+    101
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "hexadecimal": {
+   "text": "Hexadecimal",
+   "count": 1,
+   "lines": [
+    143
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "octal": {
+   "text": "Octal",
+   "count": 1,
+   "lines": [
+    148
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "firstInDecimal": {
+   "text": "First in decimal",
+   "count": 1,
+   "lines": [
+    156
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "secondInDecimal": {
+   "text": "Second in decimal",
+   "count": 1,
+   "lines": [
+    157
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "romanNumeralConverter": {
+   "text": "Roman Numeral Converter",
+   "count": 1,
+   "lines": [
+    179
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "number": {
+   "text": "Number",
+   "count": 1,
+   "lines": [
+    184
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "romanNumeral": {
+   "text": "Roman numeral",
+   "count": 2,
+   "lines": [
+    185,
+    188
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "backToANumber": {
+   "text": "Back to a number",
+   "count": 1,
+   "lines": [
+    190
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "breakdown": {
+   "text": "Breakdown",
+   "count": 1,
+   "lines": [
+    195
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "validInput": {
+   "text": "Valid input",
+   "count": 1,
+   "lines": [
+    206
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "no": {
+   "text": "No",
+   "count": 1,
+   "lines": [
+    206
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "yes": {
+   "text": "Yes",
+   "count": 1,
+   "lines": [
+    206
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "romanNumeralDateConverter": {
+   "text": "Roman Numeral Date Converter",
+   "count": 1,
+   "lines": [
+    221
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "date": {
+   "text": "Date",
+   "count": 1,
+   "lines": [
+    226
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "order": {
+   "text": "Order",
+   "count": 1,
+   "lines": [
+    228
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "uSMMDDYYYY": {
+   "text": "US (MM.DD.YYYY)",
+   "count": 1,
+   "lines": [
+    232
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "uKDDMMYYYY": {
+   "text": "UK (DD.MM.YYYY)",
+   "count": 1,
+   "lines": [
+    233
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "iSOYYYYMMDD": {
+   "text": "ISO (YYYY.MM.DD)",
+   "count": 1,
+   "lines": [
+    234
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "separator": {
+   "text": "Separator",
+   "count": 1,
+   "lines": [
+    238
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "romanNumeralDate": {
+   "text": "Roman numeral date",
+   "count": 1,
+   "lines": [
+    250
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "day": {
+   "text": "Day",
+   "count": 1,
+   "lines": [
+    251
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "month": {
+   "text": "Month",
+   "count": 1,
+   "lines": [
+    252
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  },
+  "year": {
+   "text": "Year",
+   "count": 1,
+   "lines": [
+    253
+   ],
+   "file": "src/components/calculators/NumberBaseTools.tsx"
+  }
+ },
+ "ui.calculators.RatioTools": {
+  "ratioCalculator": {
+   "text": "Ratio Calculator",
+   "count": 1,
+   "lines": [
+    36
+   ],
+   "file": "src/components/calculators/RatioTools.tsx"
+  },
+  "totalToSplit": {
+   "text": "Total to split",
+   "count": 1,
+   "lines": [
+    47
+   ],
+   "file": "src/components/calculators/RatioTools.tsx"
+  },
+  "originalWidth": {
+   "text": "Original width",
+   "count": 1,
+   "lines": [
+    48
+   ],
+   "file": "src/components/calculators/RatioTools.tsx"
+  },
+  "originalHeight": {
+   "text": "Original height",
+   "count": 1,
+   "lines": [
+    49
+   ],
+   "file": "src/components/calculators/RatioTools.tsx"
+  },
+  "simplifiedRatio": {
+   "text": "Simplified ratio",
+   "count": 1,
+   "lines": [
+    53
+   ],
+   "file": "src/components/calculators/RatioTools.tsx"
+  },
+  "commonFactor": {
+   "text": "Common factor",
+   "count": 1,
+   "lines": [
+    54
+   ],
+   "file": "src/components/calculators/RatioTools.tsx"
+  },
+  "ratioAsDecimal": {
+   "text": "Ratio as decimal",
+   "count": 1,
+   "lines": [
+    56
+   ],
+   "file": "src/components/calculators/RatioTools.tsx"
+  },
+  "resizedWidth": {
+   "text": "Resized width",
+   "count": 1,
+   "lines": [
+    63
+   ],
+   "file": "src/components/calculators/RatioTools.tsx"
+  },
+  "resizedHeight": {
+   "text": "Resized height",
+   "count": 1,
+   "lines": [
+    68
+   ],
+   "file": "src/components/calculators/RatioTools.tsx"
+  }
+ },
+ "ui.calculators.TimeTools": {
+  "hoursCalculator": {
+   "text": "Hours Calculator",
+   "count": 1,
+   "lines": [
+    49
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "startTime": {
+   "text": "Start time",
+   "count": 1,
+   "lines": [
+    54
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "endTime": {
+   "text": "End time",
+   "count": 1,
+   "lines": [
+    55
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "breakMinutes": {
+   "text": "Break (minutes)",
+   "count": 1,
+   "lines": [
+    56
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "totalTime": {
+   "text": "Total time",
+   "count": 1,
+   "lines": [
+    60
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "decimalHours": {
+   "text": "Decimal hours",
+   "count": 2,
+   "lines": [
+    65,
+    108
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "hours": {
+   "text": "Hours",
+   "count": 2,
+   "lines": [
+    70,
+    168
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "minutes": {
+   "text": "Minutes",
+   "count": 1,
+   "lines": [
+    74
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "payAtRate": {
+   "text": "Pay at rate",
+   "count": 1,
+   "lines": [
+    78
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "overnightShift": {
+   "text": "Overnight shift",
+   "count": 1,
+   "lines": [
+    79
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "yes": {
+   "text": "Yes",
+   "count": 1,
+   "lines": [
+    79
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "no": {
+   "text": "No",
+   "count": 1,
+   "lines": [
+    79
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "timeCalculator": {
+   "text": "Time Calculator",
+   "count": 1,
+   "lines": [
+    92
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "timesToTotal": {
+   "text": "Times to total",
+   "count": 1,
+   "lines": [
+    97
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "addHours": {
+   "text": "Add hours",
+   "count": 1,
+   "lines": [
+    98
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "addMinutes": {
+   "text": "Add minutes",
+   "count": 1,
+   "lines": [
+    99
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "totalOfTheList": {
+   "text": "Total of the list",
+   "count": 1,
+   "lines": [
+    103
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "startDuration": {
+   "text": "Start + duration",
+   "count": 1,
+   "lines": [
+    113
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "startDuration2": {
+   "text": "Start − duration",
+   "count": 1,
+   "lines": [
+    118
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "timeCardCalculator": {
+   "text": "Time Card Calculator",
+   "count": 1,
+   "lines": [
+    147
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "shiftsInOut": {
+   "text": "Shifts (in-out)",
+   "count": 1,
+   "lines": [
+    153
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "hourlyRate": {
+   "text": "Hourly rate",
+   "count": 1,
+   "lines": [
+    158
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "overtimeAfterHDay": {
+   "text": "Overtime after (h/day)",
+   "count": 1,
+   "lines": [
+    159
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "totalHours": {
+   "text": "Total hours",
+   "count": 1,
+   "lines": [
+    162
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "overtimeHours": {
+   "text": "Overtime hours",
+   "count": 1,
+   "lines": [
+    163
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "regularPay": {
+   "text": "Regular pay",
+   "count": 1,
+   "lines": [
+    164
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "totalPay": {
+   "text": "Total pay",
+   "count": 1,
+   "lines": [
+    165
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "day": {
+   "text": "Day",
+   "count": 1,
+   "lines": [
+    168
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "in": {
+   "text": "In",
+   "count": 1,
+   "lines": [
+    168
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "out": {
+   "text": "Out",
+   "count": 1,
+   "lines": [
+    168
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "militaryTimeConverter": {
+   "text": "Military Time Converter",
+   "count": 1,
+   "lines": [
+    189
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "militaryTime": {
+   "text": "Military time",
+   "count": 1,
+   "lines": [
+    194
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "standardTime": {
+   "text": "Standard time",
+   "count": 1,
+   "lines": [
+    195
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "1730InStandardTime": {
+   "text": "1730 in standard time",
+   "count": 1,
+   "lines": [
+    199
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "spoken": {
+   "text": "Spoken",
+   "count": 1,
+   "lines": [
+    209
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "currentMilitaryTime": {
+   "text": "Current military time",
+   "count": 1,
+   "lines": [
+    218
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "military": {
+   "text": "Military",
+   "count": 1,
+   "lines": [
+    224
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  },
+  "standard": {
+   "text": "Standard",
+   "count": 1,
+   "lines": [
+    224
+   ],
+   "file": "src/components/calculators/TimeTools.tsx"
+  }
+ },
+ "ui.pdf.PdfTextToPdfEngine": {
+  "markdownToPDF": {
+   "text": "Markdown to PDF",
+   "count": 1,
+   "lines": [
+    198
+   ],
+   "file": "src/components/pdf/PdfTextToPdfEngine.tsx"
+  },
+  "documentTitle": {
+   "text": "Document title",
+   "count": 1,
+   "lines": [
+    201
+   ],
+   "file": "src/components/pdf/PdfTextToPdfEngine.tsx"
+  },
+  "myDocument": {
+   "text": "My document",
+   "count": 1,
+   "lines": [
+    206
+   ],
+   "file": "src/components/pdf/PdfTextToPdfEngine.tsx"
+  },
+  "content": {
+   "text": "Content",
+   "count": 1,
+   "lines": [
+    212
+   ],
+   "file": "src/components/pdf/PdfTextToPdfEngine.tsx"
+  }
+ }
+}

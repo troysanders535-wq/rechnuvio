@@ -1,0 +1,31 @@
+{
+  "namespace": "ui.calculators.NumberBaseTools",
+  "en": {
+    "binary": "Binary",
+    "decimal": "Decimal",
+    "notOfFirst": "NOT of first",
+    "dotSeparator": "Dot  ·  MM.DD.YYYY",
+    "dashSeparator": "Dash  ·  MM-DD-YYYY",
+    "bulletSeparator": "Bullet  ·  MM•DD•YYYY",
+    "slashSeparator": "Slash  ·  MM/DD/YYYY",
+    "binaryCalculatorSubtitle": "Add, subtract, multiply and divide binary numbers plus AND, OR, XOR and shifts.",
+    "hexCalculatorSubtitle": "Add, subtract, multiply and divide hexadecimal numbers plus AND, OR, XOR and shifts.",
+    "bitwiseOperatorsFormulaNote": "Bitwise operators work on the binary representation: AND keeps a bit when both numbers have it, OR when either does, XOR when exactly one does.",
+    "romanNumeralRulesFormulaNote": "Roman numerals add when a smaller numeral follows a larger one and subtract when it precedes one (IV = 4, IX = 9, XL = 40, XC = 90, CD = 400, CM = 900).",
+    "romanDateRangeFormulaNote": "The year is written in full Roman numerals, while the day and month use the classic 1–31 range (IIII for the fourth day is optional in many traditions)."
+  },
+  "de": {
+    "binary": "Binär",
+    "decimal": "Dezimal",
+    "notOfFirst": "NOT der ersten Zahl",
+    "dotSeparator": "Punkt  ·  MM.DD.YYYY",
+    "dashSeparator": "Bindestrich  ·  MM-DD-YYYY",
+    "bulletSeparator": "Aufzählungspunkt  ·  MM•DD•YYYY",
+    "slashSeparator": "Schrägstrich  ·  MM/DD/YYYY",
+    "binaryCalculatorSubtitle": "Binäre Zahlen addieren, subtrahieren, multiplizieren und dividieren — dazu AND, OR, XOR und Bitverschiebungen.",
+    "hexCalculatorSubtitle": "Hexadezimale Zahlen addieren, subtrahieren, multiplizieren und dividieren — dazu AND, OR, XOR und Bitverschiebungen.",
+    "bitwiseOperatorsFormulaNote": "Bitoperatoren arbeiten auf der Binärdarstellung: AND behält ein Bit, wenn beide Zahlen es besitzen, OR behält es, wenn eine der Zahlen es besitzt, XOR, wenn genau eine Zahl es besitzt.",
+    "romanNumeralRulesFormulaNote": "Römische Zahlen werden addiert, wenn eine kleinere Zahl einer größeren folgt, und subtrahiert, wenn sie ihr vorausgeht (IV = 4, IX = 9, XL = 40, XC = 90, CD = 400, CM = 900).",
+    "romanDateRangeFormulaNote": "Das Jahr wird vollständig in römischen Zahlen geschrieben, während Tag und Monat den klassischen Bereich 1–31 verwenden (IIII für den vierten Tag ist in vielen Traditionen optional)."
+  }
+}

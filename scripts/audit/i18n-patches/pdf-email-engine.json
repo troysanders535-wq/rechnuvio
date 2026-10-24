@@ -1,0 +1,23 @@
+{
+  "namespace": "ui.pdf.PdfEmailEngine",
+  "en": {
+    "replaceEmail": "Replace email",
+    "chooseAnEmailFile": "Choose an email file",
+    "emailFallbackTitle": "Email",
+    "noSubject": "(no subject)",
+    "to": "To",
+    "attachmentsHeading": "Attachments ({count})",
+    "attachmentDetails": "{filename} — {mimeType} ({size} bytes)",
+    "none": "None"
+  },
+  "de": {
+    "replaceEmail": "E-Mail ersetzen",
+    "chooseAnEmailFile": "Wählen Sie eine E-Mail-Datei",
+    "emailFallbackTitle": "E-Mail",
+    "noSubject": "(kein Betreff)",
+    "to": "An",
+    "attachmentsHeading": "Anhänge ({count})",
+    "attachmentDetails": "{filename} — {mimeType} ({size} Bytes)",
+    "none": "Keine"
+  }
+}

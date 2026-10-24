@@ -11,17 +11,19 @@ import {
   FileCode
 } from "lucide-react";
 import { jsonToTypeScript } from "@/utils/jsonToTs";
+import { useTranslations } from "next-intl";
 
 export function JsonToTsView() {
+  const tUi = useTranslations("ui.engines.json.JsonToTsView");
   const sampleJson = JSON.stringify(
     {
       id: 1,
-      name: "Leanne Graham",
+      name: tUi("leanneGraham"),
       username: "Bret",
       email: "Sincere@april.biz",
       address: {
-        street: "Kulas Light",
-        suite: "Apt. 556",
+        street: tUi("kulasLight"),
+        suite: tUi("apt556"),
         city: "Gwenborough",
         zipcode: "92998-3874",
         geo: {
@@ -29,11 +31,11 @@ export function JsonToTsView() {
           lng: "81.1496",
         },
       },
-      phone: "1-770-736-8031 x56442",
+      phone: tUi("17707368031X56442"),
       website: "hildegard.org",
       company: {
         name: "Romaguera-Crona",
-        catchPhrase: "Multi-layered client-server neural-net",
+        catchPhrase: tUi("multiLayeredClientServerNeuralNet"),
         bs: "harness real-time e-markets",
       },
       roles: ["admin", "super-admin"],
@@ -62,7 +64,7 @@ export function JsonToTsView() {
       });
       return { code: tsCode, error: "" };
     } catch (err: any) {
-      return { code: "", error: err.message || "Invalid JSON syntax" };
+      return { code: "", error: err.message || tUi("invalidJSONSyntax") };
     }
   }, [input, rootName, declarationType, exportDeclarations, optionalProperties]);
 
@@ -88,7 +90,7 @@ export function JsonToTsView() {
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200 bg-slate-50/80 p-3 dark:border-slate-800 dark:bg-slate-950/60">
         <div className="flex flex-wrap items-center gap-3">
           <div className="flex items-center gap-1.5 text-xs">
-            <span className="text-slate-500 dark:text-slate-400 font-medium">Root Name:</span>
+            <span className="text-slate-500 dark:text-slate-400 font-medium">{tUi("rootName")}</span>
             <input
               type="text"
               value={rootName}
@@ -98,14 +100,14 @@ export function JsonToTsView() {
           </div>
 
           <div className="flex items-center gap-1.5 text-xs">
-            <span className="text-slate-500 dark:text-slate-400 font-medium">Kind:</span>
+            <span className="text-slate-500 dark:text-slate-400 font-medium">{tUi("kind")}</span>
             <select
               value={declarationType}
               onChange={(e) => setDeclarationType(e.target.value as any)}
               className="rounded-lg border border-slate-200 bg-white px-2 py-1 text-xs dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
             >
               <option value="interface">interface</option>
-              <option value="type">type alias</option>
+              <option value="type">{tUi("typeAlias")}</option>
             </select>
           </div>
 
@@ -116,7 +118,7 @@ export function JsonToTsView() {
               onChange={(e) => setExportDeclarations(e.target.checked)}
               className="rounded border-slate-300 accent-sky-700"
             />
-            <span>Export</span>
+            <span>{tUi("export")}</span>
           </label>
 
           <label className="flex items-center gap-1.5 text-xs text-slate-600 dark:text-slate-300 cursor-pointer">
@@ -126,7 +128,7 @@ export function JsonToTsView() {
               onChange={(e) => setOptionalProperties(e.target.checked)}
               className="rounded border-slate-300 accent-sky-700"
             />
-            <span>Optional nulls (?)</span>
+            <span>{tUi("optionalNulls")}</span>
           </label>
         </div>
 
@@ -138,7 +140,7 @@ export function JsonToTsView() {
             className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 disabled:opacity-40"
           >
             <Copy className="size-3.5" />
-            <span>{copied ? "Copied TS!" : "Copy TypeScript"}</span>
+            <span>{copied ? tUi("copiedTS") : tUi("copyTypeScript")}</span>
           </button>
           <button
             type="button"
@@ -147,13 +149,13 @@ export function JsonToTsView() {
             className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 disabled:opacity-40"
           >
             <Download className="size-3.5" />
-            <span className="hidden sm:inline">Download .d.ts</span>
+            <span className="hidden sm:inline">{tUi("downloadDTs")}</span>
           </button>
           <button
             type="button"
             onClick={() => setInput("")}
             className="rounded p-1.5 text-slate-400 hover:text-rose-600"
-            title="Clear"
+            title={tUi("clear")}
           >
             <Trash2 className="size-4" />
           </button>
@@ -171,12 +173,12 @@ export function JsonToTsView() {
       <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-slate-200 dark:divide-slate-800">
         <div className="flex flex-col">
           <div className="bg-slate-100 px-4 py-1.5 text-[11px] font-bold text-slate-600 dark:bg-slate-900 dark:text-slate-400 border-b border-slate-200 dark:border-slate-800">
-            JSON Input Sample
+            {tUi("jSONInputSample")}
           </div>
           <textarea
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Paste your JSON here to generate TypeScript types..."
+            placeholder={tUi("pasteYourJSONHereToGenerateTypeScriptTypes")}
             rows={16}
             spellCheck={false}
             className="w-full resize-y bg-slate-950 p-4 font-mono text-xs leading-relaxed text-emerald-400 outline-none placeholder:text-slate-600"
@@ -185,13 +187,13 @@ export function JsonToTsView() {
 
         <div className="flex flex-col">
           <div className="flex items-center justify-between bg-slate-100 px-4 py-1.5 text-[11px] font-bold text-slate-600 dark:bg-slate-900 dark:text-slate-400 border-b border-slate-200 dark:border-slate-800">
-            <span>Generated TypeScript Declarations</span>
+            <span>{tUi("generatedTypeScriptDeclarations")}</span>
             <FileCode className="size-3.5 text-sky-500" />
           </div>
           <textarea
             value={result.code}
             readOnly
-            placeholder="TypeScript interface code will generate here automatically..."
+            placeholder={tUi("typeScriptInterfaceCodeWillGenerateHereAutomatically")}
             rows={16}
             spellCheck={false}
             className="w-full resize-y bg-slate-950 p-4 font-mono text-xs leading-relaxed text-sky-400 outline-none placeholder:text-slate-600"

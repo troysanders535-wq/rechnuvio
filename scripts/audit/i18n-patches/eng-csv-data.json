@@ -1,0 +1,17 @@
+{
+  "namespace": "ui.engines.CsvDataEngine",
+  "en": {
+    "delimiter": "Delimiter:",
+    "tabDelimiter": "Tab (\\t)",
+    "pipeDelimiter": "Pipe (|)",
+    "pasteCsvOrTsvHere": "Paste CSV or TSV data here...",
+    "pasteJsonArrayOrObjectHere": "Paste JSON array or object here..."
+  },
+  "de": {
+    "delimiter": "Trennzeichen:",
+    "tabDelimiter": "Tabulator (\\t)",
+    "pipeDelimiter": "Trennzeichen (|)",
+    "pasteCsvOrTsvHere": "Fügen Sie hier CSV- oder TSV-Daten ein...",
+    "pasteJsonArrayOrObjectHere": "Fügen Sie hier ein JSON-Array oder -Objekt ein..."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "namespace": "ui.engines.image",
+  "en": {
+    "instagramFontSerifElegant": "Serif, elegant",
+    "instagramFontNeutralClean": "Neutral, clean",
+    "instagramFontFriendlyRound": "Friendly, round",
+    "instagramFontPoster": "Poster",
+    "instagramFontTechnical": "Technical",
+    "instagramFontSoftEdges": "Soft edges",
+    "instagramFontHeavy": "Heavy",
+    "instagramFontBookish": "Bookish"
+  },
+  "de": {
+    "instagramFontSerifElegant": "Serifenschrift, elegant",
+    "instagramFontNeutralClean": "Neutral, schlicht",
+    "instagramFontFriendlyRound": "Freundlich, rund",
+    "instagramFontPoster": "Plakat",
+    "instagramFontTechnical": "Technisch",
+    "instagramFontSoftEdges": "Weiche Kanten",
+    "instagramFontHeavy": "Schwer",
+    "instagramFontBookish": "Belesen"
+  }
+}

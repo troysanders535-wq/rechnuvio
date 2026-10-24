@@ -1,0 +1,903 @@
+repaired: 205 of 492
+unresolved: 281
+
+3mf-viewer
+  - 3MF Viewer
+  + View 3MF Dateien von PrusaSlicer, Bambu Studio, Cura und CAD Tools: Farben, mehrere Objekte, Gr├╢
+accept-all-changes-in-word
+  - Akzeptieren Sie alle ├änderungen in Word
+  + Akzeptieren Sie alle verfolgten ├änderungen in einem Word-Dokument ohne Word: Einf├╝gungen beibeha
+ai-to-pdf
+  - AI zu PDF Converter
+  + Convert Illustrator .ai Dateien zu PDF ohne Illustrator: Vorschau jeder Zeichentafel und speiche
+ai-to-png
+  - AI zu PNG Converter
+  + Adobe Illustrator .ai Dateien zu PNG bei 72, 150 oder 300 DPI konvertieren. Exportieren Sie ein 
+ai-token-counter
+  - AI Token Counter
+  + Sch├ñtzen Sie die Tokenl├ñnge von AI-Eingabeaufforderungen und sehen Sie, wie sich der ausgew├ñhlte
+avif-to-jpg
+  - AVIF to JPG Converter 
+  + Konvertieren Sie AVIF-Bilder in JPG in Ihrem Browser. Batch konvertieren, Qualit├ñt ausw├ñhlen, Gr
+avif-to-png
+  - AVIF zu PNG Converter
+  + Konvertieren Sie AVIF zu PNG in Ihrem Browser, behalten Sie Transparenz und volle Qualit├ñt. Batc
+bank-statement-to-csv
+  - Kontoauszug an CSV
+  + Extrahieren Sie Transaktionen von einem textbasierten PDF-Kontoauszug in eine CSV-Datei mit loka
+base64-image-viewer
+  - Base64 Image Viewer 
+  + Sehen Sie sich einen Base64-kodierten Bild- oder Daten-URI direkt in Ihrem Browser an und pr├╝fen
+base64-to-image
+  - Base64 to Image Converter
+  + Decode Base64-Strings zu Bildern direkt in Ihrem Browser. 100% offline, privat und sicher.
+base64-to-pdf
+  - Base64 zum PDF
+  + Wiederherstellung eines PDF aus Base64-Daten oder Umwandlung von unterst├╝tztem Base64-Text und -
+base64-to-pdf-converter
+  - Base64 to PDF Converter
+  + Convert Base64 kodierte Daten sofort in PDF-Dateien. Unterst├╝tzung f├╝r Text, Bilder und benutzer
+base64-to-pdf-decoder
+  - Base64 auf PDF Decoder
+  + Decode Base64 PDF Bytes und laden Sie das Originaldokument herunter, ohne den codierten Inhalt a
+binary-calculator
+  - Bin├ñrrechner
+  + Freier Bin├ñrrechner: Addieren, Subtrahieren, Multiplizieren und Dividieren von Bin├ñrzahlen, plus
+binary-to-decimal
+  - Bin├ñr zu Decimal Converter
+  + Konvertieren Sie bin├ñr zu dezimal sofort mit dem Ort-Wert-Arbeit angezeigt. Signiert zwei Komple
+binary-to-hex
+  - Bin├ñr zu Hex Converter
+  + Konvertieren Sie Bin├ñr zu hexadezimal sofort durch Gruppierung von Bits in vier. Jede L├ñnge, Zwe
+binary-to-text
+  - Bin├ñr zu Text Converter
+  + Decode Bin├ñr zu Text sofort. F├╝gen Sie 0s und 1s mit oder ohne Leerzeichen ein und lesen Sie sie
+binary-translator
+  - Bin├ñrtranslator
+  + ├£bersetzen Sie Bin├ñrcode in Text und Text in Bin├ñr sofort. Volle UTF-8-Unterst├╝tzung f├╝r Emoji u
+blur-image
+  - Blur Image
+  + Blur ein Bild online kostenlos. Verwischen Sie ein ganzes Foto, Gesichter, Text oder den Hinterg
+blur-text-in-image
+  - Blur Text in Image
+  + Blur Text in einem Bild online. Verstecken Sie E-Mails, Namen, Zahlen und Passw├╢rter in Screensh
+bmi-calculator-for-women
+  - BMI-Rechner f├╝r Frauen
+  + BMI f├╝r erwachsene Frauen ab Gr├╢├ƒe und Gewicht in metrischen oder imperialen Einheiten berechnen
+bmr-calculator
+  - BMR-Rechner
+  + Sch├ñtzen Sie die basale Stoffwechselrate aus den K├╢rpermesswerten des Rechners und untersuchen S
+bracket-maker
+  - Bracket Maker
+  + Free Online Bracket Maker f├╝r Turniere, Spielabende und Stimmen. Single oder Double Elimination 
+btu-calculator
+  - BTU Calculator
+  + Finden Sie die BTU- und AC-Gr├╢├ƒe, die Sie f├╝r einen Raum ben├╢tigen, aus Gr├╢├ƒe, Deckenh├╢he, Sonne
+business-days-calculator
+  - Business Days Calculator
+  + Count Werktage zwischen zwei Daten, Wochenenden, US-Bundes- oder UK-Feiertage und Ihre eigenen f
+carb-calculator
+  - Carb Calculator
+  + Berechnen Sie t├ñglich Kohlenhydrate Gramm aus den Kalorien nach Ihrem Protein und Fett Ziele ver
+censor-image
+  - Zensor Image
+  + Zensieren Sie ein Bild online: Redaktion in schwarzen Balken, Pixelierung oder Unsch├ñrfe von Ges
+character-counter
+  - Zeichen Counter
+  + Count Zeichen, W├╢rter, S├ñtze und Zeilen in Echtzeit, mit Lesezeit, Frequenzanalyse und SEO L├ñnge
+christmas-bingo
+  - Weihnachts-Bingo-Karten 
+  + Kostenlos druckbare Weihnachts-Bingo: Machen Sie einzigartige Karten mit Weihnachtsw├╢rtern oder 
+christmas-budget-planner
+  - Weihnachtsbudgetplaner 
+  + Kostenloser Weihnachtsbudgetplaner: Legen Sie ein Gesamtgeschenkbudget fest, teilen Sie es pro P
+christmas-gift-tracker
+  - Weihnachtsgeschenk-Tracker 
+  + Kostenloser Weihnachtsgeschenk-Tracker: Listen Sie alle auf, f├╝r die Sie kaufen, legen Sie Budge
+christmas-wish-list-maker
+  - Weihnachtswunschliste Maker
+  + Free Weihnachtswunschliste Maker: F├╝gen Sie Geschenke aus jedem Gesch├ñft mit Links, Gr├╢├ƒen und P
+cidr-calculator
+  - CIDR Calculator
+  + Konvertieren Sie die CIDR-Notation in einen IP-Bereich und einen IP-Bereich in die kleinste List
+college-gpa-calculator
+  - College GPA Calculator
+  + Free College GPA Calculator: Geben Sie Kurse, Kreditstunden und Noten ein, um Ihr Semester GPA u
+compress-pdf
+  - Komprimieren Sie PDF
+  + Shrink PDF-Dateien, um E-Mail- und Upload-Limits mit drei Qualit├ñtsvoreinstellungen anzupassen, 
+concrete-calculator
+  - Betonrechner
+  + Ausarbeiten, wie viel Beton Sie f├╝r eine Platte, Fu├ƒ oder Pfostenl├╢cher in Kubikmetern, Kubikmet
+csv-viewer
+  - CSV Viewer
+  + CSV-Dateien als sortierbare Tabelle in Ihrem Browser ├╢ffnen. Auto erkennt Trennzeichen und Kodie
+cumulative-gpa-calculator
+  - Kumulativer GPA-Rechner 
+  + Kostenloser kumulativer GPA-Rechner: Kombinieren Sie Ihren aktuellen GPA und Ihre Credits mit ne
+custom-bingo-card-maker
+  - Custom Bingo Card Maker
+  + Machen Sie benutzerdefinierte Bingokarten mit Ihren eigenen Worten, Namen, Phrasen oder Emoji. B
+dnd-dice-roller
+  - D & D Dice Roller
+  + Roll DnD W├╝rfel online: d4, d6, d8, d10, d12, d20 und d100. Verwenden Sie W├╝rfel Notation, Modif
+days-between-dates
+  - Tage zwischen Daten Calculator
+  + Count die Tage zwischen zwei Daten oder bis zu einem Datum, mit Ergebnissen in Jahren, Monaten, 
+db-viewer
+  - DB File Viewer
+  + ├ûffnet .db-Dateien online: Wenn es sich um eine SQLite-Datenbank handelt, durchsuchen Sie die Ta
+decimal-to-binary
+  - Decimal zu Binary Converter
+  + Convert dezimal zu bin├ñr sofort, mit dem Divid-by-2 Arbeit gezeigt. Signierte Zweier-Komplemente
+decimal-to-hex
+  - Dezimal zu Hex Converter 
+  + Konvertieren Sie sofort dezimal zu hexadezimal, wobei die Arbeit mit wiederholter Teilung gezeig
+docx-viewer
+  - DOCX Viewer
+  + View .docx Dateien in Ihrem Browser mit echtem Seitenlayout: Tabellen, Bilder, Header und Kommen
+double-click-test
+  - Doppelklick Test
+  + Ist Ihre Maus Doppelklick von selbst? Einzelklick in das Feld und jede Presse, die zweimal regis
+electricity-cost-calculator
+  - Stromkostenrechner
+  + Ausarbeiten, wie viel ein Ger├ñt pro Tag, Monat und Jahr von seinen Watt, Nutzungsstunden und Ihr
+email-header-analyzer
+  - E-Mail-Header Analyzer
+  + Paste E-Mail-Header oder ├╢ffnen Sie eine .eml/.msg, um jeden Liefersprung und jede Verz├╢gerung z
+eml-to-pdf
+  - EML zu PDF Converter
+  + Convert .eml E-Mails zu PDF in Ihrem Browser, mit Absender, Empf├ñnger, Datum und Anh├ñnge oben au
+eml-viewer
+  - EML Viewer
+  + ├ûffnet .eml-Dateien in Ihrem Browser: Lesen Sie die Nachricht, laden Sie Anh├ñnge herunter, ├╝berp
+exif-remover
+  - EXIF Remover
+  + Remove EXIF und andere Fotometadaten, einschlie├ƒlich GPS-Position und Kameradetails, laden Sie d
+exif-viewer
+  - EXIF Viewer
+  + Lesen Sie EXIF-Daten von einem Foto, einschlie├ƒlich Kameramodell, Objektiv, Belichtungseinstellu
+extract-pdf-pages
+  - Auszug PDF Seiten
+  + W├ñhlen Sie Seiten aus einem PDF und speichern Sie sie als separates Dokument, alles in Ihrem Bro
+flip-a-coin
+  - Flip ein Coin
+  + Flip eine M├╝nze online f├╝r eine schnelle Kopf oder Zahl Entscheidung. F├╝gen Sie Ihre eigenen Ent
+instagram-fonts
+  - Schriftarten f├╝r Instagram
+  + Copy-and-Paste-Schriftarten f├╝r Instagram-Bios, Namen, Bildunterschriften und Geschichten, die a
+fraction-calculator
+  - Fraktion Calculator
+  + Add, subtrahieren, multiplizieren und teilen Br├╝che, gemischte Zahlen und ganze Zahlen. Erhalten
+fraction-to-decimal-calculator
+  - Bruch zu Dezimalrechner
+  + Konvertieren Sie Br├╝che und gemischte Zahlen in Dezimalzahlen und Prozents├ñtze. Zeigt sich wiede
+gif-to-png
+  - GIF zu PNG Converter
+  + Konvertieren Sie GIF zu PNG unter Wahrung der Transparenz. Speichern Sie den ersten Frame oder e
+gift-exchange-generator
+  - Geschenkaustauschgenerator 
+  + Kostenloser Geschenkaustauschgenerator f├╝r Arbeit, Familie, Freunde und Geburtstage. Zeichnen Si
+glb-viewer
+  - GLB Viewer
+  + View GLB Dateien in Ihrem Browser mit PBR Materialien, Texturen und Animationen. Unterst├╝tzt Dra
+gltf-viewer
+  - glTF Viewer
+  + Open glTF 2.0 Modelle mit ihren .bin und Texturen in Ihrem Browser. PBR-Materialien, Animationen
+gpa-calculator
+  - GPA Calculator
+  + Free GPA Rechner f├╝r High School und College. F├╝gen Sie Klassen, Credits und Brief- oder Prozent
+grade-calculator
+  - Grade Calculator
+  + Free Grade Calculator: Geben Sie Kategorien, Gewichte oder Punkte ein, um Ihre Klassennote und I
+graphql-formatter-beautifier
+  - GraphQL Formatter & Beautifier
+  + Formatieren, validieren und versch├╢nern Sie GraphQL-Abfragen, Mutationen und Schemata mit Syntax
+graphql-schema-viewer-validator
+  - GraphQL Schema Viewer & Validator
+  + Visualisieren, validieren und erkunden Sie GraphQL Schemas (SDL) mit einem interaktiven Typ Expl
+graphql-validator
+  - GraphQL-Validator
+  + Validieren Sie GraphQL-Abfragen, Mutationen und Schemata beim Eingeben: Syntaxfehler, die mit Ze
+handwriting-generator
+  - Handschrift Generator
+  + Generieren Sie Handschrift aus Text online. 12 handschriftliche und kursive Schriften, Papier- u
+headphone-test
+  - Kopfh├╢rer Test 
+  + Test Kopfh├╢rer und Ohrh├╢rer online: Links-/Rechts-Audiotest, Stereo- und Polarit├ñtspr├╝fung, Freq
+hex-calculator
+  - Hex Calculator
+  + Free Hex Calculator: addieren, subtrahieren, multiplizieren und dividieren hexadezimale Zahlen, 
+hex-to-ascii
+  - Hex zu ASCII Converter
+  + Konvertieren Sie sofort Hex zu ASCII-Text. Paste hex mit oder ohne Leerzeichen, 0x oder \x Pr├ñfi
+hex-to-binary
+  - Hex zu Binary Converter
+  + Konvertieren Sie sofort Hex zu bin├ñr. Jede Hex-Ziffer bildet 4 Bits ab, mit Gruppierung, einer a
+hex-to-decimal
+  - Hex zu Decimal Converter
+  + Konvertieren Sie Hex sofort zu dezimal mit der gezeigten Arbeit. Unterst├╝tzt 0x Pr├ñfixe, gro├ƒe Z
+hex-rgb-converter
+  - HEX zu RGB Converter
+  + Konvertieren Sie HEX-Farbcodes sofort in das RGB-Format. Ein 100% clientseitiges Tool mit Live-F
+high-school-gpa-calculator
+  - High School GPA Calculator
+  + Free High School GPA Rechner. F├╝gen Sie Klassen, Noten und Ehrungen, AP- oder IB-Level hinzu, um
+hours-calculator
+  - Stundenrechner
+  + Berechnen Sie die Stunden und Minuten zwischen zwei Malen, subtrahieren Sie eine Pause, behandel
+html-beautifier
+  - HTML Beautifier
+  + Beautify minified HTML mit Einr├╝ckung, gewickelten Linien und formatierten Inline-CSS und JS. Ta
+html-table-to-markdown
+  - HTML-Tabelle in Markdown 
+  + HTML-Tabellen-Syntax konvertieren und die Ausgabe ├╝berpr├╝fen, bevor sie in Dokumenten oder einem
+html-to-markdown
+  - HTML zu Markdown Converter
+  + Konvertieren Sie HTML zu bereinigen Markdown-Format mit Live-Vorschau. Perfekt f├╝r Dokumentation
+html-to-md
+  - HTML zu MD Converter 
+  + Konvertieren Sie HTML-Inhalte in saubere, editierbare Markdown f├╝r Dokumentation, Notizen und Re
+ico-to-png
+  - ICO zu PNG Converter
+  + Konvertieren Sie ICO zu PNG und extrahieren Sie jede Gr├╢├ƒe im Icon, von 16 px bis 256 px, wobei 
+image-metadata-viewer
+  - Image Metadata Viewer
+  + Inspect eingebettete Bildmetadaten, einschlie├ƒlich Kamera-, Beschreibungs- und GPS-Felder, f├╝r J
+image-resizer
+  - Image Resizer
+  + Professional Image Resizing und Zuschneiden Tool. Gr├╢├ƒe nach Dimensionen, Prozentsatz oder Socia
+image-to-pdf
+  - Bild zu PDF Konverter
+  + Bilder in PDF kostenlos konvertieren: Kombinieren Sie bis zu 20 JPG, PNG, WebP, GIF oder BMP Bil
+instagram-photo-splitter
+  - Instagram Photo Splitter
+  + Teilen Sie ein Foto in koordinierte Kacheln mit einer Crop-Vorschau f├╝r ein nahtloses Multi-Post
+invisible-character
+  - Unsichtbare Zeichen 
+  + kopieren Sie unsichtbare Zeichen und leeren Text (ßàá U+3164, ΓáÇ U+2800, Nullbreitenraum) f├╝r leere
+jfif-to-jpg
+  - JFIF zu JPG Converter
+  + Konvertieren Sie JFIF zu JPG in Ihrem Browser und erhalten Sie Standard-.jpg-Dateien, die jede A
+jpg-to-ico
+  - JPG zu ICO Converter
+  + Konvertieren Sie JPG- oder JPEG-Fotos in ICO-Icons. Schneiden Sie zu einem Quadrat, um die Ecken
+jpg-to-pdf-converter
+  - JPG zu PDF Converter
+  + JPG, PNG, GIF, BMP und TIFF Bilder sofort in PDF konvertieren. 100% offline, sicher und schnell 
+jpg-to-webp-converter
+  - JPG zu WebP Converter 
+  + Komprimieren Sie JPG-Fotos in WebP-Dateien, die bei gleicher visueller Qualit├ñt um 25-34% kleine
+latex-to-image
+  - LaTeX zu Image Converter
+  + Konvertieren Sie LaTeX-Gleichungen in PNG, SVG, JPG oder PDF in Ihrem Browser. Transparenter Hin
+latex-to-word-equation
+  - LaTeX to Word Equation
+  + Konvertieren Sie LaTeX in eine editierbare Microsoft Word-Gleichung. F├╝gen Sie LaTeX ein oder ge
+letter-to-santa-template
+  - Brief an Santa Template
+  + Free Brief an Santa Vorlage: Geben Sie den Namen, das Alter und die W├╝nsche Ihres Kindes ein und
+list-randomizer
+  - Listen Sie Randomizer
+  + Shuffle-Namen, Zahlen oder eine beliebige Liste in zuf├ñlliger Reihenfolge auf. ├ûffnen Sie eine D
+llm-token-counter
+  - LLM Token Counter
+  + Count Token und sch├ñtzen API Kosten f├╝r GPT-5, GPT-4o, Claude, Gemini, Llama und mehr: genaue ti
+macro-calculator
+  - Macro Calculator
+  + Berechnen Sie Ihre t├ñglichen Kalorien, Protein, Kohlenhydrate, Fett, Ballaststoffe und Wasser au
+maintenance-calorie-calculator
+  - Wartung Kalorienrechner
+  + Hochfunktionaler, sch├╢n gestalteter Kalorienrechner, um Ihre t├ñglichen Wartungskalorien, BMR und
+margin-calculator
+  - Margin Calculator
+  + Berechnen Sie die Gewinnmarge aus Kosten und Preis oder den Verkaufspreis, den Sie f├╝r eine Ziel
+markdown-file-viewer
+  - Markdown File Viewer
+  + ├ûffnen Sie eine .md-Datei von Ihrem Ger├ñt und lesen Sie den formatierten Inhalt in Ihrem Browser
+markdown-to-pdf
+  - Markdown in PDF
+  + Konvertieren Sie Markdown-Dokumente in PDF mit Live-Vorschau und Export mit einem Klick.
+markdown-to-pdf-converter
+  - Konvertieren Sie Markdown in PDF 
+  + Konvertieren Sie Markdown in PDF mit einer Live-Vorschau von ├£berschriften, Tabellen und Code un
+markdown-to-word
+  - Markdown in Word
+  + Convert Markdown in ein Word-kompatibles DOCX-Dokument mit beibehaltenen ├£berschriften, Listen, 
+markdown-viewer
+  - Markdown Viewer
+  + View gerendert Markdown neben seiner Quelle mit Tabellen, Codebl├╢cken und ├£berschriften formatie
+md-to-pdf
+  - MD zu PDF
+  + Konvertieren Sie ein MD-Dokument in ein herunterladbares PDF mit gestylten ├£berschriften, Tabell
+merge-pdf
+  - Merge PDF-Dateien 
+  + kostenlos in Ihrem Browser. Seiten neu ordnen, unerw├╝nschte Seiten entfernen und eine PDF herunt
+middle-school-gpa-calculator
+  - Mittelschule GPA Calculator
+  + Free Mittelschule GPA Rechner. Geben Sie Berichtskartenprozents├ñtze oder Briefnoten ein, keine C
+mixed-number-calculator
+  - Mixed Number Calculator
+  + Add, subtrahieren, multiplizieren und teilen gemischte Zahlen, Br├╝che und ganze Zahlen. Konverti
+mouse-test
+  - Maus 
+  + Testen Sie Ihre Maus online: Links-, Rechts-, Mittel-, R├╝ck- und Vorw├ñrtstasten, Scrollrad, uner
+msg-to-pdf
+  - MSG zu PDF Converter
+  + Convert Outlook .msg Dateien zu PDF ohne Outlook: die Nachricht mit Absender, Empf├ñnger, Datum u
+msg-viewer
+  - MSG Viewer
+  + Open Outlook .msg Dateien in jedem Browser, auf Mac oder Windows: Lesen Sie die E-Mail, laden Si
+mulch-calculator
+  - Mulch Calculator
+  + Berechnen Sie, wie viel Mulch Sie in Kubikmetern und Taschen f├╝r Gartenbeete jeder Form ben├╢tige
+new-years-bingo
+  - Neujahr's Bingo Cards
+  + Free Neujahr's Eve Bingo-Karten und Aufl├╢sung Bingo-Boards: Party-Worte oder Ihre eigenen Ziele,
+notepad-plus-plus-online
+  - Notepad ++ Online
+  + Notepad ++ Stil Tabbed-Editor, der im Browser l├ñuft: Syntax Hervorhebung und automatisches Speic
+number-base-converter
+  - Zahlenbasis-Konverter
+  + Konvertieren Sie Zahlen zwischen Bin├ñr-, Oktal-, Dezimal-, Hexadezimal- und einer beliebigen Bas
+obj-viewer
+  - OBJ Viewer
+  + View Wavefront OBJ Dateien online mit ihren MTL Materialien und Texturen. Gr├╢├ƒe und Volumen mess
+og-image-generator
+  - OG Image Generator
+  + Erstellen Sie Social-Share-Bilder aus anpassbaren Vorlagen und laden Sie sie als PNG herunter.
+diff-checker
+  - Online Diff Checker
+  + Vergleichen Sie zwei Textdokumente nebeneinander mit hervorgehobenen Unterschieden. Zeilenweise 
+equation-editor
+  - Online-Gleichungseditor 
+  + Kostenloser Online-Gleichungseditor und Gleichungsschreiber. Erstellen Sie Gleichungen visuell o
+online-markdown-editor
+  - Online Markdown Editor mit Export
+  + Write Markdown in einem Rich-Text-Editor mit einer Symbolleiste, Live-Formatierung und Export na
+overtime-calculator
+  - ├£berstundenkalkulieren 
+  + ├£berstundenverg├╝tung bei anderthalb oder einem beliebigen Multiplikator plus doppelte Zeit. Sieh
+password-generator
+  - Password Generator
+  + Generieren Sie starke zuf├ñllige Passw├╢rter mit kryptografisch sicherer Zuf├ñlligkeit: L├ñnge, Zeic
+pdf-compressor
+  - PDF Compressor
+  + Komprimieren Sie ein PDF online mit Qualit├ñtsvoreinstellungen und einem Vorher-Nachher-Gr├╢├ƒenver
+pdf-metadata-editor
+  - PDF Metadaten Editor
+  + Edit PDF Metadaten online: ├ändern Sie Titel, Autor, Betreff, Keywords und Daten oder f├╝gen Sie b
+pdf-metadata-remover
+  - PDF Metadata Remover
+  + Remove PDF Metadaten in Ihrem Browser: Autor, Software, Daten, XMP-Historie, fr├╝here Versionen u
+pdf-metadata-viewer
+  - PDF Metadaten Viewer
+  + View PDF Metadaten online: Autor, Software, Daten, XMP-Bearbeitungsverlauf, Dokument-ID, fr├╝here
+pdf-splitter
+  - PDF Splitter
+  + Splitten Sie ein PDF in kleinere Dokumente nach Seitenbereichen, ausgew├ñhlten Seiten oder festen
+pdf-to-docx
+  - PDF zu DOCX Converter
+  + Konvertieren Sie PDF in Word kostenlos in Ihrem Browser. Vorschau w├ñhlbaren Text und Download ei
+pdf-to-jpg-converter
+  - PDF zu JPG Converter 
+  + PDF-Seiten in hochaufl├╢sende JPG-Bilder konvertieren: Seiten visuell ausw├ñhlen, bis zu 600 DPI a
+pdf-to-markdown
+  - PDF zu Markdown Converter
+  + Konvertieren Sie PDF zu Markdown in Ihrem Browser. W├ñhlen Sie Seiten aus, bearbeiten Sie mit Liv
+pdf-to-markdown-for-claude
+  - PDF zu Markdown f├╝r Claude
+  + Prepare PDF-Text f├╝r Claude lokal. W├ñhlen Sie relevante Seiten aus, bearbeiten Sie Markdown und 
+pdf-to-md
+  - PDF to MD Converter
+  + Verwandeln Sie ein textbasiertes PDF in eine editierbare .md-Datei. Markdown anzeigen, Seiten au
+pdf-to-png-converter
+  - PDF zu PNG Converter
+  + Render PDF-Seiten als verlustfreie PNG-Bilder mit scharfem Text, optional transparentem Hintergr
+pdf-to-word
+  - PDF in Word
+  + Konvertieren Sie textbasierte PDF-Inhalte in eine editierbare Word-kompatible DOCX-Datei, die lo
+pdf-to-word-converter
+  - PDF to Word Converter
+  + Erstellen Sie einen editierbaren DOCX aus einem Text-PDF mit Browser-lokaler Konvertierung und s
+percentage-change-calculator
+  - Berechnung der prozentualen ├änderung Calculator
+  + Berechnen Sie die prozentuale ├änderung zwischen einem alten und einem neuen Wert, wobei die Arbe
+percentage-decrease-calculator
+  - Prozentsatz Reduzieren Calculator
+  + Finden Sie die prozentuale Abnahme zwischen zwei Zahlen, reduzieren Sie eine Zahl um ein Prozent
+percentage-difference-calculator
+  - Finden Sie die prozentuale Differenz Calculator den prozentualen Unterschied zwischen zwei Zahlen mit ihrem Durchschnitt als Referenz, mit der Arbeit, eine Excel-Formel, und wenn es zu verwenden.
+  + Finden Sie die prozentuale Differenz zwischen zwei Zahlen anhand ihres Durchschnitts als Referen
+percentage-increase-calculator
+  - Berechnung der prozentualen Zunahme zwischen zwei Zahlen, Erh├╢hung einer Zahl um ein Prozent, oder finden Sie den urspr├╝nglichen Wert. Sofortige Antworten mit Schritten.
+  + Berechnen Sie die prozentuale Zunahme zwischen zwei Zahlen, erh├╢hen Sie eine Zahl um einen Proze
+photo-resizer
+  - Foto Resizer
+  + Size ein Foto auf neue Pixeldimensionen oder einen Prozentsatz mit einer Live-Vorschau, dann lad
+pixelate-image
+  - Pixelate Image
+  + Pixelate ein Bild online kostenlos. Mosaik-Gesichter, Text- oder Nummernschilder oder das gesamt
+ply-viewer
+  - PLY Viewer
+  + Open PLY vermascht und Punktwolken in Ihrem Browser, mit Scheitelfarben. Gr├╢├ƒe und Volumen messe
+png-to-ico
+  - PNG zu ICO Converter
+  + Konvertieren Sie PNG zu ICO mit 16-256 px Gr├╢├ƒen in einer Datei. Beh├ñlt Transparenz, f├╝gt Polste
+png-to-pdf
+  - PNG zu PDF
+  + Kombinieren Sie PNG-Bilder in einem einzigen PDF mit Steuerelementen f├╝r Seitengr├╢├ƒe, Layout, Bi
+population-standard-deviation-calculator
+  - Population Standard Deviation Calculator
+  + Berechnen Sie die Population Standardabweichung ╧â und Populationsvarianz ╧â2 eines Datensatzes, d
+printable-bracket
+  - Druckbare Bracket Maker
+  + Machen Sie eine druckbare Turnierhalterung f├╝r 2 bis 128 Teams. F├╝llen Sie Namen aus oder drucke
+christmas-list-template
+  - Druckbare Weihnachtsliste Vorlage 
+  + Kostenlose druckbare Weihnachtslistenvorlage: Geben Sie Ihre Geschenke online ein oder lassen Si
+psd-to-jpg
+  - PSD zu JPG Converter
+  + Konvertieren Sie PSD zu JPG online: W├ñhlen Sie Qualit├ñt und Gr├╢├ƒe, sehen Sie das Ergebnis vor un
+psd-to-png
+  - PSD zu PNG Converter
+  + Konvertieren Sie PSD zu PNG in Ihrem Browser mit beibehaltener Transparenz. Exportieren Sie das 
+psd-viewer
+  - PSD Viewer
+  + PSD- und PSB-Dateien in Ihrem Browser ├╢ffnen: Bild anzeigen, Schichten durchsuchen und ausblende
+quartile-calculator
+  - Quartile und IQR Calculator
+  + Find Q1, der Median, Q3 und der Interquartilsbereich eines Datensatzes mit der f├╝nf Zahlenzusamm
+random-number-generator
+  - Zufallszahlengenerator
+  + Generieren Sie Zufallszahlen in jedem Bereich: 1-10, 1-100, Lotto-Picks und Dezimalzahlen. Keine
+random-password-generator
+  - Random Password Generator
+  + Generieren Sie zuf├ñllige Passw├╢rter mit konfigurierbarer L├ñnge, Symbolen, Zahlen und Buchstabenf
+ratio-calculator
+  - Ratio Calculator
+  + Free Ratio Calculator: Vereinfachen Sie Verh├ñltnisse wie 24:36 bis 2:3, l├╢sen Sie A:B = C:?, tei
+reduce-pdf-size
+  - Reduzieren Sie PDF Size
+  + Reduce eine PDF's Dateigr├╢├ƒe f├╝r einen Anhang oder eine Einreichung, mit lokaler Verarbeitung un
+regex-checker
+  - Regex Checker
+  + Checken Sie die Regex-Syntax und pr├╝fen Sie ├£bereinstimmungen, Gruppen und ├£bereinstimmungsposit
+remove-comments-from-word
+  - Entfernen Sie Kommentare aus Word
+  + Entfernen Sie alle Kommentare aus einer Word.docx-Datei auf einmal, oder behalten Sie sie und en
+remove-duplicate-lines
+  - Duplicate Lines
+  + Remove Duplicate Lines from a text list with case-sensitive or case-insensitive comparison and o
+remove-duplicate-lines-and-sort
+  - Entfernen Sie Duplicate Lines & amp; Sort
+  + Free, clientseitiges Tool, um doppelte Zeilen zu entfernen, alphabetisch zu sortieren, umzukehre
+remove-metadata-from-word
+  - Entfernen Sie Metadaten aus Word
+  + Remove Metadaten aus Word .docx Dateien in Ihrem Browser: Autor, Firma, Kommentare, verfolgte ├än
+remove-photo-location
+  - Entfernen Sie FotostandortGPS-Standortdaten, die in ein Foto eingebettet sind, bevor Sie es online teilen, und laden Sie dann eine bereinigte Kopie herunter. Kostenlos und privat: Ihr Foto verl├ñsst Ihr Ger├ñt nie.
+  + Entfernen Sie GPS-Standortdaten, die in einem Foto eingebettet sind, bevor Sie es online teilen,
+remove-text-from-image
+  - Entfernen Sie Text aus Image
+  + Brush ├╝ber unerw├╝nschten Text, Beschriftungen oder Wasserzeichen in einem Bild und f├╝llen Sie de
+resize-png
+  - ├ändern Sie die Gr├╢├ƒe von PNG
+  + ├ändern Sie die Breite und H├╢he eines PNG-Bildes, w├ñhrend Sie die Transparenz wahren, und exporti
+rgb-to-hex
+  - RGB in HEX
+  + Konvertieren Sie rote, gr├╝ne und blaue Kanalwerte in einen hexadezimalen Farbcode mit einer Live
+rgb-to-hex-calculator
+  - RGB to HEX Calculator
+  + Berechnen Sie einen HEX-Farbcode aus RGB-Kanalwerten (0-255) und pr├╝fen Sie die resultierende Fa
+rgb-hex-converter
+  - RGB zu HEX Converter
+  + Konvertieren Sie RGB-Werte sofort in das HEX-Farbformat. Ein 100% clientseitiges Tool mit Live-F
+roll-two-dice
+  - Rollen Sie zwei Dice
+  + Roll zwei W├╝rfel online und sehen Sie beide Gesichter und ihre Summe. Kostenlose animierte 2d6-r
+sample-standard-deviation-calculator
+  - Sample Standard Deviation Calculator
+  + Finden Sie die Sample Standardabweichung s eines Datensatzes mit der n-1 Formel plus Sample Vari
+simplify-fractions-calculator
+  - Vereinfachen Sie Fractions Calculator
+  + Reduzieren Sie einen beliebigen Bruch oder eine gemischte Zahl auf niedrigste Terme. Sehen Sie d
+split-pdf
+  - Split PDF-Dateien
+  + Split PDF-Dateien kostenlos in Ihrem Browser. Extrahieren Sie ausgew├ñhlte Seiten in ein PDF oder
+sql-beautifier
+  - SQL Beautifier
+  + Beautify messy SQL mit konsistentem Abstand, Zeilenumbr├╝chen und Einr├╝ckung zum einfacheren Lese
+sql-formatter-beautifier
+  - SQL Formatter & Beautifier
+  + Format und beautify SQL-Abfragen mit Syntax-Hervorhebung, Unterst├╝tzung mehrerer Dialekte und an
+sqlite-viewer
+  - SQLite Viewer
+  + Open SQLite Datenbanken in Ihrem Browser: Durchsuchen Sie Tabellen und Ansichten, sehen Sie Sche
+square-footage-calculator
+  - Square Footage Calculator
+  + Berechnen Sie Quadratmetermaterial f├╝r R├ñume, Etagen und Grundst├╝cke. Kombinieren Sie Rechtecke,
+ssl-certificate-decoder
+  - SSL-Zertifikat Decoder
+  + Decode SSL/TLS-Zertifikate sofort: Betreff, Aussteller, SANs, Ablauf, Schl├╝ssel, Fingerabdr├╝cke 
+stl-viewer
+  - STL Viewer
+  + ├ûffnet STL-Dateien in Ihrem Browser: rotieren, zoomen, Gr├╢├ƒe, Volumen und Druckgewicht messen, p
+string-length-calculator
+  - String Length Calculator
+  + Messen Sie eine Textzeichenfolge's L├ñnge und vergleichen Sie die Z├ñhlwerte mit und ohne Leerzeic
+subnet-calculator
+  - Subnet Calculator
+  + Free IPv4-Subnetzrechner: Netzwerk, Broadcast, nutzbarer Hostbereich, Subnetz- und Platzhalterma
+svg-to-base64
+  - SVG to Base64 Converter
+  + Konvertieren Sie ein SVG in eine Base64-Daten-URI oder eine kleinere URL-kodierte Daten-URI, mit
+svg-to-ico
+  - SVG to ICO Converter
+  + Konvertieren Sie SVG-Logos in ICO. Jede Gr├╢├ƒe von 16 bis 256 px wird direkt aus dem Vektor f├╝r s
+svg-to-jpg
+  - SVG zu JPG Converter
+  + Konvertieren Sie SVG zu JPG bei jeder Aufl├╢sung mit einer Hintergrundfarbe Ihrer Wahl. Legen Sie
+svg-to-png
+  - Konvertieren Sie SVG zu PNG Converter
+  + Konvertieren Sie SVG zu PNG bei 1x, 2x, 4x oder 8x oder einer genauen Breite, wobei die Transpar
+svg-viewer
+  - SVG Viewer
+  + ├ûffnen oder f├╝gen Sie ein SVG ein, um es mit Zoom und Hintergr├╝nden anzuzeigen, sehen Sie seine 
+swagger-viewer
+  - Swagger Viewer
+  + Browse OpenAPI und Swagger API Dokumente in einer lesbaren Referenz mit Endpunkten, Parametern u
+text-to-handwriting
+  - Text zu Handschrift Converter
+  + Konvertieren Sie Text zu realistischer Handschrift online. 12 handschriftliche Schriftarten, Reg
+text-to-hex
+  - Text zu Hex Converter
+  + Konvertieren Sie Text zu Hex sofort. UTF-8-Bytes als hexadezimal mit Leerzeichen, kein Trennzeic
+tiff-to-jpg
+  - Konvertieren Sie TIFF zu JPG 
+  + Konvertieren Sie TIFF zu JPG in Ihrem Browser, einschlie├ƒlich jeder Seite von mehrseitigen TIFFs
+title-case-converter
+  - Title Case Converter
+  + Capitalize Der erste Buchstabe jedes Wortes, perfekt f├╝r Schlagzeilen, Titel und ├£berschriften. 
+token-counter
+  - Token Counter
+  + Count Tokens im Text mit lokalen Tokenizern und vergleichen Sch├ñtzungen ├╝ber beliebte KI-Modelle
+unix-timestamp-converter
+  - Unix Timestamp Converter
+  + Konvertieren Sie Unix Zeitstempel in vom Menschen lesbare Daten in UTC oder lokaler Zeit und ver
+variance-calculator
+  - Varianzrechner
+  + Freier Varianzrechner: F├╝gen Sie einen Datensatz ein, um die Stichprobenvarianz (s2) und die Pop
+video-to-gif
+  - Video zu GIF Converter
+  + Turn MP4, MOV oder WebM Clips in GIFs in Ihrem Browser. Trimmen, Frame Rate, Breite und Geschwin
+vlsm-calculator
+  - VLSM Calculator
+  + Plan-Subnetze unterschiedlicher Gr├╢├ƒe mit VLSM: Geben Sie ein Netzwerk ein und die Hosts, die je
+webp-to-ico
+  - WebP to ICO Converter
+  + Konvertieren Sie WebP-Bilder in ICO-Icons und Favicons. Transparenz gehalten, Gr├╢├ƒen von 16 bis 
+webp-to-jpg-converter
+  - WebP to JPG Converter
+  + Konvertieren Sie WebP-Bilder in universell unterst├╝tzte JPG-Dateien mit einstellbarer Qualit├ñt. 
+weighted-gpa-calculator
+  - Gewichteter GPA-Rechner
+  + Freier gewichteter GPA-Rechner mit Ihrem ungewichteten GPA daneben. Markieren Sie Honors (+0,5),
+white-elephant-rules
+  - White-Elephant-Regeln 
+  + Schritt f├╝r Schritt erkl├ñrt: Zugreihenfolge, Stehlen, die 3-Steal-Freeze und der endg├╝ltige Taus
+word-counter
+  - Word Counter
+  + Count W├╢rter, Zeichen, S├ñtze und Abs├ñtze, wie Sie tippen, mit Lesezeit, Sprechzeit und Wortfrequ
+word-to-html
+  - Word to HTML Converter
+  + Convert Word .docx zu reinigen, semantische HTML: ├£berschriften, Listen, Tabellen, Links und Bil
+word-viewer
+  - Word Viewer
+  + Free Online Word Viewer f├╝r .docx-Dateien: Lesen Sie jede Seite mit ihrer Formatierung, ├╝berpr├╝f
+world-time-converter
+  - World Time Converter 
+  + Konvertieren und vergleichen Sie die Zeiten in mehreren St├ñdten sicher in Ihrem Browser. Einfach
+xml-viewer
+  - XML Viewer
+  + View XML-Quelle als formatierter, zusammenklappbarer Baum und inspizieren seine analysierte Stru
+xsd-schema-viewer
+  - XSD Schema Viewer 
+  + ├ûffnen und erkunden Sie XML Schema Definition (XSD) Dateien mit interaktiver Typnavigation und d
+xsd-viewer
+  - XSD Viewer
+  + Browse XML Schema (XSD) Definitionen und inspizieren deren Elemente, Attribute und Typdeklaratio
+yaml-beautifier
+  - YAML Beautifier
+  + Beautify YAML mit konsistenter Einr├╝ckung und Layout, und pr├╝fen Sie das parsed Ergebnis vor dem
+yaml-formatter
+  - YAML Formatter & Beautifier
+  + Formatieren und versch├╢nern Sie YAML, ohne Kommentare oder Anker zu verlieren, und fangen Sie di
+yes-or-no-wheel
+  - Ja oder kein Rad
+  + Spinne das Ja oder kein Rad f├╝r eine faire 50/50 Antwort oder f├╝ge Vielleicht hinzu. Benennen Si
+
+--- unresolved ---
+2026-calendar :: Kostenloser druckbarer Kalender 2026 mit gesetzlichen Feiertagen in Deutschland (alle Bund
+2027-calendar :: Kostenloser druckbarer Kalender 2027: alle zw├╢lf Monate als Tabelle, Wochenbeginn am Monta
+2027-holidays :: Alle US-Bundesfeiertage und britischen Bankfeiertage eines beliebigen Jahres mit dem Tag, 
+3d-viewer :: 3D- und CAD-Modelle online ansehen: STL, OBJ, glTF, GLB, 3MF, PLY, FBX, STEP, IGES und meh
+adult-bmi-calculator :: Berechnen Sie einen Erwachsenen-BMI-Sch├ñtzwert aus Gr├╢├ƒe und Gewicht mit metrischen oder i
+age-calculator :: Berechnen Sie Ihr genaues Alter in Jahren, Monaten und Tagen, Ihr Alter an einem beliebige
+background-remover :: Machen Sie den Hintergrund eines Bildes transparent: Die Farbe am Rand des Bildes gilt als
+ai-viewer :: Zeigen Sie PDF-kompatible Adobe-Illustrator-Dateien in Ihrem Browser an. Vergr├╢├ƒern Sie di
+alphabetical-order-tool :: Formatieren Sie Textzeilen in alphabetischer Reihenfolge, A bis Z oder Z bis A, mit option
+apa-citation-generator :: Build APA 7 Referenzen f├╝r B├╝cher, Zeitschriftenartikel und Websites. Formatieren Sie Zita
+api-tester :: Testen Sie Ihre REST APIs sofort online. Ein schnelles, kostenloses und 100% clientseitige
+asn1-decoder :: Decode ASN.1 DER von PEM, Base64 oder hex in einen Baum mit Tags, L├ñngen, OIDs und Strings
+average-calculator :: Einf├╝gen einer Liste von Zahlen, um den Durchschnitt (Mittelwert), den Median, den Modus, 
+avi-to-mp4 :: Pr├╝fen Sie, ob Ihr AVI-Video im Browser in MP4 konvertiert werden kann. Chrome und Edge k├╢
+baby-boy-name-generator :: Bekommen Sie Jungennamen-Vorschl├ñge mit der gew├╝nschten Herkunft, dem Stil und der L├ñnge: 
+baby-girl-name-generator :: Bekommen Sie M├ñdchennamen-Vorschl├ñge mit der gew├╝nschten Herkunft, dem Stil und der L├ñnge:
+baby-name-ai :: Finden Sie einen Babynamen aus der mitgelieferten Liste: Grenzen Sie nach Geschlecht, kult
+baby-shower-bingo :: Free druckbare Baby-Dusche Bingo: einzigartige Geschenk-Bingo-Karten mit 48 Baby-Geschenki
+backwards-text-generator :: Text r├╝ckw├ñrts schreiben: umgekehrte Buchstaben, Wortreihenfolge oder jedes Wort, oder ers
+bank-statement-converter :: Wandeln Sie ein textbasiertes PDF-Bankstatement in eine saubere Tabelle um, die Sie lesen,
+bank-statement-to-excel :: Machen Sie aus den Buchungen eines textbasierten PDF-Statements eine Tabelle, die Sie pr├╝f
+barcode-generator :: Kostenloser Barcodegenerator f├╝r UPC, EAN-13, Code 128, Code 39, ITF-14, Data Matrix, PDF4
+base64-decoder :: Decode Base64 Text und codierte Daten online, mit einem dedizierten Decodierungsarbeitsber
+base64-encoder :: Encode Text- oder Dateidaten als Base64 in Ihrem Browser f├╝r Testnutzlasten, Datentranspor
+base64-encoder-decoder :: Encode und Decodierung von Base64-Strings mit Unterst├╝tzung f├╝r Text, Bilder und Dateien.
+base64-image-decoder :: Dekodieren Sie ein Bild, das als Base64 gespeichert ist, eine Vorschau seiner Pixel und la
+bingo-card-generator :: Kostenloser Bingo Card Generator: Machen Sie bis zu 1.000 einzigartige Karten mit den Zahl
+black-out-text-in-pdf :: Schwarzer Text in einem PDF, damit er nicht kopiert, durchsucht oder wiederhergestellt wer
+blank-bingo-card :: Freie Bingo-Kartenvorlage zum Drucken und Ausf├╝llen von Hand: 3x3, 4x4 oder 5x5, mit oder 
+blank-text-generator :: Erzeugen Sie leeren Text: eine beliebige Anzahl leerer Zeichen und leerer Zeilen zum Kopie
+blur-face :: Ein Gesicht in einem Foto weichzeichnen: Markieren Sie das Gesicht mit einem Rechteck oder
+bmi-calculator :: Berechnen Sie Ihren Body Mass Index in metrischen oder imperialen Einheiten, sehen Sie sic
+bmp-to-jpg :: Konvertieren Sie BMP-zu-JPG-Bitmaps in JPG (oder PNG) in Ihrem Browser und schneiden Sie d
+bold-text-generator :: Machen Sie fetten Unicode-Text, den Sie kopieren und in Instagram, LinkedIn, X und andersw
+bracket-generator :: Free Bracket Generator: F├╝gen Sie Namen ein, w├ñhlen Sie einzelne oder doppelte Eliminierun
+bulk-barcode-generator :: Generieren Sie Hunderte von Barcodes auf einmal: F├╝gen Sie eine Liste aus Excel oder Sheet
+censor-face :: Ein Gesicht in einem Foto schw├ñrzen - mit Blackbox, Emoji, Unsch├ñrfe oder Pixeln: Markiere
+chicago-citation-generator :: Build Chicago Author-Date Referenzen f├╝r B├╝cher, Zeitschriftenartikel und Websites. Format
+christmas-list-maker :: Erstellen Sie in wenigen Minuten eine Weihnachtsliste: F├╝gen Sie Geschenke mit Links, Prei
+citation-generator :: Erzeugen Sie sofort genaue APA-, MLA-, Chicago- und Harvard-Zitate. Exportieren Sie nach W
+code-128-barcode-generator :: Generate Code 128 und GS1-128 Barcodes f├╝r Inventar, Versand und Asset-Tags. Buchstaben, Z
+code-39-barcode-generator :: Create Code 39 und Code 93 Barcodes f├╝r Industrie-, Automobil- und Regierungsetiketten. Gr
+code-screenshot-generator :: Erstellen Sie einen sauberen Screenshot-PNG Ihres Codes mit anpassbaren Themen, Padding un
+code-snippet-screenshot :: Erstellen Sie sch├╢ne Screenshots von Code-Snippets mit anpassbaren Hintergr├╝nden, Syntax-H
+code-to-image :: Verwandeln Sie ein Code-Snippet in ein gestyltes Bild mit Syntax-Hervorhebung, Themen und 
+coin-flip :: Erhalten Sie einen zuf├ñlligen M├╝nzwurf mit einem animierten Wurf und Live-Statistiken. Dre
+coin-flip-simulator :: Flip eine M├╝nze online mit einer realistischen Animation. Werfen Sie mehrere M├╝nzen, spiel
+combine-pdf :: Kombinieren Sie PDF-Dateien in der Reihenfolge, in der Sie ein konsolidiertes Dokument aus
+common-denominator-calculator :: Finde den kleinsten gemeinsamen Nenner (LCD) von 2 bis 10 Br├╝chen, schreibe sie als ├ñquiva
+countdown-to-date :: Erstellen Sie einen Live-Countdown f├╝r jedes Datum und jede Uhrzeit: Geburtstage, Hochzeit
+cps-test :: Free CPS Test: Klicken Sie so schnell wie m├╢glich f├╝r 1, 5, 10, 15, 30, 60 oder 100 Sekund
+cron-expression-generator :: Erstellen Sie einen Cron-Zeitplan aus g├ñngigen Presets und pr├╝fen Sie dessen Beschreibung 
+cron-expression-parser :: Parse einen Cron-Ausdruck in einfache Sprache und Vorschau der n├ñchsten geplanten Laufzeit
+crontab-generator :: Bauen und verstehen Sie Cron-Ausdr├╝cke mit Live-Beschreibung und n├ñchsten Laufzeiten. Enth
+csr-decoder :: Decodieren und ├╝berpr├╝fen Sie eine CSR, bevor Sie sie an eine CA senden: Betreff, SANs, Sc
+csv-to-json-converter :: Konvertieren Sie CSV-Dateien in das JSON-Format mit Unterst├╝tzung f├╝r verschiedene Trennze
+cursive-text-generator :: Verwandeln Sie einfache W├╢rter in eleganten kursiven, Skript- und Blackletter-Unicode-Text
+data-matrix-generator :: Create Data Matrix und GS1 DataMatrix Codes f├╝r Teile, Gesundheitswesen und Elektronik. Te
+date-calculator :: Addieren oder subtrahieren Sie Tage, Wochen, Monate oder Jahre von einem beliebigen Datum,
+dead-pixel-test :: Pr├╝fen Sie Ihren Bildschirm auf tote und steckengebliebene Pixel mit Vollbild-Farbbildschi
+decimal-to-fraction-calculator :: Konvertieren Sie jede Dezimalzahl in einen Bruch in einfachster Form, einschlie├ƒlich sich 
+dice-roller :: Roll einen W├╝rfel online mit glatter Animation. Rollen Sie bis zu 100 W├╝rfel, w├ñhlen Sie d
+dirty-santa-rules :: Dirty Santa Regeln erkl├ñrt: Zahlen ziehen, ├╢ffnen oder stehlen, ein Geschenk ist nach 3 St
+discord-username-generator :: Generieren Sie einen Discord Username mit Kleinbuchstaben, Ziffern oder Unterstrichen. F├╝g
+discount-calculator :: Berechne den Verkaufspreis und die Einsparungen f├╝r einen beliebigen Prozentsatz, stapele 
+dog-age-calculator :: Konvertieren Sie Hundejahre in menschliche Jahre nach Gr├╢├ƒe (klein, mittel, gro├ƒ oder ries
+double-elimination-bracket :: Kostenloser Double Elimination Bracket Generator mit Gewinner- und Verliererklammern, eine
+ean-13-barcode-generator :: Generieren Sie EAN-13 und EAN-8 Barcodes f├╝r Produkte, die in Europa und weltweit verkauft
+easy-grader :: Free Online Easy Grader f├╝r Lehrer. Geben Sie die Anzahl der Fragen ein, um ein druckbares
+epoch-converter :: Konvertieren Sie Unix-Episoden-Zeitstempel in Sekunden oder Millisekunden in lesbare Daten
+excel-to-csv :: Wandeln Sie ein Excel-Blatt im Browser in CSV um: W├ñhlen Sie das Blatt und das Trennzeiche
+excel-viewer :: ├ûffnen Sie eine Excel-Arbeitsmappe im Browser: Jedes Blatt wird zu einer Tabelle, die Sie 
+face-pixelator :: Ein Gesicht in einem Foto mosaikisieren: Markieren Sie das Gesicht und stellen Sie die Pix
+fancy-text-generator :: Verwandeln Sie einfache W├╢rter in ausgefallene Unicode-Text- und Symbolrahmen, die Sie kop
+favicon-generator :: Erstellen Sie professionelle Favicons aus Bildern mit anpassbaren Gr├╢├ƒen, Hintergr├╝nden un
+favicon-maker :: Machen Sie ein Browser-Tab-Symbol aus einem Bibliothekssymbol, passen Sie Farben und Forme
+fbx-viewer :: Autodesk FBX-Dateien in Ihrem Browser: Meshes, Materialien, Texturen und Animationen. ├£ber
+final-grade-calculator :: Finden Sie die Punktzahl, die Sie f├╝r Ihre Abschlusspr├╝fung ben├╢tigen, um eine A, B oder C
+flac-to-mp3 :: Konvertieren Sie eine FLAC-Aufnahme im Browser in eine echte MP3-Datei. Der Ton wird lokal
+focus-timer :: F├╝hren Sie einen fokussierten Work Countdown mit einstellbaren Sitzungsl├ñngen, Pauseninter
+font-generator :: Verwandeln Sie Klartext in 100+ ausgefallene Unicode-Schriftarten, die Sie ├╝berall kopiere
+gamepad-tester :: Testen Sie Ihren Controller online: Tasten, Trigger, Sticks, Drift, Zirkularit├ñt und Vibra
+gif-to-mp4 :: Konvertieren Sie animierte GIFs in MP4-Video in Ihrem Browser: oft 90% kleiner, reibungslo
+glitch-text-generator :: Erstellen Sie glitchy, verzerrten Text f├╝r Bios, Gaming-Namen und Posts. Leichte bis schwe
+graphql-minifier :: Minify GraphQL Queries und Schemas in kompakte Single-Line-Strings: kleinere Nutzlasten, b
+graphql-schema-explorer :: Browse GraphQL Typen, Felder, Argumente und Definitionen in einem durchsuchbaren Schema Ex
+graphql-schema-validator :: Validate GraphQL Schemadefinitionen (SDL) und inspizieren gemeldete Syntax- oder Schemafeh
+gravel-calculator :: Kalkulieren Sie, wie viel Kies, zerkleinerter Stein, Flussfelsen oder Sand Sie in Tonnen u
+harvard-citation-generator :: Generate Harvard Autorendatum Referenzen f├╝r B├╝cher, Artikel und Websites. Geben Sie Detai
+hash-generator :: Secure, clientseitiger Hash-Generator, der MD5, SHA-256, bcrypt und mehr unterst├╝tzt. Hash
+heic-to-jpg-converter :: Konvertieren Sie iPhone HEIC / HEIF-Fotos in universelle JPG-Dateien, die vollst├ñndig auf 
+hex-to-rgb :: Konvertieren Sie einen hexadezimalen Farbcode in rote, gr├╝ne und blaue Werte mit einer Liv
+hex-to-rgb-calculator :: Berechnen Sie die RGB-Kanalwerte aus einem beliebigen HEX-Farbcode und vergleichen Sie die
+hourly-to-salary-calculator :: Konvertieren Sie einen Stundenlohn in Jahresgehalt, plus monatliche, zweiw├╢chentliche, w├╢c
+days-until-christmas :: Wie viele Tage bis Weihnachten? Live Weihnachts Countdown: Tage, Stunden, Minuten und Seku
+days-until-halloween :: Wie viele Tage bis Halloween? Live Halloween Countdown: Tage, Stunden, Minuten und Sekunde
+html-formatter :: Format verkleinerte HTML in sauberen, einger├╝ckten Code. Formatiert eingebettetes CSS und 
+html-minifier :: Minify HTML sicher: Kommentare entfernen, Whitespace zusammenbrechen, Inline-CSS und JSON-
+http-request-tester :: Komponieren Sie eine HTTP-Anfrage, passen Sie deren Header und Body an und pr├╝fen Sie die 
+ico-converter :: Konvertieren Sie PNG, JPG, WebP, SVG, GIF und BMP, um ICO-Icons in mehreren Gr├╢├ƒen zu erst
+instagram-grid-maker :: Teilen Sie Ihre Fotos in ein perfektes Puzzle-Raster f├╝r Instagram. 100% frei, hochfunktio
+instagram-image-splitter :: Teilen Sie ein Bild in 3x1, 3x2 oder 3x3 Rasterkacheln f├╝r ein Instagram-Profil-Layout und
+ipv6-subnet-calculator :: IPv6-Subnetzrechner: komprimierte und erweiterte Adresse, Netzwerkpr├ñfix, erste und letzte
+isbn-barcode-generator :: Erstellen Sie einen ISBN-Barcode f├╝r Ihr Buchcover von einem ISBN-13 oder ISBN-10. Konvert
+javascript-regex-tester :: Testen Sie JavaScript regul├ñre Ausdr├╝cke gegen Beispieltext mit hervorgehobenen ├£bereinsti
+jpg-to-png-converter :: Konvertieren Sie JPG-Bilder in verlustfreies PNG in Ihrem Browser, f├╝r Tools, die nur PNG 
+json-compare :: Vergleichen Sie zwei JSON-Dokumente und sehen Sie Unterschiede in ihren Werten und ihrer S
+json-diff :: Suchen Sie hinzugef├╝gte, entfernte und ge├ñnderte Werte zwischen zwei JSON-Eing├ñngen in ein
+json-editor :: Bearbeiten Sie JSON online mit Syntax-Hervorhebung, Live-Validierung, Codefaltung, Suchen 
+json-formatter :: Formatieren und validieren Sie JSON online. ├ûffnen Sie eine .json-Datei oder f├╝gen Sie Tex
+json-minifier :: Minimieren Sie JSON auf eine einzelne Zeile und sehen Sie, wie viele Bytes Sie gespeichert
+json-pretty-print :: Drucken Sie JSON online mit 2 Leerzeichen, 4 Leerzeichen oder Registerkarten oder kopieren
+json-diff-compare :: Vergleichen Sie zwei JSON-Objekte semantisch mit unserem Privacy-First-Tool auf Kundenseit
+json-to-csv-converter :: Konvertieren Sie JSON-Arrays in Tabellenkalkulationsbereites CSV mit korrektem Zitieren un
+json-to-toon :: Konvertieren Sie zwischen JSON und TOON Format, um 30-60% Token f├╝r LLM-Aufforderungen mit
+json-to-toon-converter :: Konvertieren Sie JSON in TOON (Token-Oriented Object Notation) mit einer Live-Vorschau und
+json-to-ts :: Verwandeln Sie JSON-Daten in TypeScript-Schnittstellendeklarationen, einschlie├ƒlich versch
+json-to-typescript :: Konvertieren Sie JSON-Objekte sofort in TypeScript-Schnittstellen mit anpassbaren Optionen
+json-to-typescript-interface :: Generieren Sie TypeScript-Schnittstellen aus einem JSON-Sample mit Optionen f├╝r optionale 
+json-validator :: Validieren Sie die JSON-Syntax mit Zeilen- und Spaltenfehlerindikatoren, einer einfachen e
+json-viewer :: Zeigen Sie JSON als zusammenklappbaren Baum, Tabelle oder formatierten Text mit einer Such
+jwt-decoder :: Decodieren Sie einen JWT-Header und eine Nutzlast, um die Anspr├╝che, den Ablauf und die Au
+jwt-decoder-encoder :: Entschl├╝sseln, verifizieren und generieren Sie JSON Web Tokens (JWT) lokal in Ihrem Browse
+jwt-encoder :: Encode JWT-Header- und Nutzdaten und signieren Testtoken f├╝r Entwicklung und Debugging. Ko
+keyboard-test :: Testen Sie Ihre Tastatur online: Jeder Schl├╝ssel leuchtet auf, wenn er sich registriert, m
+latex-equation-editor :: Schreiben Sie eine LaTeX-Formel und sehen Sie sie sofort gerendert: Die Live-Vorschau zeig
+local-ai-chat :: Ein Chat-Arbeitsbereich f├╝r ein Sprachmodell, das auf Ihrem eigenen Ger├ñt l├ñuft. Der Seite
+lowercase-converter :: Konvertieren Sie jeden Text sofort in Kleinbuchstaben, um Caps Lock-Unf├ñlle zu beheben und
+m4a-to-mp3 :: Konvertieren Sie eine M4A-Aufnahme (AAC, iPhone-Memos) im Browser in eine echte MP3-Datei.
+magic-eraser :: Unerw├╝nschte Objekte aus einem Foto entfernen, indem Sie dar├╝ber b├╝rsten: Der gepinselte B
+markdown-preview :: Write und Preview Markdown mit Live-HTML-Rendering, Syntax-Hervorhebung und LaTeX-Mathemat
+markdown-to-docx :: Konvertieren Sie Markdown-Dokumente in DOCX mit Live-Vorschau und Export mit einem Klick.
+markdown-wysiwyg-editor :: Edit Markdown visuell mit WYSIWYG Formatierungssteuerungen, anstatt jeden Syntaxmarker von
+markup-calculator :: Berechnen Sie den Verkaufspreis aus Kosten und Markup oder den Markup-Prozentsatz aus Kost
+md-to-docx :: Verwandeln Sie eine MD-Datei in ein editierbares DOCX-Dokument mit einer Live-Konvertierun
+md5-generator :: Generieren Sie MD5 Pr├╝fsummen aus Text oder Dateien sofort. 100% Client-Seite. ├£berpr├╝fen 
+mean-absolute-deviation-calculator :: Finde die mittlere absolute Abweichung (MAD) eines Datensatzes: den durchschnittlichen Abs
+meeting-planner :: Finden Sie eine gute Besprechungszeit ├╝ber Zeitzonen hinweg mit Stadtuhren und einem 24-St
+mic-test :: Testen Sie Ihr Mikrofon online: eine Live-Anzeige des Eingangspegels zeigt das Signal Ihre
+military-time-converter :: Konvertieren Sie die milit├ñrische Zeit sofort in die Standardzeit und zur├╝ck: 1730 = 17:30
+mkv-to-mp4 :: Konvertieren Sie ein Matroska-Video im Browser in eine echte MP4-Datei. Der Browser dekodi
+mla-citation-generator :: Create MLA 9 Works Zitiert Eintr├ñge f├╝r B├╝cher, Zeitschriftenartikel und Websites. Bewahre
+morse-code-translator :: ├£bersetzen Sie Englisch in Morse-Code und Morse-Code in Text, w├ñhrend Sie eingeben. Spiele
+mov-to-mp4 :: Konvertieren Sie ein QuickTime-Video im Browser in eine echte MP4-Datei. Der Browser dekod
+mp3-to-wav :: Konvertieren Sie eine MP3-Aufnahme im Browser in eine echte WAV-Datei. Der Ton wird lokal 
+mp4-to-mp3 :: Extrahieren Sie die Tonspur eines MP4-Videos im Browser als echte MP3-Datei. Die Audiospur
+new-year-countdown :: Live New Countdown bis Mitternacht in Ihrer Zeitzone, mit einer Vollbild-Partyuhr und eine
+offline-ai-chat :: Ein privater Chat-Arbeitsbereich f├╝r quelloffene Sprachmodelle, die auf Ihrem Ger├ñt laufen
+og-image-maker :: Machen Sie eine OG-Sharing-Karte mit einem benutzerdefinierten Titel, Untertitel, Farben u
+ogg-to-mp3 :: Konvertieren Sie eine Ogg-Vorbis-Datei im Browser in eine echte MP3-Datei. Der Ton wird lo
+one-rep-max-calculator :: Sch├ñtzen Sie Ihre eine Wiederholung max (1RM) aus einem beliebigen Satz von 1-15 Wiederhol
+markdown-editor :: Hochfunktional, schnell und sch├╢n gestaltet Online Markdown Editor mit einer robusten WYSI
+math-editor :: Schreiben Sie eine mathematische Formel in LaTeX und sehen Sie sie sofort gerendert: Die L
+math-keyboard :: Online-Mathe-Tastatur: Geben Sie Br├╝che, Wurzeln, griechische Buchstaben und mehr als 200 
+online-notepad :: Free Online-Notepad mit Multi-Tab-Bearbeitung, Autosave und Syntax-Hervorhebung. 100% clie
+tone-generator :: Kostenloser Online-Tongenerator: Spielen Sie eine beliebige Frequenz von 1 Hz bis 22 kHz a
+open-graph-checker :: Lesen Sie die Open-Graph- und Twitter-Card-Tags einer Seite: F├╝gen Sie den HTML-Code des K
+open-graph-image-generator :: Erstellen Sie ein 1200x630-Freigabebild f├╝r Open Graph-Metadaten mit editierbaren Kartenvo
+open-graph-preview :: Vorschau der Open-Graph- und Twitter-Card-Tags einer Seite: F├╝gen Sie den HTML-Code des Ko
+openapi-viewer :: ├ûffnen Sie eine OpenAPI 3.x- oder Swagger 2.0-Datei in JSON oder YAML und erkunden Sie End
+openapi-editor :: Editieren Sie eine YAML- oder JSON-Quelle f├╝r eine OpenAPI-Spezifikation und durchsuchen S
+paint-calculator :: Arbeiten Sie heraus, wie viele Gallonen Farbe Sie f├╝r einen Raum ben├╢tigen: W├ñnde, optiona
+parquet-to-csv :: Ein Browser hat keinen Parquet-Reader: Parquet ist ein Spaltenformat, das kein Browser ohn
+parquet-viewer :: Ein Browser hat keinen Parquet-Reader, deshalb l├ñsst sich hier keine Parquet-Datei ├╢ffnen.
+pdf-merger :: Merge mehrere PDFs in einem einzigen Dokument, ordnen Sie Dateien vor dem Beitritt neu an 
+pdf-redaction-tool :: Ein kostenloses PDF Redaction Tool mit Suche, automatischer Erkennung von E-Mails, Karten-
+pdf-to-image-converter :: Konvertieren Sie PDF-Seiten in JPG-, PNG- oder WebP-Bilder mit bis zu 600 DPI mit visuelle
+pdf417-generator :: Generieren Sie PDF417 2D Barcodes f├╝r Ausweise, Bordkarten, Versand und Dokumente. Kodiere
+pem-decoder :: Dekodieren Sie jede PEM-Datei: Zertifikate, Ketten, CSRs, ├╢ffentliche Schl├╝ssel und PKCS#7
+percentage-calculator :: Freier Prozentsatzrechner: Finden Sie X% von Y, wie viel Prozent X von Y ist, prozentuale 
+photo-metadata-remover :: Sicherlich schrubben Sie sensible EXIF-Daten, Kameraeinstellungen und GPS-Koordinaten aus 
+photo-metadata-viewer :: Entdecken Sie sicher versteckte EXIF-Daten, Kameraeinstellungen und GPS-Standort, die in I
+png-background-remover :: Entfernen Sie den Hintergrund eines PNG-Bildes: Die Farbe am Rand des Bildes wird transpar
+png-to-jpg-converter :: Konvertieren Sie PNG-zu-JPG-Bilder in JPG in Ihrem Browser. Batch-Konvertierung mit einem 
+png-to-webp-converter :: Konvertieren Sie PNG-zu-WebP-Bilder in gro├ƒen Mengen in WebP, bis zu 26% kleiner bei erhal
+pomodoro-timer :: Kostenloser Online Pomodoro Timer, um die Produktivit├ñt und den Fokus zu steigern. 25-min├╝
+printable-bingo-cards :: Kostenlose druckbare Bingokarten 1-75: Laden Sie ein PDF mit einzigartigen, nummerierten 5
+printable-calendar :: Erstellen Sie einen druckbaren Kalender f├╝r jedes Jahr: Monatsseiten mit Notizen oder ein 
+private-ai-chatbot :: Eine Chatbot-Oberfl├ñche f├╝r ein Modell, das in Ihrem Browser l├ñuft: Ihre Eingaben bleiben 
+protein-calculator :: Berechnen Sie, wie viele Gramm Protein Sie pro Tag vom K├╢rpergewicht und einem einstellbar
+qr-code-generator :: Generieren Sie benutzerdefinierte QR-Codes f├╝r URLs mit anpassbaren Farben, Gr├╢├ƒen, Hinter
+quote-image-generator :: Generieren Sie ein herunterladbares Zitatbild mit konfigurierbarer Typografie, Farben und 
+quote-image-maker :: Erstellen Sie sch├╢ne Zitatbilder mit benutzerdefinierten Hintergr├╝nden, Steigungen und Soc
+quote-maker :: Erstellen Sie eine Angebotskarte mit benutzerdefiniertem Text, Attribution, Schriftarten u
+raise-gpa-calculator :: Kostenlos GPA-Rechner erh├╢hen: Geben Sie Ihren aktuellen GPA, Credits und Ziel ein, um den
+random-group-generator :: Teilen Sie eine Liste von Namen in ausgeglichene zuf├ñllige Gruppen oder Teams. W├ñhlen Sie 
+random-item-picker :: W├ñhlen Sie einen oder mehrere zuf├ñllige Namen aus Ihrer Liste ohne Ersatz innerhalb einer 
+random-letter-generator :: Generieren Sie einen zuf├ñlligen Buchstaben von A bis Z, nur Vokale, Konsonanten oder Ihr e
+random-team-generator :: Teilen Sie Namen in zuf├ñllige Teams nach Anzahl der Teams oder Spieler pro Team. Ausgewoge
+random-winner-picker :: W├ñhlen Sie einen zuf├ñlligen Gewinner aus einer Liste von Namen oder Eintr├ñgen f├╝r ein Werb
+rapidtables-notepad-alternative :: Ein kostenloses Open-and-Typ-Online-Notepad ohne Anmeldung, plus benannte Tabs, kontinuier
+redact-bank-statement :: Redact ein Kontoauszug, bevor Sie es an einen Vermieter oder Kreditgeber senden. Verstecke
+redact-pdf :: Redact ein PDF in Ihrem Browser. Finden Sie Namen, Kontonummern und E-Mails, verdunkeln Si
+reddit-username-generator :: Erzeugen Sie einen Reddit-Benutzernamen aus lustigen, zuf├ñlligen oder personalisierten Wor
+refresh-rate-test :: ├£berpr├╝fen Sie Ihre Monitor-Aktualisierungsrate online: gemessen Hz, Frame-Zeit, Jitter un
+regex-explainer :: Erkl├ñren Sie einen regul├ñren Ausdruck Token f├╝r Token: Jede Gruppe, jeder Quantifizierer, 
+regex-generator :: Erstellen Sie einen regul├ñren Ausdruck aus einer englischen Beschreibung: W├ñhlen Sie die A
+regex-ai :: Ein Musterassistent f├╝r regul├ñre Ausdr├╝cke: Er setzt aus einer Beschreibung einen wohlgefo
+regex-tester :: Testen und erstellen Sie regul├ñre Ausdr├╝cke mit Echtzeit-Matching und detaillierten Erkl├ñr
+remove-object-from-photo :: Objekt, Person, Text oder Wasserzeichen aus einem Bild entfernen: W├ñhlen Sie das Foto, mal
+rest-api-tester :: Testen Sie REST-Endpunkte aus Ihrem Browser mit benutzerdefinierten Methoden, Headern, Abf
+roman-numeral-converter :: Konvertieren Sie Zahlen in r├╢mische Zahlen und r├╢mische Zahlen sofort von 1 bis 3.999.999 
+roman-numeral-date-converter :: Konvertieren Sie ein beliebiges Datum in r├╢mische Ziffern f├╝r Tattoos, Ringe und Hochzeits
+roofing-calculator :: Sch├ñtzen Sie Dachfl├ñche, Dachpl├ñtze und Schindelb├╝ndel aus Ihrer Hausgr├╢├ƒe, Dachsteigung, 
+round-robin-generator :: Free Round Robin Generator: Machen Sie einen fairen Zeitplan, in dem jedes Team jedes ande
+salary-to-hourly-calculator :: Konvertieren Sie ein Jahresgehalt in einen Stundenlohn f├╝r beliebige Stunden pro Woche und
+secret-santa-generator :: Secret Santa Generator: F├╝gen Sie Namen hinzu, setzen Sie Ausschl├╝sse f├╝r Paare und senden
+sha256-generator :: Berechnen SHA-256 Hashes von Text und Dateien sofort. 100% Client-Seite. ├£berpr├╝fen Sie di
+single-elimination-bracket :: Machen Sie eine einzelne Eliminationshalterung f├╝r 2 bis 128 Teams. Standard Seeding, auto
+small-text-generator :: Konvertieren Sie Text in kleine, kleine Kappen, hochgestellte und subskriptive Unicode-Buc
+social-media-preview :: Preview, wie ein ├╢ffentlicher Link aussehen wird, wenn er auf Facebook, X, LinkedIn und Sl
+sound-test :: Test Lautsprecher und Kopfh├╢rer online: linker/rechter Kanaltest, 20 HzΓÇô20 kHz Sweep, Pola
+sql-formatter :: Format SQL-Abfragen mit w├ñhlbarem Dialekt, Schl├╝sselwortfall und Einr├╝ckeinstellungen f├╝r 
+sqlite-browser :: Ein kostenloser Online-SQLite-Browser: ├ûffnen Sie eine Datenbank, durchsuchen Sie Tabellen
+sqlite-online :: Write und f├╝hren Sie SQLite-Abfragen online aus: Starten Sie eine neue Datenbank oder ├╢ffn
+standard-deviation-calculator :: Freier Standardabweichungsrechner: Einf├╝gen von Zahlen, um Stichprobe und Population SD, V
+stick-drift-test :: Testen Sie Ihren Controller auf Stickdrift: Sehen Sie Ruhewerte f├╝r beide Joysticks, vergl
+strikethrough-text-generator :: Generieren Sie Strikethrough, Slash, Unterstreichen und Overline-Text zum Kopieren und Ein
+strong-password-generator :: Erstellen Sie lange, starke Passw├╢rter mit Kontrolle ├╝ber Symbole, Zahlen und Buchstabenf├ñ
+study-timer :: Plan konzentrierte sich auf Studiensitzungen mit einem konfigurierbaren Pomodoro-Countdown
+subnet-cheat-sheet :: Complete IPv4-Subnetz-Spickzettel: jedes CIDR-Pr├ñfix von /0 bis /32 mit Subnetzmaske, Plat
+svg-favicon-generator :: Erstellen Sie ein SVG-Favicon aus einer Icon-Bibliothek mit benutzerdefinierten Farben, Gr
+svg-to-css :: Verwandeln Sie ein SVG in CSS: ein optimiertes URL-kodiertes Hintergrundbild oder eine Mas
+tdee-calculator :: Berechnen Sie Ihren TDEE (gesamter t├ñglicher Energieverbrauch) nach Alter, Geschlecht, Gr├╢
+test-grade-calculator :: Geben Sie die Anzahl der Fragen ein und wie viele Sie falsch gestellt haben, um Ihre Testn
+text-case-converter :: Konvertieren Sie Text zwischen verschiedenen Fallformaten mit Live-Vorschau und Export mit
+text-compare :: Vergleichen Sie zwei Versionen von Text nebeneinander und sehen Sie hervorgehobene Erg├ñnzu
+text-diff :: F├╝hren Sie ein zeilenweises Textdiff mit hervorgehobenen Einf├╝gungen und L├╢schungen vollst
+text-repeater :: Wiederholen Sie jeden Text oder Emoji hunderte oder tausende Male mit Leerzeichen, neuen Z
+text-to-binary :: Konvertieren Sie Text sofort in Bin├ñrcode: 8 Bits pro Byte, UTF-8 f├╝r Emoji und Akzente, m
+thanksgiving-bingo :: Free druckbare Thanksgiving Bingo Karten: einzigartige Karten mit 46 Thanksgiving W├╢rtern,
+thanksgiving-countdown :: Wie viele Tage bis Thanksgiving? Live-countdown bis zum vierten donnerstag im november, mi
+tile-calculator :: Berechnen Sie, wie viele Boden- oder Wandfliesen Sie aus dem Bereich, der Fliesengr├╢├ƒe und
+time-calculator :: Hinzuf├╝gen und Subtrahieren von Stunden und Minuten, summieren Sie eine Liste von Zeiten o
+time-card-calculator :: Kostenloser w├╢chentlicher Zeitkartenrechner: Clock-in- und Clock-out-Zeiten mit Pausen, Na
+time-zone-converter :: Vergleichen Sie aktuelle und nahe gelegene Zeiten ├╝ber mehrere Zeitzonen mit Stadtuhren un
+toon-to-json :: Dekodieren Sie TOON (Token-Oriented Object Notation) zur├╝ck in JSON und ├╝berpr├╝fen Sie die
+transparent-background-maker :: Machen Sie den Hintergrund eines Fotos transparent: Die Farbe am Rand des Bildes gilt als 
+transparent-qr-code-generator :: Erstellen Sie einen URL-QR-Code mit einem transparenten Hintergrund f├╝r die Verwendung in 
+tsv-to-json :: Konvertieren Sie tab-getrennte TSV-Werte in JSON, indem Sie Zeilen einf├╝gen oder eine TSV-
+twitch-username-generator :: Erzeugen Sie einen denkw├╝rdigen Twitch-Benutzernamen f├╝r Ihren Streaming-Kanal mit Buchsta
+timestamp-converter-generator :: Konvertieren zwischen Unix-Zeitstempeln und menschenlesbaren Daten. Generieren Sie aktuell
+upc-barcode-generator :: UPC-A und UPC-E Barcodes f├╝r Einzelhandelsprodukte erstellen. Die Pr├╝fziffer wird f├╝r Sie 
+uppercase-converter :: Umwandeln Sie jeden Text sofort in UPPERCASE: Einf├╝gen, Klicken, Kopieren. Selection-aware
+upside-down-text-generator :: Drehen Sie den Text auf den Kopf und kopieren Sie ihn ├╝berall: Buchstaben, Zahlen und Satz
+url-decoder :: Decode prozentcodierten URL-Text und Abfragezeichenfolgen zur├╝ck in lesbare Zeichen. Koste
+url-encoder :: Percent-encodieren URL-Text und Abfragezeichenfolgen mit w├ñhlbarem Kodierungsverhalten f├╝r
+url-encoder-decoder :: Encode und Decodierungs-URLs mit Unterst├╝tzung f├╝r Komponenten- und vollst├ñndige URL-Codie
+url-to-qr-code :: Verwandeln Sie eine Website-URL in einen herunterladbaren QR-Code mit einstellbaren Farben
+username-generator :: Generieren Sie einen Benutzernamen mit Ihrem eigenen Wort oder erkunden Sie zuf├ñllige Idee
+uuid-generator :: Generieren Sie universell eindeutige Identifikatoren mit Unterst├╝tzung f├╝r verschiedene Ve
+uuid-v4-generator :: Generieren Sie zuf├ñllige UUID v4-Identifikatoren sofort, Single oder Bulk bis 1000, im Sta
+uuid-v7-generator :: Erzeugen Sie zeitgeordnete UUID v7-Identifikatoren: sortierbar, datenbankfreundlich, RFC 9
+water-intake-calculator :: Sch├ñtzen Sie, wie viel Wasser Sie pro Tag von Ihrem Gewicht, Ihrer Bewegung und Ihrem Klim
+wav-to-mp3 :: Konvertieren Sie eine WAV-Aufnahme im Browser in eine echte MP3-Datei. Die Abtastwerte wer
+webcam-test :: Testen Sie Ihre Webcam online: eine Live-Vorschau der Kamera in Ihrem Browser, das Video b
+webm-converter :: Konvertieren Sie ein WebM-Video in eine echte MP4-Datei oder extrahieren Sie den Ton als M
+webm-to-mp4 :: Konvertieren Sie ein WebM-Video im Browser in eine echte MP4-Datei. Der Browser dekodiert 
+webm-to-mp4-converter :: Konvertieren Sie ein WebM-Video vollst├ñndig in Ihrem Browser in eine echte MP4-Datei. Der 
+webp-converter :: Konvertieren Sie JPG, PNG in WebP und umgekehrt. 100% browserbasierte Batch-Bildverarbeitu
+webp-to-gif :: Konvertieren Sie animiertes WebP in GIF in Ihrem Browser, behalten Sie das Frame-Timing un
+webp-to-png-converter :: Konvertieren Sie WebP-Bilder in universell kompatible PNG-Dateien mit null Qualit├ñtsverlus
+weighted-grade-calculator :: Berechnen Sie eine gewichtete Note aus Kategorien wie Hausaufgaben 20% und Pr├╝fungen 50%. 
+white-elephant-generator :: Kostenloser White Elephant Generator: Zeichnen Sie eine zuf├ñllige Abbiegereihenfolge, verf
+wifi-qr-code-generator :: Erstellen Sie einen QR-Code, der G├ñste in einem Scan mit einer druckbaren Karte und PNG-, 
+xlsx-to-csv :: Wandeln Sie eine XLSX-Datei im Browser in CSV um: W├ñhlen Sie das Blatt und das Trennzeiche
+xlsx-viewer :: ├ûffnen Sie eine .xlsx-Datei ohne Excel: Jedes Blatt wird zu einer Tabelle, die Sie durch e
+xml-formatter :: Format, validieren, verkleinern und erkunden Sie XML mit einem Baum-Viewer und XPath-Teste
+xml-validator :: Checken Sie die XML-Gutformigkeit und pr├╝fen Sie Parserfehler mit Zeilendetails in Ihrem B
+xsd-editor :: Edit XSD Quelle und pr├╝fen Sie die analysierten Elemente und Typen des Schemas in Ihrem Br
+yaml-editor :: Edit YAML mit Syntax-Hervorhebung und sofortiger Fehlerr├╝ckmeldung in einem lokalen Browse
+yaml-minifier :: Minifizieren Sie YAML, indem Sie es in eine kompakte Flow-Style-Ausgabe einst├╝rzen und dan
+yaml-to-json :: Konvertieren Sie YAML-Daten in formatierte JSON mit Syntaxfehler-Feedback, vollst├ñndig in 
+yaml-json-converter :: Konvertieren Sie YAML-Daten sofort in das JSON-Format mit einem 100% Offline-Tool auf Clie
+yaml-validator :: Validate YAML Syntax und sehen Parsing-Fehler mit Zeilennummern in einem Browser-basierten
+yaml-editor-validator :: Validate YAML Syntax und Struktur mit Echtzeit-Fehlererkennung und Syntax-Hervorhebung.
+yankee-swap-rules :: Yankee Swap-Regeln erkl├ñrten: Zahlen ziehen, ├╢ffnen oder tauschen, das 3-Swap-Einfrieren u
+yml-to-json :: Konvertieren Sie ein .yml-Dokument in JSON und pr├╝fen Sie die resultierenden Daten in Ihre
+youtube-thumbnail-downloader :: Erzeugen Sie die offiziellen Vorschaubild-Adressen eines YouTube-Videos: F├╝gen Sie einen V
+youtube-thumbnail-grabber :: Erzeugen Sie die Vorschaubild-Adressen von bis zu 50 YouTube-Videos auf einmal: F├╝gen Sie 
+zalgo-text-generator :: Machen Sie gruseligen Zalgo-Text, der ├╝ber und unter der Linie versch├╝ttet wird. Passen Si
+
+written: src/data/tools_de.json

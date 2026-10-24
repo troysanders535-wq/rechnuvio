@@ -1,0 +1,13 @@
+{
+  "namespace": "ui.calculators.TimeTools",
+  "en": {
+    "rawDifference": "Raw difference",
+    "convertMilitaryTimeToStandardTimeAndBack1730Becomes530PM": "Convert military time to standard time and back — 1730 becomes 5:30 PM.",
+    "timeCardShiftFormulaNote": "Each shift is the difference between the clock-out and clock-in time. Shifts that cross midnight are counted as an overnight shift."
+  },
+  "de": {
+    "rawDifference": "Unbereinigte Differenz",
+    "convertMilitaryTimeToStandardTimeAndBack1730Becomes530PM": "Militärzeit in Normalzeit umrechnen und zurück — 1730 wird 5:30 PM.",
+    "timeCardShiftFormulaNote": "Jede Schicht ist die Differenz zwischen Ausstempel- und Anstempelzeit. Schichten, die über Mitternacht hinausgehen, zählen als Nachtschicht."
+  }
+}

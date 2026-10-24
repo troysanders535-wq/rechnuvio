@@ -206,6 +206,23 @@ export function weightedGpaOf(courses: GradeCourse[]): number {
   return credits === 0 ? 0 : points / credits;
 }
 
+/**
+ * The plain average of the grade points, without any credit weighting.
+ * Middle school report cards carry no credit hours, so the average of the
+ * grades is the GPA there.
+ */
+export function averageGradePoints(courses: GradeCourse[]): number {
+  if (courses.length === 0) return 0;
+  const points = courses.reduce((sum, c) => sum + gradePointsFor(c.grade, "4.0"), 0);
+  return points / courses.length;
+}
+
+/**
+ * The percentage that starts an A on the site's letter scale, the same
+ * boundary `letterGrade` uses.
+ */
+export const A_GRADE_BOUNDARY = 93;
+
 /** Letter grade for a percentage, with +/- modifiers. */
 export function letterGrade(percent: number): string {
   if (percent >= 97) return "A+";
@@ -407,6 +424,33 @@ export function divideFractions(a: Fraction, b: Fraction): Fraction {
   return simplifyFraction(a.numerator * b.denominator, a.denominator * b.numerator);
 }
 
+/**
+ * The result of a fraction operation before the numerator and the denominator
+ * are reduced, so the unsimplified fraction can be shown as the working out.
+ */
+export function unsimplifiedFraction(
+  operation: "add" | "subtract" | "multiply" | "divide",
+  a: Fraction,
+  b: Fraction,
+): Fraction {
+  if (operation === "add") {
+    return {
+      numerator: a.numerator * b.denominator + b.numerator * a.denominator,
+      denominator: a.denominator * b.denominator,
+    };
+  }
+  if (operation === "subtract") {
+    return {
+      numerator: a.numerator * b.denominator - b.numerator * a.denominator,
+      denominator: a.denominator * b.denominator,
+    };
+  }
+  if (operation === "multiply") {
+    return { numerator: a.numerator * b.numerator, denominator: a.denominator * b.denominator };
+  }
+  return { numerator: a.numerator * b.denominator, denominator: a.denominator * b.numerator };
+}
+
 /** Mixed number (whole + proper fraction) to an improper fraction. */
 export function mixedToImproper(whole: number, numerator: number, denominator: number): Fraction {
   return simplifyFraction(whole * denominator + numerator, denominator);
@@ -526,6 +570,14 @@ export function simplifyRatio(a: number, b: number): { a: number; b: number; fac
 /** Solves A : B = C : ? */
 export function solveRatio(a: number, b: number, c: number): number {
   return b === 0 ? 0 : (b * c) / a;
+}
+
+/**
+ * The height that keeps the ratio a : b for a given width.
+ * Resizing a ratio must never break it: the height follows the width.
+ */
+export function heightForRatioWidth(a: number, b: number, width: number): number {
+  return a === 0 ? 0 : width * (b / a);
 }
 
 /** Splits a total in the ratio a : b. */
@@ -800,6 +852,18 @@ export function minutesBetween(start: string, end: string): number | null {
   let diff = e - s;
   if (diff < 0) diff += 1440;
   return diff;
+}
+
+/**
+ * True when a shift ends before it starts, so the shift runs over midnight.
+ * `minutesBetween` always returns a positive length, the overnight case has to
+ * be detected from the clock times themselves.
+ */
+export function isOvernightShift(start: string, end: string): boolean {
+  const s = parseTime(start);
+  const e = parseTime(end);
+  if (s === null || e === null) return false;
+  return e < s;
 }
 
 export function decimalHours(minutes: number): number {

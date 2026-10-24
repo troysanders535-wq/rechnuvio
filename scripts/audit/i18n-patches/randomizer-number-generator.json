@@ -1,0 +1,41 @@
+{
+  "namespace": "ui.engines.randomizers",
+  "en": {
+    "misc": {
+      "number": {
+        "decimals": "Decimal places",
+        "wholeNumbers": "Whole numbers",
+        "oneDecimal": "1 decimal place",
+        "twoDecimals": "2 decimal places",
+        "threeDecimals": "3 decimal places",
+        "exclude": "Leave out these numbers",
+        "excludePlaceholder": "7, 13, 42",
+        "unique": "No repeats (lottery pick)",
+        "sorted": "Sort the result from small to large",
+        "history": "Earlier draws",
+        "nothingLeft": "Every number in the range was left out, so there is nothing to draw.",
+        "tooFewForUnique": "There are not enough numbers left in the range for a draw without repeats.",
+        "uniqueNeedsWholeNumbers": "A draw without repeats only works with whole numbers. Set the decimal places back to 0."
+      }
+    }
+  },
+  "de": {
+    "misc": {
+      "number": {
+        "decimals": "Nachkommastellen",
+        "wholeNumbers": "Ganze Zahlen",
+        "oneDecimal": "1 Nachkommastelle",
+        "twoDecimals": "2 Nachkommastellen",
+        "threeDecimals": "3 Nachkommastellen",
+        "exclude": "Diese Zahlen auslassen",
+        "excludePlaceholder": "7, 13, 42",
+        "unique": "Keine Wiederholungen (Lotterieziehung)",
+        "sorted": "Das Ergebnis von klein nach groß sortieren",
+        "history": "Frühere Ziehungen",
+        "nothingLeft": "Alle Zahlen des Bereichs wurden ausgelassen, es gibt nichts zu ziehen.",
+        "tooFewForUnique": "Es sind nicht genügend Zahlen im Bereich übrig für eine Ziehung ohne Wiederholungen.",
+        "uniqueNeedsWholeNumbers": "Eine Ziehung ohne Wiederholungen geht nur mit ganzen Zahlen. Setzen Sie die Nachkommastellen zurück auf 0."
+      }
+    }
+  }
+}

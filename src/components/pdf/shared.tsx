@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useCallback, useRef, useState } from "react";
+import { useTranslations } from "next-intl";
 
 /* ------------------------------------------------------------------ */
 /* File helpers                                                        */
@@ -155,6 +156,7 @@ export function FileList({
   files: File[];
   onRemove?: (index: number) => void;
 }) {
+  const tUi = useTranslations("ui.pdf.shared");
   if (!files.length) return null;
   return (
     <ul className="mt-4 space-y-2">
@@ -176,7 +178,7 @@ export function FileList({
                 onClick={() => onRemove(i)}
                 className="text-xs font-semibold text-rose-600 hover:text-rose-700 dark:text-rose-400"
               >
-                Remove
+                {tUi("remove")}
               </button>
             ) : null}
           </span>
@@ -199,6 +201,7 @@ export function ActionButton({
   busy?: boolean;
   tone?: "primary" | "success";
 }) {
+  const tUi = useTranslations("ui.pdf.shared");
   const base =
     "rounded-lg px-5 py-2.5 text-sm font-semibold text-white transition disabled:cursor-not-allowed disabled:opacity-60";
   const skin =
@@ -212,7 +215,7 @@ export function ActionButton({
       disabled={disabled || busy}
       className={`${base} ${skin}`}
     >
-      {busy ? "Working…" : children}
+      {busy ? tUi("working") : children}
     </button>
   );
 }

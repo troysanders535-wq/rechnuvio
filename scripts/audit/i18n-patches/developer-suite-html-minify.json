@@ -1,0 +1,13 @@
+{
+  "namespace": "ui.engines.developerSuite",
+  "en": {
+    "minifyCompressInline": "Compress the CSS and the JSON-LD as well",
+    "minifyDropQuotes": "Drop the quotes around the attribute values",
+    "minifyBytesSaved": "{saved} bytes saved, {bytes} bytes left"
+  },
+  "de": {
+    "minifyCompressInline": "CSS und JSON-LD mit komprimieren",
+    "minifyDropQuotes": "Anführungszeichen um die Attributwerte entfernen",
+    "minifyBytesSaved": "{saved} Bytes gespart, {bytes} Bytes übrig"
+  }
+}

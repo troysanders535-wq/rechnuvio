@@ -1,0 +1,23 @@
+{
+  "namespace": "ui.engines.TextCitationWorkspace",
+  "en": {
+    "book": "Book",
+    "journalArticle": "Journal article",
+    "website": "Website",
+    "journalName": "Journal name",
+    "websiteName": "Website name",
+    "publisher": "Publisher",
+    "separateSeveralAuthorsWithASemicolon": "Separate several authors with a semicolon. Titles keep the capitalisation you type, and empty fields are left out of the citation.",
+    "parsingReadsTheAuthorYearTitleJournalOrBookTitleFields": "Parsing reads the author, year, title, journal or book title, volume, number, pages, publisher and URL fields and fills the form with them."
+  },
+  "de": {
+    "book": "Buch",
+    "journalArticle": "Zeitschriftenartikel",
+    "website": "Webseite",
+    "journalName": "Name der Zeitschrift",
+    "websiteName": "Name der Webseite",
+    "publisher": "Verlag",
+    "separateSeveralAuthorsWithASemicolon": "Trennen Sie mehrere Autoren mit einem Semikolon. Titel behalten die von Ihnen eingegebene Groß- und Kleinschreibung, und leere Felder werden nicht in das Zitat übernommen.",
+    "parsingReadsTheAuthorYearTitleJournalOrBookTitleFields": "Beim Parsen werden die Felder Autor, Jahr, Titel, Zeitschrift- oder Buchtitel, Band, Nummer, Seiten, Verlag und URL gelesen und in das Formular übernommen."
+  }
+}

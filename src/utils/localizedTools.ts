@@ -90,7 +90,14 @@ export function getLocalizedTool(tool: ToolItem, locale: string): ToolItem {
     name: localizedName,
     description: localizedDesc,
     category: localizedCategory,
-    features: (tool.features || []).map((f) => translateFeature(f, locale)),
-    faqs: (tool.faqs || []).map((faq) => translateFaq(faq, localizedName, locale)),
+    // The German catalog carries its own tool-specific feature bullets and
+    // FAQ list. The English text is only the fallback for a catalog entry
+    // that has not been generated yet.
+    features: deEntry?.features?.length
+      ? deEntry.features
+      : (tool.features || []).map((f) => translateFeature(f, locale)),
+    faqs: deEntry?.faqs?.length
+      ? deEntry.faqs
+      : (tool.faqs || []).map((faq) => translateFaq(faq, localizedName, locale)),
   };
 }

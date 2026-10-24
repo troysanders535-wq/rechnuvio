@@ -1,0 +1,11 @@
+{
+  "namespace": "ui.engines.developerSuite",
+  "en": {
+    "copyMathml": "Copy MathML",
+    "symbolPalette": "Symbol palette"
+  },
+  "de": {
+    "copyMathml": "MathML kopieren",
+    "symbolPalette": "Symbolpalette"
+  }
+}
