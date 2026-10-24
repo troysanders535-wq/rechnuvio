@@ -903,8 +903,8 @@
         "metricKgCm": "Metric (kg/cm)",
         "imperialLbsIn": "Imperial (lbs/in)",
         "biologicalSex": "Biological Sex",
-        "weight": "Weight (",
-        "height": "Height (",
+        "weight": "Weight ({unit})",
+        "height": "Height ({unit})",
         "inches": "inches"
       },
       "ImageSuiteEngine": {

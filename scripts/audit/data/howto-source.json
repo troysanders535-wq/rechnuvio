@@ -274,14 +274,14 @@
      "required": false
     },
     {
-     "label": "Weight (kg",
+     "label": "Weight (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Height (cm",
+     "label": "Height (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -313,14 +313,14 @@
      "required": false
     },
     {
-     "label": "Gewicht (kg",
+     "label": "Gewicht (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Größe (cm",
+     "label": "Größe (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -1035,14 +1035,14 @@
    "actions": [
     "Another name",
     "Surprise me",
-    "Aurelius",
-    "Siavash",
-    "Navid",
-    "Rainer",
-    "Remy",
-    "Gunther",
-    "Lars",
-    "Ernest"
+    "Alejandro",
+    "Loic",
+    "Tatum",
+    "Ruslan",
+    "Bilal",
+    "Alfred",
+    "Javier",
+    "Orestes"
    ]
   },
   "de": {
@@ -1090,14 +1090,14 @@
    "actions": [
     "Noch ein Name",
     "Überraschen Sie mich",
-    "Sergio",
-    "Gunther",
-    "Amir",
-    "Stanislav",
-    "Cormac",
-    "Alejandro",
-    "Til",
-    "Arash"
+    "Gaspard",
+    "Miroslav",
+    "Eli",
+    "Siavash",
+    "Peyton",
+    "Sasha",
+    "Ramin",
+    "Dmitri"
    ]
   }
  },
@@ -1147,14 +1147,14 @@
    "actions": [
     "Another name",
     "Surprise me",
-    "Gaia",
-    "Juno",
-    "Katharina",
-    "Ludmila",
-    "Yulia",
+    "Runa",
+    "Sawyer",
     "Iman",
-    "Cosmo",
-    "Beatriz"
+    "Maja",
+    "Margaux",
+    "Roshanak",
+    "Beatrice",
+    "Gisela"
    ]
   },
   "de": {
@@ -1202,14 +1202,14 @@
    "actions": [
     "Noch ein Name",
     "Überraschen Sie mich",
-    "Rowan",
-    "Clarissa",
-    "Dasha",
-    "Irmgard",
-    "Ludovica",
-    "Miriam",
-    "Tanya",
-    "Arden"
+    "Nadezhda",
+    "Signe",
+    "Sahar",
+    "Coralie",
+    "Renate",
+    "Sigrid",
+    "Kendall",
+    "Miriam"
    ]
   }
  },
@@ -1269,14 +1269,14 @@
    "actions": [
     "Another name",
     "Surprise me",
-    "Xenon",
-    "Theophile",
-    "Noor",
-    "Rowan",
-    "Chiara",
-    "Alexis",
-    "Zahra",
-    "Dakota"
+    "Karim",
+    "Lucius",
+    "Inaki",
+    "Miriam",
+    "Yosef",
+    "Talia",
+    "George",
+    "Theodore"
    ]
   },
   "de": {
@@ -1334,14 +1334,14 @@
    "actions": [
     "Noch ein Name",
     "Überraschen Sie mich",
-    "Titus",
-    "Sahar",
-    "Amaury",
-    "Saga",
-    "Rafael",
-    "Coralie",
-    "Jamie",
-    "Florence"
+    "Deborah",
+    "Livia",
+    "George",
+    "Delphine",
+    "Nicolo",
+    "Mairead",
+    "Vasek",
+    "Zofia"
    ]
   }
  },
@@ -2802,14 +2802,14 @@
      "required": false
     },
     {
-     "label": "Weight (kg",
+     "label": "Weight (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Height (cm",
+     "label": "Height (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -2841,14 +2841,14 @@
      "required": false
     },
     {
-     "label": "Gewicht (kg",
+     "label": "Gewicht (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Größe (cm",
+     "label": "Größe (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -2882,14 +2882,14 @@
      "required": false
     },
     {
-     "label": "Weight (kg",
+     "label": "Weight (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Height (cm",
+     "label": "Height (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -2921,14 +2921,14 @@
      "required": false
     },
     {
-     "label": "Gewicht (kg",
+     "label": "Gewicht (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Größe (cm",
+     "label": "Größe (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -2990,14 +2990,14 @@
      "required": false
     },
     {
-     "label": "Weight (kg",
+     "label": "Weight (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Height (cm",
+     "label": "Height (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -3040,14 +3040,14 @@
      "required": false
     },
     {
-     "label": "Gewicht (kg",
+     "label": "Gewicht (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Größe (cm",
+     "label": "Größe (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -3452,14 +3452,14 @@
      "required": false
     },
     {
-     "label": "Weight (kg",
+     "label": "Weight (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Height (cm",
+     "label": "Height (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -3502,14 +3502,14 @@
      "required": false
     },
     {
-     "label": "Gewicht (kg",
+     "label": "Gewicht (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Größe (cm",
+     "label": "Größe (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -6689,15 +6689,15 @@
    ],
    "actions": [
     "Generate names",
-    "Dawn_Garden108",
-    "Wild_Lantern",
-    "Rusty_Garden416",
-    "Electric_Peak254",
-    "Keen_Badger",
-    "Daring_Lantern",
-    "Deep_Lynx",
-    "Gentle_Heron",
-    "Keen_Otter"
+    "Jolly_Sparrow233",
+    "Rapid_Meadow",
+    "Polar_Lantern325",
+    "Stellar_Robin",
+    "Nimble_Forest",
+    "Golden_Willow",
+    "Curious_Eagle",
+    "Happy_Canyon",
+    "Amber_Lantern"
    ]
   },
   "de": {
@@ -6723,15 +6723,15 @@
    ],
    "actions": [
     "Namen erzeugen",
-    "Solar_Falcon",
-    "Humble_Cedar565",
-    "Happy_Dolphin",
-    "Swift_Island",
-    "Jolly_Summit789",
-    "Gentle_Lantern874",
-    "Sunny_Mountain",
-    "Quiet_Harbor267",
-    "Calm_Valley893"
+    "Fearless_Cedar",
+    "Lively_Heron",
+    "Spry_Dolphin411",
+    "Happy_Meteor903",
+    "Autumn_Peak483",
+    "Calm_Creek",
+    "Cedar_Willow673",
+    "Autumn_Robin",
+    "Ancient_Mountain"
    ]
   }
  },
@@ -12918,14 +12918,14 @@
      "required": false
     },
     {
-     "label": "Weight (kg",
+     "label": "Weight (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Height (cm",
+     "label": "Height (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -12968,14 +12968,14 @@
      "required": false
     },
     {
-     "label": "Gewicht (kg",
+     "label": "Gewicht (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Größe (cm",
+     "label": "Größe (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -13048,14 +13048,14 @@
      "required": false
     },
     {
-     "label": "Weight (kg",
+     "label": "Weight (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Height (cm",
+     "label": "Height (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -13098,14 +13098,14 @@
      "required": false
     },
     {
-     "label": "Gewicht (kg",
+     "label": "Gewicht (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Größe (cm",
+     "label": "Größe (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -18128,14 +18128,14 @@
      "required": false
     },
     {
-     "label": "Weight (kg",
+     "label": "Weight (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Height (cm",
+     "label": "Height (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -18167,14 +18167,14 @@
      "required": false
     },
     {
-     "label": "Gewicht (kg",
+     "label": "Gewicht (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Größe (cm",
+     "label": "Größe (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -19398,15 +19398,15 @@
    ],
    "actions": [
     "Generate names",
-    "Rusty_Robin",
-    "Mellow_Raven88",
-    "Wandering_Island732",
-    "Solar_Wren260",
-    "Rapid_Panther91",
-    "Daring_Falconer",
-    "Witty_Mountain272",
-    "Autumn_Harbor442",
-    "Silent_Wolf"
+    "Bright_Heron455",
+    "Stellar_Falconer",
+    "Witty_Tiger324",
+    "Ancient_Otter",
+    "Bold_Valley117",
+    "Cosmic_Meadow178",
+    "Rusty_Tiger337",
+    "Polar_Pine",
+    "Wandering_Dolphin126"
    ]
   },
   "de": {
@@ -19431,15 +19431,15 @@
    ],
    "actions": [
     "Namen erzeugen",
-    "Midnight_Robin",
-    "Keen_Wolf",
-    "Silent_Sparrow792",
-    "Polar_Owl",
-    "Lively_Raven819",
-    "Clever_Beacon68",
-    "Lively_Forest560",
-    "Rapid_Pine52",
-    "Bold_Canyon"
+    "Golden_Panther",
+    "Wandering_Beacon",
+    "Amber_River",
+    "Bright_Maple",
+    "Bold_Eagle720",
+    "Silent_Lynx",
+    "Brave_Garden943",
+    "Brave_Cedar490",
+    "Curious_Comet"
    ]
   }
  },
@@ -21986,14 +21986,14 @@
      "required": false
     },
     {
-     "label": "Weight (kg",
+     "label": "Weight (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Height (cm",
+     "label": "Height (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -22036,14 +22036,14 @@
      "required": false
     },
     {
-     "label": "Gewicht (kg",
+     "label": "Gewicht (kg)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
      "required": false
     },
     {
-     "label": "Größe (cm",
+     "label": "Größe (cm)",
      "fromPlaceholder": false,
      "type": "number",
      "placeholder": "",
@@ -23504,15 +23504,15 @@
    ],
    "actions": [
     "Generate names",
-    "Winter_Summit",
-    "Golden_Thunder208",
-    "Midnight_Harbor",
-    "Cedar_Beacon",
-    "Fearless_Canyon",
-    "Sunny_Falconer",
-    "Witty_Falcon",
-    "Golden_Island",
-    "Solar_Creek"
+    "Crimson_Garden",
+    "Golden_Owl",
+    "Spry_Meadow",
+    "Mellow_Meadow",
+    "Mellow_Wolf267",
+    "Golden_Otter8",
+    "Daring_Lynx526",
+    "Humble_Moon",
+    "Wild_Eagle126"
    ]
   },
   "de": {
@@ -23537,15 +23537,15 @@
    ],
    "actions": [
     "Namen erzeugen",
-    "Quiet_Panther359",
-    "Amber_Willow",
-    "Spry_Canyon551",
-    "Solar_Lynx",
-    "Nimble_Tiger45",
-    "Curious_Valley527",
-    "Gentle_Forest938",
-    "Ancient_Lantern",
-    "Bright_Eagle"
+    "Rusty_Badger999",
+    "Hidden_Moon446",
+    "Ember_Maple729",
+    "Sunny_Raven915",
+    "Bright_Owl577",
+    "Keen_Comet44",
+    "Crimson_Otter395",
+    "Clever_Garden",
+    "Deep_Sparrow"
    ]
   }
  },
@@ -23952,15 +23952,15 @@
    ],
    "actions": [
     "Generate names",
-    "Frosty_Willow934",
-    "Golden_Meadow217",
-    "Witty_River",
-    "Happy_Wolf436",
-    "Midnight_Harbor",
-    "Ancient_Sparrow508",
-    "Lively_Owl",
-    "Bright_Valley",
-    "Solar_Owl30"
+    "Midnight_Sparrow155",
+    "Quiet_Tiger100",
+    "Clever_Otter",
+    "Ocean_Comet480",
+    "Noble_Harbor805",
+    "Daring_Raven",
+    "Noble_Maple",
+    "Polar_Eagle",
+    "Jolly_Beacon"
    ]
   },
   "de": {
@@ -23985,15 +23985,15 @@
    ],
    "actions": [
     "Namen erzeugen",
-    "Bright_Garden",
-    "Crimson_Panther356",
-    "Dawn_Summit787",
-    "Quiet_Wren709",
-    "Gentle_Valley",
-    "Rapid_Peak",
-    "Quiet_Pine",
-    "Humble_Summit950",
-    "Swift_Dolphin630"
+    "Winter_Badger731",
+    "Quiet_Maple",
+    "Fearless_Heron",
+    "Wild_River",
+    "Wild_Falconer269",
+    "Golden_Summit835",
+    "Daring_Meadow",
+    "Winter_Maple",
+    "Lucky_Meadow"
    ]
   }
  },

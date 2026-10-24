@@ -259,7 +259,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "adult bmi calculator"
     ],
     "features": [
-      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Takes 3 numeric values: Age, Weight (kg) and Height (cm).",
       "Choose Biological Sex: Male, Female.",
       "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
       "Runs entirely in your browser - Adult BMI Calculator never uploads your data and stores nothing on your device.",
@@ -850,7 +850,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "No input needed - choose an option and run the tool.",
       "Choose between Origin (8 values) and Style (8 values).",
-      "Provides 10 actions: Another name, Surprise me, Aurelius, Siavash and 6 more.",
+      "Provides 10 actions: Another name, Surprise me, Alejandro, Loic and 6 more.",
       "Runs entirely in your browser - Baby Boy Name Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -894,7 +894,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "No input needed - choose an option and run the tool.",
       "Choose between Origin (8 values) and Style (8 values).",
-      "Provides 10 actions: Another name, Surprise me, Gaia, Juno and 6 more.",
+      "Provides 10 actions: Another name, Surprise me, Runa, Sawyer and 6 more.",
       "Runs entirely in your browser - Baby Girl Name Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -937,7 +937,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "No input needed - choose an option and run the tool.",
       "Choose between Gender (4 values) and Origin (8 values).",
-      "Provides 10 actions: Another name, Surprise me, Xenon, Theophile and 6 more.",
+      "Provides 10 actions: Another name, Surprise me, Karim, Lucius and 6 more.",
       "Runs entirely in your browser - Baby Name Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -2023,7 +2023,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bmi calculator"
     ],
     "features": [
-      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Takes 3 numeric values: Age, Weight (kg) and Height (cm).",
       "Choose Biological Sex: Male, Female.",
       "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
       "Runs entirely in your browser - BMI Calculator never uploads your data and stores nothing on your device.",
@@ -2063,7 +2063,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bmi calculator for women"
     ],
     "features": [
-      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Takes 3 numeric values: Age, Weight (kg) and Height (cm).",
       "Choose Biological Sex: Male, Female.",
       "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
       "Runs entirely in your browser - BMI Calculator for Women never uploads your data and stores nothing on your device.",
@@ -2140,7 +2140,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "bmr calculator"
     ],
     "features": [
-      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Takes 3 numeric values: Age, Weight (kg) and Height (cm).",
       "Choose between Biological Sex (2 values) and Activity Level (5 values).",
       "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
       "Runs entirely in your browser - BMR Calculator never uploads your data and stores nothing on your device.",
@@ -2409,7 +2409,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "carb calculator"
     ],
     "features": [
-      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Takes 3 numeric values: Age, Weight (kg) and Height (cm).",
       "Choose between Biological Sex (2 values) and Activity Level (5 values).",
       "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
       "Runs entirely in your browser - Carb Calculator never uploads your data and stores nothing on your device.",
@@ -4256,7 +4256,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, ., without a separator.",
-      "Provides 10 actions: Generate names, Dawn_Garden108, Wild_Lantern, Rusty_Garden416 and 6 more.",
+      "Provides 10 actions: Generate names, Jolly_Sparrow233, Rapid_Meadow, Polar_Lantern325 and 6 more.",
       "Runs entirely in your browser - Discord Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -8822,7 +8822,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "macro calculator"
     ],
     "features": [
-      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Takes 3 numeric values: Age, Weight (kg) and Height (cm).",
       "Choose between Biological Sex (2 values) and Activity Level (5 values).",
       "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
       "Runs entirely in your browser - Macro Calculator never uploads your data and stores nothing on your device.",
@@ -8898,7 +8898,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "maintenance calorie calculator"
     ],
     "features": [
-      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Takes 3 numeric values: Age, Weight (kg) and Height (cm).",
       "Choose between Biological Sex (2 values) and Activity Level (5 values).",
       "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
       "Runs entirely in your browser - Maintenance Calorie Calculator never uploads your data and stores nothing on your device.",
@@ -12774,7 +12774,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "protein calculator"
     ],
     "features": [
-      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Takes 3 numeric values: Age, Weight (kg) and Height (cm).",
       "Choose Biological Sex: Male, Female.",
       "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
       "Runs entirely in your browser - Protein Calculator never uploads your data and stores nothing on your device.",
@@ -13642,7 +13642,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, without a separator.",
-      "Provides 10 actions: Generate names, Rusty_Robin, Mellow_Raven88, Wandering_Island732 and 6 more.",
+      "Provides 10 actions: Generate names, Bright_Heron455, Stellar_Falconer, Witty_Tiger324 and 6 more.",
       "Runs entirely in your browser - Reddit Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -15992,7 +15992,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "tdee calculator"
     ],
     "features": [
-      "Takes 3 numeric values: Age, Weight (kg and Height (cm.",
+      "Takes 3 numeric values: Age, Weight (kg) and Height (cm).",
       "Choose between Biological Sex (2 values) and Activity Level (5 values).",
       "Provides 2 actions: Metric (kg/cm), Imperial (lbs/in).",
       "Runs entirely in your browser - TDEE Calculator never uploads your data and stores nothing on your device.",
@@ -16844,7 +16844,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, without a separator.",
-      "Provides 10 actions: Generate names, Winter_Summit, Golden_Thunder208, Midnight_Harbor and 6 more.",
+      "Provides 10 actions: Generate names, Crimson_Garden, Golden_Owl, Spry_Meadow and 6 more.",
       "Runs entirely in your browser - Twitch Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -17240,7 +17240,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, without a separator.",
-      "Provides 10 actions: Generate names, Frosty_Willow934, Golden_Meadow217, Witty_River and 6 more.",
+      "Provides 10 actions: Generate names, Midnight_Sparrow155, Quiet_Tiger100, Clever_Otter and 6 more.",
       "Runs entirely in your browser - Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],

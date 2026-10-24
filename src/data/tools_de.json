@@ -122,7 +122,7 @@
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
     "features": [
-      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg und Größe (cm.",
+      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg) und Größe (cm).",
       "Wählen Sie Biologisches Geschlecht: Männlich, Weiblich.",
       "Bietet 2 Aktionen: Metrisch (kg/cm), Angloamerikanisch (lbs/in).",
       "Läuft vollständig in Ihrem Browser - BMI-Rechner für Erwachsene lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
@@ -491,7 +491,7 @@
     "features": [
       "Braucht keine Eingabe - wählen Sie eine Einstellung und starten Sie das Werkzeug.",
       "Wählen Sie zwischen Herkunft (8 Werte) und Stil (8 Werte).",
-      "Bietet 10 Aktionen: Noch ein Name, Überraschen Sie mich, Sergio, Gunther und 6 weitere.",
+      "Bietet 10 Aktionen: Noch ein Name, Überraschen Sie mich, Gaspard, Miroslav und 6 weitere.",
       "Läuft vollständig in Ihrem Browser - Jungennamen-Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
     ],
@@ -518,7 +518,7 @@
     "features": [
       "Braucht keine Eingabe - wählen Sie eine Einstellung und starten Sie das Werkzeug.",
       "Wählen Sie zwischen Herkunft (8 Werte) und Stil (8 Werte).",
-      "Bietet 10 Aktionen: Noch ein Name, Überraschen Sie mich, Rowan, Clarissa und 6 weitere.",
+      "Bietet 10 Aktionen: Noch ein Name, Überraschen Sie mich, Nadezhda, Signe und 6 weitere.",
       "Läuft vollständig in Ihrem Browser - Mädchennamen-Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
     ],
@@ -545,7 +545,7 @@
     "features": [
       "Braucht keine Eingabe - wählen Sie eine Einstellung und starten Sie das Werkzeug.",
       "Wählen Sie zwischen Geschlecht (4 Werte) und Herkunft (8 Werte).",
-      "Bietet 10 Aktionen: Noch ein Name, Überraschen Sie mich, Titus, Sahar und 6 weitere.",
+      "Bietet 10 Aktionen: Noch ein Name, Überraschen Sie mich, Deborah, Livia und 6 weitere.",
       "Läuft vollständig in Ihrem Browser - Baby-Namen-Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
     ],
@@ -1184,7 +1184,7 @@
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
     "features": [
-      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg und Größe (cm.",
+      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg) und Größe (cm).",
       "Wählen Sie Biologisches Geschlecht: Männlich, Weiblich.",
       "Bietet 2 Aktionen: Metrisch (kg/cm), Angloamerikanisch (lbs/in).",
       "Läuft vollständig in Ihrem Browser - BMI-Rechner lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
@@ -1207,7 +1207,7 @@
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
     "features": [
-      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg und Größe (cm.",
+      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg) und Größe (cm).",
       "Wählen Sie Biologisches Geschlecht: Männlich, Weiblich.",
       "Bietet 2 Aktionen: Metrisch (kg/cm), Angloamerikanisch (lbs/in).",
       "Läuft vollständig in Ihrem Browser - BMI-Rechner für Frauen lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
@@ -1253,7 +1253,7 @@
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
     "features": [
-      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg und Größe (cm.",
+      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg) und Größe (cm).",
       "Wählen Sie zwischen Biologisches Geschlecht (2 Werte) und Aktivitätslevel (5 Werte).",
       "Bietet 2 Aktionen: Metrisch (kg/cm), Angloamerikanisch (lbs/in).",
       "Läuft vollständig in Ihrem Browser - Grundumsatz-Rechner (BMR) lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
@@ -1414,7 +1414,7 @@
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
     "features": [
-      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg und Größe (cm.",
+      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg) und Größe (cm).",
       "Wählen Sie zwischen Biologisches Geschlecht (2 Werte) und Aktivitätslevel (5 Werte).",
       "Bietet 2 Aktionen: Metrisch (kg/cm), Angloamerikanisch (lbs/in).",
       "Läuft vollständig in Ihrem Browser - Kohlenhydrate-Rechner lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
@@ -2516,7 +2516,7 @@
     "features": [
       "Nimmt 1 Texteingabe entgegen: Ihr eigenes Wort.",
       "Wählen Sie Stil: _, ., ohne Trennzeichen.",
-      "Bietet 10 Aktionen: Namen erzeugen, Solar_Falcon, Humble_Cedar565, Happy_Dolphin und 6 weitere.",
+      "Bietet 10 Aktionen: Namen erzeugen, Fearless_Cedar, Lively_Heron, Spry_Dolphin411 und 6 weitere.",
       "Läuft vollständig in Ihrem Browser - Discord-Namen-Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
     ],
@@ -5224,7 +5224,7 @@
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
     "features": [
-      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg und Größe (cm.",
+      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg) und Größe (cm).",
       "Wählen Sie zwischen Biologisches Geschlecht (2 Werte) und Aktivitätslevel (5 Werte).",
       "Bietet 2 Aktionen: Metrisch (kg/cm), Angloamerikanisch (lbs/in).",
       "Läuft vollständig in Ihrem Browser - Makronährstoff-Rechner lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
@@ -5269,7 +5269,7 @@
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
     "features": [
-      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg und Größe (cm.",
+      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg) und Größe (cm).",
       "Wählen Sie zwischen Biologisches Geschlecht (2 Werte) und Aktivitätslevel (5 Werte).",
       "Bietet 2 Aktionen: Metrisch (kg/cm), Angloamerikanisch (lbs/in).",
       "Läuft vollständig in Ihrem Browser - Kalorienbedarf-Rechner lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
@@ -7619,7 +7619,7 @@
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
     "features": [
-      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg und Größe (cm.",
+      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg) und Größe (cm).",
       "Wählen Sie Biologisches Geschlecht: Männlich, Weiblich.",
       "Bietet 2 Aktionen: Metrisch (kg/cm), Angloamerikanisch (lbs/in).",
       "Läuft vollständig in Ihrem Browser - Proteinbedarf-Rechner lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
@@ -8136,7 +8136,7 @@
     "features": [
       "Nimmt 1 Texteingabe entgegen: Ihr eigenes Wort.",
       "Wählen Sie Stil: _, ohne Trennzeichen.",
-      "Bietet 10 Aktionen: Namen erzeugen, Midnight_Robin, Keen_Wolf, Silent_Sparrow792 und 6 weitere.",
+      "Bietet 10 Aktionen: Namen erzeugen, Golden_Panther, Wandering_Beacon, Amber_River und 6 weitere.",
       "Läuft vollständig in Ihrem Browser - Reddit-Namen-Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
     ],
@@ -9511,7 +9511,7 @@
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
     "features": [
-      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg und Größe (cm.",
+      "Nimmt 3 Zahlenwerte entgegen: Alter, Gewicht (kg) und Größe (cm).",
       "Wählen Sie zwischen Biologisches Geschlecht (2 Werte) und Aktivitätslevel (5 Werte).",
       "Bietet 2 Aktionen: Metrisch (kg/cm), Angloamerikanisch (lbs/in).",
       "Läuft vollständig in Ihrem Browser - Gesamtumsatz-Rechner (TDEE) lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
@@ -10019,7 +10019,7 @@
     "features": [
       "Nimmt 1 Texteingabe entgegen: Ihr eigenes Wort.",
       "Wählen Sie Stil: _, ohne Trennzeichen.",
-      "Bietet 10 Aktionen: Namen erzeugen, Quiet_Panther359, Amber_Willow, Spry_Canyon551 und 6 weitere.",
+      "Bietet 10 Aktionen: Namen erzeugen, Rusty_Badger999, Hidden_Moon446, Ember_Maple729 und 6 weitere.",
       "Läuft vollständig in Ihrem Browser - Twitch-Namen-Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
     ],
@@ -10253,7 +10253,7 @@
     "features": [
       "Nimmt 1 Texteingabe entgegen: Ihr eigenes Wort.",
       "Wählen Sie Stil: _, ohne Trennzeichen.",
-      "Bietet 10 Aktionen: Namen erzeugen, Bright_Garden, Crimson_Panther356, Dawn_Summit787 und 6 weitere.",
+      "Bietet 10 Aktionen: Namen erzeugen, Winter_Badger731, Quiet_Maple, Fearless_Heron und 6 weitere.",
       "Läuft vollständig in Ihrem Browser - Benutzernamen-Generator lädt Ihre Daten nie hoch und speichert nichts auf Ihrem Gerät.",
       "Funktioniert offline, sobald die Seite geladen ist - ohne Konto, ohne API-Schlüssel, ohne Nutzungslimit."
     ],
