@@ -35,8 +35,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const isGerman = locale === "de-DE" || locale === "de";
 
   const title = isGerman
-    ? "Kostenlose Online-Tools für PDF, Bilder, Text & Code | Digital ToolPad"
-    : "Free Online Tools for PDF, Images, Text & Code | Digital ToolPad";
+    ? "Kostenlose Online-Tools für PDF, Bilder, Text & Code | Rechnuvio"
+    : "Free Online Tools for PDF, Images, Text & Code | Rechnuvio";
 
   const description = isGerman
     ? "Kostenlose Online-Tools, die direkt in Ihrem Browser laufen. PDFs konvertieren, JSON formatieren, Bilder skalieren und Texte bearbeiten – ohne Upload auf externe Server."
@@ -48,7 +48,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: {
       default: title,
-      template: "%s | Digital ToolPad",
+      template: "%s | Rechnuvio",
     },
     description,
     metadataBase: new URL(canonicalUrl),
@@ -77,7 +77,7 @@ export async function generateMetadata(): Promise<Metadata> {
           "client-side privacy",
           "developer utilities",
         ],
-    authors: [{ name: "Digital ToolPad Team" }],
+    authors: [{ name: "Rechnuvio Team" }],
     openGraph: {
       type: "website",
       locale: isGerman ? "de_DE" : "en_US",

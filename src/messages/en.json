@@ -1,6 +1,6 @@
 {
   "nav": {
-    "brandName": "Digital ToolPad",
+    "brandName": "Rechnuvio",
     "allTools": "All tools",
     "categories": "Categories",
     "productivitySuite": "Productivity Suite",
@@ -40,7 +40,7 @@
     "valPropFreeTitle": "492 Free Browser Tools",
     "valPropFreeDesc": "All developer, document, calculation, and media utilities available forever with zero sign-up or paywalls.",
     "aboutDesc": "The premier suite of free online web tools for developers, designers, students, and professionals. Format JSON, convert CSV, resize images, test regex, calculate formulas, and manipulate PDFs safely in your browser.",
-    "copyright": "© 2026 Digital ToolPad. All rights reserved.",
+    "copyright": "© 2026 Rechnuvio. All rights reserved.",
     "colDataCode": "Data & Code",
     "colMediaPdf": "Media & PDFs",
     "colPlatform": "Platform",

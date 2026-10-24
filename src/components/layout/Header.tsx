@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import NextImage from "next/image";
 import { useTheme } from "next-themes";
 import { useTranslations } from "next-intl";
 import {
@@ -61,14 +62,25 @@ export function Header() {
           <div className="flex items-center gap-6">
             <Link
               href="/"
-              className="flex items-center gap-2.5 rounded-lg text-slate-950 dark:text-white group"
+              className="flex items-center group transition-opacity hover:opacity-90"
+              aria-label="Rechnuvio"
             >
-              <span className="grid size-9 place-items-center rounded-xl bg-sky-800 text-white shadow-sm transition-transform group-hover:scale-105">
-                <Wrench className="size-5" />
-              </span>
-              <span className="font-bold tracking-tight text-lg text-slate-900 dark:text-white">
-                Digital <span className="text-sky-700 dark:text-sky-400">ToolPad</span>
-              </span>
+              <NextImage
+                src="/logo.webp"
+                alt="Rechnuvio"
+                width={154}
+                height={34}
+                priority
+                className="h-8 w-auto object-contain dark:hidden"
+              />
+              <NextImage
+                src="/logo-dark.webp"
+                alt="Rechnuvio"
+                width={154}
+                height={34}
+                priority
+                className="hidden h-8 w-auto object-contain dark:block"
+              />
             </Link>
 
             {/* Desktop Navigation */}

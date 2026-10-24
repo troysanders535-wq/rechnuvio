@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import NextImage from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { Wrench, ShieldCheck, Zap, Sparkles } from "lucide-react";
 import { LanguageSwitcher } from "./LanguageSwitcher";
@@ -71,14 +72,23 @@ export function Footer() {
           <div className="col-span-2 space-y-4">
             <Link
               href="/"
-              className="flex items-center gap-2.5 rounded-lg text-slate-950 dark:text-white"
+              className="inline-flex items-center transition-opacity hover:opacity-90"
+              aria-label="Rechnuvio"
             >
-              <span className="grid size-8 place-items-center rounded-xl bg-sky-800 text-white shadow-sm">
-                <Wrench className="size-4" />
-              </span>
-              <span className="font-bold text-base tracking-tight text-slate-900 dark:text-white">
-                Digital <span className="text-sky-700 dark:text-sky-400">ToolPad</span>
-              </span>
+              <NextImage
+                src="/logo.webp"
+                alt="Rechnuvio"
+                width={154}
+                height={34}
+                className="h-8 w-auto object-contain dark:hidden"
+              />
+              <NextImage
+                src="/logo-dark.webp"
+                alt="Rechnuvio"
+                width={154}
+                height={34}
+                className="hidden h-8 w-auto object-contain dark:block"
+              />
             </Link>
             <p className="max-w-sm text-xs leading-relaxed text-slate-500 dark:text-slate-400">
               {t("aboutDesc")}
