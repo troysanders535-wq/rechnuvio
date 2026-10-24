@@ -11,6 +11,17 @@ const nextConfig: NextConfig = {
   distDir: process.env.NEXT_DIST_DIR || ".next",
   cacheComponents: true,
   partialPrefetching: true,
+  // The first blog posts were placeholder articles; send their old URLs to the index.
+  async redirects() {
+    return [
+      "online-json-formatter",
+      "what-is-base-64-encoding",
+      "how-to-convert-xml-to-json",
+      "privacy-first-qr-code-generator-playbook",
+      "markdown-to-word-conversion-guide",
+      "bank-statement-converter-developer-guide",
+    ].map((slug) => ({ source: `/blog/${slug}`, destination: "/blog", permanent: true }));
+  },
   async headers() {
     return [
       {

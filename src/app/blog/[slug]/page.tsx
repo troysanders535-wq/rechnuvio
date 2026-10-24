@@ -5,6 +5,8 @@ import Link from "next/link";
 import { ArrowLeft, Calendar, Clock, ShieldCheck } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { BLOG_POSTS } from "@/data/blogPosts";
+import { getToolBySlug } from "@/data/tools";
+import { getLocalizedTool } from "@/utils/localizedTools";
 
 interface BlogPostPageProps {
   params: Promise<{
@@ -46,9 +48,29 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   if (!post) notFound();
 
   const t = await getTranslations("blogPage");
+  const relatedTools = post.toolSlugs
+    .map((toolSlug) => getToolBySlug(toolSlug))
+    .filter((tool) => tool !== undefined)
+    .map((tool) => getLocalizedTool(tool, "de-DE"));
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.isoDate,
+    dateModified: post.isoDate,
+    inLanguage: "de-DE",
+    mainEntityOfPage: `https://rechnuvio.de/blog/${post.slug}`,
+    author: { "@type": "Organization", name: "Rechnuvio" },
+    publisher: { "@id": "https://rechnuvio.de/#organization" },
+  };
 
   return (
     <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <Link
         href="/blog"
         className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-500 hover:text-sky-800 dark:hover:text-sky-300"
@@ -85,15 +107,34 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           {post.excerpt}
         </p>
 
-        <h2>Architecture and Principles</h2>
-        <p>
-          In modern web application engineering, client-side data handling has evolved from a convenience feature into a critical compliance requirement. When applications handle proprietary schema definitions, healthcare records, financial ledger lines, or private authentication tokens, routing that data through third-party cloud APIs poses significant data governance liabilities.
-        </p>
+        {post.sections.map((section) => (
+          <section key={section.heading}>
+            <h2>{section.heading}</h2>
+            {section.paragraphs.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+            {section.list && (
+              <ul>
+                {section.list.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            )}
+          </section>
+        ))}
 
-        <h2>Zero-Upload Execution Model</h2>
-        <p>
-          Rechnuvio’s execution model eliminates the intermediary server entirely. By orchestrating WebAssembly runtimes, compiled ECMAScript parsing algorithms, and native DOM APIs inside an isolated browser thread, transformations execute in sub-millisecond timeframes with zero telemetry leakage.
-        </p>
+        {relatedTools.length > 0 && (
+          <section>
+            <h2>Passende Rechner und Tools</h2>
+            <ul>
+              {relatedTools.map((tool) => (
+                <li key={tool.slug}>
+                  <Link href={`/tools/${tool.slug}`}>{tool.name}</Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <div className="rounded-2xl border border-sky-200 bg-sky-50/60 p-6 dark:border-sky-900/60 dark:bg-sky-950/40">
           <h4 className="font-bold text-sky-900 dark:text-sky-200 text-sm">

@@ -1,11 +1,14 @@
 "use client";
 
 import React, { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import { IMPRESSUM } from "@/lib/brand";
 import { Send, CheckCircle2 } from "lucide-react";
 
 export default function ContactPage() {
   const t = useTranslations("contactPage");
+  const isGerman = useLocale().startsWith("de");
+  const contactEmail = IMPRESSUM.email.trim();
   const [submitted, setSubmitted] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -13,6 +16,13 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    // There is no mail backend: the form opens the visitor's mail client with
+    // the message prefilled, so nothing is shown as "sent" when it was not.
+    const subject = encodeURIComponent(`Rechnuvio: ${name}`);
+    const body = encodeURIComponent(`${message}
+
+${name} <${email}>`);
+    window.location.href = `mailto:${contactEmail}?subject=${subject}&body=${body}`;
     setSubmitted(true);
   };
 
@@ -28,7 +38,13 @@ export default function ContactPage() {
       </div>
 
       <div className="mt-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:p-8">
-        {submitted ? (
+        {!contactEmail ? (
+          <p className="py-8 text-center text-sm text-slate-600 dark:text-slate-400">
+            {isGerman
+              ? "Das Kontaktformular ist derzeit nicht verfügbar. Bitte versuchen Sie es später erneut."
+              : "The contact form is currently unavailable. Please try again later."}
+          </p>
+        ) : submitted ? (
           <div className="py-12 text-center">
             <CheckCircle2 className="mx-auto size-12 text-emerald-500" />
             <h3 className="mt-3 text-lg font-bold text-slate-900 dark:text-white">

@@ -8,6 +8,8 @@ import { Search, ArrowRight, ShieldCheck, Filter } from "lucide-react";
 import { TOOLS_CATALOG, CATEGORIES_LIST } from "@/data/tools";
 import { translateCategory, getLocalizedTool } from "@/utils/localizedTools";
 
+const PAGE_SIZE = 60;
+
 function ToolsDirectoryContent() {
   const tTools = useTranslations("toolsPage");
   const tHome = useTranslations("home");
@@ -17,21 +19,32 @@ function ToolsDirectoryContent() {
 
   const [selectedCat, setSelectedCat] = useState(initialCat);
   const [query, setQuery] = useState("");
+  // Rendering all ~490 cards makes this page ~875 KB of HTML; show a page of
+  // them and let the visitor expand the rest (every tool stays in the sitemap).
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   const isGerman = locale.startsWith("de");
 
+  const needle = query.trim().toLowerCase();
   const filtered = TOOLS_CATALOG.filter((t) => {
     const matchesCat =
       selectedCat === "All" ||
       t.category.toLowerCase() === selectedCat.toLowerCase();
-    const matchesQuery =
-      !query.trim() ||
-      t.name.toLowerCase().includes(query.toLowerCase()) ||
-      t.description.toLowerCase().includes(query.toLowerCase()) ||
-      t.category.toLowerCase().includes(query.toLowerCase()) ||
-      t.slug.toLowerCase().includes(query.toLowerCase());
-    return matchesCat && matchesQuery;
+    if (!matchesCat) return false;
+    if (!needle) return true;
+    // Search the text the visitor sees (the localized name and description),
+    // not only the English catalog entry.
+    const loc = getLocalizedTool(t, locale);
+    return (
+      loc.name.toLowerCase().includes(needle) ||
+      loc.description.toLowerCase().includes(needle) ||
+      loc.category.toLowerCase().includes(needle) ||
+      t.name.toLowerCase().includes(needle) ||
+      t.category.toLowerCase().includes(needle) ||
+      t.slug.toLowerCase().includes(needle)
+    );
   });
+  const visible = filtered.slice(0, visibleCount);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
@@ -51,7 +64,10 @@ function ToolsDirectoryContent() {
             <input
               type="text"
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={(e) => {
+                setQuery(e.target.value);
+                setVisibleCount(PAGE_SIZE);
+              }}
               placeholder={tTools("searchPlaceholder")}
               className="w-full rounded-xl border border-slate-300 bg-white py-2.5 pl-10 pr-4 text-sm text-slate-900 outline-none focus:border-sky-500 dark:border-slate-700 dark:bg-slate-900 dark:text-white"
             />
@@ -66,7 +82,10 @@ function ToolsDirectoryContent() {
             return (
               <button
                 key={c}
-                onClick={() => setSelectedCat(c)}
+                onClick={() => {
+                  setSelectedCat(c);
+                  setVisibleCount(PAGE_SIZE);
+                }}
                 className={`rounded-xl px-3 py-1.5 text-xs font-semibold transition ${
                   isSelected
                     ? "bg-sky-800 text-white shadow-sm"
@@ -84,8 +103,8 @@ function ToolsDirectoryContent() {
       <div className="mt-8">
         <div className="mb-4 text-xs font-medium text-slate-500">
           {isGerman
-            ? `${filtered.length} von ${TOOLS_CATALOG.length} Browser-Tools werden angezeigt`
-            : `Showing ${filtered.length} of ${TOOLS_CATALOG.length} browser utilities`}
+            ? `${visible.length} von ${filtered.length} Browser-Tools werden angezeigt`
+            : `Showing ${visible.length} of ${filtered.length} browser utilities`}
         </div>
 
         {filtered.length === 0 ? (
@@ -94,7 +113,7 @@ function ToolsDirectoryContent() {
           </div>
         ) : (
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {filtered.map((tool) => {
+            {visible.map((tool) => {
               const locTool = getLocalizedTool(tool, locale);
               return (
                 <Link
@@ -127,6 +146,20 @@ function ToolsDirectoryContent() {
                 </Link>
               );
             })}
+          </div>
+        )}
+
+        {filtered.length > visible.length && (
+          <div className="mt-8 text-center">
+            <button
+              type="button"
+              onClick={() => setVisibleCount((n) => n + PAGE_SIZE)}
+              className="rounded-xl border border-slate-300 bg-white px-5 py-2.5 text-xs font-semibold text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
+            >
+              {isGerman
+                ? `Weitere Tools anzeigen (${filtered.length - visible.length} übrig)`
+                : `Show more tools (${filtered.length - visible.length} left)`}
+            </button>
           </div>
         )}
       </div>
