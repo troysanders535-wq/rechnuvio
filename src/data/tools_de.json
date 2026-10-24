@@ -95,7 +95,7 @@
     ]
   },
   "accept-all-changes-in-word": {
-    "name": "Accept All Changes in Wort",
+    "name": "Accept All Changes in Word",
     "description": "Akzeptieren Sie alle verfolgten Änderungen in einem Word-Dokument ohne Word: Einfügungen beibehalten, Löschungen entfernt, Rezensentennamen gelöscht. Privat, in Ihrem Browser.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -113,7 +113,7 @@
     ]
   },
   "adult-bmi-calculator": {
-    "name": "Adult BMI Rechner",
+    "name": "BMI-Rechner für Erwachsene",
     "description": "Berechnen Sie einen Erwachsenen-BMI-Schätzwert aus Größe und Gewicht mit metrischen oder imperialen Einheiten direkt in Ihrem Browser.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -132,7 +132,7 @@
     ]
   },
   "age-calculator": {
-    "name": "Alter Rechner",
+    "name": "Altersrechner",
     "description": "Berechnen Sie Ihr genaues Alter in Jahren, Monaten und Tagen, Ihr Alter an einem beliebigen Datum, insgesamt gelebte Tage und den Countdown zu Ihrem nächsten Geburtstag. Frei.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -208,7 +208,7 @@
     ]
   },
   "ai-to-pdf": {
-    "name": "AI to PDF Konverter",
+    "name": "AI in PDF umwandeln",
     "description": "Öffnen Sie eine Adobe Illustrator .ai-Datei in Ihrem Browser und laden Sie die Seite als PDF herunter. Wählen Sie das Zielformat, sehen Sie das Bildwerk an und speichern Sie es. Kein Illustrator, kein Upload.",
     "category": "Design & Medien",
     "keywords": [],
@@ -227,7 +227,7 @@
     ]
   },
   "ai-to-png": {
-    "name": "AI to PNG Konverter",
+    "name": "AI in PNG umwandeln",
     "description": "Öffnen Sie eine Adobe Illustrator .ai-Datei in Ihrem Browser und laden Sie die Seite als PNG herunter. Wählen Sie das Zielformat, sehen Sie das Bildwerk an und speichern Sie es. Kein Illustrator, kein Upload.",
     "category": "Design & Medien",
     "keywords": [],
@@ -246,7 +246,7 @@
     ]
   },
   "ai-token-counter": {
-    "name": "AI Token Zähler",
+    "name": "KI-Token-Zähler",
     "description": "Schätzen Sie die Tokenlänge von AI-Eingabeaufforderungen und sehen Sie, wie sich der ausgewählte Tokenizer auf die Zählung auswirkt, bevor Sie ein Kontextlimit erreichen. Kostenlos und läuft in Ihrem Browser.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -341,7 +341,7 @@
     ]
   },
   "average-calculator": {
-    "name": "Average Rechner",
+    "name": "Durchschnittsrechner",
     "description": "Einfügen einer Liste von Zahlen, um den Durchschnitt (Mittelwert), den Median, den Modus, den Bereich und die Standardabweichung zu erhalten, oder einen gewichteten Durchschnitt für Noten zu ermitteln. Frei, sofort.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -359,7 +359,7 @@
     ]
   },
   "avi-to-mp4": {
-    "name": "AVI to MP4 Konverter",
+    "name": "AVI in MP4 umwandeln",
     "description": "Prüfen Sie, ob Ihr AVI-Video im Browser in MP4 konvertiert werden kann. Chrome und Edge können den AVI-Container nicht dekodieren, und dieses Werkzeug sagt das deutlich, statt Ihnen die Originaldatei unter einem neuen Namen anzubieten. Konvertieren Sie die AVI-Datei zuerst mit einem Videoeditor in MP4 oder WebM und arbeiten Sie dann hier weiter. Ohne Upload, ohne Anmeldung.",
     "category": "Audio & Video",
     "keywords": [],
@@ -390,7 +390,7 @@
     ]
   },
   "avif-to-jpg": {
-    "name": "AVIF to JPG Konverter",
+    "name": "AVIF in JPG umwandeln",
     "description": "Wandeln Sie AVIF-Bilder in Ihrem Browser in JPG um. Stellen Sie Qualität und Ausgabegröße ein und laden Sie die Datei herunter. Kostenlos, kein Upload, keine Anmeldung.",
     "category": "Design & Medien",
     "keywords": [],
@@ -409,7 +409,7 @@
     ]
   },
   "avif-to-png": {
-    "name": "AVIF to PNG Konverter",
+    "name": "AVIF in PNG umwandeln",
     "description": "Wandeln Sie AVIF in Ihrem Browser in PNG um und behalten Sie die Transparenz. Stellen Sie die Ausgabegröße ein und laden Sie die Datei herunter. Kostenlos, kein Upload, keine Anmeldung.",
     "category": "Design & Medien",
     "keywords": [],
@@ -535,7 +535,7 @@
     ]
   },
   "bank-statement-converter": {
-    "name": "Bank Statement Konverter",
+    "name": "Kontoauszug-Konverter",
     "description": "Wandeln Sie ein textbasiertes PDF-Bankstatement in eine saubere Tabelle um, die Sie lesen, filtern und exportieren können: Das Werkzeug holt die Buchungszeilen aus dem PDF und übergibt sie als CSV oder JSON. Es läuft in Ihrem Browser, das Statement verlässt Ihr Gerät nie.",
     "category": "Produktivität",
     "keywords": [],
@@ -668,7 +668,7 @@
     ]
   },
   "base64-image-decoder": {
-    "name": "Base64 Bild Decoder",
+    "name": "Base64-Bild-Decoder",
     "description": "Dekodieren Sie ein Bild, das als Base64 gespeichert ist, eine Vorschau seiner Pixel und laden Sie die wiederhergestellte PNG-, JPG- oder GIF-Datei herunter. Frei und privat: Nichts wird auf einen Server hochgeladen.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -687,7 +687,7 @@
     ]
   },
   "base64-image-viewer": {
-    "name": "Base64 Bild Betrachter",
+    "name": "Base64-Bild-Viewer",
     "description": "Sehen Sie sich einen Base64-kodierten Bild- oder Daten-URI direkt in Ihrem Browser an und prüfen Sie ihn, bevor Sie eine lokale Kopie speichern. Kostenlos, sofort und keine Uploads erforderlich.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -706,7 +706,7 @@
     ]
   },
   "base64-to-image": {
-    "name": "Base64 to Bild Konverter",
+    "name": "Base64 in Bild umwandeln",
     "description": "Decode Base64-Strings zu Bildern direkt in Ihrem Browser. 100% offline, privat und sicher.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -744,7 +744,7 @@
     ]
   },
   "base64-to-pdf-converter": {
-    "name": "Base64 to PDF Konverter",
+    "name": "Base64-zu-PDF-Konverter",
     "description": "Wandeln Sie Base64-kodierte Daten sofort in PDF-Dateien. Unterstützung für Text, Bilder und benutzerdefinierte Inhalte mit Echtzeit-Validierung und Vorschau.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -782,7 +782,7 @@
     ]
   },
   "binary-calculator": {
-    "name": "Binary Rechner",
+    "name": "Binärrechner",
     "description": "Freier Binärrechner: Addieren, Subtrahieren, Multiplizieren und Dividieren von Binärzahlen, plus UND, ODER, XOR, NICHT und Bitverschiebungen. Ergebnisse in binär, dezimal, hex und oktal.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -801,7 +801,7 @@
     ]
   },
   "binary-to-decimal": {
-    "name": "Binary to Decimal Konverter",
+    "name": "Binary in Decimal umwandeln",
     "description": "Konvertieren Sie binär zu dezimal sofort mit dem Ort-Wert-Arbeit angezeigt. Signiert zwei Komplement, jede Länge, und hex und oktal Ergebnisse als auch. Frei.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -820,7 +820,7 @@
     ]
   },
   "binary-to-hex": {
-    "name": "Binary to Hex Konverter",
+    "name": "Binary in Hex umwandeln",
     "description": "Konvertieren Sie Binär zu hexadezimal sofort durch Gruppierung von Bits in vier. Jede Länge, Zweierkomplement und Dezimal- und Oktalergebnisse mit der gezeigten Arbeit. Frei.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -839,7 +839,7 @@
     ]
   },
   "binary-to-text": {
-    "name": "Binary to Text Konverter",
+    "name": "Binary in Text umwandeln",
     "description": "Decode Binär zu Text sofort. Fügen Sie 0s und 1s mit oder ohne Leerzeichen ein und lesen Sie sie als Englisch, einschließlich UTF-8 Emoji und Akzente. Kostenlos, privat, keine Anmeldung.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -953,7 +953,7 @@
     ]
   },
   "blur-face": {
-    "name": "Blur Face in Foto",
+    "name": "Gesichter im Foto unkenntlich machen",
     "description": "Ein Gesicht in einem Foto weichzeichnen: Markieren Sie das Gesicht mit einem Rechteck oder einem Pinsel, dann weichzeichnet das Werkzeug diesen Bereich, bevor Sie das Bild herunterladen. Läuft in Ihrem Browser, nichts wird hochgeladen.",
     "category": "Design & Medien",
     "keywords": [],
@@ -975,7 +975,7 @@
     ]
   },
   "blur-image": {
-    "name": "Blur Bild",
+    "name": "Bild weichzeichnen",
     "description": "Blur ein Bild online kostenlos. Verwischen Sie ein ganzes Foto, Gesichter, Text oder den Hintergrund mit Rechteck-, Ellipsen- und Pinselwerkzeugen. Läuft in Ihrem Browser: kein Upload.",
     "category": "Design & Medien",
     "keywords": [],
@@ -993,7 +993,7 @@
     ]
   },
   "blur-text-in-image": {
-    "name": "Blur Text in Bild",
+    "name": "Text im Bild unkenntlich machen",
     "description": "Blur Text in einem Bild online. Verstecken Sie E-Mails, Namen, Zahlen und Passwörter in Screenshots mit Unschärfe, Pixelat oder einer soliden Leiste. Frei, privat, in Ihrem Browser.",
     "category": "Design & Medien",
     "keywords": [],
@@ -1011,7 +1011,7 @@
     ]
   },
   "bmi-calculator": {
-    "name": "BMI Rechner",
+    "name": "BMI-Rechner",
     "description": "Berechnen Sie Ihren Body Mass Index in metrischen oder imperialen Einheiten, sehen Sie sich Ihre Gewichtskategorie an und finden Sie Ihren gesunden Gewichtsbereich.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -1030,7 +1030,7 @@
     ]
   },
   "bmi-calculator-for-women": {
-    "name": "BMI Rechner for Women",
+    "name": "BMI-Rechner für Frauen",
     "description": "BMI für erwachsene Frauen ab Größe und Gewicht in metrischen oder imperialen Einheiten berechnen, mit den Standard-BMI-Kategorien und klaren Hinweisen auf Screening-Grenzen.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -1049,7 +1049,7 @@
     ]
   },
   "bmp-to-jpg": {
-    "name": "BMP to JPG Konverter",
+    "name": "BMP in JPG umwandeln",
     "description": "Wandeln Sie BMP-Bitmaps in Ihrem Browser in JPG um. Stellen Sie Qualität und Ausgabegröße ein und laden Sie die Datei herunter. Kostenlos, kein Upload, keine Anmeldung.",
     "category": "Design & Medien",
     "keywords": [],
@@ -1068,7 +1068,7 @@
     ]
   },
   "bmr-calculator": {
-    "name": "BMR Rechner",
+    "name": "Grundumsatz-Rechner (BMR)",
     "description": "Schätzen Sie die basale Stoffwechselrate aus den Körpermesswerten des Rechners und untersuchen Sie das Ergebnis getrennt von den Aktivitätsbedürfnissen.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -1125,7 +1125,7 @@
     ]
   },
   "bracket-maker": {
-    "name": "Bracket Ersteller",
+    "name": "Turnierbaum erstellen",
     "description": "Online-Turnierbaum für Turniere, Spielabende und Stimmen. Single oder Double Elimination und Round Robin, mit Byes, Seeding, Scores, PDF und PNG. Kein Konto.",
     "category": "Produktivität",
     "keywords": [],
@@ -1144,7 +1144,7 @@
     ]
   },
   "btu-calculator": {
-    "name": "BTU Rechner",
+    "name": "BTU-Rechner",
     "description": "Finden Sie die BTU- und AC-Größe, die Sie für einen Raum benötigen, aus Größe, Deckenhöhe, Sonneneinstrahlung, Insassen und Nutzung als Küche. Empfiehlt eine Standard AC Größe. Frei.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -1182,7 +1182,7 @@
     ]
   },
   "business-days-calculator": {
-    "name": "Business Days Rechner",
+    "name": "Werktage-Rechner",
     "description": "Count Werktage zwischen zwei Daten, Wochenenden, US-Bundes- oder UK-Feiertage und Ihre eigenen freien Tage. Frei und sofort.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -1201,7 +1201,7 @@
     ]
   },
   "carb-calculator": {
-    "name": "Carb Rechner",
+    "name": "Kohlenhydrate-Rechner",
     "description": "Berechnen Sie täglich Kohlenhydrate Gramm aus den Kalorien nach Ihrem Protein und Fett Ziele verlassen. Kostenloser Carb-Rechner für Schneiden, Wartung oder Bulking.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -1220,7 +1220,7 @@
     ]
   },
   "censor-face": {
-    "name": "Censor Face in Foto",
+    "name": "Gesichter im Foto zensieren",
     "description": "Ein Gesicht in einem Foto schwärzen - mit Blackbox, Emoji, Unschärfe oder Pixeln: Markieren Sie das Gesicht selbst, der markierte Bereich wird überdeckt. Läuft in Ihrem Browser, nichts wird hochgeladen.",
     "category": "Design & Medien",
     "keywords": [],
@@ -1238,7 +1238,7 @@
     ]
   },
   "censor-image": {
-    "name": "Censor Bild",
+    "name": "Bild zensieren",
     "description": "Zensieren Sie ein Bild online: Redaktion in schwarzen Balken, Pixelierung oder Unschärfe von Gesichtern, Text und sensible Details. Kostenlos, keine anmeldung, und ihr foto verlässt ihren browser nie.",
     "category": "Design & Medien",
     "keywords": [],
@@ -1256,7 +1256,7 @@
     ]
   },
   "character-counter": {
-    "name": "Character Zähler",
+    "name": "Zeichenzähler",
     "description": "Count Zeichen, Wörter, Sätze und Zeilen in Echtzeit, mit Lesezeit, Frequenzanalyse und SEO Längenprüfungen.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -1351,7 +1351,7 @@
     ]
   },
   "christmas-list-maker": {
-    "name": "Christmas List Ersteller",
+    "name": "Weihnachtsliste erstellen",
     "description": "Erstellen Sie in wenigen Minuten eine Weihnachtsliste: Fügen Sie Geschenke mit Links, Preisen, Größen und Priorität hinzu, drucken Sie dann ein PDF aus oder teilen Sie einen Link. Kostenlos, keine Anmeldung, gespeichert auf Ihrem Gerät.",
     "category": "Produktivität",
     "keywords": [],
@@ -1370,7 +1370,7 @@
     ]
   },
   "christmas-wish-list-maker": {
-    "name": "Christmas Wish List Ersteller",
+    "name": "Weihnachtswunschliste erstellen",
     "description": "Weihnachtswunschliste erstellen: Fügen Sie Geschenke aus jedem Geschäft mit Links, Größen und Priorität hinzu, teilen Sie dann einen schreibgeschützten Link oder drucken Sie ihn aus. Kein Konto erforderlich.",
     "category": "Produktivität",
     "keywords": [],
@@ -1389,7 +1389,7 @@
     ]
   },
   "cidr-calculator": {
-    "name": "CIDR Rechner",
+    "name": "CIDR-Rechner",
     "description": "Konvertieren Sie die CIDR-Notation in einen IP-Bereich und einen IP-Bereich in die kleinste Liste von CIDR-Blöcken. Erste und letzte Adresse, Host Count und Masken, sofort.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -1503,7 +1503,7 @@
     ]
   },
   "code-to-image": {
-    "name": "Code to Bild",
+    "name": "Code als Bild exportieren",
     "description": "Verwandeln Sie ein Code-Snippet in ein gestyltes Bild mit Syntax-Hervorhebung, Themen und Hintergrundauswahl und exportieren Sie dann ein PNG. Free code to image tool, keine anmeldung.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -1560,7 +1560,7 @@
     ]
   },
   "college-gpa-calculator": {
-    "name": "College GPA Rechner",
+    "name": "GPA-Rechner (College)",
     "description": "GPA-Rechner für das College: Geben Sie Kurse, Kreditstunden und Noten ein, um Ihr Semester GPA und kumulatives GPA auf einer 4,0-Skala zu erhalten, plus das GPA, das Sie für das nächste Semester benötigen.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -1598,7 +1598,7 @@
     ]
   },
   "common-denominator-calculator": {
-    "name": "Common Denominator Rechner",
+    "name": "Hauptnenner-Rechner",
     "description": "Finde den kleinsten gemeinsamen Nenner (LCD) von 2 bis 10 Brüchen, schreibe sie als äquivalente Brüche um und ordne sie vom kleinsten zum größten an. Mit Schritten.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -1635,7 +1635,7 @@
     ]
   },
   "concrete-calculator": {
-    "name": "Concrete Rechner",
+    "name": "Beton-Rechner",
     "description": "Ausarbeiten, wie viel Beton Sie für eine Platte, Fuß oder Pfostenlöcher in Kubikmetern, Kubikmetern und 40, 50, 60 oder 80 lb Säcken benötigen. Einschließlich Abfall und Kosten. Frei.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -1777,7 +1777,7 @@
     ]
   },
   "csv-to-json-converter": {
-    "name": "CSV to JSON Konverter",
+    "name": "CSV in JSON umwandeln",
     "description": "Konvertieren Sie CSV-Dateien in das JSON-Format mit Unterstützung für verschiedene Trennzeichen und Echtzeit-Konvertierung.",
     "category": "Datenformate",
     "keywords": [],
@@ -1815,7 +1815,7 @@
     ]
   },
   "cumulative-gpa-calculator": {
-    "name": "Cumulative GPA Rechner",
+    "name": "Gesamt-GPA-Rechner",
     "description": "Kostenloser kumulativer GPA-Rechner: Kombinieren Sie Ihren aktuellen GPA und Ihre Credits mit neuen Semesternoten, um Ihren Gesamt-GPA zu erhalten, und sehen Sie, was Sie brauchen, um ein Ziel zu erreichen.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -1853,7 +1853,7 @@
     ]
   },
   "custom-bingo-card-maker": {
-    "name": "Custom Bingo Card Ersteller",
+    "name": "Eigene Bingo-Karten erstellen",
     "description": "Machen Sie benutzerdefinierte Bingokarten mit Ihren eigenen Worten, Namen, Phrasen oder Emoji. Bereite Listen, 3x3 bis 5x5 Raster, 10 Themen, einzigartige Karten und ein kostenloses PDF. Kein Konto.",
     "category": "Produktivität",
     "keywords": [],
@@ -1933,7 +1933,7 @@
     ]
   },
   "date-calculator": {
-    "name": "Date Rechner",
+    "name": "Datumsrechner",
     "description": "Addieren oder subtrahieren Sie Tage, Wochen, Monate oder Jahre von einem beliebigen Datum, zählen Sie nur Werktage oder finden Sie die Zeit zwischen zwei Daten. Free, instant, mit dem wochentag gezeigt.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -1952,7 +1952,7 @@
     ]
   },
   "days-between-dates": {
-    "name": "Days Between Dates Rechner",
+    "name": "Tage zwischen zwei Daten berechnen",
     "description": "Count die Tage zwischen zwei Daten oder bis zu einem Datum, mit Ergebnissen in Jahren, Monaten, Wochen und Wochentagen. Optional das Enddatum angeben. Frei.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -1970,7 +1970,7 @@
     ]
   },
   "db-viewer": {
-    "name": "DB File Betrachter",
+    "name": "Datenbank-Datei-Viewer",
     "description": "Öffnet .db-Dateien online: Wenn es sich um eine SQLite-Datenbank handelt, durchsuchen Sie die Tabellen, sehen Sie sich das Schema an und führen Sie SQL in Ihrem Browser aus. Prüft zuerst den Dateityp. Frei.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -2016,7 +2016,7 @@
     ]
   },
   "decimal-to-binary": {
-    "name": "Decimal to Binary Konverter",
+    "name": "Decimal in Binary umwandeln",
     "description": "Rechnen Sie Dezimalzahlen sofort in Binärzahlen um, mit dem Divid-by-2 Arbeit gezeigt. Signierte Zweier-Komplemente für 8 bis 64 Bit, anklickbare Bitansicht und Unterstützung für große Zahlen.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -2035,7 +2035,7 @@
     ]
   },
   "decimal-to-fraction-calculator": {
-    "name": "Decimal to Fraction Rechner",
+    "name": "Dezimalzahl in Bruch umrechnen",
     "description": "Konvertieren Sie jede Dezimalzahl in einen Bruch in einfachster Form, einschließlich sich wiederholender Dezimalzahlen wie 0,333 ... Runde auf die nächste 1/16 oder 1/64 Zoll. Schritte gezeigt.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -2053,7 +2053,7 @@
     ]
   },
   "decimal-to-hex": {
-    "name": "Decimal to Hex Konverter",
+    "name": "Decimal in Hex umwandeln",
     "description": "Konvertieren Sie sofort dezimal zu hexadezimal, wobei die Arbeit mit wiederholter Teilung gezeigt wird. Große zahlen, negative zwei komplementwerte und binär und oktal zu.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -2144,7 +2144,7 @@
     ]
   },
   "discount-calculator": {
-    "name": "Discount Rechner",
+    "name": "Rabattrechner",
     "description": "Berechne den Verkaufspreis und die Einsparungen für einen beliebigen Prozentsatz, stapele zusätzliche Rabatte, füge Umsatzsteuer hinzu oder finde den ursprünglichen Preis. Frei und sofort.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -2181,7 +2181,7 @@
     ]
   },
   "dog-age-calculator": {
-    "name": "Dog Alter Rechner",
+    "name": "Hundealter-Rechner",
     "description": "Konvertieren Sie Hundejahre in menschliche Jahre nach Größe (klein, mittel, groß oder riesig) mit dem AVMA-Diagramm und der neueren epigenetischen Formel mit Lebensstadium. Frei.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -2279,7 +2279,7 @@
     ]
   },
   "electricity-cost-calculator": {
-    "name": "Electricity Cost Rechner",
+    "name": "Stromkosten-Rechner",
     "description": "Ausarbeiten, wie viel ein Gerät pro Tag, Monat und Jahr von seinen Watt, Nutzungsstunden und Ihrem Preis pro kWh kostet. Heizungen, AC, PCs und mehr. Frei.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -2320,7 +2320,7 @@
     ]
   },
   "eml-to-pdf": {
-    "name": "EML to PDF Konverter",
+    "name": "EML in PDF umwandeln",
     "description": "Wandeln Sie .eml-E-Mails in PDF um in Ihrem Browser, mit Absender, Empfänger, Datum und Anhänge oben aufgeführt. Inline-Bilder gehalten, Tracking blockiert. Frei.",
     "category": "Produktivität",
     "keywords": [],
@@ -2358,7 +2358,7 @@
     ]
   },
   "epoch-converter": {
-    "name": "Epoch Konverter",
+    "name": "Epoch-Konverter",
     "description": "Konvertieren Sie Unix-Episoden-Zeitstempel in Sekunden oder Millisekunden in lesbare Daten und generieren Sie Zeitstempel aus Datumseingaben. Kostenlose Online-Epoche Converter.",
     "category": "Datenformate",
     "keywords": [],
@@ -2377,7 +2377,7 @@
     ]
   },
   "excel-to-csv": {
-    "name": "Excel to CSV Konverter",
+    "name": "Excel in CSV umwandeln",
     "description": "Wandeln Sie ein Excel-Blatt im Browser in CSV um: Wählen Sie das Blatt und das Trennzeichen, und das Werkzeug liest die Arbeitsmappe selbst - Datums- und Prozentangaben behalten das Format der Mappe. Die Datei verlässt Ihr Gerät nie.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -2415,7 +2415,7 @@
     ]
   },
   "exif-remover": {
-    "name": "EXIF Entferner",
+    "name": "EXIF-Daten entfernen",
     "description": "Remove EXIF und andere Fotometadaten, einschließlich GPS-Position und Kameradetails, laden Sie dann eine gereinigte Bildkopie herunter. Frei, privat und lokal verarbeitet.",
     "category": "Design & Medien",
     "keywords": [],
@@ -2526,7 +2526,7 @@
     ]
   },
   "favicon-maker": {
-    "name": "Favicon Ersteller",
+    "name": "Favicon erstellen",
     "description": "Machen Sie ein Browser-Tab-Symbol aus einem Bibliothekssymbol, passen Sie Farben und Formen an und exportieren Sie ein PNG- oder SVG-Favicon. Kostenloser Online-Favicon-Hersteller, der in Ihrem Browser ausgeführt wird.",
     "category": "Design & Medien",
     "keywords": [],
@@ -2564,7 +2564,7 @@
     ]
   },
   "final-grade-calculator": {
-    "name": "Final Grade Rechner",
+    "name": "Abschlussnote berechnen",
     "description": "Finden Sie die Punktzahl, die Sie für Ihre Abschlussprüfung benötigen, um eine A, B oder C zu erhalten. Geben Sie Ihre aktuelle Note, das Gewicht des Finales und Ihr Ziel ein. Kostenlos, keine Anmeldung.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -2582,7 +2582,7 @@
     ]
   },
   "flac-to-mp3": {
-    "name": "FLAC to MP3 Konverter",
+    "name": "FLAC in MP3 umwandeln",
     "description": "Konvertieren Sie eine FLAC-Aufnahme im Browser in eine echte MP3-Datei. Der Ton wird lokal dekodiert und mit dem LAME-Encoder mit 192 kbps und 44,1 kHz neu kodiert. Kostenlos, ohne Upload, ohne Anmeldung.",
     "category": "Audio & Video",
     "keywords": [],
@@ -2693,7 +2693,7 @@
     ]
   },
   "fraction-calculator": {
-    "name": "Fraction Rechner",
+    "name": "Bruchrechner",
     "description": "Add, subtrahieren, multiplizieren und teilen Brüche, gemischte Zahlen und ganze Zahlen. Erhalten Sie vereinfachte, gemischte und dezimale Antworten mit klaren Schritten. Frei.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -2712,7 +2712,7 @@
     ]
   },
   "fraction-to-decimal-calculator": {
-    "name": "Fraction to Decimal Rechner",
+    "name": "Bruch in Dezimalzahl umrechnen",
     "description": "Konvertieren Sie Brüche und gemischte Zahlen in Dezimalzahlen und Prozentsätze. Zeigt sich wiederholende Dezimalzahlen mit einem Balken, den langen Divisionsschritten und einem Conversion-Chart.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -2749,7 +2749,7 @@
     ]
   },
   "gif-to-mp4": {
-    "name": "GIF to MP4 Konverter",
+    "name": "GIF in MP4 umwandeln",
     "description": "Animierte GIFs in ein echtes MP4-Video im Browser umwandeln: Das Werkzeug dekodiert das GIF, spielt die Bilder in Echtzeit ab und zeichnet sie mit MediaRecorder auf, sodass jeder Player das Ergebnis öffnen kann. Es zeigt die gemessene Größe beider Dateien, denn ein aufgezeichnetes Video ist oft größer als das GIF. Ohne Upload, ohne Wasserzeichen, kostenlos.",
     "category": "Audio & Video",
     "keywords": [],
@@ -2768,7 +2768,7 @@
     ]
   },
   "gif-to-png": {
-    "name": "GIF to PNG Konverter",
+    "name": "GIF in PNG umwandeln",
     "description": "Wandeln Sie ein GIF in PNG um und behalten Sie die Transparenz. Wählen Sie die Ausgabegröße und laden Sie das Bild herunter. Kostenlos, kein Upload, keine Anmeldung.",
     "category": "Design & Medien",
     "keywords": [],
@@ -2863,7 +2863,7 @@
     ]
   },
   "gpa-calculator": {
-    "name": "GPA Rechner",
+    "name": "GPA-Rechner",
     "description": "GPA-Rechner für High School und College. Fügen Sie Klassen, Credits und Brief- oder Prozentnoten hinzu, um Ihr Semester, kumulative und gewichtete GPA zu erhalten. Keine Anmeldung.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -2882,7 +2882,7 @@
     ]
   },
   "grade-calculator": {
-    "name": "Grade Rechner",
+    "name": "Notenrechner",
     "description": "Notenrechner: Geben Sie Kategorien, Gewichte oder Punkte ein, um Ihre Klassennote und Ihren Brief zu erhalten, zu sehen, was Sie für das Finale benötigen, und Tests zu erhalten. Keine Anmeldung.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -2900,7 +2900,7 @@
     ]
   },
   "graphql-formatter-beautifier": {
-    "name": "GraphQL Formatter & Formatierer",
+    "name": "GraphQL-Formatierer",
     "description": "Formatieren, validieren und verschönern Sie GraphQL-Abfragen, Mutationen und Schemata mit Syntax-Hervorhebung und Abfrageanalyse.",
     "category": "Datenbank & SQL",
     "keywords": [],
@@ -2992,7 +2992,7 @@
     ]
   },
   "graphql-schema-viewer-validator": {
-    "name": "GraphQL Schema Betrachter & Validator",
+    "name": "GraphQL-Schema-Viewer & Validator",
     "description": "Visualisieren, validieren und erkunden Sie GraphQL Schemas (SDL) mit einem interaktiven Typ Explorer und Verschönerer.",
     "category": "Datenbank & SQL",
     "keywords": [],
@@ -3038,7 +3038,7 @@
     ]
   },
   "gravel-calculator": {
-    "name": "Gravel Rechner",
+    "name": "Kies-Rechner",
     "description": "Kalkulieren Sie, wie viel Kies, zerkleinerter Stein, Flussfelsen oder Sand Sie in Tonnen und Kubikmetern von Ihrem Gebiet und Ihrer Tiefe benötigen. Editierbare Dichte, Abfall und Kosten. Frei.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -3151,7 +3151,7 @@
     ]
   },
   "heic-to-jpg-converter": {
-    "name": "HEIC to JPG Konverter",
+    "name": "HEIC in JPG umwandeln",
     "description": "Prüfen Sie, ob ein HEIC-Foto in Ihrem Browser in ein JPEG umgewandelt werden kann. Kein Browser, in dem diese Seite läuft, bringt einen HEIC-Decoder mit: Das Bild lässt sich nicht dekodieren, und daraus kann kein JPEG erzeugt werden. Das Werkzeug liest den Container und zeigt die Formatmarke, die kompatiblen Marken und die Bildgröße. Wandeln Sie das Foto zuerst in ein JPG um und arbeiten Sie dann mit dem JPG weiter. Ohne Upload, ohne Anmeldung.",
     "category": "Design & Medien",
     "keywords": [],
@@ -3170,7 +3170,7 @@
     ]
   },
   "hex-calculator": {
-    "name": "Hex Rechner",
+    "name": "Hex-Rechner",
     "description": "Hex-Rechner: addieren, subtrahieren, multiplizieren und dividieren hexadezimale Zahlen, plus UND, ODER, XOR, NICHT und Verschiebungen. Ergebnisse in hex, dezimal, binär und oktal.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -3189,7 +3189,7 @@
     ]
   },
   "hex-to-ascii": {
-    "name": "Hex to ASCII Konverter",
+    "name": "Hex in ASCII umwandeln",
     "description": "Konvertieren Sie sofort Hex zu ASCII-Text. Paste hex mit oder ohne Leerzeichen, 0x oder \\x Präfixe und decodieren es als UTF-8-Text, mit einer Byte-Tabelle. Frei und privat.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -3208,7 +3208,7 @@
     ]
   },
   "hex-to-binary": {
-    "name": "Hex to Binary Konverter",
+    "name": "Hex in Binary umwandeln",
     "description": "Konvertieren Sie sofort Hex zu binär. Jede Hex-Ziffer bildet 4 Bits ab, mit Gruppierung, einer anklickbaren Bitansicht, Zweierkomplement und Dezimal- und Oktalergebnissen.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -3227,7 +3227,7 @@
     ]
   },
   "hex-to-decimal": {
-    "name": "Hex to Decimal Konverter",
+    "name": "Hex in Decimal umwandeln",
     "description": "Konvertieren Sie Hex sofort zu dezimal mit der gezeigten Arbeit. Unterstützt 0x Präfixe, große Zahlen und signierte Zweierkomplementwerte. Zeigt auch binär und oktal.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -3265,7 +3265,7 @@
     ]
   },
   "hex-to-rgb-calculator": {
-    "name": "HEX to RGB Rechner",
+    "name": "HEX-zu-RGB-Rechner",
     "description": "Berechnen Sie die RGB-Kanalwerte aus einem beliebigen HEX-Farbcode und vergleichen Sie die resultierende Farbe visuell. Kostenloser HEX zu RGB-Rechner mit sofortigen Ergebnissen und Kopie.",
     "category": "Design & Medien",
     "keywords": [],
@@ -3284,7 +3284,7 @@
     ]
   },
   "hex-rgb-converter": {
-    "name": "HEX to RGB Konverter",
+    "name": "HEX-RGB-Farbumrechner",
     "description": "Konvertieren Sie HEX-Farbcodes sofort in das RGB-Format. Ein 100% clientseitiges Tool mit Live-Farbvorschau und CSS-Output-Generierung.",
     "category": "Design & Medien",
     "keywords": [],
@@ -3303,7 +3303,7 @@
     ]
   },
   "high-school-gpa-calculator": {
-    "name": "High School GPA Rechner",
+    "name": "GPA-Rechner (High School)",
     "description": "GPA-Rechner für die High School. Fügen Sie Klassen, Noten und Ehrungen, AP- oder IB-Level hinzu, um Ihren gewichteten und ungewichteten GPA für jedes Semester und insgesamt zu sehen. Keine Anmeldung.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -3322,7 +3322,7 @@
     ]
   },
   "hourly-to-salary-calculator": {
-    "name": "Stundenlohn to Gehalt Rechner",
+    "name": "Stundenlohn in Gehalt umrechnen",
     "description": "Konvertieren Sie einen Stundenlohn in Jahresgehalt, plus monatliche, zweiwöchentliche, wöchentliche und tägliche Bezahlung. Passen Sie Stunden pro Woche und bezahlte Wochen pro Jahr an. Frei, sofort, privat.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -3340,7 +3340,7 @@
     ]
   },
   "hours-calculator": {
-    "name": "Hours Rechner",
+    "name": "Stundenrechner",
     "description": "Berechnen Sie die Stunden und Minuten zwischen zwei Malen, subtrahieren Sie eine Pause, behandeln Sie Nachtschichten und erhalten Sie Dezimalstunden und zahlen Sie. Frei, sofort und privat.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -3480,7 +3480,7 @@
     ]
   },
   "html-to-markdown": {
-    "name": "HTML to Markdown Konverter",
+    "name": "HTML in Markdown umwandeln",
     "description": "Konvertieren Sie HTML zu bereinigen Markdown-Format mit Live-Vorschau. Perfekt für Dokumentation, Blog-Posts und Content-Migration.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -3499,7 +3499,7 @@
     ]
   },
   "html-to-md": {
-    "name": "HTML to MD Konverter",
+    "name": "HTML in MD umwandeln",
     "description": "Konvertieren Sie HTML-Inhalte in saubere, editierbare Markdown für Dokumentation, Notizen und Repository-Dateien. Kostenloser Online-HTML zu MD-Konverter, der in Ihrem Browser ausgeführt wird.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -3537,7 +3537,7 @@
     ]
   },
   "ico-converter": {
-    "name": "ICO Konverter",
+    "name": "ICO-Konverter",
     "description": "Konvertieren Sie PNG, JPG, WebP, SVG, GIF und BMP, um ICO-Icons in mehreren Größen zu erstellen oder jedes Bild in einem ICO als PNG zu extrahieren. Kostenlos, privat und läuft in Ihrem Browser.",
     "category": "Design & Medien",
     "keywords": [],
@@ -3556,7 +3556,7 @@
     ]
   },
   "ico-to-png": {
-    "name": "ICO to PNG Konverter",
+    "name": "ICO in PNG umwandeln",
     "description": "Wandeln Sie ein ICO-Symbol in PNG um und behalten Sie die Transparenz. Wählen Sie die Ausgabegröße und laden Sie das Bild herunter. Kein Upload nötig.",
     "category": "Design & Medien",
     "keywords": [],
@@ -3575,7 +3575,7 @@
     ]
   },
   "image-metadata-viewer": {
-    "name": "Bild Metadata Betrachter",
+    "name": "Bild-Metadaten anzeigen",
     "description": "Inspect eingebettete Bildmetadaten, einschließlich Kamera-, Beschreibungs- und GPS-Felder, für JPG, PNG und mehr. Kostenloser online-bild-metadaten-viewer ohne uploads.",
     "category": "Design & Medien",
     "keywords": [],
@@ -3612,7 +3612,7 @@
     ]
   },
   "image-to-pdf": {
-    "name": "Bild to PDF Konverter",
+    "name": "Bild in PDF umwandeln",
     "description": "Bilder in PDF kostenlos konvertieren: Kombinieren Sie bis zu 20 JPG, PNG, WebP, GIF oder BMP Bilder. Wählen Sie Seitengröße und Margen. Keine Anmeldung, kein Wasserzeichen oder Bild-Uploads.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -3631,7 +3631,7 @@
     ]
   },
   "instagram-grid-maker": {
-    "name": "Instagram Grid Ersteller",
+    "name": "Instagram-Raster erstellen",
     "description": "Teilen Sie Ihre Fotos in ein perfektes Puzzle-Raster für Instagram. 100% frei, hochfunktional und bewahrt die hochauflösende Qualität.",
     "category": "Design & Medien",
     "keywords": [],
@@ -3649,7 +3649,7 @@
     ]
   },
   "instagram-image-splitter": {
-    "name": "Instagram Bild Teiler",
+    "name": "Instagram-Bild teilen",
     "description": "Teilen Sie ein Bild in 3x1, 3x2 oder 3x3 Rasterkacheln für ein Instagram-Profil-Layout und laden Sie die Stücke in der Buchungsreihenfolge herunter. Frei und privat, keine Uploads.",
     "category": "Design & Medien",
     "keywords": [],
@@ -3667,7 +3667,7 @@
     ]
   },
   "instagram-photo-splitter": {
-    "name": "Instagram Foto Teiler",
+    "name": "Instagram-Foto teilen",
     "description": "Teilen Sie ein Foto in koordinierte Kacheln mit einer Crop-Vorschau für ein nahtloses Multi-Post-Instagram-Raster. Kostenloser online-foto-splitter, der in ihrem browser läuft.",
     "category": "Design & Medien",
     "keywords": [],
@@ -3704,7 +3704,7 @@
     ]
   },
   "ipv6-subnet-calculator": {
-    "name": "IPv6 Subnet Rechner",
+    "name": "IPv6-Subnetzrechner",
     "description": "IPv6-Subnetzrechner: komprimierte und erweiterte Adresse, Netzwerkpräfix, erste und letzte Adresse, Anzahl von /64s, Adresstyp und ip6.arpa-Zone. Frei.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -3761,7 +3761,7 @@
     ]
   },
   "jfif-to-jpg": {
-    "name": "JFIF to JPG Konverter",
+    "name": "JFIF in JPG umwandeln",
     "description": "Wandeln Sie JFIF-Bilder in Ihrem Browser in JPG um und erhalten Sie Standard-.jpg-Dateien, die jede App akzeptiert. Stellen Sie Qualität und Ausgabegröße ein. Kostenlos und privat.",
     "category": "Design & Medien",
     "keywords": [],
@@ -3780,7 +3780,7 @@
     ]
   },
   "jpg-to-ico": {
-    "name": "JPG to ICO Konverter",
+    "name": "JPG in ICO umwandeln",
     "description": "Konvertieren Sie JPG- oder JPEG-Fotos in ICO-Icons. Schneiden Sie zu einem Quadrat, um die Ecken oder fügen Sie Polsterung hinzu und packen Sie 16-256 px Größen in eine .ico Datei. Privat, kein Upload.",
     "category": "Design & Medien",
     "keywords": [],
@@ -3799,7 +3799,7 @@
     ]
   },
   "jpg-to-pdf-converter": {
-    "name": "JPG to PDF Konverter",
+    "name": "JPG in PDF umwandeln",
     "description": "JPG, PNG, GIF, BMP und TIFF Bilder sofort in PDF konvertieren. 100% offline, sicher und schnell ohne Dateilimits.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -3818,7 +3818,7 @@
     ]
   },
   "jpg-to-png-converter": {
-    "name": "JPG to PNG Konverter",
+    "name": "JPG in PNG umwandeln",
     "description": "Wandeln Sie JPG-Bilder in Ihrem Browser verlustfrei in PNG um, für Werkzeuge, die nur PNG akzeptieren. Stellen Sie die Ausgabegröße ein und laden Sie die Datei herunter. Keine Uploads.",
     "category": "Design & Medien",
     "keywords": [],
@@ -3837,7 +3837,7 @@
     ]
   },
   "jpg-to-webp-converter": {
-    "name": "JPG to WebP Konverter",
+    "name": "JPG in WebP umwandeln",
     "description": "Wandeln Sie JPG-Fotos in Ihrem Browser in WebP um. Stellen Sie Qualität und Ausgabegröße ein und laden Sie die Datei herunter. 100% in Ihrem Browser, keine Uploads.",
     "category": "Design & Medien",
     "keywords": [],
@@ -3989,7 +3989,7 @@
     ]
   },
   "json-to-csv-converter": {
-    "name": "JSON to CSV Konverter",
+    "name": "JSON in CSV umwandeln",
     "description": "Konvertieren Sie JSON-Arrays in Tabellenkalkulationsbereites CSV mit korrektem Zitieren und benutzerdefinierten Trennzeichen. 100% in Ihrem Browser.",
     "category": "Datenformate",
     "keywords": [],
@@ -4027,7 +4027,7 @@
     ]
   },
   "json-to-toon-converter": {
-    "name": "JSON to TOON Konverter",
+    "name": "JSON-zu-TOON-Konverter",
     "description": "Konvertieren Sie JSON in TOON (Token-Oriented Object Notation) mit einer Live-Vorschau und einer konfigurierbaren Ausgabe, um LLM-Prompt-Token zu schneiden. Kostenlos und läuft in Ihrem Browser.",
     "category": "Datenformate",
     "keywords": [],
@@ -4065,7 +4065,7 @@
     ]
   },
   "json-to-typescript": {
-    "name": "JSON to TypeScript Konverter",
+    "name": "JSON-zu-TypeScript-Konverter",
     "description": "Konvertieren Sie JSON-Objekte sofort in TypeScript-Schnittstellen mit anpassbaren Optionen und sauberer Codegenerierung.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -4243,7 +4243,7 @@
     ]
   },
   "latex-to-image": {
-    "name": "LaTeX to Bild Konverter",
+    "name": "LaTeX in Bild umwandeln",
     "description": "Konvertieren Sie LaTeX-Gleichungen in PNG, SVG, JPG oder PDF in Ihrem Browser. Transparenter Hintergrund, jede Farbe, bis zu 8x Auflösung, Alttext enthalten. Frei, keine Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -4262,7 +4262,7 @@
     ]
   },
   "latex-to-word-equation": {
-    "name": "LaTeX to Wort Equation",
+    "name": "LaTeX in Word-Formel umwandeln",
     "description": "Konvertieren Sie LaTeX in eine editierbare Microsoft Word-Gleichung. Fügen Sie LaTeX ein oder geben Sie visuell ein, klicken Sie auf Copy for Word und fügen Sie es dann in Word ein. Kostenlos, privat, kein Add-in.",
     "category": "Produktivität",
     "keywords": [],
@@ -4319,7 +4319,7 @@
     ]
   },
   "llm-token-counter": {
-    "name": "LLM Token Zähler",
+    "name": "LLM-Token-Zähler",
     "description": "Count Token und schätzen API Kosten für GPT-5, GPT-4o, Claude, Gemini, Llama und mehr: genaue tiktoken zählt, 100% in Ihrem Browser.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -4357,7 +4357,7 @@
     ]
   },
   "lowercase-converter": {
-    "name": "Lowercase Konverter",
+    "name": "In Kleinbuchstaben umwandeln",
     "description": "Konvertieren Sie jeden Text sofort in Kleinbuchstaben, um Caps Lock-Unfälle zu beheben und Daten mit einem Klick zu normalisieren.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -4376,7 +4376,7 @@
     ]
   },
   "m4a-to-mp3": {
-    "name": "M4A to MP3 Konverter",
+    "name": "M4A in MP3 umwandeln",
     "description": "Konvertieren Sie eine M4A-Aufnahme (AAC, iPhone-Memos) im Browser in eine echte MP3-Datei. Der Ton wird lokal dekodiert und mit dem LAME-Encoder mit 192 kbps und 44,1 kHz neu kodiert. Ohne Upload, ohne Anmeldung.",
     "category": "Audio & Video",
     "keywords": [],
@@ -4407,7 +4407,7 @@
     ]
   },
   "macro-calculator": {
-    "name": "Macro Rechner",
+    "name": "Makronährstoff-Rechner",
     "description": "Berechnen Sie Ihre täglichen Kalorien, Protein, Kohlenhydrate, Fett, Ballaststoffe und Wasser aus Ihrem Körpergewicht, sofort und privat.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -4444,7 +4444,7 @@
     ]
   },
   "maintenance-calorie-calculator": {
-    "name": "Maintenance Calorie Rechner",
+    "name": "Kalorienbedarf-Rechner",
     "description": "Hochfunktionaler, schön gestalteter Kalorienrechner, um Ihre täglichen Wartungskalorien, BMR und Makroziele für Gewichtsverlust oder Gewinn zu bestimmen.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -4463,7 +4463,7 @@
     ]
   },
   "margin-calculator": {
-    "name": "Margin Rechner",
+    "name": "Margenrechner",
     "description": "Berechnen Sie die Gewinnmarge aus Kosten und Preis oder den Verkaufspreis, den Sie für eine Zielmarge benötigen. Sehen Sie Gewinn und Markup Seite an Seite, mit Formeln. Frei.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -4481,7 +4481,7 @@
     ]
   },
   "markdown-file-viewer": {
-    "name": "Markdown File Betrachter",
+    "name": "Markdown-Datei-Viewer",
     "description": "Öffnen Sie eine .md-Datei von Ihrem Gerät und lesen Sie den formatierten Inhalt in Ihrem Browser, wobei Tabellen und Code hervorgehoben werden. Kostenloser Markdown File Viewer, keine Uploads.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -4519,7 +4519,7 @@
     ]
   },
   "markdown-to-docx": {
-    "name": "Markdown to DOCX Konverter",
+    "name": "Markdown in DOCX umwandeln",
     "description": "Konvertieren Sie Markdown-Dokumente in DOCX mit Live-Vorschau und Export mit einem Klick.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -4557,7 +4557,7 @@
     ]
   },
   "markdown-to-pdf-converter": {
-    "name": "Markdown to PDF Konverter",
+    "name": "Markdown-zu-PDF-Konverter",
     "description": "Konvertieren Sie Markdown in PDF mit einer Live-Vorschau von Überschriften, Tabellen und Code und laden Sie dann ein sauberes Dokument herunter. Kostenloser Online-Konverter ohne Anmeldung oder Uploads.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -4576,7 +4576,7 @@
     ]
   },
   "markdown-to-word": {
-    "name": "Markdown to Wort",
+    "name": "Markdown in Word umwandeln",
     "description": "Wandeln Sie Markdown in ein Word-kompatibles DOCX-Dokument mit beibehaltenen Überschriften, Listen, Tabellen und Code. Kostenloser Online-Markdown zu Word-Konverter, keine Uploads.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -4633,7 +4633,7 @@
     ]
   },
   "markup-calculator": {
-    "name": "Markup Rechner",
+    "name": "Aufschlagsrechner",
     "description": "Berechnen Sie den Verkaufspreis aus Kosten und Markup oder den Markup-Prozentsatz aus Kosten und Preis. Vergleichen Sie sofort mit der Gewinnmarge, mit Excel-Formeln.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -4651,7 +4651,7 @@
     ]
   },
   "md-to-docx": {
-    "name": "Markdown in DOCX umwandeln",
+    "name": "MD-zu-DOCX-Konverter",
     "description": "Verwandeln Sie eine MD-Datei in ein editierbares DOCX-Dokument mit einer Live-Konvertierungsvorschau und laden Sie sie dann herunter. Kostenloser MD zu DOCX-Konverter, der in Ihrem Browser ausgeführt wird.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -4708,7 +4708,7 @@
     ]
   },
   "mean-absolute-deviation-calculator": {
-    "name": "Mean Absolute Deviation Rechner",
+    "name": "Mittlere absolute Abweichung berechnen",
     "description": "Finde die mittlere absolute Abweichung (MAD) eines Datensatzes: den durchschnittlichen Abstand vom Mittelwert, wobei jeder Schritt und die Tabelle der absoluten Abweichungen dargestellt werden. Frei.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -4787,7 +4787,7 @@
     ]
   },
   "middle-school-gpa-calculator": {
-    "name": "Middle School GPA Rechner",
+    "name": "GPA-Rechner (Mittelstufe)",
     "description": "GPA-Rechner für die Mittelstufe. Geben Sie Berichtskartenprozentsätze oder Briefnoten ein, keine Credits erforderlich, und erhalten Sie einen GPA auf der 4.0-Skala für die 6., 7. und 8. Klasse.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -4806,7 +4806,7 @@
     ]
   },
   "military-time-converter": {
-    "name": "Military Time Konverter",
+    "name": "24-Stunden-Zeit umrechnen (Militärzeit)",
     "description": "Konvertieren Sie die militärische Zeit sofort in die Standardzeit und zurück: 1730 = 17:30 Uhr. Vollständiges Militärzeitdiagramm, wie man es sagt, und die aktuelle Zeit im Militärformat.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -4824,7 +4824,7 @@
     ]
   },
   "mixed-number-calculator": {
-    "name": "Mixed Number Rechner",
+    "name": "Rechner für gemischte Zahlen",
     "description": "Add, subtrahieren, multiplizieren und teilen gemischte Zahlen, Brüche und ganze Zahlen. Konvertieren Sie gemischte Zahlen in falsche Brüche und zurück, mit jedem Schritt.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -4843,7 +4843,7 @@
     ]
   },
   "mkv-to-mp4": {
-    "name": "MKV to MP4 Konverter",
+    "name": "MKV in MP4 umwandeln",
     "description": "Konvertieren Sie ein Matroska-Video im Browser in eine echte MP4-Datei. Der Browser dekodiert Bild und Ton und nimmt sie erneut als MP4 mit H.264-Video und AAC-Ton auf. Kostenlos, ohne Upload, ohne Anmeldung.",
     "category": "Audio & Video",
     "keywords": [],
@@ -4931,7 +4931,7 @@
     ]
   },
   "mov-to-mp4": {
-    "name": "MOV to MP4 Konverter",
+    "name": "MOV in MP4 umwandeln",
     "description": "Konvertieren Sie ein QuickTime-Video im Browser in eine echte MP4-Datei. Der Browser dekodiert Bild und Ton und nimmt sie erneut als MP4 mit H.264-Video und AAC-Ton auf. Kostenlos, ohne Upload, ohne Anmeldung.",
     "category": "Audio & Video",
     "keywords": [],
@@ -4962,7 +4962,7 @@
     ]
   },
   "mp3-to-wav": {
-    "name": "MP3 to WAV Konverter",
+    "name": "MP3 in WAV umwandeln",
     "description": "Konvertieren Sie eine MP3-Aufnahme im Browser in eine echte WAV-Datei. Der Ton wird lokal dekodiert und als 16-Bit-PCM mit 44,1 kHz geschrieben, bereit für Audioschnittprogramme, Sampler und das Brennen von CDs. Kostenlos, ohne Upload, ohne Anmeldung.",
     "category": "Audio & Video",
     "keywords": [],
@@ -4993,7 +4993,7 @@
     ]
   },
   "mp4-to-mp3": {
-    "name": "MP4 to MP3 Konverter",
+    "name": "MP4 in MP3 umwandeln",
     "description": "Extrahieren Sie die Tonspur eines MP4-Videos im Browser als echte MP3-Datei. Die Audiospur wird lokal dekodiert und mit dem LAME-Encoder mit 192 kbps und 44,1 kHz neu kodiert. Kostenlos, ohne Upload, ohne Anmeldung.",
     "category": "Audio & Video",
     "keywords": [],
@@ -5024,7 +5024,7 @@
     ]
   },
   "msg-to-pdf": {
-    "name": "MSG to PDF Konverter",
+    "name": "MSG in PDF umwandeln",
     "description": "Wandeln Sie Outlook-.msg-Dateien in PDF um ohne Outlook: die Nachricht mit Absender, Empfänger, Datum und Anhänge oben aufgeführt. Funktioniert auf dem Mac. Kein Upload.",
     "category": "Produktivität",
     "keywords": [],
@@ -5062,7 +5062,7 @@
     ]
   },
   "mulch-calculator": {
-    "name": "Mulch Rechner",
+    "name": "Mulch-Rechner",
     "description": "Berechnen Sie, wie viel Mulch Sie in Kubikmetern und Taschen für Gartenbeete jeder Form benötigen. Tiefenführung, 1,5, 2 oder 3 cu ft Taschen und Massenkosten. Frei und sofort.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -5136,7 +5136,7 @@
     ]
   },
   "number-base-converter": {
-    "name": "Number Base Konverter",
+    "name": "Zahlensystem-Umrechner",
     "description": "Konvertieren Sie Zahlen zwischen Binär-, Oktal-, Dezimal-, Hexadezimal- und einer beliebigen Basis von 2 bis 36, mit Schritt-für-Schritt-Arbeit, Zweierkomplement und Big-Zahlen-Unterstützung.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -5193,7 +5193,7 @@
     ]
   },
   "og-image-generator": {
-    "name": "OG Bild Generator",
+    "name": "OG-Bild-Generator",
     "description": "Erstellen Sie Social-Share-Bilder aus anpassbaren Vorlagen und laden Sie sie als PNG herunter.",
     "category": "Design & Medien",
     "keywords": [],
@@ -5212,7 +5212,7 @@
     ]
   },
   "og-image-maker": {
-    "name": "OG Bild Ersteller",
+    "name": "OG-Bild erstellen",
     "description": "Machen Sie eine OG-Sharing-Karte mit einem benutzerdefinierten Titel, Untertitel, Farben und Template-Styling für Social-Link-Vorschau. Kostenloser OG Image Maker, der in Ihrem Browser läuft.",
     "category": "Design & Medien",
     "keywords": [],
@@ -5235,7 +5235,7 @@
     ]
   },
   "ogg-to-mp3": {
-    "name": "OGG to MP3 Konverter",
+    "name": "OGG in MP3 umwandeln",
     "description": "Konvertieren Sie eine Ogg-Vorbis-Datei im Browser in eine echte MP3-Datei. Der Ton wird lokal dekodiert und mit dem LAME-Encoder mit 192 kbps und 44,1 kHz neu kodiert. Kostenlos, ohne Upload, ohne Anmeldung.",
     "category": "Audio & Video",
     "keywords": [],
@@ -5266,7 +5266,7 @@
     ]
   },
   "one-rep-max-calculator": {
-    "name": "One Rep Max Rechner",
+    "name": "One-Rep-Max-Rechner",
     "description": "Schätzen Sie Ihre eine Wiederholung max (1RM) aus einem beliebigen Satz von 1-15 Wiederholungen mit den Formeln Epley, Brzycki und Lombardi, mit einem Trainingsprozent-Diagramm. lb oder kg. Frei.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -5308,7 +5308,7 @@
     ]
   },
   "diff-checker": {
-    "name": "Online Diff Prüfer",
+    "name": "Text-Vergleich (Diff-Checker)",
     "description": "Vergleichen Sie zwei Textdokumente nebeneinander mit hervorgehobenen Unterschieden. Zeilenweise Vergleich mit Ergänzungen, Löschungen und Modifikationen.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -5472,7 +5472,7 @@
     ]
   },
   "open-graph-checker": {
-    "name": "Open Graph Prüfer",
+    "name": "Open-Graph-Prüfer",
     "description": "Lesen Sie die Open-Graph- und Twitter-Card-Tags einer Seite: Fügen Sie den HTML-Code des Kopfbereichs ein, das Werkzeug listet jedes og:- und twitter:-Tag mit Inhalt auf und zeigt, wie der Link beim Teilen aussieht. Es wird nichts aus dem Netz geladen.",
     "category": "Design & Medien",
     "keywords": [],
@@ -5495,7 +5495,7 @@
     ]
   },
   "open-graph-image-generator": {
-    "name": "Open Graph Bild Generator",
+    "name": "Open-Graph-Bild-Generator",
     "description": "Erstellen Sie ein 1200x630-Freigabebild für Open Graph-Metadaten mit editierbaren Kartenvorlagen und laden Sie dann ein PNG herunter. Kostenloser online-og-bildgenerator, keine anmeldung.",
     "category": "Design & Medien",
     "keywords": [],
@@ -5575,7 +5575,7 @@
     ]
   },
   "overtime-calculator": {
-    "name": "Overtime Rechner",
+    "name": "Überstunden-Rechner",
     "description": "Überstundenvergütung bei anderthalb oder einem beliebigen Multiplikator plus doppelte Zeit. Siehe regelmäßige, Überstunden und Gesamtlohn vor Steuern, mit der Arbeit gezeigt. Frei.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -5593,7 +5593,7 @@
     ]
   },
   "paint-calculator": {
-    "name": "Paint Rechner",
+    "name": "Farbbedarf-Rechner",
     "description": "Arbeiten Sie heraus, wie viele Gallonen Farbe Sie für einen Raum benötigen: Wände, optionale Decke, Türen, Fenster und Mäntel an der Abdeckung Ihrer Farbe. Gallonen, Quarts, Liter.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -5611,7 +5611,7 @@
     ]
   },
   "parquet-to-csv": {
-    "name": "Parquet to CSV Konverter",
+    "name": "Parquet in CSV umwandeln",
     "description": "Ein Browser hat keinen Parquet-Reader: Parquet ist ein Spaltenformat, das kein Browser ohne Bibliothek öffnet, deshalb bietet dieses Werkzeug den Dateityp gar nicht erst an. Es erklärt, was Parquet ist und welche Werkzeuge die Zeilen zeigen können.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -5657,7 +5657,7 @@
     ]
   },
   "password-generator": {
-    "name": "Passwort Generator",
+    "name": "Passwort-Generator",
     "description": "Generieren Sie starke zufällige Passwörter mit kryptografisch sicherer Zufälligkeit: Länge, Zeichensätze und Stärkemesser, alles auf Ihrem Gerät.",
     "category": "Sicherheit & Datenschutz",
     "keywords": [],
@@ -5733,7 +5733,7 @@
     ]
   },
   "pdf-metadata-remover": {
-    "name": "PDF Metadata Entferner",
+    "name": "PDF-Metadaten entfernen",
     "description": "PDF-Metadaten im Browser entfernen: Autor, Software, Datum, XMP-Verlauf, frühere Versionen und die GPS-Koordinaten im XMP-Paket. Sehen Sie zuerst, was versteckt ist, und laden Sie dann das bereinigte Dokument herunter. Kostenlos und privat.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -5752,7 +5752,7 @@
     ]
   },
   "pdf-metadata-viewer": {
-    "name": "PDF Metadata Betrachter",
+    "name": "PDF-Metadaten anzeigen",
     "description": "PDF-Metadaten online ansehen: Autor, Software, Datum, XMP-Änderungsverlauf, Dokument-ID, frühere Versionen, die GPS-Koordinaten im XMP-Paket und die Anhänge. Privat, in Ihrem Browser.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -5790,7 +5790,7 @@
     ]
   },
   "pdf-splitter": {
-    "name": "PDF Teiler",
+    "name": "PDF-Splitter",
     "description": "Splitten Sie ein PDF in kleinere Dokumente nach Seitenbereichen, ausgewählten Seiten oder festen Intervallen. Kostenloser Online-PDF-Splitter, der Dateien lokal verarbeitet, nie hochgeladen.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -5809,7 +5809,7 @@
     ]
   },
   "pdf-to-docx": {
-    "name": "PDF to DOCX Konverter",
+    "name": "PDF in DOCX umwandeln",
     "description": "Konvertieren Sie PDF in Word kostenlos in Ihrem Browser. Vorschau wählbaren Text und Download einer editierbaren DOCX. Keine Uploads oder Anmeldung. Gescannte PDFs benötigen zuerst OCR.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -5828,7 +5828,7 @@
     ]
   },
   "pdf-to-image-converter": {
-    "name": "PDF to Bild Konverter",
+    "name": "PDF in Bild umwandeln",
     "description": "Konvertieren Sie PDF-Seiten in JPG-, PNG- oder WebP-Bilder mit bis zu 600 DPI mit visueller Seitenauswahl und ZIP-Download. 100% in Ihrem Browser.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -5847,7 +5847,7 @@
     ]
   },
   "pdf-to-jpg-converter": {
-    "name": "PDF to JPG Konverter",
+    "name": "PDF in JPG umwandeln",
     "description": "PDF-Seiten in hochauflösende JPG-Bilder konvertieren: Seiten visuell auswählen, bis zu 600 DPI auswählen, einzeln oder als ZIP herunterladen. 100% in Ihrem Browser.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -5866,7 +5866,7 @@
     ]
   },
   "pdf-to-markdown": {
-    "name": "PDF to Markdown Konverter",
+    "name": "PDF in Markdown umwandeln",
     "description": "Konvertieren Sie PDF zu Markdown in Ihrem Browser. Wählen Sie Seiten aus, bearbeiten Sie mit Live-Vorschau und laden Sie .md herunter. Kostenlos, keine Anmeldung, und Ihre PDF bleibt auf Ihrem Gerät.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -5904,7 +5904,7 @@
     ]
   },
   "pdf-to-md": {
-    "name": "PDF to MD Konverter",
+    "name": "PDF in MD umwandeln",
     "description": "Verwandeln Sie ein textbasiertes PDF in eine editierbare .md-Datei. Markdown anzeigen, Seiten auswählen und Notizen für Obsidian oder Dokumentation speichern. Läuft in Ihrem Browser.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -5923,7 +5923,7 @@
     ]
   },
   "pdf-to-png-converter": {
-    "name": "PDF to PNG Konverter",
+    "name": "PDF in PNG umwandeln",
     "description": "Render PDF-Seiten als verlustfreie PNG-Bilder mit scharfem Text, optional transparentem Hintergrund und bis zu 600 DPI. 100% in Ihrem Browser.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -5942,7 +5942,7 @@
     ]
   },
   "pdf-to-word": {
-    "name": "PDF to Wort",
+    "name": "PDF in Word umwandeln",
     "description": "Konvertieren Sie textbasierte PDF-Inhalte in eine editierbare Word-kompatible DOCX-Datei, die lokal in Ihrem Browser verarbeitet wird. Kostenlose Online-PDF zu Word-Konverter, keine Uploads.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -5961,7 +5961,7 @@
     ]
   },
   "pdf-to-word-converter": {
-    "name": "PDF to Wort Konverter",
+    "name": "PDF-zu-Word-Konverter",
     "description": "Erstellen Sie einen editierbaren DOCX aus einem Text-PDF mit Browser-lokaler Konvertierung und sofortigem Download. Kostenlose PDF zu Word Konverter ohne Anmeldung, E-Mail oder Datei hochladen.",
     "category": "PDF & Dokumente",
     "keywords": [],
@@ -6018,7 +6018,7 @@
     ]
   },
   "percentage-calculator": {
-    "name": "Prozent Rechner",
+    "name": "Prozentrechner",
     "description": "Freier Prozentsatzrechner: Finden Sie X% von Y, wie viel Prozent X von Y ist, prozentuale Veränderung und das Ganze aus einem Teil. Antworten mit Schritten und Excel-Formeln.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -6036,7 +6036,7 @@
     ]
   },
   "percentage-change-calculator": {
-    "name": "Prozent Change Rechner",
+    "name": "Prozentuale Veränderung berechnen",
     "description": "Berechnen Sie die prozentuale Änderung zwischen einem alten und einem neuen Wert, wobei die Arbeit prozentual gegenüber Prozentpunkten und eine Excel-Formel angezeigt wird.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -6054,7 +6054,7 @@
     ]
   },
   "percentage-decrease-calculator": {
-    "name": "Prozent Decrease Rechner",
+    "name": "Prozentuale Abnahme berechnen",
     "description": "Finden Sie die prozentuale Abnahme zwischen zwei Zahlen, reduzieren Sie eine Zahl um ein Prozent oder finden Sie den Wert vor einer Abnahme. Frei, mit Schritten und Formeln.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -6072,7 +6072,7 @@
     ]
   },
   "percentage-difference-calculator": {
-    "name": "Prozent Difference Rechner",
+    "name": "Prozentuale Differenz berechnen",
     "description": "Finden Sie die prozentuale Differenz zwischen zwei Zahlen anhand ihres Durchschnitts als Referenz, mit Rechenweg, Excel-Formel und Hinweis, wann man die Methode einsetzt.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -6090,7 +6090,7 @@
     ]
   },
   "percentage-increase-calculator": {
-    "name": "Prozent Increase Rechner",
+    "name": "Prozentuale Zunahme berechnen",
     "description": "Berechnen Sie die prozentuale Zunahme zwischen zwei Zahlen, erhöhen Sie eine Zahl um einen Prozentsatz oder finden Sie den Ausgangswert. Sofortige Antworten mit Rechenweg.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -6108,7 +6108,7 @@
     ]
   },
   "photo-metadata-remover": {
-    "name": "Foto Metadata Entferner",
+    "name": "Foto-Metadaten entfernen",
     "description": "Sicherlich schrubben Sie sensible EXIF-Daten, Kameraeinstellungen und GPS-Koordinaten aus Ihren Bildern sicher in Ihrem Browser, bevor Sie sie teilen.",
     "category": "Design & Medien",
     "keywords": [],
@@ -6126,7 +6126,7 @@
     ]
   },
   "photo-metadata-viewer": {
-    "name": "Foto Metadata Betrachter",
+    "name": "Foto-Metadaten anzeigen",
     "description": "Entdecken Sie sicher versteckte EXIF-Daten, Kameraeinstellungen und GPS-Standort, die in Ihren Bildern ohne Server-Uploads gespeichert sind.",
     "category": "Design & Medien",
     "keywords": [],
@@ -6162,7 +6162,7 @@
     ]
   },
   "pixelate-image": {
-    "name": "Pixelate Bild",
+    "name": "Bild verpixeln",
     "description": "Pixelate ein Bild online kostenlos. Mosaik-Gesichter, Text- oder Nummernschilder oder das gesamte Foto. Anpassbare Pixelgröße, volle Auflösung, 100% in Ihrem Browser.",
     "category": "Design & Medien",
     "keywords": [],
@@ -6199,7 +6199,7 @@
     ]
   },
   "png-background-remover": {
-    "name": "PNG Background Entferner",
+    "name": "PNG-Hintergrund entfernen",
     "description": "Entfernen Sie den Hintergrund eines PNG-Bildes: Die Farbe am Rand des Bildes wird transparent gemacht und der Ausschnitt als neues PNG mit transparentem oder einfarbigem Hintergrund gespeichert.",
     "category": "Design & Medien",
     "keywords": [],
@@ -6218,7 +6218,7 @@
     ]
   },
   "png-to-ico": {
-    "name": "PNG to ICO Konverter",
+    "name": "PNG in ICO umwandeln",
     "description": "Konvertieren Sie PNG zu ICO mit 16-256 px Größen in einer Datei. Behält Transparenz, fügt Polsterung oder abgerundete Ecken hinzu und zeigt jede Größe an. Kein Upload erforderlich.",
     "category": "Design & Medien",
     "keywords": [],
@@ -6237,7 +6237,7 @@
     ]
   },
   "png-to-jpg-converter": {
-    "name": "PNG to JPG Konverter",
+    "name": "PNG in JPG umwandeln",
     "description": "Wandeln Sie PNG-Bilder in Ihrem Browser in JPG um. Stellen Sie Qualität und Ausgabegröße ein, die Transparenz wird auf Weiß flachgezogen. Nichts wird hochgeladen.",
     "category": "Design & Medien",
     "keywords": [],
@@ -6275,7 +6275,7 @@
     ]
   },
   "png-to-webp-converter": {
-    "name": "PNG to WebP Konverter",
+    "name": "PNG in WebP umwandeln",
     "description": "Wandeln Sie PNG-Bilder in Ihrem Browser in WebP um. Wählen Sie das Zielformat, stellen Sie Qualität und Ausgabegröße ein und laden Sie die Datei herunter. 100% in Ihrem Browser, keine Uploads.",
     "category": "Design & Medien",
     "keywords": [],
@@ -6313,7 +6313,7 @@
     ]
   },
   "population-standard-deviation-calculator": {
-    "name": "Population Standard Deviation Rechner",
+    "name": "Standardabweichung (Grundgesamtheit) berechnen",
     "description": "Berechnen Sie die Population Standardabweichung σ und Populationsvarianz σ2 eines Datensatzes, dividiert durch N, mit schrittweisem Arbeiten. Kostenlos, keine Anmeldung.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -6350,7 +6350,7 @@
     ]
   },
   "printable-bracket": {
-    "name": "Printable Bracket Ersteller",
+    "name": "Turnierbaum zum Ausdrucken",
     "description": "Machen Sie eine druckbare Turnierhalterung für 2 bis 128 Teams. Füllen Sie Namen aus oder drucken Sie sie leer, mit Byes und Spielnummern. Vector PDF für Letter, A4, Tabloid oder A3.",
     "category": "Produktivität",
     "keywords": [],
@@ -6369,7 +6369,7 @@
     ]
   },
   "printable-calendar": {
-    "name": "Printable Kalender Ersteller",
+    "name": "Kalender zum Ausdrucken",
     "description": "Erstellen Sie einen druckbaren Kalender für jedes Jahr: Monatsseiten mit Notizen oder ein einseitiges Jahr, Feiertage in Deutschland, den USA oder Großbritannien, Wochenzahlen und 5 Farben. Kostenlose PDF, keine Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -6426,7 +6426,7 @@
     ]
   },
   "protein-calculator": {
-    "name": "Protein Rechner",
+    "name": "Proteinbedarf-Rechner",
     "description": "Berechnen Sie, wie viele Gramm Protein Sie pro Tag vom Körpergewicht und einem einstellbaren Gramm-pro-Kilogramm-Faktor für Ihr Ziel benötigen. Freier Proteinrechner.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -6445,7 +6445,7 @@
     ]
   },
   "psd-to-jpg": {
-    "name": "PSD to JPG Konverter",
+    "name": "PSD in JPG umwandeln",
     "description": "Öffnen Sie eine PSD-Datei in Ihrem Browser und laden Sie das Bildwerk als JPG auf weißem Hintergrund herunter. Wählen Sie das Zielformat und speichern Sie das Bild. Kostenlos, privat, kein Upload.",
     "category": "Design & Medien",
     "keywords": [],
@@ -6464,7 +6464,7 @@
     ]
   },
   "psd-to-png": {
-    "name": "PSD to PNG Konverter",
+    "name": "PSD in PNG umwandeln",
     "description": "Öffnen Sie eine PSD-Datei in Ihrem Browser und laden Sie das Bildwerk als PNG mit erhaltener Transparenz herunter. Wählen Sie das Zielformat und speichern Sie das Bild. Kostenlos, kein Upload.",
     "category": "Design & Medien",
     "keywords": [],
@@ -6521,7 +6521,7 @@
     ]
   },
   "quartile-calculator": {
-    "name": "Quartile and IQR Rechner",
+    "name": "Quartile und IQR berechnen",
     "description": "Find Q1, der Median, Q3 und der Interquartilsbereich eines Datensatzes mit der fünf Zahlenzusammenfassung, Ausreißern und einem Box-Plot. Lehrbuch und Excel-Methoden.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -6539,7 +6539,7 @@
     ]
   },
   "quote-image-generator": {
-    "name": "Quote Bild Generator",
+    "name": "Zitatbild-Generator",
     "description": "Generieren Sie ein herunterladbares Zitatbild mit konfigurierbarer Typografie, Farben und Hintergrundeinstellungen für soziale Medien. Kostenloser Zitatbildgenerator, keine Anmeldung.",
     "category": "Design & Medien",
     "keywords": [],
@@ -6562,7 +6562,7 @@
     ]
   },
   "quote-image-maker": {
-    "name": "Quote Bild Ersteller",
+    "name": "Zitatbild erstellen",
     "description": "Erstellen Sie schöne Zitatbilder mit benutzerdefinierten Hintergründen, Steigungen und Social Media Branding. Perfekt für Instagram, Twitter, Facebook und TikTok.",
     "category": "Design & Medien",
     "keywords": [],
@@ -6585,7 +6585,7 @@
     ]
   },
   "quote-maker": {
-    "name": "Quote Ersteller",
+    "name": "Zitate erstellen",
     "description": "Erstellen Sie eine Angebotskarte mit benutzerdefiniertem Text, Attribution, Schriftarten und visuellem Styling für Instagram oder andere soziale Beiträge. Kostenloser Online-Quote Maker, Download als PNG.",
     "category": "Design & Medien",
     "keywords": [],
@@ -6604,7 +6604,7 @@
     ]
   },
   "raise-gpa-calculator": {
-    "name": "Raise GPA Rechner",
+    "name": "GPA-Verbesserungsrechner",
     "description": "Kostenlos GPA-Rechner erhöhen: Geben Sie Ihren aktuellen GPA, Credits und Ziel ein, um den GPA zu sehen, den Sie im nächsten Semester benötigen, oder wie viele Credits von A es braucht, um dorthin zu gelangen.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -6641,7 +6641,7 @@
     ]
   },
   "random-item-picker": {
-    "name": "Random Item Auswahl-Tool",
+    "name": "Zufallsauswahl-Tool",
     "description": "Wählen Sie einen oder mehrere zufällige Namen aus Ihrer Liste ohne Ersatz innerhalb einer Ziehung. Überprüfen Sie Duplikate, kopieren Sie Ergebnisse und speichern Sie TXT oder CSV. Alle Verarbeitungen sind lokal.",
     "category": "Produktivität",
     "keywords": [],
@@ -6683,7 +6683,7 @@
     ]
   },
   "random-name-picker": {
-    "name": "Random Name Auswahl-Tool",
+    "name": "Zufälligen Namen auswählen",
     "description": "Random name picker spinnen sie das rad, um nach dem zufallsprinzip namen für spiele, partys, brettspielabende oder gruppenaktivitäten auszuwählen. Faire, lustige und völlig zufällige Auswahl.",
     "category": "Produktivität",
     "keywords": [],
@@ -6725,7 +6725,7 @@
     ]
   },
   "random-password-generator": {
-    "name": "Random Passwort Generator",
+    "name": "Zufallspasswort-Generator",
     "description": "Generieren Sie zufällige Passwörter mit konfigurierbarer Länge, Symbolen, Zahlen und Buchstabenfällen. Kostenloser zufälliger Passwortgenerator, der lokal läuft und nichts speichert.",
     "category": "Sicherheit & Datenschutz",
     "keywords": [],
@@ -6763,7 +6763,7 @@
     ]
   },
   "random-winner-picker": {
-    "name": "Random Winner Auswahl-Tool",
+    "name": "Gewinner auslosen",
     "description": "Wählen Sie einen zufälligen Gewinner aus einer Liste von Namen oder Einträgen für ein Werbegeschenk, eine Verlosung oder einen Wettbewerb mit einer fairen zufälligen Ziehung. Kostenlose Online-Gewinner-Picker, keine Anmeldung.",
     "category": "Produktivität",
     "keywords": [],
@@ -6801,7 +6801,7 @@
     ]
   },
   "ratio-calculator": {
-    "name": "Ratio Rechner",
+    "name": "Verhältnisrechner",
     "description": "Verhältnisrechner: Vereinfachen Sie Verhältnisse wie 24:36 bis 2:3, lösen Sie A:B = C:?, teilen Sie eine Summe in ein beliebiges Verhältnis und ändern Sie die Größe, während Sie das Seitenverhältnis beibehalten. Mit Schritten.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -6922,7 +6922,7 @@
     ]
   },
   "regex-checker": {
-    "name": "Regex Prüfer",
+    "name": "Regex-Prüfer",
     "description": "Checken Sie die Regex-Syntax und prüfen Sie Übereinstimmungen, Gruppen und Übereinstimmungspositionen mit Ihrem eigenen Beispieltext. Kostenloser online Regex Checker, der lokal in Ihrem Browser läuft.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -7021,7 +7021,7 @@
     ]
   },
   "remove-comments-from-word": {
-    "name": "Remove Comments from Wort",
+    "name": "Kommentare aus Word entfernen",
     "description": "Entfernen Sie alle Kommentare aus einer Word.docx-Datei auf einmal, oder behalten Sie sie und entfernen Sie Rezensentennamen. Funktioniert in Ihrem Browser ohne Word; nichts wird hochgeladen.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -7078,7 +7078,7 @@
     ]
   },
   "remove-metadata-from-word": {
-    "name": "Remove Metadata from Wort",
+    "name": "Metadaten aus Word entfernen",
     "description": "Remove Metadaten aus Word .docx Dateien in Ihrem Browser: Autor, Firma, Kommentare, verfolgte Änderungen, versteckter Text, Vorlagenpfade und Foto-GPS. Frei und privat.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -7114,7 +7114,7 @@
     ]
   },
   "remove-photo-location": {
-    "name": "Remove Foto Location",
+    "name": "Standort aus Foto entfernen",
     "description": "Entfernen Sie GPS-Standortdaten, die in einem Foto eingebettet sind, bevor Sie es online teilen, und laden Sie dann eine bereinigte Kopie herunter. Kostenlos und privat: Ihr Foto verlässt Ihr Gerät nie.",
     "category": "Design & Medien",
     "keywords": [],
@@ -7132,7 +7132,7 @@
     ]
   },
   "remove-text-from-image": {
-    "name": "Remove Text from Bild",
+    "name": "Text aus Bild entfernen",
     "description": "Brush über unerwünschten Text, Beschriftungen oder Wasserzeichen in einem Bild und füllen Sie den Bereich mit dem Bildinhalt in der Nähe. Kostenlos, privat und in Ihrem Browser verarbeitet.",
     "category": "Design & Medien",
     "keywords": [],
@@ -7207,7 +7207,7 @@
     ]
   },
   "rgb-to-hex-calculator": {
-    "name": "RGB to HEX Rechner",
+    "name": "RGB-zu-HEX-Rechner",
     "description": "Berechnen Sie einen HEX-Farbcode aus RGB-Kanalwerten (0-255) und prüfen Sie die resultierende Farbe visuell. Kostenloser RGB zu HEX Rechner mit sofortigen Ergebnissen.",
     "category": "Design & Medien",
     "keywords": [],
@@ -7226,7 +7226,7 @@
     ]
   },
   "rgb-hex-converter": {
-    "name": "RGB to HEX Konverter",
+    "name": "RGB-HEX-Farbumrechner",
     "description": "Konvertieren Sie RGB-Werte sofort in das HEX-Farbformat. Ein 100% clientseitiges Tool mit Live-Farbvorschau und HEX-Code-Generierung.",
     "category": "Design & Medien",
     "keywords": [],
@@ -7264,7 +7264,7 @@
     ]
   },
   "roman-numeral-converter": {
-    "name": "Roman Numeral Konverter",
+    "name": "Römische Zahlen umrechnen",
     "description": "Konvertieren Sie Zahlen in römische Zahlen und römische Zahlen sofort von 1 bis 3.999.999 mit einer schrittweisen Aufschlüsselung und Gültigkeitsprüfung. Frei.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -7282,7 +7282,7 @@
     ]
   },
   "roman-numeral-date-converter": {
-    "name": "Roman Numeral Date Konverter",
+    "name": "Datum in römische Zahlen umrechnen",
     "description": "Konvertieren Sie ein beliebiges Datum in römische Ziffern für Tattoos, Ringe und Hochzeitsgeschenke. Wählen Sie US-, UK- oder ISO-Bestellung und Punkt-, Kugel-, Dash- oder Slash-Separatoren. Frei, sofort.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -7301,7 +7301,7 @@
     ]
   },
   "roofing-calculator": {
-    "name": "Roofing Rechner",
+    "name": "Dachflächen-Rechner",
     "description": "Schätzen Sie Dachfläche, Dachplätze und Schindelbündel aus Ihrer Hausgröße, Dachsteigung, Überhang und Abfall, mit dem Pitch-Multiplikator und Unterlage.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -7342,7 +7342,7 @@
     ]
   },
   "salary-to-hourly-calculator": {
-    "name": "Gehalt to Stundenlohn Rechner",
+    "name": "Gehalt in Stundenlohn umrechnen",
     "description": "Konvertieren Sie ein Jahresgehalt in einen Stundenlohn für beliebige Stunden pro Woche und bezahlte Wochen pro Jahr. Siehe auch monatliche, zweiwöchentliche und wöchentliche Bezahlung. Frei und privat.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -7360,7 +7360,7 @@
     ]
   },
   "sample-standard-deviation-calculator": {
-    "name": "Sample Standard Deviation Rechner",
+    "name": "Standardabweichung (Stichprobe) berechnen",
     "description": "Finden Sie die Sample Standardabweichung s eines Datensatzes mit der n-1 Formel plus Sample Varianz, Mittelwert und Standardfehler, wobei jeder Schritt angezeigt wird. Frei.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -7416,7 +7416,7 @@
     ]
   },
   "simplify-fractions-calculator": {
-    "name": "Simplify Fractions Rechner",
+    "name": "Brüche kürzen",
     "description": "Reduzieren Sie einen beliebigen Bruch oder eine gemischte Zahl auf niedrigste Terme. Sehen Sie den größten gemeinsamen Faktor, die Primfaktoren und jeden Schritt. Funktioniert mit sehr großen Zahlen.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -7566,7 +7566,7 @@
     ]
   },
   "sql-formatter-beautifier": {
-    "name": "SQL Formatter & Formatierer",
+    "name": "SQL-Beautifier",
     "description": "Format und beautify SQL-Abfragen mit Syntax-Hervorhebung, Unterstützung mehrerer Dialekte und anpassbaren Formatierungsoptionen.",
     "category": "Datenbank & SQL",
     "keywords": [],
@@ -7650,7 +7650,7 @@
     ]
   },
   "square-footage-calculator": {
-    "name": "Square Footage Rechner",
+    "name": "Quadratfuß-Rechner",
     "description": "Berechnen Sie Quadratmetermaterial für Räume, Etagen und Grundstücke. Kombinieren Sie Rechtecke, Kreise und Dreiecke, subtrahieren Sie Ausschnitte und konvertieren Sie in m2 oder acres.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -7688,7 +7688,7 @@
     ]
   },
   "standard-deviation-calculator": {
-    "name": "Standard Deviation Rechner",
+    "name": "Standardabweichung berechnen",
     "description": "Freier Standardabweichungsrechner: Einfügen von Zahlen, um Stichprobe und Population SD, Varianz, Mittelwert, Median, Quartile und z-Scores zu erhalten, wobei jeder Schritt angezeigt wird.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -7767,7 +7767,7 @@
     ]
   },
   "string-length-calculator": {
-    "name": "String Length Rechner",
+    "name": "Textlänge berechnen",
     "description": "Messen Sie eine Textzeichenfolge's Länge und vergleichen Sie die Zählwerte mit und ohne Leerzeichen in einem Live-Zähler. Freier Stringlängenrechner, der in Ihrem Browser ausgeführt wird.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -7786,7 +7786,7 @@
     ]
   },
   "strong-password-generator": {
-    "name": "Strong Passwort Generator",
+    "name": "Sicheres-Passwort-Generator",
     "description": "Erstellen Sie lange, starke Passwörter mit Kontrolle über Symbole, Zahlen und Buchstabenfälle, indem Sie den sicheren Zufallsgenerator Ihres Browsers verwenden. Frei und nichts wird gespeichert.",
     "category": "Sicherheit & Datenschutz",
     "keywords": [],
@@ -7824,7 +7824,7 @@
     ]
   },
   "subnet-calculator": {
-    "name": "Subnet Rechner",
+    "name": "Subnetzrechner",
     "description": "IPv4-Subnetzrechner: Netzwerk, Broadcast, nutzbarer Hostbereich, Subnetz- und Platzhaltermasken, Binäransicht und Subnetzaufteilung für jede IP und CIDR oder Maske.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -7881,7 +7881,7 @@
     ]
   },
   "svg-to-base64": {
-    "name": "SVG to Base64 Konverter",
+    "name": "SVG in Base64 umwandeln",
     "description": "Konvertieren Sie ein SVG in eine Base64-Daten-URI oder eine kleinere URL-kodierte Daten-URI, mit Live-Vorschau, Dateigröße und einem <img>Tag zum Einfügen. Nichts wird hochgeladen.",
     "category": "Design & Medien",
     "keywords": [],
@@ -7900,7 +7900,7 @@
     ]
   },
   "svg-to-css": {
-    "name": "SVG to CSS Konverter",
+    "name": "SVG in CSS umwandeln",
     "description": "Verwandeln Sie ein SVG in CSS: ein optimiertes URL-kodiertes Hintergrundbild oder eine Maske, die Sie mit Hintergrundfarbe neu färben können. Vorschau, Prüfgröße und Kopie. Frei.",
     "category": "Design & Medien",
     "keywords": [],
@@ -7919,7 +7919,7 @@
     ]
   },
   "svg-to-ico": {
-    "name": "SVG to ICO Konverter",
+    "name": "SVG in ICO umwandeln",
     "description": "Konvertieren Sie SVG-Logos in ICO. Jede Größe von 16 bis 256 px wird direkt aus dem Vektor für scharfe Kanten gemacht, wobei die Transparenz erhalten bleibt. Kostenlos, kein Upload erforderlich.",
     "category": "Design & Medien",
     "keywords": [],
@@ -7938,7 +7938,7 @@
     ]
   },
   "svg-to-jpg": {
-    "name": "SVG to JPG Konverter",
+    "name": "SVG in JPG umwandeln",
     "description": "Wandeln Sie eine SVG-Zeichnung in Ihrem Browser in JPG um, die Transparenz wird auf Weiß flachgezogen. Stellen Sie Qualität und Ausgabegröße ein. Kostenlos, privat und ohne Dateilimits.",
     "category": "Design & Medien",
     "keywords": [],
@@ -7957,7 +7957,7 @@
     ]
   },
   "svg-to-png": {
-    "name": "SVG to PNG Konverter",
+    "name": "SVG in PNG umwandeln",
     "description": "Wandeln Sie eine SVG-Zeichnung in Ihrem Browser in PNG um und behalten Sie die Transparenz. Wählen Sie die Ausgabegröße und laden Sie das Bild herunter. Kostenlos, kein Upload.",
     "category": "Design & Medien",
     "keywords": [],
@@ -8018,7 +8018,7 @@
     ]
   },
   "tdee-calculator": {
-    "name": "TDEE Rechner",
+    "name": "Gesamtumsatz-Rechner (TDEE)",
     "description": "Berechnen Sie Ihren TDEE (gesamter täglicher Energieverbrauch) nach Alter, Geschlecht, Größe, Gewicht und Aktivitätsniveau, um Wartungskalorien zu finden. Frei und privat.",
     "category": "Lifestyle & Gesundheit",
     "keywords": [],
@@ -8037,7 +8037,7 @@
     ]
   },
   "test-grade-calculator": {
-    "name": "Test Grade Rechner",
+    "name": "Testnote berechnen",
     "description": "Geben Sie die Anzahl der Fragen ein und wie viele Sie falsch gestellt haben, um Ihre Testnote als Prozentsatz und Buchstabennote mit einem Bewertungsdiagramm zu erhalten. Frei, sofort.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -8055,7 +8055,7 @@
     ]
   },
   "text-case-converter": {
-    "name": "Text Case Konverter",
+    "name": "Groß- und Kleinschreibung umwandeln",
     "description": "Konvertieren Sie Text zwischen verschiedenen Fallformaten mit Live-Vorschau und Export mit einem Klick.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -8131,7 +8131,7 @@
     ]
   },
   "text-to-binary": {
-    "name": "Text to Binary Konverter",
+    "name": "Text in Binary umwandeln",
     "description": "Konvertieren Sie Text sofort in Binärcode: 8 Bits pro Byte, UTF-8 für Emoji und Akzente, mit Platz, Komma oder keinen Trennzeichen und einer Tabelle pro Zeichen. Frei.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -8150,7 +8150,7 @@
     ]
   },
   "text-to-handwriting": {
-    "name": "Text to Handwriting Konverter",
+    "name": "Text in Handschrift umwandeln",
     "description": "Konvertieren Sie Text zu realistischer Handschrift online. 12 handschriftliche Schriftarten, Regelpapier, Tintenfarben und natürliche Buchstabenvariation. Laden Sie PDF oder PNG herunter. Frei.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -8169,7 +8169,7 @@
     ]
   },
   "text-to-hex": {
-    "name": "Text to Hex Konverter",
+    "name": "Text in Hex umwandeln",
     "description": "Konvertieren Sie Text zu Hex sofort. UTF-8-Bytes als hexadezimal mit Leerzeichen, kein Trennzeichen oder 0x-Präfix, Groß- oder Kleinbuchstaben, zuzüglich einer Tabelle pro Zeichen. Frei.",
     "category": "Kodierung & Konvertierung",
     "keywords": [],
@@ -8225,7 +8225,7 @@
     ]
   },
   "tiff-to-jpg": {
-    "name": "TIFF to JPG Konverter",
+    "name": "TIFF in JPG umwandeln",
     "description": "Öffnen Sie einen TIFF-Scan in Ihrem Browser und laden Sie ihn als JPG herunter. Wählen Sie das Zielformat, sehen Sie den Scan an und speichern Sie das Bild. Kostenlos, kein Upload.",
     "category": "Design & Medien",
     "keywords": [],
@@ -8244,7 +8244,7 @@
     ]
   },
   "tile-calculator": {
-    "name": "Tile Rechner",
+    "name": "Fliesen-Rechner",
     "description": "Berechnen Sie, wie viele Boden- oder Wandfliesen Sie aus dem Bereich, der Fliesengröße und der Fugenbreite benötigen, mit Extra für Schnitte. Kisten und Kosten auch. Frei, Zoll oder cm.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -8262,7 +8262,7 @@
     ]
   },
   "time-calculator": {
-    "name": "Time Rechner",
+    "name": "Zeitrechner",
     "description": "Hinzufügen und Subtrahieren von Stunden und Minuten, summieren Sie eine Liste von Zeiten oder fügen Sie eine Dauer zu einer Uhrzeit hinzu. Ergebnisse in h:mm, Dezimalstunden und -minuten. Frei und sofort.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -8280,7 +8280,7 @@
     ]
   },
   "time-card-calculator": {
-    "name": "Time Card Rechner",
+    "name": "Stundenzettel-Rechner",
     "description": "Kostenloser wöchentlicher Zeitkartenrechner: Clock-in- und Clock-out-Zeiten mit Pausen, Nachtschichten, Überstunden und Bezahlung, Rundung und CSV-Export.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -8299,7 +8299,7 @@
     ]
   },
   "time-zone-converter": {
-    "name": "Time Zone Konverter",
+    "name": "Zeitzonen-Umrechner",
     "description": "Vergleichen Sie aktuelle und nahe gelegene Zeiten über mehrere Zeitzonen mit Stadtuhren und einem Zeitschieber. Kostenloser Online-Zeitzonenkonverter mit Tageslichteinsparung.",
     "category": "Produktivität",
     "keywords": [],
@@ -8322,7 +8322,7 @@
     ]
   },
   "title-case-converter": {
-    "name": "Title Case Konverter",
+    "name": "Title-Case-Konverter",
     "description": "Capitalize Der erste Buchstabe jedes Wortes, perfekt für Schlagzeilen, Titel und Überschriften. Ein Klick in Ihrem Browser.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -8341,7 +8341,7 @@
     ]
   },
   "token-counter": {
-    "name": "Token Zähler",
+    "name": "Token-Zähler",
     "description": "Count Tokens im Text mit lokalen Tokenizern und vergleichen Schätzungen über beliebte KI-Modelle wie GPT, Claude und Llama. Frei und privat, kein API-Schlüssel erforderlich.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -8379,7 +8379,7 @@
     ]
   },
   "transparent-background-maker": {
-    "name": "Transparent Background Ersteller",
+    "name": "Transparenten Hintergrund erstellen",
     "description": "Machen Sie den Hintergrund eines Fotos transparent: Die Farbe am Rand des Bildes gilt als Hintergrund und wird entfernt, danach wird der Ausschnitt als transparenter PNG für Produktbilder und Designlayouts exportiert.",
     "category": "Design & Medien",
     "keywords": [],
@@ -8417,7 +8417,7 @@
     ]
   },
   "tsv-to-json": {
-    "name": "TSV to JSON Konverter",
+    "name": "TSV in JSON umwandeln",
     "description": "Konvertieren Sie tab-getrennte TSV-Werte in JSON, indem Sie Zeilen einfügen oder eine TSV-Datei hochladen. Kostenloser Online-TSV-zu-JSON-Konverter mit Headern, Vorschau und lokaler Verarbeitung.",
     "category": "Datenformate",
     "keywords": [],
@@ -8463,7 +8463,7 @@
     ]
   },
   "unix-timestamp-converter": {
-    "name": "Unix Timestamp Konverter",
+    "name": "Unix-Timestamp-Konverter",
     "description": "Konvertieren Sie Unix Zeitstempel in vom Menschen lesbare Daten in UTC oder lokaler Zeit und verwandeln Sie Daten in numerische Zeitstempel. Kostenloser Online Unix Zeitstempel-Konverter.",
     "category": "Datenformate",
     "keywords": [],
@@ -8482,7 +8482,7 @@
     ]
   },
   "timestamp-converter-generator": {
-    "name": "Unix Timestamp Generator & Konverter",
+    "name": "Unix-Timestamp-Konverter & Generator",
     "description": "Konvertieren zwischen Unix-Zeitstempeln und menschenlesbaren Daten. Generieren Sie aktuelle Zeitstempel, konvertieren Sie in verschiedene Zeitzonen und verstehen Sie die Epochenzeit.",
     "category": "Datenformate",
     "keywords": [],
@@ -8520,7 +8520,7 @@
     ]
   },
   "uppercase-converter": {
-    "name": "Uppercase Konverter",
+    "name": "In Großbuchstaben umwandeln",
     "description": "Umwandeln Sie jeden Text sofort in UPPERCASE: Einfügen, Klicken, Kopieren. Selection-aware, mit Live-Textstatistiken.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -8718,7 +8718,7 @@
     ]
   },
   "variance-calculator": {
-    "name": "Variance Rechner",
+    "name": "Varianz-Rechner",
     "description": "Freier Varianzrechner: Fügen Sie einen Datensatz ein, um die Stichprobenvarianz (s2) und die Populationsvarianz (σ2), die Summe der Quadrate und die Standardabweichung, mit Schritten zu erhalten.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -8736,7 +8736,7 @@
     ]
   },
   "video-to-gif": {
-    "name": "Video to GIF Konverter",
+    "name": "Video in GIF umwandeln",
     "description": "Verwandeln Sie MP4-, MOV- oder WebM-Clips in Ihrem Browser in animierte GIFs. Legen Sie die Anzahl der Frames, die Bildrate, den Trim-Bereich und die Ausgabebreite fest, sehen Sie den Clip an und laden Sie das GIF herunter. Kein Upload, kein Wasserzeichen, völlig kostenlos.",
     "category": "Audio & Video",
     "keywords": [],
@@ -8755,7 +8755,7 @@
     ]
   },
   "vlsm-calculator": {
-    "name": "VLSM Rechner",
+    "name": "VLSM-Rechner",
     "description": "Plan-Subnetze unterschiedlicher Größe mit VLSM: Geben Sie ein Netzwerk ein und die Hosts, die jedes Subnetz benötigt, um Netzwerke, Masken, Hostbereiche und Broadcasts zu erhalten, die größte zuerst.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -8774,7 +8774,7 @@
     ]
   },
   "water-intake-calculator": {
-    "name": "Water Intake Rechner",
+    "name": "Wasserbedarf-Rechner",
     "description": "Schätzen Sie, wie viel Wasser Sie pro Tag von Ihrem Gewicht, Ihrer Bewegung und Ihrem Klima in Unzen, Litern, Tassen und Flaschen trinken müssen. Frei und privat, mit der gezeigten Formel.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -8793,7 +8793,7 @@
     ]
   },
   "wav-to-mp3": {
-    "name": "WAV to MP3 Konverter",
+    "name": "WAV in MP3 umwandeln",
     "description": "Konvertieren Sie eine WAV-Aufnahme im Browser in eine echte MP3-Datei. Die Abtastwerte werden lokal dekodiert und mit dem LAME-Encoder mit 192 kbps und 44,1 kHz neu kodiert, dadurch wird die MP3-Datei deutlich kleiner als die WAV-Datei. Ohne Upload, ohne Anmeldung.",
     "category": "Audio & Video",
     "keywords": [],
@@ -8843,7 +8843,7 @@
     ]
   },
   "webm-converter": {
-    "name": "WebM Konverter",
+    "name": "WebM-Konverter",
     "description": "Konvertieren Sie ein WebM-Video in eine echte MP4-Datei oder extrahieren Sie den Ton als MP3 oder WAV. Der Browser dekodiert die Datei und schreibt das Zielformat selbst, sodass Ihr Video das Gerät nie verlässt. Kostenlos, ohne Upload, ohne Anmeldung.",
     "category": "Audio & Video",
     "keywords": [],
@@ -8905,7 +8905,7 @@
     ]
   },
   "webm-to-mp4-converter": {
-    "name": "WebM to MP4 Konverter",
+    "name": "WebM-zu-MP4-Konverter",
     "description": "Konvertieren Sie ein WebM-Video vollständig in Ihrem Browser in eine echte MP4-Datei. Der Browser dekodiert Bild und Ton und nimmt sie erneut als MP4 mit H.264-Video und AAC-Ton auf. Kostenlos, ohne Upload, ohne Anmeldung, ohne Wasserzeichen.",
     "category": "Audio & Video",
     "keywords": [],
@@ -8936,7 +8936,7 @@
     ]
   },
   "webp-converter": {
-    "name": "WebP Konverter",
+    "name": "WebP-Konverter",
     "description": "Wandeln Sie JPG- und PNG-Bilder in WebP um und wieder zurück. Wählen Sie das Zielformat, stellen Sie Qualität und Ausgabegröße ein. 100% im Browser, nichts wird hochgeladen.",
     "category": "Design & Medien",
     "keywords": [],
@@ -8955,7 +8955,7 @@
     ]
   },
   "webp-to-gif": {
-    "name": "WebP to GIF Konverter",
+    "name": "WebP in GIF umwandeln",
     "description": "Konvertieren Sie animiertes WebP in GIF in Ihrem Browser, behalten Sie das Frame-Timing und die Transparenz bei oder speichern Sie ein Standbild-WebP als GIF, PNG oder JPG. Kostenlos, kein Upload, kein Wasserzeichen.",
     "category": "Design & Medien",
     "keywords": [],
@@ -8974,7 +8974,7 @@
     ]
   },
   "webp-to-ico": {
-    "name": "WebP to ICO Konverter",
+    "name": "WebP in ICO umwandeln",
     "description": "Konvertieren Sie WebP-Bilder in ICO-Icons und Favicons. Transparenz gehalten, Größen von 16 bis 256 px in einer Datei, Padding und abgerundete Ecken. Läuft in Ihrem Browser.",
     "category": "Design & Medien",
     "keywords": [],
@@ -8993,7 +8993,7 @@
     ]
   },
   "webp-to-jpg-converter": {
-    "name": "WebP to JPG Konverter",
+    "name": "WebP in JPG umwandeln",
     "description": "Wandeln Sie WebP-Bilder mit einstellbarer Qualität in universell unterstützte JPG-Dateien um. Stellen Sie die Ausgabegröße ein und laden Sie die Datei herunter. 100% in Ihrem Browser, keine Uploads.",
     "category": "Design & Medien",
     "keywords": [],
@@ -9012,7 +9012,7 @@
     ]
   },
   "webp-to-png-converter": {
-    "name": "WebP to PNG Konverter",
+    "name": "WebP in PNG umwandeln",
     "description": "Wandeln Sie WebP-Bilder in Ihrem Browser in universell kompatible PNG-Dateien um. Stellen Sie die Ausgabegröße ein und laden Sie die Datei herunter. Keine Uploads.",
     "category": "Design & Medien",
     "keywords": [],
@@ -9031,7 +9031,7 @@
     ]
   },
   "weighted-gpa-calculator": {
-    "name": "Weighted GPA Rechner",
+    "name": "Gewichteter-GPA-Rechner",
     "description": "Freier gewichteter GPA-Rechner mit Ihrem ungewichteten GPA daneben. Markieren Sie Honors (+0,5), AP, IB und Dual Enrollment (+1,0) Klassen oder legen Sie die Gewichte Ihrer Schule selbst fest.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -9050,7 +9050,7 @@
     ]
   },
   "weighted-grade-calculator": {
-    "name": "Weighted Grade Rechner",
+    "name": "Gewichtete Note berechnen",
     "description": "Berechnen Sie eine gewichtete Note aus Kategorien wie Hausaufgaben 20% und Prüfungen 50%. Verwenden Sie Prozent Gewichte oder Punkte; Gewichte müssen nicht zu 100 addieren. Frei, privat.",
     "category": "Rechner & Finanzen",
     "keywords": [],
@@ -9147,7 +9147,7 @@
     ]
   },
   "word-counter": {
-    "name": "Wort Zähler",
+    "name": "Wortzähler",
     "description": "Count Wörter, Zeichen, Sätze und Absätze, wie Sie tippen, mit Lesezeit, Sprechzeit und Wortfrequenzanalyse.",
     "category": "Textverarbeitung",
     "keywords": [],
@@ -9166,7 +9166,7 @@
     ]
   },
   "word-to-html": {
-    "name": "Wort to HTML Konverter",
+    "name": "Word in HTML umwandeln",
     "description": "Wandeln Sie Word-.docx-Dateien in sauberes, semantische HTML: Überschriften, Listen, Tabellen, Links und Bilder, ohne Word Inline-Stile. Vorschau, kopieren oder herunterladen, privat.",
     "category": "Produktivität",
     "keywords": [],
@@ -9185,7 +9185,7 @@
     ]
   },
   "word-viewer": {
-    "name": "Wort Betrachter",
+    "name": "Word-Datei-Viewer",
     "description": "Online-Word-Viewer für .docx-Dateien: Lesen Sie jede Seite mit ihrer Formatierung, überprüfen Sie Autor und Wortzahl, kopieren Sie den Text oder speichern Sie als PDF. Nichts wird hochgeladen.",
     "category": "Produktivität",
     "keywords": [],
@@ -9204,7 +9204,7 @@
     ]
   },
   "world-time-converter": {
-    "name": "World Time Konverter",
+    "name": "Weltzeit-Umrechner",
     "description": "Konvertieren und vergleichen Sie die Zeiten in mehreren Städten sicher in Ihrem Browser. Einfache Koordination von Meetings über Zeitzonen hinweg mit einem visuellen Slider.",
     "category": "Produktivität",
     "keywords": [],
@@ -9227,7 +9227,7 @@
     ]
   },
   "xlsx-to-csv": {
-    "name": "XLSX to CSV Konverter",
+    "name": "XLSX in CSV umwandeln",
     "description": "Wandeln Sie eine XLSX-Datei im Browser in CSV um: Wählen Sie das Blatt und das Trennzeichen, und das Werkzeug liest die Arbeitsmappe selbst - eine Datumszelle behält das Format der Mappe. Es wird nichts hochgeladen.",
     "category": "Entwicklung & Code",
     "keywords": [],
@@ -9421,7 +9421,7 @@
     ]
   },
   "yaml-formatter": {
-    "name": "YAML Formatter & Formatierer",
+    "name": "YAML-Formatierer",
     "description": "Formatieren und verschönern Sie YAML, ohne Kommentare oder Anker zu verlieren, und fangen Sie die Fehler auf, die immer noch analysiert werden.",
     "category": "Datenformate",
     "keywords": [],
@@ -9478,7 +9478,7 @@
     ]
   },
   "yaml-json-converter": {
-    "name": "YAML to JSON Konverter",
+    "name": "YAML-JSON-Konverter",
     "description": "Konvertieren Sie YAML-Daten sofort in das JSON-Format mit einem 100% Offline-Tool auf Clientseite.",
     "category": "Datenformate",
     "keywords": [],
@@ -9639,7 +9639,7 @@
     ]
   },
   "z-score-calculator": {
-    "name": "Z-Score Rechner",
+    "name": "Z-Wert-Rechner",
     "description": "Freier z-Score-Rechner: z aus einem Wert, Mittelwert und Standardabweichung mit Perzentil und normaler Wahrscheinlichkeit oder z-Scores für einen ganzen Datensatz finden.",
     "category": "Rechner & Finanzen",
     "keywords": [],

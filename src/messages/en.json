@@ -159,8 +159,8 @@
   },
   "blogPage": {
     "title": "Rechnuvio Ratgeber",
-    "subtitle": "Technical deep-dives, architectural analysis, and tutorials on client-side algorithms, data serialization, and privacy-first web design.",
-    "badge": "Engineering & Tutorials",
+    "subtitle": "Guides to everyday calculations: percentages, dates, BMI, discounts, fractions and salary – with formulas, worked examples and matching calculators.",
+    "badge": "Guides & worked examples",
     "backToArticles": "Back to all articles",
     "verifiedPlaybook": "Verified Technical Playbook",
     "tryInBrowserTitle": "Try It Directly in Your Browser",

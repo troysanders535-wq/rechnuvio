@@ -347,8 +347,8 @@
   },
   "blogPage": {
     "title": "Rechnuvio Ratgeber",
-    "subtitle": "Technische Deep-Dives, Architekturanalyse und Tutorials zu clientseitigen Algorithmen, Datenserialisierung und Privacy-First-Webdesign.",
-    "badge": "Engineering & Tutorials",
+    "subtitle": "Ratgeber rund ums Rechnen: Prozent, Datum, BMI, Rabatt, Brüche und Gehalt – mit Formeln, Rechenbeispielen und passenden Rechnern.",
+    "badge": "Ratgeber & Rechenwege",
     "backToArticles": "Zurück zu allen Artikeln",
     "verifiedPlaybook": "Verifiziertes technisches Playbook",
     "tryInBrowserTitle": "Versuchen Sie es direkt in Ihrem Browser",
