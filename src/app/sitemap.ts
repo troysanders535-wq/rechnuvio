@@ -17,9 +17,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         : `https://${process.env.NEXT_PUBLIC_DE_DOMAIN}`)
     : "https://rechnuvio.de";
 
-  const staticDate = new Date("2026-10-23T00:00:00.000Z");
-
-  const pathList = [
+  const pathList: {
+    path: string;
+    changeFrequency: "daily" | "weekly" | "monthly" | "yearly";
+    priority: number;
+    lastModified?: Date;
+  }[] = [
     { path: "", changeFrequency: "daily" as const, priority: 1.0 },
     { path: "/tools", changeFrequency: "weekly" as const, priority: 0.9 },
     { path: "/productivity-suite", changeFrequency: "weekly" as const, priority: 0.8 },
@@ -41,6 +44,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     ...BLOG_POSTS.map((post) => ({
       path: `/blog/${post.slug}`,
+      // Posts carry a real publication month; every other URL has no
+      // reliable modification date, so it is left out rather than faked.
+      lastModified: Number.isNaN(Date.parse(post.date)) ? undefined : new Date(post.date),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
@@ -63,7 +69,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       entries.push({
         url: enUrl,
-        lastModified: staticDate,
+        lastModified: item.lastModified,
         changeFrequency: item.changeFrequency,
         priority: item.priority,
         alternates: { languages },
@@ -71,7 +77,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       entries.push({
         url: deUrl,
-        lastModified: staticDate,
+        lastModified: item.lastModified,
         changeFrequency: item.changeFrequency,
         priority: item.priority,
         alternates: { languages },
@@ -80,7 +86,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       // Clean single-domain for rechnuvio.de (no duplicate URLs)
       entries.push({
         url: deUrl,
-        lastModified: staticDate,
+        lastModified: item.lastModified,
         changeFrequency: item.changeFrequency,
         priority: item.priority,
       });
