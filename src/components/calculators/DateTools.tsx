@@ -54,7 +54,8 @@ export function DateTools({ variant }: { variant: CalculatorVariant }) {
   const todayDate = parseDate(today);
 
   if (variant === "age") {
-    const age = birthDate && todayDate ? ageBetween(birthDate, todayDate) : null;
+    const ageOrder = birthDate && todayDate ? birthDate.getTime() <= todayDate.getTime() : true;
+    const age = birthDate && todayDate && ageOrder ? ageBetween(birthDate, todayDate) : null;
     return (
       <CalcPanel
         title={tUi("ageCalculator")}
@@ -105,7 +106,9 @@ export function DateTools({ variant }: { variant: CalculatorVariant }) {
             </ResultGrid>
           </>
         ) : (
-          <p className="text-sm text-slate-600 dark:text-slate-400">{tUi("enterAValidDateYYYYMMDD")}</p>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            {birthDate && todayDate ? tUi("ageOnBeforeBirth") : tUi("enterAValidDateYYYYMMDD")}
+          </p>
         )}
       </CalcPanel>
     );
@@ -325,7 +328,7 @@ function zodiacOf(month: number, day: number, locale: string): string {
         "Capricorn", "Aquarius", "Pisces", "Aries", "Taurus", "Gemini",
         "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn",
       ];
-  const boundaries = [20, 19, 21, 20, 21, 22, 23, 23, 23, 24, 23, 22];
+  const boundaries = [20, 19, 21, 20, 21, 21, 23, 23, 23, 23, 22, 22];
   const index = day < boundaries[month - 1] ? month - 1 : month;
   return signs[index];
 }

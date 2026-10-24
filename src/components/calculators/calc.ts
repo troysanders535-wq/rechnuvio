@@ -646,29 +646,35 @@ export interface AgeResult {
   daysToBirthday: number;
 }
 
-/** Exact age in years / months / days between two dates. */
+/**
+ * Exact age in years / months / days between two dates.
+ *
+ * Whole months are counted from the birth date; a birth day that does not
+ * exist in the target month (31 January + 1 month, 29 February in a common
+ * year) falls on the last day of that month. The remaining days are counted
+ * from there, so the result is never negative.
+ */
 export function ageBetween(birth: Date, on: Date): AgeResult {
-  let years = on.getFullYear() - birth.getFullYear();
-  let months = on.getMonth() - birth.getMonth();
-  let days = on.getDate() - birth.getDate();
+  const clampedDate = (year: number, month: number) =>
+    new Date(year, month, Math.min(birth.getDate(), daysInMonth(year, month)));
+  const addMonths = (count: number) => {
+    const month = birth.getMonth() + count;
+    return clampedDate(birth.getFullYear() + Math.floor(month / 12), ((month % 12) + 12) % 12);
+  };
 
-  if (days < 0) {
-    months -= 1;
-    const prevMonth = on.getMonth() - 1;
-    const prevYear = prevMonth < 0 ? on.getFullYear() - 1 : on.getFullYear();
-    const normalizedMonth = prevMonth < 0 ? 11 : prevMonth;
-    days += daysInMonth(prevYear, normalizedMonth);
-  }
-  if (months < 0) {
-    years -= 1;
-    months += 12;
-  }
+  let wholeMonths = (on.getFullYear() - birth.getFullYear()) * 12 + (on.getMonth() - birth.getMonth());
+  if (addMonths(wholeMonths).getTime() > on.getTime()) wholeMonths -= 1;
+  wholeMonths = Math.max(0, wholeMonths);
+
+  const years = Math.floor(wholeMonths / 12);
+  const months = wholeMonths % 12;
+  const days = Math.max(0, Math.round((utcDays(on) - utcDays(addMonths(wholeMonths))) / 86400000));
 
   const totalDays = Math.round((utcDays(on) - utcDays(birth)) / 86400000);
 
-  let nextBirthday = new Date(on.getFullYear(), birth.getMonth(), birth.getDate());
+  let nextBirthday = clampedDate(on.getFullYear(), birth.getMonth());
   if (nextBirthday.getTime() < on.getTime()) {
-    nextBirthday = new Date(on.getFullYear() + 1, birth.getMonth(), birth.getDate());
+    nextBirthday = clampedDate(on.getFullYear() + 1, birth.getMonth());
   }
 
   return {
@@ -676,7 +682,7 @@ export function ageBetween(birth: Date, on: Date): AgeResult {
     months,
     days,
     totalDays,
-    totalMonths: years * 12 + months,
+    totalMonths: wholeMonths,
     totalWeeks: Math.floor(totalDays / 7),
     nextBirthday,
     daysToBirthday: Math.round((utcDays(nextBirthday) - utcDays(on)) / 86400000),

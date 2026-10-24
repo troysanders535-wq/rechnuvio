@@ -3682,6 +3682,7 @@
         "bTUBaseWithCeilingsOccupantsAndKitchen": "Base = 30 BTU per sq ft · high ceilings add 5 BTU per sq ft · each occupant adds 300 BTU · a kitchen adds 1,200 BTU. One ton of cooling equals 12,000 BTU."
       },
       "DateTools": {
+        "ageOnBeforeBirth": "The “Age on” date is before the date of birth.",
         "openCalendar": "Open calendar",
         "ageCalculator": "Age Calculator",
         "enterAValidDateYYYYMMDD": "Enter a valid date (YYYY-MM-DD).",
