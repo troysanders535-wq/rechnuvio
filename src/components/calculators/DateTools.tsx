@@ -6,6 +6,7 @@ import { CalendarDays, Scale } from "lucide-react";
 import type { CalculatorVariant } from "@/data/calculatorTools";
 import {
   CalcPanel,
+  DateField,
   DetailList,
   FormulaNote,
   NumberField,
@@ -53,14 +54,7 @@ export function DateTools({ variant }: { variant: CalculatorVariant }) {
   const todayDate = parseDate(today);
 
   if (variant === "age") {
-    if (!birthDate || !todayDate) {
-      return (
-        <CalcPanel title={tUi("ageCalculator")} icon={<CalendarDays className="size-5 text-sky-700" />}>
-          <p className="text-sm text-slate-600">{tUi("enterAValidDateYYYYMMDD")}</p>
-        </CalcPanel>
-      );
-    }
-    const age = ageBetween(birthDate, todayDate);
+    const age = birthDate && todayDate ? ageBetween(birthDate, todayDate) : null;
     return (
       <CalcPanel
         title={tUi("ageCalculator")}
@@ -68,33 +62,51 @@ export function DateTools({ variant }: { variant: CalculatorVariant }) {
         icon={<CalendarDays className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-2">
-          <NumberField label={tUi("dateOfBirth")} value={birth} onChange={setBirth} hint={tUi("yYYYMMDD")} />
-          <NumberField label={tUi("ageOn")} value={today} onChange={setToday} hint={tUi("yYYYMMDD")} />
+          <DateField
+            label={tUi("dateOfBirth")}
+            value={birth}
+            onChange={setBirth}
+            hint={tUi("yYYYMMDD")}
+            calendarLabel={tUi("openCalendar")}
+          />
+          <DateField
+            label={tUi("ageOn")}
+            value={today}
+            onChange={setToday}
+            hint={tUi("yYYYMMDD")}
+            calendarLabel={tUi("openCalendar")}
+          />
         </div>
-        <ResultGrid>
-          <ResultCard
-            label={tUi("age")}
-            value={`${age.years}y ${age.months}m ${age.days}d`}
-            tone="emerald"
-          />
-          <ResultCard label={tUi("totalDaysLived")} value={age.totalDays.toLocaleString(locale)} tone="sky" />
-          <ResultCard label={tUi("totalMonths")} value={age.totalMonths} tone="slate" />
-          <ResultCard label={tUi("totalWeeks")} value={age.totalWeeks.toLocaleString(locale)} tone="slate" />
-        </ResultGrid>
-        <ResultGrid>
-          <ResultCard label={tUi("nextBirthday")} value={toISODate(age.nextBirthday)} tone="amber" />
-          <ResultCard label={tUi("daysToBirthday")} value={age.daysToBirthday} tone="amber" />
-          <ResultCard
-            label={tUi("dayOfBirth")}
-            value={birthDate.toLocaleDateString("en-US", { weekday: "long" })}
-            tone="slate"
-          />
-          <ResultCard
-            label={tUi("zodiac")}
-            value={zodiacOf(birthDate.getMonth() + 1, birthDate.getDate())}
-            tone="slate"
-          />
-        </ResultGrid>
+        {age && birthDate ? (
+          <>
+            <ResultGrid>
+              <ResultCard
+                label={tUi("age")}
+                value={`${age.years}y ${age.months}m ${age.days}d`}
+                tone="emerald"
+              />
+              <ResultCard label={tUi("totalDaysLived")} value={age.totalDays.toLocaleString(locale)} tone="sky" />
+              <ResultCard label={tUi("totalMonths")} value={age.totalMonths} tone="slate" />
+              <ResultCard label={tUi("totalWeeks")} value={age.totalWeeks.toLocaleString(locale)} tone="slate" />
+            </ResultGrid>
+            <ResultGrid>
+              <ResultCard label={tUi("nextBirthday")} value={toISODate(age.nextBirthday)} tone="amber" />
+              <ResultCard label={tUi("daysToBirthday")} value={age.daysToBirthday} tone="amber" />
+              <ResultCard
+                label={tUi("dayOfBirth")}
+                value={birthDate.toLocaleDateString(locale, { weekday: "long" })}
+                tone="slate"
+              />
+              <ResultCard
+                label={tUi("zodiac")}
+                value={zodiacOf(birthDate.getMonth() + 1, birthDate.getDate(), locale)}
+                tone="slate"
+              />
+            </ResultGrid>
+          </>
+        ) : (
+          <p className="text-sm text-slate-600 dark:text-slate-400">{tUi("enterAValidDateYYYYMMDD")}</p>
+        )}
       </CalcPanel>
     );
   }
@@ -159,8 +171,8 @@ export function DateTools({ variant }: { variant: CalculatorVariant }) {
         icon={<CalendarDays className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-2">
-          <NumberField label={tUi("startDate")} value={start} onChange={setStart} hint={tUi("yYYYMMDD")} />
-          <NumberField label={tUi("endDate")} value={end} onChange={setEnd} hint={tUi("yYYYMMDD")} />
+          <DateField label={tUi("startDate")} value={start} onChange={setStart} hint={tUi("yYYYMMDD")} calendarLabel={tUi("openCalendar")} />
+          <DateField label={tUi("endDate")} value={end} onChange={setEnd} hint={tUi("yYYYMMDD")} calendarLabel={tUi("openCalendar")} />
         </div>
         <div className="grid gap-4 sm:grid-cols-4">
           <NumberField label={tUi("amount")} value={amount} onChange={setAmount} />
@@ -226,8 +238,8 @@ export function DateTools({ variant }: { variant: CalculatorVariant }) {
         icon={<CalendarDays className="size-5 text-sky-700" />}
       >
         <div className="grid gap-4 sm:grid-cols-2">
-          <NumberField label={tUi("fromDate")} value={start} onChange={setStart} hint={tUi("yYYYMMDD")} />
-          <NumberField label={tUi("toDate")} value={end} onChange={setEnd} hint={tUi("yYYYMMDD")} />
+          <DateField label={tUi("fromDate")} value={start} onChange={setStart} hint={tUi("yYYYMMDD")} calendarLabel={tUi("openCalendar")} />
+          <DateField label={tUi("toDate")} value={end} onChange={setEnd} hint={tUi("yYYYMMDD")} calendarLabel={tUi("openCalendar")} />
         </div>
         <label className="flex items-center gap-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
           <input
@@ -265,8 +277,8 @@ export function DateTools({ variant }: { variant: CalculatorVariant }) {
       icon={<CalendarDays className="size-5 text-sky-700" />}
     >
       <div className="grid gap-4 sm:grid-cols-2">
-        <NumberField label={tUi("fromDate")} value={start} onChange={setStart} hint={tUi("yYYYMMDD")} />
-        <NumberField label={tUi("toDate")} value={end} onChange={setEnd} hint={tUi("yYYYMMDD")} />
+        <DateField label={tUi("fromDate")} value={start} onChange={setStart} hint={tUi("yYYYMMDD")} calendarLabel={tUi("openCalendar")} />
+        <DateField label={tUi("toDate")} value={end} onChange={setEnd} hint={tUi("yYYYMMDD")} calendarLabel={tUi("openCalendar")} />
       </div>
       <div className="grid gap-4 sm:grid-cols-2">
         <SelectField
@@ -303,11 +315,16 @@ export function DateTools({ variant }: { variant: CalculatorVariant }) {
   );
 }
 
-function zodiacOf(month: number, day: number): string {
-  const signs = [
-    "Capricorn", "Aquarius", "Pisces", "Aries", "Taurus", "Gemini",
-    "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn",
-  ];
+function zodiacOf(month: number, day: number, locale: string): string {
+  const signs = locale.startsWith("de")
+    ? [
+        "Steinbock", "Wassermann", "Fische", "Widder", "Stier", "Zwillinge",
+        "Krebs", "Löwe", "Jungfrau", "Waage", "Skorpion", "Schütze", "Steinbock",
+      ]
+    : [
+        "Capricorn", "Aquarius", "Pisces", "Aries", "Taurus", "Gemini",
+        "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn",
+      ];
   const boundaries = [20, 19, 21, 20, 21, 22, 23, 23, 23, 24, 23, 22];
   const index = day < boundaries[month - 1] ? month - 1 : month;
   return signs[index];

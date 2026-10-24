@@ -592,11 +592,32 @@ export function splitByRatio(total: number, a: number, b: number): { first: numb
  * ------------------------------------------------------------------ */
 
 /** Parses `YYYY-MM-DD` in the local timezone (avoids UTC day shifts). */
+/**
+ * Parses "YYYY-MM-DD" or the German "DD.MM.YYYY" (one-digit day and month are
+ * fine). Impossible dates such as 2026-02-31 are rejected instead of rolling
+ * over into the next month.
+ */
 export function parseDate(value: string): Date | null {
-  const match = value.trim().match(/^(\d{4})-(\d{2})-(\d{2})$/);
-  if (!match) return null;
-  const date = new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]));
-  return Number.isNaN(date.getTime()) ? null : date;
+  const text = value.trim();
+  const iso = text.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+  const german = text.match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/);
+  const parts = iso
+    ? [Number(iso[1]), Number(iso[2]), Number(iso[3])]
+    : german
+      ? [Number(german[3]), Number(german[2]), Number(german[1])]
+      : null;
+  if (!parts) return null;
+  const [year, month, day] = parts;
+  const date = new Date(year, month - 1, day);
+  if (
+    Number.isNaN(date.getTime()) ||
+    date.getFullYear() !== year ||
+    date.getMonth() !== month - 1 ||
+    date.getDate() !== day
+  ) {
+    return null;
+  }
+  return date;
 }
 
 export function toISODate(date: Date): string {
