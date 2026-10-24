@@ -4330,15 +4330,15 @@
         "couldNotOptimiseTheFile": "Could not optimise the file.",
         "optimiseKeepTextSelectable": "Optimise (keep text selectable)",
         "reducedBy": "Reduced by",
-        "shrinkAPDFByReEncodingItsPagesOrRewriteItsStructureWithoutTouchingTheText": "Shrink a PDF by re-encoding its pages, or rewrite its structure without touching the text.",
+        "shrinkAPDFByReEncodingItsPagesOrRewriteItsStructureWithoutTouchingTheText": "Shrink a PDF by re-encoding its embedded images, or rewrite its structure without touching the text.",
         "onePdfFileEverythingRunsInYourBrowser": "One .pdf file. Everything runs in your browser.",
         "compressingPage": "Compressing page {page} of {total}…",
         "couldNotEncodeThePage": "Could not encode page {page}.",
-        "keptTheSmallerResultOfTheReEncodedPages": "Kept the smaller result (re-encoded pages).",
+        "keptTheSmallerResultOfTheReEncodedPages": "Kept the smaller result (images re-encoded, text unchanged).",
         "keptTheSmallerResultOfTheDocumentStructure": "Kept the smaller result (the document structure).",
         "resolutionInDpi": "Resolution — {dpi} DPI",
         "jpgQualityInPercent": "JPG quality — {value}%",
-        "compressExplainsTheJpegReEncoding": "re-encodes every page as a JPEG — the biggest savings, but the text is no longer selectable.",
+        "compressExplainsTheJpegReEncoding": "downsamples and re-encodes the images; text and vector graphics stay unchanged and selectable.",
         "optimiseExplainsTheStructureRewrite": "keeps the text layer intact and only rewrites the document structure."
       },
       "PdfEmailEngine": {

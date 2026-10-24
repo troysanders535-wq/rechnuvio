@@ -11,10 +11,21 @@ import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
+// MuPDF.js is loaded at runtime from /mupdf/ (see components/pdf/mupdfCompress.ts):
+// its Node-only branches cannot go through the bundler.
+const mupdfDist = join(root, "node_modules", "mupdf", "dist");
 const sources = [
   join(root, "node_modules", "pdfjs-dist", "build", "pdf.worker.min.mjs"),
+  join(mupdfDist, "mupdf.js"),
+  join(mupdfDist, "mupdf-wasm.js"),
+  join(mupdfDist, "mupdf-wasm.wasm"),
 ];
-const targets = [join(root, "public", "pdf.worker.min.mjs")];
+const targets = [
+  join(root, "public", "pdf.worker.min.mjs"),
+  join(root, "public", "mupdf", "mupdf.js"),
+  join(root, "public", "mupdf", "mupdf-wasm.js"),
+  join(root, "public", "mupdf", "mupdf-wasm.wasm"),
+];
 
 async function main() {
   for (let i = 0; i < sources.length; i += 1) {
@@ -27,7 +38,7 @@ async function main() {
       await mkdir(dirname(dest), { recursive: true });
       await copyFile(src, dest);
       console.log(
-        `[pdf-worker] copied pdf.worker.min.mjs (${Math.round(info.size / 1024)} KB) -> public/`,
+        `[pdf-worker] copied ${dest} (${Math.round(info.size / 1024)} KB)`,
       );
     } catch {
       console.warn(

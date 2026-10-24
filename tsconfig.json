@@ -52,7 +52,9 @@
     ".next-td2/types/**/*.ts",
     ".next-td2/dev/types/**/*.ts",
     ".next-rand2/types/**/*.ts",
-    ".next-rand2/dev/types/**/*.ts"
+    ".next-rand2/dev/types/**/*.ts",
+    ".next-build/types/**/*.ts",
+    ".next-build/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",
