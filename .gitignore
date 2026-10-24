@@ -54,4 +54,5 @@ tmp-*
 .next-audit/
 .~lock.*
 .mavis*
+Claude outputs/
 

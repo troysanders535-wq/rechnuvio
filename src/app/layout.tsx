@@ -82,16 +82,19 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       locale: isGerman ? "de_DE" : "en_US",
       url: canonicalUrl,
-      siteName: "Digital ToolPad",
+      siteName: "Rechnuvio",
       title,
       description,
     },
     twitter: {
       card: "summary_large_image",
       title: isGerman
-        ? "Digital ToolPad - 492 kostenlose Browser-Tools"
-        : "Digital ToolPad - 492 Free Browser Tools",
+        ? "Rechnuvio - 492 kostenlose Browser-Tools"
+        : "Rechnuvio - 492 Free Browser Tools",
       description,
+    },
+    verification: {
+      google: "6Mc837XAbtH0LtC8cfuE95JnuGw7ZkulJgvCbc4kIGQ",
     },
   };
 }
@@ -110,6 +113,12 @@ export default async function RootLayout({
       suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <meta
+          name="google-site-verification"
+          content="6Mc837XAbtH0LtC8cfuE95JnuGw7ZkulJgvCbc4kIGQ"
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100 selection:bg-sky-800 selection:text-white">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
