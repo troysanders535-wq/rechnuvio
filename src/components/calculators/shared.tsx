@@ -1,7 +1,9 @@
 "use client";
 
-import React from "react";
+import React, { useRef } from "react";
+import { CalendarDays } from "lucide-react";
 import { parseLocaleNumber } from "@/utils/numberFormat";
+import { parseDate } from "./calc";
 
 /**
  * Parses a user typed number, accepting both "12.5" and "12,5".
@@ -97,6 +99,76 @@ export function NumberField({
         onChange={(e) => onChange(e.target.value)}
         className={inputClass}
       />
+    </Field>
+  );
+}
+
+/**
+ * A date input that can be typed ("2026-10-24" or "24.10.2026") or picked from
+ * the calendar of the browser. The typed text is kept as is while the user
+ * edits it; callers parse it with parseDate().
+ */
+export function DateField({
+  label,
+  value,
+  onChange,
+  hint,
+  id,
+  calendarLabel,
+}: {
+  label: string;
+  value: string;
+  onChange: (value: string) => void;
+  hint?: string;
+  id?: string;
+  calendarLabel: string;
+}) {
+  const picker = useRef<HTMLInputElement>(null);
+  const parsed = parseDate(value);
+  const isoValue = parsed
+    ? `${parsed.getFullYear()}-${String(parsed.getMonth() + 1).padStart(2, "0")}-${String(parsed.getDate()).padStart(2, "0")}`
+    : "";
+  const invalid = value.trim() !== "" && !parsed;
+
+  return (
+    <Field label={label} hint={hint} htmlFor={id}>
+      <div className="relative">
+        <input
+          id={id}
+          type="text"
+          inputMode="numeric"
+          autoComplete="off"
+          value={value}
+          aria-invalid={invalid}
+          onChange={(e) => onChange(e.target.value)}
+          className={`${inputClass} pr-11 ${invalid ? "border-red-400 focus:border-red-500 focus:ring-red-500/30" : ""}`}
+        />
+        <button
+          type="button"
+          aria-label={calendarLabel}
+          title={calendarLabel}
+          onClick={() => {
+            const input = picker.current;
+            if (!input) return;
+            if (typeof input.showPicker === "function") input.showPicker();
+            else input.click();
+          }}
+          className="absolute bottom-1.5 right-1.5 flex size-8 items-center justify-center rounded-lg text-slate-500 hover:bg-slate-100 hover:text-sky-700 dark:hover:bg-slate-800"
+        >
+          <CalendarDays className="size-4" />
+        </button>
+        <input
+          ref={picker}
+          type="date"
+          tabIndex={-1}
+          aria-hidden="true"
+          value={isoValue}
+          onChange={(e) => {
+            if (e.target.value) onChange(e.target.value);
+          }}
+          className="pointer-events-none absolute bottom-0 right-0 h-px w-px opacity-0"
+        />
+      </div>
     </Field>
   );
 }

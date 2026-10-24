@@ -3682,6 +3682,7 @@
         "bTUBaseWithCeilingsOccupantsAndKitchen": "Basis = 30 BTU pro sq ft · hohe Decken addieren 5 BTU pro sq ft · jede Person addiert 300 BTU · eine Küche addiert 1.200 BTU. Eine Kühltonne entspricht 12.000 BTU."
       },
       "DateTools": {
+        "openCalendar": "Kalender öffnen",
         "ageCalculator": "Altersrechner",
         "enterAValidDateYYYYMMDD": "Geben Sie ein gültiges Datum ein (YYYY-MM-DD).",
         "dateOfBirth": "Geburtsdatum",
