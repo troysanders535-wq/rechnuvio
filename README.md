@@ -1,3 +1,16 @@
+# Rechnuvio
+
+Kostenlose Rechner und Online-Tools (PDF, Bilder, Text, Code), die vollständig im Browser laufen – ohne Upload. Live: https://rechnuvio.de
+
+## Lizenz
+
+Der Quellcode steht unter der **GNU Affero General Public License v3.0 oder später** (siehe [LICENSE](LICENSE)).
+Wer die Website über das Netzwerk nutzt, hat Anspruch auf den vollständigen Quellcode der laufenden Version: Er liegt in diesem öffentlichen Repository, und die Website verlinkt im Footer darauf.
+
+- Der Name „Rechnuvio“ sowie Logo und Markenbilder (`public/`, `src/app/*icon*`, `src/app/opengraph-image.png`) sind nicht Teil der Lizenz und dürfen nicht ohne Zustimmung verwendet werden.
+- Abhängigkeiten behalten ihre eigenen Lizenzen (`npm ls`, `package-lock.json`).
+- Änderungen an dieser Software, die als Netzwerkdienst betrieben werden, müssen ebenfalls unter der AGPL-3.0 veröffentlicht werden.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
