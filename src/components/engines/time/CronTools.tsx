@@ -297,7 +297,7 @@ export function CrontabGenerator() {
     const fields = descriptionToCron(description);
     const expressionText = fields ? formatCron(fields) : expression;
     const lines = [
-      "# Digital ToolPad crontab",
+      "# Rechnuvio crontab",
       `# description: ${description.trim() || "-"}`,
       `# expression: ${expressionText}`,
       "",

@@ -66,18 +66,20 @@ export function Header() {
               aria-label="Rechnuvio"
             >
               <NextImage
-                src="/logo.webp"
+                src="/rechnuvio-logo.svg"
                 alt="Rechnuvio"
-                width={154}
-                height={34}
+                width={147}
+                height={32}
+                unoptimized
                 priority
                 className="h-8 w-auto object-contain dark:hidden"
               />
               <NextImage
-                src="/logo-dark.webp"
+                src="/rechnuvio-logo-dark.svg"
                 alt="Rechnuvio"
-                width={154}
-                height={34}
+                width={147}
+                height={32}
+                unoptimized
                 priority
                 className="hidden h-8 w-auto object-contain dark:block"
               />

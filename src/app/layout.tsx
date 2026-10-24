@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
@@ -7,15 +7,37 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { getCanonicalUrl, getAlternateHreflang } from "@/i18n/domains";
+import { SITE_NAME, SITE_URL, SITE_TAGLINE, organizationJsonLd, websiteJsonLd } from "@/lib/brand";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+// Rechnuvio brand fonts (SIL OFL), shipped in src/app/fonts and self-hosted:
+// no request to Google at build or runtime (DSGVO-safe, no build network dependency).
+const brandDisplay = localFont({
+  variable: "--font-schibsted",
+  display: "swap",
+  src: [
+    { path: "./fonts/schibsted-grotesk-latin-600-normal.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/schibsted-grotesk-latin-700-normal.woff2", weight: "700", style: "normal" },
+    { path: "./fonts/schibsted-grotesk-latin-800-normal.woff2", weight: "800", style: "normal" },
+  ],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const brandText = localFont({
+  variable: "--font-source-sans",
+  display: "swap",
+  src: [
+    { path: "./fonts/source-sans-3-latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/source-sans-3-latin-600-normal.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/source-sans-3-latin-700-normal.woff2", weight: "700", style: "normal" },
+  ],
+});
+
+const brandMono = localFont({
+  variable: "--font-plex-mono",
+  display: "swap",
+  src: [
+    { path: "./fonts/ibm-plex-mono-latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/ibm-plex-mono-latin-500-normal.woff2", weight: "500", style: "normal" },
+  ],
 });
 
 /**
@@ -35,11 +57,11 @@ export async function generateMetadata(): Promise<Metadata> {
   const isGerman = locale === "de-DE" || locale === "de";
 
   const title = isGerman
-    ? "Kostenlose Online-Tools für PDF, Bilder, Text & Code | Rechnuvio"
-    : "Free Online Tools for PDF, Images, Text & Code | Rechnuvio";
+    ? "Kostenlose Rechner & Online-Tools | Rechnuvio"
+    : "Free Calculators & Online Tools | Rechnuvio";
 
   const description = isGerman
-    ? "Kostenlose Online-Tools, die direkt in Ihrem Browser laufen. PDFs konvertieren, JSON formatieren, Bilder skalieren und Texte bearbeiten – ohne Upload auf externe Server."
+    ? "Prozentrechner, Tagerechner, BMI, Gehalt und über 400 weitere Tools – kostenlos, mit Rechenweg und direkt im Browser. Ohne Anmeldung, ohne Upload."
     : "Free online tools that run in your browser. Convert PDFs and images, compare JSON, format code, and edit text without uploading your files or text to our servers.";
 
   const canonicalUrl = getCanonicalUrl("/", locale);
@@ -56,41 +78,19 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: alternates.languages,
     },
-    keywords: isGerman
-      ? [
-          "kostenlose Online-Tools",
-          "JSON-Formatierer",
-          "PDF-Werkzeuge",
-          "Bilder skalieren",
-          "UUID Generator",
-          "QR-Code Generator",
-          "Client-seitiger Datenschutz",
-          "Entwickler-Werkzeuge",
-        ]
-      : [
-          "free online tools",
-          "json formatter",
-          "pdf tools",
-          "image resizer",
-          "uuid generator",
-          "qr code generator",
-          "client-side privacy",
-          "developer utilities",
-        ],
-    authors: [{ name: "Rechnuvio Team" }],
+    authors: [{ name: SITE_NAME, url: `${SITE_URL}/about` }],
+    applicationName: SITE_NAME,
     openGraph: {
       type: "website",
       locale: isGerman ? "de_DE" : "en_US",
       url: canonicalUrl,
-      siteName: "Rechnuvio",
+      siteName: SITE_NAME,
       title,
       description,
     },
     twitter: {
       card: "summary_large_image",
-      title: isGerman
-        ? "Rechnuvio - 492 kostenlose Browser-Tools"
-        : "Rechnuvio - 492 Free Browser Tools",
+      title: isGerman ? `${SITE_NAME} – ${SITE_TAGLINE}` : `${SITE_NAME} – Free calculators & browser tools`,
       description,
     },
     verification: {
@@ -111,7 +111,7 @@ export default async function RootLayout({
     <html
       lang={locale}
       suppressHydrationWarning
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${brandDisplay.variable} ${brandText.variable} ${brandMono.variable} h-full antialiased`}
     >
       <head>
         <meta
@@ -120,6 +120,10 @@ export default async function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100 selection:bg-sky-800 selection:text-white">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify([organizationJsonLd(), websiteJsonLd()]) }}
+        />
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <Header />

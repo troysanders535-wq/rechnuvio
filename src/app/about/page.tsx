@@ -1,12 +1,14 @@
 import { Metadata } from "next";
+import { pageAlternates } from "@/lib/brand";
 import { getTranslations } from "next-intl/server";
 import { ShieldCheck, Zap, Globe } from "lucide-react";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("aboutPage");
   return {
-    title: `${t("title")} - Privacy-First Web Utilities`,
+    title: t("title"),
     description: t("subtitle"),
+    alternates: pageAlternates("/about"),
   };
 }
 

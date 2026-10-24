@@ -59,7 +59,7 @@ export function YearCalendar2027() {
       doc.text(`${year} Calendar`, 14, 16);
       doc.setFont("helvetica", "normal");
       doc.setFontSize(8);
-      doc.text("Digital ToolPad", 14, 21);
+      doc.text("Rechnuvio", 14, 21);
 
       const startX = 12;
       const startY = 28;

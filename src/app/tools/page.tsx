@@ -136,7 +136,7 @@ function ToolsDirectoryContent() {
 
 export default function ToolsDirectoryPage() {
   return (
-    <Suspense fallback={<div className="p-12 text-center text-sm">Loading tools directory...</div>}>
+    <Suspense fallback={<div className="p-12 text-center text-sm">Werkzeuge werden geladen …</div>}>
       <ToolsDirectoryContent />
     </Suspense>
   );

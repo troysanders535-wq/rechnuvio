@@ -76,7 +76,7 @@ export function LanguageSwitcher({ className = "", compact = false }: LanguageSw
               ? "bg-white text-sky-800 shadow-xs dark:bg-slate-700 dark:text-white"
               : "text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white"
           }`}
-          title="Switch to English website (www.digitaltoolpad.com / en.localhost)"
+          title="Switch to English website (?locale=en)"
         >
           EN
         </button>
@@ -88,7 +88,7 @@ export function LanguageSwitcher({ className = "", compact = false }: LanguageSw
               ? "bg-white text-indigo-700 shadow-xs dark:bg-slate-700 dark:text-white"
               : "text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white"
           }`}
-          title="Zur deutschen Webseite wechseln (de.digitaltoolpad.com / de.localhost)"
+          title="Zur deutschen Webseite wechseln (rechnuvio.de)"
         >
           DE
         </button>

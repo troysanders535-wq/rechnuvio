@@ -31,7 +31,7 @@ export function YamlEngine({ slug }: YamlEngineProps) {
         ? "format"
         : "convert";
 
-  const defaultYaml = `name: Digital ToolPad
+  const defaultYaml = `name: Rechnuvio
 version: 2.0.0
 services:
   web:

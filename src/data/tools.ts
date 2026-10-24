@@ -35,7 +35,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this 2026 Calendar tool free to use?",
-        "a": "Yes, 2026 Calendar on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, 2026 Calendar on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -73,7 +73,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this 2027 Calendar tool free to use?",
-        "a": "Yes, 2027 Calendar on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, 2027 Calendar on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -111,7 +111,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this 2027 Holidays tool free to use?",
-        "a": "Yes, 2027 Holidays on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, 2027 Holidays on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -152,7 +152,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this 3D Model Viewer tool free to use?",
-        "a": "Yes, 3D Model Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, 3D Model Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -190,7 +190,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this 3MF Viewer tool free to use?",
-        "a": "Yes, 3MF Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, 3MF Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -229,7 +229,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Accept All Changes in Word tool free to use?",
-        "a": "Yes, Accept All Changes in Word on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Accept All Changes in Word on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -268,7 +268,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Adult BMI Calculator tool free to use?",
-        "a": "Yes, Adult BMI Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Adult BMI Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -305,7 +305,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Age Calculator tool free to use?",
-        "a": "Yes, Age Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Age Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -343,7 +343,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this AI Background Remover tool free to use?",
-        "a": "Yes, AI Background Remover on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, AI Background Remover on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -429,7 +429,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this AI to PDF Converter tool free to use?",
-        "a": "Yes, AI to PDF Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, AI to PDF Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -467,7 +467,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this AI to PNG Converter tool free to use?",
-        "a": "Yes, AI to PNG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, AI to PNG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -505,7 +505,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this AI Token Counter tool free to use?",
-        "a": "Yes, AI Token Counter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, AI Token Counter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -544,7 +544,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Alphabetical Order Tool tool free to use?",
-        "a": "Yes, Alphabetical Order Tool on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Alphabetical Order Tool on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -583,7 +583,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this APA Citation Generator tool free to use?",
-        "a": "Yes, APA Citation Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, APA Citation Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -621,7 +621,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this API Tester tool free to use?",
-        "a": "Yes, API Tester on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, API Tester on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -659,7 +659,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this ASN.1 Decoder tool free to use?",
-        "a": "Yes, ASN.1 Decoder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, ASN.1 Decoder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -696,7 +696,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Average Calculator tool free to use?",
-        "a": "Yes, Average Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Average Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -735,7 +735,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this AVI to MP4 Converter tool free to use?",
-        "a": "Yes, AVI to MP4 Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, AVI to MP4 Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -774,7 +774,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this AVIF to JPG Converter tool free to use?",
-        "a": "Yes, AVIF to JPG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, AVIF to JPG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -813,7 +813,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this AVIF to PNG Converter tool free to use?",
-        "a": "Yes, AVIF to PNG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, AVIF to PNG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -853,7 +853,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Baby Boy Name Generator tool free to use?",
-        "a": "Yes, Baby Boy Name Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Baby Boy Name Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -897,7 +897,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Baby Girl Name Generator tool free to use?",
-        "a": "Yes, Baby Girl Name Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Baby Girl Name Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -940,7 +940,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Baby Name AI Generator tool free to use?",
-        "a": "Yes, Baby Name AI Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Baby Name AI Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -984,7 +984,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Baby Shower Bingo Cards tool free to use?",
-        "a": "Yes, Baby Shower Bingo Cards on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Baby Shower Bingo Cards on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1023,7 +1023,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Backwards Text Generator tool free to use?",
-        "a": "Yes, Backwards Text Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Backwards Text Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1062,7 +1062,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Bank Statement Converter tool free to use?",
-        "a": "Yes, Bank Statement Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Bank Statement Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1101,7 +1101,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Bank Statement to CSV tool free to use?",
-        "a": "Yes, Bank Statement to CSV on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Bank Statement to CSV on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1140,7 +1140,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Bank Statement to Excel tool free to use?",
-        "a": "Yes, Bank Statement to Excel on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Bank Statement to Excel on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1178,7 +1178,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Barcode Generator tool free to use?",
-        "a": "Yes, Barcode Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Barcode Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1216,7 +1216,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Base64 Decoder tool free to use?",
-        "a": "Yes, Base64 Decoder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Base64 Decoder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1254,7 +1254,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Base64 Encoder tool free to use?",
-        "a": "Yes, Base64 Encoder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Base64 Encoder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1293,7 +1293,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Base64 Encoder/Decoder tool free to use?",
-        "a": "Yes, Base64 Encoder/Decoder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Base64 Encoder/Decoder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1332,7 +1332,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Base64 Image Decoder tool free to use?",
-        "a": "Yes, Base64 Image Decoder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Base64 Image Decoder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1371,7 +1371,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Base64 Image Viewer tool free to use?",
-        "a": "Yes, Base64 Image Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Base64 Image Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1410,7 +1410,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Base64 to Image Converter tool free to use?",
-        "a": "Yes, Base64 to Image Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Base64 to Image Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1447,7 +1447,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Base64 to PDF tool free to use?",
-        "a": "Yes, Base64 to PDF on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Base64 to PDF on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1485,7 +1485,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Base64 to PDF Converter tool free to use?",
-        "a": "Yes, Base64 to PDF Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Base64 to PDF Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1523,7 +1523,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Base64 to PDF Decoder tool free to use?",
-        "a": "Yes, Base64 to PDF Decoder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Base64 to PDF Decoder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1561,7 +1561,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Binary Calculator tool free to use?",
-        "a": "Yes, Binary Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Binary Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1600,7 +1600,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Binary to Decimal Converter tool free to use?",
-        "a": "Yes, Binary to Decimal Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Binary to Decimal Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1639,7 +1639,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Binary to Hex Converter tool free to use?",
-        "a": "Yes, Binary to Hex Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Binary to Hex Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1678,7 +1678,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Binary to Text Converter tool free to use?",
-        "a": "Yes, Binary to Text Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Binary to Text Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1716,7 +1716,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Binary Translator tool free to use?",
-        "a": "Yes, Binary Translator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Binary Translator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1755,7 +1755,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Bingo Card Generator tool free to use?",
-        "a": "Yes, Bingo Card Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Bingo Card Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1794,7 +1794,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Black Out Text in PDF tool free to use?",
-        "a": "Yes, Black Out Text in PDF on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Black Out Text in PDF on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1834,7 +1834,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Blank Bingo Card Template tool free to use?",
-        "a": "Yes, Blank Bingo Card Template on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Blank Bingo Card Template on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1873,7 +1873,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Blank Text Generator tool free to use?",
-        "a": "Yes, Blank Text Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Blank Text Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1911,7 +1911,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Blur Face in Photo tool free to use?",
-        "a": "Yes, Blur Face in Photo on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Blur Face in Photo on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1952,7 +1952,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Blur Image tool free to use?",
-        "a": "Yes, Blur Image on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Blur Image on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -1990,7 +1990,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Blur Text in Image tool free to use?",
-        "a": "Yes, Blur Text in Image on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Blur Text in Image on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2028,7 +2028,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this BMI Calculator tool free to use?",
-        "a": "Yes, BMI Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, BMI Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2068,7 +2068,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this BMI Calculator for Women tool free to use?",
-        "a": "Yes, BMI Calculator for Women on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, BMI Calculator for Women on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2107,7 +2107,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this BMP to JPG Converter tool free to use?",
-        "a": "Yes, BMP to JPG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, BMP to JPG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2145,7 +2145,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this BMR Calculator tool free to use?",
-        "a": "Yes, BMR Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, BMR Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2184,7 +2184,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Bold Text Generator tool free to use?",
-        "a": "Yes, Bold Text Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Bold Text Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2222,7 +2222,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Bracket Generator tool free to use?",
-        "a": "Yes, Bracket Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Bracket Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2260,7 +2260,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Bracket Maker tool free to use?",
-        "a": "Yes, Bracket Maker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Bracket Maker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2298,7 +2298,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this BTU Calculator tool free to use?",
-        "a": "Yes, BTU Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, BTU Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2337,7 +2337,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Bulk Barcode Generator tool free to use?",
-        "a": "Yes, Bulk Barcode Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Bulk Barcode Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2376,7 +2376,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Business Days Calculator tool free to use?",
-        "a": "Yes, Business Days Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Business Days Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2414,7 +2414,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Carb Calculator tool free to use?",
-        "a": "Yes, Carb Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Carb Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2452,7 +2452,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Censor Face in Photo tool free to use?",
-        "a": "Yes, Censor Face in Photo on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Censor Face in Photo on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2489,7 +2489,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Censor Image tool free to use?",
-        "a": "Yes, Censor Image on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Censor Image on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2527,7 +2527,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Character Counter tool free to use?",
-        "a": "Yes, Character Counter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Character Counter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2566,7 +2566,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Chicago Citation Generator tool free to use?",
-        "a": "Yes, Chicago Citation Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Chicago Citation Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2605,7 +2605,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Christmas Bingo Cards tool free to use?",
-        "a": "Yes, Christmas Bingo Cards on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Christmas Bingo Cards on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2644,7 +2644,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Christmas Budget Planner tool free to use?",
-        "a": "Yes, Christmas Budget Planner on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Christmas Budget Planner on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2683,7 +2683,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Christmas Gift Tracker tool free to use?",
-        "a": "Yes, Christmas Gift Tracker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Christmas Gift Tracker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2722,7 +2722,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Christmas List Maker tool free to use?",
-        "a": "Yes, Christmas List Maker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Christmas List Maker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2762,7 +2762,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Christmas Wish List Maker tool free to use?",
-        "a": "Yes, Christmas Wish List Maker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Christmas Wish List Maker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2800,7 +2800,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this CIDR Calculator tool free to use?",
-        "a": "Yes, CIDR Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, CIDR Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2838,7 +2838,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Citation Generator tool free to use?",
-        "a": "Yes, Citation Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Citation Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2878,7 +2878,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Code 128 Barcode Generator tool free to use?",
-        "a": "Yes, Code 128 Barcode Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Code 128 Barcode Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2917,7 +2917,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Code 39 Barcode Generator tool free to use?",
-        "a": "Yes, Code 39 Barcode Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Code 39 Barcode Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2956,7 +2956,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Code Screenshot Generator tool free to use?",
-        "a": "Yes, Code Screenshot Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Code Screenshot Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -2995,7 +2995,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Code Snippet Screenshot tool free to use?",
-        "a": "Yes, Code Snippet Screenshot on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Code Snippet Screenshot on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3033,7 +3033,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Code to Image tool free to use?",
-        "a": "Yes, Code to Image on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Code to Image on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3071,7 +3071,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Coin Flip tool free to use?",
-        "a": "Yes, Coin Flip on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Coin Flip on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3110,7 +3110,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Coin Flip Simulator tool free to use?",
-        "a": "Yes, Coin Flip Simulator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Coin Flip Simulator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3149,7 +3149,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this College GPA Calculator tool free to use?",
-        "a": "Yes, College GPA Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, College GPA Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3186,7 +3186,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Combine PDF tool free to use?",
-        "a": "Yes, Combine PDF on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Combine PDF on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3224,7 +3224,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Common Denominator Calculator tool free to use?",
-        "a": "Yes, Common Denominator Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Common Denominator Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3261,7 +3261,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Compress PDF tool free to use?",
-        "a": "Yes, Compress PDF on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Compress PDF on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3298,7 +3298,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Concrete Calculator tool free to use?",
-        "a": "Yes, Concrete Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Concrete Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3336,7 +3336,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Countdown to Any Date tool free to use?",
-        "a": "Yes, Countdown to Any Date on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Countdown to Any Date on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3374,7 +3374,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this CPS Test tool free to use?",
-        "a": "Yes, CPS Test on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, CPS Test on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3413,7 +3413,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Cron Expression Generator tool free to use?",
-        "a": "Yes, Cron Expression Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Cron Expression Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3455,7 +3455,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Cron Expression Parser tool free to use?",
-        "a": "Yes, Cron Expression Parser on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Cron Expression Parser on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3497,7 +3497,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Crontab Generator tool free to use?",
-        "a": "Yes, Crontab Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Crontab Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3539,7 +3539,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this CSR Decoder tool free to use?",
-        "a": "Yes, CSR Decoder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, CSR Decoder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3578,7 +3578,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this CSV to JSON Converter tool free to use?",
-        "a": "Yes, CSV to JSON Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, CSV to JSON Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3616,7 +3616,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this CSV Viewer tool free to use?",
-        "a": "Yes, CSV Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, CSV Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3655,7 +3655,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Cumulative GPA Calculator tool free to use?",
-        "a": "Yes, Cumulative GPA Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Cumulative GPA Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3694,7 +3694,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Cursive Text Generator tool free to use?",
-        "a": "Yes, Cursive Text Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Cursive Text Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3734,7 +3734,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Custom Bingo Card Maker tool free to use?",
-        "a": "Yes, Custom Bingo Card Maker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Custom Bingo Card Maker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3773,7 +3773,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this D&D Dice Roller tool free to use?",
-        "a": "Yes, D&D Dice Roller on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, D&D Dice Roller on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3815,7 +3815,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this D20 Roller tool free to use?",
-        "a": "Yes, D20 Roller on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, D20 Roller on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3854,7 +3854,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Data Matrix Generator tool free to use?",
-        "a": "Yes, Data Matrix Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Data Matrix Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3892,7 +3892,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Date Calculator tool free to use?",
-        "a": "Yes, Date Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Date Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3931,7 +3931,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Days Between Dates Calculator tool free to use?",
-        "a": "Yes, Days Between Dates Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Days Between Dates Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -3969,7 +3969,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this DB File Viewer tool free to use?",
-        "a": "Yes, DB File Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, DB File Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4012,7 +4012,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Dead Pixel Test tool free to use?",
-        "a": "Yes, Dead Pixel Test on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Dead Pixel Test on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4055,7 +4055,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Decimal to Binary Converter tool free to use?",
-        "a": "Yes, Decimal to Binary Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Decimal to Binary Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4093,7 +4093,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Decimal to Fraction Calculator tool free to use?",
-        "a": "Yes, Decimal to Fraction Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Decimal to Fraction Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4132,7 +4132,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Decimal to Hex Converter tool free to use?",
-        "a": "Yes, Decimal to Hex Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Decimal to Hex Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4170,7 +4170,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Dice Roller tool free to use?",
-        "a": "Yes, Dice Roller on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Dice Roller on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4212,7 +4212,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Dirty Santa Rules tool free to use?",
-        "a": "Yes, Dirty Santa Rules on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Dirty Santa Rules on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4255,7 +4255,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Discord Username Generator tool free to use?",
-        "a": "Yes, Discord Username Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Discord Username Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4300,7 +4300,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Discount Calculator tool free to use?",
-        "a": "Yes, Discount Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Discount Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4338,7 +4338,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this DOCX Viewer tool free to use?",
-        "a": "Yes, DOCX Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, DOCX Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4377,7 +4377,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Dog Age Calculator tool free to use?",
-        "a": "Yes, Dog Age Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Dog Age Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4416,7 +4416,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Double Click Test tool free to use?",
-        "a": "Yes, Double Click Test on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Double Click Test on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4460,7 +4460,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Double Elimination Bracket Generator tool free to use?",
-        "a": "Yes, Double Elimination Bracket Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Double Elimination Bracket Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4499,7 +4499,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this EAN-13 Barcode Generator tool free to use?",
-        "a": "Yes, EAN-13 Barcode Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, EAN-13 Barcode Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4536,7 +4536,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Easy Grader tool free to use?",
-        "a": "Yes, Easy Grader on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Easy Grader on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4574,7 +4574,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Electricity Cost Calculator tool free to use?",
-        "a": "Yes, Electricity Cost Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Electricity Cost Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4613,7 +4613,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Email Header Analyzer tool free to use?",
-        "a": "Yes, Email Header Analyzer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Email Header Analyzer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4656,7 +4656,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this EML to PDF Converter tool free to use?",
-        "a": "Yes, EML to PDF Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, EML to PDF Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4694,7 +4694,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this EML Viewer tool free to use?",
-        "a": "Yes, EML Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, EML Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4732,7 +4732,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Epoch Converter tool free to use?",
-        "a": "Yes, Epoch Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Epoch Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4771,7 +4771,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Excel to CSV Converter tool free to use?",
-        "a": "Yes, Excel to CSV Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Excel to CSV Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4809,7 +4809,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Excel Viewer tool free to use?",
-        "a": "Yes, Excel Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Excel Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4846,7 +4846,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this EXIF Remover tool free to use?",
-        "a": "Yes, EXIF Remover on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, EXIF Remover on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4883,7 +4883,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this EXIF Viewer tool free to use?",
-        "a": "Yes, EXIF Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, EXIF Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4921,7 +4921,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Extract PDF Pages tool free to use?",
-        "a": "Yes, Extract PDF Pages on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Extract PDF Pages on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4958,7 +4958,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Face Pixelator tool free to use?",
-        "a": "Yes, Face Pixelator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Face Pixelator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -4997,7 +4997,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Fancy Text Generator tool free to use?",
-        "a": "Yes, Fancy Text Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Fancy Text Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5035,7 +5035,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Favicon Generator tool free to use?",
-        "a": "Yes, Favicon Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Favicon Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5073,7 +5073,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Favicon Maker tool free to use?",
-        "a": "Yes, Favicon Maker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Favicon Maker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5111,7 +5111,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this FBX Viewer tool free to use?",
-        "a": "Yes, FBX Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, FBX Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5149,7 +5149,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Final Grade Calculator tool free to use?",
-        "a": "Yes, Final Grade Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Final Grade Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5188,7 +5188,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this FLAC to MP3 Converter tool free to use?",
-        "a": "Yes, FLAC to MP3 Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, FLAC to MP3 Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5226,7 +5226,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Flip a Coin tool free to use?",
-        "a": "Yes, Flip a Coin on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Flip a Coin on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5264,7 +5264,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Focus Timer tool free to use?",
-        "a": "Yes, Focus Timer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Focus Timer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5302,7 +5302,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Font Generator tool free to use?",
-        "a": "Yes, Font Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Font Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5341,7 +5341,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Fonts for Instagram tool free to use?",
-        "a": "Yes, Fonts for Instagram on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Fonts for Instagram on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5383,7 +5383,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Fraction Calculator tool free to use?",
-        "a": "Yes, Fraction Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Fraction Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5421,7 +5421,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Fraction to Decimal Calculator tool free to use?",
-        "a": "Yes, Fraction to Decimal Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Fraction to Decimal Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5459,7 +5459,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Gamepad Tester tool free to use?",
-        "a": "Yes, Gamepad Tester on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Gamepad Tester on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5498,7 +5498,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this GIF to MP4 Converter tool free to use?",
-        "a": "Yes, GIF to MP4 Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, GIF to MP4 Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5537,7 +5537,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this GIF to PNG Converter tool free to use?",
-        "a": "Yes, GIF to PNG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, GIF to PNG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5576,7 +5576,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Gift Exchange Generator tool free to use?",
-        "a": "Yes, Gift Exchange Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Gift Exchange Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5614,7 +5614,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this GLB Viewer tool free to use?",
-        "a": "Yes, GLB Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, GLB Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5653,7 +5653,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Glitch Text Generator tool free to use?",
-        "a": "Yes, Glitch Text Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Glitch Text Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5691,7 +5691,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this glTF Viewer tool free to use?",
-        "a": "Yes, glTF Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, glTF Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5729,7 +5729,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this GPA Calculator tool free to use?",
-        "a": "Yes, GPA Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, GPA Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5766,7 +5766,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Grade Calculator tool free to use?",
-        "a": "Yes, Grade Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Grade Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5806,7 +5806,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this GraphQL Formatter & Beautifier tool free to use?",
-        "a": "Yes, GraphQL Formatter & Beautifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, GraphQL Formatter & Beautifier on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5848,7 +5848,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this GraphQL Minifier tool free to use?",
-        "a": "Yes, GraphQL Minifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, GraphQL Minifier on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5891,7 +5891,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this GraphQL Schema Explorer tool free to use?",
-        "a": "Yes, GraphQL Schema Explorer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, GraphQL Schema Explorer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5934,7 +5934,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this GraphQL Schema Validator tool free to use?",
-        "a": "Yes, GraphQL Schema Validator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, GraphQL Schema Validator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -5979,7 +5979,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this GraphQL Schema Viewer & Validator tool free to use?",
-        "a": "Yes, GraphQL Schema Viewer & Validator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, GraphQL Schema Viewer & Validator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6021,7 +6021,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this GraphQL Validator tool free to use?",
-        "a": "Yes, GraphQL Validator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, GraphQL Validator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6062,7 +6062,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Gravel Calculator tool free to use?",
-        "a": "Yes, Gravel Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Gravel Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6100,7 +6100,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Handwriting Generator tool free to use?",
-        "a": "Yes, Handwriting Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Handwriting Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6139,7 +6139,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Harvard Citation Generator tool free to use?",
-        "a": "Yes, Harvard Citation Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Harvard Citation Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6177,7 +6177,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Hash Generator tool free to use?",
-        "a": "Yes, Hash Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Hash Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6215,7 +6215,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Headphone Test tool free to use?",
-        "a": "Yes, Headphone Test on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Headphone Test on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6299,7 +6299,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this HEIC to JPG Converter tool free to use?",
-        "a": "Yes, HEIC to JPG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, HEIC to JPG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6337,7 +6337,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Hex Calculator tool free to use?",
-        "a": "Yes, Hex Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Hex Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6376,7 +6376,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Hex to ASCII Converter tool free to use?",
-        "a": "Yes, Hex to ASCII Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Hex to ASCII Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6415,7 +6415,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Hex to Binary Converter tool free to use?",
-        "a": "Yes, Hex to Binary Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Hex to Binary Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6454,7 +6454,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Hex to Decimal Converter tool free to use?",
-        "a": "Yes, Hex to Decimal Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Hex to Decimal Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6492,7 +6492,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this HEX to RGB tool free to use?",
-        "a": "Yes, HEX to RGB on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, HEX to RGB on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6531,7 +6531,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this HEX to RGB Calculator tool free to use?",
-        "a": "Yes, HEX to RGB Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, HEX to RGB Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6570,7 +6570,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this HEX to RGB Converter tool free to use?",
-        "a": "Yes, HEX to RGB Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, HEX to RGB Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6610,7 +6610,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this High School GPA Calculator tool free to use?",
-        "a": "Yes, High School GPA Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, High School GPA Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6648,7 +6648,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Hourly to Salary Calculator tool free to use?",
-        "a": "Yes, Hourly to Salary Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Hourly to Salary Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6685,7 +6685,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Hours Calculator tool free to use?",
-        "a": "Yes, Hours Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Hours Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6726,7 +6726,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this How Many Days Until Christmas? tool free to use?",
-        "a": "Yes, How Many Days Until Christmas? on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, How Many Days Until Christmas? on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6771,7 +6771,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this How Many Days Until Halloween? tool free to use?",
-        "a": "Yes, How Many Days Until Halloween? on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, How Many Days Until Halloween? on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6813,7 +6813,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this HTML Beautifier tool free to use?",
-        "a": "Yes, HTML Beautifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, HTML Beautifier on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6851,7 +6851,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this HTML Formatter tool free to use?",
-        "a": "Yes, HTML Formatter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, HTML Formatter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6889,7 +6889,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this HTML Minifier tool free to use?",
-        "a": "Yes, HTML Minifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, HTML Minifier on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6928,7 +6928,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this HTML Table to Markdown tool free to use?",
-        "a": "Yes, HTML Table to Markdown on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, HTML Table to Markdown on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -6967,7 +6967,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this HTML to Markdown Converter tool free to use?",
-        "a": "Yes, HTML to Markdown Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, HTML to Markdown Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7005,7 +7005,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this HTML to MD Converter tool free to use?",
-        "a": "Yes, HTML to MD Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, HTML to MD Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7044,7 +7044,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this HTTP Request Tester tool free to use?",
-        "a": "Yes, HTTP Request Tester on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, HTTP Request Tester on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7082,7 +7082,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this ICO Converter tool free to use?",
-        "a": "Yes, ICO Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, ICO Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7121,7 +7121,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this ICO to PNG Converter tool free to use?",
-        "a": "Yes, ICO to PNG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, ICO to PNG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7160,7 +7160,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Image Metadata Viewer tool free to use?",
-        "a": "Yes, Image Metadata Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Image Metadata Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7197,7 +7197,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Image Resizer tool free to use?",
-        "a": "Yes, Image Resizer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Image Resizer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7235,7 +7235,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Image to PDF Converter tool free to use?",
-        "a": "Yes, Image to PDF Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Image to PDF Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7273,7 +7273,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Instagram Grid Maker tool free to use?",
-        "a": "Yes, Instagram Grid Maker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Instagram Grid Maker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7311,7 +7311,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Instagram Image Splitter tool free to use?",
-        "a": "Yes, Instagram Image Splitter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Instagram Image Splitter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7349,7 +7349,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Instagram Photo Splitter tool free to use?",
-        "a": "Yes, Instagram Photo Splitter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Instagram Photo Splitter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7387,7 +7387,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Invisible Character tool free to use?",
-        "a": "Yes, Invisible Character on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Invisible Character on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7426,7 +7426,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this IPv6 Subnet Calculator tool free to use?",
-        "a": "Yes, IPv6 Subnet Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, IPv6 Subnet Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7465,7 +7465,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this ISBN Barcode Generator tool free to use?",
-        "a": "Yes, ISBN Barcode Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, ISBN Barcode Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7504,7 +7504,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JavaScript Regex Tester tool free to use?",
-        "a": "Yes, JavaScript Regex Tester on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JavaScript Regex Tester on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7543,7 +7543,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JFIF to JPG Converter tool free to use?",
-        "a": "Yes, JFIF to JPG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JFIF to JPG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7582,7 +7582,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JPG to ICO Converter tool free to use?",
-        "a": "Yes, JPG to ICO Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JPG to ICO Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7620,7 +7620,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JPG to PDF Converter tool free to use?",
-        "a": "Yes, JPG to PDF Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JPG to PDF Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7659,7 +7659,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JPG to PNG Converter tool free to use?",
-        "a": "Yes, JPG to PNG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JPG to PNG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7698,7 +7698,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JPG to WebP Converter tool free to use?",
-        "a": "Yes, JPG to WebP Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JPG to WebP Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7736,7 +7736,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JSON Compare tool free to use?",
-        "a": "Yes, JSON Compare on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JSON Compare on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7774,7 +7774,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JSON Diff tool free to use?",
-        "a": "Yes, JSON Diff on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JSON Diff on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7812,7 +7812,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JSON Editor tool free to use?",
-        "a": "Yes, JSON Editor on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JSON Editor on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7852,7 +7852,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JSON Formatter & Validator tool free to use?",
-        "a": "Yes, JSON Formatter & Validator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JSON Formatter & Validator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7890,7 +7890,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JSON Minifier tool free to use?",
-        "a": "Yes, JSON Minifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JSON Minifier on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7929,7 +7929,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JSON Pretty Print tool free to use?",
-        "a": "Yes, JSON Pretty Print on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JSON Pretty Print on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -7970,7 +7970,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JSON Semantic Diff & Compare tool free to use?",
-        "a": "Yes, JSON Semantic Diff & Compare on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JSON Semantic Diff & Compare on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8009,7 +8009,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JSON to CSV Converter tool free to use?",
-        "a": "Yes, JSON to CSV Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JSON to CSV Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8047,7 +8047,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JSON to TOON tool free to use?",
-        "a": "Yes, JSON to TOON on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JSON to TOON on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8086,7 +8086,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JSON to TOON Converter tool free to use?",
-        "a": "Yes, JSON to TOON Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JSON to TOON Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8123,7 +8123,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JSON to TS tool free to use?",
-        "a": "Yes, JSON to TS on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JSON to TS on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8162,7 +8162,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JSON to TypeScript Converter tool free to use?",
-        "a": "Yes, JSON to TypeScript Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JSON to TypeScript Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8201,7 +8201,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JSON to TypeScript Interface tool free to use?",
-        "a": "Yes, JSON to TypeScript Interface on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JSON to TypeScript Interface on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8239,7 +8239,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JSON Validator tool free to use?",
-        "a": "Yes, JSON Validator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JSON Validator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8277,7 +8277,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JSON Viewer tool free to use?",
-        "a": "Yes, JSON Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JSON Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8314,7 +8314,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JWT Decoder tool free to use?",
-        "a": "Yes, JWT Decoder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JWT Decoder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8353,7 +8353,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JWT Decoder / Encoder tool free to use?",
-        "a": "Yes, JWT Decoder / Encoder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JWT Decoder / Encoder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8391,7 +8391,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this JWT Encoder tool free to use?",
-        "a": "Yes, JWT Encoder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, JWT Encoder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8433,7 +8433,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Keyboard Test tool free to use?",
-        "a": "Yes, Keyboard Test on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Keyboard Test on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8472,7 +8472,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this LaTeX Equation Editor tool free to use?",
-        "a": "Yes, LaTeX Equation Editor on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, LaTeX Equation Editor on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8515,7 +8515,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this LaTeX to Image Converter tool free to use?",
-        "a": "Yes, LaTeX to Image Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, LaTeX to Image Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8554,7 +8554,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this LaTeX to Word Equation tool free to use?",
-        "a": "Yes, LaTeX to Word Equation on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, LaTeX to Word Equation on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8593,7 +8593,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Letter to Santa Template tool free to use?",
-        "a": "Yes, Letter to Santa Template on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Letter to Santa Template on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8631,7 +8631,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this List Randomizer tool free to use?",
-        "a": "Yes, List Randomizer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, List Randomizer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8670,7 +8670,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this LLM Token Counter tool free to use?",
-        "a": "Yes, LLM Token Counter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, LLM Token Counter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8708,7 +8708,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Local AI Chat tool free to use?",
-        "a": "Yes, Local AI Chat on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Local AI Chat on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8746,7 +8746,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Lowercase Converter tool free to use?",
-        "a": "Yes, Lowercase Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Lowercase Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8785,7 +8785,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this M4A to MP3 Converter tool free to use?",
-        "a": "Yes, M4A to MP3 Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, M4A to MP3 Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8823,7 +8823,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Macro Calculator tool free to use?",
-        "a": "Yes, Macro Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Macro Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8860,7 +8860,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Magic Eraser tool free to use?",
-        "a": "Yes, Magic Eraser on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Magic Eraser on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8899,7 +8899,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Maintenance Calorie Calculator tool free to use?",
-        "a": "Yes, Maintenance Calorie Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Maintenance Calorie Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8936,7 +8936,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Margin Calculator tool free to use?",
-        "a": "Yes, Margin Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Margin Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -8975,7 +8975,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Markdown File Viewer tool free to use?",
-        "a": "Yes, Markdown File Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Markdown File Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9013,7 +9013,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Markdown Preview tool free to use?",
-        "a": "Yes, Markdown Preview on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Markdown Preview on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9052,7 +9052,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Markdown to DOCX Converter tool free to use?",
-        "a": "Yes, Markdown to DOCX Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Markdown to DOCX Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9090,7 +9090,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Markdown to PDF tool free to use?",
-        "a": "Yes, Markdown to PDF on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Markdown to PDF on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9129,7 +9129,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Markdown to PDF Converter tool free to use?",
-        "a": "Yes, Markdown to PDF Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Markdown to PDF Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9167,7 +9167,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Markdown to Word tool free to use?",
-        "a": "Yes, Markdown to Word on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Markdown to Word on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9205,7 +9205,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Markdown Viewer tool free to use?",
-        "a": "Yes, Markdown Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Markdown Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9244,7 +9244,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Markdown WYSIWYG Editor tool free to use?",
-        "a": "Yes, Markdown WYSIWYG Editor on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Markdown WYSIWYG Editor on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9281,7 +9281,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Markup Calculator tool free to use?",
-        "a": "Yes, Markup Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Markup Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9318,7 +9318,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this MD to DOCX tool free to use?",
-        "a": "Yes, MD to DOCX on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, MD to DOCX on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9355,7 +9355,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this MD to PDF tool free to use?",
-        "a": "Yes, MD to PDF on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, MD to PDF on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9394,7 +9394,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this MD5 Hash Generator tool free to use?",
-        "a": "Yes, MD5 Hash Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, MD5 Hash Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9433,7 +9433,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Mean Absolute Deviation Calculator tool free to use?",
-        "a": "Yes, Mean Absolute Deviation Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Mean Absolute Deviation Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9471,7 +9471,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Meeting Planner tool free to use?",
-        "a": "Yes, Meeting Planner on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Meeting Planner on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9513,7 +9513,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Merge PDF Files tool free to use?",
-        "a": "Yes, Merge PDF Files on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Merge PDF Files on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9551,7 +9551,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Mic Test tool free to use?",
-        "a": "Yes, Mic Test on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Mic Test on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9591,7 +9591,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Middle School GPA Calculator tool free to use?",
-        "a": "Yes, Middle School GPA Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Middle School GPA Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9629,7 +9629,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Military Time Converter tool free to use?",
-        "a": "Yes, Military Time Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Military Time Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9668,7 +9668,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Mixed Number Calculator tool free to use?",
-        "a": "Yes, Mixed Number Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Mixed Number Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9707,7 +9707,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this MKV to MP4 Converter tool free to use?",
-        "a": "Yes, MKV to MP4 Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, MKV to MP4 Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9746,7 +9746,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this MLA Citation Generator tool free to use?",
-        "a": "Yes, MLA Citation Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, MLA Citation Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9785,7 +9785,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Morse Code Translator tool free to use?",
-        "a": "Yes, Morse Code Translator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Morse Code Translator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9823,7 +9823,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Mouse Test tool free to use?",
-        "a": "Yes, Mouse Test on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Mouse Test on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9862,7 +9862,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this MOV to MP4 Converter tool free to use?",
-        "a": "Yes, MOV to MP4 Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, MOV to MP4 Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9901,7 +9901,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this MP3 to WAV Converter tool free to use?",
-        "a": "Yes, MP3 to WAV Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, MP3 to WAV Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9940,7 +9940,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this MP4 to MP3 Converter tool free to use?",
-        "a": "Yes, MP4 to MP3 Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, MP4 to MP3 Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -9979,7 +9979,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this MSG to PDF Converter tool free to use?",
-        "a": "Yes, MSG to PDF Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, MSG to PDF Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10017,7 +10017,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this MSG Viewer tool free to use?",
-        "a": "Yes, MSG Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, MSG Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10054,7 +10054,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Mulch Calculator tool free to use?",
-        "a": "Yes, Mulch Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Mulch Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10092,7 +10092,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this New Year Countdown tool free to use?",
-        "a": "Yes, New Year Countdown on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, New Year Countdown on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10133,7 +10133,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this New Year's Bingo Cards tool free to use?",
-        "a": "Yes, New Year's Bingo Cards on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, New Year's Bingo Cards on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10171,7 +10171,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Notepad++ Online tool free to use?",
-        "a": "Yes, Notepad++ Online on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Notepad++ Online on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10210,7 +10210,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Number Base Converter tool free to use?",
-        "a": "Yes, Number Base Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Number Base Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10248,7 +10248,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this OBJ Viewer tool free to use?",
-        "a": "Yes, OBJ Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, OBJ Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10286,7 +10286,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Offline AI Chat tool free to use?",
-        "a": "Yes, Offline AI Chat on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Offline AI Chat on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10324,7 +10324,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this OG Image Generator tool free to use?",
-        "a": "Yes, OG Image Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, OG Image Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10362,7 +10362,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this OG Image Maker tool free to use?",
-        "a": "Yes, OG Image Maker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, OG Image Maker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10405,7 +10405,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this OGG to MP3 Converter tool free to use?",
-        "a": "Yes, OGG to MP3 Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, OGG to MP3 Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10445,7 +10445,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this One Rep Max Calculator tool free to use?",
-        "a": "Yes, One Rep Max Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, One Rep Max Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10484,7 +10484,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Online Bingo Caller tool free to use?",
-        "a": "Yes, Online Bingo Caller on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Online Bingo Caller on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10527,7 +10527,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Online Diff Checker tool free to use?",
-        "a": "Yes, Online Diff Checker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Online Diff Checker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10566,7 +10566,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Online Equation Editor tool free to use?",
-        "a": "Yes, Online Equation Editor on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Online Equation Editor on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10605,7 +10605,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Online Markdown Editor tool free to use?",
-        "a": "Yes, Online Markdown Editor on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Online Markdown Editor on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10646,7 +10646,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Online Markdown Editor with Export tool free to use?",
-        "a": "Yes, Online Markdown Editor with Export on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Online Markdown Editor with Export on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10685,7 +10685,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Online Math Editor tool free to use?",
-        "a": "Yes, Online Math Editor on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Online Math Editor on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10728,7 +10728,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Online Math Keyboard tool free to use?",
-        "a": "Yes, Online Math Keyboard on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Online Math Keyboard on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10770,7 +10770,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Online Notepad tool free to use?",
-        "a": "Yes, Online Notepad on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Online Notepad on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10809,7 +10809,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Online Tone Generator tool free to use?",
-        "a": "Yes, Online Tone Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Online Tone Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10852,7 +10852,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Open Graph Checker tool free to use?",
-        "a": "Yes, Open Graph Checker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Open Graph Checker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10896,7 +10896,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Open Graph Image Generator tool free to use?",
-        "a": "Yes, Open Graph Image Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Open Graph Image Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10935,7 +10935,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Open Graph Preview tool free to use?",
-        "a": "Yes, Open Graph Preview on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Open Graph Preview on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -10979,7 +10979,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this OpenAPI & Swagger Viewer tool free to use?",
-        "a": "Yes, OpenAPI & Swagger Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, OpenAPI & Swagger Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11017,7 +11017,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this OpenAPI Editor tool free to use?",
-        "a": "Yes, OpenAPI Editor on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, OpenAPI Editor on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11054,7 +11054,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Overtime Calculator tool free to use?",
-        "a": "Yes, Overtime Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Overtime Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11091,7 +11091,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Paint Calculator tool free to use?",
-        "a": "Yes, Paint Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Paint Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11130,7 +11130,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Parquet to CSV Converter tool free to use?",
-        "a": "Yes, Parquet to CSV Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Parquet to CSV Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11172,7 +11172,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Parquet Viewer tool free to use?",
-        "a": "Yes, Parquet Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Parquet Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11214,7 +11214,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Password Generator tool free to use?",
-        "a": "Yes, Password Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Password Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11251,7 +11251,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF Compressor tool free to use?",
-        "a": "Yes, PDF Compressor on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF Compressor on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11288,7 +11288,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF Merger tool free to use?",
-        "a": "Yes, PDF Merger on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF Merger on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11326,7 +11326,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF Metadata Editor tool free to use?",
-        "a": "Yes, PDF Metadata Editor on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF Metadata Editor on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11364,7 +11364,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF Metadata Remover tool free to use?",
-        "a": "Yes, PDF Metadata Remover on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF Metadata Remover on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11402,7 +11402,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF Metadata Viewer tool free to use?",
-        "a": "Yes, PDF Metadata Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF Metadata Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11440,7 +11440,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF Redaction Tool tool free to use?",
-        "a": "Yes, PDF Redaction Tool on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF Redaction Tool on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11477,7 +11477,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF Splitter tool free to use?",
-        "a": "Yes, PDF Splitter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF Splitter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11515,7 +11515,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF to DOCX Converter tool free to use?",
-        "a": "Yes, PDF to DOCX Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF to DOCX Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11553,7 +11553,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF to Image Converter tool free to use?",
-        "a": "Yes, PDF to Image Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF to Image Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11591,7 +11591,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF to JPG Converter tool free to use?",
-        "a": "Yes, PDF to JPG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF to JPG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11629,7 +11629,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF to Markdown Converter tool free to use?",
-        "a": "Yes, PDF to Markdown Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF to Markdown Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11668,7 +11668,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF to Markdown for Claude tool free to use?",
-        "a": "Yes, PDF to Markdown for Claude on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF to Markdown for Claude on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11705,7 +11705,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF to MD Converter tool free to use?",
-        "a": "Yes, PDF to MD Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF to MD Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11743,7 +11743,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF to PNG Converter tool free to use?",
-        "a": "Yes, PDF to PNG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF to PNG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11780,7 +11780,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF to Word tool free to use?",
-        "a": "Yes, PDF to Word on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF to Word on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11818,7 +11818,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF to Word Converter tool free to use?",
-        "a": "Yes, PDF to Word Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF to Word Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11857,7 +11857,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PDF417 Barcode Generator tool free to use?",
-        "a": "Yes, PDF417 Barcode Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PDF417 Barcode Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11895,7 +11895,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PEM Decoder tool free to use?",
-        "a": "Yes, PEM Decoder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PEM Decoder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11932,7 +11932,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Percentage Calculator tool free to use?",
-        "a": "Yes, Percentage Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Percentage Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -11970,7 +11970,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Percentage Change Calculator tool free to use?",
-        "a": "Yes, Percentage Change Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Percentage Change Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12008,7 +12008,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Percentage Decrease Calculator tool free to use?",
-        "a": "Yes, Percentage Decrease Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Percentage Decrease Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12046,7 +12046,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Percentage Difference Calculator tool free to use?",
-        "a": "Yes, Percentage Difference Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Percentage Difference Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12084,7 +12084,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Percentage Increase Calculator tool free to use?",
-        "a": "Yes, Percentage Increase Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Percentage Increase Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12122,7 +12122,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Photo Metadata Remover tool free to use?",
-        "a": "Yes, Photo Metadata Remover on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Photo Metadata Remover on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12160,7 +12160,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Photo Metadata Viewer tool free to use?",
-        "a": "Yes, Photo Metadata Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Photo Metadata Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12197,7 +12197,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Photo Resizer tool free to use?",
-        "a": "Yes, Photo Resizer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Photo Resizer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12234,7 +12234,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Pixelate Image tool free to use?",
-        "a": "Yes, Pixelate Image on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Pixelate Image on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12272,7 +12272,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PLY Viewer tool free to use?",
-        "a": "Yes, PLY Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PLY Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12311,7 +12311,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PNG Background Remover tool free to use?",
-        "a": "Yes, PNG Background Remover on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PNG Background Remover on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12350,7 +12350,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PNG to ICO Converter tool free to use?",
-        "a": "Yes, PNG to ICO Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PNG to ICO Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12389,7 +12389,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PNG to JPG Converter tool free to use?",
-        "a": "Yes, PNG to JPG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PNG to JPG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12426,7 +12426,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PNG to PDF tool free to use?",
-        "a": "Yes, PNG to PDF on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PNG to PDF on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12465,7 +12465,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PNG to WebP Converter tool free to use?",
-        "a": "Yes, PNG to WebP Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PNG to WebP Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12503,7 +12503,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Pomodoro Timer tool free to use?",
-        "a": "Yes, Pomodoro Timer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Pomodoro Timer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12542,7 +12542,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Population Standard Deviation Calculator tool free to use?",
-        "a": "Yes, Population Standard Deviation Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Population Standard Deviation Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12581,7 +12581,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Printable Bingo Cards tool free to use?",
-        "a": "Yes, Printable Bingo Cards on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Printable Bingo Cards on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12620,7 +12620,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Printable Bracket Maker tool free to use?",
-        "a": "Yes, Printable Bracket Maker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Printable Bracket Maker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12659,7 +12659,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Printable Calendar Maker tool free to use?",
-        "a": "Yes, Printable Calendar Maker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Printable Calendar Maker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12699,7 +12699,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Printable Christmas List Template tool free to use?",
-        "a": "Yes, Printable Christmas List Template on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Printable Christmas List Template on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12737,7 +12737,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Private AI Chatbot tool free to use?",
-        "a": "Yes, Private AI Chatbot on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Private AI Chatbot on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12775,7 +12775,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Protein Calculator tool free to use?",
-        "a": "Yes, Protein Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Protein Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12814,7 +12814,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PSD to JPG Converter tool free to use?",
-        "a": "Yes, PSD to JPG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PSD to JPG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12853,7 +12853,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PSD to PNG Converter tool free to use?",
-        "a": "Yes, PSD to PNG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PSD to PNG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12891,7 +12891,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this PSD Viewer tool free to use?",
-        "a": "Yes, PSD Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, PSD Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12929,7 +12929,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this QR Code Generator tool free to use?",
-        "a": "Yes, QR Code Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, QR Code Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -12968,7 +12968,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Quartile and IQR Calculator tool free to use?",
-        "a": "Yes, Quartile and IQR Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Quartile and IQR Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13007,7 +13007,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Quote Image Generator tool free to use?",
-        "a": "Yes, Quote Image Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Quote Image Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13050,7 +13050,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Quote Image Maker tool free to use?",
-        "a": "Yes, Quote Image Maker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Quote Image Maker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13092,7 +13092,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Quote Maker tool free to use?",
-        "a": "Yes, Quote Maker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Quote Maker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13130,7 +13130,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Raise GPA Calculator tool free to use?",
-        "a": "Yes, Raise GPA Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Raise GPA Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13169,7 +13169,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Random Group Generator tool free to use?",
-        "a": "Yes, Random Group Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Random Group Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13208,7 +13208,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Random Item Picker tool free to use?",
-        "a": "Yes, Random Item Picker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Random Item Picker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13247,7 +13247,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Random Letter Generator tool free to use?",
-        "a": "Yes, Random Letter Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Random Letter Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13290,7 +13290,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Random Name Picker tool free to use?",
-        "a": "Yes, Random Name Picker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Random Name Picker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13329,7 +13329,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Random Number Generator tool free to use?",
-        "a": "Yes, Random Number Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Random Number Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13372,7 +13372,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Random Password Generator tool free to use?",
-        "a": "Yes, Random Password Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Random Password Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13411,7 +13411,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Random Team Generator tool free to use?",
-        "a": "Yes, Random Team Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Random Team Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13450,7 +13450,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Random Winner Picker tool free to use?",
-        "a": "Yes, Random Winner Picker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Random Winner Picker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13489,7 +13489,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this RapidTables Notepad Alternative tool free to use?",
-        "a": "Yes, RapidTables Notepad Alternative on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, RapidTables Notepad Alternative on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13526,7 +13526,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Ratio Calculator tool free to use?",
-        "a": "Yes, Ratio Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Ratio Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13565,7 +13565,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Redact Bank Statement tool free to use?",
-        "a": "Yes, Redact Bank Statement on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Redact Bank Statement on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13602,7 +13602,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Redact PDF tool free to use?",
-        "a": "Yes, Redact PDF on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Redact PDF on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13641,7 +13641,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Reddit Username Generator tool free to use?",
-        "a": "Yes, Reddit Username Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Reddit Username Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13687,7 +13687,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Reduce PDF Size tool free to use?",
-        "a": "Yes, Reduce PDF Size on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Reduce PDF Size on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13726,7 +13726,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Refresh Rate Test tool free to use?",
-        "a": "Yes, Refresh Rate Test on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Refresh Rate Test on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13764,7 +13764,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Regex Checker tool free to use?",
-        "a": "Yes, Regex Checker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Regex Checker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13802,7 +13802,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Regex Explainer tool free to use?",
-        "a": "Yes, Regex Explainer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Regex Explainer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13840,7 +13840,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Regex Generator tool free to use?",
-        "a": "Yes, Regex Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Regex Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13878,7 +13878,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Regex Offline AI tool free to use?",
-        "a": "Yes, Regex Offline AI on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Regex Offline AI on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13922,7 +13922,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Regex Tester & Builder tool free to use?",
-        "a": "Yes, Regex Tester & Builder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Regex Tester & Builder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -13962,7 +13962,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Remove Comments from Word tool free to use?",
-        "a": "Yes, Remove Comments from Word on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Remove Comments from Word on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14001,7 +14001,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Remove Duplicate Lines tool free to use?",
-        "a": "Yes, Remove Duplicate Lines on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Remove Duplicate Lines on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14042,7 +14042,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Remove Duplicate Lines & Sort tool free to use?",
-        "a": "Yes, Remove Duplicate Lines & Sort on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Remove Duplicate Lines & Sort on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14081,7 +14081,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Remove Metadata from Word tool free to use?",
-        "a": "Yes, Remove Metadata from Word on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Remove Metadata from Word on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14120,7 +14120,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Remove Objects from Photos tool free to use?",
-        "a": "Yes, Remove Objects from Photos on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Remove Objects from Photos on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14158,7 +14158,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Remove Photo Location tool free to use?",
-        "a": "Yes, Remove Photo Location on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Remove Photo Location on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14197,7 +14197,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Remove Text from Image tool free to use?",
-        "a": "Yes, Remove Text from Image on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Remove Text from Image on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14235,7 +14235,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Resize PNG tool free to use?",
-        "a": "Yes, Resize PNG on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Resize PNG on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14274,7 +14274,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this REST API Tester tool free to use?",
-        "a": "Yes, REST API Tester on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, REST API Tester on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14312,7 +14312,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this RGB to HEX tool free to use?",
-        "a": "Yes, RGB to HEX on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, RGB to HEX on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14351,7 +14351,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this RGB to HEX Calculator tool free to use?",
-        "a": "Yes, RGB to HEX Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, RGB to HEX Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14390,7 +14390,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this RGB to HEX Converter tool free to use?",
-        "a": "Yes, RGB to HEX Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, RGB to HEX Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14429,7 +14429,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Roll Two Dice tool free to use?",
-        "a": "Yes, Roll Two Dice on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Roll Two Dice on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14467,7 +14467,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Roman Numeral Converter tool free to use?",
-        "a": "Yes, Roman Numeral Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Roman Numeral Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14507,7 +14507,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Roman Numeral Date Converter tool free to use?",
-        "a": "Yes, Roman Numeral Date Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Roman Numeral Date Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14544,7 +14544,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Roofing Calculator tool free to use?",
-        "a": "Yes, Roofing Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Roofing Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14583,7 +14583,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Round Robin Generator tool free to use?",
-        "a": "Yes, Round Robin Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Round Robin Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14625,7 +14625,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Salary to Hourly Calculator tool free to use?",
-        "a": "Yes, Salary to Hourly Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Salary to Hourly Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14664,7 +14664,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Sample Standard Deviation Calculator tool free to use?",
-        "a": "Yes, Sample Standard Deviation Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Sample Standard Deviation Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14703,7 +14703,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Secret Santa Generator tool free to use?",
-        "a": "Yes, Secret Santa Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Secret Santa Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14743,7 +14743,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this SHA-256 Hash Generator tool free to use?",
-        "a": "Yes, SHA-256 Hash Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, SHA-256 Hash Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14781,7 +14781,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Simplify Fractions Calculator tool free to use?",
-        "a": "Yes, Simplify Fractions Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Simplify Fractions Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14821,7 +14821,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Single Elimination Bracket Generator tool free to use?",
-        "a": "Yes, Single Elimination Bracket Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Single Elimination Bracket Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14860,7 +14860,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Small Text Generator tool free to use?",
-        "a": "Yes, Small Text Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Small Text Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14898,7 +14898,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Social Media Preview tool free to use?",
-        "a": "Yes, Social Media Preview on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Social Media Preview on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14936,7 +14936,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Sound Test tool free to use?",
-        "a": "Yes, Sound Test on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Sound Test on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -14974,7 +14974,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Split PDF Files tool free to use?",
-        "a": "Yes, Split PDF Files on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Split PDF Files on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15012,7 +15012,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this SQL Beautifier tool free to use?",
-        "a": "Yes, SQL Beautifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, SQL Beautifier on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15050,7 +15050,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this SQL Formatter tool free to use?",
-        "a": "Yes, SQL Formatter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, SQL Formatter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15090,7 +15090,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this SQL Formatter & Beautifier tool free to use?",
-        "a": "Yes, SQL Formatter & Beautifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, SQL Formatter & Beautifier on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15128,7 +15128,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this SQLite Browser tool free to use?",
-        "a": "Yes, SQLite Browser on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, SQLite Browser on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15170,7 +15170,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this SQLite Online tool free to use?",
-        "a": "Yes, SQLite Online on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, SQLite Online on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15212,7 +15212,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this SQLite Viewer tool free to use?",
-        "a": "Yes, SQLite Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, SQLite Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15251,7 +15251,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Square Footage Calculator tool free to use?",
-        "a": "Yes, Square Footage Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Square Footage Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15290,7 +15290,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this SSL Certificate Decoder tool free to use?",
-        "a": "Yes, SSL Certificate Decoder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, SSL Certificate Decoder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15328,7 +15328,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Standard Deviation Calculator tool free to use?",
-        "a": "Yes, Standard Deviation Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Standard Deviation Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15367,7 +15367,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Stick Drift Test tool free to use?",
-        "a": "Yes, Stick Drift Test on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Stick Drift Test on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15409,7 +15409,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this STL Viewer tool free to use?",
-        "a": "Yes, STL Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, STL Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15448,7 +15448,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Strikethrough Text Generator tool free to use?",
-        "a": "Yes, Strikethrough Text Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Strikethrough Text Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15487,7 +15487,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this String Length Calculator tool free to use?",
-        "a": "Yes, String Length Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, String Length Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15526,7 +15526,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Strong Password Generator tool free to use?",
-        "a": "Yes, Strong Password Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Strong Password Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15564,7 +15564,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Study Timer tool free to use?",
-        "a": "Yes, Study Timer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Study Timer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15602,7 +15602,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Subnet Calculator tool free to use?",
-        "a": "Yes, Subnet Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Subnet Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15641,7 +15641,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Subnet Cheat Sheet tool free to use?",
-        "a": "Yes, Subnet Cheat Sheet on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Subnet Cheat Sheet on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15680,7 +15680,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this SVG Favicon Generator tool free to use?",
-        "a": "Yes, SVG Favicon Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, SVG Favicon Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15719,7 +15719,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this SVG to Base64 Converter tool free to use?",
-        "a": "Yes, SVG to Base64 Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, SVG to Base64 Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15758,7 +15758,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this SVG to CSS Converter tool free to use?",
-        "a": "Yes, SVG to CSS Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, SVG to CSS Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15797,7 +15797,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this SVG to ICO Converter tool free to use?",
-        "a": "Yes, SVG to ICO Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, SVG to ICO Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15836,7 +15836,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this SVG to JPG Converter tool free to use?",
-        "a": "Yes, SVG to JPG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, SVG to JPG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15875,7 +15875,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this SVG to PNG Converter tool free to use?",
-        "a": "Yes, SVG to PNG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, SVG to PNG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15913,7 +15913,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this SVG Viewer tool free to use?",
-        "a": "Yes, SVG Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, SVG Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15951,7 +15951,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Swagger Viewer tool free to use?",
-        "a": "Yes, Swagger Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Swagger Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -15993,7 +15993,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this TDEE Calculator tool free to use?",
-        "a": "Yes, TDEE Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, TDEE Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16031,7 +16031,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Test Grade Calculator tool free to use?",
-        "a": "Yes, Test Grade Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Test Grade Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16070,7 +16070,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Text Case Converter tool free to use?",
-        "a": "Yes, Text Case Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Text Case Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16108,7 +16108,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Text Compare tool free to use?",
-        "a": "Yes, Text Compare on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Text Compare on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16146,7 +16146,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Text Diff tool free to use?",
-        "a": "Yes, Text Diff on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Text Diff on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16184,7 +16184,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Text Repeater tool free to use?",
-        "a": "Yes, Text Repeater on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Text Repeater on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16223,7 +16223,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Text to Binary Converter tool free to use?",
-        "a": "Yes, Text to Binary Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Text to Binary Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16262,7 +16262,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Text to Handwriting Converter tool free to use?",
-        "a": "Yes, Text to Handwriting Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Text to Handwriting Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16301,7 +16301,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Text to Hex Converter tool free to use?",
-        "a": "Yes, Text to Hex Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Text to Hex Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16340,7 +16340,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Thanksgiving Bingo Cards tool free to use?",
-        "a": "Yes, Thanksgiving Bingo Cards on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Thanksgiving Bingo Cards on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16377,7 +16377,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Thanksgiving Countdown tool free to use?",
-        "a": "Yes, Thanksgiving Countdown on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Thanksgiving Countdown on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16416,7 +16416,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this TIFF to JPG Converter tool free to use?",
-        "a": "Yes, TIFF to JPG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, TIFF to JPG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16453,7 +16453,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Tile Calculator tool free to use?",
-        "a": "Yes, Tile Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Tile Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16490,7 +16490,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Time Calculator tool free to use?",
-        "a": "Yes, Time Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Time Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16529,7 +16529,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Time Card Calculator tool free to use?",
-        "a": "Yes, Time Card Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Time Card Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16568,7 +16568,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Time Zone Converter tool free to use?",
-        "a": "Yes, Time Zone Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Time Zone Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16611,7 +16611,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Title Case Converter tool free to use?",
-        "a": "Yes, Title Case Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Title Case Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16649,7 +16649,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Token Counter tool free to use?",
-        "a": "Yes, Token Counter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Token Counter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16687,7 +16687,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this TOON to JSON tool free to use?",
-        "a": "Yes, TOON to JSON on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, TOON to JSON on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16726,7 +16726,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Transparent Background Maker tool free to use?",
-        "a": "Yes, Transparent Background Maker on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Transparent Background Maker on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16765,7 +16765,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Transparent QR Code Generator tool free to use?",
-        "a": "Yes, Transparent QR Code Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Transparent QR Code Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16804,7 +16804,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this TSV to JSON Converter tool free to use?",
-        "a": "Yes, TSV to JSON Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, TSV to JSON Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16843,7 +16843,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Twitch Username Generator tool free to use?",
-        "a": "Yes, Twitch Username Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Twitch Username Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16890,7 +16890,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Unix Timestamp Converter tool free to use?",
-        "a": "Yes, Unix Timestamp Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Unix Timestamp Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16931,7 +16931,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Unix Timestamp Generator & Converter tool free to use?",
-        "a": "Yes, Unix Timestamp Generator & Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Unix Timestamp Generator & Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -16970,7 +16970,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this UPC Barcode Generator tool free to use?",
-        "a": "Yes, UPC Barcode Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, UPC Barcode Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17008,7 +17008,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Uppercase Converter tool free to use?",
-        "a": "Yes, Uppercase Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Uppercase Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17048,7 +17048,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Upside Down Text Generator tool free to use?",
-        "a": "Yes, Upside Down Text Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Upside Down Text Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17086,7 +17086,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this URL Decoder tool free to use?",
-        "a": "Yes, URL Decoder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, URL Decoder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17124,7 +17124,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this URL Encoder tool free to use?",
-        "a": "Yes, URL Encoder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, URL Encoder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17163,7 +17163,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this URL Encoder/Decoder tool free to use?",
-        "a": "Yes, URL Encoder/Decoder on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, URL Encoder/Decoder on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17201,7 +17201,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this URL to QR Code tool free to use?",
-        "a": "Yes, URL to QR Code on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, URL to QR Code on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17239,7 +17239,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Username Generator tool free to use?",
-        "a": "Yes, Username Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Username Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17285,7 +17285,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this UUID Generator tool free to use?",
-        "a": "Yes, UUID Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, UUID Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17323,7 +17323,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this UUID v4 Generator tool free to use?",
-        "a": "Yes, UUID v4 Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, UUID v4 Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17361,7 +17361,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this UUID v7 Generator tool free to use?",
-        "a": "Yes, UUID v7 Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, UUID v7 Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17398,7 +17398,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Variance Calculator tool free to use?",
-        "a": "Yes, Variance Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Variance Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17437,7 +17437,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Video to GIF Converter tool free to use?",
-        "a": "Yes, Video to GIF Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Video to GIF Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17475,7 +17475,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this VLSM Calculator tool free to use?",
-        "a": "Yes, VLSM Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, VLSM Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17514,7 +17514,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Water Intake Calculator tool free to use?",
-        "a": "Yes, Water Intake Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Water Intake Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17553,7 +17553,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this WAV to MP3 Converter tool free to use?",
-        "a": "Yes, WAV to MP3 Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, WAV to MP3 Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17591,7 +17591,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Webcam Test tool free to use?",
-        "a": "Yes, Webcam Test on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Webcam Test on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17629,7 +17629,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this WebM Converter tool free to use?",
-        "a": "Yes, WebM Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, WebM Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17667,7 +17667,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this WebM to MP4 tool free to use?",
-        "a": "Yes, WebM to MP4 on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, WebM to MP4 on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17706,7 +17706,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this WebM to MP4 Converter tool free to use?",
-        "a": "Yes, WebM to MP4 Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, WebM to MP4 Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17744,7 +17744,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this WebP Converter tool free to use?",
-        "a": "Yes, WebP Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, WebP Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17783,7 +17783,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this WebP to GIF Converter tool free to use?",
-        "a": "Yes, WebP to GIF Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, WebP to GIF Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17822,7 +17822,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this WebP to ICO Converter tool free to use?",
-        "a": "Yes, WebP to ICO Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, WebP to ICO Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17861,7 +17861,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this WebP to JPG Converter tool free to use?",
-        "a": "Yes, WebP to JPG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, WebP to JPG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17900,7 +17900,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this WebP to PNG Converter tool free to use?",
-        "a": "Yes, WebP to PNG Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, WebP to PNG Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17939,7 +17939,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Weighted GPA Calculator tool free to use?",
-        "a": "Yes, Weighted GPA Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Weighted GPA Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -17977,7 +17977,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Weighted Grade Calculator tool free to use?",
-        "a": "Yes, Weighted Grade Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Weighted Grade Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18016,7 +18016,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Wheel of Names Spinner tool free to use?",
-        "a": "Yes, Wheel of Names Spinner on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Wheel of Names Spinner on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18055,7 +18055,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this White Elephant Generator tool free to use?",
-        "a": "Yes, White Elephant Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, White Elephant Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18093,7 +18093,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this White Elephant Rules tool free to use?",
-        "a": "Yes, White Elephant Rules on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, White Elephant Rules on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18136,7 +18136,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this WiFi QR Code Generator tool free to use?",
-        "a": "Yes, WiFi QR Code Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, WiFi QR Code Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18174,7 +18174,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Word Counter tool free to use?",
-        "a": "Yes, Word Counter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Word Counter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18213,7 +18213,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Word to HTML Converter tool free to use?",
-        "a": "Yes, Word to HTML Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Word to HTML Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18251,7 +18251,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Word Viewer tool free to use?",
-        "a": "Yes, Word Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Word Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18290,7 +18290,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this World Time Converter tool free to use?",
-        "a": "Yes, World Time Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, World Time Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18333,7 +18333,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this XLSX to CSV Converter tool free to use?",
-        "a": "Yes, XLSX to CSV Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, XLSX to CSV Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18371,7 +18371,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this XLSX Viewer tool free to use?",
-        "a": "Yes, XLSX Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, XLSX Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18411,7 +18411,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this XML Formatter & Validator tool free to use?",
-        "a": "Yes, XML Formatter & Validator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, XML Formatter & Validator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18449,7 +18449,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this XML Validator tool free to use?",
-        "a": "Yes, XML Validator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, XML Validator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18487,7 +18487,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this XML Viewer tool free to use?",
-        "a": "Yes, XML Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, XML Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18525,7 +18525,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this XSD Editor tool free to use?",
-        "a": "Yes, XSD Editor on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, XSD Editor on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18568,7 +18568,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this XSD Schema Viewer tool free to use?",
-        "a": "Yes, XSD Schema Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, XSD Schema Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18606,7 +18606,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this XSD Viewer tool free to use?",
-        "a": "Yes, XSD Viewer on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, XSD Viewer on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18644,7 +18644,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this YAML Beautifier tool free to use?",
-        "a": "Yes, YAML Beautifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, YAML Beautifier on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18682,7 +18682,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this YAML Editor tool free to use?",
-        "a": "Yes, YAML Editor on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, YAML Editor on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18722,7 +18722,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this YAML Formatter & Beautifier tool free to use?",
-        "a": "Yes, YAML Formatter & Beautifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, YAML Formatter & Beautifier on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18760,7 +18760,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this YAML Minifier tool free to use?",
-        "a": "Yes, YAML Minifier on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, YAML Minifier on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18798,7 +18798,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this YAML to JSON tool free to use?",
-        "a": "Yes, YAML to JSON on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, YAML to JSON on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18837,7 +18837,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this YAML to JSON Converter tool free to use?",
-        "a": "Yes, YAML to JSON Converter on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, YAML to JSON Converter on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18875,7 +18875,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this YAML Validator tool free to use?",
-        "a": "Yes, YAML Validator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, YAML Validator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18915,7 +18915,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this YAML Validator & Editor tool free to use?",
-        "a": "Yes, YAML Validator & Editor on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, YAML Validator & Editor on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18953,7 +18953,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Yankee Swap Rules tool free to use?",
-        "a": "Yes, Yankee Swap Rules on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Yankee Swap Rules on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -18995,7 +18995,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Yes or No Wheel tool free to use?",
-        "a": "Yes, Yes or No Wheel on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Yes or No Wheel on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -19033,7 +19033,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this YML to JSON tool free to use?",
-        "a": "Yes, YML to JSON on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, YML to JSON on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -19071,7 +19071,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this YouTube Thumbnail Downloader tool free to use?",
-        "a": "Yes, YouTube Thumbnail Downloader on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, YouTube Thumbnail Downloader on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -19113,7 +19113,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this YouTube Thumbnail Grabber tool free to use?",
-        "a": "Yes, YouTube Thumbnail Grabber on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, YouTube Thumbnail Grabber on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -19154,7 +19154,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Z-Score Calculator tool free to use?",
-        "a": "Yes, Z-Score Calculator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Z-Score Calculator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",
@@ -19193,7 +19193,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "faqs": [
       {
         "q": "Is this Zalgo Text Generator tool free to use?",
-        "a": "Yes, Zalgo Text Generator on Digital ToolPad is 100% free with no hidden fees, subscriptions, or limits."
+        "a": "Yes, Zalgo Text Generator on Rechnuvio is 100% free with no hidden fees, subscriptions, or limits."
       },
       {
         "q": "Is my data safe and private?",

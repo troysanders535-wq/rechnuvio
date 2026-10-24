@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { pageAlternates, OG_IMAGE } from "@/lib/brand";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, Calendar, Clock, ShieldCheck } from "lucide-react";
@@ -22,11 +23,20 @@ export async function generateMetadata({
 }: BlogPostPageProps): Promise<Metadata> {
   const { slug } = await params;
   const post = BLOG_POSTS.find((p) => p.slug === slug);
-  if (!post) return { title: "Article Not Found | Digital ToolPad" };
+  if (!post) return { title: "Artikel nicht gefunden", robots: { index: false } };
 
   return {
-    title: `${post.title} | Digital ToolPad Blog`,
+    title: post.title,
     description: post.excerpt,
+    alternates: pageAlternates(`/blog/${post.slug}`),
+    openGraph: {
+      type: "article",
+      title: post.title,
+      description: post.excerpt,
+      url: `https://rechnuvio.de/blog/${post.slug}`,
+      siteName: "Rechnuvio",
+      images: [OG_IMAGE],
+    },
   };
 }
 
@@ -82,7 +92,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
         <h2>Zero-Upload Execution Model</h2>
         <p>
-          Digital ToolPad’s execution model eliminates the intermediary server entirely. By orchestrating WebAssembly runtimes, compiled ECMAScript parsing algorithms, and native DOM APIs inside an isolated browser thread, transformations execute in sub-millisecond timeframes with zero telemetry leakage.
+          Rechnuvio’s execution model eliminates the intermediary server entirely. By orchestrating WebAssembly runtimes, compiled ECMAScript parsing algorithms, and native DOM APIs inside an isolated browser thread, transformations execute in sub-millisecond timeframes with zero telemetry leakage.
         </p>
 
         <div className="rounded-2xl border border-sky-200 bg-sky-50/60 p-6 dark:border-sky-900/60 dark:bg-sky-950/40">

@@ -1,5 +1,44 @@
 @import "tailwindcss";
 
+/* Rechnuvio brand theme: the existing sky/indigo accent classes now render in Königsblau. */
+@theme {
+  --font-sans: var(--font-source-sans), "Segoe UI", Roboto, Arial, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, Menlo, Consolas, monospace;
+  --font-display: var(--font-schibsted), "Helvetica Neue", Arial, sans-serif;
+  --color-sky-50: #eef2fc;
+  --color-sky-100: #dde4f8;
+  --color-sky-200: #bccaf1;
+  --color-sky-300: #93a8e7;
+  --color-sky-400: #6683dc;
+  --color-sky-500: #4565db;
+  --color-sky-600: #2f4fc4;
+  --color-sky-700: #2444b3;
+  --color-sky-800: #1e3fa6;
+  --color-sky-900: #1a3485;
+  --color-sky-950: #121f52;
+  --color-indigo-50: #eef2fc;
+  --color-indigo-100: #dde4f8;
+  --color-indigo-200: #bccaf1;
+  --color-indigo-300: #93a8e7;
+  --color-indigo-400: #6683dc;
+  --color-indigo-500: #4565db;
+  --color-indigo-600: #2f4fc4;
+  --color-indigo-700: #2444b3;
+  --color-indigo-800: #1e3fa6;
+  --color-indigo-900: #1a3485;
+  --color-indigo-950: #121f52;
+  --color-koenigsblau: #1e3fa6;
+  --color-textmarker: #ffd83d;
+  --color-rotstift: #c8312a;
+}
+
+@layer base {
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+}
+
 @layer base {
   :root {
     --background: 255 255 255;
