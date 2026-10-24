@@ -903,8 +903,8 @@
         "metricKgCm": "Metrisch (kg/cm)",
         "imperialLbsIn": "Angloamerikanisch (lbs/in)",
         "biologicalSex": "Biologisches Geschlecht",
-        "weight": "Gewicht (",
-        "height": "Größe (",
+        "weight": "Gewicht ({unit})",
+        "height": "Größe ({unit})",
         "inches": "Zoll"
       },
       "ImageSuiteEngine": {

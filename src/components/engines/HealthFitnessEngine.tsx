@@ -235,7 +235,7 @@ export function HealthFitnessEngine({ slug }: HealthFitnessEngineProps) {
 
         <div>
           <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-            {tUi("weight")}{unit === "metric" ? "kg" : "lbs"}
+            {tUi("weight", { unit: unit === "metric" ? "kg" : "lbs" })}
           </label>
           <input
             type="number"
@@ -251,7 +251,7 @@ export function HealthFitnessEngine({ slug }: HealthFitnessEngineProps) {
 
         <div>
           <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-            {tUi("height")}{unit === "metric" ? "cm" : tUi("inches")}
+            {tUi("height", { unit: unit === "metric" ? "cm" : tUi("inches") })}
           </label>
           <input
             type="number"

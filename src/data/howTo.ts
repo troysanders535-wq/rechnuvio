@@ -55,7 +55,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "adult-bmi-calculator": [
   "Open the **Adult BMI Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -373,7 +373,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "bmi-calculator": [
   "Open the **BMI Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -381,7 +381,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "bmi-calculator-for-women": [
   "Open the **BMI Calculator for Women** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -395,7 +395,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "bmr-calculator": [
   "Open the **BMR Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -447,7 +447,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "carb-calculator": [
   "Open the **Carb Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -1596,7 +1596,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "macro-calculator": [
   "Open the **Macro Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -1610,7 +1610,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "maintenance-calorie-calculator": [
   "Open the **Maintenance Calorie Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -2304,7 +2304,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "protein-calculator": [
   "Open the **Protein Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -2875,7 +2875,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "tdee-calculator": [
   "Open the **TDEE Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -3522,7 +3522,7 @@ export const HOW_TO_DE: Record<string, string[]> =
  ],
  "adult-bmi-calculator": [
   "Öffnen Sie oben den Arbeitsbereich **BMI-Rechner für Erwachsene**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -3842,7 +3842,7 @@ export const HOW_TO_DE: Record<string, string[]> =
  ],
  "bmi-calculator": [
   "Öffnen Sie oben den Arbeitsbereich **BMI-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -3850,7 +3850,7 @@ export const HOW_TO_DE: Record<string, string[]> =
  ],
  "bmi-calculator-for-women": [
   "Öffnen Sie oben den Arbeitsbereich **BMI-Rechner für Frauen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -3864,7 +3864,7 @@ export const HOW_TO_DE: Record<string, string[]> =
  ],
  "bmr-calculator": [
   "Öffnen Sie oben den Arbeitsbereich **Grundumsatz-Rechner (BMR)**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -3916,7 +3916,7 @@ export const HOW_TO_DE: Record<string, string[]> =
  ],
  "carb-calculator": [
   "Öffnen Sie oben den Arbeitsbereich **Kohlenhydrate-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5068,7 +5068,7 @@ export const HOW_TO_DE: Record<string, string[]> =
  ],
  "macro-calculator": [
   "Öffnen Sie oben den Arbeitsbereich **Makronährstoff-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5082,7 +5082,7 @@ export const HOW_TO_DE: Record<string, string[]> =
  ],
  "maintenance-calorie-calculator": [
   "Öffnen Sie oben den Arbeitsbereich **Kalorienbedarf-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5788,7 +5788,7 @@ export const HOW_TO_DE: Record<string, string[]> =
  ],
  "protein-calculator": [
   "Öffnen Sie oben den Arbeitsbereich **Proteinbedarf-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6360,7 +6360,7 @@ export const HOW_TO_DE: Record<string, string[]> =
  ],
  "tdee-calculator": [
   "Öffnen Sie oben den Arbeitsbereich **Gesamtumsatz-Rechner (TDEE)**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
