@@ -3033,7 +3033,9 @@
           "probabilityIntro": "Two six-sided dice have 36 equally likely outcomes. These are the chances of every sum.",
           "sumHeader": "Sum",
           "combinationsHeader": "Combinations",
-          "chanceHeader": "Chance"
+          "chanceHeader": "Chance",
+          "customSides": "Custom sides",
+          "customSidesHint": "Roll a die with any number of sides between 2 and 1000 - the die is rolled as soon as you change the number."
         },
         "bingo": {
           "generator": {
@@ -3319,7 +3321,14 @@
               "4": "Travel",
               "5": "Donations",
               "6": "Wrapping material"
-            }
+            },
+            "totalsHint": "Planned so far is what you have spent or set aside. Still available is what you can still buy.",
+            "peopleTitle": "Split the budget per person",
+            "peopleSource": "People (one per line)",
+            "peopleHint": "Every name of the list gets the same amount.",
+            "amountPerPerson": "Amount per person",
+            "peopleTotal": "The {people} people need {amount} in total.",
+            "peopleOverBudget": "The people need {needed}, but the budget is only {budget}."
           }
         },
         "names": {
@@ -3457,14 +3466,25 @@
             "title": "Random Group Generator",
             "subtitle": "Split a list of names into equal groups.",
             "create": "Create the groups",
-            "groupName": "Group {number}"
+            "groupName": "Group {number}",
+            "summary": "{count} groups"
           },
           "teams": {
             "title": "Random Team Generator",
             "subtitle": "Split a list of names into teams with names.",
             "create": "Create the teams",
-            "teamName": "Team {letter}"
-          }
+            "teamName": "Team {letter}",
+            "amount": "Number of teams",
+            "hint": "Every name lands in exactly one team.",
+            "summary": "{count} teams",
+            "sizeLabel": "Split the teams by",
+            "sizeByCount": "Number of teams",
+            "sizeByPerTeam": "Players per team",
+            "playersPerTeam": "Players per team",
+            "derivedTeams": "That makes {teams} teams for {people} names."
+          },
+          "duplicatesWarning": "{count} names are in the list more than once ({names}). Every line is dealt once, so check the list before you use it.",
+          "exportCsv": "Export CSV"
         },
         "misc": {
           "number": {

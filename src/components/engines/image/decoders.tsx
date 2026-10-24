@@ -4,9 +4,10 @@
  * The workspaces that read a file format the browser cannot open itself.
  *
  * The Photoshop and the TIFF file are decoded here, in the browser. The HEIC
- * file cannot be decoded by the browsers this site runs in: the tool says so
- * and shows what the container holds. The Illustrator file is a PDF in
- * disguise and is rendered with PDF.js.
+ * file cannot be decoded by the browsers this site runs in: the tool says so,
+ * shows what the container holds and offers no file, because a notice is not
+ * a photo. The Illustrator file is a PDF in disguise and is rendered with
+ * PDF.js.
  */
 
 import React, { useCallback, useRef, useState } from "react";
@@ -234,6 +235,7 @@ export function TiffView({ title, subtitle }: { title: string; subtitle: string 
 export function HeicView() {
   const t = useImageT();
   const [preview, setPreview] = useState<string | null>(null);
+  const [loaded, setLoaded] = useState(false);
   const [brand, setBrand] = useState("");
   const [compatible, setCompatible] = useState<string[]>([]);
   const [size, setSize] = useState({ width: 0, height: 0 });
@@ -245,12 +247,14 @@ export function HeicView() {
     async (file: File) => {
       setError(null);
       setDecoded(false);
+      setPreview(null);
       try {
         const bytes = await fileToBytes(file);
         const info = parseHeif(bytes);
         setBrand(info.brand);
         setCompatible(info.compatibleBrands);
         setSize({ width: info.width || 0, height: info.height || 0 });
+        setLoaded(true);
 
         // The browser may still be able to show the picture.
         const url = URL.createObjectURL(file);
@@ -267,23 +271,35 @@ export function HeicView() {
             ctx.drawImage(img, 0, 0);
             setPreview(canvas.toDataURL("image/png"));
             setDecoded(true);
-            window.setTimeout(() => URL.revokeObjectURL(url), 2000);
-            return;
           }
         } catch {
-          /* the browser cannot decode HEIC, the placeholder is used */
+          /*
+           * The browser cannot decode HEIC. There is no picture to export
+           * then, and a notice is not a photo: the tool says so instead of
+           * handing out a file that only shows the message.
+           */
         }
         window.setTimeout(() => URL.revokeObjectURL(url), 2000);
-        setPreview(makePlaceholder(info.brand || "HEIC", file.name));
       } catch (err) {
+        setLoaded(false);
         setError(err instanceof Error ? err.message : String(err));
       }
     },
     [],
   );
 
+  const reset = () => {
+    setLoaded(false);
+    setPreview(null);
+    setDecoded(false);
+    setBrand("");
+    setCompatible([]);
+    setSize({ width: 0, height: 0 });
+    setError(null);
+  };
+
   const handleDownload = async () => {
-    if (!preview) return;
+    if (!decoded || !preview) return;
     const img = new Image();
     await new Promise<void>((resolve, reject) => {
       img.onload = () => resolve();
@@ -304,7 +320,7 @@ export function HeicView() {
 
   return (
     <Panel title={t("heicTitle")} subtitle={t("heicSubtitle")}>
-      {!preview ? (
+      {!loaded ? (
         <div className="space-y-3">
           <FilePicker
             accept=".heic,.heif,image/heic,image/heif"
@@ -318,18 +334,20 @@ export function HeicView() {
       ) : (
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
           <div className="space-y-4">
-            <Field label={t("targetFormat")}>
-              <Select
-                value={format}
-                onChange={(next) => setFormat(next as OutputFormat)}
-                options={[
-                  { value: "image/jpeg", label: t("formatJpeg") },
-                  { value: "image/png", label: t("formatPng") },
-                  { value: "image/webp", label: t("formatWebp") },
-                ]}
-                ariaLabel={t("targetFormat")}
-              />
-            </Field>
+            {decoded ? (
+              <Field label={t("targetFormat")}>
+                <Select
+                  value={format}
+                  onChange={(next) => setFormat(next as OutputFormat)}
+                  options={[
+                    { value: "image/jpeg", label: t("formatJpeg") },
+                    { value: "image/png", label: t("formatPng") },
+                    { value: "image/webp", label: t("formatWebp") },
+                  ]}
+                  ariaLabel={t("targetFormat")}
+                />
+              </Field>
+            ) : null}
             <DataList
               items={[
                 { label: t("heicBrand"), value: brand || "—" },
@@ -343,50 +361,31 @@ export function HeicView() {
                 },
               ]}
             />
-            <DownloadButton onClick={handleDownload} label={t("downloadImage")} />
-            <GhostButton onClick={() => setPreview(null)}>{t("newPicture")}</GhostButton>
+            {decoded ? (
+              <DownloadButton onClick={handleDownload} label={t("downloadImage")} />
+            ) : null}
+            <GhostButton onClick={reset}>{t("newPicture")}</GhostButton>
+            {error ? <ErrorNote>{error}</ErrorNote> : null}
           </div>
           <div className="col-span-2 flex flex-col items-center justify-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-950">
-            <img
-              src={preview}
-              alt={t("livePreview")}
-              className="max-h-[360px] max-w-full rounded-xl border border-slate-200 bg-white shadow-md dark:border-slate-700"
-            />
+            {preview ? (
+              <img
+                src={preview}
+                alt={t("livePreview")}
+                className="max-h-[360px] max-w-full rounded-xl border border-slate-200 bg-white shadow-md dark:border-slate-700"
+              />
+            ) : null}
             {decoded ? (
               <Note tone="ok">{t("heicDecoded")}</Note>
             ) : (
               <Note tone="warn">{t("heicCannotDecode")}</Note>
             )}
+            {decoded ? null : <Note>{t("heicConvertFirst")}</Note>}
           </div>
         </div>
       )}
     </Panel>
   );
-}
-
-/** A picture that says plainly that the file could not be decoded. */
-function makePlaceholder(brand: string, fileName: string): string {
-  const canvas = makeCanvas(640, 400);
-  const ctx = canvas.getContext("2d");
-  if (!ctx) return "";
-  ctx.fillStyle = "#0f172a";
-  ctx.fillRect(0, 0, canvas.width, canvas.height);
-  ctx.fillStyle = "#38bdf8";
-  ctx.fillRect(40, 60, 90, 8);
-  ctx.fillStyle = "#f8fafc";
-  ctx.font = "700 44px Arial, Helvetica, sans-serif";
-  ctx.textBaseline = "top";
-  ctx.fillText(`${brand} cannot be decoded here`, 40, 110);
-  ctx.font = "400 24px Arial, Helvetica, sans-serif";
-  ctx.fillStyle = "#94a3b8";
-  ctx.fillText("This browser has no HEIC decoder.", 40, 190);
-  ctx.fillText(fileName, 40, 240);
-  ctx.fillText(
-    "The exported JPEG shows this notice instead of the picture.",
-    40,
-    290,
-  );
-  return canvas.toDataURL("image/png");
 }
 
 /* ---------------------------------------------------------------------- AI -- */

@@ -6,6 +6,7 @@ import { Dices, Download, Plus, RefreshCw, Trash2 } from "lucide-react";
 import {
   RandPanel,
   cryptoRandomInt,
+  downloadCsv,
   randGhostButtonClass,
   randInputClass,
   randPrimaryButtonClass,
@@ -18,6 +19,10 @@ import {
 
 /** The dice sizes every die roller offers. */
 const DIE_SIZES = [4, 6, 8, 10, 12, 20, 100];
+
+/** The range of the die with a number of sides that is not one of the presets. */
+const CUSTOM_SIDES_MIN = 2;
+const CUSTOM_SIDES_MAX = 1000;
 
 /**
  * The chances of every sum of two six-sided dice.
@@ -51,6 +56,7 @@ export function DiceRollerView() {
   const t = useTranslations("ui.engines.randomizers");
 
   const [sides, setSides] = useState(20);
+  const [customSides, setCustomSides] = useState(20);
   const [count, setCount] = useState(1);
   const [modifier, setModifier] = useState(0);
   const [rolls, setRolls] = useState<number[]>([1]);
@@ -63,11 +69,32 @@ export function DiceRollerView() {
     return () => clearTimeout(timer);
   }, []);
 
-  const roll = () => {
+  /** Roll the given number of dice and keep the roll in the history. */
+  const rollWith = (dieSides: number) => {
     const amount = Math.min(Math.max(count, 1), 100);
-    const next = Array.from({ length: amount }, () => rollDie(sides));
+    const next = Array.from({ length: amount }, () => rollDie(dieSides));
     setRolls(next);
     setHistory((prev) => [next, ...prev].slice(0, 6));
+  };
+
+  const roll = () => {
+    rollWith(sides);
+  };
+
+  /**
+   * Use the die with the typed number of sides.
+   *
+   * The number is clamped like the other inputs of the roller, and the die is
+   * rolled right away, so the typed sides are the sides of the shown roll.
+   */
+  const rollCustomSides = (value: number) => {
+    const die = Math.min(
+      Math.max(Number(value) || CUSTOM_SIDES_MIN, CUSTOM_SIDES_MIN),
+      CUSTOM_SIDES_MAX,
+    );
+    setCustomSides(die);
+    setSides(die);
+    rollWith(die);
   };
 
   const total = rolls.reduce((sum, value) => sum + value + modifier, 0);
@@ -88,6 +115,7 @@ export function DiceRollerView() {
           <div
             data-testid="dice-face"
             data-value={rolls[0]}
+            data-sides={sides}
             className="grid size-28 place-items-center rounded-2xl border-2 border-slate-700 bg-slate-950 font-mono text-5xl font-extrabold text-emerald-400 shadow-xl"
           >
             {rolls[0]}
@@ -133,12 +161,8 @@ export function DiceRollerView() {
                   data-sides={size}
                   onClick={() => {
                     setSides(size);
-                    const next = Array.from(
-                      { length: Math.min(Math.max(count, 1), 100) },
-                      () => rollDie(size),
-                    );
-                    setRolls(next);
-                    setHistory((prev) => [next, ...prev].slice(0, 6));
+                    setCustomSides(size);
+                    rollWith(size);
                   }}
                   className={`rounded-lg px-3 py-1 text-xs font-semibold ${
                     sides === size
@@ -155,6 +179,23 @@ export function DiceRollerView() {
             </p>
           </fieldset>
 
+          <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
+            {t("dice.customSides")}
+            <input
+              type="number"
+              min={CUSTOM_SIDES_MIN}
+              max={CUSTOM_SIDES_MAX}
+              data-testid="dice-custom-sides"
+              data-sides={customSides}
+              value={customSides}
+              onChange={(event) => rollCustomSides(Number(event.target.value))}
+              className={`${randInputClass} mt-1.5`}
+            />
+            <span className="mt-1 block text-[11px] font-normal text-slate-500 dark:text-slate-400">
+              {t("dice.customSidesHint")}
+            </span>
+          </label>
+
           <div className="grid grid-cols-2 gap-3">
             <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
               {t("dice.numberOfDice")}
@@ -162,6 +203,7 @@ export function DiceRollerView() {
                 type="number"
                 min={1}
                 max={100}
+                data-testid="dice-count"
                 value={count}
                 onChange={(event) =>
                   setCount(Math.min(Math.max(Number(event.target.value) || 1, 1), 100))
@@ -372,15 +414,7 @@ export function RollTwoDiceView() {
     history.forEach((entry, index) => {
       rows.push(`${index + 1},${entry[0]},${entry[1]},${entry[0] + entry[1]}`);
     });
-    const blob = new Blob([`${rows.join("\n")}\n`], { type: "text/csv;charset=utf-8" });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = "two-dice-rolls.csv";
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
-    URL.revokeObjectURL(url);
+    downloadCsv("two-dice-rolls.csv", rows);
   };
 
   return (

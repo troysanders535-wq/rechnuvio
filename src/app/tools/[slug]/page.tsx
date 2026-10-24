@@ -4,7 +4,8 @@ import { notFound } from "next/navigation";
 import { TOOLS_CATALOG, getToolBySlug } from "@/data/tools";
 import { ToolShell } from "@/components/layout/ToolShell";
 import { EngineDispatcher } from "@/components/engines/EngineDispatcher";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, getLocale } from "next-intl/server";
+import { getLocalizedTool } from "@/utils/localizedTools";
 
 interface ToolPageProps {
   params: Promise<{
@@ -30,6 +31,10 @@ export async function generateMetadata({
     };
   }
 
+  const locale = await getLocale();
+  const localizedTool = getLocalizedTool(tool, locale);
+  const isGerman = locale.startsWith("de");
+
   const pathname = `/tools/${tool.slug}`;
   const enUrl = `https://www.digitaltoolpad.com${pathname}`;
   const deUrl = `https://de.digitaltoolpad.com${pathname}`;
@@ -37,7 +42,7 @@ export async function generateMetadata({
     languages: {
       en: enUrl,
       "de-DE": deUrl,
-      "x-default": enUrl,
+      "x-default": deUrl,
     },
   };
 
@@ -61,13 +66,15 @@ export async function generateMetadata({
     };
   }
 
+  const suffix = isGerman ? "Kostenloses Online-Browser-Tool" : "Free Online Browser Tool";
+
   return {
-    title: `${tool.name} - Free Online Browser Tool`,
-    description: tool.description,
+    title: `${localizedTool.name} - ${suffix}`,
+    description: localizedTool.description,
     keywords: tool.keywords,
     openGraph: {
-      title: `${tool.name} | Digital ToolPad`,
-      description: tool.description,
+      title: `${localizedTool.name} | Digital ToolPad`,
+      description: localizedTool.description,
       siteName: "Digital ToolPad",
       type: "website",
     },

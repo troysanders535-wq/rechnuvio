@@ -6,9 +6,11 @@ import { Check, Plus, Printer, Trash2 } from "lucide-react";
 import {
   RandPanel,
   printPage,
+  randAreaClass,
   randGhostButtonClass,
   randInputClass,
   randPrimaryButtonClass,
+  splitLines,
 } from "./shared";
 
 /**
@@ -292,9 +294,17 @@ export function ChristmasBudgetPlannerView() {
   const [amounts, setAmounts] = useState<number[]>(
     BUDGET_CATEGORIES.map(() => 0),
   );
+  const [people, setPeople] = useState("");
+  const [perPerson, setPerPerson] = useState(0);
 
   const spent = amounts.reduce((sum, value) => sum + (Number.isFinite(value) ? value : 0), 0);
   const left = budget - spent;
+
+  // The split per person: every name of the list gets the same amount, so
+  // the names of the people show what the gift for each of them costs.
+  const personList = splitLines(people);
+  const needed = personList.length * perPerson;
+  const overBudget = needed > budget;
 
   return (
     <RandPanel
@@ -332,6 +342,9 @@ export function ChristmasBudgetPlannerView() {
           >
             {t("seasonal.budget.left", { amount: `${left} ` })}
           </p>
+          <p className="text-[11px] text-slate-500 dark:text-slate-400">
+            {t("seasonal.budget.totalsHint")}
+          </p>
         </div>
 
         <ul className="space-y-2">
@@ -362,6 +375,83 @@ export function ChristmasBudgetPlannerView() {
           ))}
         </ul>
       </div>
+
+      <section
+        data-testid="budget-people"
+        className="rounded-xl border border-slate-200 bg-slate-50/70 p-4 dark:border-slate-700 dark:bg-slate-950/60"
+      >
+        <h3 className="text-sm font-bold text-slate-800 dark:text-slate-100">
+          {t("seasonal.budget.peopleTitle")}
+        </h3>
+        <div className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-[minmax(0,1fr)_12rem]">
+          <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
+            {t("seasonal.budget.peopleSource")}
+            <textarea
+              value={people}
+              data-testid="budget-people-source"
+              onChange={(event) => setPeople(event.target.value)}
+              rows={4}
+              className={`${randAreaClass} mt-1.5`}
+            />
+            <span className="mt-1 block text-[11px] font-normal text-slate-500 dark:text-slate-400">
+              {t("seasonal.budget.peopleHint")}
+            </span>
+          </label>
+          <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
+            {t("seasonal.budget.amountPerPerson")}
+            <input
+              type="number"
+              min={0}
+              data-testid="budget-per-person"
+              value={perPerson}
+              onChange={(event) => setPerPerson(Math.max(Number(event.target.value) || 0, 0))}
+              className={`${randInputClass} mt-1.5`}
+            />
+          </label>
+        </div>
+
+        {personList.length > 0 ? (
+          <div className="mt-3">
+            <ul className="grid grid-cols-1 gap-1 sm:grid-cols-2">
+              {personList.map((name, index) => (
+                <li
+                  key={`${name}-${index}`}
+                  data-testid="budget-person"
+                  data-name={name}
+                  data-share={perPerson}
+                  className="flex items-center justify-between rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs dark:border-slate-700 dark:bg-slate-900"
+                >
+                  <span className="text-slate-700 dark:text-slate-200">{name}</span>
+                  <span className="font-mono font-semibold text-slate-900 dark:text-slate-100">
+                    {perPerson}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <p
+              data-testid="budget-people-total"
+              data-amount={needed}
+              data-people={personList.length}
+              className="mt-2 text-xs font-semibold text-slate-700 dark:text-slate-300"
+            >
+              {t("seasonal.budget.peopleTotal", {
+                people: personList.length,
+                amount: needed,
+              })}
+            </p>
+            {overBudget ? (
+              <p
+                data-testid="budget-people-warning"
+                data-amount={needed}
+                data-budget={budget}
+                className="mt-1 text-xs font-bold text-rose-600 dark:text-rose-400"
+              >
+                {t("seasonal.budget.peopleOverBudget", { needed, budget })}
+              </p>
+            ) : null}
+          </div>
+        ) : null}
+      </section>
     </RandPanel>
   );
 }

@@ -60,11 +60,9 @@ set "MODE=%errorlevel%"
 echo.
 echo ---------------------------------------------------------------------
 echo Local URLs available once server starts:
-echo   - English Website:   http://localhost:3100
-echo   - German Website:    http://localhost:3100?locale=de
-echo   - English Domain:    http://en.localhost:3100
-echo   - German Domain:     http://de.localhost:3100
-echo   - 2026 Calendar DE:  http://localhost:3100/tools/2026-calendar?locale=de
+echo   - Deutsche Webseite (Standard): http://localhost:3100
+echo   - Kalender 2026 (DE):           http://localhost:3100/tools/2026-calendar
+echo   - English Website (Optional):   http://localhost:3100?locale=en
 echo ---------------------------------------------------------------------
 echo.
 

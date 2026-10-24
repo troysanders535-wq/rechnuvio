@@ -7,11 +7,11 @@ export function middleware(request: NextRequest) {
   const urlLocale = request.nextUrl.searchParams.get("locale");
   const cookieLocale = request.cookies.get("NEXT_LOCALE")?.value;
 
-  // Resolve locale based on query override, domain host, or cookie
+  // Resolve locale based on query override, domain host, or default German
   const locale = urlLocale
-    ? urlLocale === "de" || urlLocale === "de-DE"
-      ? "de-DE"
-      : "en"
+    ? urlLocale === "en"
+      ? "en"
+      : "de-DE"
     : getLocaleFromHost(host, cookieLocale);
 
   const requestHeaders = new Headers(request.headers);

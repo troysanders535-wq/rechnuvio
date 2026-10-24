@@ -213,6 +213,49 @@ async function downloadBuffer(page, testId, timeout = 20000) {
   return { text: Buffer.concat(chunks).toString("utf8"), name: download.suggestedFilename() };
 }
 
+/**
+ * The cells of one CSV line.
+ *
+ * A cell that holds a comma is quoted, so a line must not be read with a
+ * plain split: the quotes are read away and the doubled quotes of a quoted
+ * cell become a single quote.
+ */
+function csvCells(line) {
+  const cells = [];
+  let cell = "";
+  let quoted = false;
+  for (let index = 0; index < line.length; index += 1) {
+    const char = line[index];
+    if (quoted) {
+      if (char !== '"') {
+        cell += char;
+      } else if (line[index + 1] === '"') {
+        cell += '"';
+        index += 1;
+      } else {
+        quoted = false;
+      }
+    } else if (char === '"') {
+      quoted = true;
+    } else if (char === ",") {
+      cells.push(cell);
+      cell = "";
+    } else {
+      cell += char;
+    }
+  }
+  cells.push(cell);
+  return cells;
+}
+
+/** The rows of a CSV file: every line split into its cells. */
+function csvRows(text) {
+  return text
+    .trim()
+    .split("\n")
+    .map((line) => csvCells(line));
+}
+
 /** Wait until the workspace shows an element with the given test id. */
 async function waitForTestId(page, id, timeout = 20000) {
   await page.waitForSelector(`main [data-testid="${id}"]`, { timeout });
@@ -584,6 +627,39 @@ export function register() {
     );
     history = await testIdNodes(page, "dice-history-row");
     assertEqual(history.length, 2, "the history must hold one row per roll");
+
+    // The roller also takes a die with a number of sides that is not one of
+    // the presets: the typed number is the number of sides of the die.
+    await fillTestId(page, "dice-custom-sides", 7);
+    const custom = await testIdNode(page, "dice-face");
+    assertEqual(Number(custom["data-sides"]), 7, "the custom die must be the active die");
+    const customValue = Number(custom["data-value"]);
+    assert(
+      Number.isInteger(customValue) && customValue >= 1 && customValue <= 7,
+      `a die with 7 custom sides shows a value between 1 and 7, got ${JSON.stringify(customValue)}`,
+    );
+
+    // The custom sides are clamped like the other inputs of the roller.
+    await fillTestId(page, "dice-custom-sides", 5000);
+    const clamped = await testIdNode(page, "dice-face");
+    assertEqual(Number(clamped["data-sides"]), 1000, "the custom sides must be clamped to 1000");
+    await fillTestId(page, "dice-custom-sides", 1);
+    const low = await testIdNode(page, "dice-face");
+    assertEqual(Number(low["data-sides"]), 2, "a die needs at least two sides");
+
+    // The roller rolls up to 100 dice at once and keeps all of them in the
+    // history.
+    await fillTestId(page, "dice-count", 100);
+    await clickButton(page, "Roll Again");
+    await sleep(600);
+    const dice = await testIdNodes(page, "dice-value");
+    assertEqual(dice.length, 99, "a roll of 100 dice shows the first die and 99 more");
+    const rolls = await testIdNodes(page, "dice-history-row");
+    assertEqual(
+      Number(rolls[0]["data-count"]),
+      100,
+      "the history must hold all 100 dice of the roll",
+    );
   });
 
   toolSpec("dnd-dice-roller", "rolls the dice of a dice set", async (page) => {
@@ -1242,6 +1318,41 @@ export function register() {
       1000 - planned,
       "the remaining budget must be the budget minus the planned amount",
     );
+
+    // The budget can be split per person: every name of the list gets the
+    // same amount and the planner shows what the people need together.
+    await fillTestId(page, "budget-people-source", "Anna\nBen\nCleo");
+    await fillTestId(page, "budget-per-person", 100);
+    const people = await testIdNodes(page, "budget-person");
+    assertEqual(people.length, 3, "every name of the list must get a share");
+    assertEqual(Number(people[0]["data-share"]), 100, "the share of a person");
+    assertEqual(people[0]["data-name"], "Anna", "the first name of the list");
+    const needed = await testIdNode(page, "budget-people-total");
+    assert(needed, "the planner must show what the people need together");
+    assertEqual(Number(needed["data-amount"]), 300, "the amount the people need together");
+    assertEqual(Number(needed["data-people"]), 3, "the number of the people");
+
+    // The people need more than the budget: the planner has to say so.
+    await fillTestId(page, "budget-total", 200);
+    const warning = await testIdNode(page, "budget-people-warning");
+    assert(warning, "the planner must warn when the people need more than the budget");
+    assertEqual(Number(warning["data-amount"]), 300, "the amount the people need");
+    assertEqual(Number(warning["data-budget"]), 200, "the budget of the warning");
+
+    // With a budget that covers the people the warning is gone.
+    await fillTestId(page, "budget-total", 1000);
+    const gone = await testIdNode(page, "budget-people-warning");
+    assertEqual(gone, null, "the warning must be gone when the budget covers the people");
+
+    // The planned amounts of the categories still count.
+    const spentAgain = await testIdNode(page, "budget-spent");
+    assertEqual(Number(spentAgain["data-amount"]), planned, "the planned amount of the categories");
+    const leftAgain = await testIdNode(page, "budget-left");
+    assertEqual(
+      Number(leftAgain["data-amount"]),
+      1000 - planned,
+      "the remaining budget must be the budget minus the planned amount",
+    );
   });
 
   /* ---- the name generators ---------------------------------------------- */
@@ -1527,6 +1638,69 @@ export function register() {
       "random group generator",
     );
     await assertSplit(page, "random group generator", "Create the groups");
+
+    // The generator has to tell the user which names stand in the list more
+    // than once - before the split and after it.
+    const names = ["Ann", "Ben", "Ann", "Cleo", "Ben"];
+    await fillTestId(page, "split-source", names.join("\n"));
+    let warning = await testIdNode(page, "split-duplicate-warning");
+    assert(warning, "the group generator must warn about the names that occur twice");
+    assertEqual(
+      Number(warning["data-count"]),
+      2,
+      "the number of the names that occur more than once",
+    );
+    assertEqual(warning["data-names"], "Ann,Ben", "the names that occur more than once");
+    assert(warning["text"].length > 0, "the warning must have a readable text");
+
+    await clickButton(page, "Create the groups");
+    await sleep(400);
+    warning = await testIdNode(page, "split-duplicate-warning");
+    assert(warning, "the warning must still be there after the split");
+    assertEqual(
+      Number(warning["data-count"]),
+      2,
+      "the number of the names that occur more than once after the split",
+    );
+
+    // Every line is dealt once, so a repeated name shows up twice.
+    const items = await testIdNodes(page, "split-item");
+    assertEqual(items.length, names.length, "every line must be dealt once");
+    assertEqual(
+      items.filter((item) => item["data-name"] === "Ann").length,
+      2,
+      "a repeated name must be dealt once per line the user typed",
+    );
+
+    // The assignments are exported as a CSV file: a header, one row per name
+    // and the rows sorted by their group.
+    const csv = await downloadBuffer(page, "group-export-csv");
+    assert.match(csv.name, /\.csv$/, `the download should be named .csv, got ${csv.name}`);
+    const rows = csvRows(csv.text);
+    assertEqual(rows[0].join(","), "group,name", "the CSV starts with the group and the name");
+    assertEqual(rows.length - 1, names.length, "the CSV holds one row per name");
+    assertEqual(
+      rows
+        .slice(1)
+        .map((row) => row[1])
+        .sort()
+        .join("|"),
+      names.slice().sort().join("|"),
+      "the CSV must hold every name",
+    );
+    const groupNumbers = rows.slice(1).map((row) => Number(row[0]));
+    assert(
+      groupNumbers.every((number) => Number.isInteger(number) && number >= 1),
+      `every row of the CSV must name its group, it holds ${JSON.stringify(groupNumbers)}`,
+    );
+    assertEqual(
+      groupNumbers
+        .slice()
+        .sort((a, b) => a - b)
+        .join(","),
+      groupNumbers.join(","),
+      "the rows of the CSV must be sorted by their group",
+    );
   });
 
   toolSpec("random-team-generator", "splits the names into teams", async (page) => {
@@ -1537,6 +1711,80 @@ export function register() {
       "random team generator",
     );
     await assertSplit(page, "random team generator", "Create the teams");
+
+    // The teams can also be sized by the number of players that play in one
+    // team: the number of teams then follows the number of names.
+    const names = ["A", "B", "C", "D", "E", "F", "G", "H", "I"];
+    await fillTestId(page, "split-source", names.join("\n"));
+    await selectTestId(page, "split-sizing-mode", "perTeam");
+    await fillTestId(page, "split-amount", 3);
+    const derived = await testIdNode(page, "split-derived-teams");
+    assert(derived, "the team generator must show how many teams the players per team make");
+    assertEqual(
+      Number(derived["data-count"]),
+      Math.ceil(names.length / 3),
+      "the number of teams that follow from the players per team",
+    );
+
+    await clickButton(page, "Create the teams");
+    await sleep(400);
+    const teams = await page.evaluate(() =>
+      Array.from(document.querySelectorAll('main [data-testid="split-group"]')).map((group) => ({
+        index: Number(group.getAttribute("data-index")),
+        items: Array.from(group.querySelectorAll('[data-testid="split-item"]')).map(
+          (item) => item.getAttribute("data-name") || "",
+        ),
+      })),
+    );
+    assertEqual(
+      teams.length,
+      Math.ceil(names.length / 3),
+      "the number of teams must follow the players per team",
+    );
+    for (const team of teams) {
+      assert(
+        team.items.length <= 3,
+        `a team must hold at most 3 players, it holds ${team.items.length}`,
+      );
+    }
+    const all = teams.flatMap((team) => team.items);
+    assertEqual(all.length, names.length, "every name must land in a team");
+    assertEqual(
+      all.slice().sort().join("|"),
+      names.slice().sort().join("|"),
+      "the teams must hold the names that were entered",
+    );
+
+    // The teams are exported as a CSV file: a header, one row per name and
+    // the rows sorted by their team.
+    const csv = await downloadBuffer(page, "team-export-csv");
+    assert.match(csv.name, /\.csv$/, `the download should be named .csv, got ${csv.name}`);
+    const rows = csvRows(csv.text);
+    assertEqual(rows[0].join(","), "team,name", "the CSV starts with the team and the name");
+    assertEqual(rows.length - 1, names.length, "the CSV holds one row per name");
+    assertEqual(
+      rows
+        .slice(1)
+        .map((row) => row[1])
+        .sort()
+        .join("|"),
+      names.slice().sort().join("|"),
+      "the CSV must hold every name",
+    );
+    const teamLabels = rows.slice(1).map((row) => row[0]);
+    assertEqual(
+      teamLabels[0],
+      "A",
+      "the first row of the CSV must name the first team",
+    );
+    assertEqual(
+      teamLabels
+        .slice()
+        .sort()
+        .join(","),
+      teamLabels.join(","),
+      "the rows of the CSV must be sorted by their team",
+    );
   });
 
   /* ---- the remaining randomizers ---------------------------------------- */

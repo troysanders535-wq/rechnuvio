@@ -19,31 +19,29 @@ export const DE_DOMAINS = [
 
 export type AppLocale = "en" | "de-DE";
 
+export const DEFAULT_LOCALE: AppLocale = "de-DE";
+
 export function getLocaleFromHost(
   host?: string | null,
-  cookieLocale?: string | null
+  _cookieLocale?: string | null
 ): AppLocale {
-  if (cookieLocale === "de" || cookieLocale === "de-DE") return "de-DE";
-  if (cookieLocale === "en") return "en";
-  if (!host) return "en";
-
-  const clean = host.toLowerCase().split(":")[0];
-  if (
-    clean === "de.localhost" ||
-    clean.startsWith("de.") ||
-    clean.endsWith(".de")
-  ) {
-    return "de-DE";
-  }
-  if (
-    clean === "en.localhost" ||
-    clean.startsWith("en.") ||
-    clean.endsWith(".com")
-  ) {
-    return "en";
+  // If host explicitly specifies an English subdomain (en.localhost, en.example.com), use en
+  if (host) {
+    const clean = host.toLowerCase().split(":")[0];
+    if (clean === "en.localhost" || clean.startsWith("en.")) {
+      return "en";
+    }
+    if (
+      clean === "de.localhost" ||
+      clean.startsWith("de.") ||
+      clean.endsWith(".de")
+    ) {
+      return "de-DE";
+    }
   }
 
-  return "en";
+  // Default fallback for any host (localhost, Hostinger domain, IP, etc.) is German
+  return "de-DE";
 }
 
 export function getTargetUrlForLocale(
@@ -56,22 +54,36 @@ export function getTargetUrlForLocale(
 
   if (isDev) {
     const sub = targetLocale === "de-DE" ? "de" : "en";
-    return `http://${sub}.localhost${port}${pathname}`;
+    if (currentHost.startsWith("de.") || currentHost.startsWith("en.")) {
+      return `http://${sub}.localhost${port}${pathname}`;
+    }
+    const sep = pathname.includes("?") ? "&" : "?";
+    return `http://localhost${port}${pathname}${sep}locale=${targetLocale === "de-DE" ? "de" : "en"}`;
   }
 
-  const prodDomain =
-    targetLocale === "de-DE"
-      ? process.env.NEXT_PUBLIC_DE_DOMAIN || "de.digitaltoolpad.com"
-      : process.env.NEXT_PUBLIC_EN_DOMAIN || "www.digitaltoolpad.com";
+  const enDomain = process.env.NEXT_PUBLIC_EN_DOMAIN || process.env.EN_DOMAIN;
+  const deDomain = process.env.NEXT_PUBLIC_DE_DOMAIN || process.env.DE_DOMAIN;
 
-  return `https://${prodDomain}${pathname}`;
+  // If separate domains are explicitly configured, route across them:
+  if (enDomain && deDomain && enDomain !== deDomain) {
+    const prodDomain = targetLocale === "de-DE" ? deDomain : enDomain;
+    return `https://${prodDomain}${pathname}`;
+  }
+
+  // Single-domain fallback: stay on current host with query parameter
+  const base = currentHost.startsWith("http") ? currentHost : `https://${currentHost}`;
+  const sep = pathname.includes("?") ? "&" : "?";
+  return `${base}${pathname}${sep}locale=${targetLocale === "de-DE" ? "de" : "en"}`;
 }
 
 export function getCanonicalUrl(pathname: string, locale: string): string {
   const isGerman = locale === "de-DE" || locale === "de";
+  const enDomain = process.env.NEXT_PUBLIC_EN_DOMAIN || process.env.EN_DOMAIN;
+  const deDomain = process.env.NEXT_PUBLIC_DE_DOMAIN || process.env.DE_DOMAIN;
+
   const domain = isGerman
-    ? process.env.NEXT_PUBLIC_DE_DOMAIN || "https://de.digitaltoolpad.com"
-    : process.env.NEXT_PUBLIC_EN_DOMAIN || "https://www.digitaltoolpad.com";
+    ? (deDomain || "https://digitaltoolpad.com")
+    : (enDomain || "https://digitaltoolpad.com");
 
   const base = domain.startsWith("http") ? domain : `https://${domain}`;
   const cleanPath = pathname === "/" ? "" : pathname;
@@ -87,11 +99,11 @@ export function getAlternateHreflang(pathname: string) {
   const cleanPath = pathname === "/" ? "" : pathname;
 
   return {
-    canonical: `${enBase}${cleanPath}`,
+    canonical: `${deBase}${cleanPath}`,
     languages: {
       "en": `${enBase}${cleanPath}`,
       "de-DE": `${deBase}${cleanPath}`,
-      "x-default": `${enBase}${cleanPath}`,
+      "x-default": `${deBase}${cleanPath}`,
     },
   };
 }

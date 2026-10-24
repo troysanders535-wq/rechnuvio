@@ -1,0 +1,71 @@
+{
+  "namespace": "ui.engines.randomizers",
+  "en": {
+    "dice": {
+      "customSides": "Custom sides",
+      "customSidesHint": "Roll a die with any number of sides between 2 and 1000 - the die is rolled as soon as you change the number."
+    },
+    "lists": {
+      "duplicatesWarning": "{count} names are in the list more than once ({names}). Every line is dealt once, so check the list before you use it.",
+      "exportCsv": "Export CSV",
+      "groups": {
+        "summary": "{count} groups"
+      },
+      "teams": {
+        "amount": "Number of teams",
+        "hint": "Every name lands in exactly one team.",
+        "summary": "{count} teams",
+        "sizeLabel": "Split the teams by",
+        "sizeByCount": "Number of teams",
+        "sizeByPerTeam": "Players per team",
+        "playersPerTeam": "Players per team",
+        "derivedTeams": "That makes {teams} teams for {people} names."
+      }
+    },
+    "seasonal": {
+      "budget": {
+        "totalsHint": "Planned so far is what you have spent or set aside. Still available is what you can still buy.",
+        "peopleTitle": "Split the budget per person",
+        "peopleSource": "People (one per line)",
+        "peopleHint": "Every name of the list gets the same amount.",
+        "amountPerPerson": "Amount per person",
+        "peopleTotal": "The {people} people need {amount} in total.",
+        "peopleOverBudget": "The people need {needed}, but the budget is only {budget}."
+      }
+    }
+  },
+  "de": {
+    "dice": {
+      "customSides": "Eigene Seitenanzahl",
+      "customSidesHint": "Würfeln Sie einen Würfel mit beliebig vielen Seiten zwischen 2 und 1000 - gewürfelt wird, sobald Sie die Zahl ändern."
+    },
+    "lists": {
+      "duplicatesWarning": "{count} Namen stehen mehrfach in der Liste ({names}). Jede Zeile wird einmal verteilt - prüfen Sie die Liste, bevor Sie sie verwenden.",
+      "exportCsv": "CSV exportieren",
+      "groups": {
+        "summary": "{count} Gruppen"
+      },
+      "teams": {
+        "amount": "Anzahl der Teams",
+        "hint": "Jeder Name landet in genau einem Team.",
+        "summary": "{count} Teams",
+        "sizeLabel": "Teams aufteilen nach",
+        "sizeByCount": "Anzahl der Teams",
+        "sizeByPerTeam": "Spieler pro Team",
+        "playersPerTeam": "Spieler pro Team",
+        "derivedTeams": "Das ergibt {teams} Teams für {people} Namen."
+      }
+    },
+    "seasonal": {
+      "budget": {
+        "totalsHint": "„Bisher geplant“ ist, was Sie ausgegeben oder beiseitegelegt haben. „Noch verfügbar“ ist, was Sie noch kaufen können.",
+        "peopleTitle": "Das Budget pro Person aufteilen",
+        "peopleSource": "Personen (eine pro Zeile)",
+        "peopleHint": "Jeder Name der Liste bekommt denselben Betrag.",
+        "amountPerPerson": "Betrag pro Person",
+        "peopleTotal": "Die {people} Personen brauchen insgesamt {amount}.",
+        "peopleOverBudget": "Die Personen brauchen {needed}, das Budget beträgt aber nur {budget}."
+      }
+    }
+  }
+}

@@ -163,6 +163,51 @@ export function splitLines(value: string): string[] {
     .filter(Boolean);
 }
 
+/**
+ * The names that occur more than once in a list.
+ *
+ * The list generators never drop a repeated name: every line the user typed
+ * is dealt once. They only tell the user which names stand in the list more
+ * than once, so a typo is found before the split is used.
+ */
+export function findDuplicateNames(names: readonly string[]): string[] {
+  const counts = new Map<string, number>();
+  for (const name of names) counts.set(name, (counts.get(name) ?? 0) + 1);
+  return Array.from(counts.entries())
+    .filter(([, count]) => count > 1)
+    .map(([name]) => name);
+}
+
+/**
+ * One cell of a CSV file.
+ *
+ * A value that holds a comma, a quote or a line break has to be quoted, or
+ * the columns of the file would break apart.
+ */
+export function csvCell(value: string): string {
+  if (/[",\n\r]/.test(value)) return `"${value.replace(/"/g, '""')}"`;
+  return value;
+}
+
+/**
+ * Offer a CSV file to the browser.
+ *
+ * The family exports its lists the same way everywhere: the rows are joined
+ * with line breaks, the file is handed over to a temporary link and the
+ * object URL is revoked right after the click.
+ */
+export function downloadCsv(filename: string, rows: readonly string[]): void {
+  const blob = new Blob([`${rows.join("\n")}\n`], { type: "text/csv;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
 /** Open the browser print dialog, which can also save the page as a PDF. */
 export function printPage(): void {
   if (typeof window === "undefined") return;

@@ -30,15 +30,6 @@ function u16le(value: number): Uint8Array {
   return new Uint8Array([value & 0xff, (value >> 8) & 0xff]);
 }
 
-function u32be(value: number): Uint8Array {
-  return new Uint8Array([
-    (value >>> 24) & 0xff,
-    (value >>> 16) & 0xff,
-    (value >>> 8) & 0xff,
-    value & 0xff,
-  ]);
-}
-
 /* --------------------------------------------------------------------- ICO -- */
 
 export interface IcoEntry {
@@ -417,35 +408,292 @@ export function encodeGif(
 /* --------------------------------------------------------------------- MP4 -- */
 
 /**
- * Write an ISO base media file that carries pictures.
+ * The MP4 flavours a browser can record, in the order they are preferred.
  *
- * The file starts with an ftyp box, as every MP4 file does, and holds the
- * frames in an mdat box. The browser cannot encode H.264 video, so the frames
- * are stored as the JPEG pictures they are.
+ * The browser writes the container and the codec itself, so the file that
+ * comes out is a real MP4 that any player can open.
  */
-export function buildMp4Container(frames: Uint8Array[]): Uint8Array {
-  const box = (type: string, payload: Uint8Array) => {
-    const out = new Uint8Array(8 + payload.length);
-    out.set(u32be(out.length), 0);
-    out.set(asciiBytes(type), 4);
-    out.set(payload, 8);
-    return out;
-  };
+export const MP4_RECORD_TYPES = [
+  "video/mp4;codecs=avc1.42E01E,mp4a.40.2",
+  "video/mp4;codecs=avc1.42E01E",
+  "video/mp4",
+];
 
-  const ftyp = box(
-    "ftyp",
-    concatBytes([
-      asciiBytes("isom"),
-      u32be(512),
-      asciiBytes("isom"),
-      asciiBytes("iso2"),
-      asciiBytes("mp41"),
-    ]),
-  );
-  const mdat = box("mdat", concatBytes(frames));
-  const free = box("free", new Uint8Array(0));
-  return concatBytes([ftyp, mdat, free]);
+/** The first mime type of a list the browser can record, or null. */
+export function pickRecorderMimeType(candidates: string[]): string | null {
+  if (typeof MediaRecorder === "undefined") return null;
+  for (const candidate of candidates) {
+    try {
+      if (MediaRecorder.isTypeSupported(candidate)) return candidate;
+    } catch {
+      /* a candidate the browser refuses is simply skipped */
+    }
+  }
+  return null;
 }
+
+/** What a recording needs to know. */
+export interface CanvasRecordingOptions {
+  /** The canvas the recorder takes its picture from. */
+  canvas: HTMLCanvasElement;
+  /** The picture that is drawn into the canvas, frame by frame. */
+  source: CanvasImageSource;
+  /** How long the recording runs, in milliseconds. */
+  durationMs: number;
+  /** The frame rate of the captured stream. */
+  fps: number;
+  /** The mime type the recorder writes. */
+  mimeType: string;
+  /** Called with the progress of the recording, from 0 to 1. */
+  onProgress?: (progress: number) => void;
+  /** Asked before every frame whether the recording should stop. */
+  isCancelled?: () => boolean;
+}
+
+/** What a recording produced. */
+export interface CanvasRecording {
+  /** The recorded file. */
+  blob: Blob;
+  /** False when the recording was stopped before it was finished. */
+  completed: boolean;
+  /** The length of the recording in milliseconds. */
+  durationMs: number;
+}
+
+/**
+ * Record the picture of a canvas into a video file.
+ *
+ * The canvas is drawn frame by frame while the recorder writes the stream of
+ * the canvas, so the recording runs in real time and is as long as the
+ * picture it shows. The file is written by the browser: it holds the
+ * container and the codec of the browser, not a hand made box.
+ */
+export async function recordCanvas(
+  options: CanvasRecordingOptions,
+): Promise<CanvasRecording> {
+  const { canvas, source, durationMs, fps, mimeType } = options;
+  const ctx = canvas.getContext("2d");
+  if (!ctx) {
+    throw new Error("the browser cannot draw into a canvas");
+  }
+
+  const stream = canvas.captureStream(fps);
+  const recorder = new MediaRecorder(stream, { mimeType });
+  const chunks: Blob[] = [];
+  recorder.ondataavailable = (event) => {
+    if (event.data && event.data.size > 0) chunks.push(event.data);
+  };
+  const stopped = new Promise<void>((resolve) => {
+    recorder.onstop = () => resolve();
+  });
+
+  // The first picture is drawn before the recorder starts, so the stream does
+  // not open with an empty frame.
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.drawImage(source, 0, 0, canvas.width, canvas.height);
+  recorder.start(250);
+
+  const startedAt = performance.now();
+  let completed = false;
+  await new Promise<void>((resolve) => {
+    const draw = () => {
+      const elapsed = performance.now() - startedAt;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(source, 0, 0, canvas.width, canvas.height);
+      if (options.onProgress) {
+        options.onProgress(Math.min(1, elapsed / Math.max(1, durationMs)));
+      }
+      if (elapsed >= durationMs) {
+        completed = true;
+        resolve();
+        return;
+      }
+      if (options.isCancelled && options.isCancelled()) {
+        resolve();
+        return;
+      }
+      requestAnimationFrame(draw);
+    };
+    requestAnimationFrame(draw);
+  });
+
+  recorder.stop();
+  await stopped;
+  stream.getTracks().forEach((track) => track.stop());
+
+  return {
+    blob: new Blob(chunks, { type: mimeType }),
+    completed,
+    durationMs,
+  };
+}
+
+/* ---------------------------------------------------------------------- GIF -- */
+
+/** What a GIF file holds. */
+export interface GifInfo {
+  width: number;
+  height: number;
+  /** The delay of every frame, in milliseconds. */
+  frameDelaysMs: number[];
+  /** How often the animation repeats; 0 means it repeats for ever. */
+  loopCount: number;
+}
+
+/**
+ * Read a GIF file.
+ *
+ * The header gives the size of the picture, the graphic control extension
+ * before a frame carries its delay in hundredths of a second and the
+ * application extension carries the loop count.
+ */
+export function parseGif(bytes: Uint8Array): GifInfo {
+  const info: GifInfo = {
+    width: 0,
+    height: 0,
+    frameDelaysMs: [],
+    loopCount: 0,
+  };
+  if (bytes.length < 13) return info;
+  const signature = String.fromCharCode(
+    bytes[0],
+    bytes[1],
+    bytes[2],
+    bytes[3],
+    bytes[4],
+    bytes[5],
+  );
+  if (signature !== "GIF87a" && signature !== "GIF89a") return info;
+
+  const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+  info.width = view.getUint16(6, true);
+  info.height = view.getUint16(8, true);
+  const packed = bytes[10];
+
+  let at = 13;
+  if (packed & 0x80) {
+    at += 3 * (1 << ((packed & 0x07) + 1)); // the global colour table
+  }
+
+  let delayMs = 0;
+  while (at < bytes.length) {
+    const marker = bytes[at];
+    if (marker === 0x3b) break; // the trailer ends the file
+    if (marker === 0x21) {
+      const label = bytes[at + 1];
+      if (label === 0xf9 && at + 6 < bytes.length) {
+        delayMs = view.getUint16(at + 4, true) * 10; // hundredths of a second
+      }
+      if (label === 0xff && at + 18 <= bytes.length) {
+        const name = String.fromCharCode(
+          ...Array.from(bytes.subarray(at + 3, at + 14)),
+        );
+        if (name.startsWith("NETSCAPE")) {
+          info.loopCount = view.getUint16(at + 16, true);
+        }
+      }
+      at += 2;
+      // The sub blocks of the extension follow, each with its own length.
+      while (at < bytes.length && bytes[at] !== 0) at += bytes[at] + 1;
+      at += 1;
+      continue;
+    }
+    if (marker === 0x2c) {
+      info.frameDelaysMs.push(delayMs);
+      delayMs = 0;
+      const framePacked = bytes[at + 9];
+      at += 10;
+      if (framePacked & 0x80) {
+        at += 3 * (1 << ((framePacked & 0x07) + 1)); // the local colour table
+      }
+      at += 1; // the minimum code size of the LZW stream
+      while (at < bytes.length && bytes[at] !== 0) at += bytes[at] + 1;
+      at += 1;
+      continue;
+    }
+    at += 1;
+  }
+
+  return info;
+}
+
+/* --------------------------------------------------------------------- WEBP -- */
+
+/** What a WebP file holds. */
+export interface WebPInfo {
+  /** True when the file carries an animation. */
+  animated: boolean;
+  /** The delay of every frame of the animation, in milliseconds. */
+  frameDelaysMs: number[];
+  /** The size of the canvas, when the file states it. */
+  width: number;
+  height: number;
+  /** How often the animation repeats; 0 means it repeats for ever. */
+  loopCount: number;
+}
+
+/** The three byte little endian number of the WebP container. */
+function u24le(bytes: Uint8Array, at: number): number {
+  return bytes[at] | (bytes[at + 1] << 8) | (bytes[at + 2] << 16);
+}
+
+/**
+ * Read a WebP file.
+ *
+ * A WebP file is a RIFF container: "RIFF", the size of the file, "WEBP" and
+ * then the chunks of the format. An animated WebP carries a "VP8X" chunk
+ * with the animation flag, an "ANIM" chunk with the loop count and one "ANMF"
+ * chunk per frame. The delay of a frame is the three byte number at the
+ * twelfth byte of its chunk, in milliseconds.
+ */
+export function parseWebP(bytes: Uint8Array): WebPInfo {
+  const info: WebPInfo = {
+    animated: false,
+    frameDelaysMs: [],
+    width: 0,
+    height: 0,
+    loopCount: 0,
+  };
+  if (bytes.length < 12) return info;
+  if (
+    String.fromCharCode(bytes[0], bytes[1], bytes[2], bytes[3]) !== "RIFF" ||
+    String.fromCharCode(bytes[8], bytes[9], bytes[10], bytes[11]) !== "WEBP"
+  ) {
+    return info;
+  }
+
+  const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+  let at = 12;
+  while (at + 8 <= bytes.length) {
+    const type = String.fromCharCode(
+      bytes[at],
+      bytes[at + 1],
+      bytes[at + 2],
+      bytes[at + 3],
+    );
+    const size = view.getUint32(at + 4, true);
+    const body = at + 8;
+    if (body + size > bytes.length) break;
+    if (type === "VP8X" && size >= 10) {
+      info.animated = (bytes[body] & 0x10) !== 0;
+      info.width = u24le(bytes, body + 4) + 1;
+      info.height = u24le(bytes, body + 7) + 1;
+    }
+    if (type === "ANIM" && size >= 6) {
+      info.loopCount = view.getUint16(body + 4, true);
+    }
+    if (type === "ANMF" && size >= 16) {
+      info.frameDelaysMs.push(u24le(bytes, body + 12));
+    }
+    // Every chunk is padded to an even number of bytes.
+    at = body + size + (size % 2);
+  }
+
+  // A file that carries frame chunks is an animation, whatever its flags say.
+  if (info.frameDelaysMs.length) info.animated = true;
+  return info;
+}
+
 
 /* -------------------------------------------------------------------- EXIF -- */
 

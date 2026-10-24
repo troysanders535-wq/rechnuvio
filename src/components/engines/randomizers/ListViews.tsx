@@ -2,13 +2,18 @@
 
 import React, { useState } from "react";
 import { useTranslations } from "next-intl";
-import { ListOrdered, Shuffle, Users } from "lucide-react";
+import { Download, ListOrdered, Shuffle, Users } from "lucide-react";
 import {
   RandPanel,
   cryptoShuffle,
+  csvCell,
+  downloadCsv,
+  findDuplicateNames,
   randAreaClass,
+  randGhostButtonClass,
   randInputClass,
   randPrimaryButtonClass,
+  randSelectClass,
 } from "./shared";
 
 /**
@@ -103,6 +108,9 @@ function teamLetter(index: number): string {
   return String.fromCharCode(65 + index);
 }
 
+/** How the size of the teams is chosen. */
+type Sizing = "count" | "perTeam";
+
 /** The group and the team generator. */
 export function SplitWorkspace({
   mode,
@@ -113,12 +121,24 @@ export function SplitWorkspace({
 
   const [text, setText] = useState("");
   const [amount, setAmount] = useState(2);
+  const [sizing, setSizing] = useState<Sizing>("count");
+  const [perTeam, setPerTeam] = useState(3);
   const [groups, setGroups] = useState<string[][] | null>(null);
 
+  const names = readLines(text);
+  const duplicates = findDuplicateNames(names);
+
+  // In the "players per team" mode the number of teams follows the number of
+  // names: as many teams as it takes to hold everybody.
+  const derivedTeams = Math.max(1, Math.ceil(names.length / Math.max(1, perTeam)));
+
   const split = () => {
-    const list = cryptoShuffle(readLines(text));
+    const list = cryptoShuffle(names);
     if (list.length === 0) return;
-    const count = Math.min(Math.max(amount, 2), Math.max(list.length, 2));
+    const count =
+      mode === "team" && sizing === "perTeam"
+        ? Math.max(1, Math.ceil(list.length / Math.max(1, perTeam)))
+        : Math.min(Math.max(amount, 2), Math.max(list.length, 2));
     const buckets: string[][] = Array.from({ length: count }, () => []);
     list.forEach((entry, index) => {
       buckets[index % count].push(entry);
@@ -126,8 +146,34 @@ export function SplitWorkspace({
     setGroups(buckets);
   };
 
+  /** The assignments as a CSV file: one row per name, sorted by group. */
+  const exportCsv = () => {
+    if (!groups) return;
+    const rows = [mode === "group" ? "group,name" : "team,name"];
+    groups.forEach((bucket, index) => {
+      const label = mode === "group" ? String(index + 1) : teamLetter(index);
+      bucket.forEach((name) => {
+        rows.push(`${csvCell(label)},${csvCell(name)}`);
+      });
+    });
+    downloadCsv(mode === "group" ? "groups.csv" : "teams.csv", rows);
+  };
+
   const titleKey = mode === "group" ? "lists.groups.title" : "lists.teams.title";
   const subtitleKey = mode === "group" ? "lists.groups.subtitle" : "lists.teams.subtitle";
+
+  // The groups are sized by their number, the teams either by their number
+  // or by the number of players that play in one team.
+  const perPlayer = mode === "team" && sizing === "perTeam";
+  const sizeValue = perPlayer ? perTeam : amount;
+  const sizeMin = perPlayer ? 1 : 2;
+  const sizeMax = perPlayer ? 100 : 32;
+  const sizeLabel =
+    mode === "group"
+      ? t("lists.amount")
+      : perPlayer
+        ? t("lists.teams.playersPerTeam")
+        : t("lists.teams.amount");
 
   return (
     <RandPanel
@@ -158,27 +204,105 @@ export function SplitWorkspace({
               className={`${randAreaClass} mt-1.5`}
             />
             <span className="mt-1 block text-[11px] font-normal text-slate-500 dark:text-slate-400">
-              {t("lists.hint")}
+              {mode === "group" ? t("lists.hint") : t("lists.teams.hint")}
             </span>
           </label>
+
+          {duplicates.length > 0 ? (
+            <p
+              data-testid="split-duplicate-warning"
+              data-count={duplicates.length}
+              data-names={duplicates.join(",")}
+              className="rounded-lg border border-amber-300 bg-amber-50 px-3 py-2 text-[11px] text-amber-800 dark:border-amber-700 dark:bg-amber-950/50 dark:text-amber-200"
+            >
+              {t("lists.duplicatesWarning", {
+                count: duplicates.length,
+                names: duplicates.join(", "),
+              })}
+            </p>
+          ) : null}
+
+          {mode === "team" ? (
+            <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
+              {t("lists.teams.sizeLabel")}
+              <select
+                value={sizing}
+                data-testid="split-sizing-mode"
+                onChange={(event) =>
+                  setSizing(event.target.value === "perTeam" ? "perTeam" : "count")
+                }
+                className={`${randSelectClass} mt-1.5 w-full`}
+              >
+                <option value="count">{t("lists.teams.sizeByCount")}</option>
+                <option value="perTeam">{t("lists.teams.sizeByPerTeam")}</option>
+              </select>
+            </label>
+          ) : null}
+
           <label className="flex items-center gap-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
-            {t("lists.amount")}
+            {sizeLabel}
             <input
               type="number"
-              min={2}
-              max={32}
+              min={sizeMin}
+              max={sizeMax}
               data-testid="split-amount"
-              value={amount}
-              onChange={(event) => setAmount(Math.min(Math.max(Number(event.target.value) || 2, 2), 32))}
+              data-mode={perPlayer ? "perTeam" : "count"}
+              value={sizeValue}
+              onChange={(event) => {
+                const value = Math.min(
+                  Math.max(Number(event.target.value) || sizeMin, sizeMin),
+                  sizeMax,
+                );
+                if (perPlayer) setPerTeam(value);
+                else setAmount(value);
+              }}
               className={`${randInputClass} w-24`}
             />
           </label>
+
+          {perPlayer && names.length > 0 ? (
+            <p
+              data-testid="split-derived-teams"
+              data-count={derivedTeams}
+              className="text-[11px] text-slate-500 dark:text-slate-400"
+            >
+              {t("lists.teams.derivedTeams", {
+                people: names.length,
+                teams: derivedTeams,
+              })}
+            </p>
+          ) : null}
         </div>
 
         <div className="space-y-2">
-          {!groups ? (
-            <p className="text-xs text-slate-500 dark:text-slate-400">{t("lists.empty")}</p>
-          ) : (
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            {groups ? (
+              <p
+                data-testid="split-summary"
+                data-count={groups.length}
+                className="text-xs font-semibold text-slate-700 dark:text-slate-300"
+              >
+                {mode === "group"
+                  ? t("lists.groups.summary", { count: groups.length })
+                  : t("lists.teams.summary", { count: groups.length })}
+              </p>
+            ) : (
+              <p className="text-xs text-slate-500 dark:text-slate-400">{t("lists.empty")}</p>
+            )}
+            {groups ? (
+              <button
+                type="button"
+                onClick={exportCsv}
+                data-testid={mode === "group" ? "group-export-csv" : "team-export-csv"}
+                className={randGhostButtonClass}
+              >
+                <Download className="size-3.5" />
+                <span>{t("lists.exportCsv")}</span>
+              </button>
+            ) : null}
+          </div>
+
+          {groups ? (
             <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
               {groups.map((bucket, index) => (
                 <div
@@ -207,7 +331,7 @@ export function SplitWorkspace({
                 </div>
               ))}
             </div>
-          )}
+          ) : null}
         </div>
       </div>
     </RandPanel>

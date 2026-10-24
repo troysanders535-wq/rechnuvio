@@ -5,10 +5,11 @@
  * animated pictures and video.
  *
  * The icon file is a real ICO container, the animation is a real GIF89a file
- * and the MP4 file is a real ISO base media file.
+ * and the video is a real MP4 file that the browser records while the
+ * animation plays.
  */
 
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import JSZip from "jszip";
 import {
   DownloadButton,
@@ -22,11 +23,23 @@ import {
   canvasToBlob,
   downloadBlob,
   downloadBytes,
+  fileToBytes,
   fileToDataUrl,
+  formatBytes,
   loadImage,
   useImageT,
 } from "./kit";
-import { buildIco, buildIcoBmpPayload, encodeGif, buildMp4Container, type GifFrame } from "./formats";
+import {
+  MP4_RECORD_TYPES,
+  buildIco,
+  buildIcoBmpPayload,
+  encodeGif,
+  parseGif,
+  parseWebP,
+  pickRecorderMimeType,
+  recordCanvas,
+  type GifFrame,
+} from "./formats";
 import { makeCanvas } from "./fx";
 
 const ICO_SIZES = [16, 24, 32, 48, 64, 128, 256];
@@ -352,25 +365,74 @@ async function captureFrames(
   height: number,
   count: number,
   interval: number,
-): Promise<{ jpeg: Uint8Array; rgba: Uint8ClampedArray }[]> {
-  const frames: { jpeg: Uint8Array; rgba: Uint8ClampedArray }[] = [];
+): Promise<Uint8ClampedArray[]> {
+  const frames: Uint8ClampedArray[] = [];
   const canvas = makeCanvas(width, height);
   const ctx = canvas.getContext("2d");
   if (!ctx) return frames;
   for (let index = 0; index < count; index += 1) {
     ctx.clearRect(0, 0, width, height);
     ctx.drawImage(source, 0, 0, width, height);
-    const data = ctx.getImageData(0, 0, width, height).data;
-    const blob = await canvasToBlob(canvas, "image/jpeg", 0.85);
-    frames.push({
-      jpeg: new Uint8Array(await blob.arrayBuffer()),
-      rgba: data,
-    });
+    frames.push(ctx.getImageData(0, 0, width, height).data);
     if (index < count - 1) {
       await new Promise((resolve) => window.setTimeout(resolve, interval));
     }
   }
   return frames;
+}
+
+/**
+ * Capture the frames of an animation with the timing of the source.
+ *
+ * The picture is drawn into a canvas and read back at the moment every frame
+ * of the source is shown, so the animation keeps the delays of the file it
+ * came from instead of one delay for every frame.
+ */
+async function captureTimedFrames(
+  source: CanvasImageSource,
+  width: number,
+  height: number,
+  delays: number[],
+): Promise<GifFrame[]> {
+  const frames: GifFrame[] = [];
+  const canvas = makeCanvas(width, height);
+  const ctx = canvas.getContext("2d");
+  if (!ctx) return frames;
+  for (let index = 0; index < delays.length; index += 1) {
+    if (index > 0) {
+      await new Promise((resolve) => window.setTimeout(resolve, delays[index - 1]));
+    }
+    ctx.clearRect(0, 0, width, height);
+    ctx.drawImage(source, 0, 0, width, height);
+    frames.push({
+      width,
+      height,
+      rgba: ctx.getImageData(0, 0, width, height).data,
+      delayMs: delays[index],
+    });
+  }
+  return frames;
+}
+
+/**
+ * Write a picture as a PNG or as a JPEG.
+ *
+ * A JPEG has no transparency, so the transparent parts of the picture are
+ * filled with white before the file is written.
+ */
+async function pictureFile(
+  image: HTMLImageElement,
+  format: "image/png" | "image/jpeg",
+): Promise<Blob> {
+  const canvas = makeCanvas(image.naturalWidth, image.naturalHeight);
+  const ctx = canvas.getContext("2d");
+  if (!ctx) throw new Error("the browser cannot draw into a canvas");
+  if (format === "image/jpeg") {
+    ctx.fillStyle = "#ffffff";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  }
+  ctx.drawImage(image, 0, 0);
+  return canvasToBlob(canvas, format, 0.92);
 }
 
 export function GifFromPictureView({
@@ -389,6 +451,7 @@ export function GifFromPictureView({
   const [fileName, setFileName] = useState("animation");
   const [frameCount, setFrameCount] = useState(wanted);
   const [delay, setDelay] = useState(120);
+  const [delays, setDelays] = useState<number[]>([]);
   const [error, setError] = useState<string | null>(null);
   const imageRef = useRef<HTMLImageElement | null>(null);
   const previewRef = useRef<HTMLImageElement | null>(null);
@@ -400,6 +463,11 @@ export function GifFromPictureView({
         const dataUrl = await fileToDataUrl(file);
         const img = await loadImage(dataUrl);
         imageRef.current = img;
+        // An animated WebP keeps the delay of every frame in its container, so
+        // the file itself is read to find the real timing of the animation.
+        const bytes = await fileToBytes(file);
+        const info = parseWebP(bytes);
+        setDelays(info.animated ? info.frameDelaysMs : []);
         setSrc(dataUrl);
         setFileName(file.name.replace(/\.[^.]+$/, ""));
       } catch {
@@ -409,22 +477,47 @@ export function GifFromPictureView({
     [t],
   );
 
+  const reset = () => {
+    setSrc(null);
+    setDelays([]);
+    setError(null);
+  };
+
   const handleDownload = async () => {
-    const img = previewRef.current ?? imageRef.current;
-    if (!img) return;
+    if (!src) return;
     setError(null);
     try {
+      // A fresh picture element, so an animation starts at its first frame.
+      const img = await loadImage(src);
       const width = img.naturalWidth;
       const height = img.naturalHeight;
+      if (delays.length) {
+        const frames = await captureTimedFrames(img, width, height, delays);
+        downloadBytes(encodeGif(frames), `${fileName}.gif`, "image/gif");
+        return;
+      }
       const captured = await captureFrames(img, width, height, frameCount, delay);
-      const gifFrames: GifFrame[] = captured.map((frame) => ({
+      const gifFrames: GifFrame[] = captured.map((rgba) => ({
         width,
         height,
-        rgba: frame.rgba,
+        rgba,
         delayMs: delay,
       }));
-      const gif = encodeGif(gifFrames);
-      downloadBytes(gif, `${fileName}.gif`, "image/gif");
+      downloadBytes(encodeGif(gifFrames), `${fileName}.gif`, "image/gif");
+    } catch (err) {
+      setError(err instanceof Error ? err.message : String(err));
+    }
+  };
+
+  const downloadPicture = async (format: "image/png" | "image/jpeg") => {
+    if (!src) return;
+    setError(null);
+    try {
+      // A fresh picture element, so an animation is written at its first frame.
+      const img = await loadImage(src);
+      const blob = await pictureFile(img, format);
+      const extension = format === "image/png" ? "png" : "jpg";
+      downloadBlob(blob, `${fileName}.${extension}`);
     } catch (err) {
       setError(err instanceof Error ? err.message : String(err));
     }
@@ -449,13 +542,14 @@ export function GifFromPictureView({
             <div>
               <div className="flex justify-between text-xs font-semibold text-slate-700 dark:text-slate-300">
                 <span>{t("frameCount")}</span>
-                <span>{frameCount}</span>
+                <span>{delays.length ? delays.length : frameCount}</span>
               </div>
               <input
                 type="range"
                 min={1}
                 max={20}
                 value={frameCount}
+                disabled={delays.length > 0}
                 onChange={(event) => setFrameCount(Number(event.target.value))}
                 className="w-full accent-sky-700"
               />
@@ -463,7 +557,7 @@ export function GifFromPictureView({
             <div>
               <div className="flex justify-between text-xs font-semibold text-slate-700 dark:text-slate-300">
                 <span>{t("frameDelay")}</span>
-                <span>{delay}ms</span>
+                <span>{delays.length ? t("timingFromSource") : `${delay}ms`}</span>
               </div>
               <input
                 type="range"
@@ -471,12 +565,31 @@ export function GifFromPictureView({
                 max={500}
                 step={10}
                 value={delay}
+                disabled={delays.length > 0}
                 onChange={(event) => setDelay(Number(event.target.value))}
                 className="w-full accent-sky-700"
               />
             </div>
-            <DownloadButton onClick={handleDownload} label={t("downloadImage")} />
-            <GhostButton onClick={() => setSrc(null)}>{t("newPicture")}</GhostButton>
+            <div className="flex flex-wrap items-center gap-2">
+              <DownloadButton onClick={handleDownload} label={t("downloadGif")} />
+              <DownloadButton
+                onClick={() => downloadPicture("image/png")}
+                label={delays.length ? t("downloadPngFirstFrame") : t("downloadPng")}
+              />
+              <DownloadButton
+                onClick={() => downloadPicture("image/jpeg")}
+                label={delays.length ? t("downloadJpgFirstFrame") : t("downloadJpg")}
+              />
+              <GhostButton onClick={reset}>{t("newPicture")}</GhostButton>
+            </div>
+            {delays.length ? (
+              <Note>{t("gifTimingFromSource", { frames: delays.length })}</Note>
+            ) : null}
+            {delays.length ? (
+              <p className="text-[11px] text-slate-500 dark:text-slate-400">
+                {t("webpFirstFrameNote")}
+              </p>
+            ) : null}
             {error ? <ErrorNote>{error}</ErrorNote> : null}
           </div>
           <div className="col-span-2 flex flex-col items-center justify-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-950">
@@ -501,21 +614,40 @@ export function GifToMp4View() {
   const t = useImageT();
   const [src, setSrc] = useState<string | null>(null);
   const [fileName, setFileName] = useState("animation");
+  const [sourceSize, setSourceSize] = useState(0);
   const [frameCount, setFrameCount] = useState(8);
   const [delay, setDelay] = useState(120);
+  const [delays, setDelays] = useState<number[]>([]);
+  const [fps, setFps] = useState(15);
+  const [recording, setRecording] = useState(false);
+  const [progress, setProgress] = useState(0);
+  const [sizes, setSizes] = useState<{ gif: number; mp4: number } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const imageRef = useRef<HTMLImageElement | null>(null);
   const previewRef = useRef<HTMLImageElement | null>(null);
+  const cancelRef = useRef(false);
+
+  // The browser writes the MP4 itself. A browser that cannot record one gets
+  // no video file at all, and the tool says so instead of handing out a file
+  // that no player can open.
+  const mp4Type = useMemo(() => pickRecorderMimeType(MP4_RECORD_TYPES), []);
+  const lengthMs = delays.reduce((sum, value) => sum + value, 0);
 
   const handleFile = useCallback(
     async (file: File) => {
       setError(null);
+      setSizes(null);
       try {
         const dataUrl = await fileToDataUrl(file);
         const img = await loadImage(dataUrl);
         imageRef.current = img;
+        // The delays of the frames are read out of the file, so the recording
+        // is as long as the animation really is.
+        const bytes = await fileToBytes(file);
+        setDelays(parseGif(bytes).frameDelaysMs);
         setSrc(dataUrl);
         setFileName(file.name.replace(/\.[^.]+$/, ""));
+        setSourceSize(file.size);
       } catch {
         setError(t("cannotDecodeThisFile"));
       }
@@ -523,33 +655,65 @@ export function GifToMp4View() {
     [t],
   );
 
-  const handleDownload = async () => {
-    const img = previewRef.current ?? imageRef.current;
-    if (!img) return;
+  const reset = () => {
+    setSrc(null);
+    setDelays([]);
+    setSizes(null);
     setError(null);
+  };
+
+  const handleDownload = async () => {
+    if (!src || !mp4Type) return;
+    setError(null);
+    setSizes(null);
+    setProgress(0);
+    cancelRef.current = false;
+    setRecording(true);
     try {
-      const width = img.naturalWidth;
-      const height = img.naturalHeight;
-      const captured = await captureFrames(img, width, height, frameCount, delay);
-      const mp4 = buildMp4Container(captured.map((frame) => frame.jpeg));
-      downloadBytes(mp4, `${fileName}.mp4`, "video/mp4");
+      // A fresh picture element, so the animation starts at its first frame.
+      const img = await loadImage(src);
+      const canvas = makeCanvas(img.naturalWidth || 320, img.naturalHeight || 240);
+      const recorded = await recordCanvas({
+        canvas,
+        source: img,
+        durationMs: Math.max(lengthMs, 1000),
+        fps,
+        mimeType: mp4Type,
+        onProgress: setProgress,
+        isCancelled: () => cancelRef.current,
+      });
+      if (!recorded.completed) {
+        setError(t("mp4Cancelled"));
+        return;
+      }
+      downloadBlob(recorded.blob, `${fileName}.mp4`);
+      setSizes({ gif: sourceSize, mp4: recorded.blob.size });
     } catch (err) {
       setError(err instanceof Error ? err.message : String(err));
+    } finally {
+      setRecording(false);
     }
   };
 
   const downloadGif = async () => {
-    const img = previewRef.current ?? imageRef.current;
-    if (!img) return;
+    if (!src) return;
+    setError(null);
     try {
+      // A fresh picture element, so an animation starts at its first frame.
+      const img = await loadImage(src);
       const width = img.naturalWidth;
       const height = img.naturalHeight;
+      if (delays.length) {
+        const frames = await captureTimedFrames(img, width, height, delays);
+        downloadBytes(encodeGif(frames), `${fileName}.gif`, "image/gif");
+        return;
+      }
       const captured = await captureFrames(img, width, height, frameCount, delay);
       const gif = encodeGif(
-        captured.map((frame) => ({
+        captured.map((rgba) => ({
           width,
           height,
-          rgba: frame.rgba,
+          rgba,
           delayMs: delay,
         })),
       );
@@ -577,14 +741,64 @@ export function GifToMp4View() {
           <div className="space-y-4">
             <div>
               <div className="flex justify-between text-xs font-semibold text-slate-700 dark:text-slate-300">
+                <span>{t("frameRate")}</span>
+                <span>{fps}</span>
+              </div>
+              <input
+                type="range"
+                min={5}
+                max={30}
+                value={fps}
+                onChange={(event) => setFps(Number(event.target.value))}
+                className="w-full accent-sky-700"
+              />
+            </div>
+            {mp4Type ? (
+              <div className="flex flex-wrap items-center gap-2">
+                <DownloadButton
+                  onClick={handleDownload}
+                  label={t("downloadMp4")}
+                  disabled={recording}
+                />
+                {recording ? (
+                  <GhostButton onClick={() => (cancelRef.current = true)}>
+                    {t("mp4Cancel")}
+                  </GhostButton>
+                ) : null}
+              </div>
+            ) : null}
+            {recording ? (
+              <p className="text-xs text-slate-500 dark:text-slate-400">
+                {t("mp4Progress", { percent: Math.round(progress * 100) })}
+              </p>
+            ) : null}
+            {sizes ? (
+              <p className="font-mono text-xs text-slate-500 dark:text-slate-400">
+                {sizes.mp4 < sizes.gif
+                  ? t("mp4SizeComparison", {
+                      gif: formatBytes(sizes.gif),
+                      mp4: formatBytes(sizes.mp4),
+                      percent: Math.round((1 - sizes.mp4 / sizes.gif) * 100),
+                    })
+                  : t("mp4SizeBigger", {
+                      gif: formatBytes(sizes.gif),
+                      mp4: formatBytes(sizes.mp4),
+                    })}
+              </p>
+            ) : null}
+            {!mp4Type ? <Note tone="warn">{t("mp4NotSupported")}</Note> : null}
+
+            <div>
+              <div className="flex justify-between text-xs font-semibold text-slate-700 dark:text-slate-300">
                 <span>{t("frameCount")}</span>
-                <span>{frameCount}</span>
+                <span>{delays.length ? delays.length : frameCount}</span>
               </div>
               <input
                 type="range"
                 min={1}
                 max={24}
                 value={frameCount}
+                disabled={delays.length > 0}
                 onChange={(event) => setFrameCount(Number(event.target.value))}
                 className="w-full accent-sky-700"
               />
@@ -592,7 +806,7 @@ export function GifToMp4View() {
             <div>
               <div className="flex justify-between text-xs font-semibold text-slate-700 dark:text-slate-300">
                 <span>{t("frameDelay")}</span>
-                <span>{delay}ms</span>
+                <span>{delays.length ? t("timingFromSource") : `${delay}ms`}</span>
               </div>
               <input
                 type="range"
@@ -600,14 +814,14 @@ export function GifToMp4View() {
                 max={500}
                 step={10}
                 value={delay}
+                disabled={delays.length > 0}
                 onChange={(event) => setDelay(Number(event.target.value))}
                 className="w-full accent-sky-700"
               />
             </div>
             <div className="flex flex-wrap items-center gap-2">
-              <DownloadButton onClick={handleDownload} label={t("downloadImage")} />
               <DownloadButton onClick={downloadGif} label={t("downloadGifInstead")} />
-              <GhostButton onClick={() => setSrc(null)}>{t("newPicture")}</GhostButton>
+              <GhostButton onClick={reset}>{t("newPicture")}</GhostButton>
             </div>
             {error ? <ErrorNote>{error}</ErrorNote> : null}
           </div>
@@ -619,6 +833,16 @@ export function GifToMp4View() {
               className="max-h-[300px] max-w-full rounded-xl border border-slate-200 bg-white object-contain shadow-md dark:border-slate-700"
             />
             <p className="font-mono text-xs text-slate-500">{t("mp4OutputLabel")}</p>
+            {delays.length ? (
+              <Note>
+                {t("gifSourceTiming", {
+                  frames: delays.length,
+                  seconds: (lengthMs / 1000).toFixed(1),
+                })}
+              </Note>
+            ) : (
+              <Note>{t("mp4StillGif")}</Note>
+            )}
             <Note>{t("mp4Note")}</Note>
           </div>
         </div>
@@ -834,11 +1058,14 @@ export function VideoToGifView() {
             <video
               ref={videoRef}
               src={src}
+              controls
               muted
               playsInline
+              preload="metadata"
               className="max-h-[300px] max-w-full rounded-xl border border-slate-200 bg-black shadow-md dark:border-slate-700"
             />
             <p className="font-mono text-xs text-slate-500">{t("gifOutputLabel")}</p>
+            <Note>{t("videoPreviewNote")}</Note>
             <Note>{t("videoNote")}</Note>
           </div>
         </div>

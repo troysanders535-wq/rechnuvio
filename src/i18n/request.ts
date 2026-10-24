@@ -22,18 +22,18 @@ export default getRequestConfig(async ({ requestLocale }) => {
     // Fallback during static build/prerendering
   }
 
-  let locale: "en" | "de-DE" = "en";
+  let locale: "en" | "de-DE" = "de-DE";
 
   if (xLocale) {
-    locale = xLocale === "de" || xLocale === "de-DE" ? "de-DE" : "en";
+    locale = xLocale === "en" ? "en" : "de-DE";
   } else if (cookieLocale) {
-    locale = cookieLocale === "de" || cookieLocale === "de-DE" ? "de-DE" : "en";
+    locale = cookieLocale === "en" ? "en" : "de-DE";
   } else if (host) {
     locale = getLocaleFromHost(host, cookieLocale);
   } else if (requestLocale) {
     const req = await requestLocale;
     if (req) {
-      locale = req.startsWith("de") ? "de-DE" : "en";
+      locale = req === "en" ? "en" : "de-DE";
     }
   }
 
