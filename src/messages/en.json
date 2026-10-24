@@ -903,8 +903,8 @@
         "metricKgCm": "Metric (kg/cm)",
         "imperialLbsIn": "Imperial (lbs/in)",
         "biologicalSex": "Biological Sex",
-        "weight": "Weight (",
-        "height": "Height (",
+        "weight": "Weight ({unit})",
+        "height": "Height ({unit})",
         "inches": "inches"
       },
       "ImageSuiteEngine": {
@@ -1555,7 +1555,9 @@
         "downloadPNG": "Download PNG",
         "downloadPDF": "Download PDF",
         "saveAsPNG": "Save as PNG",
-        "pageDrawnInBrowserNote": "The page is drawn in your browser and exported from the canvas. Nothing is uploaded and no text leaves the device."
+        "pageDrawnInBrowserNote": "The page is drawn in your browser and exported from the canvas. Nothing is uploaded and no text leaves the device.",
+        "generatorHintNote": "Pick a handwriting font, choose a paper and an ink colour, then download the result as PNG or PDF.",
+        "converterHintNote": "Type your text on the left and the ruled page on the right is redrawn with a natural letter variation."
       },
       "TextLinesWorkspace": {
         "sort": "Sort",
@@ -2621,7 +2623,8 @@
         "phi3MiniParameters": "3.8B parameters, Q4 quantised, about 2.3 GB",
         "minifyCompressInline": "Compress the CSS and the JSON-LD as well",
         "minifyDropQuotes": "Drop the quotes around the attribute values",
-        "minifyBytesSaved": "{saved} bytes saved, {bytes} bytes left"
+        "minifyBytesSaved": "{saved} bytes saved, {bytes} bytes left",
+        "superscriptHint": "^ and _ for super- and subscripts"
       },
       "image": {
         "aiHint": "Choose an Illustrator file",
@@ -3679,7 +3682,10 @@
         "tileAreaIncludesTheGroutJoint": "Tile area includes the grout joint: (length + grout) × (width + grout) ÷ 144. Tiles = area ÷ tile area, plus the waste allowance.",
         "wallAreaAndGallons": "Wall area = perimeter × height − doors − windows. Gallons = area ÷ coverage × coats. One gallon covers roughly 350 sq ft.",
         "pitchMultiplierAndRoofingSquares": "Pitch multiplier = √(1 + (pitch ÷ 12)²). One roofing square is 100 sq ft; three squares make a bundle of shingles.",
-        "bTUBaseWithCeilingsOccupantsAndKitchen": "Base = 30 BTU per sq ft · high ceilings add 5 BTU per sq ft · each occupant adds 300 BTU · a kitchen adds 1,200 BTU. One ton of cooling equals 12,000 BTU."
+        "bTUBaseWithCeilingsOccupantsAndKitchen": "Base = 30 BTU per sq ft · high ceilings add 5 BTU per sq ft · each occupant adds 300 BTU · a kitchen adds 1,200 BTU. One ton of cooling equals 12,000 BTU.",
+        "btuRecommendationOne": "{btu} BTU (1 ton)",
+        "btuRecommendationMany": "{btu} BTU ({tons} tons)",
+        "squareFeetUnit": "sq ft"
       },
       "DateTools": {
         "openCalendar": "Open calendar",
@@ -3965,7 +3971,8 @@
         "finalGradeNeededFormulaNote": "needed = (target − current × (1 − weight)) ÷ weight",
         "testScoreFormulaNote": "score = correct answers ÷ total questions × 100",
         "easyGraderScoreFormulaNote": "score = (questions − wrong) ÷ questions × 100",
-        "weightAndScore": "% weight / % score"
+        "weightAndScore": "% weight / % score",
+        "scoreNeededForGrade": "For a {grade}"
       },
       "MoneyTools": {
         "discountCalculator": "Discount Calculator",

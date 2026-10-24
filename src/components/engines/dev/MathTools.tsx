@@ -234,7 +234,7 @@ export function MathTool({ variant }: { variant: MathVariant }) {
         </summary>
         <ul className="mt-2 grid grid-cols-1 gap-1 text-xs text-slate-600 sm:grid-cols-2 dark:text-slate-400">
           <li>{"\\frac, \\sqrt, \\sum, \\int"}</li>
-          <li>{"^ and _ for super- and subscripts"}</li>
+          <li>{tUi("superscriptHint")}</li>
           <li>{"\\alpha … \\omega, \\Gamma … \\Omega"}</li>
           <li>{"\\times, \\cdot, \\pm, \\leq, \\geq, \\neq"}</li>
           <li>{"\\infty, \\partial, \\to, \\Rightarrow"}</li>

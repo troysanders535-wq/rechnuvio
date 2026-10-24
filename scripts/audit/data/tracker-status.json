@@ -1,10 +1,9 @@
 {
- "generatedAt": "2026-10-24T10:27:20.206Z",
+ "generatedAt": "2026-10-24T17:40:03.379Z",
  "rows": 492,
  "counts": {
-  "PASS": 482,
-  "BLOCKED_TECHNICAL": 9,
-  "FAIL": 1
+  "PASS": 483,
+  "BLOCKED_TECHNICAL": 9
  },
  "routePasses": [
   "chrome-de-desktop-dark",

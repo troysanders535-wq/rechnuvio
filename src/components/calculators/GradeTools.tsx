@@ -573,7 +573,7 @@ export function GradeTools({ variant }: { variant: CalculatorVariant }) {
             return (
               <ResultCard
                 key={label}
-                label={`For a ${label}`}
+                label={tUi("scoreNeededForGrade", { grade: label })}
                 value={value === null ? "—" : round(value, 2)}
                 unit={value === null ? undefined : "%"}
                 tone="slate"

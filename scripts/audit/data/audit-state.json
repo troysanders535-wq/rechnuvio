@@ -1,17 +1,16 @@
 {
- "generatedAt": "2026-10-24T10:27:20.206Z",
+ "generatedAt": "2026-10-24T17:40:03.380Z",
  "reconciledTotal": 492,
  "counts": {
-  "PASS": 482,
-  "BLOCKED_TECHNICAL": 9,
-  "FAIL": 1
+  "PASS": 483,
+  "BLOCKED_TECHNICAL": 9
  },
  "nextItem": {
   "slug": "avi-to-mp4",
   "status": "BLOCKED_TECHNICAL",
   "problem": "489 of the 492 tools carried the same five generic feature bullets, including \"One-click copy to clipboard and file download\" for tools that have neither a download nor a clipboard, so the feature list described no tool in particular."
  },
- "remaining": 10,
+ "remaining": 9,
  "resumeCommands": [
   "npm run build  (or: $env:NEXT_DIST_DIR='.next-audit'; npx next build)",
   "Start-Process -FilePath 'cmd.exe' -ArgumentList '/c', 'set \"NEXT_DIST_DIR=.next-audit\" && npx next start -p 3100 > audit-server.log 2>&1'",

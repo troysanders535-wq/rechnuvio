@@ -1,0 +1,13 @@
+{
+  "namespace": "ui.calculators.ConstructionTools",
+  "en": {
+    "btuRecommendationOne": "{btu} BTU (1 ton)",
+    "btuRecommendationMany": "{btu} BTU ({tons} tons)",
+    "squareFeetUnit": "sq ft"
+  },
+  "de": {
+    "btuRecommendationOne": "{btu} BTU (1 Tonne)",
+    "btuRecommendationMany": "{btu} BTU ({tons} Tonnen)",
+    "squareFeetUnit": "ft²"
+  }
+}

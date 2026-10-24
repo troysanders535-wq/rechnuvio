@@ -903,8 +903,8 @@
         "metricKgCm": "Metrisch (kg/cm)",
         "imperialLbsIn": "Angloamerikanisch (lbs/in)",
         "biologicalSex": "Biologisches Geschlecht",
-        "weight": "Gewicht (",
-        "height": "Größe (",
+        "weight": "Gewicht ({unit})",
+        "height": "Größe ({unit})",
         "inches": "Zoll"
       },
       "ImageSuiteEngine": {
@@ -1555,7 +1555,9 @@
         "downloadPNG": "PNG herunterladen",
         "downloadPDF": "PDF herunterladen",
         "saveAsPNG": "Als PNG speichern",
-        "pageDrawnInBrowserNote": "Die Seite wird in Ihrem Browser gezeichnet und aus dem Canvas exportiert. Es wird nichts hochgeladen und kein Text verlässt das Gerät."
+        "pageDrawnInBrowserNote": "Die Seite wird in Ihrem Browser gezeichnet und aus dem Canvas exportiert. Es wird nichts hochgeladen und kein Text verlässt das Gerät.",
+        "generatorHintNote": "Wählen Sie eine Handschrift, ein Papier und eine Tintenfarbe und laden Sie das Ergebnis dann als PNG oder PDF herunter.",
+        "converterHintNote": "Tippen Sie links Ihren Text und der linierte Bogen rechts wird mit einer natürlichen Buchstabenvariation neu gezeichnet."
       },
       "TextLinesWorkspace": {
         "sort": "Sortieren",
@@ -2621,7 +2623,8 @@
         "phi3MiniParameters": "3.8B Parameter, Q4-quantisiert, etwa 2.3 GB",
         "minifyCompressInline": "CSS und JSON-LD mit komprimieren",
         "minifyDropQuotes": "Anführungszeichen um die Attributwerte entfernen",
-        "minifyBytesSaved": "{saved} Bytes gespart, {bytes} Bytes übrig"
+        "minifyBytesSaved": "{saved} Bytes gespart, {bytes} Bytes übrig",
+        "superscriptHint": "^ und _ für Hoch- und Tiefstellung"
       },
       "image": {
         "aiHint": "Wählen Sie eine Illustrator-Datei",
@@ -3679,7 +3682,10 @@
         "tileAreaIncludesTheGroutJoint": "Die Fliesenfläche enthält die Fuge: (Länge + Fuge) × (Breite + Fuge) ÷ 144. Fliesen = Fläche ÷ Fliesenfläche, zuzüglich des Verlustzuschlags.",
         "wallAreaAndGallons": "Wandfläche = Umfang × Höhe − Türen − Fenster. Gallonen = Fläche ÷ Reichweite × Anstriche. Eine Gallone deckt etwa 350 sq ft.",
         "pitchMultiplierAndRoofingSquares": "Neigungsfaktor = √(1 + (Neigung ÷ 12)²). Ein Dachquadrat entspricht 100 sq ft; drei Dachquadrate ergeben ein Bündel Schindeln.",
-        "bTUBaseWithCeilingsOccupantsAndKitchen": "Basis = 30 BTU pro sq ft · hohe Decken addieren 5 BTU pro sq ft · jede Person addiert 300 BTU · eine Küche addiert 1.200 BTU. Eine Kühltonne entspricht 12.000 BTU."
+        "bTUBaseWithCeilingsOccupantsAndKitchen": "Basis = 30 BTU pro sq ft · hohe Decken addieren 5 BTU pro sq ft · jede Person addiert 300 BTU · eine Küche addiert 1.200 BTU. Eine Kühltonne entspricht 12.000 BTU.",
+        "btuRecommendationOne": "{btu} BTU (1 Tonne)",
+        "btuRecommendationMany": "{btu} BTU ({tons} Tonnen)",
+        "squareFeetUnit": "ft²"
       },
       "DateTools": {
         "openCalendar": "Kalender öffnen",
@@ -3965,7 +3971,8 @@
         "finalGradeNeededFormulaNote": "benötigt = (Ziel − aktuelle × (1 − Gewicht)) ÷ Gewicht",
         "testScoreFormulaNote": "Punktzahl = richtige Antworten ÷ Gesamtfragen × 100",
         "easyGraderScoreFormulaNote": "Punktzahl = (Fragen − falsche Antworten) ÷ Fragen × 100",
-        "weightAndScore": "% Gewicht / % Punkte"
+        "weightAndScore": "% Gewicht / % Punkte",
+        "scoreNeededForGrade": "Für die Note {grade}"
       },
       "MoneyTools": {
         "discountCalculator": "Rabattrechner",

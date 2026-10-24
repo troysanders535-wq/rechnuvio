@@ -55,7 +55,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "adult-bmi-calculator": [
   "Open the **Adult BMI Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -63,7 +63,6 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "age-calculator": [
   "Open the **Age Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Date of birth** and **Age on**.",
   "The result appears in the results panel directly below the controls.",
   "Press **Reset** to clear the form and start over."
  ],
@@ -374,7 +373,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "bmi-calculator": [
   "Open the **BMI Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -382,7 +381,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "bmi-calculator-for-women": [
   "Open the **BMI Calculator for Women** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -396,7 +395,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "bmr-calculator": [
   "Open the **BMR Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -441,14 +440,14 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "business-days-calculator": [
   "Open the **Business Days Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **From date**, **To date** and **Your own days off**.",
+  "Enter your input in **Your own days off**.",
   "Set **Holiday calendar** to `No holidays`, `US federal holidays`, `UK bank holidays` if you need a different mode.",
   "The result appears in the results panel directly below the controls.",
   "Press **Reset** to clear the form and start over."
  ],
  "carb-calculator": [
   "Open the **Carb Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -718,14 +717,13 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "date-calculator": [
   "Open the **Date Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Start date**, **End date** and **Amount**.",
+  "Enter your input in **Amount**.",
   "Set **Unit** to `Days`, `Weeks`, `Months`, `Years` if you need a different mode.",
   "The result appears in the results panel directly below the controls.",
   "Press **Reset** to clear the form and start over."
  ],
  "days-between-dates": [
   "Open the **Days Between Dates Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **From date** and **To date**.",
   "The result appears in the results panel directly below the controls.",
   "Press **Reset** to clear the form and start over."
  ],
@@ -1598,7 +1596,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "macro-calculator": [
   "Open the **Macro Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -1612,7 +1610,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "maintenance-calorie-calculator": [
   "Open the **Maintenance Calorie Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -2306,7 +2304,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "protein-calculator": [
   "Open the **Protein Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -2877,7 +2875,7 @@ export const HOW_TO_EN: Record<string, string[]> =
  ],
  "tdee-calculator": [
   "Open the **TDEE Calculator** workspace above. Everything runs inside your browser, so nothing you enter is uploaded.",
-  "Enter your input in **Age**, **Weight (kg** and **Height (cm**.",
+  "Enter your input in **Age**, **Weight (kg)** and **Height (cm)**.",
   "Set **Biological Sex** to `Male`, `Female` if you need a different mode.",
   "Press **Metric (kg/cm)** to run the conversion.",
   "The result appears in the results panel directly below the controls.",
@@ -3517,22 +3515,21 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "accept-all-changes-in-word": [
-  "Öffnen Sie oben den Arbeitsbereich **Accept All Changes in Wort**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Accept All Changes in Word**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **.docx auswählen** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "adult-bmi-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Adult BMI Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Öffnen Sie oben den Arbeitsbereich **BMI-Rechner für Erwachsene**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "age-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Alter Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Geburtsdatum** und **Alter am** ein.",
+  "Öffnen Sie oben den Arbeitsbereich **Altersrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
@@ -3550,20 +3547,20 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "ai-to-pdf": [
-  "Öffnen Sie oben den Arbeitsbereich **AI to PDF Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **AI in PDF umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **DokumenttitelOptional — wird als übergeordnete Überschrift angezeigt.** und **InhaltMarkdown wird unterstützt: # Überschriften, - Aufzählungen, > Zitate und ``` Codeblö** ein.",
   "Klicken Sie auf **PDF generieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "ai-to-png": [
-  "Öffnen Sie oben den Arbeitsbereich **AI to PNG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **AI in PNG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie eine Illustrator-Datei** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "ai-token-counter": [
-  "Öffnen Sie oben den Arbeitsbereich **AI Token Zähler**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **KI-Token-Zähler**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** und **Preis pro 1M Eingabetokens (USD)** ein.",
   "Wählen Sie bei Bedarf **Modell** mit `GPT-4 / GPT-4o (exakt)`, `GPT-5 / o-series (exakt)`, `Claude (Schätzung)`, `Gemini (Schätzung)`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -3571,7 +3568,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "alphabetical-order-tool": [
-  "Öffnen Sie oben den Arbeitsbereich **Alphabetical Order Tool**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Alphabetisch sortieren**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **A bis Z sortieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -3579,7 +3576,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "apa-citation-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **APA Citation Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **APA-Zitat-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Autor(en)**, **Jahr**, **Titel**, **Verlag**, **Auflage**, **Ort** und **DOI oder URL** ein.",
   "Wählen Sie bei Bedarf **Quellentyp** mit `Buch`, `Zeitschriftenartikel`, `Webseite`.",
   "Klicken Sie auf **.txt herunterladen**, um die Berechnung zu starten.",
@@ -3587,27 +3584,27 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "api-tester": [
-  "Öffnen Sie oben den Arbeitsbereich **API Tester**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **API-Tester**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **GETPOSTPUTDELETE** ein.",
   "Klicken Sie auf **Anfrage senden**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "asn1-decoder": [
-  "Öffnen Sie oben den Arbeitsbereich **ASN.1 Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **ASN.1-Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **Struktur auswerten**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "average-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Average Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Durchschnittsrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "avi-to-mp4": [
-  "Öffnen Sie oben den Arbeitsbereich **AVI to MP4 Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **AVI in MP4 umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Mediendatei auswählen** ein.",
   "Wählen Sie bei Bedarf **Konvertieren nach** mit `MP3 - MPEG-Audio`, `MP4 - H.264-Video`, `WAV - unkomprimiertes PCM`, `WebM - VP8-Video`.",
   "Klicken Sie auf **Jetzt konvertieren**, um die Berechnung zu starten.",
@@ -3615,26 +3612,26 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "avif-to-jpg": [
-  "Öffnen Sie oben den Arbeitsbereich **AVIF to JPG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **AVIF in JPG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "avif-to-png": [
-  "Öffnen Sie oben den Arbeitsbereich **AVIF to PNG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **AVIF in PNG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "baby-boy-name-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Baby Boy Name Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Jungennamen-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Wählen Sie bei Bedarf **Herkunft** mit `Beliebig`, `Englisch`, `Latein`, `Griechisch`.",
   "Klicken Sie auf **Noch ein Name**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "baby-girl-name-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Baby Girl Name Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Mädchennamen-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Wählen Sie bei Bedarf **Herkunft** mit `Beliebig`, `Englisch`, `Latein`, `Griechisch`.",
   "Klicken Sie auf **Noch ein Name**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -3648,13 +3645,13 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "baby-shower-bingo": [
-  "Öffnen Sie oben den Arbeitsbereich **Baby Shower Bingo Cards**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Baby-Shower-Bingo-Karten**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Neue Karte**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "backwards-text-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Backwards Text Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Text rückwärts schreiben**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr Text** und **Ergebnis** ein.",
   "Wählen Sie bei Bedarf **Modus** mit `Alle Zeichen umkehren`, `Wortreihenfolge umkehren`, `Jedes Wort umkehren`, `Spiegeln (Upside-Down-Spiegel)`.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
@@ -3662,7 +3659,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "bank-statement-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **Bank Statement Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Kontoauszug-Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Trennzeichen:** mit `Komma (,)`, `Tabulator (\\t)`, `Semikolon (;)`, `Trennzeichen (|)`.",
   "Klicken Sie auf **CSV → JSON**, um die Berechnung zu starten.",
@@ -3670,7 +3667,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "bank-statement-to-csv": [
-  "Öffnen Sie oben den Arbeitsbereich **Bank Statement to CSV**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Kontoauszug in CSV umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Trennzeichen:** mit `Komma (,)`, `Tabulator (\\t)`, `Semikolon (;)`, `Trennzeichen (|)`.",
   "Klicken Sie auf **CSV → JSON**, um die Berechnung zu starten.",
@@ -3678,7 +3675,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "bank-statement-to-excel": [
-  "Öffnen Sie oben den Arbeitsbereich **Bank Statement to Excel**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Kontoauszug in Excel umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Trennzeichen:** mit `Komma (,)`, `Tabulator (\\t)`, `Semikolon (;)`, `Trennzeichen (|)`.",
   "Klicken Sie auf **CSV → JSON**, um die Berechnung zu starten.",
@@ -3686,7 +3683,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "barcode-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Barcode Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Barcode-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Barcode-Format** mit `Code 128 (universal)`, `EAN-13 (13 Ziffern)`, `UPC (12 Ziffern)`, `Code 39 (alphanumerisch)`.",
   "Klicken Sie auf **Barcode als SVG herunterladen**, um die Berechnung zu starten.",
@@ -3694,7 +3691,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "base64-decoder": [
-  "Öffnen Sie oben den Arbeitsbereich **Base64 Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Base64-Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei zu Base64**, **Text oder Base64 eingeben** und **Ausgabe** ein.",
   "Klicken Sie auf **In Base64 kodieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
@@ -3702,7 +3699,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "base64-encoder": [
-  "Öffnen Sie oben den Arbeitsbereich **Base64 Encoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Base64-Encoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei zu Base64**, **Text oder Base64 eingeben** und **Ausgabe** ein.",
   "Klicken Sie auf **In Base64 kodieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
@@ -3718,7 +3715,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "base64-image-decoder": [
-  "Öffnen Sie oben den Arbeitsbereich **Base64 Bild Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Base64-Bild-Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei zu Base64**, **Text oder Base64 eingeben** und **Ausgabe** ein.",
   "Klicken Sie auf **In Base64 kodieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
@@ -3726,7 +3723,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "base64-image-viewer": [
-  "Öffnen Sie oben den Arbeitsbereich **Base64 Bild Betrachter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Base64-Bild-Viewer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei zu Base64**, **Text oder Base64 eingeben** und **Ausgabe** ein.",
   "Klicken Sie auf **In Base64 kodieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
@@ -3734,7 +3731,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "base64-to-image": [
-  "Öffnen Sie oben den Arbeitsbereich **Base64 to Bild Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Base64 in Bild umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei zu Base64**, **Text oder Base64 eingeben** und **Ausgabe** ein.",
   "Klicken Sie auf **In Base64 kodieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
@@ -3742,56 +3739,56 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "base64-to-pdf": [
-  "Öffnen Sie oben den Arbeitsbereich **Base64 to PDF**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Base64 in PDF umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie eine .b64-Datei** und **Base64-Nutzdaten** ein.",
   "Klicken Sie auf **Wählen Sie eine .b64-Datei**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "base64-to-pdf-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **Base64 to PDF Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Base64-zu-PDF-Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie eine .b64-Datei** und **Base64-Nutzdaten** ein.",
   "Klicken Sie auf **Wählen Sie eine .b64-Datei**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "base64-to-pdf-decoder": [
-  "Öffnen Sie oben den Arbeitsbereich **Base64 to PDF Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Base64-zu-PDF-Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie eine .b64-Datei** und **Base64-Nutzdaten** ein.",
   "Klicken Sie auf **Wählen Sie eine .b64-Datei**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "binary-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Binary Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Binärrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Erste Zahl (binär)** und **Zweite Zahl (binär)** ein.",
   "Klicken Sie auf **Addieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "binary-to-decimal": [
-  "Öffnen Sie oben den Arbeitsbereich **Binary to Decimal Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Binary in Decimal umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (Binär)** und **Ausgabe (Dezimal)** ein.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "binary-to-hex": [
-  "Öffnen Sie oben den Arbeitsbereich **Binary to Hex Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Binary in Hex umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (Binär)** und **Ausgabe (Hexadezimal)** ein.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "binary-to-text": [
-  "Öffnen Sie oben den Arbeitsbereich **Binary to Text Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Binary in Text umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Zu dekodierende Binärdaten** und **Dekodierter Text** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "binary-translator": [
-  "Öffnen Sie oben den Arbeitsbereich **Binary Translator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Binär-Übersetzer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (Text)** und **Ausgabe (Binär)** ein.",
   "Klicken Sie auf **Richtung wechseln (Vorwärts)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
@@ -3799,26 +3796,26 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "bingo-card-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Bingo Card Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Bingo-Karten-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Neue Karte**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "black-out-text-in-pdf": [
-  "Öffnen Sie oben den Arbeitsbereich **Black Out Text in PDF**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Text in PDF schwärzen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "blank-bingo-card": [
-  "Öffnen Sie oben den Arbeitsbereich **Blank Bingo Card Template**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Leere Bingo-Karte (Vorlage)**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Karten drucken**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "blank-text-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Blank Text Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Leerzeichen-Text-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Zeichenanzahl**, **Leere Zeilen** und **Ergebnis** ein.",
   "Wählen Sie bei Bedarf **Zeichenart** mit `Nullbreites Leerzeichen (U+200B)`, `Blindenschrift-Leerzeichen (U+2800)`, `Hangul-Füllzeichen (U+3164)`, `Wortverbinder (U+2060)`.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
@@ -3826,55 +3823,55 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "blur-face": [
-  "Öffnen Sie oben den Arbeitsbereich **Blur Face in Foto**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Gesichter im Foto unkenntlich machen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "blur-image": [
-  "Öffnen Sie oben den Arbeitsbereich **Blur Bild**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Bild weichzeichnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "blur-text-in-image": [
-  "Öffnen Sie oben den Arbeitsbereich **Blur Text in Bild**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Text im Bild unkenntlich machen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "bmi-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **BMI Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Öffnen Sie oben den Arbeitsbereich **BMI-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "bmi-calculator-for-women": [
-  "Öffnen Sie oben den Arbeitsbereich **BMI Rechner for Women**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Öffnen Sie oben den Arbeitsbereich **BMI-Rechner für Frauen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "bmp-to-jpg": [
-  "Öffnen Sie oben den Arbeitsbereich **BMP to JPG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **BMP in JPG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "bmr-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **BMR Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Öffnen Sie oben den Arbeitsbereich **Grundumsatz-Rechner (BMR)**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "bold-text-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Bold Text Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Fettschrift-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr Text** und **Ergebnis** ein.",
   "Wählen Sie bei Bedarf **Stil** mit `Fett`, `Fett Kursiv`.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
@@ -3882,28 +3879,28 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "bracket-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Bracket Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Turnierbaum-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Namen oder Teams (einer pro Zeile)Zwischen 2 und 16 Namen, der Plan wird mit Freilosen auf** ein.",
   "Klicken Sie auf **Turnierplan erzeugen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "bracket-maker": [
-  "Öffnen Sie oben den Arbeitsbereich **Bracket Ersteller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Turnierbaum erstellen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Namen oder Teams (einer pro Zeile)Zwischen 2 und 16 Namen, der Plan wird mit Freilosen auf** ein.",
   "Klicken Sie auf **Turnierplan erzeugen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "btu-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **BTU Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **BTU-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Raumgröße (sq ft)**, **Deckenhöhe (ft)** und **Personen** ein.",
   "Wählen Sie bei Bedarf **Sonneneinstrahlung** mit `Niedrig — verschattet`, `Mittel`, `Hoch — viel Sonne`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "bulk-barcode-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Bulk Barcode Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Barcode-Massengenerator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Barcode-Format** mit `Code 128 (universal)`, `EAN-13 (13 Ziffern)`, `UPC (12 Ziffern)`, `Code 39 (alphanumerisch)`.",
   "Klicken Sie auf **Barcode als SVG herunterladen**, um die Berechnung zu starten.",
@@ -3911,41 +3908,41 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "business-days-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Business Days Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Von Datum**, **Bis Datum** und **Eigene freie Tage** ein.",
+  "Öffnen Sie oben den Arbeitsbereich **Werktage-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Geben Sie Ihre Eingabe in **Eigene freie Tage** ein.",
   "Wählen Sie bei Bedarf **Feiertagskalender** mit `Keine Feiertage`, `US-Bundesfeiertage`, `Britische Feiertage`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "carb-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Carb Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Öffnen Sie oben den Arbeitsbereich **Kohlenhydrate-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "censor-face": [
-  "Öffnen Sie oben den Arbeitsbereich **Censor Face in Foto**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Gesichter im Foto zensieren**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "censor-image": [
-  "Öffnen Sie oben den Arbeitsbereich **Censor Bild**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Bild zensieren**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "character-counter": [
-  "Öffnen Sie oben den Arbeitsbereich **Character Zähler**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zeichenzähler**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld**, **Meta-Titel** und **Meta-Beschreibung** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "chicago-citation-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Chicago Citation Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Chicago-Zitat-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Autor(en)**, **Jahr**, **Titel**, **Verlag**, **Auflage**, **Ort** und **DOI oder URL** ein.",
   "Wählen Sie bei Bedarf **Quellentyp** mit `Buch`, `Zeitschriftenartikel`, `Webseite`.",
   "Klicken Sie auf **.txt herunterladen**, um die Berechnung zu starten.",
@@ -3953,41 +3950,41 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "christmas-bingo": [
-  "Öffnen Sie oben den Arbeitsbereich **Christmas Bingo Cards**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Weihnachts-Bingo-Karten**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Neue Karte**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "christmas-budget-planner": [
-  "Öffnen Sie oben den Arbeitsbereich **Christmas Budget Planner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Weihnachtsbudget-Planer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Gesamtbudget**, **Geschenke**, **Essen und Trinken**, **Dekoration**, **Karten**, **Reisen**, **Spenden**, **Verpackungsmaterial**, **Personen (eine pro Zeile)Jeder Name der Liste bekommt denselben Betrag.** und **Betrag pro Person** ein.",
   "Klicken Sie auf **Budget drucken**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "christmas-gift-tracker": [
-  "Öffnen Sie oben den Arbeitsbereich **Christmas Gift Tracker**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Weihnachtsgeschenke-Planer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Geschenk** und **Budget** ein.",
   "Klicken Sie auf **Geschenk hinzufügen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "christmas-list-maker": [
-  "Öffnen Sie oben den Arbeitsbereich **Christmas List Ersteller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Weihnachtsliste erstellen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Geschenk** und **Für wen** ein.",
   "Klicken Sie auf **Liste drucken**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "christmas-wish-list-maker": [
-  "Öffnen Sie oben den Arbeitsbereich **Christmas Wish List Ersteller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Weihnachtswunschliste erstellen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr Wunsch** ein.",
   "Klicken Sie auf **Liste drucken**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "cidr-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **CIDR Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **CIDR-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **IP-Adresse** ein.",
   "Wählen Sie bei Bedarf **CIDR-Präfix (/24)** mit `/0 (Klasse A)`, `/1 (Klasse A)`, `/2 (Klasse A)`, `/3 (Klasse A)`.",
   "Klicken Sie auf **IPv4**, um die Berechnung zu starten.",
@@ -3995,7 +3992,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "citation-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Citation Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zitat-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Autor(en)**, **Jahr**, **Titel**, **Verlag**, **Auflage**, **Ort**, **DOI oder URL**, **APA 7Kopieren**, **MLA 9Kopieren**, **Chicago 17 (Autor-Jahr)Kopieren** und **HarvardKopieren** ein.",
   "Wählen Sie bei Bedarf **Quellentyp** mit `Buch`, `Zeitschriftenartikel`, `Webseite`.",
   "Klicken Sie auf **.txt herunterladen**, um die Berechnung zu starten.",
@@ -4003,7 +4000,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "code-128-barcode-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Code 128 Barcode Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Code-128-Barcode-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Barcode-Format** mit `Code 128 (universal)`, `EAN-13 (13 Ziffern)`, `UPC (12 Ziffern)`, `Code 39 (alphanumerisch)`.",
   "Klicken Sie auf **Barcode als SVG herunterladen**, um die Berechnung zu starten.",
@@ -4011,7 +4008,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "code-39-barcode-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Code 39 Barcode Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Code-39-Barcode-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Barcode-Format** mit `Code 128 (universal)`, `EAN-13 (13 Ziffern)`, `UPC (12 Ziffern)`, `Code 39 (alphanumerisch)`.",
   "Klicken Sie auf **Barcode als SVG herunterladen**, um die Berechnung zu starten.",
@@ -4019,7 +4016,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "code-screenshot-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Code Screenshot Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Code-Screenshot-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Rand (32px)** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Farbschema** mit `Dark`, `Leicht`, `Mitternacht`, `Solarized`.",
   "Klicken Sie auf **Screenshot rendern**, um die Berechnung zu starten.",
@@ -4027,7 +4024,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "code-snippet-screenshot": [
-  "Öffnen Sie oben den Arbeitsbereich **Code Snippet Screenshot**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Code-Snippet als Bild**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Rand (32px)** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Farbschema** mit `Dark`, `Leicht`, `Mitternacht`, `Solarized`.",
   "Klicken Sie auf **Screenshot rendern**, um die Berechnung zu starten.",
@@ -4035,7 +4032,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "code-to-image": [
-  "Öffnen Sie oben den Arbeitsbereich **Code to Bild**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Code als Bild exportieren**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Code** ein.",
   "Wählen Sie bei Bedarf **Sprache** mit `JavaScript`, `TypeScript`, `Python`, `HTML`.",
   "Klicken Sie auf **Bild herunterladen**, um die Berechnung zu starten.",
@@ -4043,19 +4040,19 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "coin-flip": [
-  "Öffnen Sie oben den Arbeitsbereich **Coin Flip**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Münzwurf**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Einzelwurf**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "coin-flip-simulator": [
-  "Öffnen Sie oben den Arbeitsbereich **Coin Flip Simulator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Münzwurf-Simulator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Einzelwurf**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "college-gpa-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **College GPA Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **GPA-Rechner (College)**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Aktuelle GPA**, **Erreichte Credits**, **Name von Kurs 1**, **Credits von Mathematik**, **Name von Kurs 2**, **Credits von Physik**, **Name von Kurs 3**, **Credits von Geschichte**, **Name von Kurs 4** und **Credits von Literatur** ein.",
   "Wählen Sie bei Bedarf **Note von Mathematik** mit `A+ (4)`, `A (4)`, `A- (3.7)`, `B+ (3.3)`.",
   "Klicken Sie auf **+ Kurs hinzufügen**, um die Berechnung zu starten.",
@@ -4063,58 +4060,58 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "combine-pdf": [
-  "Öffnen Sie oben den Arbeitsbereich **Combine PDF**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF zusammenfügen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF-Dateien auswählen** ein.",
   "Klicken Sie auf **PDF-Dateien auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "common-denominator-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Common Denominator Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Hauptnenner-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Zähler A**, **Nenner A**, **Wie viele Brüche**, **Zähler B** und **Nenner B** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "compress-pdf": [
-  "Öffnen Sie oben den Arbeitsbereich **Compress PDF**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF komprimieren**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "concrete-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Concrete Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Beton-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Länge (ft)**, **Breite (ft)**, **Tiefe (Zoll)** und **Verlust (%)** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "countdown-to-date": [
-  "Öffnen Sie oben den Arbeitsbereich **Countdown to Any Date**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Countdown bis zum Wunschdatum**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Startdatum** und **Enddatum** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "cps-test": [
-  "Öffnen Sie oben den Arbeitsbereich **CPS Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **CPS-Test (Klicks pro Sekunde)**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **HIER SCHNELL KLICKEN!**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "cron-expression-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Cron Expression Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Cron-Ausdruck-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Minute**, **Stunde**, **Tag des Monats**, **Monat** und **Wochentag** ein.",
   "Klicken Sie auf **Jede Minute**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "cron-expression-parser": [
-  "Öffnen Sie oben den Arbeitsbereich **Cron Expression Parser**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Cron-Ausdruck-Parser**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Der zu lesende Cron-Ausdruck** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "crontab-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Crontab Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Crontab-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Beschreibung des Zeitplans**, **Befehl** und **Cron-Ausdruck** ein.",
   "Klicken Sie auf **Crontab kopieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4122,14 +4119,14 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "csr-decoder": [
-  "Öffnen Sie oben den Arbeitsbereich **CSR Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **CSR-Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **Struktur auswerten**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "csv-to-json-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **CSV to JSON Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **CSV in JSON umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Trennzeichen:** mit `Komma (,)`, `Tabulator (\\t)`, `Semikolon (;)`, `Trennzeichen (|)`.",
   "Klicken Sie auf **CSV → JSON**, um die Berechnung zu starten.",
@@ -4145,7 +4142,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "cumulative-gpa-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Cumulative GPA Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Gesamt-GPA-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Aktuelle GPA**, **Erreichte Credits**, **Ziel-GPA**, **Name von Kurs 1**, **Credits von Mathematik**, **Name von Kurs 2**, **Credits von Physik**, **Name von Kurs 3**, **Credits von Geschichte**, **Name von Kurs 4** und **Credits von Literatur** ein.",
   "Wählen Sie bei Bedarf **Note von Mathematik** mit `A+ (4)`, `A (4)`, `A- (3.7)`, `B+ (3.3)`.",
   "Klicken Sie auf **+ Kurs hinzufügen**, um die Berechnung zu starten.",
@@ -4153,7 +4150,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "cursive-text-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Cursive Text Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Schreibschrift-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr Text** und **Ergebnis** ein.",
   "Wählen Sie bei Bedarf **Stil** mit `Schreibschrift`, `Fette Schreibschrift`, `Fraktur`.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
@@ -4161,21 +4158,21 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "custom-bingo-card-maker": [
-  "Öffnen Sie oben den Arbeitsbereich **Custom Bingo Card Ersteller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Eigene Bingo-Karten erstellen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihre Felder (einer pro Zeile)Die ersten 24 Zeilen füllen die Karte, der Rest wird ignorier** ein.",
   "Klicken Sie auf **Karte füllen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "dnd-dice-roller": [
-  "Öffnen Sie oben den Arbeitsbereich **D&D Dice Roller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **D&D-Würfel**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Modifikator** ein.",
   "Klicken Sie auf **Alle Würfel werfen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "d20-roller": [
-  "Öffnen Sie oben den Arbeitsbereich **D20 Roller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **W20-Würfel**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Modifikator** ein.",
   "Wählen Sie bei Bedarf **Modus** mit `Normal`, `Vorteil`, `Nachteil`.",
   "Klicken Sie auf **d20 werfen**, um die Berechnung zu starten.",
@@ -4183,7 +4180,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "data-matrix-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Data Matrix Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Data-Matrix-Code-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Zu kodierender Text** ein.",
   "Klicken Sie auf **Bild herunterladen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4191,66 +4188,65 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "date-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Date Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Startdatum**, **Enddatum** und **Betrag** ein.",
+  "Öffnen Sie oben den Arbeitsbereich **Datumsrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Geben Sie Ihre Eingabe in **Betrag** ein.",
   "Wählen Sie bei Bedarf **Einheit** mit `Tage`, `Wochen`, `Monate`, `Jahre`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "days-between-dates": [
-  "Öffnen Sie oben den Arbeitsbereich **Days Between Dates Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Von Datum** und **Bis Datum** ein.",
+  "Öffnen Sie oben den Arbeitsbereich **Tage zwischen zwei Daten berechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "db-viewer": [
-  "Öffnen Sie oben den Arbeitsbereich **DB File Betrachter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Datenbank-Datei-Viewer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **SQL-Abfrage** ein.",
   "Klicken Sie auf **SQL ausführen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "dead-pixel-test": [
-  "Öffnen Sie oben den Arbeitsbereich **Dead Pixel Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Dead-Pixel-Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Vergrößerung 8x** ein.",
   "Klicken Sie auf **Schwarz**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "decimal-to-binary": [
-  "Öffnen Sie oben den Arbeitsbereich **Decimal to Binary Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Decimal in Binary umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (Dezimal)** und **Ausgabe (Binär)** ein.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "decimal-to-fraction-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Decimal to Fraction Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Dezimalzahl in Bruch umrechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Dezimalzahl** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "decimal-to-hex": [
-  "Öffnen Sie oben den Arbeitsbereich **Decimal to Hex Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Decimal in Hex umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (Dezimal)** und **Ausgabe (Hexadezimal)** ein.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "dice-roller": [
-  "Öffnen Sie oben den Arbeitsbereich **Dice Roller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Online-Würfel**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eigene SeitenanzahlWürfeln Sie einen Würfel mit beliebig vielen Seiten zwischen 2 und 1000**, **Anzahl der Würfel** und **Modifikator** ein.",
   "Klicken Sie auf **Nochmal würfeln**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "dirty-santa-rules": [
-  "Öffnen Sie oben den Arbeitsbereich **Dirty Santa Rules**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Dirty-Santa-Regeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "discord-username-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Discord Username Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Discord-Namen-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr eigenes Wort** ein.",
   "Wählen Sie bei Bedarf **Stil** mit `_`, `.`, `ohne Trennzeichen`.",
   "Klicken Sie auf **Namen erzeugen**, um die Berechnung zu starten.",
@@ -4258,7 +4254,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "discount-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Discount Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Rabattrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Originalpreis**, **Rabatt (%)**, **Zusatzrabatt (%)** und **Verkaufssteuer (%)** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
@@ -4270,28 +4266,28 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "dog-age-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Dog Alter Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Hundealter-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Alter des Hundes in Jahren** ein.",
   "Wählen Sie bei Bedarf **Größe** mit `Klein (bis 20 lb)`, `Mittel (21 – 50 lb)`, `Groß (51 – 90 lb)`, `Riesig (über 90 lb)`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "double-click-test": [
-  "Öffnen Sie oben den Arbeitsbereich **Double Click Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Doppelklick-Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Die Grenze für einen Doppelklick in Millisekunden** ein.",
   "Klicken Sie auf **Messung zurücksetzen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "double-elimination-bracket": [
-  "Öffnen Sie oben den Arbeitsbereich **Double Elimination Bracket Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Double-Elimination-Turnierbaum**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Namen oder Teams (einer pro Zeile)Zwischen 2 und 16 Namen, der Plan wird mit Freilosen auf** ein.",
   "Klicken Sie auf **Turnierplan erzeugen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "ean-13-barcode-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **EAN-13 Barcode Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **EAN-13-Barcode-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Barcode-Format** mit `Code 128 (universal)`, `EAN-13 (13 Ziffern)`, `UPC (12 Ziffern)`, `Code 39 (alphanumerisch)`.",
   "Klicken Sie auf **Barcode als SVG herunterladen**, um die Berechnung zu starten.",
@@ -4299,26 +4295,26 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "easy-grader": [
-  "Öffnen Sie oben den Arbeitsbereich **Easy Grader**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Notenrechner für Lehrer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Anzahl der Fragen** und **Richtig beantwortete Fragen** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "electricity-cost-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Electricity Cost Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Stromkosten-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wattage**, **Nutzstunden pro Tag** und **Preis pro kWh** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "email-header-analyzer": [
-  "Öffnen Sie oben den Arbeitsbereich **Email Header Analyzer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **E-Mail-Header-Analyse**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Rohe E-Mail** ein.",
   "Klicken Sie auf **Beispiel laden**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "eml-to-pdf": [
-  "Öffnen Sie oben den Arbeitsbereich **EML to PDF Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **EML in PDF umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie eine E-Mail-Datei** ein.",
   "Klicken Sie auf **Wählen Sie eine E-Mail-Datei**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4331,13 +4327,13 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "epoch-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **Epoch Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Epoch-Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Aktuelle Uhrzeit**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "excel-to-csv": [
-  "Öffnen Sie oben den Arbeitsbereich **Excel to CSV Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Excel in CSV umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Trennzeichen:** mit `Komma (,)`, `Tabulator (\\t)`, `Semikolon (;)`, `Trennzeichen (|)`.",
   "Klicken Sie auf **CSV → JSON**, um die Berechnung zu starten.",
@@ -4353,7 +4349,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "exif-remover": [
-  "Öffnen Sie oben den Arbeitsbereich **EXIF Entferner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **EXIF-Daten entfernen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
@@ -4365,20 +4361,20 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "extract-pdf-pages": [
-  "Öffnen Sie oben den Arbeitsbereich **Extract PDF Pages**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF-Seiten extrahieren**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "face-pixelator": [
-  "Öffnen Sie oben den Arbeitsbereich **Face Pixelator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Gesichter verpixeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "fancy-text-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Fancy Text Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Schöne-Schrift-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr Text** und **Stile durchsuchen** ein.",
   "Wählen Sie bei Bedarf **Empfohlener Stil** mit `Fett`, `Kursiv`, `Fett Kursiv`, `Schreibschrift`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4386,13 +4382,13 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "favicon-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Favicon Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Favicon-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "favicon-maker": [
-  "Öffnen Sie oben den Arbeitsbereich **Favicon Ersteller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Favicon erstellen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Farbe** und **Strichstärke2** ein.",
   "Wählen Sie bei Bedarf **Symbolgröße** mit `16 × 16`, `32 × 32`, `48 × 48`, `64 × 64`.",
   "Klicken Sie auf **Bild herunterladen**, um die Berechnung zu starten.",
@@ -4407,13 +4403,13 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "final-grade-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Final Grade Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Abschlussnote berechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Aktuelle Note (%)**, **Endgewicht (%)** und **Zielnote (%)** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "flac-to-mp3": [
-  "Öffnen Sie oben den Arbeitsbereich **FLAC to MP3 Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **FLAC in MP3 umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Mediendatei auswählen** ein.",
   "Wählen Sie bei Bedarf **Konvertieren nach** mit `MP3 - MPEG-Audio`, `MP4 - H.264-Video`, `WAV - unkomprimiertes PCM`, `WebM - VP8-Video`.",
   "Klicken Sie auf **Jetzt konvertieren**, um die Berechnung zu starten.",
@@ -4421,19 +4417,19 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "flip-a-coin": [
-  "Öffnen Sie oben den Arbeitsbereich **Flip a Coin**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Münze werfen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Einzelwurf**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "focus-timer": [
-  "Öffnen Sie oben den Arbeitsbereich **Focus Timer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Fokus-Timer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Arbeit (25 Min.)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "font-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Font Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Schriftarten-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr Text** und **Stile durchsuchen** ein.",
   "Wählen Sie bei Bedarf **Empfohlener Stil** mit `Fett`, `Kursiv`, `Fett Kursiv`, `Schreibschrift`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4441,45 +4437,45 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "instagram-fonts": [
-  "Öffnen Sie oben den Arbeitsbereich **Fonts for Instagram**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Schriftarten für Instagram**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Text der Vorschau** ein.",
   "Wählen Sie bei Bedarf **Schrift der Vorschau** mit `Klassisch`, `Modern`, `Neon`, `Strong`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "fraction-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Fraction Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Bruchrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Zähler A**, **Nenner A**, **Zähler B** und **Nenner B** ein.",
   "Klicken Sie auf **Addieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "fraction-to-decimal-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Fraction to Decimal Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Bruch in Dezimalzahl umrechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Zähler**, **Nenner** und **Vergleichen mit** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "gamepad-tester": [
-  "Öffnen Sie oben den Arbeitsbereich **Gamepad Tester**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Gamepad-Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Test starten**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "gif-to-mp4": [
-  "Öffnen Sie oben den Arbeitsbereich **GIF to MP4 Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **GIF in MP4 umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie eine Animation** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "gif-to-png": [
-  "Öffnen Sie oben den Arbeitsbereich **GIF to PNG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **GIF in PNG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "gift-exchange-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Gift Exchange Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Wichteln-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Namen der TeilnehmendenEin Name pro Zeile.** und **Diese Namen ausschließenNamen mit Komma bleiben bei der Ziehung außen vor.** ein.",
   "Klicken Sie auf **Losen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4493,7 +4489,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "glitch-text-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Glitch Text Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Glitch-Text-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr Text** und **Verfälschtes Ergebnis** ein.",
   "Wählen Sie bei Bedarf **Intensität** mit `Leicht`, `Mittel`, `Stark`.",
   "Klicken Sie auf **Mischen**, um die Berechnung zu starten.",
@@ -4508,7 +4504,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "gpa-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **GPA Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **GPA-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Aktuelle GPA**, **Erreichte Credits**, **Name von Kurs 1**, **Credits von Mathematik**, **Name von Kurs 2**, **Credits von Physik**, **Name von Kurs 3**, **Credits von Geschichte**, **Name von Kurs 4** und **Credits von Literatur** ein.",
   "Wählen Sie bei Bedarf **Note von Mathematik** mit `A+ (4)`, `A (4)`, `A- (3.7)`, `B+ (3.3)`.",
   "Klicken Sie auf **+ Kurs hinzufügen**, um die Berechnung zu starten.",
@@ -4516,13 +4512,13 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "grade-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Grade Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Notenrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Kategorie 1**, **Gewichtung von Hausaufgaben**, **Punkte von Hausaufgaben**, **Kategorie 2**, **Gewichtung von Zwischenprüfung**, **Punkte von Zwischenprüfung**, **Kategorie 3**, **Gewichtung von Abschlussprüfung** und **Punkte von Abschlussprüfung** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "graphql-formatter-beautifier": [
-  "Öffnen Sie oben den Arbeitsbereich **GraphQL Formatter & Formatierer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **GraphQL-Formatierer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **GraphQL formatieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4530,7 +4526,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "graphql-minifier": [
-  "Öffnen Sie oben den Arbeitsbereich **GraphQL Minifier**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **GraphQL-Minifier**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **GraphQL minimieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4538,7 +4534,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "graphql-schema-explorer": [
-  "Öffnen Sie oben den Arbeitsbereich **GraphQL Schema Explorer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **GraphQL-Schema-Explorer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **Schema lesen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4546,7 +4542,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "graphql-schema-validator": [
-  "Öffnen Sie oben den Arbeitsbereich **GraphQL Schema Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **GraphQL-Schema-Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **Schema validieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4554,7 +4550,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "graphql-schema-viewer-validator": [
-  "Öffnen Sie oben den Arbeitsbereich **GraphQL Schema Betrachter & Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **GraphQL-Schema-Viewer & Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **Schema anzeigen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4562,7 +4558,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "graphql-validator": [
-  "Öffnen Sie oben den Arbeitsbereich **GraphQL Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **GraphQL-Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **GraphQL validieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4570,13 +4566,13 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "gravel-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Gravel Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Kies-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Fläche (sq ft)**, **Tiefe (Zoll)**, **Dichte (tons/yd³)** und **Verlust (%)** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "handwriting-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Handwriting Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Handschrift-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Handzuschreibender Text**, **Tintenfarbe**, **Papierfarbe**, **Schriftgröße**, **Zeichenabstand**, **Pinselgröße** und **Stiftfarbe** ein.",
   "Wählen Sie bei Bedarf **Handschriftart** mit `Segoe Script`, `Comic Sans MS`, `Brush Script MT`, `Bradley Hand`.",
   "Klicken Sie auf **Neue Variante**, um die Berechnung zu starten.",
@@ -4584,7 +4580,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "harvard-citation-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Harvard Citation Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Harvard-Zitat-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Autor(en)**, **Jahr**, **Titel**, **Verlag**, **Auflage**, **Ort** und **DOI oder URL** ein.",
   "Wählen Sie bei Bedarf **Quellentyp** mit `Buch`, `Zeitschriftenartikel`, `Webseite`.",
   "Klicken Sie auf **.txt herunterladen**, um die Berechnung zu starten.",
@@ -4592,14 +4588,14 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "hash-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Hash Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Hash-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "headphone-test": [
-  "Öffnen Sie oben den Arbeitsbereich **Headphone Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Kopfhörer-Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Linker Kanal**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
@@ -4611,62 +4607,62 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "heic-to-jpg-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **HEIC to JPG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **HEIC in JPG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein HEIC-Foto** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "hex-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Hex Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Hex-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Erste Zahl (hex)** und **Zweite Zahl (hex)** ein.",
   "Klicken Sie auf **Addieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "hex-to-ascii": [
-  "Öffnen Sie oben den Arbeitsbereich **Hex to ASCII Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Hex in ASCII umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (Hexadezimal)** und **Ausgabe (Text)** ein.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "hex-to-binary": [
-  "Öffnen Sie oben den Arbeitsbereich **Hex to Binary Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Hex in Binary umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (Hexadezimal)** und **Ausgabe (Binär)** ein.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "hex-to-decimal": [
-  "Öffnen Sie oben den Arbeitsbereich **Hex to Decimal Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Hex in Decimal umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (Hexadezimal)** und **Ausgabe (Dezimal)** ein.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "hex-to-rgb": [
-  "Öffnen Sie oben den Arbeitsbereich **HEX to RGB**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **HEX in RGB umrechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (Hexadezimal)** und **Ausgabe (RGB)** ein.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "hex-to-rgb-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **HEX to RGB Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **HEX-zu-RGB-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (Hexadezimal)** und **Ausgabe (RGB)** ein.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "hex-rgb-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **HEX to RGB Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **HEX-RGB-Farbumrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (Hexadezimal)** und **Ausgabe (RGB)** ein.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "high-school-gpa-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **High School GPA Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **GPA-Rechner (High School)**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Name von Kurs 1**, **Credits von Mathematik**, **Name von Kurs 2**, **Credits von Physik**, **Name von Kurs 3**, **Credits von Geschichte**, **Name von Kurs 4** und **Credits von Literatur** ein.",
   "Wählen Sie bei Bedarf **Gewichtung von Mathematik** mit `Normal`, `Ehrenguthaben +0.5`, `AP / IB +1.0`.",
   "Klicken Sie auf **+ Kurs hinzufügen**, um die Berechnung zu starten.",
@@ -4674,25 +4670,25 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "hourly-to-salary-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Stundenlohn to Gehalt Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Stundenlohn in Gehalt umrechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Stundenlohn**, **Stunden pro Woche** und **Bezahlte Wochen pro Jahr** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "hours-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Hours Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Stundenrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Startzeit**, **Endzeit** und **Pause (Minuten)** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "days-until-christmas": [
-  "Öffnen Sie oben den Arbeitsbereich **How Many Days Until Christmas?**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Wie viele Tage bis Weihnachten?**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Neu zählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "days-until-halloween": [
-  "Öffnen Sie oben den Arbeitsbereich **How Many Days Until Halloween?**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Wie viele Tage bis Halloween?**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Neu zählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
@@ -4706,7 +4702,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "html-formatter": [
-  "Öffnen Sie oben den Arbeitsbereich **HTML Formatter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **HTML-Formatierer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **HTML formatieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4714,7 +4710,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "html-minifier": [
-  "Öffnen Sie oben den Arbeitsbereich **HTML Minifier**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **HTML-Minifier**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **HTML minimieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4722,21 +4718,21 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "html-table-to-markdown": [
-  "Öffnen Sie oben den Arbeitsbereich **HTML Table to Markdown**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **HTML-Tabelle in Markdown umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **HTML-Eingabe** und **Markdown-Ausgabe** ein.",
   "Klicken Sie auf **Markdown kopieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "html-to-markdown": [
-  "Öffnen Sie oben den Arbeitsbereich **HTML to Markdown Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **HTML in Markdown umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **HTML-Eingabe** und **Markdown-Ausgabe** ein.",
   "Klicken Sie auf **Markdown kopieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "html-to-md": [
-  "Öffnen Sie oben den Arbeitsbereich **HTML to MD Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **HTML in MD umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **HTML-Quelltext** und **Markdown-Ausgabe** ein.",
   "Klicken Sie auf **.md herunterladen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4744,26 +4740,26 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "http-request-tester": [
-  "Öffnen Sie oben den Arbeitsbereich **HTTP Request Tester**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **HTTP-Request-Tester**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **GETPOSTPUTDELETE** ein.",
   "Klicken Sie auf **Anfrage senden**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "ico-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **ICO Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **ICO-Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "ico-to-png": [
-  "Öffnen Sie oben den Arbeitsbereich **ICO to PNG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **ICO in PNG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "image-metadata-viewer": [
-  "Öffnen Sie oben den Arbeitsbereich **Bild Metadata Betrachter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Bild-Metadaten anzeigen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
@@ -4775,39 +4771,39 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "image-to-pdf": [
-  "Öffnen Sie oben den Arbeitsbereich **Bild to PDF Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Bild in PDF umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Bilder wählen** ein.",
   "Klicken Sie auf **Bilder wählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "instagram-grid-maker": [
-  "Öffnen Sie oben den Arbeitsbereich **Instagram Grid Ersteller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Instagram-Raster erstellen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "instagram-image-splitter": [
-  "Öffnen Sie oben den Arbeitsbereich **Instagram Bild Teiler**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Instagram-Bild teilen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "instagram-photo-splitter": [
-  "Öffnen Sie oben den Arbeitsbereich **Instagram Foto Teiler**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Instagram-Foto teilen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "invisible-character": [
-  "Öffnen Sie oben den Arbeitsbereich **Invisible Character**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Unsichtbares Zeichen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Text zum Prüfen einfügen** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "ipv6-subnet-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **IPv6 Subnet Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **IPv6-Subnetzrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **IP-Adresse** ein.",
   "Wählen Sie bei Bedarf **CIDR-Präfix (/64)** mit `/0`, `/1`, `/2`, `/3`.",
   "Klicken Sie auf **IPv4**, um die Berechnung zu starten.",
@@ -4815,7 +4811,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "isbn-barcode-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **ISBN Barcode Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **ISBN-Barcode-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Barcode-Format** mit `Code 128 (universal)`, `EAN-13 (13 Ziffern)`, `UPC (12 Ziffern)`, `Code 39 (alphanumerisch)`.",
   "Klicken Sie auf **Barcode als SVG herunterladen**, um die Berechnung zu starten.",
@@ -4823,59 +4819,59 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "javascript-regex-tester": [
-  "Öffnen Sie oben den Arbeitsbereich **JavaScript Regex Tester**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JavaScript-Regex-Tester**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** und **das Eingabefeld** ein.",
   "Klicken Sie auf **g**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "jfif-to-jpg": [
-  "Öffnen Sie oben den Arbeitsbereich **JFIF to JPG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JFIF in JPG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "jpg-to-ico": [
-  "Öffnen Sie oben den Arbeitsbereich **JPG to ICO Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JPG in ICO umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "jpg-to-pdf-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **JPG to PDF Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JPG in PDF umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Bilder wählen** ein.",
   "Klicken Sie auf **Bilder wählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "jpg-to-png-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **JPG to PNG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JPG in PNG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "jpg-to-webp-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **JPG to WebP Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JPG in WebP umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "json-compare": [
-  "Öffnen Sie oben den Arbeitsbereich **JSON Compare**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JSON vergleichen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** und **das Eingabefeld** ein.",
   "Klicken Sie auf **A ⇄ B tauschen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "json-diff": [
-  "Öffnen Sie oben den Arbeitsbereich **JSON Diff**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JSON-Diff**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Original-JSON / -Text** und **Geändertes JSON / Text** ein.",
   "Klicken Sie auf **Diffs vergleichen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "json-editor": [
-  "Öffnen Sie oben den Arbeitsbereich **JSON Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JSON-Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Suchen & Ersetzen** mit `2 Leerzeichen`, `4 Leerzeichen`, `Tabulatoren`.",
   "Klicken Sie auf **Code-Editor**, um die Berechnung zu starten.",
@@ -4883,7 +4879,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage."
  ],
  "json-formatter": [
-  "Öffnen Sie oben den Arbeitsbereich **JSON Formatter & Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JSON-Formatierer & Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Einrückung:** mit `2 Leerzeichen`, `4 Leerzeichen`, `Tabulatoren`.",
   "Klicken Sie auf **JSON formatieren**, um die Berechnung zu starten.",
@@ -4891,7 +4887,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "json-minifier": [
-  "Öffnen Sie oben den Arbeitsbereich **JSON Minifier**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JSON-Minifier**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** und **das Eingabefeld** ein.",
   "Klicken Sie auf **Minifiziertes JSON kopieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4907,14 +4903,14 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "json-diff-compare": [
-  "Öffnen Sie oben den Arbeitsbereich **JSON Semantic Diff & Compare**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JSON-Vergleich (semantisch)**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** und **das Eingabefeld** ein.",
   "Klicken Sie auf **A ⇄ B tauschen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "json-to-csv-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **JSON to CSV Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JSON in CSV umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Trennzeichen:** mit `Komma (,)`, `Tabulator (\\t)`, `Semikolon (;)`, `Trennzeichen (|)`.",
   "Klicken Sie auf **JSON → CSV**, um die Berechnung zu starten.",
@@ -4922,7 +4918,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "json-to-toon": [
-  "Öffnen Sie oben den Arbeitsbereich **JSON to TOON**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JSON in TOON umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** und **das Eingabefeld** ein.",
   "Klicken Sie auf **Modus: JSON → TOON**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4930,7 +4926,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "json-to-toon-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **JSON to TOON Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JSON-zu-TOON-Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** und **das Eingabefeld** ein.",
   "Klicken Sie auf **Modus: JSON → TOON**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4938,7 +4934,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "json-to-ts": [
-  "Öffnen Sie oben den Arbeitsbereich **JSON to TS**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JSON in TypeScript umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wurzelname:**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Art:** mit `interface`, `Typ-Alias`.",
   "Klicken Sie auf **TypeScript kopieren**, um die Berechnung zu starten.",
@@ -4946,7 +4942,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "json-to-typescript": [
-  "Öffnen Sie oben den Arbeitsbereich **JSON to TypeScript Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JSON-zu-TypeScript-Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wurzelname:**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Art:** mit `interface`, `Typ-Alias`.",
   "Klicken Sie auf **TypeScript kopieren**, um die Berechnung zu starten.",
@@ -4954,7 +4950,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "json-to-typescript-interface": [
-  "Öffnen Sie oben den Arbeitsbereich **JSON to TypeScript Interface**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JSON in TypeScript-Interface umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wurzelname:**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Art:** mit `interface`, `Typ-Alias`.",
   "Klicken Sie auf **TypeScript kopieren**, um die Berechnung zu starten.",
@@ -4962,7 +4958,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "json-validator": [
-  "Öffnen Sie oben den Arbeitsbereich **JSON Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JSON-Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen** und **das Eingabefeld** ein.",
   "Klicken Sie auf **Format**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -4977,40 +4973,40 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "jwt-decoder": [
-  "Öffnen Sie oben den Arbeitsbereich **JWT Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JWT-Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "jwt-decoder-encoder": [
-  "Öffnen Sie oben den Arbeitsbereich **JWT Decoder / Encoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JWT-Decoder/Encoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld**, **Signaturschlüssel (Secret)** und **Ansprüche (JSON)** ein.",
   "Wählen Sie bei Bedarf **Algorithmus** mit `HS256`, `HS384`, `HS512`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "jwt-encoder": [
-  "Öffnen Sie oben den Arbeitsbereich **JWT Encoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **JWT-Encoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Signaturschlüssel (Secret)** und **Ansprüche (JSON)** ein.",
   "Wählen Sie bei Bedarf **Algorithmus** mit `HS256`, `HS384`, `HS512`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "keyboard-test": [
-  "Öffnen Sie oben den Arbeitsbereich **Keyboard Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Tastatur-Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Tastenverlauf zurücksetzen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "latex-equation-editor": [
-  "Öffnen Sie oben den Arbeitsbereich **LaTeX Equation Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **LaTeX-Formeleditor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **Formel rendern**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "latex-to-image": [
-  "Öffnen Sie oben den Arbeitsbereich **LaTeX to Bild Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **LaTeX in Bild umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **LaTeX-Formel** ein.",
   "Wählen Sie bei Bedarf **Auflösung** mit `1x (600 × 200 px)`, `2x (1200 × 400 px)`, `3x (1800 × 600 px)`.",
   "Klicken Sie auf **Bild herunterladen**, um die Berechnung zu starten.",
@@ -5018,7 +5014,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "latex-to-word-equation": [
-  "Öffnen Sie oben den Arbeitsbereich **LaTeX to Wort Equation**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **LaTeX in Word-Formel umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **LaTeX-Ausdruck** und **Word-Ausgabe (UnicodeMath)** ein.",
   "Klicken Sie auf **Für Word kopieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5026,20 +5022,20 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "letter-to-santa-template": [
-  "Öffnen Sie oben den Arbeitsbereich **Letter to Santa Template**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Brief an den Weihnachtsmann (Vorlage)**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Brief kopieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "list-randomizer": [
-  "Öffnen Sie oben den Arbeitsbereich **List Randomizer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Liste mischen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihre Liste (ein Eintrag pro Zeile)Die Liste wird mit der Zufallsquelle Ihres Browsers gemi** ein.",
   "Klicken Sie auf **Liste mischen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "llm-token-counter": [
-  "Öffnen Sie oben den Arbeitsbereich **LLM Token Zähler**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **LLM-Token-Zähler**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** und **Preis pro 1M Eingabetokens (USD)** ein.",
   "Wählen Sie bei Bedarf **Modell** mit `GPT-4 / GPT-4o (exakt)`, `GPT-5 / o-series (exakt)`, `Claude (Schätzung)`, `Gemini (Schätzung)`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5047,7 +5043,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "local-ai-chat": [
-  "Öffnen Sie oben den Arbeitsbereich **Local AI Chat**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Lokaler KI-Chat**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe** ein.",
   "Wählen Sie bei Bedarf **Modell** mit `Qwen2.5 0.5B Instruct`, `Llama 3.2 1B Instruct`, `Gemma 2 2B Instruct`.",
   "Klicken Sie auf **Modell laden**, um die Berechnung zu starten.",
@@ -5055,7 +5051,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage."
  ],
  "lowercase-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **Lowercase Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **In Kleinbuchstaben umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **UPPERCASE**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5063,7 +5059,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "m4a-to-mp3": [
-  "Öffnen Sie oben den Arbeitsbereich **M4A to MP3 Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **M4A in MP3 umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Mediendatei auswählen** ein.",
   "Wählen Sie bei Bedarf **Konvertieren nach** mit `MP3 - MPEG-Audio`, `MP4 - H.264-Video`, `WAV - unkomprimiertes PCM`, `WebM - VP8-Video`.",
   "Klicken Sie auf **Jetzt konvertieren**, um die Berechnung zu starten.",
@@ -5071,35 +5067,35 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "macro-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Macro Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Öffnen Sie oben den Arbeitsbereich **Makronährstoff-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "magic-eraser": [
-  "Öffnen Sie oben den Arbeitsbereich **Magic Eraser**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Radierer für Objekte im Foto**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "maintenance-calorie-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Maintenance Calorie Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Öffnen Sie oben den Arbeitsbereich **Kalorienbedarf-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "margin-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Margin Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Margenrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Kosten**, **Verkaufspreis** und **Zielmarge (%)** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "markdown-file-viewer": [
-  "Öffnen Sie oben den Arbeitsbereich **Markdown File Betrachter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Markdown-Datei-Viewer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen** und **Markdown-Quelltext** ein.",
   "Klicken Sie auf **Als PDF exportieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5107,7 +5103,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "markdown-preview": [
-  "Öffnen Sie oben den Arbeitsbereich **Markdown Preview**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Markdown-Vorschau**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen** und **Markdown-Quelltext** ein.",
   "Klicken Sie auf **Als PDF exportieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5115,7 +5111,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "markdown-to-docx": [
-  "Öffnen Sie oben den Arbeitsbereich **Markdown to DOCX Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Markdown in DOCX umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen** und **Markdown-Quelltext** ein.",
   "Klicken Sie auf **Als PDF exportieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5123,7 +5119,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "markdown-to-pdf": [
-  "Öffnen Sie oben den Arbeitsbereich **Markdown to PDF**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Markdown in PDF umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen** und **Markdown-Quelltext** ein.",
   "Klicken Sie auf **Als PDF exportieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5131,7 +5127,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "markdown-to-pdf-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **Markdown to PDF Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Markdown-zu-PDF-Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen** und **Markdown-Quelltext** ein.",
   "Klicken Sie auf **Als PDF exportieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5139,7 +5135,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "markdown-to-word": [
-  "Öffnen Sie oben den Arbeitsbereich **Markdown to Wort**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Markdown in Word umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen** und **Markdown-Quelltext** ein.",
   "Klicken Sie auf **Als PDF exportieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5155,7 +5151,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "markdown-wysiwyg-editor": [
-  "Öffnen Sie oben den Arbeitsbereich **Markdown WYSIWYG Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Markdown-WYSIWYG-Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen** und **Markdown-Quelltext** ein.",
   "Klicken Sie auf **Als PDF exportieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5163,13 +5159,13 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "markup-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Markup Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Aufschlagsrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Kosten**, **Aufschlag (%)** und **Verkaufspreis** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "md-to-docx": [
-  "Öffnen Sie oben den Arbeitsbereich **MD to DOCX**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **MD-zu-DOCX-Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen** und **Markdown-Quelltext** ein.",
   "Klicken Sie auf **Als PDF exportieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5177,7 +5173,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "md-to-pdf": [
-  "Öffnen Sie oben den Arbeitsbereich **MD to PDF**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **MD in PDF umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen** und **Markdown-Quelltext** ein.",
   "Klicken Sie auf **Als PDF exportieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5185,40 +5181,40 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "md5-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **MD5 Hash Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **MD5-Hash-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "mean-absolute-deviation-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Mean Absolute Deviation Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Mittlere absolute Abweichung berechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "meeting-planner": [
-  "Öffnen Sie oben den Arbeitsbereich **Meeting Planner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Meeting-Planer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Teilnehmende**, **Tagesordnung**, **Datum**, **Dauer in Minuten**, **Der Arbeitstag beginnt um**, **Der Arbeitstag endet um** und **Belegte Zeiten** ein.",
   "Klicken Sie auf **Beispiel laden**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "merge-pdf": [
-  "Öffnen Sie oben den Arbeitsbereich **Merge PDF Files**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF-Dateien zusammenführen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF-Dateien auswählen** ein.",
   "Klicken Sie auf **PDF-Dateien auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "mic-test": [
-  "Öffnen Sie oben den Arbeitsbereich **Mic Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Mikrofon-Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Mikrofon-Test aktivieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "middle-school-gpa-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Middle School GPA Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **GPA-Rechner (Mittelstufe)**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Name von Kurs 1**, **Name von Kurs 2**, **Name von Kurs 3** und **Name von Kurs 4** ein.",
   "Wählen Sie bei Bedarf **Note von Mathematik** mit `A+ (4)`, `A (4)`, `A- (3.7)`, `B+ (3.3)`.",
   "Klicken Sie auf **+ Kurs hinzufügen**, um die Berechnung zu starten.",
@@ -5226,20 +5222,20 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "military-time-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **Military Time Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **24-Stunden-Zeit umrechnen (Militärzeit)**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Militärzeit** und **Normalzeit** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "mixed-number-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Mixed Number Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Rechner für gemischte Zahlen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ganzzahl A**, **Zähler A**, **Nenner A**, **Ganzzahl B**, **Zähler B** und **Nenner B** ein.",
   "Klicken Sie auf **Addieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "mkv-to-mp4": [
-  "Öffnen Sie oben den Arbeitsbereich **MKV to MP4 Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **MKV in MP4 umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Mediendatei auswählen** ein.",
   "Wählen Sie bei Bedarf **Konvertieren nach** mit `MP3 - MPEG-Audio`, `MP4 - H.264-Video`, `WAV - unkomprimiertes PCM`, `WebM - VP8-Video`.",
   "Klicken Sie auf **Jetzt konvertieren**, um die Berechnung zu starten.",
@@ -5247,7 +5243,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "mla-citation-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **MLA Citation Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **MLA-Zitat-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Autor(en)**, **Jahr**, **Titel**, **Verlag**, **Auflage**, **Ort** und **DOI oder URL** ein.",
   "Wählen Sie bei Bedarf **Quellentyp** mit `Buch`, `Zeitschriftenartikel`, `Webseite`.",
   "Klicken Sie auf **.txt herunterladen**, um die Berechnung zu starten.",
@@ -5255,7 +5251,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "morse-code-translator": [
-  "Öffnen Sie oben den Arbeitsbereich **Morse Code Translator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Morsecode-Übersetzer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (Text)** und **Ausgabe (Morse)** ein.",
   "Klicken Sie auf **Richtung wechseln (Vorwärts)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
@@ -5263,13 +5259,13 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "mouse-test": [
-  "Öffnen Sie oben den Arbeitsbereich **Mouse Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Maus-Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Zähler zurücksetzen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "mov-to-mp4": [
-  "Öffnen Sie oben den Arbeitsbereich **MOV to MP4 Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **MOV in MP4 umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Mediendatei auswählen** ein.",
   "Wählen Sie bei Bedarf **Konvertieren nach** mit `MP3 - MPEG-Audio`, `MP4 - H.264-Video`, `WAV - unkomprimiertes PCM`, `WebM - VP8-Video`.",
   "Klicken Sie auf **Jetzt konvertieren**, um die Berechnung zu starten.",
@@ -5277,7 +5273,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "mp3-to-wav": [
-  "Öffnen Sie oben den Arbeitsbereich **MP3 to WAV Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **MP3 in WAV umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Mediendatei auswählen** ein.",
   "Wählen Sie bei Bedarf **Konvertieren nach** mit `MP3 - MPEG-Audio`, `MP4 - H.264-Video`, `WAV - unkomprimiertes PCM`, `WebM - VP8-Video`.",
   "Klicken Sie auf **Jetzt konvertieren**, um die Berechnung zu starten.",
@@ -5285,7 +5281,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "mp4-to-mp3": [
-  "Öffnen Sie oben den Arbeitsbereich **MP4 to MP3 Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **MP4 in MP3 umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Mediendatei auswählen** ein.",
   "Wählen Sie bei Bedarf **Konvertieren nach** mit `MP3 - MPEG-Audio`, `MP4 - H.264-Video`, `WAV - unkomprimiertes PCM`, `WebM - VP8-Video`.",
   "Klicken Sie auf **Jetzt konvertieren**, um die Berechnung zu starten.",
@@ -5293,7 +5289,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "msg-to-pdf": [
-  "Öffnen Sie oben den Arbeitsbereich **MSG to PDF Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **MSG in PDF umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie eine E-Mail-Datei** ein.",
   "Klicken Sie auf **Wählen Sie eine E-Mail-Datei**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5306,24 +5302,24 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "mulch-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Mulch Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Mulch-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Fläche (sq ft)**, **Tiefe (Zoll)** und **Verlust (%)** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "new-year-countdown": [
-  "Öffnen Sie oben den Arbeitsbereich **New Year Countdown**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Silvester-Countdown**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "new-years-bingo": [
-  "Öffnen Sie oben den Arbeitsbereich **New Year's Bingo Cards**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Silvester-Bingo-Karten**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Neue Karte**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "notepad-plus-plus-online": [
-  "Öffnen Sie oben den Arbeitsbereich **Notepad++ Online**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Notepad++ online**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei importieren**, **Öffnen**, **Zoomstufe %**, **das Eingabefeld**, **Suchen** und **Ersetzen** ein.",
   "Wählen Sie bei Bedarf **Sprache** mit `Nur Text`, `JSON`, `XML`, `HTML`.",
   "Klicken Sie auf **Neuer Tab**, um die Berechnung zu starten.",
@@ -5331,7 +5327,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "number-base-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **Number Base Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zahlensystem-Umrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (Dezimal)** und **Ausgabe (Binär)** ein.",
   "Wählen Sie bei Bedarf **Von** mit `Binär (2)`, `Oktal (8)`, `Dezimal (10)`, `Hexadezimal (16)`.",
   "Klicken Sie auf **Richtung wechseln (Vorwärts)**, um die Berechnung zu starten.",
@@ -5346,7 +5342,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "offline-ai-chat": [
-  "Öffnen Sie oben den Arbeitsbereich **Offline AI Chat**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Offline-KI-Chat**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe** ein.",
   "Wählen Sie bei Bedarf **Modell** mit `Qwen2.5 1.5B Instruct`, `Llama 3.2 1B Instruct`.",
   "Klicken Sie auf **Modell laden**, um die Berechnung zu starten.",
@@ -5354,7 +5350,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage."
  ],
  "og-image-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **OG Bild Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **OG-Bild-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Titel** und **Untertitel** ein.",
   "Wählen Sie bei Bedarf **Vorlage** mit `Minimal`, `Farbverlauf`, `Geteilt`.",
   "Klicken Sie auf **Bild herunterladen**, um die Berechnung zu starten.",
@@ -5362,7 +5358,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "og-image-maker": [
-  "Öffnen Sie oben den Arbeitsbereich **OG Bild Ersteller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **OG-Bild erstellen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Titel** und **Untertitel** ein.",
   "Wählen Sie bei Bedarf **Vorlage** mit `Minimal`, `Farbverlauf`, `Geteilt`.",
   "Klicken Sie auf **Bild herunterladen**, um die Berechnung zu starten.",
@@ -5370,7 +5366,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "ogg-to-mp3": [
-  "Öffnen Sie oben den Arbeitsbereich **OGG to MP3 Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **OGG in MP3 umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Mediendatei auswählen** ein.",
   "Wählen Sie bei Bedarf **Konvertieren nach** mit `MP3 - MPEG-Audio`, `MP4 - H.264-Video`, `WAV - unkomprimiertes PCM`, `WebM - VP8-Video`.",
   "Klicken Sie auf **Jetzt konvertieren**, um die Berechnung zu starten.",
@@ -5378,34 +5374,34 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "one-rep-max-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **One Rep Max Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **One-Rep-Max-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Gehobenes Gewicht** und **Ausgeführte Wiederholungen** ein.",
   "Wählen Sie bei Bedarf **Formel** mit `Epley (am häufigsten)`, `Brzycki`, `Lombardi`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "bingo-caller": [
-  "Öffnen Sie oben den Arbeitsbereich **Online Bingo Caller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Bingo-Ansager online**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Nächste Zahl aufrufen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "diff-checker": [
-  "Öffnen Sie oben den Arbeitsbereich **Online Diff Prüfer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Text-Vergleich (Diff-Checker)**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Original-JSON / -Text** und **Geändertes JSON / Text** ein.",
   "Klicken Sie auf **Diffs vergleichen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "equation-editor": [
-  "Öffnen Sie oben den Arbeitsbereich **Online Equation Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Online-Formeleditor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Die Formel in LaTeX** ein.",
   "Klicken Sie auf **x²**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "markdown-editor": [
-  "Öffnen Sie oben den Arbeitsbereich **Online Markdown Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Online-Markdown-Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen** und **Markdown-Quelltext** ein.",
   "Klicken Sie auf **Als PDF exportieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5413,7 +5409,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "online-markdown-editor": [
-  "Öffnen Sie oben den Arbeitsbereich **Online Markdown Editor with Export**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Online-Markdown-Editor mit Export**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen** und **Markdown-Quelltext** ein.",
   "Klicken Sie auf **Als PDF exportieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5421,21 +5417,21 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "math-editor": [
-  "Öffnen Sie oben den Arbeitsbereich **Online Math Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Online-Mathe-Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **Formel rendern**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "math-keyboard": [
-  "Öffnen Sie oben den Arbeitsbereich **Online Math Keyboard**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Online-Mathe-Tastatur**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Die Formel** ein.",
   "Klicken Sie auf **+**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "online-notepad": [
-  "Öffnen Sie oben den Arbeitsbereich **Online Notepad**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Online-Notizblock**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei importieren**, **das Eingabefeld**, **Suchen** und **Ersetzen** ein.",
   "Wählen Sie bei Bedarf **Sprache** mit `Nur Text`, `JSON`, `XML`, `HTML`.",
   "Klicken Sie auf **Neuer Tab**, um die Berechnung zu starten.",
@@ -5443,7 +5439,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "tone-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Online Tone Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Tongenerator online**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Frequenz in Hz**, **Dauer in Sekunden** und **Lautstärke 30 %** ein.",
   "Wählen Sie bei Bedarf **Wellenform** mit `Sinus`, `Rechteck`, `Sägezahn`, `Dreieck`.",
   "Klicken Sie auf **Ton abspielen**, um die Berechnung zu starten.",
@@ -5451,14 +5447,14 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "open-graph-checker": [
-  "Öffnen Sie oben den Arbeitsbereich **Open Graph Prüfer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Open-Graph-Prüfer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Seiten-URLDie Adresse der Seite, die Sie prüfen möchten.** und **Quelltext der Seite einfügenDie Tags werden aus diesem Text in Ihrem Browser gelesen.** ein.",
   "Klicken Sie auf **Tags auslesen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "open-graph-image-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Open Graph Bild Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Open-Graph-Bild-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Titel** und **Untertitel** ein.",
   "Wählen Sie bei Bedarf **Vorlage** mit `Minimal`, `Farbverlauf`, `Geteilt`.",
   "Klicken Sie auf **Bild herunterladen**, um die Berechnung zu starten.",
@@ -5466,7 +5462,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "open-graph-preview": [
-  "Öffnen Sie oben den Arbeitsbereich **Open Graph Preview**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Open-Graph-Vorschau**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Seiten-URLDie Adresse der Seite, die Sie prüfen möchten.** und **Quelltext der Seite einfügenDie Tags werden aus diesem Text in Ihrem Browser gelesen.** ein.",
   "Klicken Sie auf **Tags auslesen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5481,7 +5477,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "openapi-editor": [
-  "Öffnen Sie oben den Arbeitsbereich **OpenAPI Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **OpenAPI-Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **Spezifikation auswerten**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5489,19 +5485,19 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "overtime-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Overtime Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Überstunden-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Geleistete Stunden**, **Stundensatz**, **Überstunden ab (h)**, **Doppelte Vergütung ab (h)** und **Überstundenfaktor** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "paint-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Paint Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Farbbedarf-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Raumlänge (ft)**, **Raumbreite (ft)**, **Wandhöhe (ft)**, **Türen (sq ft)**, **Fenster (sq ft)**, **Reichweite (sq ft/gal)** und **Anstriche** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "parquet-to-csv": [
-  "Öffnen Sie oben den Arbeitsbereich **Parquet to CSV Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Parquet in CSV umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Trennzeichen:** mit `Komma (,)`, `Tabulator (\\t)`, `Semikolon (;)`, `Trennzeichen (|)`.",
   "Klicken Sie auf **CSV → JSON**, um die Berechnung zu starten.",
@@ -5517,7 +5513,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "password-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Passwort Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Passwort-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Passwortlänge: 16 Zeichen** ein.",
   "Klicken Sie auf **Passwort neu generieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5532,162 +5528,162 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf-merger": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF Merger**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF-Merger**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF-Dateien auswählen** ein.",
   "Klicken Sie auf **PDF-Dateien auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf-metadata-editor": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF Metadata Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF-Metadaten bearbeiten**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf-metadata-remover": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF Metadata Entferner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF-Metadaten entfernen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf-metadata-viewer": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF Metadata Betrachter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF-Metadaten anzeigen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf-redaction-tool": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF Redaction Tool**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF-Schwärzungstool**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf-splitter": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF Teiler**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF-Splitter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf-to-docx": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF to DOCX Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF in DOCX umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf-to-image-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF to Bild Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF in Bild umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf-to-jpg-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF to JPG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF in JPG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf-to-markdown": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF to Markdown Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF in Markdown umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf-to-markdown-for-claude": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF to Markdown for Claude**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF in Markdown für KI umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf-to-md": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF to MD Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF in MD umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf-to-png-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF to PNG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF in PNG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf-to-word": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF to Wort**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF in Word umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf-to-word-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF to Wort Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF-zu-Word-Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pdf417-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **PDF417 Barcode Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF417-Barcode-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Barcode-InhaltBis zu ein paar Tausend Zeichen an Daten.** und **Maßstab — 3×** ein.",
   "Klicken Sie auf **Barcode generieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pem-decoder": [
-  "Öffnen Sie oben den Arbeitsbereich **PEM Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PEM-Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **Struktur auswerten**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "percentage-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Prozent Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Prozentrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Prozent (%)**, **Wert** und **Ziel-Prozent (%)** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "percentage-change-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Prozent Change Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Prozentuale Veränderung berechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Alter Wert** und **Neuer Wert** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "percentage-decrease-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Prozent Decrease Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Prozentuale Abnahme berechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wert vor der Verringerung**, **Wert nach der Verringerung** und **Prozent (%)** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "percentage-difference-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Prozent Difference Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Prozentuale Differenz berechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wert A** und **Wert B** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "percentage-increase-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Prozent Increase Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Prozentuale Zunahme berechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ausgangswert**, **Neuer Wert** und **Prozent (%)** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "photo-metadata-remover": [
-  "Öffnen Sie oben den Arbeitsbereich **Foto Metadata Entferner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Foto-Metadaten entfernen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "photo-metadata-viewer": [
-  "Öffnen Sie oben den Arbeitsbereich **Foto Metadata Betrachter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Foto-Metadaten anzeigen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
@@ -5699,7 +5695,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pixelate-image": [
-  "Öffnen Sie oben den Arbeitsbereich **Pixelate Bild**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Bild verpixeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
@@ -5712,64 +5708,64 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "png-background-remover": [
-  "Öffnen Sie oben den Arbeitsbereich **PNG Background Entferner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PNG-Hintergrund entfernen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "png-to-ico": [
-  "Öffnen Sie oben den Arbeitsbereich **PNG to ICO Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PNG in ICO umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "png-to-jpg-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **PNG to JPG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PNG in JPG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "png-to-pdf": [
-  "Öffnen Sie oben den Arbeitsbereich **PNG to PDF**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PNG in PDF umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Bilder wählen** ein.",
   "Klicken Sie auf **Bilder wählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "png-to-webp-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **PNG to WebP Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PNG in WebP umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "pomodoro-timer": [
-  "Öffnen Sie oben den Arbeitsbereich **Pomodoro Timer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Pomodoro-Timer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Arbeit (25 Min.)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "population-standard-deviation-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Population Standard Deviation Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Standardabweichung (Grundgesamtheit) berechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "printable-bingo-cards": [
-  "Öffnen Sie oben den Arbeitsbereich **Printable Bingo Cards**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Bingo-Karten zum Ausdrucken**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Anzahl der Karten** ein.",
   "Klicken Sie auf **Karten drucken**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "printable-bracket": [
-  "Öffnen Sie oben den Arbeitsbereich **Printable Bracket Ersteller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Turnierbaum zum Ausdrucken**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Namen oder Teams (einer pro Zeile)Zwischen 2 und 16 Namen, der Plan wird mit Freilosen auf** ein.",
   "Klicken Sie auf **Turnierplan erzeugen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "printable-calendar": [
-  "Öffnen Sie oben den Arbeitsbereich **Printable Kalender Ersteller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Kalender zum Ausdrucken**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Jahr** ein.",
   "Wählen Sie bei Bedarf **Gesetzliche Feiertage** mit `🇩🇪 Deutschland (Gesetzliche Feiertage)`, `🇺🇸 Vereinigte Staaten (Bundesfeiertage)`, `🇬🇧 Vereinigtes Königreich (England & Wales)`, `Keine Feiertage`.",
   "Klicken Sie auf **Montag (ISO)**, um die Berechnung zu starten.",
@@ -5777,13 +5773,13 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "christmas-list-template": [
-  "Öffnen Sie oben den Arbeitsbereich **Printable Christmas List Template**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Weihnachts-Wunschzettel zum Ausdrucken**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Liste drucken**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "private-ai-chatbot": [
-  "Öffnen Sie oben den Arbeitsbereich **Private AI Chatbot**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Privater KI-Chatbot**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe** ein.",
   "Wählen Sie bei Bedarf **Modell** mit `Phi-3 Mini`, `Qwen2.5 0.5B Instruct`.",
   "Klicken Sie auf **Modell laden**, um die Berechnung zu starten.",
@@ -5791,21 +5787,21 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage."
  ],
  "protein-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Protein Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Öffnen Sie oben den Arbeitsbereich **Proteinbedarf-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "psd-to-jpg": [
-  "Öffnen Sie oben den Arbeitsbereich **PSD to JPG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PSD in JPG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Photoshop-Dokument** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "psd-to-png": [
-  "Öffnen Sie oben den Arbeitsbereich **PSD to PNG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PSD in PNG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Photoshop-Dokument** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
@@ -5817,7 +5813,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "qr-code-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **QR Code Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **QR-Code-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **L (7%)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5825,13 +5821,13 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "quartile-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Quartile and IQR Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Quartile und IQR berechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "quote-image-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Quote Bild Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zitatbild-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Zitat** und **Autor / Zitatnachweis** ein.",
   "Wählen Sie bei Bedarf **Vorlage** mit `Mitternacht`, `Papier`, `Akzent`.",
   "Klicken Sie auf **Bild herunterladen**, um die Berechnung zu starten.",
@@ -5839,7 +5835,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "quote-image-maker": [
-  "Öffnen Sie oben den Arbeitsbereich **Quote Bild Ersteller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zitatbild erstellen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Zitat** und **Autor / Zitatnachweis** ein.",
   "Wählen Sie bei Bedarf **Vorlage** mit `Mitternacht`, `Papier`, `Akzent`.",
   "Klicken Sie auf **Bild herunterladen**, um die Berechnung zu starten.",
@@ -5847,7 +5843,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "quote-maker": [
-  "Öffnen Sie oben den Arbeitsbereich **Quote Ersteller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zitate erstellen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Zitat** und **Autor / Zitatnachweis** ein.",
   "Wählen Sie bei Bedarf **Vorlage** mit `Mitternacht`, `Papier`, `Akzent`.",
   "Klicken Sie auf **Bild herunterladen**, um die Berechnung zu starten.",
@@ -5855,27 +5851,27 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "raise-gpa-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Raise GPA Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **GPA-Verbesserungsrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Aktuelle GPA**, **Erreichte Credits**, **Ziel-GPA** und **Credits im nächsten Semester** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "random-group-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Random Group Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zufällige Gruppeneinteilung**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Namen (einer pro Zeile)Jeder Name landet in genau einer Gruppe.** und **Anzahl der Gruppen** ein.",
   "Klicken Sie auf **Gruppen erzeugen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "random-item-picker": [
-  "Öffnen Sie oben den Arbeitsbereich **Random Item Auswahl-Tool**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zufallsauswahl-Tool**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Artikel (einer pro Zeile)Jeder Artikel wird zu einer Scheibe des Rads.** ein.",
   "Klicken Sie auf **DAS RAD DREHEN!**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "random-letter-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Random Letter Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zufallsbuchstaben-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wie viele Buchstaben** ein.",
   "Wählen Sie bei Bedarf **Schreibweise** mit `Gemischt`, `Großbuchstaben`, `Kleinbuchstaben`.",
   "Klicken Sie auf **Buchstaben ziehen**, um die Berechnung zu starten.",
@@ -5883,14 +5879,14 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "random-name-picker": [
-  "Öffnen Sie oben den Arbeitsbereich **Random Name Auswahl-Tool**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zufälligen Namen auswählen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Namen (einer pro Zeile)Schreiben Sie einen Namen pro Zeile und drehen Sie das Rad.** ein.",
   "Klicken Sie auf **DAS RAD DREHEN!**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "random-number-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Random Number Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zufallszahlengenerator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Kleinste Zahl**, **Größte Zahl**, **Wie viele Zahlen** und **Diese Zahlen auslassen** ein.",
   "Wählen Sie bei Bedarf **Nachkommastellen** mit `Ganze Zahlen`, `1 Nachkommastelle`, `2 Nachkommastellen`, `3 Nachkommastellen`.",
   "Klicken Sie auf **Zahl ziehen**, um die Berechnung zu starten.",
@@ -5898,7 +5894,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "random-password-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Random Passwort Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zufallspasswort-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Passwortlänge: 16 Zeichen** ein.",
   "Klicken Sie auf **Passwort neu generieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5906,7 +5902,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "random-team-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Random Team Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zufällige Teameinteilung**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Namen (einer pro Zeile)Jeder Name landet in genau einem Team.** und **Anzahl der Teams** ein.",
   "Wählen Sie bei Bedarf **Teams aufteilen nach** mit `Anzahl der Teams`, `Spieler pro Team`.",
   "Klicken Sie auf **Teams erzeugen**, um die Berechnung zu starten.",
@@ -5914,14 +5910,14 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "random-winner-picker": [
-  "Öffnen Sie oben den Arbeitsbereich **Random Winner Auswahl-Tool**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Gewinner auslosen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Teilnehmer (einer pro Zeile)Alle Personen in der Liste ziehen mit.** ein.",
   "Klicken Sie auf **DAS RAD DREHEN!**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "rapidtables-notepad-alternative": [
-  "Öffnen Sie oben den Arbeitsbereich **RapidTables Notepad Alternative**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Notizblock-Alternative zu RapidTables**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei importieren**, **Tab-Name**, **das Eingabefeld**, **Suchen** und **Ersetzen** ein.",
   "Wählen Sie bei Bedarf **Sprache** mit `Nur Text`, `JSON`, `XML`, `HTML`.",
   "Klicken Sie auf **Neuer Tab**, um die Berechnung zu starten.",
@@ -5929,27 +5925,27 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "ratio-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Ratio Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Verhältnisrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **A**, **B**, **C (für A : B = C : ?)**, **Aufzuteilender Gesamtbetrag**, **Originalbreite** und **Originalhöhe** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "redact-bank-statement": [
-  "Öffnen Sie oben den Arbeitsbereich **Redact Bank Statement**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Kontoauszug schwärzen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "redact-pdf": [
-  "Öffnen Sie oben den Arbeitsbereich **Redact PDF**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF schwärzen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "reddit-username-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Reddit Username Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Reddit-Namen-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr eigenes Wort** ein.",
   "Wählen Sie bei Bedarf **Stil** mit `_`, `ohne Trennzeichen`.",
   "Klicken Sie auf **Namen erzeugen**, um die Berechnung zu starten.",
@@ -5957,34 +5953,34 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "reduce-pdf-size": [
-  "Öffnen Sie oben den Arbeitsbereich **Reduce PDF Size**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF-Größe verkleinern**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "refresh-rate-test": [
-  "Öffnen Sie oben den Arbeitsbereich **Refresh Rate Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Bildwiederholrate testen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Erneut messen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "regex-checker": [
-  "Öffnen Sie oben den Arbeitsbereich **Regex Prüfer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Regex-Prüfer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** und **das Eingabefeld** ein.",
   "Klicken Sie auf **g**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "regex-explainer": [
-  "Öffnen Sie oben den Arbeitsbereich **Regex Explainer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Regex-Erklärer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** und **das Eingabefeld** ein.",
   "Klicken Sie auf **g**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "regex-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Regex Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Regex-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** und **das Eingabefeld** ein.",
   "Klicken Sie auf **g**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -5999,21 +5995,21 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "regex-tester": [
-  "Öffnen Sie oben den Arbeitsbereich **Regex Tester & Builder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Regex-Tester & Builder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** und **das Eingabefeld** ein.",
   "Klicken Sie auf **g**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "remove-comments-from-word": [
-  "Öffnen Sie oben den Arbeitsbereich **Remove Comments from Wort**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Kommentare aus Word entfernen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **.docx auswählen** ein.",
   "Wählen Sie bei Bedarf **Was soll passieren** mit `Alle Kommentare entfernen`, `Kommentare behalten, Namen der Prüfer entfernen`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "remove-duplicate-lines": [
-  "Öffnen Sie oben den Arbeitsbereich **Remove Duplicate Lines**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Doppelte Zeilen entfernen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **A bis Z sortieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6021,143 +6017,143 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "remove-duplicate-lines-and-sort": [
-  "Öffnen Sie oben den Arbeitsbereich **Remove Duplicate Lines & Sort**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Doppelte Zeilen entfernen & sortieren**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **Duplikate entfernen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "remove-metadata-from-word": [
-  "Öffnen Sie oben den Arbeitsbereich **Remove Metadata from Wort**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Metadaten aus Word entfernen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Word-Datei** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "remove-object-from-photo": [
-  "Öffnen Sie oben den Arbeitsbereich **Remove Objects from Photos**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Objekte aus Fotos entfernen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "remove-photo-location": [
-  "Öffnen Sie oben den Arbeitsbereich **Remove Foto Location**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Standort aus Foto entfernen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "remove-text-from-image": [
-  "Öffnen Sie oben den Arbeitsbereich **Remove Text from Bild**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Text aus Bild entfernen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "resize-png": [
-  "Öffnen Sie oben den Arbeitsbereich **Resize PNG**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PNG-Größe ändern**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "rest-api-tester": [
-  "Öffnen Sie oben den Arbeitsbereich **REST API Tester**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **REST-API-Tester**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **GETPOSTPUTDELETE** ein.",
   "Klicken Sie auf **Anfrage senden**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "rgb-to-hex": [
-  "Öffnen Sie oben den Arbeitsbereich **RGB to HEX**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **RGB in HEX umrechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (RGB)** und **Ausgabe (Hexadezimal)** ein.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "rgb-to-hex-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **RGB to HEX Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **RGB-zu-HEX-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (RGB)** und **Ausgabe (Hexadezimal)** ein.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "rgb-hex-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **RGB to HEX Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **RGB-HEX-Farbumrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (RGB)** und **Ausgabe (Hexadezimal)** ein.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "roll-two-dice": [
-  "Öffnen Sie oben den Arbeitsbereich **Roll Two Dice**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Mit zwei Würfeln würfeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Die zwei Würfel werfen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "roman-numeral-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **Roman Numeral Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Römische Zahlen umrechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Zahl** und **Römische Zahl** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "roman-numeral-date-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **Roman Numeral Date Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Datum in römische Zahlen umrechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datum** ein.",
   "Wählen Sie bei Bedarf **Reihenfolge** mit `US (MM.DD.YYYY)`, `UK (DD.MM.YYYY)`, `ISO (YYYY.MM.DD)`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "roofing-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Roofing Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Dachflächen-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Grundfläche (sq ft)**, **Dachneigung**, **Überstand (in)** und **Verlust (%)** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "round-robin-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Round Robin Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Rundenturnier-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Spieler oder Mannschaften** ein.",
   "Klicken Sie auf **Beispiel laden**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "salary-to-hourly-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Gehalt to Stundenlohn Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Gehalt in Stundenlohn umrechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Jahresgehalt**, **Stunden pro Woche** und **Bezahlte Wochen pro Jahr** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "sample-standard-deviation-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Sample Standard Deviation Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Standardabweichung (Stichprobe) berechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "secret-santa-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Secret Santa Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Wichtel-Generator (Secret Santa)**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Namen (einer pro Zeile)Für eine Ziehung werden mindestens zwei Namen gebraucht.** ein.",
   "Klicken Sie auf **Paare ziehen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "sha256-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **SHA-256 Hash Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **SHA-256-Hash-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "simplify-fractions-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Simplify Fractions Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Brüche kürzen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Zähler**, **Nenner** und **Ganzzahl** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "single-elimination-bracket": [
-  "Öffnen Sie oben den Arbeitsbereich **Single Elimination Bracket Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **K.-o.-System-Turnierbaum**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Namen oder Teams (einer pro Zeile)Zwischen 2 und 16 Namen, der Plan wird mit Freilosen auf** ein.",
   "Klicken Sie auf **Turnierplan erzeugen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "small-text-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Small Text Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Kleinschrift-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr Text** und **Ergebnis** ein.",
   "Wählen Sie bei Bedarf **Stil** mit `Kapitälchen`, `Hochgestellt`, `Tiefgestellt`, `Kleiner Text`.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
@@ -6165,19 +6161,19 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "social-media-preview": [
-  "Öffnen Sie oben den Arbeitsbereich **Social Media Preview**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Social-Media-Vorschau**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Seiten-URLDie Adresse der Seite, die Sie prüfen möchten.** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "sound-test": [
-  "Öffnen Sie oben den Arbeitsbereich **Sound Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Sound-Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **125 Hz**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "split-pdf": [
-  "Öffnen Sie oben den Arbeitsbereich **Split PDF Files**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **PDF teilen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **PDF auswählen** ein.",
   "Klicken Sie auf **PDF auswählen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6192,7 +6188,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage."
  ],
  "sql-formatter": [
-  "Öffnen Sie oben den Arbeitsbereich **SQL Formatter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **SQL-Formatierer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **SQL formatieren** mit `PostgreSQL`, `MySQL`, `SQLite`, `Standard-SQL`.",
   "Klicken Sie auf **SQL formatieren**, um die Berechnung zu starten.",
@@ -6200,7 +6196,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage."
  ],
  "sql-formatter-beautifier": [
-  "Öffnen Sie oben den Arbeitsbereich **SQL Formatter & Formatierer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **SQL-Beautifier**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **SQL formatieren** mit `PostgreSQL`, `MySQL`, `SQLite`, `Standard-SQL`.",
   "Klicken Sie auf **SQL formatieren**, um die Berechnung zu starten.",
@@ -6208,14 +6204,14 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage."
  ],
  "sqlite-browser": [
-  "Öffnen Sie oben den Arbeitsbereich **SQLite Browser**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **SQLite-Browser**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **SQL-Abfrage** ein.",
   "Klicken Sie auf **SQL ausführen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "sqlite-online": [
-  "Öffnen Sie oben den Arbeitsbereich **SQLite Online**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **SQLite online**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **SQL-Abfrage** ein.",
   "Klicken Sie auf **SQL ausführen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6229,27 +6225,27 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "square-footage-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Square Footage Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Quadratfuß-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Seite A (ft)**, **Seite B (ft)** und **Wie viele** ein.",
   "Wählen Sie bei Bedarf **Form** mit `Rechteck`, `Kreis`, `Dreieck`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "ssl-certificate-decoder": [
-  "Öffnen Sie oben den Arbeitsbereich **SSL Certificate Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **SSL-Zertifikat-Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **Struktur auswerten**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "standard-deviation-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Standard Deviation Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Standardabweichung berechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "stick-drift-test": [
-  "Öffnen Sie oben den Arbeitsbereich **Stick Drift Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Stick-Drift-Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Die Grenze des Drifts in Prozent** ein.",
   "Klicken Sie auf **Test starten**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6263,7 +6259,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "strikethrough-text-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Strikethrough Text Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Durchgestrichener-Text-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr Text** und **Ergebnis** ein.",
   "Wählen Sie bei Bedarf **Stil** mit `Durchgestrichen`, `Unterstrichen`, `Überstrichen`, `Schrägstrich`.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
@@ -6271,14 +6267,14 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "string-length-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **String Length Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Textlänge berechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "strong-password-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Strong Passwort Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Sicheres-Passwort-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Passwortlänge: 16 Zeichen** ein.",
   "Klicken Sie auf **Passwort neu generieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6286,13 +6282,13 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "study-timer": [
-  "Öffnen Sie oben den Arbeitsbereich **Study Timer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Lern-Timer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Arbeit (25 Min.)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "subnet-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Subnet Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Subnetzrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **IP-Adresse** ein.",
   "Wählen Sie bei Bedarf **CIDR-Präfix (/24)** mit `/0 (Klasse A)`, `/1 (Klasse A)`, `/2 (Klasse A)`, `/3 (Klasse A)`.",
   "Klicken Sie auf **IPv4**, um die Berechnung zu starten.",
@@ -6300,14 +6296,14 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "subnet-cheat-sheet": [
-  "Öffnen Sie oben den Arbeitsbereich **Subnet Cheat Sheet**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Subnetz-Spickzettel**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **IP-Adresse** ein.",
   "Wählen Sie bei Bedarf **CIDR-Präfix (/24)** mit `/0`, `/1`, `/2`, `/3`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "svg-favicon-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **SVG Favicon Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **SVG-Favicon-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Farbe** und **Strichstärke2** ein.",
   "Wählen Sie bei Bedarf **Symbolgröße** mit `16 × 16`, `32 × 32`, `48 × 48`, `64 × 64`.",
   "Klicken Sie auf **Bild herunterladen**, um die Berechnung zu starten.",
@@ -6315,7 +6311,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "svg-to-base64": [
-  "Öffnen Sie oben den Arbeitsbereich **SVG to Base64 Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **SVG in Base64 umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei zu Base64**, **Text oder Base64 eingeben** und **Ausgabe** ein.",
   "Klicken Sie auf **In Base64 kodieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
@@ -6323,26 +6319,26 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "svg-to-css": [
-  "Öffnen Sie oben den Arbeitsbereich **SVG to CSS Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **SVG in CSS umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **SVG-Quelltext** und **CSS-Klasse** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "svg-to-ico": [
-  "Öffnen Sie oben den Arbeitsbereich **SVG to ICO Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **SVG in ICO umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "svg-to-jpg": [
-  "Öffnen Sie oben den Arbeitsbereich **SVG to JPG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **SVG in JPG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "svg-to-png": [
-  "Öffnen Sie oben den Arbeitsbereich **SVG to PNG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **SVG in PNG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
@@ -6363,21 +6359,21 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "tdee-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **TDEE Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
-  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg** und **Größe (cm** ein.",
+  "Öffnen Sie oben den Arbeitsbereich **Gesamtumsatz-Rechner (TDEE)**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Geben Sie Ihre Eingabe in **Alter**, **Gewicht (kg)** und **Größe (cm)** ein.",
   "Wählen Sie bei Bedarf **Biologisches Geschlecht** mit `Männlich`, `Weiblich`.",
   "Klicken Sie auf **Metrisch (kg/cm)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "test-grade-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Test Grade Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Testnote berechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Fragen in der Prüfung** und **Richtige Antworten** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "text-case-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **Text Case Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Groß- und Kleinschreibung umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld**, **UPPERCASEKopieren**, **lowercaseKopieren**, **Titel-SchreibweiseKopieren**, **Satz-SchreibweiseKopieren**, **camelCaseKopieren**, **PascalCaseKopieren**, **kebab-caseKopieren**, **snake_caseKopieren**, **CONSTANT CASEKopieren** und **aLtErNaTiNgKopieren** ein.",
   "Klicken Sie auf **Bearbeiten**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6385,21 +6381,21 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "text-compare": [
-  "Öffnen Sie oben den Arbeitsbereich **Text Compare**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Texte vergleichen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Original-JSON / -Text** und **Geändertes JSON / Text** ein.",
   "Klicken Sie auf **Diffs vergleichen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "text-diff": [
-  "Öffnen Sie oben den Arbeitsbereich **Text Diff**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Text-Diff**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Original-JSON / -Text** und **Geändertes JSON / Text** ein.",
   "Klicken Sie auf **Diffs vergleichen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "text-repeater": [
-  "Öffnen Sie oben den Arbeitsbereich **Text Repeater**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Text wiederholen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr Text**, **Anzahl der Wiederholungen** und **Ergebnis** ein.",
   "Wählen Sie bei Bedarf **Trennzeichen** mit `Keines`, `Leerzeichen`, `Neue Zeile`, `Komma`.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
@@ -6407,7 +6403,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "text-to-binary": [
-  "Öffnen Sie oben den Arbeitsbereich **Text to Binary Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Text in Binary umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Zu kodierender Text** und **Binärausgabe** ein.",
   "Wählen Sie bei Bedarf **Trennzeichen** mit `Leerzeichen`, `Komma`, `Keines`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6415,7 +6411,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "text-to-handwriting": [
-  "Öffnen Sie oben den Arbeitsbereich **Text to Handwriting Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Text in Handschrift umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Handzuschreibender Text**, **Tintenfarbe**, **Papierfarbe**, **Schriftgröße** und **Zeichenabstand** ein.",
   "Wählen Sie bei Bedarf **Handschriftart** mit `Segoe Script`, `Comic Sans MS`, `Brush Script MT`, `Bradley Hand`.",
   "Klicken Sie auf **Neue Variante**, um die Berechnung zu starten.",
@@ -6423,7 +6419,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "text-to-hex": [
-  "Öffnen Sie oben den Arbeitsbereich **Text to Hex Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Text in Hex umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Zu kodierender Text** und **Hex-Ausgabe** ein.",
   "Wählen Sie bei Bedarf **Format** mit `Mit Leerzeichen`, `Kein Trennzeichen`, `0x-Präfix`.",
   "Klicken Sie auf **Großbuchstaben**, um die Berechnung zu starten.",
@@ -6431,42 +6427,42 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "thanksgiving-bingo": [
-  "Öffnen Sie oben den Arbeitsbereich **Thanksgiving Bingo Cards**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Thanksgiving-Bingo-Karten**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Neue Karte**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "thanksgiving-countdown": [
-  "Öffnen Sie oben den Arbeitsbereich **Thanksgiving Countdown**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Thanksgiving-Countdown**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "tiff-to-jpg": [
-  "Öffnen Sie oben den Arbeitsbereich **TIFF to JPG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **TIFF in JPG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie einen TIFF-Scan** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "tile-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Tile Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Fliesen-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Bodenfläche (sq ft)**, **Fliesenlänge (in)**, **Fliesenbreite (in)**, **Fugenbreite (in)**, **Verlust / Schnitte (%)** und **Kosten pro sq ft** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "time-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Time Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zeitrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Zu summierende Zeiten**, **Stunden addieren** und **Minuten addieren** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "time-card-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Time Card Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Stundenzettel-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Schichten (Ein-Aus)**, **Stundensatz** und **Überstunden ab (h/Tag)** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "time-zone-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **Time Zone Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zeitzonen-Umrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datum** und **Uhrzeit** ein.",
   "Wählen Sie bei Bedarf **Von Zeitzone** mit `UTC / GMT`, `London`, `Berlin`, `Paris`.",
   "Klicken Sie auf **Umgerechnete Zeit kopieren**, um die Berechnung zu starten.",
@@ -6474,7 +6470,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "title-case-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **Title Case Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Title-Case-Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **UPPERCASE**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6482,7 +6478,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "token-counter": [
-  "Öffnen Sie oben den Arbeitsbereich **Token Zähler**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Token-Zähler**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Modell** mit `GPT-4 / GPT-4o (exakt)`, `GPT-5 / o-series (exakt)`, `Claude (Schätzung)`, `Gemini (Schätzung)`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6490,7 +6486,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "toon-to-json": [
-  "Öffnen Sie oben den Arbeitsbereich **TOON to JSON**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **TOON in JSON umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** und **das Eingabefeld** ein.",
   "Klicken Sie auf **Modus: TOON → JSON**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6498,13 +6494,13 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "transparent-background-maker": [
-  "Öffnen Sie oben den Arbeitsbereich **Transparent Background Ersteller**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Transparenten Hintergrund erstellen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "transparent-qr-code-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Transparent QR Code Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **QR-Code mit transparentem Hintergrund**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **L (7%)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6512,7 +6508,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "tsv-to-json": [
-  "Öffnen Sie oben den Arbeitsbereich **TSV to JSON Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **TSV in JSON umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Trennzeichen:** mit `Komma (,)`, `Tabulator (\\t)`, `Semikolon (;)`, `Trennzeichen (|)`.",
   "Klicken Sie auf **TSV → JSON**, um die Berechnung zu starten.",
@@ -6520,7 +6516,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "twitch-username-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Twitch Username Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Twitch-Namen-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr eigenes Wort** ein.",
   "Wählen Sie bei Bedarf **Stil** mit `_`, `ohne Trennzeichen`.",
   "Klicken Sie auf **Namen erzeugen**, um die Berechnung zu starten.",
@@ -6528,19 +6524,19 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "unix-timestamp-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **Unix Timestamp Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Unix-Timestamp-Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Aktuelle Uhrzeit**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "timestamp-converter-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Unix Timestamp Generator & Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Unix-Timestamp-Konverter & Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Aktuelle Uhrzeit**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "upc-barcode-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **UPC Barcode Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **UPC-Barcode-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Barcode-Format** mit `Code 128 (universal)`, `EAN-13 (13 Ziffern)`, `UPC (12 Ziffern)`, `Code 39 (alphanumerisch)`.",
   "Klicken Sie auf **Barcode als SVG herunterladen**, um die Berechnung zu starten.",
@@ -6548,7 +6544,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "uppercase-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **Uppercase Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **In Großbuchstaben umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **UPPERCASE**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6556,7 +6552,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "upside-down-text-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Upside Down Text Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Text auf den Kopf stellen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr Text**, **Gespiegeltes Ergebnis** und **Wiederhergestelltes Original** ein.",
   "Klicken Sie auf **Gespiegelten Text wiederherstellen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6564,14 +6560,14 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "url-decoder": [
-  "Öffnen Sie oben den Arbeitsbereich **URL Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **URL-Decoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (URL-kodiert)** und **Ausgabe (Text)** ein.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "url-encoder": [
-  "Öffnen Sie oben den Arbeitsbereich **URL Encoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **URL-Encoder**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Eingabe (Text)** und **Ausgabe (URL-kodiert)** ein.",
   "Das Ergebnis erscheint im Feld **Ausgabe** unter den Einstellungen.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
@@ -6586,7 +6582,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "url-to-qr-code": [
-  "Öffnen Sie oben den Arbeitsbereich **URL to QR Code**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **URL in QR-Code umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **L (7%)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6594,7 +6590,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "username-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Username Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Benutzernamen-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr eigenes Wort** ein.",
   "Wählen Sie bei Bedarf **Stil** mit `_`, `ohne Trennzeichen`.",
   "Klicken Sie auf **Namen erzeugen**, um die Berechnung zu starten.",
@@ -6602,7 +6598,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "uuid-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **UUID Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **UUID-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Anzahl (1 - 500)** ein.",
   "Wählen Sie bei Bedarf **Version** mit `Version 4 (Zufällig)`, `Version 7 (Zeitlich sortiert)`, `Version 1 (Zeitstempel & MAC)`, `Version 5 (Name-basiert, SHA1)`.",
   "Klicken Sie auf **Neue UUIDs generieren**, um die Berechnung zu starten.",
@@ -6610,7 +6606,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "uuid-v4-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **UUID v4 Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **UUID-v4-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Anzahl (1 - 500)** ein.",
   "Wählen Sie bei Bedarf **Version** mit `Version 4 (Zufällig)`, `Version 7 (Zeitlich sortiert)`, `Version 1 (Zeitstempel & MAC)`, `Version 5 (Name-basiert, SHA1)`.",
   "Klicken Sie auf **Neue UUIDs generieren**, um die Berechnung zu starten.",
@@ -6618,7 +6614,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "uuid-v7-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **UUID v7 Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **UUID-v7-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Anzahl (1 - 500)** ein.",
   "Wählen Sie bei Bedarf **Version** mit `Version 4 (Zufällig)`, `Version 7 (Zeitlich sortiert)`, `Version 1 (Zeitstempel & MAC)`, `Version 5 (Name-basiert, SHA1)`.",
   "Klicken Sie auf **Neue UUIDs generieren**, um die Berechnung zu starten.",
@@ -6626,19 +6622,19 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "variance-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Variance Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Varianz-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "video-to-gif": [
-  "Öffnen Sie oben den Arbeitsbereich **Video to GIF Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Video in GIF umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Video** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "vlsm-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **VLSM Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **VLSM-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Basisnetzwerk**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **CIDR-Präfix (/24)** mit `/0`, `/1`, `/2`, `/3`.",
   "Klicken Sie auf **Subnetz hinzufügen**, um die Berechnung zu starten.",
@@ -6646,14 +6642,14 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "water-intake-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Water Intake Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Wasserbedarf-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Körpergewicht** und **Bewegung (Min/Tag)** ein.",
   "Wählen Sie bei Bedarf **Einheit** mit `kg`, `lb`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "wav-to-mp3": [
-  "Öffnen Sie oben den Arbeitsbereich **WAV to MP3 Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **WAV in MP3 umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Mediendatei auswählen** ein.",
   "Wählen Sie bei Bedarf **Konvertieren nach** mit `MP3 - MPEG-Audio`, `MP4 - H.264-Video`, `WAV - unkomprimiertes PCM`, `WebM - VP8-Video`.",
   "Klicken Sie auf **Jetzt konvertieren**, um die Berechnung zu starten.",
@@ -6661,13 +6657,13 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "webcam-test": [
-  "Öffnen Sie oben den Arbeitsbereich **Webcam Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Webcam-Test**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Klicken Sie auf **Kameratest starten**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "webm-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **WebM Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **WebM-Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Mediendatei auswählen** ein.",
   "Wählen Sie bei Bedarf **Konvertieren nach** mit `MP3 - MPEG-Audio`, `MP4 - H.264-Video`, `WAV - unkomprimiertes PCM`, `WebM - VP8-Video`.",
   "Klicken Sie auf **Jetzt konvertieren**, um die Berechnung zu starten.",
@@ -6675,7 +6671,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "webm-to-mp4": [
-  "Öffnen Sie oben den Arbeitsbereich **WebM to MP4**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **WebM in MP4 umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Mediendatei auswählen** ein.",
   "Wählen Sie bei Bedarf **Konvertieren nach** mit `MP3 - MPEG-Audio`, `MP4 - H.264-Video`, `WAV - unkomprimiertes PCM`, `WebM - VP8-Video`.",
   "Klicken Sie auf **Jetzt konvertieren**, um die Berechnung zu starten.",
@@ -6683,7 +6679,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "webm-to-mp4-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **WebM to MP4 Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **WebM-zu-MP4-Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Mediendatei auswählen** ein.",
   "Wählen Sie bei Bedarf **Konvertieren nach** mit `MP3 - MPEG-Audio`, `MP4 - H.264-Video`, `WAV - unkomprimiertes PCM`, `WebM - VP8-Video`.",
   "Klicken Sie auf **Jetzt konvertieren**, um die Berechnung zu starten.",
@@ -6691,37 +6687,37 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "webp-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **WebP Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **WebP-Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "webp-to-gif": [
-  "Öffnen Sie oben den Arbeitsbereich **WebP to GIF Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **WebP in GIF umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "webp-to-ico": [
-  "Öffnen Sie oben den Arbeitsbereich **WebP to ICO Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **WebP in ICO umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "webp-to-jpg-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **WebP to JPG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **WebP in JPG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "webp-to-png-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **WebP to PNG Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **WebP in PNG umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wählen Sie ein Bild** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "weighted-gpa-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Weighted GPA Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Gewichteter-GPA-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Name von Kurs 1**, **Credits von Mathematik**, **Name von Kurs 2**, **Credits von Physik**, **Name von Kurs 3**, **Credits von Geschichte**, **Name von Kurs 4** und **Credits von Literatur** ein.",
   "Wählen Sie bei Bedarf **Gewichtung von Mathematik** mit `Normal`, `Ehrenguthaben +0.5`, `AP / IB +1.0`.",
   "Klicken Sie auf **+ Kurs hinzufügen**, um die Berechnung zu starten.",
@@ -6729,32 +6725,32 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "weighted-grade-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Weighted Grade Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Gewichtete Note berechnen**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Kategorie 1**, **Gewichtung von Hausaufgaben**, **Punkte von Hausaufgaben**, **Kategorie 2**, **Gewichtung von Zwischenprüfung**, **Punkte von Zwischenprüfung**, **Kategorie 3**, **Gewichtung von Abschlussprüfung** und **Punkte von Abschlussprüfung** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "wheel-of-names": [
-  "Öffnen Sie oben den Arbeitsbereich **Wheel of Names Spinner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Namensrad**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Namen (einer pro Zeile)Jede Zeile wird zu einer Scheibe des Rads.** ein.",
   "Klicken Sie auf **DAS RAD DREHEN!**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "white-elephant-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **White Elephant Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Wichteln-Generator (White Elephant)**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Namen (einer pro Zeile)Der erste Name beginnt das Spiel und gibt das erste Geschenk aus.** ein.",
   "Klicken Sie auf **Reihenfolge ziehen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "white-elephant-rules": [
-  "Öffnen Sie oben den Arbeitsbereich **White Elephant Rules**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **White-Elephant-Regeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "wifi-qr-code-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **WiFi QR Code Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **WLAN-QR-Code-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **L (7%)**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6762,26 +6758,26 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "word-counter": [
-  "Öffnen Sie oben den Arbeitsbereich **Wort Zähler**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Wortzähler**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld**, **Meta-Titel** und **Meta-Beschreibung** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "word-to-html": [
-  "Öffnen Sie oben den Arbeitsbereich **Wort to HTML Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Word in HTML umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **.docx auswählen** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "word-viewer": [
-  "Öffnen Sie oben den Arbeitsbereich **Wort Betrachter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Word-Datei-Viewer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **.docx auswählen** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "world-time-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **World Time Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Weltzeit-Umrechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datum** und **Uhrzeit** ein.",
   "Wählen Sie bei Bedarf **Von Zeitzone** mit `UTC / GMT`, `London`, `Berlin`, `Paris`.",
   "Klicken Sie auf **Umgerechnete Zeit kopieren**, um die Berechnung zu starten.",
@@ -6789,7 +6785,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "xlsx-to-csv": [
-  "Öffnen Sie oben den Arbeitsbereich **XLSX to CSV Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **XLSX in CSV umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Trennzeichen:** mit `Komma (,)`, `Tabulator (\\t)`, `Semikolon (;)`, `Trennzeichen (|)`.",
   "Klicken Sie auf **CSV → JSON**, um die Berechnung zu starten.",
@@ -6805,7 +6801,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "xml-formatter": [
-  "Öffnen Sie oben den Arbeitsbereich **XML Formatter & Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **XML-Formatierer & Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **XML formatieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6813,7 +6809,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "xml-validator": [
-  "Öffnen Sie oben den Arbeitsbereich **XML Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **XML-Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **XML validieren**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6829,7 +6825,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "xsd-editor": [
-  "Öffnen Sie oben den Arbeitsbereich **XSD Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **XSD-Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **das Eingabefeld** ein.",
   "Klicken Sie auf **Schema prüfen**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6861,7 +6857,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "yaml-editor": [
-  "Öffnen Sie oben den Arbeitsbereich **YAML Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **YAML-Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Einrückung:** mit `2 Leerzeichen`, `4 Leerzeichen`.",
   "Klicken Sie auf **YAML → JSON**, um die Berechnung zu starten.",
@@ -6869,7 +6865,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "yaml-formatter": [
-  "Öffnen Sie oben den Arbeitsbereich **YAML Formatter & Formatierer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **YAML-Formatierer**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Einrückung:** mit `2 Leerzeichen`, `4 Leerzeichen`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6877,7 +6873,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "yaml-minifier": [
-  "Öffnen Sie oben den Arbeitsbereich **YAML Minifier**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **YAML-Minifier**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Einrückung:** mit `2 Leerzeichen`, `4 Leerzeichen`.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
@@ -6885,7 +6881,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "yaml-to-json": [
-  "Öffnen Sie oben den Arbeitsbereich **YAML to JSON**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **YAML in JSON umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Einrückung:** mit `2 Leerzeichen`, `4 Leerzeichen`.",
   "Klicken Sie auf **YAML → JSON**, um die Berechnung zu starten.",
@@ -6893,7 +6889,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "yaml-json-converter": [
-  "Öffnen Sie oben den Arbeitsbereich **YAML to JSON Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **YAML-JSON-Konverter**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Einrückung:** mit `2 Leerzeichen`, `4 Leerzeichen`.",
   "Klicken Sie auf **YAML → JSON**, um die Berechnung zu starten.",
@@ -6901,7 +6897,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "yaml-validator": [
-  "Öffnen Sie oben den Arbeitsbereich **YAML Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **YAML-Validator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Einrückung:** mit `2 Leerzeichen`, `4 Leerzeichen`.",
   "Klicken Sie auf **YAML → JSON**, um die Berechnung zu starten.",
@@ -6909,7 +6905,7 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "yaml-editor-validator": [
-  "Öffnen Sie oben den Arbeitsbereich **YAML Validator & Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **YAML-Validator & Editor**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Einrückung:** mit `2 Leerzeichen`, `4 Leerzeichen`.",
   "Klicken Sie auf **YAML → JSON**, um die Berechnung zu starten.",
@@ -6917,19 +6913,19 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "yankee-swap-rules": [
-  "Öffnen Sie oben den Arbeitsbereich **Yankee Swap Rules**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Yankee-Swap-Regeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "yes-or-no-wheel": [
-  "Öffnen Sie oben den Arbeitsbereich **Yes or No Wheel**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Ja-oder-Nein-Rad**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Antworten (eine pro Zeile)Die üblichen Antworten sind Ja und Nein.** ein.",
   "Klicken Sie auf **DAS RAD DREHEN!**, um die Berechnung zu starten.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "yml-to-json": [
-  "Öffnen Sie oben den Arbeitsbereich **YML to JSON**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **YML in JSON umwandeln**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Datei öffnen**, **das Eingabefeld** und **das Eingabefeld** ein.",
   "Wählen Sie bei Bedarf **Einrückung:** mit `2 Leerzeichen`, `4 Leerzeichen`.",
   "Klicken Sie auf **YAML → JSON**, um die Berechnung zu starten.",
@@ -6937,25 +6933,25 @@ export const HOW_TO_DE: Record<string, string[]> =
   "Mit **Kopieren** übernehmen Sie das Ergebnis in die Zwischenablage. Mit **Download** speichern Sie das Ergebnis als Datei."
  ],
  "youtube-thumbnail-downloader": [
-  "Öffnen Sie oben den Arbeitsbereich **YouTube Thumbnail Downloader**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **YouTube-Thumbnail-Downloader**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **YouTube-LinkDie Adresse des Videos, zum Beispiel https://www.youtube.com/watch?v=…** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "youtube-thumbnail-grabber": [
-  "Öffnen Sie oben den Arbeitsbereich **YouTube Thumbnail Grabber**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **YouTube-Thumbnail-Grabber**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **YouTube-LinkDie Adresse des Videos, zum Beispiel https://www.youtube.com/watch?v=…** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "z-score-calculator": [
-  "Öffnen Sie oben den Arbeitsbereich **Z-Score Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Z-Wert-Rechner**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Wert (x)**, **Mittelwert (μ)** und **Standardabweichung (σ)** ein.",
   "Das Ergebnis erscheint direkt unter den Einstellungen im Ergebnisbereich.",
   "Mit **Zurücksetzen** leeren Sie das Formular und beginnen von vorn."
  ],
  "zalgo-text-generator": [
-  "Öffnen Sie oben den Arbeitsbereich **Zalgo Text Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
+  "Öffnen Sie oben den Arbeitsbereich **Zalgo-Text-Generator**. Die Verarbeitung läuft vollständig in Ihrem Browser, es wird nichts hochgeladen.",
   "Geben Sie Ihre Eingabe in **Ihr Text** und **Zalgo-Ergebnis** ein.",
   "Wählen Sie bei Bedarf **Intensität** mit `Aus`, `Leicht`, `Mittel`, `Stark`.",
   "Klicken Sie auf **Zalgo-Text bereinigen**, um die Berechnung zu starten.",

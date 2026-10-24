@@ -1,11 +1,11 @@
 # Audit resume pointer
 
-Generated 2026-10-24T10:27:20.206Z.
+Generated 2026-10-24T17:40:03.380Z.
 
 - Reconciled total: **492** tools
-- BLOCKED_TECHNICAL: 9 · FAIL: 1 · PASS: 482
+- BLOCKED_TECHNICAL: 9 · PASS: 483
 - Next item: **avi-to-mp4** (BLOCKED_TECHNICAL)
-- Remaining non-PASS rows: 10
+- Remaining non-PASS rows: 9
 
 The authoritative tracker is `docs/tool-audit.csv`. The machine-readable
 pointer is `scripts/audit/data/audit-state.json`.

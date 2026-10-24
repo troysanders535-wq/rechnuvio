@@ -1,16 +1,17 @@
 {
  "summary": {
-  "generatedAt": "2026-10-24T10:20:41.699Z",
+  "generatedAt": "2026-10-24T17:31:57.244Z",
   "total": 492,
-  "withStorageWrites": 4,
+  "withStorageWrites": 0,
   "withExternalRequests": 0,
-  "loadErrors": 1
+  "loadErrors": 0,
+  "probeErrors": 0
  },
  "results": [
   {
    "slug": "2026-calendar",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/2026-calendar",
+   "url": "http://localhost:3100/tools/2026-calendar?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -23,7 +24,7 @@
   {
    "slug": "2027-calendar",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/2027-calendar",
+   "url": "http://localhost:3100/tools/2027-calendar?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -36,7 +37,7 @@
   {
    "slug": "2027-holidays",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/2027-holidays",
+   "url": "http://localhost:3100/tools/2027-holidays?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -49,7 +50,7 @@
   {
    "slug": "3d-viewer",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/3d-viewer",
+   "url": "http://localhost:3100/tools/3d-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -62,7 +63,7 @@
   {
    "slug": "3mf-viewer",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/3mf-viewer",
+   "url": "http://localhost:3100/tools/3mf-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -75,7 +76,7 @@
   {
    "slug": "accept-all-changes-in-word",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/accept-all-changes-in-word",
+   "url": "http://localhost:3100/tools/accept-all-changes-in-word?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -88,7 +89,7 @@
   {
    "slug": "adult-bmi-calculator",
    "engine": "health-fitness",
-   "url": "http://localhost:3100/tools/adult-bmi-calculator",
+   "url": "http://localhost:3100/tools/adult-bmi-calculator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -101,13 +102,20 @@
   {
    "slug": "age-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/age-calculator",
-   "error": "locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input').first().first()\u001b[22m\n"
+   "url": "http://localhost:3100/tools/age-calculator?locale=en",
+   "clickedButtons": 6,
+   "localStorageAdded": [],
+   "localStorageChanged": [],
+   "sessionStorageAdded": [],
+   "indexedDbAdded": [],
+   "externalRequests": [],
+   "persists": false,
+   "leaks": false
   },
   {
    "slug": "background-remover",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/background-remover",
+   "url": "http://localhost:3100/tools/background-remover?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -120,7 +128,7 @@
   {
    "slug": "ai-viewer",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/ai-viewer",
+   "url": "http://localhost:3100/tools/ai-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -133,7 +141,7 @@
   {
    "slug": "ai-to-pdf",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/ai-to-pdf",
+   "url": "http://localhost:3100/tools/ai-to-pdf?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -146,7 +154,7 @@
   {
    "slug": "ai-to-png",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/ai-to-png",
+   "url": "http://localhost:3100/tools/ai-to-png?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -159,7 +167,7 @@
   {
    "slug": "ai-token-counter",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/ai-token-counter",
+   "url": "http://localhost:3100/tools/ai-token-counter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -172,7 +180,7 @@
   {
    "slug": "alphabetical-order-tool",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/alphabetical-order-tool",
+   "url": "http://localhost:3100/tools/alphabetical-order-tool?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -185,7 +193,7 @@
   {
    "slug": "apa-citation-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/apa-citation-generator",
+   "url": "http://localhost:3100/tools/apa-citation-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -198,7 +206,7 @@
   {
    "slug": "api-tester",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/api-tester",
+   "url": "http://localhost:3100/tools/api-tester?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -211,7 +219,7 @@
   {
    "slug": "asn1-decoder",
    "engine": "crypto-hash",
-   "url": "http://localhost:3100/tools/asn1-decoder",
+   "url": "http://localhost:3100/tools/asn1-decoder?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -224,7 +232,7 @@
   {
    "slug": "average-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/average-calculator",
+   "url": "http://localhost:3100/tools/average-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -237,7 +245,7 @@
   {
    "slug": "avi-to-mp4",
    "engine": "media-audio-video",
-   "url": "http://localhost:3100/tools/avi-to-mp4",
+   "url": "http://localhost:3100/tools/avi-to-mp4?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -250,7 +258,7 @@
   {
    "slug": "avif-to-jpg",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/avif-to-jpg",
+   "url": "http://localhost:3100/tools/avif-to-jpg?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -263,7 +271,7 @@
   {
    "slug": "avif-to-png",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/avif-to-png",
+   "url": "http://localhost:3100/tools/avif-to-png?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -276,7 +284,7 @@
   {
    "slug": "baby-boy-name-generator",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/baby-boy-name-generator",
+   "url": "http://localhost:3100/tools/baby-boy-name-generator?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -289,7 +297,7 @@
   {
    "slug": "baby-girl-name-generator",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/baby-girl-name-generator",
+   "url": "http://localhost:3100/tools/baby-girl-name-generator?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -302,7 +310,7 @@
   {
    "slug": "baby-name-ai",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/baby-name-ai",
+   "url": "http://localhost:3100/tools/baby-name-ai?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -315,7 +323,7 @@
   {
    "slug": "baby-shower-bingo",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/baby-shower-bingo",
+   "url": "http://localhost:3100/tools/baby-shower-bingo?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -328,7 +336,7 @@
   {
    "slug": "backwards-text-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/backwards-text-generator",
+   "url": "http://localhost:3100/tools/backwards-text-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -341,7 +349,7 @@
   {
    "slug": "bank-statement-converter",
    "engine": "csv-data",
-   "url": "http://localhost:3100/tools/bank-statement-converter",
+   "url": "http://localhost:3100/tools/bank-statement-converter?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -354,7 +362,7 @@
   {
    "slug": "bank-statement-to-csv",
    "engine": "csv-data",
-   "url": "http://localhost:3100/tools/bank-statement-to-csv",
+   "url": "http://localhost:3100/tools/bank-statement-to-csv?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -367,7 +375,7 @@
   {
    "slug": "bank-statement-to-excel",
    "engine": "csv-data",
-   "url": "http://localhost:3100/tools/bank-statement-to-excel",
+   "url": "http://localhost:3100/tools/bank-statement-to-excel?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -380,7 +388,7 @@
   {
    "slug": "barcode-generator",
    "engine": "qr-barcode",
-   "url": "http://localhost:3100/tools/barcode-generator",
+   "url": "http://localhost:3100/tools/barcode-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -393,7 +401,7 @@
   {
    "slug": "base64-decoder",
    "engine": "base64",
-   "url": "http://localhost:3100/tools/base64-decoder",
+   "url": "http://localhost:3100/tools/base64-decoder?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -406,7 +414,7 @@
   {
    "slug": "base64-encoder",
    "engine": "base64",
-   "url": "http://localhost:3100/tools/base64-encoder",
+   "url": "http://localhost:3100/tools/base64-encoder?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -419,7 +427,7 @@
   {
    "slug": "base64-encoder-decoder",
    "engine": "base64",
-   "url": "http://localhost:3100/tools/base64-encoder-decoder",
+   "url": "http://localhost:3100/tools/base64-encoder-decoder?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -432,7 +440,7 @@
   {
    "slug": "base64-image-decoder",
    "engine": "base64",
-   "url": "http://localhost:3100/tools/base64-image-decoder",
+   "url": "http://localhost:3100/tools/base64-image-decoder?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -445,7 +453,7 @@
   {
    "slug": "base64-image-viewer",
    "engine": "base64",
-   "url": "http://localhost:3100/tools/base64-image-viewer",
+   "url": "http://localhost:3100/tools/base64-image-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -458,7 +466,7 @@
   {
    "slug": "base64-to-image",
    "engine": "base64",
-   "url": "http://localhost:3100/tools/base64-to-image",
+   "url": "http://localhost:3100/tools/base64-to-image?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -471,7 +479,7 @@
   {
    "slug": "base64-to-pdf",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/base64-to-pdf",
+   "url": "http://localhost:3100/tools/base64-to-pdf?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -484,7 +492,7 @@
   {
    "slug": "base64-to-pdf-converter",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/base64-to-pdf-converter",
+   "url": "http://localhost:3100/tools/base64-to-pdf-converter?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -497,7 +505,7 @@
   {
    "slug": "base64-to-pdf-decoder",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/base64-to-pdf-decoder",
+   "url": "http://localhost:3100/tools/base64-to-pdf-decoder?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -510,7 +518,7 @@
   {
    "slug": "binary-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/binary-calculator",
+   "url": "http://localhost:3100/tools/binary-calculator?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -523,7 +531,7 @@
   {
    "slug": "binary-to-decimal",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/binary-to-decimal",
+   "url": "http://localhost:3100/tools/binary-to-decimal?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -536,7 +544,7 @@
   {
    "slug": "binary-to-hex",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/binary-to-hex",
+   "url": "http://localhost:3100/tools/binary-to-hex?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -549,7 +557,7 @@
   {
    "slug": "binary-to-text",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/binary-to-text",
+   "url": "http://localhost:3100/tools/binary-to-text?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -562,7 +570,7 @@
   {
    "slug": "binary-translator",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/binary-translator",
+   "url": "http://localhost:3100/tools/binary-translator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -575,7 +583,7 @@
   {
    "slug": "bingo-card-generator",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/bingo-card-generator",
+   "url": "http://localhost:3100/tools/bingo-card-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -588,7 +596,7 @@
   {
    "slug": "black-out-text-in-pdf",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/black-out-text-in-pdf",
+   "url": "http://localhost:3100/tools/black-out-text-in-pdf?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -601,7 +609,7 @@
   {
    "slug": "blank-bingo-card",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/blank-bingo-card",
+   "url": "http://localhost:3100/tools/blank-bingo-card?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -614,7 +622,7 @@
   {
    "slug": "blank-text-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/blank-text-generator",
+   "url": "http://localhost:3100/tools/blank-text-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -627,7 +635,7 @@
   {
    "slug": "blur-face",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/blur-face",
+   "url": "http://localhost:3100/tools/blur-face?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -640,7 +648,7 @@
   {
    "slug": "blur-image",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/blur-image",
+   "url": "http://localhost:3100/tools/blur-image?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -653,7 +661,7 @@
   {
    "slug": "blur-text-in-image",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/blur-text-in-image",
+   "url": "http://localhost:3100/tools/blur-text-in-image?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -666,7 +674,7 @@
   {
    "slug": "bmi-calculator",
    "engine": "health-fitness",
-   "url": "http://localhost:3100/tools/bmi-calculator",
+   "url": "http://localhost:3100/tools/bmi-calculator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -679,7 +687,7 @@
   {
    "slug": "bmi-calculator-for-women",
    "engine": "health-fitness",
-   "url": "http://localhost:3100/tools/bmi-calculator-for-women",
+   "url": "http://localhost:3100/tools/bmi-calculator-for-women?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -692,7 +700,7 @@
   {
    "slug": "bmp-to-jpg",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/bmp-to-jpg",
+   "url": "http://localhost:3100/tools/bmp-to-jpg?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -705,7 +713,7 @@
   {
    "slug": "bmr-calculator",
    "engine": "health-fitness",
-   "url": "http://localhost:3100/tools/bmr-calculator",
+   "url": "http://localhost:3100/tools/bmr-calculator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -718,7 +726,7 @@
   {
    "slug": "bold-text-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/bold-text-generator",
+   "url": "http://localhost:3100/tools/bold-text-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -731,7 +739,7 @@
   {
    "slug": "bracket-generator",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/bracket-generator",
+   "url": "http://localhost:3100/tools/bracket-generator?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -744,7 +752,7 @@
   {
    "slug": "bracket-maker",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/bracket-maker",
+   "url": "http://localhost:3100/tools/bracket-maker?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -757,7 +765,7 @@
   {
    "slug": "btu-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/btu-calculator",
+   "url": "http://localhost:3100/tools/btu-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -770,7 +778,7 @@
   {
    "slug": "bulk-barcode-generator",
    "engine": "qr-barcode",
-   "url": "http://localhost:3100/tools/bulk-barcode-generator",
+   "url": "http://localhost:3100/tools/bulk-barcode-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -783,7 +791,7 @@
   {
    "slug": "business-days-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/business-days-calculator",
+   "url": "http://localhost:3100/tools/business-days-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -796,7 +804,7 @@
   {
    "slug": "carb-calculator",
    "engine": "health-fitness",
-   "url": "http://localhost:3100/tools/carb-calculator",
+   "url": "http://localhost:3100/tools/carb-calculator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -809,7 +817,7 @@
   {
    "slug": "censor-face",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/censor-face",
+   "url": "http://localhost:3100/tools/censor-face?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -822,7 +830,7 @@
   {
    "slug": "censor-image",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/censor-image",
+   "url": "http://localhost:3100/tools/censor-image?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -835,7 +843,7 @@
   {
    "slug": "character-counter",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/character-counter",
+   "url": "http://localhost:3100/tools/character-counter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -848,7 +856,7 @@
   {
    "slug": "chicago-citation-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/chicago-citation-generator",
+   "url": "http://localhost:3100/tools/chicago-citation-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -861,7 +869,7 @@
   {
    "slug": "christmas-bingo",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/christmas-bingo",
+   "url": "http://localhost:3100/tools/christmas-bingo?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -874,7 +882,7 @@
   {
    "slug": "christmas-budget-planner",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/christmas-budget-planner",
+   "url": "http://localhost:3100/tools/christmas-budget-planner?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -887,22 +895,20 @@
   {
    "slug": "christmas-gift-tracker",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/christmas-gift-tracker",
+   "url": "http://localhost:3100/tools/christmas-gift-tracker?locale=en",
    "clickedButtons": 6,
-   "localStorageAdded": [
-    "image-gift-tracker"
-   ],
+   "localStorageAdded": [],
    "localStorageChanged": [],
    "sessionStorageAdded": [],
    "indexedDbAdded": [],
    "externalRequests": [],
-   "persists": true,
-   "leaks": true
+   "persists": false,
+   "leaks": false
   },
   {
    "slug": "christmas-list-maker",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/christmas-list-maker",
+   "url": "http://localhost:3100/tools/christmas-list-maker?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -915,7 +921,7 @@
   {
    "slug": "christmas-wish-list-maker",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/christmas-wish-list-maker",
+   "url": "http://localhost:3100/tools/christmas-wish-list-maker?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -928,7 +934,7 @@
   {
    "slug": "cidr-calculator",
    "engine": "networking-tools",
-   "url": "http://localhost:3100/tools/cidr-calculator",
+   "url": "http://localhost:3100/tools/cidr-calculator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -941,7 +947,7 @@
   {
    "slug": "citation-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/citation-generator",
+   "url": "http://localhost:3100/tools/citation-generator?locale=en",
    "clickedButtons": 4,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -954,7 +960,7 @@
   {
    "slug": "code-128-barcode-generator",
    "engine": "qr-barcode",
-   "url": "http://localhost:3100/tools/code-128-barcode-generator",
+   "url": "http://localhost:3100/tools/code-128-barcode-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -967,7 +973,7 @@
   {
    "slug": "code-39-barcode-generator",
    "engine": "qr-barcode",
-   "url": "http://localhost:3100/tools/code-39-barcode-generator",
+   "url": "http://localhost:3100/tools/code-39-barcode-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -980,7 +986,7 @@
   {
    "slug": "code-screenshot-generator",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/code-screenshot-generator",
+   "url": "http://localhost:3100/tools/code-screenshot-generator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -993,7 +999,7 @@
   {
    "slug": "code-snippet-screenshot",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/code-snippet-screenshot",
+   "url": "http://localhost:3100/tools/code-snippet-screenshot?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1006,7 +1012,7 @@
   {
    "slug": "code-to-image",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/code-to-image",
+   "url": "http://localhost:3100/tools/code-to-image?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1019,7 +1025,7 @@
   {
    "slug": "coin-flip",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/coin-flip",
+   "url": "http://localhost:3100/tools/coin-flip?locale=en",
    "clickedButtons": 10,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1032,7 +1038,7 @@
   {
    "slug": "coin-flip-simulator",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/coin-flip-simulator",
+   "url": "http://localhost:3100/tools/coin-flip-simulator?locale=en",
    "clickedButtons": 10,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1045,7 +1051,7 @@
   {
    "slug": "college-gpa-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/college-gpa-calculator",
+   "url": "http://localhost:3100/tools/college-gpa-calculator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1058,7 +1064,7 @@
   {
    "slug": "combine-pdf",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/combine-pdf",
+   "url": "http://localhost:3100/tools/combine-pdf?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1071,7 +1077,7 @@
   {
    "slug": "common-denominator-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/common-denominator-calculator",
+   "url": "http://localhost:3100/tools/common-denominator-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1084,7 +1090,7 @@
   {
    "slug": "compress-pdf",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/compress-pdf",
+   "url": "http://localhost:3100/tools/compress-pdf?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1097,7 +1103,7 @@
   {
    "slug": "concrete-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/concrete-calculator",
+   "url": "http://localhost:3100/tools/concrete-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1110,7 +1116,7 @@
   {
    "slug": "countdown-to-date",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/countdown-to-date",
+   "url": "http://localhost:3100/tools/countdown-to-date?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1123,7 +1129,7 @@
   {
    "slug": "cps-test",
    "engine": "device-tester",
-   "url": "http://localhost:3100/tools/cps-test",
+   "url": "http://localhost:3100/tools/cps-test?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1136,7 +1142,7 @@
   {
    "slug": "cron-expression-generator",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/cron-expression-generator",
+   "url": "http://localhost:3100/tools/cron-expression-generator?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1149,7 +1155,7 @@
   {
    "slug": "cron-expression-parser",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/cron-expression-parser",
+   "url": "http://localhost:3100/tools/cron-expression-parser?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1162,7 +1168,7 @@
   {
    "slug": "crontab-generator",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/crontab-generator",
+   "url": "http://localhost:3100/tools/crontab-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1175,7 +1181,7 @@
   {
    "slug": "csr-decoder",
    "engine": "crypto-hash",
-   "url": "http://localhost:3100/tools/csr-decoder",
+   "url": "http://localhost:3100/tools/csr-decoder?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1188,7 +1194,7 @@
   {
    "slug": "csv-to-json-converter",
    "engine": "csv-data",
-   "url": "http://localhost:3100/tools/csv-to-json-converter",
+   "url": "http://localhost:3100/tools/csv-to-json-converter?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1201,7 +1207,7 @@
   {
    "slug": "csv-viewer",
    "engine": "csv-data",
-   "url": "http://localhost:3100/tools/csv-viewer",
+   "url": "http://localhost:3100/tools/csv-viewer?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1214,7 +1220,7 @@
   {
    "slug": "cumulative-gpa-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/cumulative-gpa-calculator",
+   "url": "http://localhost:3100/tools/cumulative-gpa-calculator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1227,7 +1233,7 @@
   {
    "slug": "cursive-text-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/cursive-text-generator",
+   "url": "http://localhost:3100/tools/cursive-text-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1240,7 +1246,7 @@
   {
    "slug": "custom-bingo-card-maker",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/custom-bingo-card-maker",
+   "url": "http://localhost:3100/tools/custom-bingo-card-maker?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1253,7 +1259,7 @@
   {
    "slug": "dnd-dice-roller",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/dnd-dice-roller",
+   "url": "http://localhost:3100/tools/dnd-dice-roller?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1266,7 +1272,7 @@
   {
    "slug": "d20-roller",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/d20-roller",
+   "url": "http://localhost:3100/tools/d20-roller?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1279,7 +1285,7 @@
   {
    "slug": "data-matrix-generator",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/data-matrix-generator",
+   "url": "http://localhost:3100/tools/data-matrix-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1292,7 +1298,7 @@
   {
    "slug": "date-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/date-calculator",
+   "url": "http://localhost:3100/tools/date-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1305,8 +1311,8 @@
   {
    "slug": "days-between-dates",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/days-between-dates",
-   "clickedButtons": 5,
+   "url": "http://localhost:3100/tools/days-between-dates?locale=en",
+   "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
    "sessionStorageAdded": [],
@@ -1318,7 +1324,7 @@
   {
    "slug": "db-viewer",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/db-viewer",
+   "url": "http://localhost:3100/tools/db-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1331,7 +1337,7 @@
   {
    "slug": "dead-pixel-test",
    "engine": "device-tester",
-   "url": "http://localhost:3100/tools/dead-pixel-test",
+   "url": "http://localhost:3100/tools/dead-pixel-test?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1344,7 +1350,7 @@
   {
    "slug": "decimal-to-binary",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/decimal-to-binary",
+   "url": "http://localhost:3100/tools/decimal-to-binary?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1357,7 +1363,7 @@
   {
    "slug": "decimal-to-fraction-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/decimal-to-fraction-calculator",
+   "url": "http://localhost:3100/tools/decimal-to-fraction-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1370,7 +1376,7 @@
   {
    "slug": "decimal-to-hex",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/decimal-to-hex",
+   "url": "http://localhost:3100/tools/decimal-to-hex?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1383,7 +1389,7 @@
   {
    "slug": "dice-roller",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/dice-roller",
+   "url": "http://localhost:3100/tools/dice-roller?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1396,7 +1402,7 @@
   {
    "slug": "dirty-santa-rules",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/dirty-santa-rules",
+   "url": "http://localhost:3100/tools/dirty-santa-rules?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1409,7 +1415,7 @@
   {
    "slug": "discord-username-generator",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/discord-username-generator",
+   "url": "http://localhost:3100/tools/discord-username-generator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1422,7 +1428,7 @@
   {
    "slug": "discount-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/discount-calculator",
+   "url": "http://localhost:3100/tools/discount-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1435,7 +1441,7 @@
   {
    "slug": "docx-viewer",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/docx-viewer",
+   "url": "http://localhost:3100/tools/docx-viewer?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1448,7 +1454,7 @@
   {
    "slug": "dog-age-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/dog-age-calculator",
+   "url": "http://localhost:3100/tools/dog-age-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1461,7 +1467,7 @@
   {
    "slug": "double-click-test",
    "engine": "device-tester",
-   "url": "http://localhost:3100/tools/double-click-test",
+   "url": "http://localhost:3100/tools/double-click-test?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1474,7 +1480,7 @@
   {
    "slug": "double-elimination-bracket",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/double-elimination-bracket",
+   "url": "http://localhost:3100/tools/double-elimination-bracket?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1487,7 +1493,7 @@
   {
    "slug": "ean-13-barcode-generator",
    "engine": "qr-barcode",
-   "url": "http://localhost:3100/tools/ean-13-barcode-generator",
+   "url": "http://localhost:3100/tools/ean-13-barcode-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1500,7 +1506,7 @@
   {
    "slug": "easy-grader",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/easy-grader",
+   "url": "http://localhost:3100/tools/easy-grader?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1513,7 +1519,7 @@
   {
    "slug": "electricity-cost-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/electricity-cost-calculator",
+   "url": "http://localhost:3100/tools/electricity-cost-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1526,7 +1532,7 @@
   {
    "slug": "email-header-analyzer",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/email-header-analyzer",
+   "url": "http://localhost:3100/tools/email-header-analyzer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1539,7 +1545,7 @@
   {
    "slug": "eml-to-pdf",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/eml-to-pdf",
+   "url": "http://localhost:3100/tools/eml-to-pdf?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1552,7 +1558,7 @@
   {
    "slug": "eml-viewer",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/eml-viewer",
+   "url": "http://localhost:3100/tools/eml-viewer?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1565,7 +1571,7 @@
   {
    "slug": "epoch-converter",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/epoch-converter",
+   "url": "http://localhost:3100/tools/epoch-converter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1578,7 +1584,7 @@
   {
    "slug": "excel-to-csv",
    "engine": "csv-data",
-   "url": "http://localhost:3100/tools/excel-to-csv",
+   "url": "http://localhost:3100/tools/excel-to-csv?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1591,7 +1597,7 @@
   {
    "slug": "excel-viewer",
    "engine": "csv-data",
-   "url": "http://localhost:3100/tools/excel-viewer",
+   "url": "http://localhost:3100/tools/excel-viewer?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1604,7 +1610,7 @@
   {
    "slug": "exif-remover",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/exif-remover",
+   "url": "http://localhost:3100/tools/exif-remover?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1617,7 +1623,7 @@
   {
    "slug": "exif-viewer",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/exif-viewer",
+   "url": "http://localhost:3100/tools/exif-viewer?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1630,7 +1636,7 @@
   {
    "slug": "extract-pdf-pages",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/extract-pdf-pages",
+   "url": "http://localhost:3100/tools/extract-pdf-pages?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1643,7 +1649,7 @@
   {
    "slug": "face-pixelator",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/face-pixelator",
+   "url": "http://localhost:3100/tools/face-pixelator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1656,7 +1662,7 @@
   {
    "slug": "fancy-text-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/fancy-text-generator",
+   "url": "http://localhost:3100/tools/fancy-text-generator?locale=en",
    "clickedButtons": 1,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1669,7 +1675,7 @@
   {
    "slug": "favicon-generator",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/favicon-generator",
+   "url": "http://localhost:3100/tools/favicon-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1682,7 +1688,7 @@
   {
    "slug": "favicon-maker",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/favicon-maker",
+   "url": "http://localhost:3100/tools/favicon-maker?locale=en",
    "clickedButtons": 1,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1695,7 +1701,7 @@
   {
    "slug": "fbx-viewer",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/fbx-viewer",
+   "url": "http://localhost:3100/tools/fbx-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1708,7 +1714,7 @@
   {
    "slug": "final-grade-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/final-grade-calculator",
+   "url": "http://localhost:3100/tools/final-grade-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1721,7 +1727,7 @@
   {
    "slug": "flac-to-mp3",
    "engine": "media-audio-video",
-   "url": "http://localhost:3100/tools/flac-to-mp3",
+   "url": "http://localhost:3100/tools/flac-to-mp3?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1734,7 +1740,7 @@
   {
    "slug": "flip-a-coin",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/flip-a-coin",
+   "url": "http://localhost:3100/tools/flip-a-coin?locale=en",
    "clickedButtons": 10,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1747,7 +1753,7 @@
   {
    "slug": "focus-timer",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/focus-timer",
+   "url": "http://localhost:3100/tools/focus-timer?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1760,7 +1766,7 @@
   {
    "slug": "font-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/font-generator",
+   "url": "http://localhost:3100/tools/font-generator?locale=en",
    "clickedButtons": 1,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1773,7 +1779,7 @@
   {
    "slug": "instagram-fonts",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/instagram-fonts",
+   "url": "http://localhost:3100/tools/instagram-fonts?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1786,7 +1792,7 @@
   {
    "slug": "fraction-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/fraction-calculator",
+   "url": "http://localhost:3100/tools/fraction-calculator?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1799,7 +1805,7 @@
   {
    "slug": "fraction-to-decimal-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/fraction-to-decimal-calculator",
+   "url": "http://localhost:3100/tools/fraction-to-decimal-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1812,7 +1818,7 @@
   {
    "slug": "gamepad-tester",
    "engine": "device-tester",
-   "url": "http://localhost:3100/tools/gamepad-tester",
+   "url": "http://localhost:3100/tools/gamepad-tester?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1825,7 +1831,7 @@
   {
    "slug": "gif-to-mp4",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/gif-to-mp4",
+   "url": "http://localhost:3100/tools/gif-to-mp4?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1838,7 +1844,7 @@
   {
    "slug": "gif-to-png",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/gif-to-png",
+   "url": "http://localhost:3100/tools/gif-to-png?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1851,7 +1857,7 @@
   {
    "slug": "gift-exchange-generator",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/gift-exchange-generator",
+   "url": "http://localhost:3100/tools/gift-exchange-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1864,7 +1870,7 @@
   {
    "slug": "glb-viewer",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/glb-viewer",
+   "url": "http://localhost:3100/tools/glb-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1877,7 +1883,7 @@
   {
    "slug": "glitch-text-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/glitch-text-generator",
+   "url": "http://localhost:3100/tools/glitch-text-generator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1890,7 +1896,7 @@
   {
    "slug": "gltf-viewer",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/gltf-viewer",
+   "url": "http://localhost:3100/tools/gltf-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1903,7 +1909,7 @@
   {
    "slug": "gpa-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/gpa-calculator",
+   "url": "http://localhost:3100/tools/gpa-calculator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1916,7 +1922,7 @@
   {
    "slug": "grade-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/grade-calculator",
+   "url": "http://localhost:3100/tools/grade-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1929,7 +1935,7 @@
   {
    "slug": "graphql-formatter-beautifier",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/graphql-formatter-beautifier",
+   "url": "http://localhost:3100/tools/graphql-formatter-beautifier?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1942,7 +1948,7 @@
   {
    "slug": "graphql-minifier",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/graphql-minifier",
+   "url": "http://localhost:3100/tools/graphql-minifier?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1955,7 +1961,7 @@
   {
    "slug": "graphql-schema-explorer",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/graphql-schema-explorer",
+   "url": "http://localhost:3100/tools/graphql-schema-explorer?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1968,7 +1974,7 @@
   {
    "slug": "graphql-schema-validator",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/graphql-schema-validator",
+   "url": "http://localhost:3100/tools/graphql-schema-validator?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1981,7 +1987,7 @@
   {
    "slug": "graphql-schema-viewer-validator",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/graphql-schema-viewer-validator",
+   "url": "http://localhost:3100/tools/graphql-schema-viewer-validator?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -1994,7 +2000,7 @@
   {
    "slug": "graphql-validator",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/graphql-validator",
+   "url": "http://localhost:3100/tools/graphql-validator?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2007,7 +2013,7 @@
   {
    "slug": "gravel-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/gravel-calculator",
+   "url": "http://localhost:3100/tools/gravel-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2020,7 +2026,7 @@
   {
    "slug": "handwriting-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/handwriting-generator",
+   "url": "http://localhost:3100/tools/handwriting-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2033,7 +2039,7 @@
   {
    "slug": "harvard-citation-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/harvard-citation-generator",
+   "url": "http://localhost:3100/tools/harvard-citation-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2046,7 +2052,7 @@
   {
    "slug": "hash-generator",
    "engine": "crypto-hash",
-   "url": "http://localhost:3100/tools/hash-generator",
+   "url": "http://localhost:3100/tools/hash-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2059,7 +2065,7 @@
   {
    "slug": "headphone-test",
    "engine": "device-tester",
-   "url": "http://localhost:3100/tools/headphone-test",
+   "url": "http://localhost:3100/tools/headphone-test?locale=en",
    "clickedButtons": 10,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2072,7 +2078,7 @@
   {
    "slug": "heads-or-tails",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/heads-or-tails",
+   "url": "http://localhost:3100/tools/heads-or-tails?locale=en",
    "clickedButtons": 10,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2085,7 +2091,7 @@
   {
    "slug": "heic-to-jpg-converter",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/heic-to-jpg-converter",
+   "url": "http://localhost:3100/tools/heic-to-jpg-converter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2098,7 +2104,7 @@
   {
    "slug": "hex-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/hex-calculator",
+   "url": "http://localhost:3100/tools/hex-calculator?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2111,7 +2117,7 @@
   {
    "slug": "hex-to-ascii",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/hex-to-ascii",
+   "url": "http://localhost:3100/tools/hex-to-ascii?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2124,7 +2130,7 @@
   {
    "slug": "hex-to-binary",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/hex-to-binary",
+   "url": "http://localhost:3100/tools/hex-to-binary?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2137,7 +2143,7 @@
   {
    "slug": "hex-to-decimal",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/hex-to-decimal",
+   "url": "http://localhost:3100/tools/hex-to-decimal?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2150,7 +2156,7 @@
   {
    "slug": "hex-to-rgb",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/hex-to-rgb",
+   "url": "http://localhost:3100/tools/hex-to-rgb?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2163,7 +2169,7 @@
   {
    "slug": "hex-to-rgb-calculator",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/hex-to-rgb-calculator",
+   "url": "http://localhost:3100/tools/hex-to-rgb-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2176,7 +2182,7 @@
   {
    "slug": "hex-rgb-converter",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/hex-rgb-converter",
+   "url": "http://localhost:3100/tools/hex-rgb-converter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2189,7 +2195,7 @@
   {
    "slug": "high-school-gpa-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/high-school-gpa-calculator",
+   "url": "http://localhost:3100/tools/high-school-gpa-calculator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2202,7 +2208,7 @@
   {
    "slug": "hourly-to-salary-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/hourly-to-salary-calculator",
+   "url": "http://localhost:3100/tools/hourly-to-salary-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2215,7 +2221,7 @@
   {
    "slug": "hours-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/hours-calculator",
+   "url": "http://localhost:3100/tools/hours-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2228,7 +2234,7 @@
   {
    "slug": "days-until-christmas",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/days-until-christmas",
+   "url": "http://localhost:3100/tools/days-until-christmas?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2241,7 +2247,7 @@
   {
    "slug": "days-until-halloween",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/days-until-halloween",
+   "url": "http://localhost:3100/tools/days-until-halloween?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2254,7 +2260,7 @@
   {
    "slug": "html-beautifier",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/html-beautifier",
+   "url": "http://localhost:3100/tools/html-beautifier?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2267,7 +2273,7 @@
   {
    "slug": "html-formatter",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/html-formatter",
+   "url": "http://localhost:3100/tools/html-formatter?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2280,7 +2286,7 @@
   {
    "slug": "html-minifier",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/html-minifier",
+   "url": "http://localhost:3100/tools/html-minifier?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2293,7 +2299,7 @@
   {
    "slug": "html-table-to-markdown",
    "engine": "markdown-docs",
-   "url": "http://localhost:3100/tools/html-table-to-markdown",
+   "url": "http://localhost:3100/tools/html-table-to-markdown?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2306,7 +2312,7 @@
   {
    "slug": "html-to-markdown",
    "engine": "markdown-docs",
-   "url": "http://localhost:3100/tools/html-to-markdown",
+   "url": "http://localhost:3100/tools/html-to-markdown?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2319,7 +2325,7 @@
   {
    "slug": "html-to-md",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/html-to-md",
+   "url": "http://localhost:3100/tools/html-to-md?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2332,7 +2338,7 @@
   {
    "slug": "http-request-tester",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/http-request-tester",
+   "url": "http://localhost:3100/tools/http-request-tester?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2345,7 +2351,7 @@
   {
    "slug": "ico-converter",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/ico-converter",
+   "url": "http://localhost:3100/tools/ico-converter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2358,7 +2364,7 @@
   {
    "slug": "ico-to-png",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/ico-to-png",
+   "url": "http://localhost:3100/tools/ico-to-png?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2371,7 +2377,7 @@
   {
    "slug": "image-metadata-viewer",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/image-metadata-viewer",
+   "url": "http://localhost:3100/tools/image-metadata-viewer?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2384,7 +2390,7 @@
   {
    "slug": "image-resizer",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/image-resizer",
+   "url": "http://localhost:3100/tools/image-resizer?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2397,7 +2403,7 @@
   {
    "slug": "image-to-pdf",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/image-to-pdf",
+   "url": "http://localhost:3100/tools/image-to-pdf?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2410,7 +2416,7 @@
   {
    "slug": "instagram-grid-maker",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/instagram-grid-maker",
+   "url": "http://localhost:3100/tools/instagram-grid-maker?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2423,7 +2429,7 @@
   {
    "slug": "instagram-image-splitter",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/instagram-image-splitter",
+   "url": "http://localhost:3100/tools/instagram-image-splitter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2436,7 +2442,7 @@
   {
    "slug": "instagram-photo-splitter",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/instagram-photo-splitter",
+   "url": "http://localhost:3100/tools/instagram-photo-splitter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2449,7 +2455,7 @@
   {
    "slug": "invisible-character",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/invisible-character",
+   "url": "http://localhost:3100/tools/invisible-character?locale=en",
    "clickedButtons": 2,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2462,7 +2468,7 @@
   {
    "slug": "ipv6-subnet-calculator",
    "engine": "networking-tools",
-   "url": "http://localhost:3100/tools/ipv6-subnet-calculator",
+   "url": "http://localhost:3100/tools/ipv6-subnet-calculator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2475,7 +2481,7 @@
   {
    "slug": "isbn-barcode-generator",
    "engine": "qr-barcode",
-   "url": "http://localhost:3100/tools/isbn-barcode-generator",
+   "url": "http://localhost:3100/tools/isbn-barcode-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2488,7 +2494,7 @@
   {
    "slug": "javascript-regex-tester",
    "engine": "regex",
-   "url": "http://localhost:3100/tools/javascript-regex-tester",
+   "url": "http://localhost:3100/tools/javascript-regex-tester?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2501,7 +2507,7 @@
   {
    "slug": "jfif-to-jpg",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/jfif-to-jpg",
+   "url": "http://localhost:3100/tools/jfif-to-jpg?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2514,7 +2520,7 @@
   {
    "slug": "jpg-to-ico",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/jpg-to-ico",
+   "url": "http://localhost:3100/tools/jpg-to-ico?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2527,7 +2533,7 @@
   {
    "slug": "jpg-to-pdf-converter",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/jpg-to-pdf-converter",
+   "url": "http://localhost:3100/tools/jpg-to-pdf-converter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2540,7 +2546,7 @@
   {
    "slug": "jpg-to-png-converter",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/jpg-to-png-converter",
+   "url": "http://localhost:3100/tools/jpg-to-png-converter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2553,7 +2559,7 @@
   {
    "slug": "jpg-to-webp-converter",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/jpg-to-webp-converter",
+   "url": "http://localhost:3100/tools/jpg-to-webp-converter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2566,7 +2572,7 @@
   {
    "slug": "json-compare",
    "engine": "json",
-   "url": "http://localhost:3100/tools/json-compare",
+   "url": "http://localhost:3100/tools/json-compare?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2579,7 +2585,7 @@
   {
    "slug": "json-diff",
    "engine": "diff",
-   "url": "http://localhost:3100/tools/json-diff",
+   "url": "http://localhost:3100/tools/json-diff?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2592,7 +2598,7 @@
   {
    "slug": "json-editor",
    "engine": "json",
-   "url": "http://localhost:3100/tools/json-editor",
+   "url": "http://localhost:3100/tools/json-editor?locale=en",
    "clickedButtons": 10,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2605,7 +2611,7 @@
   {
    "slug": "json-formatter",
    "engine": "json",
-   "url": "http://localhost:3100/tools/json-formatter",
+   "url": "http://localhost:3100/tools/json-formatter?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2618,7 +2624,7 @@
   {
    "slug": "json-minifier",
    "engine": "json",
-   "url": "http://localhost:3100/tools/json-minifier",
+   "url": "http://localhost:3100/tools/json-minifier?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2631,7 +2637,7 @@
   {
    "slug": "json-pretty-print",
    "engine": "json",
-   "url": "http://localhost:3100/tools/json-pretty-print",
+   "url": "http://localhost:3100/tools/json-pretty-print?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2644,7 +2650,7 @@
   {
    "slug": "json-diff-compare",
    "engine": "diff",
-   "url": "http://localhost:3100/tools/json-diff-compare",
+   "url": "http://localhost:3100/tools/json-diff-compare?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2657,7 +2663,7 @@
   {
    "slug": "json-to-csv-converter",
    "engine": "csv-data",
-   "url": "http://localhost:3100/tools/json-to-csv-converter",
+   "url": "http://localhost:3100/tools/json-to-csv-converter?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2670,7 +2676,7 @@
   {
    "slug": "json-to-toon",
    "engine": "json",
-   "url": "http://localhost:3100/tools/json-to-toon",
+   "url": "http://localhost:3100/tools/json-to-toon?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2683,7 +2689,7 @@
   {
    "slug": "json-to-toon-converter",
    "engine": "json",
-   "url": "http://localhost:3100/tools/json-to-toon-converter",
+   "url": "http://localhost:3100/tools/json-to-toon-converter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2696,7 +2702,7 @@
   {
    "slug": "json-to-ts",
    "engine": "json",
-   "url": "http://localhost:3100/tools/json-to-ts",
+   "url": "http://localhost:3100/tools/json-to-ts?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2709,7 +2715,7 @@
   {
    "slug": "json-to-typescript",
    "engine": "json",
-   "url": "http://localhost:3100/tools/json-to-typescript",
+   "url": "http://localhost:3100/tools/json-to-typescript?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2722,7 +2728,7 @@
   {
    "slug": "json-to-typescript-interface",
    "engine": "json",
-   "url": "http://localhost:3100/tools/json-to-typescript-interface",
+   "url": "http://localhost:3100/tools/json-to-typescript-interface?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2735,7 +2741,7 @@
   {
    "slug": "json-validator",
    "engine": "json",
-   "url": "http://localhost:3100/tools/json-validator",
+   "url": "http://localhost:3100/tools/json-validator?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2748,7 +2754,7 @@
   {
    "slug": "json-viewer",
    "engine": "json",
-   "url": "http://localhost:3100/tools/json-viewer",
+   "url": "http://localhost:3100/tools/json-viewer?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2761,7 +2767,7 @@
   {
    "slug": "jwt-decoder",
    "engine": "crypto-hash",
-   "url": "http://localhost:3100/tools/jwt-decoder",
+   "url": "http://localhost:3100/tools/jwt-decoder?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2774,7 +2780,7 @@
   {
    "slug": "jwt-decoder-encoder",
    "engine": "crypto-hash",
-   "url": "http://localhost:3100/tools/jwt-decoder-encoder",
+   "url": "http://localhost:3100/tools/jwt-decoder-encoder?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2787,7 +2793,7 @@
   {
    "slug": "jwt-encoder",
    "engine": "crypto-hash",
-   "url": "http://localhost:3100/tools/jwt-encoder",
+   "url": "http://localhost:3100/tools/jwt-encoder?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2800,7 +2806,7 @@
   {
    "slug": "keyboard-test",
    "engine": "device-tester",
-   "url": "http://localhost:3100/tools/keyboard-test",
+   "url": "http://localhost:3100/tools/keyboard-test?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2813,7 +2819,7 @@
   {
    "slug": "latex-equation-editor",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/latex-equation-editor",
+   "url": "http://localhost:3100/tools/latex-equation-editor?locale=en",
    "clickedButtons": 10,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2826,7 +2832,7 @@
   {
    "slug": "latex-to-image",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/latex-to-image",
+   "url": "http://localhost:3100/tools/latex-to-image?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2839,7 +2845,7 @@
   {
    "slug": "latex-to-word-equation",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/latex-to-word-equation",
+   "url": "http://localhost:3100/tools/latex-to-word-equation?locale=en",
    "clickedButtons": 10,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2852,7 +2858,7 @@
   {
    "slug": "letter-to-santa-template",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/letter-to-santa-template",
+   "url": "http://localhost:3100/tools/letter-to-santa-template?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2865,7 +2871,7 @@
   {
    "slug": "list-randomizer",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/list-randomizer",
+   "url": "http://localhost:3100/tools/list-randomizer?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2878,7 +2884,7 @@
   {
    "slug": "llm-token-counter",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/llm-token-counter",
+   "url": "http://localhost:3100/tools/llm-token-counter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2891,7 +2897,7 @@
   {
    "slug": "local-ai-chat",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/local-ai-chat",
+   "url": "http://localhost:3100/tools/local-ai-chat?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2904,7 +2910,7 @@
   {
    "slug": "lowercase-converter",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/lowercase-converter",
+   "url": "http://localhost:3100/tools/lowercase-converter?locale=en",
    "clickedButtons": 10,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2917,7 +2923,7 @@
   {
    "slug": "m4a-to-mp3",
    "engine": "media-audio-video",
-   "url": "http://localhost:3100/tools/m4a-to-mp3",
+   "url": "http://localhost:3100/tools/m4a-to-mp3?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2930,7 +2936,7 @@
   {
    "slug": "macro-calculator",
    "engine": "health-fitness",
-   "url": "http://localhost:3100/tools/macro-calculator",
+   "url": "http://localhost:3100/tools/macro-calculator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2943,7 +2949,7 @@
   {
    "slug": "magic-eraser",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/magic-eraser",
+   "url": "http://localhost:3100/tools/magic-eraser?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2956,7 +2962,7 @@
   {
    "slug": "maintenance-calorie-calculator",
    "engine": "health-fitness",
-   "url": "http://localhost:3100/tools/maintenance-calorie-calculator",
+   "url": "http://localhost:3100/tools/maintenance-calorie-calculator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2969,7 +2975,7 @@
   {
    "slug": "margin-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/margin-calculator",
+   "url": "http://localhost:3100/tools/margin-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2982,7 +2988,7 @@
   {
    "slug": "markdown-file-viewer",
    "engine": "markdown-docs",
-   "url": "http://localhost:3100/tools/markdown-file-viewer",
+   "url": "http://localhost:3100/tools/markdown-file-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -2995,7 +3001,7 @@
   {
    "slug": "markdown-preview",
    "engine": "markdown-docs",
-   "url": "http://localhost:3100/tools/markdown-preview",
+   "url": "http://localhost:3100/tools/markdown-preview?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3008,7 +3014,7 @@
   {
    "slug": "markdown-to-docx",
    "engine": "markdown-docs",
-   "url": "http://localhost:3100/tools/markdown-to-docx",
+   "url": "http://localhost:3100/tools/markdown-to-docx?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3021,7 +3027,7 @@
   {
    "slug": "markdown-to-pdf",
    "engine": "markdown-docs",
-   "url": "http://localhost:3100/tools/markdown-to-pdf",
+   "url": "http://localhost:3100/tools/markdown-to-pdf?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3034,7 +3040,7 @@
   {
    "slug": "markdown-to-pdf-converter",
    "engine": "markdown-docs",
-   "url": "http://localhost:3100/tools/markdown-to-pdf-converter",
+   "url": "http://localhost:3100/tools/markdown-to-pdf-converter?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3047,7 +3053,7 @@
   {
    "slug": "markdown-to-word",
    "engine": "markdown-docs",
-   "url": "http://localhost:3100/tools/markdown-to-word",
+   "url": "http://localhost:3100/tools/markdown-to-word?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3060,7 +3066,7 @@
   {
    "slug": "markdown-viewer",
    "engine": "markdown-docs",
-   "url": "http://localhost:3100/tools/markdown-viewer",
+   "url": "http://localhost:3100/tools/markdown-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3073,7 +3079,7 @@
   {
    "slug": "markdown-wysiwyg-editor",
    "engine": "markdown-docs",
-   "url": "http://localhost:3100/tools/markdown-wysiwyg-editor",
+   "url": "http://localhost:3100/tools/markdown-wysiwyg-editor?locale=en",
    "clickedButtons": 10,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3086,7 +3092,7 @@
   {
    "slug": "markup-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/markup-calculator",
+   "url": "http://localhost:3100/tools/markup-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3099,7 +3105,7 @@
   {
    "slug": "md-to-docx",
    "engine": "markdown-docs",
-   "url": "http://localhost:3100/tools/md-to-docx",
+   "url": "http://localhost:3100/tools/md-to-docx?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3112,7 +3118,7 @@
   {
    "slug": "md-to-pdf",
    "engine": "markdown-docs",
-   "url": "http://localhost:3100/tools/md-to-pdf",
+   "url": "http://localhost:3100/tools/md-to-pdf?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3125,7 +3131,7 @@
   {
    "slug": "md5-generator",
    "engine": "crypto-hash",
-   "url": "http://localhost:3100/tools/md5-generator",
+   "url": "http://localhost:3100/tools/md5-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3138,7 +3144,7 @@
   {
    "slug": "mean-absolute-deviation-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/mean-absolute-deviation-calculator",
+   "url": "http://localhost:3100/tools/mean-absolute-deviation-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3151,7 +3157,7 @@
   {
    "slug": "meeting-planner",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/meeting-planner",
+   "url": "http://localhost:3100/tools/meeting-planner?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3164,7 +3170,7 @@
   {
    "slug": "merge-pdf",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/merge-pdf",
+   "url": "http://localhost:3100/tools/merge-pdf?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3177,7 +3183,7 @@
   {
    "slug": "mic-test",
    "engine": "device-tester",
-   "url": "http://localhost:3100/tools/mic-test",
+   "url": "http://localhost:3100/tools/mic-test?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3190,7 +3196,7 @@
   {
    "slug": "middle-school-gpa-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/middle-school-gpa-calculator",
+   "url": "http://localhost:3100/tools/middle-school-gpa-calculator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3203,7 +3209,7 @@
   {
    "slug": "military-time-converter",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/military-time-converter",
+   "url": "http://localhost:3100/tools/military-time-converter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3216,7 +3222,7 @@
   {
    "slug": "mixed-number-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/mixed-number-calculator",
+   "url": "http://localhost:3100/tools/mixed-number-calculator?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3229,7 +3235,7 @@
   {
    "slug": "mkv-to-mp4",
    "engine": "media-audio-video",
-   "url": "http://localhost:3100/tools/mkv-to-mp4",
+   "url": "http://localhost:3100/tools/mkv-to-mp4?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3242,7 +3248,7 @@
   {
    "slug": "mla-citation-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/mla-citation-generator",
+   "url": "http://localhost:3100/tools/mla-citation-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3255,7 +3261,7 @@
   {
    "slug": "morse-code-translator",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/morse-code-translator",
+   "url": "http://localhost:3100/tools/morse-code-translator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3268,7 +3274,7 @@
   {
    "slug": "mouse-test",
    "engine": "device-tester",
-   "url": "http://localhost:3100/tools/mouse-test",
+   "url": "http://localhost:3100/tools/mouse-test?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3281,7 +3287,7 @@
   {
    "slug": "mov-to-mp4",
    "engine": "media-audio-video",
-   "url": "http://localhost:3100/tools/mov-to-mp4",
+   "url": "http://localhost:3100/tools/mov-to-mp4?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3294,7 +3300,7 @@
   {
    "slug": "mp3-to-wav",
    "engine": "media-audio-video",
-   "url": "http://localhost:3100/tools/mp3-to-wav",
+   "url": "http://localhost:3100/tools/mp3-to-wav?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3307,7 +3313,7 @@
   {
    "slug": "mp4-to-mp3",
    "engine": "media-audio-video",
-   "url": "http://localhost:3100/tools/mp4-to-mp3",
+   "url": "http://localhost:3100/tools/mp4-to-mp3?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3320,7 +3326,7 @@
   {
    "slug": "msg-to-pdf",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/msg-to-pdf",
+   "url": "http://localhost:3100/tools/msg-to-pdf?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3333,7 +3339,7 @@
   {
    "slug": "msg-viewer",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/msg-viewer",
+   "url": "http://localhost:3100/tools/msg-viewer?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3346,7 +3352,7 @@
   {
    "slug": "mulch-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/mulch-calculator",
+   "url": "http://localhost:3100/tools/mulch-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3359,7 +3365,7 @@
   {
    "slug": "new-year-countdown",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/new-year-countdown",
+   "url": "http://localhost:3100/tools/new-year-countdown?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3372,7 +3378,7 @@
   {
    "slug": "new-years-bingo",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/new-years-bingo",
+   "url": "http://localhost:3100/tools/new-years-bingo?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3385,22 +3391,20 @@
   {
    "slug": "notepad-plus-plus-online",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/notepad-plus-plus-online",
-   "clickedButtons": 8,
+   "url": "http://localhost:3100/tools/notepad-plus-plus-online?locale=en",
+   "clickedButtons": 7,
    "localStorageAdded": [],
-   "localStorageChanged": [
-    "dtp-notepad"
-   ],
+   "localStorageChanged": [],
    "sessionStorageAdded": [],
    "indexedDbAdded": [],
    "externalRequests": [],
-   "persists": true,
-   "leaks": true
+   "persists": false,
+   "leaks": false
   },
   {
    "slug": "number-base-converter",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/number-base-converter",
+   "url": "http://localhost:3100/tools/number-base-converter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3413,7 +3417,7 @@
   {
    "slug": "obj-viewer",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/obj-viewer",
+   "url": "http://localhost:3100/tools/obj-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3426,7 +3430,7 @@
   {
    "slug": "offline-ai-chat",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/offline-ai-chat",
+   "url": "http://localhost:3100/tools/offline-ai-chat?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3439,7 +3443,7 @@
   {
    "slug": "og-image-generator",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/og-image-generator",
+   "url": "http://localhost:3100/tools/og-image-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3452,7 +3456,7 @@
   {
    "slug": "og-image-maker",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/og-image-maker",
+   "url": "http://localhost:3100/tools/og-image-maker?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3465,7 +3469,7 @@
   {
    "slug": "ogg-to-mp3",
    "engine": "media-audio-video",
-   "url": "http://localhost:3100/tools/ogg-to-mp3",
+   "url": "http://localhost:3100/tools/ogg-to-mp3?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3478,7 +3482,7 @@
   {
    "slug": "one-rep-max-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/one-rep-max-calculator",
+   "url": "http://localhost:3100/tools/one-rep-max-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3491,7 +3495,7 @@
   {
    "slug": "bingo-caller",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/bingo-caller",
+   "url": "http://localhost:3100/tools/bingo-caller?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3504,7 +3508,7 @@
   {
    "slug": "diff-checker",
    "engine": "diff",
-   "url": "http://localhost:3100/tools/diff-checker",
+   "url": "http://localhost:3100/tools/diff-checker?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3517,7 +3521,7 @@
   {
    "slug": "equation-editor",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/equation-editor",
+   "url": "http://localhost:3100/tools/equation-editor?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3530,7 +3534,7 @@
   {
    "slug": "markdown-editor",
    "engine": "markdown-docs",
-   "url": "http://localhost:3100/tools/markdown-editor",
+   "url": "http://localhost:3100/tools/markdown-editor?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3543,7 +3547,7 @@
   {
    "slug": "online-markdown-editor",
    "engine": "markdown-docs",
-   "url": "http://localhost:3100/tools/online-markdown-editor",
+   "url": "http://localhost:3100/tools/online-markdown-editor?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3556,7 +3560,7 @@
   {
    "slug": "math-editor",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/math-editor",
+   "url": "http://localhost:3100/tools/math-editor?locale=en",
    "clickedButtons": 10,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3569,7 +3573,7 @@
   {
    "slug": "math-keyboard",
    "engine": "device-tester",
-   "url": "http://localhost:3100/tools/math-keyboard",
+   "url": "http://localhost:3100/tools/math-keyboard?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3582,22 +3586,20 @@
   {
    "slug": "online-notepad",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/online-notepad",
-   "clickedButtons": 9,
+   "url": "http://localhost:3100/tools/online-notepad?locale=en",
+   "clickedButtons": 8,
    "localStorageAdded": [],
-   "localStorageChanged": [
-    "dtp-notepad"
-   ],
+   "localStorageChanged": [],
    "sessionStorageAdded": [],
    "indexedDbAdded": [],
    "externalRequests": [],
-   "persists": true,
-   "leaks": true
+   "persists": false,
+   "leaks": false
   },
   {
    "slug": "tone-generator",
    "engine": "device-tester",
-   "url": "http://localhost:3100/tools/tone-generator",
+   "url": "http://localhost:3100/tools/tone-generator?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3610,7 +3612,7 @@
   {
    "slug": "open-graph-checker",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/open-graph-checker",
+   "url": "http://localhost:3100/tools/open-graph-checker?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3623,7 +3625,7 @@
   {
    "slug": "open-graph-image-generator",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/open-graph-image-generator",
+   "url": "http://localhost:3100/tools/open-graph-image-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3636,7 +3638,7 @@
   {
    "slug": "open-graph-preview",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/open-graph-preview",
+   "url": "http://localhost:3100/tools/open-graph-preview?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3649,7 +3651,7 @@
   {
    "slug": "openapi-viewer",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/openapi-viewer",
+   "url": "http://localhost:3100/tools/openapi-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3662,7 +3664,7 @@
   {
    "slug": "openapi-editor",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/openapi-editor",
+   "url": "http://localhost:3100/tools/openapi-editor?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3675,7 +3677,7 @@
   {
    "slug": "overtime-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/overtime-calculator",
+   "url": "http://localhost:3100/tools/overtime-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3688,7 +3690,7 @@
   {
    "slug": "paint-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/paint-calculator",
+   "url": "http://localhost:3100/tools/paint-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3701,7 +3703,7 @@
   {
    "slug": "parquet-to-csv",
    "engine": "csv-data",
-   "url": "http://localhost:3100/tools/parquet-to-csv",
+   "url": "http://localhost:3100/tools/parquet-to-csv?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3714,7 +3716,7 @@
   {
    "slug": "parquet-viewer",
    "engine": "csv-data",
-   "url": "http://localhost:3100/tools/parquet-viewer",
+   "url": "http://localhost:3100/tools/parquet-viewer?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3727,7 +3729,7 @@
   {
    "slug": "password-generator",
    "engine": "crypto-hash",
-   "url": "http://localhost:3100/tools/password-generator",
+   "url": "http://localhost:3100/tools/password-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3740,7 +3742,7 @@
   {
    "slug": "pdf-compressor",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-compressor",
+   "url": "http://localhost:3100/tools/pdf-compressor?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3753,7 +3755,7 @@
   {
    "slug": "pdf-merger",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-merger",
+   "url": "http://localhost:3100/tools/pdf-merger?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3766,7 +3768,7 @@
   {
    "slug": "pdf-metadata-editor",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-metadata-editor",
+   "url": "http://localhost:3100/tools/pdf-metadata-editor?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3779,7 +3781,7 @@
   {
    "slug": "pdf-metadata-remover",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-metadata-remover",
+   "url": "http://localhost:3100/tools/pdf-metadata-remover?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3792,7 +3794,7 @@
   {
    "slug": "pdf-metadata-viewer",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-metadata-viewer",
+   "url": "http://localhost:3100/tools/pdf-metadata-viewer?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3805,7 +3807,7 @@
   {
    "slug": "pdf-redaction-tool",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-redaction-tool",
+   "url": "http://localhost:3100/tools/pdf-redaction-tool?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3818,7 +3820,7 @@
   {
    "slug": "pdf-splitter",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-splitter",
+   "url": "http://localhost:3100/tools/pdf-splitter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3831,7 +3833,7 @@
   {
    "slug": "pdf-to-docx",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-to-docx",
+   "url": "http://localhost:3100/tools/pdf-to-docx?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3844,7 +3846,7 @@
   {
    "slug": "pdf-to-image-converter",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-to-image-converter",
+   "url": "http://localhost:3100/tools/pdf-to-image-converter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3857,7 +3859,7 @@
   {
    "slug": "pdf-to-jpg-converter",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-to-jpg-converter",
+   "url": "http://localhost:3100/tools/pdf-to-jpg-converter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3870,7 +3872,7 @@
   {
    "slug": "pdf-to-markdown",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-to-markdown",
+   "url": "http://localhost:3100/tools/pdf-to-markdown?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3883,7 +3885,7 @@
   {
    "slug": "pdf-to-markdown-for-claude",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-to-markdown-for-claude",
+   "url": "http://localhost:3100/tools/pdf-to-markdown-for-claude?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3896,7 +3898,7 @@
   {
    "slug": "pdf-to-md",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-to-md",
+   "url": "http://localhost:3100/tools/pdf-to-md?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3909,7 +3911,7 @@
   {
    "slug": "pdf-to-png-converter",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-to-png-converter",
+   "url": "http://localhost:3100/tools/pdf-to-png-converter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3922,7 +3924,7 @@
   {
    "slug": "pdf-to-word",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-to-word",
+   "url": "http://localhost:3100/tools/pdf-to-word?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3935,7 +3937,7 @@
   {
    "slug": "pdf-to-word-converter",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf-to-word-converter",
+   "url": "http://localhost:3100/tools/pdf-to-word-converter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3948,7 +3950,7 @@
   {
    "slug": "pdf417-generator",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/pdf417-generator",
+   "url": "http://localhost:3100/tools/pdf417-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3961,7 +3963,7 @@
   {
    "slug": "pem-decoder",
    "engine": "crypto-hash",
-   "url": "http://localhost:3100/tools/pem-decoder",
+   "url": "http://localhost:3100/tools/pem-decoder?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3974,7 +3976,7 @@
   {
    "slug": "percentage-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/percentage-calculator",
+   "url": "http://localhost:3100/tools/percentage-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -3987,7 +3989,7 @@
   {
    "slug": "percentage-change-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/percentage-change-calculator",
+   "url": "http://localhost:3100/tools/percentage-change-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4000,7 +4002,7 @@
   {
    "slug": "percentage-decrease-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/percentage-decrease-calculator",
+   "url": "http://localhost:3100/tools/percentage-decrease-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4013,7 +4015,7 @@
   {
    "slug": "percentage-difference-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/percentage-difference-calculator",
+   "url": "http://localhost:3100/tools/percentage-difference-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4026,7 +4028,7 @@
   {
    "slug": "percentage-increase-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/percentage-increase-calculator",
+   "url": "http://localhost:3100/tools/percentage-increase-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4039,7 +4041,7 @@
   {
    "slug": "photo-metadata-remover",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/photo-metadata-remover",
+   "url": "http://localhost:3100/tools/photo-metadata-remover?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4052,7 +4054,7 @@
   {
    "slug": "photo-metadata-viewer",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/photo-metadata-viewer",
+   "url": "http://localhost:3100/tools/photo-metadata-viewer?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4065,7 +4067,7 @@
   {
    "slug": "photo-resizer",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/photo-resizer",
+   "url": "http://localhost:3100/tools/photo-resizer?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4078,7 +4080,7 @@
   {
    "slug": "pixelate-image",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/pixelate-image",
+   "url": "http://localhost:3100/tools/pixelate-image?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4091,7 +4093,7 @@
   {
    "slug": "ply-viewer",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/ply-viewer",
+   "url": "http://localhost:3100/tools/ply-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4104,7 +4106,7 @@
   {
    "slug": "png-background-remover",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/png-background-remover",
+   "url": "http://localhost:3100/tools/png-background-remover?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4117,7 +4119,7 @@
   {
    "slug": "png-to-ico",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/png-to-ico",
+   "url": "http://localhost:3100/tools/png-to-ico?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4130,7 +4132,7 @@
   {
    "slug": "png-to-jpg-converter",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/png-to-jpg-converter",
+   "url": "http://localhost:3100/tools/png-to-jpg-converter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4143,7 +4145,7 @@
   {
    "slug": "png-to-pdf",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/png-to-pdf",
+   "url": "http://localhost:3100/tools/png-to-pdf?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4156,7 +4158,7 @@
   {
    "slug": "png-to-webp-converter",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/png-to-webp-converter",
+   "url": "http://localhost:3100/tools/png-to-webp-converter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4169,7 +4171,7 @@
   {
    "slug": "pomodoro-timer",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/pomodoro-timer",
+   "url": "http://localhost:3100/tools/pomodoro-timer?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4182,7 +4184,7 @@
   {
    "slug": "population-standard-deviation-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/population-standard-deviation-calculator",
+   "url": "http://localhost:3100/tools/population-standard-deviation-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4195,7 +4197,7 @@
   {
    "slug": "printable-bingo-cards",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/printable-bingo-cards",
+   "url": "http://localhost:3100/tools/printable-bingo-cards?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4208,7 +4210,7 @@
   {
    "slug": "printable-bracket",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/printable-bracket",
+   "url": "http://localhost:3100/tools/printable-bracket?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4221,7 +4223,7 @@
   {
    "slug": "printable-calendar",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/printable-calendar",
+   "url": "http://localhost:3100/tools/printable-calendar?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4234,7 +4236,7 @@
   {
    "slug": "christmas-list-template",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/christmas-list-template",
+   "url": "http://localhost:3100/tools/christmas-list-template?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4247,7 +4249,7 @@
   {
    "slug": "private-ai-chatbot",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/private-ai-chatbot",
+   "url": "http://localhost:3100/tools/private-ai-chatbot?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4260,7 +4262,7 @@
   {
    "slug": "protein-calculator",
    "engine": "health-fitness",
-   "url": "http://localhost:3100/tools/protein-calculator",
+   "url": "http://localhost:3100/tools/protein-calculator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4273,7 +4275,7 @@
   {
    "slug": "psd-to-jpg",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/psd-to-jpg",
+   "url": "http://localhost:3100/tools/psd-to-jpg?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4286,7 +4288,7 @@
   {
    "slug": "psd-to-png",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/psd-to-png",
+   "url": "http://localhost:3100/tools/psd-to-png?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4299,7 +4301,7 @@
   {
    "slug": "psd-viewer",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/psd-viewer",
+   "url": "http://localhost:3100/tools/psd-viewer?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4312,7 +4314,7 @@
   {
    "slug": "qr-code-generator",
    "engine": "qr-barcode",
-   "url": "http://localhost:3100/tools/qr-code-generator",
+   "url": "http://localhost:3100/tools/qr-code-generator?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4325,7 +4327,7 @@
   {
    "slug": "quartile-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/quartile-calculator",
+   "url": "http://localhost:3100/tools/quartile-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4338,7 +4340,7 @@
   {
    "slug": "quote-image-generator",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/quote-image-generator",
+   "url": "http://localhost:3100/tools/quote-image-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4351,7 +4353,7 @@
   {
    "slug": "quote-image-maker",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/quote-image-maker",
+   "url": "http://localhost:3100/tools/quote-image-maker?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4364,7 +4366,7 @@
   {
    "slug": "quote-maker",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/quote-maker",
+   "url": "http://localhost:3100/tools/quote-maker?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4377,7 +4379,7 @@
   {
    "slug": "raise-gpa-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/raise-gpa-calculator",
+   "url": "http://localhost:3100/tools/raise-gpa-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4390,7 +4392,7 @@
   {
    "slug": "random-group-generator",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/random-group-generator",
+   "url": "http://localhost:3100/tools/random-group-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4403,7 +4405,7 @@
   {
    "slug": "random-item-picker",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/random-item-picker",
+   "url": "http://localhost:3100/tools/random-item-picker?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4416,7 +4418,7 @@
   {
    "slug": "random-letter-generator",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/random-letter-generator",
+   "url": "http://localhost:3100/tools/random-letter-generator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4429,7 +4431,7 @@
   {
    "slug": "random-name-picker",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/random-name-picker",
+   "url": "http://localhost:3100/tools/random-name-picker?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4442,8 +4444,8 @@
   {
    "slug": "random-number-generator",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/random-number-generator",
-   "clickedButtons": 6,
+   "url": "http://localhost:3100/tools/random-number-generator?locale=en",
+   "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
    "sessionStorageAdded": [],
@@ -4455,7 +4457,7 @@
   {
    "slug": "random-password-generator",
    "engine": "crypto-hash",
-   "url": "http://localhost:3100/tools/random-password-generator",
+   "url": "http://localhost:3100/tools/random-password-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4468,7 +4470,7 @@
   {
    "slug": "random-team-generator",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/random-team-generator",
+   "url": "http://localhost:3100/tools/random-team-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4481,7 +4483,7 @@
   {
    "slug": "random-winner-picker",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/random-winner-picker",
+   "url": "http://localhost:3100/tools/random-winner-picker?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4494,22 +4496,20 @@
   {
    "slug": "rapidtables-notepad-alternative",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/rapidtables-notepad-alternative",
-   "clickedButtons": 9,
+   "url": "http://localhost:3100/tools/rapidtables-notepad-alternative?locale=en",
+   "clickedButtons": 8,
    "localStorageAdded": [],
-   "localStorageChanged": [
-    "dtp-notepad"
-   ],
+   "localStorageChanged": [],
    "sessionStorageAdded": [],
    "indexedDbAdded": [],
    "externalRequests": [],
-   "persists": true,
-   "leaks": true
+   "persists": false,
+   "leaks": false
   },
   {
    "slug": "ratio-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/ratio-calculator",
+   "url": "http://localhost:3100/tools/ratio-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4522,7 +4522,7 @@
   {
    "slug": "redact-bank-statement",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/redact-bank-statement",
+   "url": "http://localhost:3100/tools/redact-bank-statement?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4535,7 +4535,7 @@
   {
    "slug": "redact-pdf",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/redact-pdf",
+   "url": "http://localhost:3100/tools/redact-pdf?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4548,7 +4548,7 @@
   {
    "slug": "reddit-username-generator",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/reddit-username-generator",
+   "url": "http://localhost:3100/tools/reddit-username-generator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4561,7 +4561,7 @@
   {
    "slug": "reduce-pdf-size",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/reduce-pdf-size",
+   "url": "http://localhost:3100/tools/reduce-pdf-size?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4574,7 +4574,7 @@
   {
    "slug": "refresh-rate-test",
    "engine": "device-tester",
-   "url": "http://localhost:3100/tools/refresh-rate-test",
+   "url": "http://localhost:3100/tools/refresh-rate-test?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4587,7 +4587,7 @@
   {
    "slug": "regex-checker",
    "engine": "regex",
-   "url": "http://localhost:3100/tools/regex-checker",
+   "url": "http://localhost:3100/tools/regex-checker?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4600,7 +4600,7 @@
   {
    "slug": "regex-explainer",
    "engine": "regex",
-   "url": "http://localhost:3100/tools/regex-explainer",
+   "url": "http://localhost:3100/tools/regex-explainer?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4613,7 +4613,7 @@
   {
    "slug": "regex-generator",
    "engine": "regex",
-   "url": "http://localhost:3100/tools/regex-generator",
+   "url": "http://localhost:3100/tools/regex-generator?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4626,7 +4626,7 @@
   {
    "slug": "regex-ai",
    "engine": "regex",
-   "url": "http://localhost:3100/tools/regex-ai",
+   "url": "http://localhost:3100/tools/regex-ai?locale=en",
    "clickedButtons": 10,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4639,7 +4639,7 @@
   {
    "slug": "regex-tester",
    "engine": "regex",
-   "url": "http://localhost:3100/tools/regex-tester",
+   "url": "http://localhost:3100/tools/regex-tester?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4652,7 +4652,7 @@
   {
    "slug": "remove-comments-from-word",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/remove-comments-from-word",
+   "url": "http://localhost:3100/tools/remove-comments-from-word?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4665,7 +4665,7 @@
   {
    "slug": "remove-duplicate-lines",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/remove-duplicate-lines",
+   "url": "http://localhost:3100/tools/remove-duplicate-lines?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4678,7 +4678,7 @@
   {
    "slug": "remove-duplicate-lines-and-sort",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/remove-duplicate-lines-and-sort",
+   "url": "http://localhost:3100/tools/remove-duplicate-lines-and-sort?locale=en",
    "clickedButtons": 10,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4691,7 +4691,7 @@
   {
    "slug": "remove-metadata-from-word",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/remove-metadata-from-word",
+   "url": "http://localhost:3100/tools/remove-metadata-from-word?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4704,7 +4704,7 @@
   {
    "slug": "remove-object-from-photo",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/remove-object-from-photo",
+   "url": "http://localhost:3100/tools/remove-object-from-photo?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4717,7 +4717,7 @@
   {
    "slug": "remove-photo-location",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/remove-photo-location",
+   "url": "http://localhost:3100/tools/remove-photo-location?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4730,7 +4730,7 @@
   {
    "slug": "remove-text-from-image",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/remove-text-from-image",
+   "url": "http://localhost:3100/tools/remove-text-from-image?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4743,7 +4743,7 @@
   {
    "slug": "resize-png",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/resize-png",
+   "url": "http://localhost:3100/tools/resize-png?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4756,7 +4756,7 @@
   {
    "slug": "rest-api-tester",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/rest-api-tester",
+   "url": "http://localhost:3100/tools/rest-api-tester?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4769,7 +4769,7 @@
   {
    "slug": "rgb-to-hex",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/rgb-to-hex",
+   "url": "http://localhost:3100/tools/rgb-to-hex?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4782,7 +4782,7 @@
   {
    "slug": "rgb-to-hex-calculator",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/rgb-to-hex-calculator",
+   "url": "http://localhost:3100/tools/rgb-to-hex-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4795,7 +4795,7 @@
   {
    "slug": "rgb-hex-converter",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/rgb-hex-converter",
+   "url": "http://localhost:3100/tools/rgb-hex-converter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4808,7 +4808,7 @@
   {
    "slug": "roll-two-dice",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/roll-two-dice",
+   "url": "http://localhost:3100/tools/roll-two-dice?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4821,7 +4821,7 @@
   {
    "slug": "roman-numeral-converter",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/roman-numeral-converter",
+   "url": "http://localhost:3100/tools/roman-numeral-converter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4834,7 +4834,7 @@
   {
    "slug": "roman-numeral-date-converter",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/roman-numeral-date-converter",
+   "url": "http://localhost:3100/tools/roman-numeral-date-converter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4847,7 +4847,7 @@
   {
    "slug": "roofing-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/roofing-calculator",
+   "url": "http://localhost:3100/tools/roofing-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4860,7 +4860,7 @@
   {
    "slug": "round-robin-generator",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/round-robin-generator",
+   "url": "http://localhost:3100/tools/round-robin-generator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4873,7 +4873,7 @@
   {
    "slug": "salary-to-hourly-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/salary-to-hourly-calculator",
+   "url": "http://localhost:3100/tools/salary-to-hourly-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4886,7 +4886,7 @@
   {
    "slug": "sample-standard-deviation-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/sample-standard-deviation-calculator",
+   "url": "http://localhost:3100/tools/sample-standard-deviation-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4899,7 +4899,7 @@
   {
    "slug": "secret-santa-generator",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/secret-santa-generator",
+   "url": "http://localhost:3100/tools/secret-santa-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4912,7 +4912,7 @@
   {
    "slug": "sha256-generator",
    "engine": "crypto-hash",
-   "url": "http://localhost:3100/tools/sha256-generator",
+   "url": "http://localhost:3100/tools/sha256-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4925,7 +4925,7 @@
   {
    "slug": "simplify-fractions-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/simplify-fractions-calculator",
+   "url": "http://localhost:3100/tools/simplify-fractions-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4938,7 +4938,7 @@
   {
    "slug": "single-elimination-bracket",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/single-elimination-bracket",
+   "url": "http://localhost:3100/tools/single-elimination-bracket?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4951,7 +4951,7 @@
   {
    "slug": "small-text-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/small-text-generator",
+   "url": "http://localhost:3100/tools/small-text-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4964,7 +4964,7 @@
   {
    "slug": "social-media-preview",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/social-media-preview",
+   "url": "http://localhost:3100/tools/social-media-preview?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4977,7 +4977,7 @@
   {
    "slug": "sound-test",
    "engine": "device-tester",
-   "url": "http://localhost:3100/tools/sound-test",
+   "url": "http://localhost:3100/tools/sound-test?locale=en",
    "clickedButtons": 12,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -4990,7 +4990,7 @@
   {
    "slug": "split-pdf",
    "engine": "pdf-suite",
-   "url": "http://localhost:3100/tools/split-pdf",
+   "url": "http://localhost:3100/tools/split-pdf?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5003,7 +5003,7 @@
   {
    "slug": "sql-beautifier",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/sql-beautifier",
+   "url": "http://localhost:3100/tools/sql-beautifier?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5016,7 +5016,7 @@
   {
    "slug": "sql-formatter",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/sql-formatter",
+   "url": "http://localhost:3100/tools/sql-formatter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5029,7 +5029,7 @@
   {
    "slug": "sql-formatter-beautifier",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/sql-formatter-beautifier",
+   "url": "http://localhost:3100/tools/sql-formatter-beautifier?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5042,7 +5042,7 @@
   {
    "slug": "sqlite-browser",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/sqlite-browser",
+   "url": "http://localhost:3100/tools/sqlite-browser?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5055,7 +5055,7 @@
   {
    "slug": "sqlite-online",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/sqlite-online",
+   "url": "http://localhost:3100/tools/sqlite-online?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5068,7 +5068,7 @@
   {
    "slug": "sqlite-viewer",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/sqlite-viewer",
+   "url": "http://localhost:3100/tools/sqlite-viewer?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5081,7 +5081,7 @@
   {
    "slug": "square-footage-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/square-footage-calculator",
+   "url": "http://localhost:3100/tools/square-footage-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5094,7 +5094,7 @@
   {
    "slug": "ssl-certificate-decoder",
    "engine": "crypto-hash",
-   "url": "http://localhost:3100/tools/ssl-certificate-decoder",
+   "url": "http://localhost:3100/tools/ssl-certificate-decoder?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5107,7 +5107,7 @@
   {
    "slug": "standard-deviation-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/standard-deviation-calculator",
+   "url": "http://localhost:3100/tools/standard-deviation-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5120,7 +5120,7 @@
   {
    "slug": "stick-drift-test",
    "engine": "device-tester",
-   "url": "http://localhost:3100/tools/stick-drift-test",
+   "url": "http://localhost:3100/tools/stick-drift-test?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5133,7 +5133,7 @@
   {
    "slug": "stl-viewer",
    "engine": "file-viewers",
-   "url": "http://localhost:3100/tools/stl-viewer",
+   "url": "http://localhost:3100/tools/stl-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5146,7 +5146,7 @@
   {
    "slug": "strikethrough-text-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/strikethrough-text-generator",
+   "url": "http://localhost:3100/tools/strikethrough-text-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5159,7 +5159,7 @@
   {
    "slug": "string-length-calculator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/string-length-calculator",
+   "url": "http://localhost:3100/tools/string-length-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5172,7 +5172,7 @@
   {
    "slug": "strong-password-generator",
    "engine": "crypto-hash",
-   "url": "http://localhost:3100/tools/strong-password-generator",
+   "url": "http://localhost:3100/tools/strong-password-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5185,7 +5185,7 @@
   {
    "slug": "study-timer",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/study-timer",
+   "url": "http://localhost:3100/tools/study-timer?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5198,7 +5198,7 @@
   {
    "slug": "subnet-calculator",
    "engine": "networking-tools",
-   "url": "http://localhost:3100/tools/subnet-calculator",
+   "url": "http://localhost:3100/tools/subnet-calculator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5211,7 +5211,7 @@
   {
    "slug": "subnet-cheat-sheet",
    "engine": "networking-tools",
-   "url": "http://localhost:3100/tools/subnet-cheat-sheet",
+   "url": "http://localhost:3100/tools/subnet-cheat-sheet?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5224,7 +5224,7 @@
   {
    "slug": "svg-favicon-generator",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/svg-favicon-generator",
+   "url": "http://localhost:3100/tools/svg-favicon-generator?locale=en",
    "clickedButtons": 1,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5237,7 +5237,7 @@
   {
    "slug": "svg-to-base64",
    "engine": "base64",
-   "url": "http://localhost:3100/tools/svg-to-base64",
+   "url": "http://localhost:3100/tools/svg-to-base64?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5250,7 +5250,7 @@
   {
    "slug": "svg-to-css",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/svg-to-css",
+   "url": "http://localhost:3100/tools/svg-to-css?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5263,7 +5263,7 @@
   {
    "slug": "svg-to-ico",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/svg-to-ico",
+   "url": "http://localhost:3100/tools/svg-to-ico?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5276,7 +5276,7 @@
   {
    "slug": "svg-to-jpg",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/svg-to-jpg",
+   "url": "http://localhost:3100/tools/svg-to-jpg?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5289,7 +5289,7 @@
   {
    "slug": "svg-to-png",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/svg-to-png",
+   "url": "http://localhost:3100/tools/svg-to-png?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5302,7 +5302,7 @@
   {
    "slug": "svg-viewer",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/svg-viewer",
+   "url": "http://localhost:3100/tools/svg-viewer?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5315,7 +5315,7 @@
   {
    "slug": "swagger-viewer",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/swagger-viewer",
+   "url": "http://localhost:3100/tools/swagger-viewer?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5328,7 +5328,7 @@
   {
    "slug": "tdee-calculator",
    "engine": "health-fitness",
-   "url": "http://localhost:3100/tools/tdee-calculator",
+   "url": "http://localhost:3100/tools/tdee-calculator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5341,7 +5341,7 @@
   {
    "slug": "test-grade-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/test-grade-calculator",
+   "url": "http://localhost:3100/tools/test-grade-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5354,7 +5354,7 @@
   {
    "slug": "text-case-converter",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/text-case-converter",
+   "url": "http://localhost:3100/tools/text-case-converter?locale=en",
    "clickedButtons": 3,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5367,7 +5367,7 @@
   {
    "slug": "text-compare",
    "engine": "diff",
-   "url": "http://localhost:3100/tools/text-compare",
+   "url": "http://localhost:3100/tools/text-compare?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5380,7 +5380,7 @@
   {
    "slug": "text-diff",
    "engine": "diff",
-   "url": "http://localhost:3100/tools/text-diff",
+   "url": "http://localhost:3100/tools/text-diff?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5393,7 +5393,7 @@
   {
    "slug": "text-repeater",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/text-repeater",
+   "url": "http://localhost:3100/tools/text-repeater?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5406,7 +5406,7 @@
   {
    "slug": "text-to-binary",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/text-to-binary",
+   "url": "http://localhost:3100/tools/text-to-binary?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5419,7 +5419,7 @@
   {
    "slug": "text-to-handwriting",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/text-to-handwriting",
+   "url": "http://localhost:3100/tools/text-to-handwriting?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5432,7 +5432,7 @@
   {
    "slug": "text-to-hex",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/text-to-hex",
+   "url": "http://localhost:3100/tools/text-to-hex?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5445,7 +5445,7 @@
   {
    "slug": "thanksgiving-bingo",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/thanksgiving-bingo",
+   "url": "http://localhost:3100/tools/thanksgiving-bingo?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5458,7 +5458,7 @@
   {
    "slug": "thanksgiving-countdown",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/thanksgiving-countdown",
+   "url": "http://localhost:3100/tools/thanksgiving-countdown?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5471,7 +5471,7 @@
   {
    "slug": "tiff-to-jpg",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/tiff-to-jpg",
+   "url": "http://localhost:3100/tools/tiff-to-jpg?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5484,7 +5484,7 @@
   {
    "slug": "tile-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/tile-calculator",
+   "url": "http://localhost:3100/tools/tile-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5497,7 +5497,7 @@
   {
    "slug": "time-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/time-calculator",
+   "url": "http://localhost:3100/tools/time-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5510,7 +5510,7 @@
   {
    "slug": "time-card-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/time-card-calculator",
+   "url": "http://localhost:3100/tools/time-card-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5523,7 +5523,7 @@
   {
    "slug": "time-zone-converter",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/time-zone-converter",
+   "url": "http://localhost:3100/tools/time-zone-converter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5536,7 +5536,7 @@
   {
    "slug": "title-case-converter",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/title-case-converter",
+   "url": "http://localhost:3100/tools/title-case-converter?locale=en",
    "clickedButtons": 10,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5549,7 +5549,7 @@
   {
    "slug": "token-counter",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/token-counter",
+   "url": "http://localhost:3100/tools/token-counter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5562,7 +5562,7 @@
   {
    "slug": "toon-to-json",
    "engine": "json",
-   "url": "http://localhost:3100/tools/toon-to-json",
+   "url": "http://localhost:3100/tools/toon-to-json?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5575,7 +5575,7 @@
   {
    "slug": "transparent-background-maker",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/transparent-background-maker",
+   "url": "http://localhost:3100/tools/transparent-background-maker?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5588,7 +5588,7 @@
   {
    "slug": "transparent-qr-code-generator",
    "engine": "qr-barcode",
-   "url": "http://localhost:3100/tools/transparent-qr-code-generator",
+   "url": "http://localhost:3100/tools/transparent-qr-code-generator?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5601,7 +5601,7 @@
   {
    "slug": "tsv-to-json",
    "engine": "csv-data",
-   "url": "http://localhost:3100/tools/tsv-to-json",
+   "url": "http://localhost:3100/tools/tsv-to-json?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5614,7 +5614,7 @@
   {
    "slug": "twitch-username-generator",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/twitch-username-generator",
+   "url": "http://localhost:3100/tools/twitch-username-generator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5627,7 +5627,7 @@
   {
    "slug": "unix-timestamp-converter",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/unix-timestamp-converter",
+   "url": "http://localhost:3100/tools/unix-timestamp-converter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5640,7 +5640,7 @@
   {
    "slug": "timestamp-converter-generator",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/timestamp-converter-generator",
+   "url": "http://localhost:3100/tools/timestamp-converter-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5653,7 +5653,7 @@
   {
    "slug": "upc-barcode-generator",
    "engine": "qr-barcode",
-   "url": "http://localhost:3100/tools/upc-barcode-generator",
+   "url": "http://localhost:3100/tools/upc-barcode-generator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5666,7 +5666,7 @@
   {
    "slug": "uppercase-converter",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/uppercase-converter",
+   "url": "http://localhost:3100/tools/uppercase-converter?locale=en",
    "clickedButtons": 10,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5679,7 +5679,7 @@
   {
    "slug": "upside-down-text-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/upside-down-text-generator",
+   "url": "http://localhost:3100/tools/upside-down-text-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5692,7 +5692,7 @@
   {
    "slug": "url-decoder",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/url-decoder",
+   "url": "http://localhost:3100/tools/url-decoder?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5705,7 +5705,7 @@
   {
    "slug": "url-encoder",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/url-encoder",
+   "url": "http://localhost:3100/tools/url-encoder?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5718,7 +5718,7 @@
   {
    "slug": "url-encoder-decoder",
    "engine": "encoding-converters",
-   "url": "http://localhost:3100/tools/url-encoder-decoder",
+   "url": "http://localhost:3100/tools/url-encoder-decoder?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5731,7 +5731,7 @@
   {
    "slug": "url-to-qr-code",
    "engine": "qr-barcode",
-   "url": "http://localhost:3100/tools/url-to-qr-code",
+   "url": "http://localhost:3100/tools/url-to-qr-code?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5744,7 +5744,7 @@
   {
    "slug": "username-generator",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/username-generator",
+   "url": "http://localhost:3100/tools/username-generator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5757,7 +5757,7 @@
   {
    "slug": "uuid-generator",
    "engine": "uuid",
-   "url": "http://localhost:3100/tools/uuid-generator",
+   "url": "http://localhost:3100/tools/uuid-generator?locale=en",
    "clickedButtons": 2,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5770,7 +5770,7 @@
   {
    "slug": "uuid-v4-generator",
    "engine": "uuid",
-   "url": "http://localhost:3100/tools/uuid-v4-generator",
+   "url": "http://localhost:3100/tools/uuid-v4-generator?locale=en",
    "clickedButtons": 2,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5783,7 +5783,7 @@
   {
    "slug": "uuid-v7-generator",
    "engine": "uuid",
-   "url": "http://localhost:3100/tools/uuid-v7-generator",
+   "url": "http://localhost:3100/tools/uuid-v7-generator?locale=en",
    "clickedButtons": 2,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5796,7 +5796,7 @@
   {
    "slug": "variance-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/variance-calculator",
+   "url": "http://localhost:3100/tools/variance-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5809,7 +5809,7 @@
   {
    "slug": "video-to-gif",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/video-to-gif",
+   "url": "http://localhost:3100/tools/video-to-gif?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5822,7 +5822,7 @@
   {
    "slug": "vlsm-calculator",
    "engine": "networking-tools",
-   "url": "http://localhost:3100/tools/vlsm-calculator",
+   "url": "http://localhost:3100/tools/vlsm-calculator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5835,7 +5835,7 @@
   {
    "slug": "water-intake-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/water-intake-calculator",
+   "url": "http://localhost:3100/tools/water-intake-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5848,7 +5848,7 @@
   {
    "slug": "wav-to-mp3",
    "engine": "media-audio-video",
-   "url": "http://localhost:3100/tools/wav-to-mp3",
+   "url": "http://localhost:3100/tools/wav-to-mp3?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5861,7 +5861,7 @@
   {
    "slug": "webcam-test",
    "engine": "device-tester",
-   "url": "http://localhost:3100/tools/webcam-test",
+   "url": "http://localhost:3100/tools/webcam-test?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5874,7 +5874,7 @@
   {
    "slug": "webm-converter",
    "engine": "media-audio-video",
-   "url": "http://localhost:3100/tools/webm-converter",
+   "url": "http://localhost:3100/tools/webm-converter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5887,7 +5887,7 @@
   {
    "slug": "webm-to-mp4",
    "engine": "media-audio-video",
-   "url": "http://localhost:3100/tools/webm-to-mp4",
+   "url": "http://localhost:3100/tools/webm-to-mp4?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5900,7 +5900,7 @@
   {
    "slug": "webm-to-mp4-converter",
    "engine": "media-audio-video",
-   "url": "http://localhost:3100/tools/webm-to-mp4-converter",
+   "url": "http://localhost:3100/tools/webm-to-mp4-converter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5913,7 +5913,7 @@
   {
    "slug": "webp-converter",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/webp-converter",
+   "url": "http://localhost:3100/tools/webp-converter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5926,7 +5926,7 @@
   {
    "slug": "webp-to-gif",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/webp-to-gif",
+   "url": "http://localhost:3100/tools/webp-to-gif?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5939,7 +5939,7 @@
   {
    "slug": "webp-to-ico",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/webp-to-ico",
+   "url": "http://localhost:3100/tools/webp-to-ico?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5952,7 +5952,7 @@
   {
    "slug": "webp-to-jpg-converter",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/webp-to-jpg-converter",
+   "url": "http://localhost:3100/tools/webp-to-jpg-converter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5965,7 +5965,7 @@
   {
    "slug": "webp-to-png-converter",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/webp-to-png-converter",
+   "url": "http://localhost:3100/tools/webp-to-png-converter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5978,7 +5978,7 @@
   {
    "slug": "weighted-gpa-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/weighted-gpa-calculator",
+   "url": "http://localhost:3100/tools/weighted-gpa-calculator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -5991,7 +5991,7 @@
   {
    "slug": "weighted-grade-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/weighted-grade-calculator",
+   "url": "http://localhost:3100/tools/weighted-grade-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6004,7 +6004,7 @@
   {
    "slug": "wheel-of-names",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/wheel-of-names",
+   "url": "http://localhost:3100/tools/wheel-of-names?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6017,7 +6017,7 @@
   {
    "slug": "white-elephant-generator",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/white-elephant-generator",
+   "url": "http://localhost:3100/tools/white-elephant-generator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6030,7 +6030,7 @@
   {
    "slug": "white-elephant-rules",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/white-elephant-rules",
+   "url": "http://localhost:3100/tools/white-elephant-rules?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6043,7 +6043,7 @@
   {
    "slug": "wifi-qr-code-generator",
    "engine": "qr-barcode",
-   "url": "http://localhost:3100/tools/wifi-qr-code-generator",
+   "url": "http://localhost:3100/tools/wifi-qr-code-generator?locale=en",
    "clickedButtons": 9,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6056,7 +6056,7 @@
   {
    "slug": "word-counter",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/word-counter",
+   "url": "http://localhost:3100/tools/word-counter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6069,7 +6069,7 @@
   {
    "slug": "word-to-html",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/word-to-html",
+   "url": "http://localhost:3100/tools/word-to-html?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6082,7 +6082,7 @@
   {
    "slug": "word-viewer",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/word-viewer",
+   "url": "http://localhost:3100/tools/word-viewer?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6095,7 +6095,7 @@
   {
    "slug": "world-time-converter",
    "engine": "time-calendar",
-   "url": "http://localhost:3100/tools/world-time-converter",
+   "url": "http://localhost:3100/tools/world-time-converter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6108,7 +6108,7 @@
   {
    "slug": "xlsx-to-csv",
    "engine": "csv-data",
-   "url": "http://localhost:3100/tools/xlsx-to-csv",
+   "url": "http://localhost:3100/tools/xlsx-to-csv?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6121,7 +6121,7 @@
   {
    "slug": "xlsx-viewer",
    "engine": "csv-data",
-   "url": "http://localhost:3100/tools/xlsx-viewer",
+   "url": "http://localhost:3100/tools/xlsx-viewer?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6134,7 +6134,7 @@
   {
    "slug": "xml-formatter",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/xml-formatter",
+   "url": "http://localhost:3100/tools/xml-formatter?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6147,7 +6147,7 @@
   {
    "slug": "xml-validator",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/xml-validator",
+   "url": "http://localhost:3100/tools/xml-validator?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6160,7 +6160,7 @@
   {
    "slug": "xml-viewer",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/xml-viewer",
+   "url": "http://localhost:3100/tools/xml-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6173,7 +6173,7 @@
   {
    "slug": "xsd-editor",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/xsd-editor",
+   "url": "http://localhost:3100/tools/xsd-editor?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6186,7 +6186,7 @@
   {
    "slug": "xsd-schema-viewer",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/xsd-schema-viewer",
+   "url": "http://localhost:3100/tools/xsd-schema-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6199,7 +6199,7 @@
   {
    "slug": "xsd-viewer",
    "engine": "developer-suite",
-   "url": "http://localhost:3100/tools/xsd-viewer",
+   "url": "http://localhost:3100/tools/xsd-viewer?locale=en",
    "clickedButtons": 7,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6212,7 +6212,7 @@
   {
    "slug": "yaml-beautifier",
    "engine": "yaml",
-   "url": "http://localhost:3100/tools/yaml-beautifier",
+   "url": "http://localhost:3100/tools/yaml-beautifier?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6225,7 +6225,7 @@
   {
    "slug": "yaml-editor",
    "engine": "yaml",
-   "url": "http://localhost:3100/tools/yaml-editor",
+   "url": "http://localhost:3100/tools/yaml-editor?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6238,7 +6238,7 @@
   {
    "slug": "yaml-formatter",
    "engine": "yaml",
-   "url": "http://localhost:3100/tools/yaml-formatter",
+   "url": "http://localhost:3100/tools/yaml-formatter?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6251,7 +6251,7 @@
   {
    "slug": "yaml-minifier",
    "engine": "yaml",
-   "url": "http://localhost:3100/tools/yaml-minifier",
+   "url": "http://localhost:3100/tools/yaml-minifier?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6264,7 +6264,7 @@
   {
    "slug": "yaml-to-json",
    "engine": "yaml",
-   "url": "http://localhost:3100/tools/yaml-to-json",
+   "url": "http://localhost:3100/tools/yaml-to-json?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6277,7 +6277,7 @@
   {
    "slug": "yaml-json-converter",
    "engine": "yaml",
-   "url": "http://localhost:3100/tools/yaml-json-converter",
+   "url": "http://localhost:3100/tools/yaml-json-converter?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6290,7 +6290,7 @@
   {
    "slug": "yaml-validator",
    "engine": "yaml",
-   "url": "http://localhost:3100/tools/yaml-validator",
+   "url": "http://localhost:3100/tools/yaml-validator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6303,7 +6303,7 @@
   {
    "slug": "yaml-editor-validator",
    "engine": "yaml",
-   "url": "http://localhost:3100/tools/yaml-editor-validator",
+   "url": "http://localhost:3100/tools/yaml-editor-validator?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6316,7 +6316,7 @@
   {
    "slug": "yankee-swap-rules",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/yankee-swap-rules",
+   "url": "http://localhost:3100/tools/yankee-swap-rules?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6329,7 +6329,7 @@
   {
    "slug": "yes-or-no-wheel",
    "engine": "randomizers-games",
-   "url": "http://localhost:3100/tools/yes-or-no-wheel",
+   "url": "http://localhost:3100/tools/yes-or-no-wheel?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6342,7 +6342,7 @@
   {
    "slug": "yml-to-json",
    "engine": "yaml",
-   "url": "http://localhost:3100/tools/yml-to-json",
+   "url": "http://localhost:3100/tools/yml-to-json?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6355,7 +6355,7 @@
   {
    "slug": "youtube-thumbnail-downloader",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/youtube-thumbnail-downloader",
+   "url": "http://localhost:3100/tools/youtube-thumbnail-downloader?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6368,7 +6368,7 @@
   {
    "slug": "youtube-thumbnail-grabber",
    "engine": "image-suite",
-   "url": "http://localhost:3100/tools/youtube-thumbnail-grabber",
+   "url": "http://localhost:3100/tools/youtube-thumbnail-grabber?locale=en",
    "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6381,7 +6381,7 @@
   {
    "slug": "z-score-calculator",
    "engine": "calculator-suite",
-   "url": "http://localhost:3100/tools/z-score-calculator",
+   "url": "http://localhost:3100/tools/z-score-calculator?locale=en",
    "clickedButtons": 5,
    "localStorageAdded": [],
    "localStorageChanged": [],
@@ -6394,7 +6394,7 @@
   {
    "slug": "zalgo-text-generator",
    "engine": "text-suite",
-   "url": "http://localhost:3100/tools/zalgo-text-generator",
+   "url": "http://localhost:3100/tools/zalgo-text-generator?locale=en",
    "clickedButtons": 8,
    "localStorageAdded": [],
    "localStorageChanged": [],
