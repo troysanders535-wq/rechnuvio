@@ -12,8 +12,7 @@ import {
   formatBytes,
   selectClass,
 } from "./shared";
-import { PasswordRequiredError, createPdfDoc, loadPdfDoc } from "./pdfLib";
-import { closePdf, openPdf } from "./pdfjs";
+import { PasswordRequiredError, loadPdfDoc } from "./pdfLib";
 import { useTranslations } from "next-intl";
 
 type Preset = "screen" | "balanced" | "print" | "custom";
@@ -57,48 +56,26 @@ export function PdfCompressEngine() {
       const effectiveScale = preset === "custom" ? scale : presets[preset].scale;
       const effectiveQuality = preset === "custom" ? quality : presets[preset].quality;
 
-      const open = await openPdf(new Uint8Array(await file.arrayBuffer()));
-      const doc = open.doc;
-      const out = await createPdfDoc();
-
-      for (let n = 1; n <= doc.numPages; n += 1) {
-        setProgress(tUi("compressingPage", { page: n, total: doc.numPages }));
-
-        const page = await doc.getPage(n);
-        const viewport = page.getViewport({ scale: effectiveScale });
-        const canvas = document.createElement("canvas");
-        canvas.width = Math.ceil(viewport.width);
-        canvas.height = Math.ceil(viewport.height);
-        const ctx = canvas.getContext("2d");
-        if (!ctx) throw new Error(tUi("couldNotCreateARenderingCanvas"));
-        ctx.fillStyle = "#ffffff";
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
-        await page.render({ canvas, canvasContext: ctx, viewport }).promise;
-
-        const blob = await new Promise<Blob | null>((resolve) =>
-          canvas.toBlob(resolve, "image/jpeg", effectiveQuality),
-        );
-        if (!blob) throw new Error(tUi("couldNotEncodeThePage", { page: n }));
-
-        const jpg = await out.embedJpg(new Uint8Array(await blob.arrayBuffer()));
-        const newPage = out.addPage([canvas.width, canvas.height]);
-        newPage.drawImage(jpg, {
-          x: 0,
-          y: 0,
-          width: canvas.width,
-          height: canvas.height,
+      // MuPDF keeps text, vectors and fonts and only re-encodes the embedded
+      // images, so the result stays selectable and searchable.
+      const { compressPdfWithMupdf, MupdfPasswordError } = await import("./mupdfCompress");
+      let best: Uint8Array;
+      let strategy: "images" | "structure" = "images";
+      try {
+        const compressed = await compressPdfWithMupdf(new Uint8Array(await file.arrayBuffer()), {
+          maxImageDimension: Math.round(effectiveScale * 1000),
+          jpegQuality: Math.round(effectiveQuality * 100),
+          password: password || undefined,
+          onProgress: (done, total) =>
+            setProgress(tUi("compressingPage", { page: done, total })),
         });
+        best = compressed.bytes;
+      } catch (err) {
+        if (err instanceof MupdfPasswordError) throw new PasswordRequiredError();
+        throw err;
       }
 
-      await closePdf(open);
-
-      const raster = await out.save();
-
-      // Re-encoding every page as a JPEG can easily make a small vector PDF
-      // bigger than it was. Compare the result against a pure structure
-      // rewrite and always keep the smaller of the two.
-      let best = raster;
-      let strategy: "raster" | "structure" = "raster";
+      // Also try a pure structure rewrite with pdf-lib and keep the smaller one.
       try {
         const source = await loadPdfDoc(await file.arrayBuffer(), password || undefined);
         const lossless = await source.save({
@@ -118,7 +95,7 @@ export function PdfCompressEngine() {
       setNote(
         best.byteLength >= file.size
           ? tUi("thisPDFIsAlreadyOptimisedNoSmallerVersionIsPossible")
-          : strategy === "raster"
+          : strategy === "images"
             ? tUi("keptTheSmallerResultOfTheReEncodedPages")
             : tUi("keptTheSmallerResultOfTheDocumentStructure"),
       );

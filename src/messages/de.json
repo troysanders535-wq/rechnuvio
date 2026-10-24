@@ -4330,15 +4330,15 @@
         "couldNotOptimiseTheFile": "Die Datei konnte nicht optimiert werden.",
         "optimiseKeepTextSelectable": "Optimieren (Text auswählbar lassen)",
         "reducedBy": "Reduziert um",
-        "shrinkAPDFByReEncodingItsPagesOrRewriteItsStructureWithoutTouchingTheText": "Verkleinern Sie eine PDF-Datei durch Neukodierung der Seiten oder schreiben Sie ihre Struktur neu, ohne den Text zu verändern.",
+        "shrinkAPDFByReEncodingItsPagesOrRewriteItsStructureWithoutTouchingTheText": "Verkleinern Sie eine PDF-Datei, indem eingebettete Bilder neu kodiert werden, oder schreiben Sie ihre Struktur neu – der Text bleibt dabei unverändert.",
         "onePdfFileEverythingRunsInYourBrowser": "Eine .pdf-Datei. Alles läuft in Ihrem Browser.",
         "compressingPage": "Seite {page} von {total} wird komprimiert…",
         "couldNotEncodeThePage": "Seite {page} konnte nicht kodiert werden.",
-        "keptTheSmallerResultOfTheReEncodedPages": "Das kleinere Ergebnis wurde beibehalten (neu kodierte Seiten).",
+        "keptTheSmallerResultOfTheReEncodedPages": "Das kleinere Ergebnis wurde beibehalten (Bilder neu kodiert, Text unverändert).",
         "keptTheSmallerResultOfTheDocumentStructure": "Das kleinere Ergebnis wurde beibehalten (die Dokumentstruktur).",
         "resolutionInDpi": "Auflösung — {dpi} DPI",
         "jpgQualityInPercent": "JPG-Qualität — {value}%",
-        "compressExplainsTheJpegReEncoding": "– jede Seite wird als JPEG neu kodiert — die größte Einsparung, aber der Text ist danach nicht mehr auswählbar.",
+        "compressExplainsTheJpegReEncoding": "– Bilder werden verkleinert und neu kodiert; Text und Vektorgrafiken bleiben unverändert und auswählbar.",
         "optimiseExplainsTheStructureRewrite": "– die Textebene bleibt intakt und nur die Dokumentstruktur wird neu geschrieben."
       },
       "PdfEmailEngine": {
