@@ -1,6 +1,6 @@
 {
  "summary": {
-  "generatedAt": "2026-10-24T15:45:56.814Z",
+  "generatedAt": "2026-10-24T17:31:57.244Z",
   "total": 492,
   "withStorageWrites": 0,
   "withExternalRequests": 0,
@@ -103,7 +103,7 @@
    "slug": "age-calculator",
    "engine": "calculator-suite",
    "url": "http://localhost:3100/tools/age-calculator?locale=en",
-   "clickedButtons": 5,
+   "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
    "sessionStorageAdded": [],
@@ -1312,7 +1312,7 @@
    "slug": "days-between-dates",
    "engine": "calculator-suite",
    "url": "http://localhost:3100/tools/days-between-dates?locale=en",
-   "clickedButtons": 5,
+   "clickedButtons": 6,
    "localStorageAdded": [],
    "localStorageChanged": [],
    "sessionStorageAdded": [],

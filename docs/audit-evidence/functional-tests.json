@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T14:21:35.208Z",
+ "generatedAt": "2026-10-24T16:51:06.868Z",
  "scope": "full",
  "passed": 492,
  "failed": 0,
@@ -12,49 +12,49 @@
    "name": "uppercases the whole input",
    "status": "PASS",
    "error": "",
-   "ms": 2621
+   "ms": 2563
   },
   {
    "slug": "lowercase-converter",
    "name": "lowercases the whole input",
    "status": "PASS",
    "error": "",
-   "ms": 2600
+   "ms": 2606
   },
   {
    "slug": "title-case-converter",
    "name": "capitalises the first letter of every word",
    "status": "PASS",
    "error": "",
-   "ms": 2605
+   "ms": 2640
   },
   {
    "slug": "text-case-converter",
    "name": "shows every case variant at once",
    "status": "PASS",
    "error": "",
-   "ms": 1827
+   "ms": 1870
   },
   {
    "slug": "alphabetical-order-tool",
    "name": "sorts the lines from A to Z",
    "status": "PASS",
    "error": "",
-   "ms": 2647
+   "ms": 2598
   },
   {
    "slug": "remove-duplicate-lines-and-sort",
    "name": "drops duplicate lines and sorts the rest",
    "status": "PASS",
    "error": "",
-   "ms": 3411
+   "ms": 3424
   },
   {
    "slug": "word-counter",
    "name": "counts the words and the characters of the text",
    "status": "PASS",
    "error": "",
-   "ms": 1912
+   "ms": 1899
   },
   {
    "slug": "character-counter",
@@ -68,280 +68,280 @@
    "name": "counts UTF-8 bytes apart from characters",
    "status": "PASS",
    "error": "",
-   "ms": 2508
+   "ms": 2466
   },
   {
    "slug": "token-counter",
    "name": "counts the tokens with the exact OpenAI tokenizer",
    "status": "PASS",
    "error": "",
-   "ms": 1873
+   "ms": 1843
   },
   {
    "slug": "fancy-text-generator",
    "name": "renders the gallery of Unicode styles",
    "status": "PASS",
    "error": "",
-   "ms": 1881
+   "ms": 1895
   },
   {
    "slug": "bold-text-generator",
    "name": "renders the mathematical bold characters",
    "status": "PASS",
    "error": "",
-   "ms": 2358
+   "ms": 2354
   },
   {
    "slug": "zalgo-text-generator",
    "name": "stacks combining marks on the text",
    "status": "PASS",
    "error": "",
-   "ms": 2836
+   "ms": 2870
   },
   {
    "slug": "upside-down-text-generator",
    "name": "flips the text and restores the original",
    "status": "PASS",
    "error": "",
-   "ms": 2585
+   "ms": 2603
   },
   {
    "slug": "citation-generator",
    "name": "builds all four reference styles at once",
    "status": "PASS",
    "error": "",
-   "ms": 2025
+   "ms": 2109
   },
   {
    "slug": "text-to-binary",
    "name": "encodes the text as UTF-8 bits",
    "status": "PASS",
    "error": "",
-   "ms": 1845
+   "ms": 1848
   },
   {
    "slug": "binary-to-text",
    "name": "decodes the bits back into the text",
    "status": "PASS",
    "error": "",
-   "ms": 1801
+   "ms": 1840
   },
   {
    "slug": "text-to-hex",
    "name": "encodes the text as UTF-8 hex bytes",
    "status": "PASS",
    "error": "",
-   "ms": 1802
+   "ms": 1901
   },
   {
    "slug": "html-to-md",
    "name": "turns the HTML into Markdown",
    "status": "PASS",
    "error": "",
-   "ms": 2448
+   "ms": 2618
   },
   {
    "slug": "latex-to-word-equation",
    "name": "converts LaTeX into the Word linear format",
    "status": "PASS",
    "error": "",
-   "ms": 1829
+   "ms": 1847
   },
   {
    "slug": "text-repeater",
    "name": "repeats the text the requested number of times",
    "status": "PASS",
    "error": "",
-   "ms": 3759
+   "ms": 3776
   },
   {
    "slug": "backwards-text-generator",
    "name": "reverses the text in the selected mode",
    "status": "PASS",
    "error": "",
-   "ms": 3389
+   "ms": 3398
   },
   {
    "slug": "blank-text-generator",
    "name": "produces the requested number of blank characters",
    "status": "PASS",
    "error": "",
-   "ms": 3160
+   "ms": 3192
   },
   {
    "slug": "invisible-character",
    "name": "detects a zero-width space in the pasted text",
    "status": "PASS",
    "error": "",
-   "ms": 1871
+   "ms": 1854
   },
   {
    "slug": "base64-encoder",
    "name": "encodes plain text to base64 (RFC 4648 vector)",
    "status": "PASS",
    "error": "",
-   "ms": 2396
+   "ms": 2399
   },
   {
    "slug": "base64-decoder",
    "name": "decodes base64 back to plain text (RFC 4648 vector)",
    "status": "PASS",
    "error": "",
-   "ms": 2431
+   "ms": 2441
   },
   {
    "slug": "json-formatter",
    "name": "formats a document with the chosen indentation",
    "status": "PASS",
    "error": "",
-   "ms": 3501
+   "ms": 3508
   },
   {
    "slug": "json-minifier",
    "name": "minifies a document into a single line",
    "status": "PASS",
    "error": "",
-   "ms": 2371
+   "ms": 2367
   },
   {
    "slug": "json-validator",
    "name": "validates a document and reports its size",
    "status": "PASS",
    "error": "",
-   "ms": 2368
+   "ms": 2393
   },
   {
    "slug": "json-to-typescript",
    "name": "generates a type alias when that is asked for",
    "status": "PASS",
    "error": "",
-   "ms": 3403
+   "ms": 3421
   },
   {
    "slug": "yaml-to-json",
    "name": "converts a YAML document into the matching JSON",
    "status": "PASS",
    "error": "",
-   "ms": 2189
+   "ms": 2197
   },
   {
    "slug": "yaml-validator",
    "name": "reports a valid document and an invalid one",
    "status": "PASS",
    "error": "",
-   "ms": 3215
+   "ms": 3330
   },
   {
    "slug": "md5-generator",
    "name": "computes the MD5 digest of the text",
    "status": "PASS",
    "error": "",
-   "ms": 3305
+   "ms": 3282
   },
   {
    "slug": "sha256-generator",
    "name": "computes the SHA-256 digest of the text",
    "status": "PASS",
    "error": "",
-   "ms": 3246
+   "ms": 3307
   },
   {
    "slug": "binary-to-decimal",
    "name": "converts 1010 binary to 10 decimal",
    "status": "PASS",
    "error": "",
-   "ms": 1576
+   "ms": 1592
   },
   {
    "slug": "decimal-to-binary",
    "name": "converts 10 decimal to 1010 binary",
    "status": "PASS",
    "error": "",
-   "ms": 1629
+   "ms": 1663
   },
   {
    "slug": "hex-to-decimal",
    "name": "converts FF hexadecimal to 255 decimal",
    "status": "PASS",
    "error": "",
-   "ms": 1619
+   "ms": 1662
   },
   {
    "slug": "hex-to-ascii",
    "name": "decodes the hex bytes 48656C6C6F to Hello",
    "status": "PASS",
    "error": "",
-   "ms": 1651
+   "ms": 1664
   },
   {
    "slug": "binary-to-hex",
    "name": "converts 11111111 binary to FF hexadecimal",
    "status": "PASS",
    "error": "",
-   "ms": 1580
+   "ms": 1644
   },
   {
    "slug": "hex-to-binary",
    "name": "converts FF hexadecimal to 11111111 binary",
    "status": "PASS",
    "error": "",
-   "ms": 1627
+   "ms": 1659
   },
   {
    "slug": "number-base-converter",
    "name": "converts between the bases that are picked",
    "status": "PASS",
    "error": "",
-   "ms": 3781
+   "ms": 3791
   },
   {
    "slug": "url-encoder",
    "name": "percent-encodes the characters a URI may not carry",
    "status": "PASS",
    "error": "",
-   "ms": 1678
+   "ms": 1660
   },
   {
    "slug": "url-decoder",
    "name": "decodes Hello%20World%21 to Hello World!",
    "status": "PASS",
    "error": "",
-   "ms": 1651
+   "ms": 1645
   },
   {
    "slug": "morse-code-translator",
    "name": "translates SOS to Morse code and back",
    "status": "PASS",
    "error": "",
-   "ms": 3028
+   "ms": 3007
   },
   {
    "slug": "hex-rgb-converter",
    "name": "converts #FF0000 to rgb(255, 0, 0)",
    "status": "PASS",
    "error": "",
-   "ms": 1670
+   "ms": 1649
   },
   {
    "slug": "uuid-generator",
    "name": "generates RFC 4122 version 4 UUIDs",
    "status": "PASS",
    "error": "",
-   "ms": 1815
+   "ms": 1839
   },
   {
    "slug": "regex-tester",
    "name": "matches a pattern and reports groups and indexes",
    "status": "PASS",
    "error": "",
-   "ms": 2160
+   "ms": 2195
   },
   {
    "slug": "text-compare",
    "name": "compares two texts word by word",
    "status": "PASS",
    "error": "",
-   "ms": 4348
+   "ms": 4373
   },
   {
    "slug": "qr-code-generator",
@@ -355,252 +355,252 @@
    "name": "multiplies two binary numbers",
    "status": "PASS",
    "error": "",
-   "ms": 1850
+   "ms": 1833
   },
   {
    "slug": "z-score-calculator",
    "name": "measures how far a value sits from the mean",
    "status": "PASS",
    "error": "",
-   "ms": 2614
+   "ms": 2611
   },
   {
    "slug": "percentage-calculator",
    "name": "works out a percentage, a part and a whole",
    "status": "PASS",
    "error": "",
-   "ms": 2552
+   "ms": 2612
   },
   {
    "slug": "epoch-converter",
    "name": "converts a unix timestamp into a date",
    "status": "PASS",
    "error": "",
-   "ms": 2058
+   "ms": 2078
   },
   {
    "slug": "base64-encoder-decoder",
    "name": "round-trips text through base64",
    "status": "PASS",
    "error": "",
-   "ms": 3772
+   "ms": 3788
   },
   {
    "slug": "base64-image-decoder",
    "name": "decodes a base64 image and shows the picture",
    "status": "PASS",
    "error": "",
-   "ms": 2382
+   "ms": 2439
   },
   {
    "slug": "base64-image-viewer",
    "name": "shows the image of a base64 data URL",
    "status": "PASS",
    "error": "",
-   "ms": 2435
+   "ms": 2423
   },
   {
    "slug": "base64-to-image",
    "name": "turns base64 image data into a rendered image",
    "status": "PASS",
    "error": "",
-   "ms": 2428
+   "ms": 2390
   },
   {
    "slug": "svg-to-base64",
    "name": "encodes SVG markup to base64",
    "status": "PASS",
    "error": "",
-   "ms": 2439
+   "ms": 2424
   },
   {
    "slug": "age-calculator",
    "name": "gives the exact age and the days lived",
    "status": "PASS",
    "error": "",
-   "ms": 2047
+   "ms": 2106
   },
   {
    "slug": "days-between-dates",
    "name": "counts the days, weeks, months and years between two dates",
    "status": "PASS",
    "error": "",
-   "ms": 2065
+   "ms": 2112
   },
   {
    "slug": "business-days-calculator",
    "name": "skips the weekends of a whole year",
    "status": "PASS",
    "error": "",
-   "ms": 2585
+   "ms": 2612
   },
   {
    "slug": "date-calculator",
    "name": "shifts a date and measures the gap to another one",
    "status": "PASS",
    "error": "",
-   "ms": 3656
+   "ms": 3619
   },
   {
    "slug": "dog-age-calculator",
    "name": "converts dog years to human years",
    "status": "PASS",
    "error": "",
-   "ms": 2158
+   "ms": 2087
   },
   {
    "slug": "percentage-change-calculator",
    "name": "measures the change between an old and a new value",
    "status": "PASS",
    "error": "",
-   "ms": 2061
+   "ms": 2109
   },
   {
    "slug": "percentage-increase-calculator",
    "name": "finds the original value behind an increase",
    "status": "PASS",
    "error": "",
-   "ms": 2118
+   "ms": 2106
   },
   {
    "slug": "percentage-decrease-calculator",
    "name": "finds the value before a decrease",
    "status": "PASS",
    "error": "",
-   "ms": 2126
+   "ms": 2078
   },
   {
    "slug": "percentage-difference-calculator",
    "name": "compares two values against their average",
    "status": "PASS",
    "error": "",
-   "ms": 2083
+   "ms": 2117
   },
   {
    "slug": "discount-calculator",
    "name": "applies a discount and a stacked discount",
    "status": "PASS",
    "error": "",
-   "ms": 2602
+   "ms": 2632
   },
   {
    "slug": "margin-calculator",
    "name": "separates margin from markup",
    "status": "PASS",
    "error": "",
-   "ms": 1030
+   "ms": 1044
   },
   {
    "slug": "markup-calculator",
    "name": "turns a markup into a selling price",
    "status": "PASS",
    "error": "",
-   "ms": 1017
+   "ms": 1061
   },
   {
    "slug": "salary-to-hourly-calculator",
    "name": "converts an annual salary to an hourly wage",
    "status": "PASS",
    "error": "",
-   "ms": 2588
+   "ms": 2607
   },
   {
    "slug": "hourly-to-salary-calculator",
    "name": "converts an hourly wage to a yearly salary",
    "status": "PASS",
    "error": "",
-   "ms": 2579
+   "ms": 2612
   },
   {
    "slug": "overtime-calculator",
    "name": "splits regular and overtime pay",
    "status": "PASS",
    "error": "",
-   "ms": 3104
+   "ms": 3111
   },
   {
    "slug": "electricity-cost-calculator",
    "name": "prices an appliance per day, month and year",
    "status": "PASS",
    "error": "",
-   "ms": 2611
+   "ms": 2584
   },
   {
    "slug": "gpa-calculator",
    "name": "adds up the grade points of the courses",
    "status": "PASS",
    "error": "",
-   "ms": 1545
+   "ms": 1590
   },
   {
    "slug": "college-gpa-calculator",
    "name": "adds up the grade points of the courses",
    "status": "PASS",
    "error": "",
-   "ms": 1580
+   "ms": 1569
   },
   {
    "slug": "high-school-gpa-calculator",
    "name": "adds the honours weighting to the grade points",
    "status": "PASS",
    "error": "",
-   "ms": 1540
+   "ms": 1571
   },
   {
    "slug": "weighted-gpa-calculator",
    "name": "adds the honours weighting to the grade points",
    "status": "PASS",
    "error": "",
-   "ms": 1584
+   "ms": 1574
   },
   {
    "slug": "middle-school-gpa-calculator",
    "name": "averages the letter grades of the report card",
    "status": "PASS",
    "error": "",
-   "ms": 1029
+   "ms": 1226
   },
   {
    "slug": "cumulative-gpa-calculator",
    "name": "combines the old GPA with the new semester",
    "status": "PASS",
    "error": "",
-   "ms": 1017
+   "ms": 1039
   },
   {
    "slug": "raise-gpa-calculator",
    "name": "says what next term has to look like",
    "status": "PASS",
    "error": "",
-   "ms": 1045
+   "ms": 1041
   },
   {
    "slug": "grade-calculator",
    "name": "weighs the categories into a class grade",
    "status": "PASS",
    "error": "",
-   "ms": 2561
+   "ms": 2613
   },
   {
    "slug": "weighted-grade-calculator",
    "name": "weighs the categories into a weighted grade",
    "status": "PASS",
    "error": "",
-   "ms": 2618
+   "ms": 2612
   },
   {
    "slug": "final-grade-calculator",
    "name": "says the score the final exam needs",
    "status": "PASS",
    "error": "",
-   "ms": 2620
+   "ms": 2612
   },
   {
    "slug": "test-grade-calculator",
    "name": "turns the correct answers into a percentage",
    "status": "PASS",
    "error": "",
-   "ms": 1013
+   "ms": 1051
   },
   {
    "slug": "easy-grader",
@@ -614,175 +614,175 @@
    "name": "summarises a list of numbers",
    "status": "PASS",
    "error": "",
-   "ms": 1688
+   "ms": 1696
   },
   {
    "slug": "standard-deviation-calculator",
    "name": "reports the sample spread of a list",
    "status": "PASS",
    "error": "",
-   "ms": 1675
+   "ms": 1680
   },
   {
    "slug": "sample-standard-deviation-calculator",
    "name": "reports the sample spread of a list",
    "status": "PASS",
    "error": "",
-   "ms": 1634
+   "ms": 1691
   },
   {
    "slug": "population-standard-deviation-calculator",
    "name": "reports the population spread of a list",
    "status": "PASS",
    "error": "",
-   "ms": 1640
+   "ms": 1665
   },
   {
    "slug": "variance-calculator",
    "name": "reports both variances and the sum of squares",
    "status": "PASS",
    "error": "",
-   "ms": 1669
+   "ms": 1701
   },
   {
    "slug": "mean-absolute-deviation-calculator",
    "name": "averages the distance from the mean",
    "status": "PASS",
    "error": "",
-   "ms": 1650
+   "ms": 1688
   },
   {
    "slug": "quartile-calculator",
    "name": "finds the quartiles and the interquartile range",
    "status": "PASS",
    "error": "",
-   "ms": 1657
+   "ms": 1675
   },
   {
    "slug": "fraction-calculator",
    "name": "adds two fractions",
    "status": "PASS",
    "error": "",
-   "ms": 1013
+   "ms": 1052
   },
   {
    "slug": "mixed-number-calculator",
    "name": "adds two mixed numbers",
    "status": "PASS",
    "error": "",
-   "ms": 1048
+   "ms": 1046
   },
   {
    "slug": "simplify-fractions-calculator",
    "name": "reduces a mixed number to lowest terms",
    "status": "PASS",
    "error": "",
-   "ms": 1020
+   "ms": 1034
   },
   {
    "slug": "fraction-to-decimal-calculator",
    "name": "divides the numerator by the denominator",
    "status": "PASS",
    "error": "",
-   "ms": 2083
+   "ms": 2090
   },
   {
    "slug": "decimal-to-fraction-calculator",
    "name": "turns a decimal into a fraction",
    "status": "PASS",
    "error": "",
-   "ms": 1535
+   "ms": 1583
   },
   {
    "slug": "common-denominator-calculator",
    "name": "rewrites fractions over a common denominator",
    "status": "PASS",
    "error": "",
-   "ms": 2576
+   "ms": 2616
   },
   {
    "slug": "hex-calculator",
    "name": "subtracts two hexadecimal numbers",
    "status": "PASS",
    "error": "",
-   "ms": 1812
+   "ms": 1827
   },
   {
    "slug": "roman-numeral-converter",
    "name": "writes a number in Roman numerals and back",
    "status": "PASS",
    "error": "",
-   "ms": 2072
+   "ms": 2079
   },
   {
    "slug": "roman-numeral-date-converter",
    "name": "writes a date in Roman numerals",
    "status": "PASS",
    "error": "",
-   "ms": 2039
+   "ms": 2088
   },
   {
    "slug": "hours-calculator",
    "name": "measures the hours between two clock times",
    "status": "PASS",
    "error": "",
-   "ms": 2599
+   "ms": 2608
   },
   {
    "slug": "time-calculator",
    "name": "totals a list of times and shifts a clock time",
    "status": "PASS",
    "error": "",
-   "ms": 2589
+   "ms": 2608
   },
   {
    "slug": "time-card-calculator",
    "name": "totals the shifts and the overtime pay",
    "status": "PASS",
    "error": "",
-   "ms": 2580
+   "ms": 2617
   },
   {
    "slug": "military-time-converter",
    "name": "converts military time to standard time",
    "status": "PASS",
    "error": "",
-   "ms": 1001
+   "ms": 1050
   },
   {
    "slug": "ratio-calculator",
    "name": "simplifies, solves and splits a ratio",
    "status": "PASS",
    "error": "",
-   "ms": 1042
+   "ms": 1210
   },
   {
    "slug": "square-footage-calculator",
    "name": "measures a room in every unit",
    "status": "PASS",
    "error": "",
-   "ms": 2607
+   "ms": 2623
   },
   {
    "slug": "concrete-calculator",
    "name": "works out the volume of a slab and the bags",
    "status": "PASS",
    "error": "",
-   "ms": 1067
+   "ms": 1042
   },
   {
    "slug": "gravel-calculator",
    "name": "turns an area and a depth into tons of gravel",
    "status": "PASS",
    "error": "",
-   "ms": 3132
+   "ms": 3140
   },
   {
    "slug": "mulch-calculator",
    "name": "turns an area and a depth into bags of mulch",
    "status": "PASS",
    "error": "",
-   "ms": 2638
+   "ms": 2608
   },
   {
    "slug": "tile-calculator",
@@ -796,1750 +796,1750 @@
    "name": "works out the paint a room needs",
    "status": "PASS",
    "error": "",
-   "ms": 4673
+   "ms": 4657
   },
   {
    "slug": "roofing-calculator",
    "name": "works out the roof area, squares and bundles",
    "status": "PASS",
    "error": "",
-   "ms": 3130
+   "ms": 3102
   },
   {
    "slug": "btu-calculator",
    "name": "sizes the air conditioning a room needs",
    "status": "PASS",
    "error": "",
-   "ms": 1063
+   "ms": 1062
   },
   {
    "slug": "one-rep-max-calculator",
    "name": "estimates the one rep maximum",
    "status": "PASS",
    "error": "",
-   "ms": 1031
+   "ms": 1048
   },
   {
    "slug": "water-intake-calculator",
    "name": "works out the daily water intake",
    "status": "PASS",
    "error": "",
-   "ms": 2649
+   "ms": 2600
   },
   {
    "slug": "hash-generator",
    "name": "computes all four digests of the text",
    "status": "PASS",
    "error": "",
-   "ms": 3322
+   "ms": 3300
   },
   {
    "slug": "jwt-decoder",
    "name": "decodes the header and the payload of a token",
    "status": "PASS",
    "error": "",
-   "ms": 3528
+   "ms": 3476
   },
   {
    "slug": "jwt-decoder-encoder",
    "name": "decodes a token and encodes a payload",
    "status": "PASS",
    "error": "",
-   "ms": 2290
+   "ms": 2280
   },
   {
    "slug": "jwt-encoder",
    "name": "encodes claims into a signed token",
    "status": "PASS",
    "error": "",
-   "ms": 2303
+   "ms": 2261
   },
   {
    "slug": "password-generator",
    "name": "generates a password of the requested length",
    "status": "PASS",
    "error": "",
-   "ms": 2865
+   "ms": 2849
   },
   {
    "slug": "random-password-generator",
    "name": "generates a different password every time",
    "status": "PASS",
    "error": "",
-   "ms": 2255
+   "ms": 2301
   },
   {
    "slug": "strong-password-generator",
    "name": "mixes every enabled character class",
    "status": "PASS",
    "error": "",
-   "ms": 2739
+   "ms": 2705
   },
   {
    "slug": "asn1-decoder",
    "name": "decodes the tags and the values of an ASN.1 structure",
    "status": "PASS",
    "error": "",
-   "ms": 5233
+   "ms": 5213
   },
   {
    "slug": "csr-decoder",
    "name": "decodes a certificate signing request",
    "status": "PASS",
    "error": "",
-   "ms": 3155
+   "ms": 3047
   },
   {
    "slug": "pem-decoder",
    "name": "decodes a PEM block and shows its fingerprint",
    "status": "PASS",
    "error": "",
-   "ms": 5230
+   "ms": 5215
   },
   {
    "slug": "ssl-certificate-decoder",
    "name": "decodes the fields of an X.509 certificate",
    "status": "PASS",
    "error": "",
-   "ms": 3207
+   "ms": 3117
   },
   {
    "slug": "csv-to-json-converter",
    "name": "converts a CSV document into JSON",
    "status": "PASS",
    "error": "",
-   "ms": 2234
+   "ms": 2225
   },
   {
    "slug": "json-to-csv-converter",
    "name": "converts a JSON array into CSV",
    "status": "PASS",
    "error": "",
-   "ms": 2238
+   "ms": 2174
   },
   {
    "slug": "tsv-to-json",
    "name": "converts a tab separated document into JSON",
    "status": "PASS",
    "error": "",
-   "ms": 1686
+   "ms": 1670
   },
   {
    "slug": "csv-viewer",
    "name": "shows a sortable table of a CSV file",
    "status": "PASS",
    "error": "",
-   "ms": 3470
+   "ms": 3456
   },
   {
    "slug": "bank-statement-converter",
    "name": "reads the transactions of a PDF bank statement",
    "status": "PASS",
    "error": "",
-   "ms": 2670
+   "ms": 2623
   },
   {
    "slug": "bank-statement-to-csv",
    "name": "turns the transactions of a PDF bank statement into CSV",
    "status": "PASS",
    "error": "",
-   "ms": 2507
+   "ms": 2496
   },
   {
    "slug": "bank-statement-to-excel",
    "name": "turns the transactions of a PDF bank statement into a table for Excel",
    "status": "PASS",
    "error": "",
-   "ms": 3704
+   "ms": 3589
   },
   {
    "slug": "excel-to-csv",
    "name": "reads an Excel workbook and writes it as CSV",
    "status": "PASS",
    "error": "",
-   "ms": 3779
+   "ms": 3705
   },
   {
    "slug": "excel-viewer",
    "name": "shows every sheet of an Excel workbook",
    "status": "PASS",
    "error": "",
-   "ms": 3283
+   "ms": 3265
   },
   {
    "slug": "xlsx-to-csv",
    "name": "reads an XLSX workbook and writes it as CSV",
    "status": "PASS",
    "error": "",
-   "ms": 2417
+   "ms": 2511
   },
   {
    "slug": "xlsx-viewer",
    "name": "shows the cells of an XLSX workbook",
    "status": "PASS",
    "error": "",
-   "ms": 2637
+   "ms": 2570
   },
   {
    "slug": "parquet-to-csv",
    "name": "states that it cannot read a parquet file",
    "status": "PASS",
    "error": "",
-   "ms": 1014
+   "ms": 1041
   },
   {
    "slug": "parquet-viewer",
    "name": "states that it cannot read a parquet file",
    "status": "PASS",
    "error": "",
-   "ms": 938
+   "ms": 939
   },
   {
    "slug": "sql-formatter",
    "name": "formats a SQL query",
    "status": "PASS",
    "error": "",
-   "ms": 2414
+   "ms": 2425
   },
   {
    "slug": "sql-beautifier",
    "name": "beautifies a SQL query",
    "status": "PASS",
    "error": "",
-   "ms": 2381
+   "ms": 2437
   },
   {
    "slug": "sql-formatter-beautifier",
    "name": "formats and beautifies a SQL query",
    "status": "PASS",
    "error": "",
-   "ms": 2324
+   "ms": 2399
   },
   {
    "slug": "api-tester",
    "name": "sends a request and shows the response",
    "status": "PASS",
    "error": "",
-   "ms": 2983
+   "ms": 3037
   },
   {
    "slug": "http-request-tester",
    "name": "sends a request and shows the response",
    "status": "PASS",
    "error": "",
-   "ms": 3011
+   "ms": 3012
   },
   {
    "slug": "rest-api-tester",
    "name": "sends a request and shows the response",
    "status": "PASS",
    "error": "",
-   "ms": 3051
+   "ms": 3001
   },
   {
    "slug": "openapi-editor",
    "name": "parses an OpenAPI document and lists its operations",
    "status": "PASS",
    "error": "",
-   "ms": 3732
+   "ms": 3804
   },
   {
    "slug": "openapi-viewer",
    "name": "lists the operations of an OpenAPI document",
    "status": "PASS",
    "error": "",
-   "ms": 2429
+   "ms": 2426
   },
   {
    "slug": "swagger-viewer",
    "name": "lists the endpoints of a Swagger document",
    "status": "PASS",
    "error": "",
-   "ms": 2399
+   "ms": 2448
   },
   {
    "slug": "html-beautifier",
    "name": "indents a minified HTML document",
    "status": "PASS",
    "error": "",
-   "ms": 2396
+   "ms": 2412
   },
   {
    "slug": "html-formatter",
    "name": "indents an HTML document",
    "status": "PASS",
    "error": "",
-   "ms": 2403
+   "ms": 2408
   },
   {
    "slug": "html-minifier",
    "name": "collapses an HTML document into a single line",
    "status": "PASS",
    "error": "",
-   "ms": 2398
+   "ms": 2394
   },
   {
    "slug": "graphql-formatter-beautifier",
    "name": "beautifies a GraphQL document",
    "status": "PASS",
    "error": "",
-   "ms": 2429
+   "ms": 2439
   },
   {
    "slug": "graphql-minifier",
    "name": "collapses a GraphQL document into a single line",
    "status": "PASS",
    "error": "",
-   "ms": 2413
+   "ms": 2408
   },
   {
    "slug": "graphql-validator",
    "name": "reports the errors of a GraphQL document",
    "status": "PASS",
    "error": "",
-   "ms": 3730
+   "ms": 3778
   },
   {
    "slug": "graphql-schema-explorer",
    "name": "lists the types of a GraphQL schema",
    "status": "PASS",
    "error": "",
-   "ms": 2429
+   "ms": 2409
   },
   {
    "slug": "graphql-schema-validator",
    "name": "reports the errors of a GraphQL schema",
    "status": "PASS",
    "error": "",
-   "ms": 3836
+   "ms": 3774
   },
   {
    "slug": "graphql-schema-viewer-validator",
    "name": "shows the types and fields of a GraphQL schema",
    "status": "PASS",
    "error": "",
-   "ms": 2431
+   "ms": 2410
   },
   {
    "slug": "xml-formatter",
    "name": "indents an XML document",
    "status": "PASS",
    "error": "",
-   "ms": 2408
+   "ms": 2405
   },
   {
    "slug": "xml-validator",
    "name": "reports whether an XML document is well formed",
    "status": "PASS",
    "error": "",
-   "ms": 3805
+   "ms": 3774
   },
   {
    "slug": "xml-viewer",
    "name": "shows the tree of an XML document",
    "status": "PASS",
    "error": "",
-   "ms": 2420
+   "ms": 2437
   },
   {
    "slug": "xsd-editor",
    "name": "reads the declarations of an XSD schema",
    "status": "PASS",
    "error": "",
-   "ms": 2422
+   "ms": 2419
   },
   {
    "slug": "xsd-schema-viewer",
    "name": "shows the types an XSD schema defines",
    "status": "PASS",
    "error": "",
-   "ms": 2401
+   "ms": 2442
   },
   {
    "slug": "xsd-viewer",
    "name": "shows the elements an XSD schema declares",
    "status": "PASS",
    "error": "",
-   "ms": 2453
+   "ms": 2430
   },
   {
    "slug": "latex-equation-editor",
    "name": "renders a LaTeX equation",
    "status": "PASS",
    "error": "",
-   "ms": 3927
+   "ms": 3875
   },
   {
    "slug": "math-editor",
    "name": "renders a mathematical formula",
    "status": "PASS",
    "error": "",
-   "ms": 2473
+   "ms": 2477
   },
   {
    "slug": "local-ai-chat",
    "name": "offers a chat with a local model",
    "status": "PASS",
    "error": "",
-   "ms": 4170
+   "ms": 4199
   },
   {
    "slug": "offline-ai-chat",
    "name": "offers a chat with a local model",
    "status": "PASS",
    "error": "",
-   "ms": 4175
+   "ms": 4181
   },
   {
    "slug": "private-ai-chatbot",
    "name": "offers a chat with a local model",
    "status": "PASS",
    "error": "",
-   "ms": 4207
+   "ms": 4208
   },
   {
    "slug": "code-screenshot-generator",
    "name": "renders a screenshot of a code snippet",
    "status": "PASS",
    "error": "",
-   "ms": 3253
+   "ms": 3294
   },
   {
    "slug": "code-snippet-screenshot",
    "name": "renders a screenshot of a code snippet",
    "status": "PASS",
    "error": "",
-   "ms": 3330
+   "ms": 3310
   },
   {
    "slug": "cps-test",
    "name": "counts the clicks and reports the clicks per second",
    "status": "PASS",
    "error": "",
-   "ms": 4265
+   "ms": 4174
   },
   {
    "slug": "keyboard-test",
    "name": "reports every key that was pressed",
    "status": "PASS",
    "error": "",
-   "ms": 2327
+   "ms": 2365
   },
   {
    "slug": "mic-test",
    "name": "asks the browser for the microphone and reports a denied permission",
    "status": "PASS",
    "error": "",
-   "ms": 5733
+   "ms": 5668
   },
   {
    "slug": "webcam-test",
    "name": "asks the browser for the camera and reports a denied permission",
    "status": "PASS",
    "error": "",
-   "ms": 5681
+   "ms": 5667
   },
   {
    "slug": "mouse-test",
    "name": "counts the presses, the scrolls and the movement of the pointer",
    "status": "PASS",
    "error": "",
-   "ms": 2696
+   "ms": 2646
   },
   {
    "slug": "double-click-test",
    "name": "measures the interval between two clicks and the rate of the recognised double clicks",
    "status": "PASS",
    "error": "",
-   "ms": 3708
+   "ms": 3794
   },
   {
    "slug": "dead-pixel-test",
    "name": "shows the colour fields and magnifies the pixels of the loupe",
    "status": "PASS",
    "error": "",
-   "ms": 4384
+   "ms": 4398
   },
   {
    "slug": "gamepad-tester",
    "name": "reads the axes and the buttons of the connected controller",
    "status": "PASS",
    "error": "",
-   "ms": 2977
+   "ms": 2986
   },
   {
    "slug": "headphone-test",
    "name": "plays a test tone in one ear and in both ears",
    "status": "PASS",
    "error": "",
-   "ms": 5535
+   "ms": 5502
   },
   {
    "slug": "math-keyboard",
    "name": "writes the mathematical symbols into the field at the cursor",
    "status": "PASS",
    "error": "",
-   "ms": 3447
+   "ms": 3289
   },
   {
    "slug": "refresh-rate-test",
    "name": "measures the refresh rate of the display in frames per second",
    "status": "PASS",
    "error": "",
-   "ms": 3205
+   "ms": 3216
   },
   {
    "slug": "sound-test",
    "name": "plays the test frequencies and measures the level of the output",
    "status": "PASS",
    "error": "",
-   "ms": 4592
+   "ms": 4559
   },
   {
    "slug": "stick-drift-test",
    "name": "measures the drift of the analog stick around its neutral position",
    "status": "PASS",
    "error": "",
-   "ms": 4664
+   "ms": 4564
   },
   {
    "slug": "tone-generator",
    "name": "generates a tone with the chosen frequency, waveform and duration",
    "status": "PASS",
    "error": "",
-   "ms": 5008
+   "ms": 4917
   },
   {
    "slug": "diff-checker",
    "name": "counts the added and the deleted lines",
    "status": "PASS",
    "error": "",
-   "ms": 3229
+   "ms": 3203
   },
   {
    "slug": "json-diff",
    "name": "compares two JSON documents line by line",
    "status": "PASS",
    "error": "",
-   "ms": 3187
+   "ms": 3192
   },
   {
    "slug": "text-diff",
    "name": "marks the removed text with a strike-through",
    "status": "PASS",
    "error": "",
-   "ms": 3311
+   "ms": 3145
   },
   {
    "slug": "json-diff-compare",
    "name": "counts the semantic differences of two JSON documents",
    "status": "PASS",
    "error": "",
-   "ms": 2066
+   "ms": 2144
   },
   {
    "slug": "binary-translator",
    "name": "translates text to 8-bit binary and back",
    "status": "PASS",
    "error": "",
-   "ms": 3019
+   "ms": 3010
   },
   {
    "slug": "decimal-to-hex",
    "name": "converts 255 decimal to FF hexadecimal",
    "status": "PASS",
    "error": "",
-   "ms": 1639
+   "ms": 1669
   },
   {
    "slug": "hex-to-rgb",
    "name": "converts #00FF00 to rgb(0, 255, 0)",
    "status": "PASS",
    "error": "",
-   "ms": 1648
+   "ms": 1657
   },
   {
    "slug": "hex-to-rgb-calculator",
    "name": "converts #0000FF to rgb(0, 0, 255)",
    "status": "PASS",
    "error": "",
-   "ms": 1649
+   "ms": 1671
   },
   {
    "slug": "rgb-hex-converter",
    "name": "converts rgb(255, 0, 0) to #FF0000",
    "status": "PASS",
    "error": "",
-   "ms": 1669
+   "ms": 1648
   },
   {
    "slug": "rgb-to-hex",
    "name": "converts rgb(0, 128, 255) to #0080FF",
    "status": "PASS",
    "error": "",
-   "ms": 1583
+   "ms": 1650
   },
   {
    "slug": "rgb-to-hex-calculator",
    "name": "converts rgb(255, 255, 0) to #FFFF00",
    "status": "PASS",
    "error": "",
-   "ms": 1659
+   "ms": 1649
   },
   {
    "slug": "url-encoder-decoder",
    "name": "encodes and decodes through the direction toggle",
    "status": "PASS",
    "error": "",
-   "ms": 2441
+   "ms": 2409
   },
   {
    "slug": "stl-viewer",
    "name": "reports the geometry of the loaded STL mesh",
    "status": "PASS",
    "error": "",
-   "ms": 1294
+   "ms": 1369
   },
   {
    "slug": "obj-viewer",
    "name": "reports the geometry of the loaded OBJ mesh",
    "status": "PASS",
    "error": "",
-   "ms": 1322
+   "ms": 1519
   },
   {
    "slug": "ply-viewer",
    "name": "reports the geometry of the loaded PLY mesh",
    "status": "PASS",
    "error": "",
-   "ms": 1264
+   "ms": 1342
   },
   {
    "slug": "gltf-viewer",
    "name": "reports the geometry of the loaded glTF model",
    "status": "PASS",
    "error": "",
-   "ms": 1342
+   "ms": 1323
   },
   {
    "slug": "glb-viewer",
    "name": "reports the geometry of the loaded GLB model",
    "status": "PASS",
    "error": "",
-   "ms": 1337
+   "ms": 1354
   },
   {
    "slug": "3mf-viewer",
    "name": "reports the geometry of the loaded 3MF package",
    "status": "PASS",
    "error": "",
-   "ms": 1340
+   "ms": 1346
   },
   {
    "slug": "3d-viewer",
    "name": "reports the geometry of the loaded model",
    "status": "PASS",
    "error": "",
-   "ms": 1339
+   "ms": 1336
   },
   {
    "slug": "fbx-viewer",
    "name": "reports the geometry of the model opened in the viewer",
    "status": "PASS",
    "error": "",
-   "ms": 1325
+   "ms": 1349
   },
   {
    "slug": "ai-viewer",
    "name": "renders the PDF compatible stream of an .ai file",
    "status": "PASS",
    "error": "",
-   "ms": 4540
+   "ms": 4566
   },
   {
    "slug": "sqlite-viewer",
    "name": "runs the SQL query and shows the matching rows",
    "status": "PASS",
    "error": "",
-   "ms": 3065
+   "ms": 3118
   },
   {
    "slug": "sqlite-browser",
    "name": "runs the SQL query and shows the matching rows",
    "status": "PASS",
    "error": "",
-   "ms": 3167
+   "ms": 3135
   },
   {
    "slug": "sqlite-online",
    "name": "runs the SQL query and shows the matching rows",
    "status": "PASS",
    "error": "",
-   "ms": 3122
+   "ms": 3107
   },
   {
    "slug": "db-viewer",
    "name": "runs the SQL query and shows the matching rows",
    "status": "PASS",
    "error": "",
-   "ms": 3148
+   "ms": 3105
   },
   {
    "slug": "docx-viewer",
    "name": "shows the text of the opened Word document",
    "status": "PASS",
    "error": "",
-   "ms": 2560
+   "ms": 2549
   },
   {
    "slug": "eml-viewer",
    "name": "shows the headers of the opened e-mail",
    "status": "PASS",
    "error": "",
-   "ms": 2542
+   "ms": 2552
   },
   {
    "slug": "msg-viewer",
    "name": "opens an Outlook message and shows its headers, body and attachments",
    "status": "PASS",
    "error": "",
-   "ms": 3061
+   "ms": 3090
   },
   {
    "slug": "psd-viewer",
    "name": "opens a Photoshop document and shows its layers",
    "status": "PASS",
    "error": "",
-   "ms": 2461
+   "ms": 2530
   },
   {
    "slug": "bmi-calculator",
    "name": "computes the body mass index",
    "status": "PASS",
    "error": "",
-   "ms": 1006
+   "ms": 1041
   },
   {
    "slug": "adult-bmi-calculator",
    "name": "computes the body mass index of an adult",
    "status": "PASS",
    "error": "",
-   "ms": 2563
+   "ms": 2601
   },
   {
    "slug": "bmi-calculator-for-women",
    "name": "computes the same body mass index for women",
    "status": "PASS",
    "error": "",
-   "ms": 2867
+   "ms": 2872
   },
   {
    "slug": "bmr-calculator",
    "name": "shows the basal metabolic rate",
    "status": "PASS",
    "error": "",
-   "ms": 1041
+   "ms": 1032
   },
   {
    "slug": "carb-calculator",
    "name": "shows the daily carbohydrate target",
    "status": "PASS",
    "error": "",
-   "ms": 1011
+   "ms": 1040
   },
   {
    "slug": "macro-calculator",
    "name": "shows the protein, the carbohydrate and the fat target",
    "status": "PASS",
    "error": "",
-   "ms": 1026
+   "ms": 1036
   },
   {
    "slug": "maintenance-calorie-calculator",
    "name": "shows the daily maintenance calories",
    "status": "PASS",
    "error": "",
-   "ms": 1020
+   "ms": 1042
   },
   {
    "slug": "protein-calculator",
    "name": "shows the daily protein target",
    "status": "PASS",
    "error": "",
-   "ms": 1015
+   "ms": 944
   },
   {
    "slug": "tdee-calculator",
    "name": "shows the total daily energy expenditure",
    "status": "PASS",
    "error": "",
-   "ms": 943
+   "ms": 1024
   },
   {
    "slug": "png-to-webp-converter",
    "name": "writes a WebP container for a PNG source",
    "status": "PASS",
    "error": "",
-   "ms": 2536
+   "ms": 2553
   },
   {
    "slug": "jpg-to-png-converter",
    "name": "writes a PNG for a JPEG source",
    "status": "PASS",
    "error": "",
-   "ms": 2559
+   "ms": 2533
   },
   {
    "slug": "png-to-jpg-converter",
    "name": "writes a JPEG and flattens transparency onto white",
    "status": "PASS",
    "error": "",
-   "ms": 2516
+   "ms": 2547
   },
   {
    "slug": "jpg-to-webp-converter",
    "name": "writes a WebP for a JPEG source",
    "status": "PASS",
    "error": "",
-   "ms": 2511
+   "ms": 2531
   },
   {
    "slug": "webp-to-png-converter",
    "name": "writes a PNG for a WebP source",
    "status": "PASS",
    "error": "",
-   "ms": 2522
+   "ms": 2544
   },
   {
    "slug": "webp-to-jpg-converter",
    "name": "writes a JPEG for a WebP source",
    "status": "PASS",
    "error": "",
-   "ms": 2457
+   "ms": 2537
   },
   {
    "slug": "webp-converter",
    "name": "converts a picture to WebP in the browser",
    "status": "PASS",
    "error": "",
-   "ms": 2539
+   "ms": 2566
   },
   {
    "slug": "bmp-to-jpg",
    "name": "reads a BMP bitmap and writes a JPEG",
    "status": "PASS",
    "error": "",
-   "ms": 2436
+   "ms": 2559
   },
   {
    "slug": "gif-to-png",
    "name": "reads a GIF and writes a PNG",
    "status": "PASS",
    "error": "",
-   "ms": 2534
+   "ms": 2697
   },
   {
    "slug": "jfif-to-jpg",
    "name": "reads a JFIF picture and writes a JPEG",
    "status": "PASS",
    "error": "",
-   "ms": 2549
+   "ms": 2519
   },
   {
    "slug": "ico-to-png",
    "name": "reads an ICO icon and writes a PNG",
    "status": "PASS",
    "error": "",
-   "ms": 2529
+   "ms": 2537
   },
   {
    "slug": "svg-to-png",
    "name": "renders an SVG into a PNG",
    "status": "PASS",
    "error": "",
-   "ms": 2523
+   "ms": 2571
   },
   {
    "slug": "svg-to-jpg",
    "name": "renders an SVG into a JPEG",
    "status": "PASS",
    "error": "",
-   "ms": 2538
+   "ms": 2513
   },
   {
    "slug": "avif-to-png",
    "name": "writes a PNG for an AVIF source",
    "status": "PASS",
    "error": "",
-   "ms": 2498
+   "ms": 2536
   },
   {
    "slug": "avif-to-jpg",
    "name": "writes a JPEG for an AVIF source",
    "status": "PASS",
    "error": "",
-   "ms": 2611
+   "ms": 2534
   },
   {
    "slug": "image-resizer",
    "name": "resizes a picture and keeps the aspect ratio",
    "status": "PASS",
    "error": "",
-   "ms": 2521
+   "ms": 2553
   },
   {
    "slug": "photo-resizer",
    "name": "resizes a photo to the requested pixel size",
    "status": "PASS",
    "error": "",
-   "ms": 2511
+   "ms": 2529
   },
   {
    "slug": "resize-png",
    "name": "resizes a PNG and keeps the transparency",
    "status": "PASS",
    "error": "",
-   "ms": 2535
+   "ms": 2522
   },
   {
    "slug": "blur-image",
    "name": "blurs the whole picture",
    "status": "PASS",
    "error": "",
-   "ms": 2623
+   "ms": 2634
   },
   {
    "slug": "pixelate-image",
    "name": "pixelates the picture with a mosaic of blocks",
    "status": "PASS",
    "error": "",
-   "ms": 3675
+   "ms": 3650
   },
   {
    "slug": "censor-image",
    "name": "censors a region of the picture",
    "status": "PASS",
    "error": "",
-   "ms": 4401
+   "ms": 4630
   },
   {
    "slug": "background-remover",
    "name": "removes the background of a photo",
    "status": "PASS",
    "error": "",
-   "ms": 2605
+   "ms": 2590
   },
   {
    "slug": "png-background-remover",
    "name": "saves a PNG cut out with a transparent background",
    "status": "PASS",
    "error": "",
-   "ms": 2027
+   "ms": 2078
   },
   {
    "slug": "transparent-background-maker",
    "name": "exports a picture with a transparent background",
    "status": "PASS",
    "error": "",
-   "ms": 2084
+   "ms": 2037
   },
   {
    "slug": "exif-remover",
    "name": "strips the EXIF block out of the exported photo",
    "status": "PASS",
    "error": "",
-   "ms": 2550
+   "ms": 2568
   },
   {
    "slug": "photo-metadata-remover",
    "name": "strips the EXIF block out of the exported photo",
    "status": "PASS",
    "error": "",
-   "ms": 2549
+   "ms": 2576
   },
   {
    "slug": "remove-photo-location",
    "name": "removes the GPS data of the exported photo",
    "status": "PASS",
    "error": "",
-   "ms": 2577
+   "ms": 2566
   },
   {
    "slug": "exif-viewer",
    "name": "shows the EXIF data of the photo",
    "status": "PASS",
    "error": "",
-   "ms": 1223
+   "ms": 1258
   },
   {
    "slug": "image-metadata-viewer",
    "name": "shows the metadata of the picture",
    "status": "PASS",
    "error": "",
-   "ms": 1222
+   "ms": 1244
   },
   {
    "slug": "photo-metadata-viewer",
    "name": "shows the EXIF data of the photo",
    "status": "PASS",
    "error": "",
-   "ms": 1225
+   "ms": 1265
   },
   {
    "slug": "psd-to-png",
    "name": "opens a Photoshop document and writes a PNG",
    "status": "PASS",
    "error": "",
-   "ms": 2500
+   "ms": 2542
   },
   {
    "slug": "psd-to-jpg",
    "name": "opens a Photoshop document and writes a JPEG",
    "status": "PASS",
    "error": "",
-   "ms": 2510
+   "ms": 2528
   },
   {
    "slug": "heic-to-jpg-converter",
    "name": "reports that this browser cannot decode a HEIC photo and exports no picture",
    "status": "PASS",
    "error": "",
-   "ms": 1038
+   "ms": 1041
   },
   {
    "slug": "tiff-to-jpg",
    "name": "decodes a TIFF scan and writes a JPEG",
    "status": "PASS",
    "error": "",
-   "ms": 2569
+   "ms": 2530
   },
   {
    "slug": "ai-to-png",
    "name": "opens an Adobe Illustrator file and writes a PNG",
    "status": "PASS",
    "error": "",
-   "ms": 3532
+   "ms": 3237
   },
   {
    "slug": "jpg-to-ico",
    "name": "packs the JPG into an ICO icon",
    "status": "PASS",
    "error": "",
-   "ms": 2087
+   "ms": 1805
   },
   {
    "slug": "png-to-ico",
    "name": "packs the PNG into an ICO icon",
    "status": "PASS",
    "error": "",
-   "ms": 1904
+   "ms": 1827
   },
   {
    "slug": "svg-to-ico",
    "name": "packs the SVG into an ICO icon",
    "status": "PASS",
    "error": "",
-   "ms": 2028
+   "ms": 2039
   },
   {
    "slug": "webp-to-ico",
    "name": "packs the WebP into an ICO icon",
    "status": "PASS",
    "error": "",
-   "ms": 2011
+   "ms": 1823
   },
   {
    "slug": "ico-converter",
    "name": "converts a picture into a multi size ICO icon",
    "status": "PASS",
    "error": "",
-   "ms": 3413
+   "ms": 3309
   },
   {
    "slug": "gif-to-mp4",
    "name": "records an animated GIF into a real MP4 video",
    "status": "PASS",
    "error": "",
-   "ms": 3536
+   "ms": 3538
   },
   {
    "slug": "webp-to-gif",
    "name": "converts a WebP picture into a GIF animation and keeps the timing of an animated WebP",
    "status": "PASS",
    "error": "",
-   "ms": 6808
+   "ms": 6638
   },
   {
    "slug": "video-to-gif",
    "name": "converts a video clip into a GIF animation",
    "status": "PASS",
    "error": "",
-   "ms": 5125
+   "ms": 5126
   },
   {
    "slug": "blur-face",
    "name": "blurs the faces it finds in the photo",
    "status": "PASS",
    "error": "",
-   "ms": 4451
+   "ms": 4637
   },
   {
    "slug": "censor-face",
    "name": "censors the faces it finds in the photo",
    "status": "PASS",
    "error": "",
-   "ms": 4409
+   "ms": 4620
   },
   {
    "slug": "face-pixelator",
    "name": "pixelates the faces it finds in the photo",
    "status": "PASS",
    "error": "",
-   "ms": 4592
+   "ms": 4600
   },
   {
    "slug": "blur-text-in-image",
    "name": "blurs a text region of the screenshot",
    "status": "PASS",
    "error": "",
-   "ms": 4434
+   "ms": 4586
   },
   {
    "slug": "remove-text-from-image",
    "name": "brushes over the text to remove it",
    "status": "PASS",
    "error": "",
-   "ms": 4435
+   "ms": 4746
   },
   {
    "slug": "remove-object-from-photo",
    "name": "brushes over the object to remove it",
    "status": "PASS",
    "error": "",
-   "ms": 4355
+   "ms": 4651
   },
   {
    "slug": "magic-eraser",
    "name": "erases the object the user brushes over",
    "status": "PASS",
    "error": "",
-   "ms": 2448
+   "ms": 2644
   },
   {
    "slug": "instagram-image-splitter",
    "name": "splits a picture into a 3x3 grid of tiles",
    "status": "PASS",
    "error": "",
-   "ms": 2936
+   "ms": 3083
   },
   {
    "slug": "instagram-grid-maker",
    "name": "cuts a photo into a grid for Instagram",
    "status": "PASS",
    "error": "",
-   "ms": 3183
+   "ms": 2892
   },
   {
    "slug": "instagram-photo-splitter",
    "name": "divides a photo into coordinated tiles",
    "status": "PASS",
    "error": "",
-   "ms": 2917
+   "ms": 3085
   },
   {
    "slug": "instagram-fonts",
    "name": "lists the fonts Instagram accepts",
    "status": "PASS",
    "error": "",
-   "ms": 1599
+   "ms": 1579
   },
   {
    "slug": "quote-maker",
    "name": "builds a quote card from the typed text",
    "status": "PASS",
    "error": "",
-   "ms": 26708
+   "ms": 23799
   },
   {
    "slug": "quote-image-generator",
    "name": "builds a quote image from the typed text",
    "status": "PASS",
    "error": "",
-   "ms": 13222
+   "ms": 12524
   },
   {
    "slug": "quote-image-maker",
    "name": "builds a quote image from the typed text",
    "status": "PASS",
    "error": "",
-   "ms": 14263
+   "ms": 13788
   },
   {
    "slug": "code-to-image",
    "name": "renders a code snippet as a picture",
    "status": "PASS",
    "error": "",
-   "ms": 6780
+   "ms": 6470
   },
   {
    "slug": "latex-to-image",
    "name": "renders a LaTeX formula as a picture",
    "status": "PASS",
    "error": "",
-   "ms": 5013
+   "ms": 4748
   },
   {
    "slug": "data-matrix-generator",
    "name": "encodes the text into a Data Matrix symbol",
    "status": "PASS",
    "error": "",
-   "ms": 4623
+   "ms": 4480
   },
   {
    "slug": "svg-viewer",
    "name": "shows the size, viewBox and colours of an SVG",
    "status": "PASS",
    "error": "",
-   "ms": 2938
+   "ms": 2929
   },
   {
    "slug": "svg-to-css",
    "name": "turns an SVG into a CSS background or mask rule",
    "status": "PASS",
    "error": "",
-   "ms": 2915
+   "ms": 2929
   },
   {
    "slug": "favicon-generator",
    "name": "builds favicons in the usual icon sizes",
    "status": "PASS",
    "error": "",
-   "ms": 2622
+   "ms": 2575
   },
   {
    "slug": "favicon-maker",
    "name": "builds a tab icon from a symbol library",
    "status": "PASS",
    "error": "",
-   "ms": 3062
+   "ms": 3162
   },
   {
    "slug": "svg-favicon-generator",
    "name": "builds an SVG favicon from a symbol library",
    "status": "PASS",
    "error": "",
-   "ms": 1826
+   "ms": 1844
   },
   {
    "slug": "christmas-gift-tracker",
    "name": "keeps a list of the gifts to buy",
    "status": "PASS",
    "error": "",
-   "ms": 4317
+   "ms": 4332
   },
   {
    "slug": "gift-exchange-generator",
    "name": "draws the names for a gift exchange",
    "status": "PASS",
    "error": "",
-   "ms": 1826
+   "ms": 1835
   },
   {
    "slug": "og-image-generator",
    "name": "builds a social share image from a template",
    "status": "PASS",
    "error": "",
-   "ms": 18851
+   "ms": 16410
   },
   {
    "slug": "og-image-maker",
    "name": "builds an OG share card with a title and subtitle",
    "status": "PASS",
    "error": "",
-   "ms": 9724
+   "ms": 9149
   },
   {
    "slug": "open-graph-image-generator",
    "name": "builds a 1200x630 Open Graph image",
    "status": "PASS",
    "error": "",
-   "ms": 9765
+   "ms": 8559
   },
   {
    "slug": "open-graph-checker",
    "name": "reads the Open Graph tags of a page",
    "status": "PASS",
    "error": "",
-   "ms": 1761
+   "ms": 1825
   },
   {
    "slug": "open-graph-preview",
    "name": "previews the Open Graph tags of a link",
    "status": "PASS",
    "error": "",
-   "ms": 1798
+   "ms": 1751
   },
   {
    "slug": "social-media-preview",
    "name": "previews how a link looks when it is shared",
    "status": "PASS",
    "error": "",
-   "ms": 1548
+   "ms": 1580
   },
   {
    "slug": "youtube-thumbnail-downloader",
    "name": "fetches the thumbnails of a YouTube link",
    "status": "PASS",
    "error": "",
-   "ms": 1535
+   "ms": 1556
   },
   {
    "slug": "youtube-thumbnail-grabber",
    "name": "fetches the thumbnails of many YouTube links",
    "status": "PASS",
    "error": "",
-   "ms": 1513
+   "ms": 1569
   },
   {
    "slug": "remove-metadata-from-word",
    "name": "removes the author and company from a Word file",
    "status": "PASS",
    "error": "",
-   "ms": 3300
+   "ms": 3337
   },
   {
    "slug": "json-compare",
    "name": "reports the differences between two documents",
    "status": "PASS",
    "error": "",
-   "ms": 2983
+   "ms": 2919
   },
   {
    "slug": "json-editor",
    "name": "edits, replaces, formats and inspects a document",
    "status": "PASS",
    "error": "",
-   "ms": 6744
+   "ms": 6565
   },
   {
    "slug": "json-pretty-print",
    "name": "prints a document with the chosen indentation",
    "status": "PASS",
    "error": "",
-   "ms": 2954
+   "ms": 2852
   },
   {
    "slug": "json-to-toon",
    "name": "encodes a document in the TOON notation",
    "status": "PASS",
    "error": "",
-   "ms": 2382
+   "ms": 2384
   },
   {
    "slug": "json-to-toon-converter",
    "name": "round trips a document through the TOON notation",
    "status": "PASS",
    "error": "",
-   "ms": 3954
+   "ms": 3931
   },
   {
    "slug": "json-to-ts",
    "name": "generates TypeScript types from a document",
    "status": "PASS",
    "error": "",
-   "ms": 2916
+   "ms": 2881
   },
   {
    "slug": "json-to-typescript-interface",
    "name": "generates an interface for the document",
    "status": "PASS",
    "error": "",
-   "ms": 3355
+   "ms": 3419
   },
   {
    "slug": "json-viewer",
    "name": "shows the document as a tree and as a table",
    "status": "PASS",
    "error": "",
-   "ms": 3599
+   "ms": 3650
   },
   {
    "slug": "toon-to-json",
    "name": "decodes the TOON notation into JSON",
    "status": "PASS",
    "error": "",
-   "ms": 2375
+   "ms": 2356
   },
   {
    "slug": "markdown-editor",
    "name": "edits markdown and renders the preview",
    "status": "PASS",
    "error": "",
-   "ms": 2168
+   "ms": 2160
   },
   {
    "slug": "online-markdown-editor",
    "name": "keeps the typed markdown in the editor",
    "status": "PASS",
    "error": "",
-   "ms": 2143
+   "ms": 2155
   },
   {
    "slug": "markdown-preview",
    "name": "renders the markdown as HTML",
    "status": "PASS",
    "error": "",
-   "ms": 2241
+   "ms": 2171
   },
   {
    "slug": "markdown-viewer",
    "name": "shows the rendered document",
    "status": "PASS",
    "error": "",
-   "ms": 2171
+   "ms": 2114
   },
   {
    "slug": "markdown-wysiwyg-editor",
    "name": "lets the user format the rendered text",
    "status": "PASS",
    "error": "",
-   "ms": 2088
+   "ms": 2194
   },
   {
    "slug": "markdown-file-viewer",
    "name": "opens a markdown file and renders it",
    "status": "PASS",
    "error": "",
-   "ms": 1737
+   "ms": 1752
   },
   {
    "slug": "html-to-markdown",
    "name": "converts HTML into markdown",
    "status": "PASS",
    "error": "",
-   "ms": 1585
+   "ms": 1646
   },
   {
    "slug": "html-table-to-markdown",
    "name": "converts an HTML table into a markdown table",
    "status": "PASS",
    "error": "",
-   "ms": 1574
+   "ms": 1627
   },
   {
    "slug": "markdown-to-pdf",
    "name": "exports the document as a PDF",
    "status": "PASS",
    "error": "",
-   "ms": 2836
+   "ms": 2846
   },
   {
    "slug": "md-to-pdf",
    "name": "exports the document as a PDF",
    "status": "PASS",
    "error": "",
-   "ms": 2858
+   "ms": 2808
   },
   {
    "slug": "markdown-to-pdf-converter",
    "name": "exports the document as a PDF",
    "status": "PASS",
    "error": "",
-   "ms": 2856
+   "ms": 2844
   },
   {
    "slug": "markdown-to-docx",
    "name": "exports the document as a Word file",
    "status": "PASS",
    "error": "",
-   "ms": 2850
+   "ms": 2827
   },
   {
    "slug": "md-to-docx",
    "name": "exports the document as a Word file",
    "status": "PASS",
    "error": "",
-   "ms": 2868
+   "ms": 2807
   },
   {
    "slug": "markdown-to-word",
    "name": "exports the document as a Word file",
    "status": "PASS",
    "error": "",
-   "ms": 2885
+   "ms": 2833
   },
   {
    "slug": "flac-to-mp3",
    "name": "converts a FLAC recording into an MP3 file",
    "status": "PASS",
    "error": "",
-   "ms": 2672
+   "ms": 2668
   },
   {
    "slug": "m4a-to-mp3",
    "name": "converts an M4A recording into an MP3 file",
    "status": "PASS",
    "error": "",
-   "ms": 2697
+   "ms": 2661
   },
   {
    "slug": "ogg-to-mp3",
    "name": "converts an Ogg recording into an MP3 file",
    "status": "PASS",
    "error": "",
-   "ms": 2581
+   "ms": 2630
   },
   {
    "slug": "wav-to-mp3",
    "name": "converts a WAV recording into an MP3 file",
    "status": "PASS",
    "error": "",
-   "ms": 2972
+   "ms": 2842
   },
   {
    "slug": "mp4-to-mp3",
    "name": "extracts the sound track of an MP4 into an MP3 file",
    "status": "PASS",
    "error": "",
-   "ms": 2696
+   "ms": 2651
   },
   {
    "slug": "mp3-to-wav",
    "name": "converts an MP3 recording into a WAV file",
    "status": "PASS",
    "error": "",
-   "ms": 2807
+   "ms": 2760
   },
   {
    "slug": "mkv-to-mp4",
    "name": "converts a Matroska video into an MP4 container",
    "status": "PASS",
    "error": "",
-   "ms": 2735
+   "ms": 2690
   },
   {
    "slug": "mov-to-mp4",
    "name": "converts a QuickTime video into an MP4 container",
    "status": "PASS",
    "error": "",
-   "ms": 2702
+   "ms": 2720
   },
   {
    "slug": "webm-to-mp4",
    "name": "converts a WebM video into an MP4 container",
    "status": "PASS",
    "error": "",
-   "ms": 2647
+   "ms": 2650
   },
   {
    "slug": "webm-to-mp4-converter",
    "name": "converts a WebM video into an MP4 container",
    "status": "PASS",
    "error": "",
-   "ms": 2693
+   "ms": 2700
   },
   {
    "slug": "webm-converter",
    "name": "converts a WebM video into an MP4 container",
    "status": "PASS",
    "error": "",
-   "ms": 2669
+   "ms": 2666
   },
   {
    "slug": "avi-to-mp4",
    "name": "refuses an AVI video honestly instead of pretending to convert it",
    "status": "PASS",
    "error": "",
-   "ms": 4132
+   "ms": 4111
   },
   {
    "slug": "cidr-calculator",
    "name": "splits 192.168.1.1/24 into network, broadcast and hosts",
    "status": "PASS",
    "error": "",
-   "ms": 1996
+   "ms": 2110
   },
   {
    "slug": "subnet-calculator",
    "name": "splits 192.168.1.130/26 into network, broadcast and hosts",
    "status": "PASS",
    "error": "",
-   "ms": 2016
+   "ms": 2079
   },
   {
    "slug": "ipv6-subnet-calculator",
    "name": "accepts an IPv6 address and a /64 prefix",
    "status": "PASS",
    "error": "",
-   "ms": 1563
+   "ms": 1571
   },
   {
    "slug": "subnet-cheat-sheet",
    "name": "lists the mask and the host count of every prefix length",
    "status": "PASS",
    "error": "",
-   "ms": 1049
+   "ms": 953
   },
   {
    "slug": "vlsm-calculator",
    "name": "allocates variable length subnets from a host requirement",
    "status": "PASS",
    "error": "",
-   "ms": 2585
+   "ms": 2608
   },
   {
    "slug": "merge-pdf",
    "name": "merges two documents into one",
    "status": "PASS",
    "error": "",
-   "ms": 8957
+   "ms": 8450
   },
   {
    "slug": "pdf-merger",
    "name": "merges two documents into one",
    "status": "PASS",
    "error": "",
-   "ms": 7846
+   "ms": 7778
   },
   {
    "slug": "combine-pdf",
    "name": "combines two documents into one",
    "status": "PASS",
    "error": "",
-   "ms": 5135
+   "ms": 5158
   },
   {
    "slug": "split-pdf",
    "name": "extracts a page range into a new document",
    "status": "PASS",
    "error": "",
-   "ms": 4552
+   "ms": 4551
   },
   {
    "slug": "pdf-splitter",
    "name": "splits a document into single pages",
    "status": "PASS",
    "error": "",
-   "ms": 5038
+   "ms": 5034
   },
   {
    "slug": "extract-pdf-pages",
    "name": "extracts the selected pages",
    "status": "PASS",
    "error": "",
-   "ms": 4583
+   "ms": 4541
   },
   {
    "slug": "image-to-pdf",
    "name": "puts an image into a PDF",
    "status": "PASS",
    "error": "",
-   "ms": 4206
+   "ms": 4205
   },
   {
    "slug": "jpg-to-pdf-converter",
    "name": "puts a picture into a PDF",
    "status": "PASS",
    "error": "",
-   "ms": 4224
+   "ms": 4238
   },
   {
    "slug": "png-to-pdf",
    "name": "puts a PNG into a PDF",
    "status": "PASS",
    "error": "",
-   "ms": 5131
+   "ms": 5139
   },
   {
    "slug": "pdf-to-image-converter",
    "name": "renders every page as a picture",
    "status": "PASS",
    "error": "",
-   "ms": 4241
+   "ms": 4222
   },
   {
    "slug": "pdf-to-png-converter",
    "name": "renders the pages as PNG",
    "status": "PASS",
    "error": "",
-   "ms": 4281
+   "ms": 4229
   },
   {
    "slug": "pdf-to-jpg-converter",
    "name": "renders the pages as JPG",
    "status": "PASS",
    "error": "",
-   "ms": 5066
+   "ms": 5052
   },
   {
    "slug": "pdf-metadata-viewer",
    "name": "reads the document information",
    "status": "PASS",
    "error": "",
-   "ms": 2730
+   "ms": 2735
   },
   {
    "slug": "pdf-metadata-editor",
    "name": "writes a new title into the document",
    "status": "PASS",
    "error": "",
-   "ms": 5600
+   "ms": 5590
   },
   {
    "slug": "pdf-metadata-remover",
    "name": "strips the document information",
    "status": "PASS",
    "error": "",
-   "ms": 4246
+   "ms": 4219
   },
   {
    "slug": "compress-pdf",
    "name": "compresses a document",
    "status": "PASS",
    "error": "",
-   "ms": 4229
+   "ms": 4210
   },
   {
    "slug": "pdf-compressor",
    "name": "compresses a document",
    "status": "PASS",
    "error": "",
-   "ms": 4201
+   "ms": 4212
   },
   {
    "slug": "reduce-pdf-size",
    "name": "rewrites a document with a smaller structure",
    "status": "PASS",
    "error": "",
-   "ms": 4291
+   "ms": 4224
   },
   {
    "slug": "pdf-redaction-tool",
    "name": "removes the marked text from the document",
    "status": "PASS",
    "error": "",
-   "ms": 5976
+   "ms": 5897
   },
   {
    "slug": "redact-pdf",
    "name": "removes the marked text from the document",
    "status": "PASS",
    "error": "",
-   "ms": 5921
+   "ms": 5878
   },
   {
    "slug": "redact-bank-statement",
    "name": "removes the account number from a statement",
    "status": "PASS",
    "error": "",
-   "ms": 5835
+   "ms": 5908
   },
   {
    "slug": "black-out-text-in-pdf",
    "name": "blacks out every occurrence of a word",
    "status": "PASS",
    "error": "",
-   "ms": 5900
+   "ms": 5875
   },
   {
    "slug": "pdf-to-docx",
@@ -2553,112 +2553,112 @@
    "name": "rebuilds a document as a Word file",
    "status": "PASS",
    "error": "",
-   "ms": 4238
+   "ms": 4224
   },
   {
    "slug": "pdf-to-word-converter",
    "name": "rebuilds a document as a Word file",
    "status": "PASS",
    "error": "",
-   "ms": 4231
+   "ms": 4236
   },
   {
    "slug": "pdf-to-markdown",
    "name": "turns the text layer into markdown",
    "status": "PASS",
    "error": "",
-   "ms": 3908
+   "ms": 3845
   },
   {
    "slug": "pdf-to-markdown-for-claude",
    "name": "turns the text layer into markdown",
    "status": "PASS",
    "error": "",
-   "ms": 3615
+   "ms": 3593
   },
   {
    "slug": "pdf-to-md",
    "name": "turns the text layer into markdown",
    "status": "PASS",
    "error": "",
-   "ms": 3674
+   "ms": 3622
   },
   {
    "slug": "base64-to-pdf",
    "name": "decodes a base64 payload into a PDF",
    "status": "PASS",
    "error": "",
-   "ms": 5266
+   "ms": 5283
   },
   {
    "slug": "base64-to-pdf-converter",
    "name": "decodes a base64 payload into a PDF",
    "status": "PASS",
    "error": "",
-   "ms": 5344
+   "ms": 5284
   },
   {
    "slug": "base64-to-pdf-decoder",
    "name": "decodes a base64 payload into a PDF",
    "status": "PASS",
    "error": "",
-   "ms": 5290
+   "ms": 5295
   },
   {
    "slug": "eml-to-pdf",
    "name": "turns an email into a PDF",
    "status": "PASS",
    "error": "",
-   "ms": 5057
+   "ms": 5020
   },
   {
    "slug": "msg-to-pdf",
    "name": "turns an Outlook message into a PDF",
    "status": "PASS",
    "error": "",
-   "ms": 3148
+   "ms": 3155
   },
   {
    "slug": "ai-to-pdf",
    "name": "turns a document into a PDF",
    "status": "PASS",
    "error": "",
-   "ms": 3911
+   "ms": 3987
   },
   {
    "slug": "pdf417-generator",
    "name": "renders a PDF417 barcode",
    "status": "PASS",
    "error": "",
-   "ms": 3954
+   "ms": 3914
   },
   {
    "slug": "url-to-qr-code",
    "name": "encodes a web address into a QR symbol",
    "status": "PASS",
    "error": "",
-   "ms": 2627
+   "ms": 2575
   },
   {
    "slug": "wifi-qr-code-generator",
    "name": "encodes the Wi-Fi network as a WIFI payload",
    "status": "PASS",
    "error": "",
-   "ms": 2562
+   "ms": 2583
   },
   {
    "slug": "transparent-qr-code-generator",
    "name": "exports a QR code with a transparent background",
    "status": "PASS",
    "error": "",
-   "ms": 3912
+   "ms": 3891
   },
   {
    "slug": "ean-13-barcode-generator",
    "name": "encodes an EAN-13 number with its check digit",
    "status": "PASS",
    "error": "",
-   "ms": 3978
+   "ms": 3929
   },
   {
    "slug": "upc-barcode-generator",
@@ -2672,119 +2672,119 @@
    "name": "encodes a Code 128 symbol with its check character",
    "status": "PASS",
    "error": "",
-   "ms": 3871
+   "ms": 3927
   },
   {
    "slug": "code-39-barcode-generator",
    "name": "encodes a Code 39 symbol",
    "status": "PASS",
    "error": "",
-   "ms": 4617
+   "ms": 3921
   },
   {
    "slug": "barcode-generator",
    "name": "encodes the typed value as a barcode",
    "status": "PASS",
    "error": "",
-   "ms": 3156
+   "ms": 3119
   },
   {
    "slug": "isbn-barcode-generator",
    "name": "encodes an ISBN as an EAN-13 symbol",
    "status": "PASS",
    "error": "",
-   "ms": 5295
+   "ms": 5143
   },
   {
    "slug": "bulk-barcode-generator",
    "name": "renders one barcode for every value of a list",
    "status": "PASS",
    "error": "",
-   "ms": 2383
+   "ms": 2477
   },
   {
    "slug": "coin-flip",
    "name": "flips the coin and counts the outcome",
    "status": "PASS",
    "error": "",
-   "ms": 4636
+   "ms": 4628
   },
   {
    "slug": "coin-flip-simulator",
    "name": "flips the coin and counts the outcome",
    "status": "PASS",
    "error": "",
-   "ms": 8048
+   "ms": 7992
   },
   {
    "slug": "flip-a-coin",
    "name": "flips the coin and counts the outcome",
    "status": "PASS",
    "error": "",
-   "ms": 4646
+   "ms": 4616
   },
   {
    "slug": "heads-or-tails",
    "name": "flips the coin and counts the outcome",
    "status": "PASS",
    "error": "",
-   "ms": 4683
+   "ms": 4617
   },
   {
    "slug": "wheel-of-names",
    "name": "picks one of the loaded names",
    "status": "PASS",
    "error": "",
-   "ms": 6856
+   "ms": 6831
   },
   {
    "slug": "random-winner-picker",
    "name": "picks one of the loaded names",
    "status": "PASS",
    "error": "",
-   "ms": 6855
+   "ms": 6824
   },
   {
    "slug": "random-name-picker",
    "name": "picks one of the loaded names",
    "status": "PASS",
    "error": "",
-   "ms": 6829
+   "ms": 6804
   },
   {
    "slug": "random-item-picker",
    "name": "picks one of the loaded items",
    "status": "PASS",
    "error": "",
-   "ms": 6863
+   "ms": 6827
   },
   {
    "slug": "yes-or-no-wheel",
    "name": "picks yes or no",
    "status": "PASS",
    "error": "",
-   "ms": 6847
+   "ms": 6798
   },
   {
    "slug": "dice-roller",
    "name": "rolls a die with the chosen number of sides",
    "status": "PASS",
    "error": "",
-   "ms": 7051
+   "ms": 6988
   },
   {
    "slug": "dnd-dice-roller",
    "name": "rolls the dice of a dice set",
    "status": "PASS",
    "error": "",
-   "ms": 5451
+   "ms": 5408
   },
   {
    "slug": "roll-two-dice",
    "name": "rolls two dice and shows their sum",
    "status": "PASS",
    "error": "",
-   "ms": 4569
+   "ms": 4678
   },
   {
    "slug": "bingo-card-generator",
@@ -2798,658 +2798,658 @@
    "name": "shows an empty bingo card",
    "status": "PASS",
    "error": "",
-   "ms": 1230
+   "ms": 1206
   },
   {
    "slug": "printable-bingo-cards",
    "name": "shows the requested number of bingo cards",
    "status": "PASS",
    "error": "",
-   "ms": 2349
+   "ms": 2381
   },
   {
    "slug": "custom-bingo-card-maker",
    "name": "fills the card with the own words",
    "status": "PASS",
    "error": "",
-   "ms": 2877
+   "ms": 2925
   },
   {
    "slug": "bingo-caller",
    "name": "calls the bingo numbers",
    "status": "PASS",
    "error": "",
-   "ms": 8836
+   "ms": 8635
   },
   {
    "slug": "christmas-bingo",
    "name": "shows a christmas bingo card",
    "status": "PASS",
    "error": "",
-   "ms": 1229
+   "ms": 1220
   },
   {
    "slug": "new-years-bingo",
    "name": "shows a new year bingo card",
    "status": "PASS",
    "error": "",
-   "ms": 1202
+   "ms": 1210
   },
   {
    "slug": "thanksgiving-bingo",
    "name": "shows a thanksgiving bingo card",
    "status": "PASS",
    "error": "",
-   "ms": 1226
+   "ms": 1213
   },
   {
    "slug": "baby-shower-bingo",
    "name": "shows a baby shower bingo card",
    "status": "PASS",
    "error": "",
-   "ms": 1194
+   "ms": 1241
   },
   {
    "slug": "bracket-generator",
    "name": "builds a bracket and plays the winners",
    "status": "PASS",
    "error": "",
-   "ms": 3514
+   "ms": 3555
   },
   {
    "slug": "bracket-maker",
    "name": "builds a bracket and plays the winners",
    "status": "PASS",
    "error": "",
-   "ms": 3592
+   "ms": 3562
   },
   {
    "slug": "printable-bracket",
    "name": "builds a bracket and plays the winners",
    "status": "PASS",
    "error": "",
-   "ms": 3579
+   "ms": 3561
   },
   {
    "slug": "single-elimination-bracket",
    "name": "builds a bracket and plays the winners",
    "status": "PASS",
    "error": "",
-   "ms": 7175
+   "ms": 7109
   },
   {
    "slug": "double-elimination-bracket",
    "name": "gives every team a second chance",
    "status": "PASS",
    "error": "",
-   "ms": 5488
+   "ms": 5438
   },
   {
    "slug": "days-until-christmas",
    "name": "counts the days until Christmas Day",
    "status": "PASS",
    "error": "",
-   "ms": 1222
+   "ms": 1202
   },
   {
    "slug": "days-until-halloween",
    "name": "counts the days until Halloween",
    "status": "PASS",
    "error": "",
-   "ms": 1182
+   "ms": 1222
   },
   {
    "slug": "dirty-santa-rules",
    "name": "shows the rules of Dirty Santa",
    "status": "PASS",
    "error": "",
-   "ms": 1190
+   "ms": 1205
   },
   {
    "slug": "white-elephant-rules",
    "name": "shows the rules of White Elephant",
    "status": "PASS",
    "error": "",
-   "ms": 1194
+   "ms": 1224
   },
   {
    "slug": "yankee-swap-rules",
    "name": "shows the rules of Yankee Swap",
    "status": "PASS",
    "error": "",
-   "ms": 1337
+   "ms": 1210
   },
   {
    "slug": "letter-to-santa-template",
    "name": "shows a letter template",
    "status": "PASS",
    "error": "",
-   "ms": 1182
+   "ms": 1212
   },
   {
    "slug": "christmas-list-template",
    "name": "shows a Christmas list template",
    "status": "PASS",
    "error": "",
-   "ms": 1439
+   "ms": 1193
   },
   {
    "slug": "christmas-list-maker",
    "name": "collects the gifts of the list",
    "status": "PASS",
    "error": "",
-   "ms": 7249
+   "ms": 7246
   },
   {
    "slug": "christmas-wish-list-maker",
    "name": "collects the wishes of the list",
    "status": "PASS",
    "error": "",
-   "ms": 5028
+   "ms": 5032
   },
   {
    "slug": "christmas-budget-planner",
    "name": "adds up the planned amounts",
    "status": "PASS",
    "error": "",
-   "ms": 7420
+   "ms": 7417
   },
   {
    "slug": "baby-boy-name-generator",
    "name": "suggests boy names",
    "status": "PASS",
    "error": "",
-   "ms": 3079
+   "ms": 3087
   },
   {
    "slug": "baby-girl-name-generator",
    "name": "suggests girl names",
    "status": "PASS",
    "error": "",
-   "ms": 3067
+   "ms": 3045
   },
   {
    "slug": "baby-name-ai",
    "name": "suggests baby names",
    "status": "PASS",
    "error": "",
-   "ms": 3681
+   "ms": 3666
   },
   {
    "slug": "username-generator",
    "name": "suggests usernames",
    "status": "PASS",
    "error": "",
-   "ms": 4090
+   "ms": 4031
   },
   {
    "slug": "reddit-username-generator",
    "name": "suggests Reddit usernames",
    "status": "PASS",
    "error": "",
-   "ms": 4062
+   "ms": 3996
   },
   {
    "slug": "discord-username-generator",
    "name": "suggests Discord usernames",
    "status": "PASS",
    "error": "",
-   "ms": 4054
+   "ms": 3993
   },
   {
    "slug": "twitch-username-generator",
    "name": "suggests Twitch usernames",
    "status": "PASS",
    "error": "",
-   "ms": 4139
+   "ms": 4044
   },
   {
    "slug": "list-randomizer",
    "name": "shuffles the whole list",
    "status": "PASS",
    "error": "",
-   "ms": 2896
+   "ms": 2877
   },
   {
    "slug": "random-group-generator",
    "name": "splits the names into groups",
    "status": "PASS",
    "error": "",
-   "ms": 5167
+   "ms": 5136
   },
   {
    "slug": "random-team-generator",
    "name": "splits the names into teams",
    "status": "PASS",
    "error": "",
-   "ms": 6267
+   "ms": 6272
   },
   {
    "slug": "random-number-generator",
    "name": "draws a number from a range",
    "status": "PASS",
    "error": "",
-   "ms": 3935
+   "ms": 3914
   },
   {
    "slug": "random-letter-generator",
    "name": "draws random letters",
    "status": "PASS",
    "error": "",
-   "ms": 5285
+   "ms": 5228
   },
   {
    "slug": "secret-santa-generator",
    "name": "pairs every name with another name",
    "status": "PASS",
    "error": "",
-   "ms": 2925
+   "ms": 2874
   },
   {
    "slug": "white-elephant-generator",
    "name": "draws the order of the turns",
    "status": "PASS",
    "error": "",
-   "ms": 2905
+   "ms": 2883
   },
   {
    "slug": "regex-checker",
    "name": "reports an invalid pattern instead of accepting it",
    "status": "PASS",
    "error": "",
-   "ms": 2191
+   "ms": 2178
   },
   {
    "slug": "regex-explainer",
    "name": "explains what the pattern does",
    "status": "PASS",
    "error": "",
-   "ms": 2100
+   "ms": 2197
   },
   {
    "slug": "regex-generator",
    "name": "generates a pattern from a plain description",
    "status": "PASS",
    "error": "",
-   "ms": 2205
+   "ms": 2166
   },
   {
    "slug": "regex-ai",
    "name": "generates a pattern from a plain description offline",
    "status": "PASS",
    "error": "",
-   "ms": 2200
+   "ms": 2179
   },
   {
    "slug": "javascript-regex-tester",
    "name": "runs a JavaScript pattern over the test string",
    "status": "PASS",
    "error": "",
-   "ms": 2974
+   "ms": 2948
   },
   {
    "slug": "remove-duplicate-lines",
    "name": "drops the repeated lines and keeps the order",
    "status": "PASS",
    "error": "",
-   "ms": 2622
+   "ms": 2597
   },
   {
    "slug": "ai-token-counter",
    "name": "counts tokens and prices them per million tokens",
    "status": "PASS",
    "error": "",
-   "ms": 1869
+   "ms": 1862
   },
   {
    "slug": "llm-token-counter",
    "name": "counts tokens and prices them per million tokens",
    "status": "PASS",
    "error": "",
-   "ms": 1808
+   "ms": 1850
   },
   {
    "slug": "apa-citation-generator",
    "name": "builds the APA 7 book reference",
    "status": "PASS",
    "error": "",
-   "ms": 2067
+   "ms": 2080
   },
   {
    "slug": "mla-citation-generator",
    "name": "builds the MLA 9 book reference",
    "status": "PASS",
    "error": "",
-   "ms": 2129
+   "ms": 2059
   },
   {
    "slug": "chicago-citation-generator",
    "name": "builds the Chicago 17 book reference",
    "status": "PASS",
    "error": "",
-   "ms": 2036
+   "ms": 2063
   },
   {
    "slug": "harvard-citation-generator",
    "name": "builds the Harvard book reference",
    "status": "PASS",
    "error": "",
-   "ms": 2054
+   "ms": 2053
   },
   {
    "slug": "cursive-text-generator",
    "name": "renders the script and fraktur characters",
    "status": "PASS",
    "error": "",
-   "ms": 2377
+   "ms": 2351
   },
   {
    "slug": "small-text-generator",
    "name": "renders the small capital and super/subscript characters",
    "status": "PASS",
    "error": "",
-   "ms": 2831
+   "ms": 2864
   },
   {
    "slug": "strikethrough-text-generator",
    "name": "adds the Unicode combining strike mark",
    "status": "PASS",
    "error": "",
-   "ms": 2847
+   "ms": 2843
   },
   {
    "slug": "font-generator",
    "name": "filters the style gallery by name",
    "status": "PASS",
    "error": "",
-   "ms": 2533
+   "ms": 2512
   },
   {
    "slug": "glitch-text-generator",
    "name": "glitches the text and reshuffles it",
    "status": "PASS",
    "error": "",
-   "ms": 2496
+   "ms": 2583
   },
   {
    "slug": "handwriting-generator",
    "name": "paints the typed text onto the paper canvas",
    "status": "PASS",
    "error": "",
-   "ms": 2987
+   "ms": 2923
   },
   {
    "slug": "text-to-handwriting",
    "name": "paints the typed text onto the paper canvas",
    "status": "PASS",
    "error": "",
-   "ms": 2914
+   "ms": 2861
   },
   {
    "slug": "accept-all-changes-in-word",
    "name": "accepts the tracked changes of a .docx",
    "status": "PASS",
    "error": "",
-   "ms": 2719
+   "ms": 2749
   },
   {
    "slug": "remove-comments-from-word",
    "name": "counts and removes the comments of a .docx",
    "status": "PASS",
    "error": "",
-   "ms": 2715
+   "ms": 2730
   },
   {
    "slug": "word-to-html",
    "name": "converts a .docx into HTML",
    "status": "PASS",
    "error": "",
-   "ms": 2712
+   "ms": 2720
   },
   {
    "slug": "word-viewer",
    "name": "reads a .docx and counts its words",
    "status": "PASS",
    "error": "",
-   "ms": 2709
+   "ms": 2729
   },
   {
    "slug": "notepad-plus-plus-online",
    "name": "edits text in the memory only and can clear it",
    "status": "PASS",
    "error": "",
-   "ms": 4080
+   "ms": 4122
   },
   {
    "slug": "online-notepad",
    "name": "edits text in the memory only and can clear it",
    "status": "PASS",
    "error": "",
-   "ms": 4105
+   "ms": 4108
   },
   {
    "slug": "rapidtables-notepad-alternative",
    "name": "edits text in the memory only and can clear it",
    "status": "PASS",
    "error": "",
-   "ms": 4122
+   "ms": 4059
   },
   {
    "slug": "d20-roller",
    "name": "keeps the higher die on advantage and adds the modifier",
    "status": "PASS",
    "error": "",
-   "ms": 8072
+   "ms": 8038
   },
   {
    "slug": "2026-calendar",
    "name": "shows the calendar of the year 2026",
    "status": "PASS",
    "error": "",
-   "ms": 1121
+   "ms": 1122
   },
   {
    "slug": "2027-calendar",
    "name": "shows the calendar of the year 2027",
    "status": "PASS",
    "error": "",
-   "ms": 1021
+   "ms": 1048
   },
   {
    "slug": "printable-calendar",
    "name": "offers a printable calendar as PDF",
    "status": "PASS",
    "error": "",
-   "ms": 1978
+   "ms": 1987
   },
   {
    "slug": "2027-holidays",
    "name": "shows the public holidays of 2027",
    "status": "PASS",
    "error": "",
-   "ms": 946
+   "ms": 1044
   },
   {
    "slug": "countdown-to-date",
    "name": "counts the days between two dates",
    "status": "PASS",
    "error": "",
-   "ms": 1568
+   "ms": 1709
   },
   {
    "slug": "unix-timestamp-converter",
    "name": "converts a timestamp given in milliseconds",
    "status": "PASS",
    "error": "",
-   "ms": 2034
+   "ms": 2099
   },
   {
    "slug": "timestamp-converter-generator",
    "name": "shows the world clocks next to the timestamp",
    "status": "PASS",
    "error": "",
-   "ms": 2081
+   "ms": 2074
   },
   {
    "slug": "world-time-converter",
    "name": "converts a time from one zone into another",
    "status": "PASS",
    "error": "",
-   "ms": 2018
+   "ms": 2266
   },
   {
    "slug": "time-zone-converter",
    "name": "converts a time from one zone into another",
    "status": "PASS",
    "error": "",
-   "ms": 2077
+   "ms": 2080
   },
   {
    "slug": "pomodoro-timer",
    "name": "runs a pomodoro timer",
    "status": "PASS",
    "error": "",
-   "ms": 4739
+   "ms": 4735
   },
   {
    "slug": "focus-timer",
    "name": "runs a focus timer",
    "status": "PASS",
    "error": "",
-   "ms": 2246
+   "ms": 2206
   },
   {
    "slug": "study-timer",
    "name": "runs a study timer",
    "status": "PASS",
    "error": "",
-   "ms": 2169
+   "ms": 2187
   },
   {
    "slug": "cron-expression-generator",
    "name": "builds a cron expression and shows when it runs",
    "status": "PASS",
    "error": "",
-   "ms": 4022
+   "ms": 4035
   },
   {
    "slug": "cron-expression-parser",
    "name": "parses a cron expression field by field and shows when it runs",
    "status": "PASS",
    "error": "",
-   "ms": 2691
+   "ms": 2687
   },
   {
    "slug": "crontab-generator",
    "name": "writes a crontab file from a description of the schedule",
    "status": "PASS",
    "error": "",
-   "ms": 3299
+   "ms": 3310
   },
   {
    "slug": "email-header-analyzer",
    "name": "reads the headers, the reply chain and the body of an email",
    "status": "PASS",
    "error": "",
-   "ms": 2280
+   "ms": 2288
   },
   {
    "slug": "equation-editor",
    "name": "writes a formula in LaTeX and renders it as MathML",
    "status": "PASS",
    "error": "",
-   "ms": 3936
+   "ms": 3995
   },
   {
    "slug": "meeting-planner",
    "name": "proposes the first free slot of the working day and plans the agenda",
    "status": "PASS",
    "error": "",
-   "ms": 2975
+   "ms": 2974
   },
   {
    "slug": "round-robin-generator",
    "name": "builds a schedule in which every player meets every other player once",
    "status": "PASS",
    "error": "",
-   "ms": 3872
+   "ms": 3868
   },
   {
    "slug": "new-year-countdown",
    "name": "counts down to the new year",
    "status": "PASS",
    "error": "",
-   "ms": 1034
+   "ms": 1027
   },
   {
    "slug": "thanksgiving-countdown",
    "name": "counts down to thanksgiving",
    "status": "PASS",
    "error": "",
-   "ms": 1008
+   "ms": 1042
   },
   {
    "slug": "uuid-v4-generator",
    "name": "generates the requested number of version 4 UUIDs",
    "status": "PASS",
    "error": "",
-   "ms": 2821
+   "ms": 2873
   },
   {
    "slug": "uuid-v7-generator",
    "name": "generates version 7 UUIDs by default",
    "status": "PASS",
    "error": "",
-   "ms": 1865
+   "ms": 1789
   },
   {
    "slug": "yml-to-json",
    "name": "converts a .yml document into the matching JSON",
    "status": "PASS",
    "error": "",
-   "ms": 2166
+   "ms": 2174
   },
   {
    "slug": "yaml-json-converter",
    "name": "converts YAML into JSON in both directions",
    "status": "PASS",
    "error": "",
-   "ms": 3603
+   "ms": 3635
   },
   {
    "slug": "yaml-editor-validator",
    "name": "validates the document while it is edited",
    "status": "PASS",
    "error": "",
-   "ms": 2185
+   "ms": 2177
   },
   {
    "slug": "yaml-formatter",
    "name": "formats the YAML document",
    "status": "PASS",
    "error": "",
-   "ms": 2180
+   "ms": 2104
   },
   {
    "slug": "yaml-beautifier",
    "name": "beautifies the YAML document",
    "status": "PASS",
    "error": "",
-   "ms": 2110
+   "ms": 2180
   },
   {
    "slug": "yaml-minifier",
    "name": "minifies the YAML document",
    "status": "PASS",
    "error": "",
-   "ms": 2166
+   "ms": 2171
   },
   {
    "slug": "yaml-editor",
    "name": "keeps the edited YAML in the editor pane",
    "status": "PASS",
    "error": "",
-   "ms": 2169
+   "ms": 2184
   }
  ]
 }

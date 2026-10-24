@@ -1,6 +1,6 @@
 {
  "summary": {
-  "generatedAt": "2026-10-24T15:08:30.368Z",
+  "generatedAt": "2026-10-24T17:34:07.625Z",
   "total": 492,
   "fit": 492,
   "suspect": 0,
@@ -3503,7 +3503,7 @@
    "strongTokens": [],
    "strongMatched": [],
    "fit": true,
-   "sample": "home \n home \n home \n security \n security \n hash generator \n hash generator \n security \n runs 100% in your browser \n hash generator \n share tool \n share tool \n input string to hash \n sha-256 hash \n copy \n copy \n 4126853d49c0114ad45f4fc9495fa65dc5ed1d6403d217e08"
+   "sample": "home \n home \n home \n security \n security \n hash generator \n hash generator \n security \n runs 100% in your browser \n hash generator \n share tool \n share tool \n input string to hash \n sha-256 hash \n copy \n copy \n 88146bc82a917e754e9b83440c6f79e305e38cc2a42feda78"
   },
   {
    "slug": "headphone-test",
@@ -5280,7 +5280,7 @@
     "md5"
    ],
    "fit": true,
-   "sample": "home \n home \n home \n security \n security \n md5 hash generator \n md5 hash generator \n security \n runs 100% in your browser \n md5 hash generator \n share tool \n share tool \n input string to hash \n sha-256 hash \n copy \n copy \n 4126853d49c0114ad45f4fc9495fa65dc5ed1"
+   "sample": "home \n home \n home \n security \n security \n md5 hash generator \n md5 hash generator \n security \n runs 100% in your browser \n md5 hash generator \n share tool \n share tool \n input string to hash \n sha-256 hash \n copy \n copy \n 88146bc82a917e754e9b83440c6f79e305e38"
   },
   {
    "slug": "mean-absolute-deviation-calculator",
@@ -6258,7 +6258,7 @@
     "password"
    ],
    "fit": true,
-   "sample": "home \n home \n home \n security \n security \n password generator \n password generator \n security \n runs 100% in your browser \n password generator \n share tool \n share tool \n password generator settings \n ,t]d3[_g40angezu \n copy \n password length: 16 characters \n "
+   "sample": "home \n home \n home \n security \n security \n password generator \n password generator \n security \n runs 100% in your browser \n password generator \n share tool \n share tool \n password generator settings \n qc)@[tjp{q$i%w<x \n copy \n password length: 16 characters \n "
   },
   {
    "slug": "pdf-compressor",
@@ -7488,7 +7488,7 @@
     "password"
    ],
    "fit": true,
-   "sample": "home \n home \n home \n security \n security \n random password generator \n random password generator \n security \n runs 100% in your browser \n random password generator \n share tool \n share tool \n password generator settings \n de9hq<@9&[&l2ba@ \n copy \n password len"
+   "sample": "home \n home \n home \n security \n security \n random password generator \n random password generator \n security \n runs 100% in your browser \n random password generator \n share tool \n share tool \n password generator settings \n $>ayiq,btwb>9#r; \n copy \n password len"
   },
   {
    "slug": "random-team-generator",
@@ -8333,7 +8333,7 @@
     "sha256"
    ],
    "fit": true,
-   "sample": "home \n home \n home \n security \n security \n sha-256 hash generator \n sha-256 hash generator \n security \n runs 100% in your browser \n sha-256 hash generator \n share tool \n share tool \n input string to hash \n sha-256 hash \n copy \n copy \n 4126853d49c0114ad45f4fc94"
+   "sample": "home \n home \n home \n security \n security \n sha-256 hash generator \n sha-256 hash generator \n security \n runs 100% in your browser \n sha-256 hash generator \n share tool \n share tool \n input string to hash \n sha-256 hash \n copy \n copy \n 88146bc82a917e754e9b83440"
   },
   {
    "slug": "simplify-fractions-calculator",
@@ -8785,7 +8785,7 @@
     "password"
    ],
    "fit": true,
-   "sample": "home \n home \n home \n security \n security \n strong password generator \n strong password generator \n security \n runs 100% in your browser \n strong password generator \n share tool \n share tool \n password generator settings \n yi,0sht%xp3+07is \n copy \n password len"
+   "sample": "home \n home \n home \n security \n security \n strong password generator \n strong password generator \n security \n runs 100% in your browser \n strong password generator \n share tool \n share tool \n password generator settings \n fbg^3ponuixrd3:k \n copy \n password len"
   },
   {
    "slug": "study-timer",

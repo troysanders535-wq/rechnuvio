@@ -229,8 +229,13 @@ async function downloadOne(page, buttonLabel) {
 
 /** The number of page objects in a PDF. */
 function pdfPageCount(bytes) {
-  const matches = bytes.toString("latin1").match(/\/Type\s*\/Page(?![s])/g);
-  return matches ? matches.length : 0;
+  // A writer may pack the page objects into a compressed object stream
+  // (MuPDF writes "objstms=yes"), so the raw bytes alone do not show them.
+  // The inflated object streams are counted as well.
+  const raw = bytes.toString("latin1").match(/\/Type\s*\/Page(?![s])/g);
+  if (raw && raw.length) return raw.length;
+  const inflated = inflatedText(bytes).match(/\/Type\s*\/Page(?![s])/g);
+  return inflated ? inflated.length : 0;
 }
 
 /**

@@ -297,7 +297,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "age calculator"
     ],
     "features": [
-      "Takes 2 text inputs: Date of birth and Age on.",
+      "No input needed - choose an option and run the tool.",
       "Runs entirely in your browser - Age Calculator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit.",
       "Light and dark theme, responsive from phone to desktop."
@@ -318,6 +318,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "What does Age Calculator need as input?",
         "a": "You enter your data in Date of birth and Age on. Nothing else is required."
+      },
+      {
+        "q": "How do I use Age Calculator?",
+        "a": "Run the tool on the page and read the result directly below the workspace."
       }
     ]
   },
@@ -846,7 +850,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "No input needed - choose an option and run the tool.",
       "Choose between Origin (8 values) and Style (8 values).",
-      "Provides 10 actions: Another name, Surprise me, Yusuf, Vittorio and 6 more.",
+      "Provides 10 actions: Another name, Surprise me, Aurelius, Siavash and 6 more.",
       "Runs entirely in your browser - Baby Boy Name Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -890,7 +894,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "No input needed - choose an option and run the tool.",
       "Choose between Origin (8 values) and Style (8 values).",
-      "Provides 10 actions: Another name, Surprise me, Marisol, Beatriz and 6 more.",
+      "Provides 10 actions: Another name, Surprise me, Gaia, Juno and 6 more.",
       "Runs entirely in your browser - Baby Girl Name Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -933,7 +937,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "No input needed - choose an option and run the tool.",
       "Choose between Gender (4 values) and Origin (8 values).",
-      "Provides 10 actions: Another name, Surprise me, Elodie, Caoimhe and 6 more.",
+      "Provides 10 actions: Another name, Surprise me, Xenon, Theophile and 6 more.",
       "Runs entirely in your browser - Baby Name Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -2367,7 +2371,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "business days calculator"
     ],
     "features": [
-      "Takes 3 text inputs: From date, To date and Your own days off.",
+      "Takes 1 text input: Your own days off.",
       "Choose Holiday calendar: No holidays, US federal holidays, UK bank holidays.",
       "Runs entirely in your browser - Business Days Calculator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit.",
@@ -3883,7 +3887,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "date calculator"
     ],
     "features": [
-      "Takes 3 text inputs: Start date, End date and Amount.",
+      "Takes 1 text input: Amount.",
       "Choose between Unit (4 values) and Direction (2 values).",
       "Runs entirely in your browser - Date Calculator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit.",
@@ -3923,7 +3927,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
       "days between dates"
     ],
     "features": [
-      "Takes 2 text inputs: From date and To date.",
+      "No input needed - choose an option and run the tool.",
       "Runs entirely in your browser - Days Between Dates Calculator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit.",
       "Light and dark theme, responsive from phone to desktop."
@@ -3944,6 +3948,10 @@ export const TOOLS_CATALOG: ToolItem[] = [
       {
         "q": "What does Days Between Dates Calculator need as input?",
         "a": "You enter your data in From date and To date. Nothing else is required."
+      },
+      {
+        "q": "How do I use Days Between Dates Calculator?",
+        "a": "Run the tool on the page and read the result directly below the workspace."
       }
     ]
   },
@@ -4248,7 +4256,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, ., without a separator.",
-      "Provides 10 actions: Generate names, Lively_Summit, Rapid_Panther142, Fluffy_Maple and 6 more.",
+      "Provides 10 actions: Generate names, Dawn_Garden108, Wild_Lantern, Rusty_Garden416 and 6 more.",
       "Runs entirely in your browser - Discord Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -13634,7 +13642,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, without a separator.",
-      "Provides 10 actions: Generate names, Midnight_Beacon742, Hidden_Badger894, Bright_Dolphin and 6 more.",
+      "Provides 10 actions: Generate names, Rusty_Robin, Mellow_Raven88, Wandering_Island732 and 6 more.",
       "Runs entirely in your browser - Reddit Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -16836,7 +16844,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, without a separator.",
-      "Provides 10 actions: Generate names, Quiet_Beacon342, Winter_Garden, Polar_Valley69 and 6 more.",
+      "Provides 10 actions: Generate names, Winter_Summit, Golden_Thunder208, Midnight_Harbor and 6 more.",
       "Runs entirely in your browser - Twitch Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],
@@ -17232,7 +17240,7 @@ export const TOOLS_CATALOG: ToolItem[] = [
     "features": [
       "Takes 1 text input: Your own word.",
       "Choose Style: _, without a separator.",
-      "Provides 10 actions: Generate names, Keen_Thunder522, Curious_Sparrow, Eager_River629 and 6 more.",
+      "Provides 10 actions: Generate names, Frosty_Willow934, Golden_Meadow217, Witty_River and 6 more.",
       "Runs entirely in your browser - Username Generator never uploads your data and stores nothing on your device.",
       "Works offline once the page has loaded - no account, no API key, no usage limit."
     ],

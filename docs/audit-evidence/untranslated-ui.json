@@ -14,16 +14,6 @@
   ]
  },
  {
-  "slug": "2027-calendar",
-  "engine": "time-calendar",
-  "untranslated": [
-   "April",
-   "August",
-   "September",
-   "November"
-  ]
- },
- {
   "slug": "3d-viewer",
   "engine": "file-viewers",
   "untranslated": [
@@ -50,6 +40,16 @@
   ]
  },
  {
+  "slug": "2027-calendar",
+  "engine": "time-calendar",
+  "untranslated": [
+   "April",
+   "August",
+   "September",
+   "November"
+  ]
+ },
+ {
   "slug": "3mf-viewer",
   "engine": "file-viewers",
   "untranslated": [
@@ -69,10 +69,7 @@
  {
   "slug": "age-calculator",
   "engine": "calculator-suite",
-  "untranslated": [
-   "Thursday",
-   "Gemini"
-  ]
+  "untranslated": []
  },
  {
   "slug": "background-remover",
@@ -92,11 +89,6 @@
  {
   "slug": "ai-to-png",
   "engine": "image-suite",
-  "untranslated": []
- },
- {
-  "slug": "alphabetical-order-tool",
-  "engine": "text-suite",
   "untranslated": []
  },
  {
@@ -121,6 +113,11 @@
    "Gemini",
    "Llama"
   ]
+ },
+ {
+  "slug": "alphabetical-order-tool",
+  "engine": "text-suite",
+  "untranslated": []
  },
  {
   "slug": "apa-citation-generator",
@@ -446,13 +443,13 @@
   "untranslated": []
  },
  {
-  "slug": "cidr-calculator",
-  "engine": "networking-tools",
+  "slug": "christmas-wish-list-maker",
+  "engine": "randomizers-games",
   "untranslated": []
  },
  {
-  "slug": "christmas-wish-list-maker",
-  "engine": "randomizers-games",
+  "slug": "cidr-calculator",
+  "engine": "networking-tools",
   "untranslated": []
  },
  {
@@ -584,7 +581,7 @@
   "slug": "crontab-generator",
   "engine": "time-calendar",
   "untranslated": [
-   "# Digital ToolPad crontab # description: every 5 minutes # expression: */5 * * * * */5 * * * * /usr/bin/backup --daily"
+   "# Rechnuvio crontab # description: every 5 minutes # expression: */5 * * * * */5 * * * * /usr/bin/backup --daily"
   ]
  },
  {
@@ -991,12 +988,12 @@
   "untranslated": []
  },
  {
-  "slug": "graphql-formatter-beautifier",
+  "slug": "graphql-minifier",
   "engine": "developer-suite",
   "untranslated": []
  },
  {
-  "slug": "graphql-minifier",
+  "slug": "graphql-formatter-beautifier",
   "engine": "developer-suite",
   "untranslated": []
  },
@@ -1058,13 +1055,13 @@
   "engine": "crypto-hash",
   "untranslated": [
    "SHA-256 Hash",
-   "4126853d49c0114ad45f4fc9495fa65dc5ed1d6403d217e085f9dc737ac4b683",
+   "88146bc82a917e754e9b83440c6f79e305e38cc2a42feda78aaa9fc98ed6c973",
    "MD5 Hash",
-   "c3cf4a4277ff4f029c976049df9e9a4f",
+   "97859dfcfbde4b15a16dfcf87c6290fa",
    "SHA-1 Hash",
-   "a75fc2dcc31b9a6181fd364cfcfba55e0f8a5ab1",
+   "eed395264c46d2308941f54f49a1cd71d7d72692",
    "SHA-512 Hash",
-   "6b59a4fb6bfdcfeaa7d3165ba7bad4a0255207f52e964237f83f4cfa9d6c8bbce01488f4ce1729f3eac13e73cc7a40794477d3da6f424fb005b64bba238466ba"
+   "ef6ef8077164461b71f4e183a4f9ec7dfa6810d3f3c662c3f0b4016ca198bab1bfd70ab5ce5fd8404ad6372486155d31401752b85b8cedd3a537140d6d8fe5f8"
   ]
  },
  {
@@ -1260,10 +1257,10 @@
   "slug": "javascript-regex-tester",
   "engine": "regex",
   "untranslated": [
-   "Match #1: \"hello@digitaltoolpad.com\"",
+   "Match #1: \"hallo@rechnuvio.de\"",
    "Index 19",
    "Match #2: \"admin@company.org\"",
-   "Index 47"
+   "Index 41"
   ]
  },
  {
@@ -1310,8 +1307,8 @@
   "slug": "json-diff",
   "engine": "diff",
   "untranslated": [
-   "\"name\": \"Digital ToolPad\", \"version\": \"1.0.0\", \"offlineMode\": false, \"tools\": 100",
-   "\"name\": \"Digital ToolPad Pro\", \"version\": \"2.0.0\", \"offlineMode\": true, \"tools\": 492, \"privacy\": \"100% Client-Side\""
+   "\"name\": \"Rechnuvio\", \"version\": \"1.0.0\", \"offlineMode\": false, \"tools\": 100",
+   "\"name\": \"Rechnuvio Pro\", \"version\": \"2.0.0\", \"offlineMode\": true, \"tools\": 492, \"privacy\": \"100% Client-Side\""
   ]
  },
  {
@@ -1405,7 +1402,7 @@
   "untranslated": [
    "{6 keys}",
    "company:",
-   "\"Digital ToolPad\"",
+   "\"Rechnuvio\"",
    "established:",
    "mission:",
    "categories:",
@@ -1653,13 +1650,13 @@
   "engine": "crypto-hash",
   "untranslated": [
    "SHA-256 Hash",
-   "4126853d49c0114ad45f4fc9495fa65dc5ed1d6403d217e085f9dc737ac4b683",
+   "88146bc82a917e754e9b83440c6f79e305e38cc2a42feda78aaa9fc98ed6c973",
    "MD5 Hash",
-   "c3cf4a4277ff4f029c976049df9e9a4f",
+   "97859dfcfbde4b15a16dfcf87c6290fa",
    "SHA-1 Hash",
-   "a75fc2dcc31b9a6181fd364cfcfba55e0f8a5ab1",
+   "eed395264c46d2308941f54f49a1cd71d7d72692",
    "SHA-512 Hash",
-   "6b59a4fb6bfdcfeaa7d3165ba7bad4a0255207f52e964237f83f4cfa9d6c8bbce01488f4ce1729f3eac13e73cc7a40794477d3da6f424fb005b64bba238466ba"
+   "ef6ef8077164461b71f4e183a4f9ec7dfa6810d3f3c662c3f0b4016ca198bab1bfd70ab5ce5fd8404ad6372486155d31401752b85b8cedd3a537140d6d8fe5f8"
   ]
  },
  {
@@ -1838,8 +1835,8 @@
   "slug": "diff-checker",
   "engine": "diff",
   "untranslated": [
-   "\"name\": \"Digital ToolPad\", \"version\": \"1.0.0\", \"offlineMode\": false, \"tools\": 100",
-   "\"name\": \"Digital ToolPad Pro\", \"version\": \"2.0.0\", \"offlineMode\": true, \"tools\": 492, \"privacy\": \"100% Client-Side\""
+   "\"name\": \"Rechnuvio\", \"version\": \"1.0.0\", \"offlineMode\": false, \"tools\": 100",
+   "\"name\": \"Rechnuvio Pro\", \"version\": \"2.0.0\", \"offlineMode\": true, \"tools\": 492, \"privacy\": \"100% Client-Side\""
   ]
  },
  {
@@ -2336,6 +2333,11 @@
   "untranslated": []
  },
  {
+  "slug": "ratio-calculator",
+  "engine": "calculator-suite",
+  "untranslated": []
+ },
+ {
   "slug": "rapidtables-notepad-alternative",
   "engine": "text-suite",
   "untranslated": [
@@ -2343,11 +2345,6 @@
    "JavaScript",
    "Markdown"
   ]
- },
- {
-  "slug": "ratio-calculator",
-  "engine": "calculator-suite",
-  "untranslated": []
  },
  {
   "slug": "redact-bank-statement",
@@ -2365,23 +2362,23 @@
   "untranslated": []
  },
  {
-  "slug": "reduce-pdf-size",
-  "engine": "pdf-suite",
+  "slug": "refresh-rate-test",
+  "engine": "device-tester",
   "untranslated": []
  },
  {
-  "slug": "refresh-rate-test",
-  "engine": "device-tester",
+  "slug": "reduce-pdf-size",
+  "engine": "pdf-suite",
   "untranslated": []
  },
  {
   "slug": "regex-checker",
   "engine": "regex",
   "untranslated": [
-   "Match #1: \"hello@digitaltoolpad.com\"",
+   "Match #1: \"hallo@rechnuvio.de\"",
    "Index 19",
    "Match #2: \"admin@company.org\"",
-   "Index 47"
+   "Index 41"
   ]
  },
  {
@@ -2414,10 +2411,10 @@
   "slug": "regex-tester",
   "engine": "regex",
   "untranslated": [
-   "Match #1: \"hello@digitaltoolpad.com\"",
+   "Match #1: \"hallo@rechnuvio.de\"",
    "Index 19",
    "Match #2: \"admin@company.org\"",
-   "Index 47"
+   "Index 41"
   ]
  },
  {
@@ -2538,13 +2535,13 @@
   "engine": "crypto-hash",
   "untranslated": [
    "SHA-256 Hash",
-   "4126853d49c0114ad45f4fc9495fa65dc5ed1d6403d217e085f9dc737ac4b683",
+   "88146bc82a917e754e9b83440c6f79e305e38cc2a42feda78aaa9fc98ed6c973",
    "MD5 Hash",
-   "c3cf4a4277ff4f029c976049df9e9a4f",
+   "97859dfcfbde4b15a16dfcf87c6290fa",
    "SHA-1 Hash",
-   "a75fc2dcc31b9a6181fd364cfcfba55e0f8a5ab1",
+   "eed395264c46d2308941f54f49a1cd71d7d72692",
    "SHA-512 Hash",
-   "6b59a4fb6bfdcfeaa7d3165ba7bad4a0255207f52e964237f83f4cfa9d6c8bbce01488f4ce1729f3eac13e73cc7a40794477d3da6f424fb005b64bba238466ba"
+   "ef6ef8077164461b71f4e183a4f9ec7dfa6810d3f3c662c3f0b4016ca198bab1bfd70ab5ce5fd8404ad6372486155d31401752b85b8cedd3a537140d6d8fe5f8"
   ]
  },
  {
@@ -2682,16 +2679,16 @@
   "untranslated": []
  },
  {
+  "slug": "stick-drift-test",
+  "engine": "device-tester",
+  "untranslated": []
+ },
+ {
   "slug": "standard-deviation-calculator",
   "engine": "calculator-suite",
   "untranslated": [
    "Median"
   ]
- },
- {
-  "slug": "stick-drift-test",
-  "engine": "device-tester",
-  "untranslated": []
  },
  {
   "slug": "stl-viewer",
@@ -2802,16 +2799,16 @@
   "slug": "text-compare",
   "engine": "diff",
   "untranslated": [
-   "\"name\": \"Digital ToolPad\", \"version\": \"1.0.0\", \"offlineMode\": false, \"tools\": 100",
-   "\"name\": \"Digital ToolPad Pro\", \"version\": \"2.0.0\", \"offlineMode\": true, \"tools\": 492, \"privacy\": \"100% Client-Side\""
+   "\"name\": \"Rechnuvio\", \"version\": \"1.0.0\", \"offlineMode\": false, \"tools\": 100",
+   "\"name\": \"Rechnuvio Pro\", \"version\": \"2.0.0\", \"offlineMode\": true, \"tools\": 492, \"privacy\": \"100% Client-Side\""
   ]
  },
  {
   "slug": "text-diff",
   "engine": "diff",
   "untranslated": [
-   "\"name\": \"Digital ToolPad\", \"version\": \"1.0.0\", \"offlineMode\": false, \"tools\": 100",
-   "\"name\": \"Digital ToolPad Pro\", \"version\": \"2.0.0\", \"offlineMode\": true, \"tools\": 492, \"privacy\": \"100% Client-Side\""
+   "\"name\": \"Rechnuvio\", \"version\": \"1.0.0\", \"offlineMode\": false, \"tools\": 100",
+   "\"name\": \"Rechnuvio Pro\", \"version\": \"2.0.0\", \"offlineMode\": true, \"tools\": 492, \"privacy\": \"100% Client-Side\""
   ]
  },
  {
@@ -2921,6 +2918,11 @@
   ]
  },
  {
+  "slug": "toon-to-json",
+  "engine": "json",
+  "untranslated": []
+ },
+ {
   "slug": "token-counter",
   "engine": "text-suite",
   "untranslated": [
@@ -2931,11 +2933,6 @@
    "~4.0 chars/token",
    "~3.7 chars/token"
   ]
- },
- {
-  "slug": "toon-to-json",
-  "engine": "json",
-  "untranslated": []
  },
  {
   "slug": "transparent-background-maker",
@@ -2976,13 +2973,6 @@
   ]
  },
  {
-  "slug": "upc-barcode-generator",
-  "engine": "qr-barcode",
-  "untranslated": [
-   "Code 128 (universal)"
-  ]
- },
- {
   "slug": "uppercase-converter",
   "engine": "text-suite",
   "untranslated": [
@@ -2992,6 +2982,13 @@
    "PascalCase",
    "kebab-case",
    "snake_case"
+  ]
+ },
+ {
+  "slug": "upc-barcode-generator",
+  "engine": "qr-barcode",
+  "untranslated": [
+   "Code 128 (universal)"
   ]
  },
  {
@@ -3022,6 +3019,11 @@
   ]
  },
  {
+  "slug": "username-generator",
+  "engine": "randomizers-games",
+  "untranslated": []
+ },
+ {
   "slug": "uuid-generator",
   "engine": "uuid",
   "untranslated": [
@@ -3029,11 +3031,6 @@
    "Format",
    "URN (urn:uuid:...)"
   ]
- },
- {
-  "slug": "username-generator",
-  "engine": "randomizers-games",
-  "untranslated": []
  },
  {
   "slug": "uuid-v4-generator",
@@ -3059,16 +3056,16 @@
   "untranslated": []
  },
  {
-  "slug": "video-to-gif",
-  "engine": "image-suite",
-  "untranslated": []
- },
- {
   "slug": "vlsm-calculator",
   "engine": "networking-tools",
   "untranslated": [
    "Hosts"
   ]
+ },
+ {
+  "slug": "video-to-gif",
+  "engine": "image-suite",
+  "untranslated": []
  },
  {
   "slug": "water-intake-calculator",
