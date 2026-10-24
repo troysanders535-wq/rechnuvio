@@ -22,7 +22,7 @@ export function RegexTesterView() {
   );
   const [flags, setFlags] = useState("g");
   const [testText, setTestText] = useState(
-    "Contact support at hello@digitaltoolpad.com or admin@company.org for assistance.",
+    "Contact support at hallo@rechnuvio.de or admin@company.org for assistance.",
   );
   const { matches, isValid, errorMessage } = useRegexRunner(pattern, flags, testText);
 

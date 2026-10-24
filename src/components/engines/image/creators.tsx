@@ -610,7 +610,7 @@ export function OgImageView({
 
     ctx.font = "500 24px Arial, Helvetica, sans-serif";
     ctx.fillStyle = template === "minimal" ? "#64748b" : "#94a3b8";
-    ctx.fillText("digitaltoolpad.com", textX, 560);
+    ctx.fillText("rechnuvio.de", textX, 560);
   }, [headline, subline, template]);
 
   useEffect(() => {

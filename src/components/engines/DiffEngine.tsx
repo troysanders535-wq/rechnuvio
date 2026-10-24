@@ -17,8 +17,8 @@ export function DiffEngine({ slug }: DiffEngineProps) {
     return <JsonCompareView />;
   }
 
-  const sampleOriginal = `{\n  "name": "Digital ToolPad",\n  "version": "1.0.0",\n  "offlineMode": false,\n  "tools": 100\n}`;
-  const sampleModified = `{\n  "name": "Digital ToolPad Pro",\n  "version": "2.0.0",\n  "offlineMode": true,\n  "tools": 492,\n  "privacy": "100% Client-Side"\n}`;
+  const sampleOriginal = `{\n  "name": "Rechnuvio",\n  "version": "1.0.0",\n  "offlineMode": false,\n  "tools": 100\n}`;
+  const sampleModified = `{\n  "name": "Rechnuvio Pro",\n  "version": "2.0.0",\n  "offlineMode": true,\n  "tools": 492,\n  "privacy": "100% Client-Side"\n}`;
 
   const [textA, setTextA] = useState(sampleOriginal);
   const [textB, setTextB] = useState(sampleModified);

@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { pageAlternates } from "@/lib/brand";
 import Link from "next/link";
 import { BookOpen, ArrowRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
@@ -7,8 +8,9 @@ import { BLOG_POSTS } from "@/data/blogPosts";
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("blogPage");
   return {
-    title: `${t("title")} | Digital ToolPad`,
+    title: t("title"),
     description: t("subtitle"),
+    alternates: pageAlternates("/blog"),
   };
 }
 

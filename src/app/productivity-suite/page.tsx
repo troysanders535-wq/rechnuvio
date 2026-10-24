@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { pageAlternates } from "@/lib/brand";
 import Link from "next/link";
 import { getTranslations, getLocale } from "next-intl/server";
 import {
@@ -14,8 +15,9 @@ import {
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("productivitySuitePage");
   return {
-    title: `${t("title")} | Digital ToolPad`,
+    title: t("title"),
     description: t("subtitle"),
+    alternates: pageAlternates("/productivity-suite"),
   };
 }
 

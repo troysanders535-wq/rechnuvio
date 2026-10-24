@@ -188,7 +188,7 @@
     "decimalNotice": "Dezimalzahlen: Sowohl Komma (12,5) als auch Punkt (12.5) werden automatisch unterstützt."
   },
   "nav": {
-    "brandName": "Digitales ToolPad",
+    "brandName": "Rechnuvio",
     "allTools": "Alle Tools",
     "categories": "Kategorien",
     "productivitySuite": "Produktivitäts-Suite",
@@ -207,10 +207,10 @@
     "close": "Schließen"
   },
   "home": {
-    "trustBadge": "100% private Client-Side-Architektur • 0 Bytes an die Cloud gesendet",
-    "heroTitleLine1": "Kostenlose Online-Tools für",
-    "heroTitleLine2": "PDF, Bilder, Text & Code",
-    "heroSubtitle": "Blitzschnelle Browser-Tools zur lokalen Dateiverarbeitung auf Ihrem Gerät. Dokumente konvertieren, JSON formatieren, Bilder skalieren, Formeln berechnen und Daten ohne Server-Latenz verarbeiten.",
+    "trustBadge": "Einfach rechnen. Privat bleiben.",
+    "heroTitleLine1": "Kostenlose Rechner",
+    "heroTitleLine2": "& Online-Tools",
+    "heroSubtitle": "Rechne Prozente, Gehalt, Fristen und mehr in Sekunden – mit Rechenweg. Dazu Tools für PDF, Bilder, Text und Code. Alles direkt in deinem Browser, ohne Anmeldung.",
     "searchTriggerPlaceholder": "Suche 492 kostenlose Online-Browser-Tools... (z.B. JSON, PDF, Base64, UUID)",
     "popular": "Beliebt:",
     "catalogTitle": "Browser-Tools entdecken",
@@ -221,14 +221,15 @@
     "badgeBrowser": "Browser"
   },
   "footer": {
-    "valPropPrivacyTitle": "100% Datenschutz im Browser",
-    "valPropPrivacyDesc": "Ihre Dateien, JSON-Daten, Passwörter und Texte werden sicher in der Browser-Sandbox verarbeitet. Nichts wird auf externe Server übertragen.",
-    "valPropSpeedTitle": "Maximale Ausführungsgeschwindigkeit",
-    "valPropSpeedDesc": "Sofortige Ausführung in Echtzeit dank modernster Browser-Technologien, WebAssembly und Web Crypto.",
-    "valPropFreeTitle": "492 kostenlose Browser-Tools",
+    "valPropPrivacyTitle": "Läuft in deinem Browser",
+    "valPropPrivacyDesc": "Rechner und lokale Tools verarbeiten deine Eingaben direkt im Browser. Deine Dateien werden dafür nicht hochgeladen.",
+    "valPropSpeedTitle": "Mit Rechenweg",
+    "valPropSpeedDesc": "Ergebnisse erscheinen sofort – mit Formel und Beispiel, damit du jede Rechnung nachvollziehen kannst.",
+    "valPropFreeTitle": "Kostenlos, ohne Anmeldung",
     "valPropFreeDesc": "Alle Entwickler-, Dokumenten-, Rechen- und Medienwerkzeuge dauerhaft kostenfrei, ohne Registrierung und ohne Paywall.",
-    "aboutDesc": "Die führende Sammlung kostenloser Web-Tools für Entwickler, Designer, Studierende und Profis. Formatieren Sie JSON, konvertieren Sie CSV, skalieren Sie Bilder, testen Sie Regex und bearbeiten Sie PDFs sicher im Browser.",
-    "copyright": "© 2026 Rechnuvio. Alle Rechte vorbehalten.",
+    "aboutDesc": "Rechnuvio – einfach rechnen, privat bleiben. Kostenlose Rechner für Prozent, Gehalt, Fristen und Gesundheit sowie Tools für PDF, Bilder, Text und Code – direkt im Browser.",
+    "copyright": "© 2026 Rechnuvio · rechnuvio.de",
+    "impressum": "Impressum",
     "colDataCode": "Daten & Code",
     "colMediaPdf": "Medien & PDFs",
     "colPlatform": "Plattform",
@@ -291,11 +292,11 @@
     "privacyDesc": "Passwortgeneratoren, Hash-Rechner, EXIF-Metadatenstripper und Entropieschätzer."
   },
   "aboutPage": {
-    "title": "Über Digital ToolPad",
-    "subtitle": "Digital ToolPad basiert auf einem einfachen, aber kompromisslosen Prinzip: Softwareprogramme sollten in Ihrer Browser-Sandbox ausgeführt werden, ohne sensible Daten, vertrauliche Dateien oder API-Nutzlasten an entfernte Server von Drittanbietern zu senden.",
+    "title": "Über Rechnuvio",
+    "subtitle": "Rechnuvio basiert auf einem einfachen, aber kompromisslosen Prinzip: Softwareprogramme sollten in Ihrer Browser-Sandbox ausgeführt werden, ohne sensible Daten, vertrauliche Dateien oder API-Nutzlasten an entfernte Server von Drittanbietern zu senden.",
     "missionHeading": "Unsere architektonische Mission",
     "missionP1": "Jeden Tag fügen Millionen von Entwicklern und Fachleuten vertrauliche JSON-Anmeldeinformationen, Datenbankverbindungszeichenfolgen, Finanztabellen und proprietäre Bilder in Online-Formatierungstools ein. Viele dieser älteren Websites protokollieren, speichern und übertragen Ihre Daten an Backend-APIs.",
-    "missionP2": "Digital ToolPad ändert diesen Standard. Durch die Nutzung moderner WebAssembly, Web Crypto, der HTML5-Canvas-API und clientseitiger JavaScript-Compiler werden 100% der Berechnungen lokal in Ihrem Browserspeicher ausgeführt.",
+    "missionP2": "Rechnuvio ändert diesen Standard. Durch die Nutzung moderner WebAssembly, Web Crypto, der HTML5-Canvas-API und clientseitiger JavaScript-Compiler werden 100% der Berechnungen lokal in Ihrem Browserspeicher ausgeführt.",
     "pillar1Title": "Null Server Uploads",
     "pillar1Desc": "Dateien und Clipboard-Eingaben verlassen Ihr Gerät niemals. Alles Parsen, Komprimieren und Konvertieren geschieht im Gedächtnis.",
     "pillar2Title": "Null Netzwerk Latenz",
@@ -321,7 +322,7 @@
     "title": "Datenschutzpolitik",
     "lastUpdated": "Zuletzt aktualisiert: Oktober 2026",
     "s1Title": "1. Zentrale Datenschutzverpflichtung",
-    "s1Desc": "Bei Digital ToolPad glauben wir, dass Privatsphäre ein grundlegendes Menschenrecht ist. Unsere Tools sind so konzipiert, dass sie clientseitig in Ihrem Webbrowser ausgeführt werden. Wir übermitteln, sammeln, protokollieren oder verkaufen keinen Text, Dateien, Bilder, PDFs, JSON-Dokumente oder Code, den Sie über unsere Tools verarbeiten.",
+    "s1Desc": "Bei Rechnuvio glauben wir, dass Privatsphäre ein grundlegendes Menschenrecht ist. Unsere Tools sind so konzipiert, dass sie clientseitig in Ihrem Webbrowser ausgeführt werden. Wir übermitteln, sammeln, protokollieren oder verkaufen keinen Text, Dateien, Bilder, PDFs, JSON-Dokumente oder Code, den Sie über unsere Tools verarbeiten.",
     "s2Title": "2. Lokale Browser Sandbox Ausführung",
     "s2Desc": "Wenn Sie ein Bild hochladen, eine CSV-Datei konvertieren, JSON formatieren oder eine PDF-Datei generieren, wird diese Datei mit Standard-HTML5 FileReader, WebAssembly und Canvas-APIs ausschließlich in den RAM-Speicher Ihres Geräts geladen. Es durchquert nie das internet zu unseren servern.",
     "s3Title": "3. Cookies und Analysen",
@@ -333,19 +334,19 @@
     "title": "Nutzungsbedingungen",
     "effectiveDate": "Datum des Inkrafttretens: Oktober 2026",
     "s1Title": "1. Annahme der Bedingungen",
-    "s1Desc": "Durch den Zugriff auf und die Nutzung von Digital ToolPad erklären Sie sich damit einverstanden, an diese Nutzungsbedingungen gebunden zu sein. Wenn Sie diesen Bedingungen nicht zustimmen, nutzen Sie bitte nicht unsere Dienstprogramme.",
+    "s1Desc": "Durch den Zugriff auf und die Nutzung von Rechnuvio erklären Sie sich damit einverstanden, an diese Nutzungsbedingungen gebunden zu sein. Wenn Sie diesen Bedingungen nicht zustimmen, nutzen Sie bitte nicht unsere Dienstprogramme.",
     "s2Title": "2. Erlaubte Verwendung",
     "s2Desc": "Es steht Ihnen frei, alle Werkzeuge für persönliche, kommerzielle, pädagogische und berufliche Zwecke zu verwenden. Sie stimmen zu, nicht zu versuchen, die Plattform durch automatisiertes Scraping oder böswillige Denial-of-Service umzukehren, zu stören, zu überlasten oder auszunutzen.",
     "s3Title": "3. Haftungsausschluss",
-    "s3Desc": "Digital ToolPad wird auf einer \"AS IS\" und \"AS AVAILABLE\" Basis ohne Gewährleistung jeglicher Art zur Verfügung gestellt. Während wir bei allen mathematischen, Formatierungs- und Konversionsberechnungen absolute Genauigkeit anstreben, ist es ratsam, kritische Ergebnisse vor der Bereitstellung der Produktion zu überprüfen."
+    "s3Desc": "Rechnuvio wird auf einer \"AS IS\" und \"AS AVAILABLE\" Basis ohne Gewährleistung jeglicher Art zur Verfügung gestellt. Während wir bei allen mathematischen, Formatierungs- und Konversionsberechnungen absolute Genauigkeit anstreben, ist es ratsam, kritische Ergebnisse vor der Bereitstellung der Produktion zu überprüfen."
   },
   "productivitySuitePage": {
     "title": "Productivity Suite - All-In-One Private Web Utilities",
-    "subtitle": "Entdecken Sie die Digital ToolPad Productivity Suite. Integrierte Arbeitsbereiche für Datenformatierung, PDF-Dokumentenmanipulation, Code-Dienstprogramme und Timer.",
+    "subtitle": "Entdecken Sie die Rechnuvio Produktivitäts-Suite. Integrierte Arbeitsbereiche für Datenformatierung, PDF-Dokumentenmanipulation, Code-Dienstprogramme und Timer.",
     "badge": "Integrierte Browser Suiten"
   },
   "blogPage": {
-    "title": "Digital ToolPad Playbooks",
+    "title": "Rechnuvio Ratgeber",
     "subtitle": "Technische Deep-Dives, Architekturanalyse und Tutorials zu clientseitigen Algorithmen, Datenserialisierung und Privacy-First-Webdesign.",
     "badge": "Engineering & Tutorials",
     "backToArticles": "Zurück zu allen Artikeln",
@@ -461,7 +462,7 @@
         "copy": "Kopieren",
         "download": "Herunterladen",
         "decodedBase64Preview": "Dekodierte Base64-Vorschau",
-        "helloFromDigitalToolPad100ClientSidePrivacy": "Hallo von Digital ToolPad! 100% clientseitiger Datenschutz.",
+        "helloFromDigitalToolPad100ClientSidePrivacy": "Hallo von Rechnuvio! 100% clientseitiger Datenschutz.",
         "inputTextOrBase64": "Text oder Base64 eingeben",
         "output": "Ausgabe",
         "imagePreview": "Bildvorschau",
@@ -555,7 +556,7 @@
         "regeneratePassword": "Passwort neu generieren",
         "typeOrPasteAnyTextToHash": "Text zum Hashen eingeben oder einfügen...",
         "copy": "Kopieren",
-        "digitalToolPad2026": "Digital ToolPad 2026",
+        "digitalToolPad2026": "Rechnuvio 2026",
         "invalidJWT": "Ungültiges JWT",
         "passwordGeneratorSettings": "Einstellungen des Passwortgenerators",
         "encodedJWTToken": "Kodierter JWT-Token",
@@ -713,8 +714,8 @@
         "cameraUnavailable": "Die Kamera ist nicht verfügbar. Erlauben Sie die Kameraberechtigung in Ihrem Browser oder schließen Sie eine Kamera an und versuchen Sie es erneut."
       },
       "DiffEngine": {
-        "digitalToolPad": "Digital ToolPad",
-        "digitalToolPadPro": "Digital ToolPad Pro",
+        "digitalToolPad": "Rechnuvio",
+        "digitalToolPadPro": "Rechnuvio Pro",
         "100ClientSide": "100% clientseitig",
         "compareDiffs": "Diffs vergleichen",
         "beautifyBoth": "Beide formatieren",
@@ -943,7 +944,7 @@
         "clearEditor": "Editor leeren",
         "validJSON": "Gültiges JSON",
         "pasteOrWriteYourJSONHere": "JSON hier einfügen oder schreiben...",
-        "digitalToolPad": "Digital ToolPad",
+        "digitalToolPad": "Rechnuvio",
         "100ClientSidePrivateWebUtilities": "100% clientseitige private Web-Dienstprogramme",
         "dataFormats": "Datenformate",
         "pDFSuite": "PDF-Suite",
@@ -977,7 +978,7 @@
         "formatHeading": "Überschrift",
         "formatList": "Aufzählung",
         "clearEditor": "Editor leeren",
-        "sampleMarkdown": "# Digital ToolPad Produktivitätsdokument\n\n## Willkommen im Offline-Dokument-Arbeitsbereich\nAlle Ihre Markdown-Bearbeitung, PDF-Erzeugung und Word-docx-Konvertierung laufen **zu 100 % in Ihrem Browser**, ohne Daten an Server zu senden.\n\n### Kernfunktionen\n- **Live-Vorschau in Echtzeit**: Rendert GitHub Flavored Markdown sofort\n- **Direkter PDF-Export**: Erzeugt druckbare PDF-Dokumente lokal\n- **Word-Export (.docx)**: Wandelt Überschriften, Aufzählungspunkte und Text in gültige Word-Dokumente um\n\n> Datenschutz ist kein Nachgedanke, sondern unsere Grundarchitektur."
+        "sampleMarkdown": "# Rechnuvio Produktivitätsdokument\n\n## Willkommen im Offline-Dokument-Arbeitsbereich\nAlle Ihre Markdown-Bearbeitung, PDF-Erzeugung und Word-docx-Konvertierung laufen **zu 100 % in Ihrem Browser**, ohne Daten an Server zu senden.\n\n### Kernfunktionen\n- **Live-Vorschau in Echtzeit**: Rendert GitHub Flavored Markdown sofort\n- **Direkter PDF-Export**: Erzeugt druckbare PDF-Dokumente lokal\n- **Word-Export (.docx)**: Wandelt Überschriften, Aufzählungspunkte und Text in gültige Word-Dokumente um\n\n> Datenschutz ist kein Nachgedanke, sondern unsere Grundarchitektur."
       },
       "MathCalculatorsEngine": {
         "computerScience": "Informatik",
@@ -1821,7 +1822,7 @@
         "convertedJSONOutput": "Konvertierte JSON-Ausgabe",
         "convertedYAMLOutput": "Konvertierte YAML-Ausgabe",
         "convertedOutputWillAppearHere": "Das konvertierte Ergebnis erscheint hier...",
-        "digitalToolPad": "Digital ToolPad",
+        "digitalToolPad": "Rechnuvio",
         "invalidYAMLSyntax": "Ungültige YAML-Syntax",
         "invalidJSONSyntax": "Ungültige JSON-Syntax",
         "valid": "Gültig",
@@ -1836,7 +1837,7 @@
       },
       "json": {
         "JsonCompareView": {
-          "digitalToolPad": "Digital ToolPad",
+          "digitalToolPad": "Rechnuvio",
           "invalidJSONInDocumentA": "Ungültiges JSON in Dokument A",
           "invalidJSONInDocumentB": "Ungültiges JSON in Dokument B",
           "differencesDetected": "Unterschiede erkannt",
@@ -1862,7 +1863,7 @@
           "none": "Keine"
         },
         "JsonEditorView": {
-          "digitalToolPad": "Digital ToolPad",
+          "digitalToolPad": "Rechnuvio",
           "jSONFormatter": "JSON-Formatter",
           "dataFormats": "Datenformate",
           "jSONValidator": "JSON-Validator",
@@ -1886,7 +1887,7 @@
           "pasteOrWriteJSONHere": "JSON hier einfügen oder schreiben..."
         },
         "JsonMinifierView": {
-          "digitalToolPad": "Digital ToolPad",
+          "digitalToolPad": "Rechnuvio",
           "fastSecureClientSideDeveloperUtilitySuite": "Schnelle, sichere clientseitige Entwicklerwerkzeug-Suite",
           "clientSideProcessing": "Clientseitige Verarbeitung",
           "zeroServerUploads": "Keine Server-Uploads",
@@ -1905,7 +1906,7 @@
           "minifiedJSONWillAppearHere": "Minifiziertes JSON erscheint hier..."
         },
         "JsonToonView": {
-          "digitalToolPad": "Digital ToolPad",
+          "digitalToolPad": "Rechnuvio",
           "zeroServerUploads": "Keine Server-Uploads",
           "conversionError": "Konvertierungsfehler",
           "modeJSONTOON": "Modus: JSON → TOON",
@@ -1955,7 +1956,7 @@
           "searchKeysValues": "Schlüssel / Werte suchen..."
         },
         "JsonValidatorView": {
-          "digitalToolPad": "Digital ToolPad",
+          "digitalToolPad": "Rechnuvio",
           "100ClientSide": "100% clientseitig",
           "format": "Format",
           "minify": "Minifizieren",

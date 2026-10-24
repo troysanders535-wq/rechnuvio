@@ -6,6 +6,7 @@ import NextImage from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { Wrench, ShieldCheck, Zap, Sparkles } from "lucide-react";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { hasImpressum } from "@/lib/brand";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -76,17 +77,19 @@ export function Footer() {
               aria-label="Rechnuvio"
             >
               <NextImage
-                src="/logo.webp"
+                src="/rechnuvio-logo.svg"
                 alt="Rechnuvio"
-                width={154}
-                height={34}
+                width={147}
+                height={32}
+                unoptimized
                 className="h-8 w-auto object-contain dark:hidden"
               />
               <NextImage
-                src="/logo-dark.webp"
+                src="/rechnuvio-logo-dark.svg"
                 alt="Rechnuvio"
-                width={154}
-                height={34}
+                width={147}
+                height={32}
+                unoptimized
                 className="hidden h-8 w-auto object-contain dark:block"
               />
             </Link>
@@ -221,6 +224,13 @@ export function Footer() {
                   {t("termsOfService")}
                 </Link>
               </li>
+              {hasImpressum() && (
+                <li>
+                  <Link href="/impressum" className="hover:text-sky-700 dark:hover:text-sky-300">
+                    {t("impressum")}
+                  </Link>
+                </li>
+              )}
             </ul>
           </div>
         </div>

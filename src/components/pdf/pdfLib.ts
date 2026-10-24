@@ -27,7 +27,7 @@ function looksEncrypted(err: unknown): boolean {
 }
 
 /** Producer / Creator stamped on the PDFs that our own tools generate. */
-export const APP_PRODUCER = "Digital ToolPad";
+export const APP_PRODUCER = "Rechnuvio";
 
 /**
  * Loads a PDF, transparently handling encrypted documents.
@@ -56,7 +56,7 @@ export async function loadPdfDoc(
 }
 
 /**
- * Creates a new document that identifies itself as a Digital ToolPad file
+ * Creates a new document that identifies itself as a Rechnuvio file
  * instead of advertising the PDF library that produced it.
  */
 export async function createPdfDoc(title?: string): Promise<PDFDocument> {

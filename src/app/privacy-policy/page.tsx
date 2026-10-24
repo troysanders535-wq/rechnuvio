@@ -1,11 +1,13 @@
 import { Metadata } from "next";
+import { pageAlternates } from "@/lib/brand";
 import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("privacyPolicyPage");
   return {
-    title: `${t("title")} | Digital ToolPad`,
+    title: t("title"),
     description: t("s1Desc"),
+    alternates: pageAlternates("/privacy-policy"),
   };
 }
 

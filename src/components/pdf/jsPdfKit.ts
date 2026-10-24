@@ -11,8 +11,8 @@ export function createDoc(title?: string): jsPDF {
   // Identify the file as ours instead of advertising the PDF library.
   (doc.setProperties as any)({
     title: title ?? "",
-    producer: "Digital ToolPad",
-    creator: "Digital ToolPad",
+    producer: "Rechnuvio",
+    creator: "Rechnuvio",
   });
   return doc;
 }

@@ -56,7 +56,7 @@ export function translateFaq(
   if (/free to use/i.test(faq.q)) {
     return {
       q: `Ist dieses Tool (${toolName}) kostenlos?`,
-      a: `Ja, ${toolName} auf Digital ToolPad ist zu 100% kostenlos ohne versteckte Gebühren, Abonnements oder Einschränkungen.`,
+      a: `Ja, ${toolName} auf Rechnuvio ist zu 100% kostenlos ohne versteckte Gebühren, Abonnements oder Einschränkungen.`,
     };
   }
 

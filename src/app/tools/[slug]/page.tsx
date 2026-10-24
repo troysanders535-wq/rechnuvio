@@ -7,6 +7,7 @@ import { EngineDispatcher } from "@/components/engines/EngineDispatcher";
 import { getTranslations, getLocale } from "next-intl/server";
 import { getLocalizedTool } from "@/utils/localizedTools";
 import { getCanonicalUrl, getAlternateHreflang } from "@/i18n/domains";
+import { SITE_NAME, OG_IMAGE, webApplicationJsonLd } from "@/lib/brand";
 
 interface ToolPageProps {
   params: Promise<{
@@ -28,7 +29,8 @@ export async function generateMetadata({
 
   if (!tool) {
     return {
-      title: "Tool Not Found",
+      title: "Tool nicht gefunden",
+      robots: { index: false },
     };
   }
 
@@ -53,25 +55,31 @@ export async function generateMetadata({
       openGraph: {
         title: metaTitle,
         description: metaDescription,
-        siteName: "Digital ToolPad",
+        url: canonicalUrl,
+        siteName: SITE_NAME,
+      images: [OG_IMAGE],
         type: "website",
       },
       alternates,
     };
   }
 
-  const suffix = isGerman ? "Kostenloses Online-Browser-Tool" : "Free Online Browser Tool";
+  const suffix = isGerman ? "kostenlos online" : "free online";
+  // "<Tool> – kostenlos online | Rechnuvio" stays within ~60 chars; long names drop the suffix.
+  const title = `${localizedTool.name} – ${suffix}`.length <= 48 ? `${localizedTool.name} – ${suffix}` : localizedTool.name;
 
   return {
-    title: `${localizedTool.name} - ${suffix}`,
+    title,
     description: localizedTool.description,
-    keywords: tool.keywords,
     openGraph: {
-      title: `${localizedTool.name} | Digital ToolPad`,
+      title: `${title} | ${SITE_NAME}`,
       description: localizedTool.description,
-      siteName: "Digital ToolPad",
+      url: canonicalUrl,
+      siteName: SITE_NAME,
+      images: [OG_IMAGE],
       type: "website",
     },
+    twitter: { title: `${title} | ${SITE_NAME}`, description: localizedTool.description, images: [OG_IMAGE.url] },
     alternates,
   };
 }
@@ -84,12 +92,25 @@ export default async function ToolPage({ params }: ToolPageProps) {
     notFound();
   }
 
+  const locale = await getLocale();
+  const localizedTool = getLocalizedTool(tool, locale);
+  const appJsonLd = webApplicationJsonLd({
+    name: localizedTool.name,
+    slug: tool.slug,
+    description: localizedTool.description,
+    category: tool.category,
+  });
+
   return (
     <ToolShell tool={tool}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(appJsonLd) }}
+      />
       <Suspense
         fallback={
           <div className="p-12 text-center text-xs text-slate-500">
-            Loading tool workspace...
+            {locale.startsWith("de") ? "Tool wird geladen …" : "Loading tool…"}
           </div>
         }
       >

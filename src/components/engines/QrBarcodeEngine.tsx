@@ -81,7 +81,7 @@ export function QrBarcodeEngine({ slug }: QrBarcodeEngineProps) {
   const isBarcodeTool = mode !== "qr";
 
   // QR state
-  const [qrText, setQrText] = useState("https://www.digitaltoolpad.com");
+  const [qrText, setQrText] = useState("https://rechnuvio.de");
   const [fgColor, setFgColor] = useState("#000000");
   const [bgColor, setBgColor] = useState("#ffffff");
   const [transparentBg, setTransparentBg] = useState(false);

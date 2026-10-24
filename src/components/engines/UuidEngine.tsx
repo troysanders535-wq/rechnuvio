@@ -106,7 +106,7 @@ export function UuidEngine({ slug }: UuidEngineProps) {
     // The name is made unique per row, otherwise every name based UUID of a
     // batch would carry the same value.
     if (ver === "v5") {
-      return { id: uuidv5(`digitaltoolpad.com/${index}`, uuidv5.DNS), timestamp: null };
+      return { id: uuidv5(`rechnuvio.de/${index}`, uuidv5.DNS), timestamp: null };
     }
     if (ver === "v7") return createUuidV7();
     return { id: uuidv4(), timestamp: null };

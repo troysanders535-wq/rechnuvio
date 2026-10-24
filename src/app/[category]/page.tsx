@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { pageAlternates } from "@/lib/brand";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowRight, ShieldCheck } from "lucide-react";
@@ -26,16 +27,20 @@ export async function generateMetadata({
   const cat = CATEGORY_MAP[category];
 
   if (!cat) {
-    return { title: "Page Not Found | Digital ToolPad" };
+    return { title: "Seite nicht gefunden", robots: { index: false } };
   }
 
   const tCat = await getTranslations("categories");
   const name = tCat.has(cat.nameKey as any) ? tCat(cat.nameKey as any) : cat.fallbackName;
   const description = tCat.has(cat.descKey as any) ? tCat(cat.descKey as any) : cat.fallbackDesc;
 
+  const locale = await getLocale();
+  const suffix = locale.startsWith("de") ? "kostenlos online" : "free online";
+
   return {
-    title: `${name} - Free Online Browser Suite`,
+    title: `${name} – ${suffix}`,
     description,
+    alternates: pageAlternates(`/${category}`),
   };
 }
 
