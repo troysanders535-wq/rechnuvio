@@ -14,6 +14,8 @@
 export type PdfVariant =
   /** Combine several PDFs into one document. */
   | "merge"
+  /** Combine several PDFs into one document, page by page. */
+  | "mergePages"
   /** Split a PDF by page ranges / fixed-size chunks. */
   | "split"
   /** Build a PDF from one or more images. */
@@ -47,7 +49,9 @@ export type PdfVariant =
 
 export const PDF_VARIANTS: Record<string, PdfVariant> = {
   // --- Organise -----------------------------------------------------------
-  "merge-pdf": "merge",
+  // The page editor: the pages of the documents are moved and removed one by
+  // one before they are merged.
+  "merge-pdf": "mergePages",
   "pdf-merger": "merge",
   "combine-pdf": "merge",
 
@@ -110,6 +114,7 @@ export function getPdfVariant(slug: string): PdfVariant | null {
 /** Human readable label used in the workspace heading. */
 export const PDF_VARIANT_LABELS: Record<PdfVariant, string> = {
   merge: "Merge PDF Files",
+  mergePages: "Merge PDF Pages",
   split: "Split PDF",
   img2pdf: "Image to PDF Converter",
   toImage: "PDF to Image Converter",

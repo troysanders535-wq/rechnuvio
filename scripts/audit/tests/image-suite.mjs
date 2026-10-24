@@ -174,6 +174,21 @@ async function waitForPreview(page, timeout = 8000) {
   }
 }
 
+/** Wait until the workspace shows the given text. */
+async function waitForWorkspaceText(page, needle, timeout = 15000) {
+  const started = Date.now();
+  for (;;) {
+    const text = await workspace(page);
+    if (text.includes(needle)) return text;
+    if (Date.now() - started > timeout) {
+      throw new Error(
+        `the workspace never showed ${JSON.stringify(needle)}, it shows ${JSON.stringify(text.slice(0, 300))}`,
+      );
+    }
+    await sleep(200);
+  }
+}
+
 /** Press the download button and return the bytes the browser received. */
 async function downloadBuffer(page, timeout = 20000) {
   const pending = page.waitForEvent("download", { timeout });
@@ -251,6 +266,128 @@ function gifFixture() {
     0x02, 0x02, 0x44, 0x0a, 0x00, // LZW minimum code size + data block
     0x3b, // trailer
   ]);
+}
+
+/**
+ * An animated GIF89a with the given frame delays in milliseconds.
+ *
+ * The file follows the GIF89a specification: a header, a logical screen
+ * descriptor, a global colour table and, for every frame, a graphic control
+ * extension that carries the delay and an image block with the LZW data.
+ * Every pixel is written after a clear code, so the stream stays valid
+ * whatever the dictionary of the decoder does.
+ */
+function animatedGifFixture(delays, options = {}) {
+  const width = options.width || 32;
+  const height = options.height || 32;
+  const parts = [Buffer.from("GIF89a", "ascii")];
+
+  const screen = Buffer.alloc(7);
+  screen.writeUInt16LE(width, 0);
+  screen.writeUInt16LE(height, 2);
+  screen[4] = 0xf0; // a global colour table with two entries
+  parts.push(screen);
+  parts.push(Buffer.from([0x00, 0x00, 0x00, 0xff, 0xff, 0xff])); // black and white
+
+  delays.forEach((delay, index) => {
+    const control = Buffer.alloc(8);
+    control[0] = 0x21; // the graphic control extension
+    control[1] = 0xf9;
+    control[2] = 4; // the size of the block
+    control.writeUInt16LE(Math.round(delay / 10), 4); // hundredths of a second
+    parts.push(control);
+
+    const descriptor = Buffer.alloc(10);
+    descriptor[0] = 0x2c; // the image descriptor
+    descriptor.writeUInt16LE(width, 5);
+    descriptor.writeUInt16LE(height, 7);
+    parts.push(descriptor);
+
+    parts.push(Buffer.from([0x02])); // the minimum code size of the LZW stream
+    const codes = [];
+    for (let pixel = 0; pixel < width * height; pixel += 1) {
+      codes.push(0x04, index % 2); // the clear code, then the pixel
+    }
+    codes.push(0x05); // the end of the information
+    let bits = "";
+    for (const code of codes) bits += code.toString(2).padStart(3, "0");
+    while (bits.length % 8) bits += "0";
+    const data = Buffer.from(
+      bits.match(/.{8}/g).map((byte) => parseInt(byte, 2)),
+    );
+    for (let at = 0; at < data.length; at += 255) {
+      const block = data.subarray(at, at + 255);
+      parts.push(Buffer.from([block.length]));
+      parts.push(block);
+    }
+    parts.push(Buffer.from([0x00])); // the end of the data blocks
+  });
+
+  parts.push(Buffer.from([0x3b])); // the trailer
+  return Buffer.concat(parts);
+}
+
+/** The chunks of a RIFF container, such as a WebP file. */
+function riffChunks(bytes) {
+  const chunks = [];
+  let at = 12;
+  while (at + 8 <= bytes.length) {
+    const type = bytes.subarray(at, at + 4).toString("latin1");
+    const size = bytes.readUInt32LE(at + 4);
+    chunks.push({ type, payload: bytes.subarray(at + 8, at + 8 + size) });
+    at += 8 + size + (size % 2);
+  }
+  return chunks;
+}
+
+/** One chunk of a RIFF container, padded to an even number of bytes. */
+function riffChunk(type, payload) {
+  const head = Buffer.alloc(8);
+  head.write(type, 0, "ascii");
+  head.writeUInt32LE(payload.length, 4);
+  const pad = payload.length % 2 ? Buffer.from([0]) : Buffer.alloc(0);
+  return Buffer.concat([head, payload, pad]);
+}
+
+/**
+ * An animated WebP with the given frame delays in milliseconds.
+ *
+ * The picture chunk of every still file is placed into a frame chunk of an
+ * animated WebP: the "VP8X" chunk carries the animation flag, the "ANIM"
+ * chunk the loop count and every "ANMF" chunk one frame with its delay as
+ * the three byte number at the twelfth byte of the chunk.
+ */
+function animatedWebpFixture(stills, delays, width, height) {
+  const extended = Buffer.alloc(10);
+  extended[0] = 0x02; // the animation flag of the extended format
+  extended.writeUIntLE(width - 1, 4, 3);
+  extended.writeUIntLE(height - 1, 7, 3);
+
+  const anim = Buffer.alloc(6);
+  anim.writeUInt16LE(0, 4); // the animation repeats for ever
+
+  const body = [riffChunk("VP8X", extended), riffChunk("ANIM", anim)];
+  delays.forEach((delay, index) => {
+    const still = riffChunks(stills[index % stills.length]).find(
+      (chunk) => chunk.type === "VP8 " || chunk.type === "VP8L",
+    );
+    assert.ok(still, "the still WebP must carry a picture chunk");
+    const header = Buffer.alloc(16);
+    header.writeUIntLE(width - 1, 6, 3);
+    header.writeUIntLE(height - 1, 9, 3);
+    header.writeUIntLE(delay, 12, 3);
+    body.push(
+      riffChunk(
+        "ANMF",
+        Buffer.concat([header, riffChunk(still.type, still.payload)]),
+      ),
+    );
+  });
+
+  const payload = Buffer.concat([Buffer.from("WEBP", "ascii"), ...body]);
+  const size = Buffer.alloc(4);
+  size.writeUInt32LE(payload.length, 0);
+  return Buffer.concat([Buffer.from("RIFF", "ascii"), size, payload]);
 }
 
 /** A 4x3 uncompressed RGB TIFF (TIFF 6.0 baseline, little endian). */
@@ -630,15 +767,6 @@ function mp4Structure(bytes) {
     at += size;
   }
   return boxes;
-}
-
-/** The number of JPEG pictures that a buffer holds. */
-function jpegPictureCount(bytes) {
-  let count = 0;
-  for (let at = 0; at + 1 < bytes.length; at += 1) {
-    if (bytes[at] === 0xff && bytes[at + 1] === 0xd8) count += 1;
-  }
-  return count;
 }
 
 /**
@@ -2124,34 +2252,60 @@ export function register() {
     }
   });
 
-  spec("heic-to-jpg-converter", "decodes a HEIC photo and writes a JPEG", async (page) => {
-    await uploadBytes(page, "iphone.heic", "image/heic", heicFixture());
-    await waitForPreview(page);
-    await selectOption(page, "image/jpeg");
-    const { bytes } = await downloadBuffer(page);
-    assert.deepEqual(
-      Array.from(bytes.subarray(0, 3)),
-      [0xff, 0xd8, 0xff],
-      "a JPEG file starts with the SOI marker",
-    );
+  spec(
+    "heic-to-jpg-converter",
+    "reports that this browser cannot decode a HEIC photo and exports no picture",
+    async (page) => {
+      await uploadBytes(page, "iphone.heic", "image/heic", heicFixture());
 
-    // The brand of the container is read out of the file.
-    const text = await workspace(page);
-    assertIncludes(text, "heic", "the tool must show the brand of the HEIC container");
-    assertIncludes(
-      text,
-      "mif1",
-      "the tool must show the compatible brands of the HEIC container",
-    );
+      // The brand of the container is read out of the file.
+      const text = await waitForWorkspaceText(page, "mif1");
+      assertIncludes(text, "heic", "the tool must show the brand of the HEIC container");
+      assertIncludes(
+        text,
+        "mif1",
+        "the tool must show the compatible brands of the HEIC container",
+      );
 
-    const picture = await readPixels(page, bytes, "image/jpeg");
-    assert.equal(picture.width, 640, "the notice the tool exports is 640 pixels wide");
-    assert.equal(picture.height, 400, "the notice the tool exports is 400 pixels high");
-    assert.ok(
-      colourCount(picture) > 2,
-      "the exported notice must carry more than one colour",
-    );
-  });
+      // The tool has to say plainly that no JPEG can be produced here.
+      assertMatches(
+        text,
+        /cannot decode HEIC/i,
+        "the tool must say that this browser cannot decode HEIC",
+      );
+      assertMatches(
+        text,
+        /no JPEG can be produced/i,
+        "the tool must say that no JPEG can be produced here",
+      );
+      assertMatches(
+        text,
+        /JPG first/i,
+        "the tool must point at converting the photo to JPG first",
+      );
+
+      // The notice must not be handed out as a photo.
+      const offered = await page.evaluate(() => ({
+        buttons: Array.from(document.querySelectorAll("main button")).map((button) => ({
+          label: (button.textContent || "").trim(),
+          disabled: button.disabled,
+        })),
+        pictures: document.querySelectorAll('main img[src^="data:"]').length,
+      }));
+      const downloads = offered.buttons.filter((button) =>
+        /download/i.test(button.label),
+      );
+      assert.ok(
+        downloads.length === 0 || downloads.every((button) => button.disabled),
+        `the tool must not offer a download of the notice, it offers ${JSON.stringify(downloads)}`,
+      );
+      assert.equal(
+        offered.pictures,
+        0,
+        "the tool must not show the notice as a picture",
+      );
+    },
+  );
 
   spec("tiff-to-jpg", "decodes a TIFF scan and writes a JPEG", async (page) => {
     await uploadBytes(page, "scan.tif", "image/tiff", tiffFixture());
@@ -2367,74 +2521,251 @@ export function register() {
 
   /* ---- animated and video formats ---- */
 
-  spec("gif-to-mp4", "converts an animated GIF into an MP4 video", async (page) => {
-    await uploadBytes(page, "picture.gif", "image/gif", gifFixture());
+  spec("gif-to-mp4", "records an animated GIF into a real MP4 video", async (page) => {
+    await uploadBytes(
+      page,
+      "picture.gif",
+      "image/gif",
+      animatedGifFixture([400, 600]),
+    );
     await waitForPreview(page);
-    await setRange(page, 0, 4);
-    const { bytes, name } = await downloadBuffer(page);
+
+    // The tool reads the timing of the animation out of the file itself.
+    const text = await workspace(page);
+    assertMatches(
+      text,
+      /2 frames/i,
+      "the tool must state the number of frames of the source",
+    );
+    assertMatches(
+      text,
+      /1\.0 seconds/i,
+      "the tool must state the length of the source",
+    );
+
+    // A browser that cannot record MP4 must say so and offer no file at all.
+    const canRecord = await page.evaluate(() => {
+      if (typeof MediaRecorder === "undefined") return false;
+      return [
+        "video/mp4;codecs=avc1.42E01E,mp4a.40.2",
+        "video/mp4;codecs=avc1.42E01E",
+        "video/mp4",
+      ].some((type) => MediaRecorder.isTypeSupported(type));
+    });
+    if (!canRecord) {
+      assertMatches(
+        text,
+        /cannot record MP4/i,
+        "the tool must say that this browser cannot record MP4",
+      );
+      const offered = await page.evaluate(() =>
+        Array.from(document.querySelectorAll("main button"))
+          .filter((button) => !button.disabled)
+          .map((button) => (button.textContent || "").trim()),
+      );
+      assert.ok(
+        !offered.some((label) => /mp4/i.test(label)),
+        `the tool must not offer an MP4 download, it offers ${JSON.stringify(offered)}`,
+      );
+      return;
+    }
+
+    // The first slider is the frame rate of the recording.
+    await setRange(page, 0, 15);
+    const { bytes, name } = await downloadFrom(page, "Download MP4", 60000);
+    assert.match(name, /\.mp4$/, `the download should be named .mp4, got ${name}`);
     assert.equal(
       bytes.subarray(4, 8).toString("latin1"),
       "ftyp",
       "an MP4 file carries an ftyp box at offset 4",
     );
-    assert.match(name, /\.mp4$/, `the download should be named .mp4, got ${name}`);
 
+    // A real MP4 carries the movie box; the hand made file of before did not.
     const boxes = mp4Structure(bytes);
     const types = boxes.map((box) => box.type);
     assert.ok(types.includes("ftyp"), `the file must carry an ftyp box, it has ${types.join(", ")}`);
-    assert.ok(types.includes("mdat"), `the file must carry an mdat box, it has ${types.join(", ")}`);
-    const ftyp = boxes.find((box) => box.type === "ftyp");
-    assert.equal(
-      ftyp.payload.subarray(0, 4).toString("latin1"),
-      "isom",
-      "the major brand of the file is isom",
-    );
-    const mdat = boxes.find((box) => box.type === "mdat");
-    assert.equal(
-      jpegPictureCount(mdat.payload),
-      4,
-      `the mdat box must hold the four pictures the frame count asks for, it holds ${jpegPictureCount(
-        mdat.payload,
-      )}`,
-    );
+    assert.ok(types.includes("moov"), `the file must carry a moov box, it has ${types.join(", ")}`);
     assert.ok(
-      mdat.payload.length > 0,
-      "the mdat box must hold the pictures of the animation",
+      types.includes("mdat") || types.includes("moof"),
+      `the file must carry the picture data, it has ${types.join(", ")}`,
+    );
+
+    // The file must play: the browser has to read it as a video.
+    const played = await page.evaluate(async (url) => {
+      const video = document.createElement("video");
+      video.muted = true;
+      video.src = url;
+      return await new Promise((resolve) => {
+        video.onloadedmetadata = () =>
+          resolve({
+            width: video.videoWidth,
+            height: video.videoHeight,
+            duration: video.duration,
+          });
+        video.onerror = () => resolve(null);
+        setTimeout(() => resolve(null), 20000);
+      });
+    }, `data:video/mp4;base64,${bytes.toString("base64")}`);
+    assert.ok(played, "the recorded MP4 must be readable as a video");
+    assert.equal(played.width, 32, "the video keeps the width of the animation");
+    assert.equal(played.height, 32, "the video keeps the height of the animation");
+    assert.ok(played.duration > 0, "the video must have a length");
+
+    // The tool shows the sizes it measured, so no size claim is made up.
+    const after = await workspace(page);
+    assertMatches(
+      after,
+      /GIF\s+[\d.,]+\s*(B|KB|MB)/i,
+      "the tool must show the measured size of the GIF",
+    );
+    assertMatches(
+      after,
+      /MP4\s+[\d.,]+\s*(B|KB|MB)/i,
+      "the tool must show the measured size of the MP4",
     );
   });
 
-  spec("webp-to-gif", "converts a WebP picture into a GIF animation", async (page) => {
-    await uploadCanvasImage(page, {
-      width: 16,
-      height: 16,
-      color: "#3366cc",
-      mime: "image/webp",
-      name: "source.webp",
-    });
-    await waitForPreview(page);
-    await setRange(page, 0, 3);
-    await setRange(page, 1, 200);
-    const { bytes, name } = await downloadBuffer(page);
-    assert.equal(
-      bytes.subarray(0, 3).toString("latin1"),
-      "GIF",
-      "a GIF file starts with the GIF87a or GIF89a signature",
-    );
-    assert.match(name, /\.gif$/, `the download should be named .gif, got ${name}`);
+  spec(
+    "webp-to-gif",
+    "converts a WebP picture into a GIF animation and keeps the timing of an animated WebP",
+    async (page) => {
+      // --- a still WebP ---
+      await uploadCanvasImage(page, {
+        width: 16,
+        height: 16,
+        color: "#3366cc",
+        mime: "image/webp",
+        name: "source.webp",
+      });
+      await waitForPreview(page);
+      await setRange(page, 0, 3);
+      await setRange(page, 1, 200);
+      const { bytes, name } = await downloadFrom(page, "Download GIF");
+      assert.equal(
+        bytes.subarray(0, 3).toString("latin1"),
+        "GIF",
+        "a GIF file starts with the GIF87a or GIF89a signature",
+      );
+      assert.match(name, /\.gif$/, `the download should be named .gif, got ${name}`);
 
-    const gif = gifStructure(bytes);
-    assert.equal(gif.signature, "GIF89a", "the animation is written as GIF89a");
-    assert.equal(gif.width, 16, "the animation keeps the width of the source");
-    assert.equal(gif.height, 16, "the animation keeps the height of the source");
-    assert.equal(gif.frames.length, 3, `the animation has three frames, it has ${gif.frames.length}`);
-    for (const frame of gif.frames) {
-      assert.equal(frame.width, 16, "every frame is as wide as the source");
-      assert.equal(frame.height, 16, "every frame is as high as the source");
-      // A GIF stores the delay in hundredths of a second.
-      assert.equal(frame.delay, 20, `a delay of 200 ms is 20 hundredths, the frame has ${frame.delay}`);
-    }
-    assert.equal(gif.loop, 0, "the animation repeats itself for ever");
-  });
+      const gif = gifStructure(bytes);
+      assert.equal(gif.signature, "GIF89a", "the animation is written as GIF89a");
+      assert.equal(gif.width, 16, "the animation keeps the width of the source");
+      assert.equal(gif.height, 16, "the animation keeps the height of the source");
+      assert.equal(gif.frames.length, 3, `the animation has three frames, it has ${gif.frames.length}`);
+      for (const frame of gif.frames) {
+        assert.equal(frame.width, 16, "every frame is as wide as the source");
+        assert.equal(frame.height, 16, "every frame is as high as the source");
+        // A GIF stores the delay in hundredths of a second.
+        assert.equal(frame.delay, 20, `a delay of 200 ms is 20 hundredths, the frame has ${frame.delay}`);
+      }
+      assert.equal(gif.loop, 0, "the animation repeats itself for ever");
+
+      // The still picture can also be written as a PNG and as a JPG.
+      const png = await downloadFrom(page, "Download PNG");
+      assert.equal(
+        png.bytes.subarray(0, 8).toString("hex"),
+        "89504e470d0a1a0a",
+        "a PNG file starts with the PNG signature",
+      );
+      assert.equal(
+        png.bytes.readUInt32BE(16),
+        16,
+        "the PNG keeps the width of the source",
+      );
+      assert.equal(
+        png.bytes.readUInt32BE(20),
+        16,
+        "the PNG keeps the height of the source",
+      );
+      const pngPicture = await readPixels(page, png.bytes, "image/png");
+      const [red, green, blue] = pixelAt(pngPicture, 8, 8);
+      assert.ok(
+        Math.abs(red - 0x33) <= 12 &&
+          Math.abs(green - 0x66) <= 12 &&
+          Math.abs(blue - 0xcc) <= 12,
+        `the PNG keeps the colour of the source, it has ${red}/${green}/${blue}`,
+      );
+
+      const jpg = await downloadFrom(page, "Download JPG");
+      assert.deepEqual(
+        Array.from(jpg.bytes.subarray(0, 3)),
+        [0xff, 0xd8, 0xff],
+        "a JPEG file starts with the SOI marker",
+      );
+      const jpgPicture = await readPixels(page, jpg.bytes, "image/jpeg");
+      assert.equal(jpgPicture.width, 16, "the JPG keeps the width of the source");
+      assert.equal(jpgPicture.height, 16, "the JPG keeps the height of the source");
+      const [jpgRed, jpgGreen, jpgBlue] = pixelAt(jpgPicture, 8, 8);
+      assert.ok(
+        Math.abs(jpgRed - 0x33) <= 12 &&
+          Math.abs(jpgGreen - 0x66) <= 12 &&
+          Math.abs(jpgBlue - 0xcc) <= 12,
+        `the JPG keeps the colour of the source, it has ${jpgRed}/${jpgGreen}/${jpgBlue}`,
+      );
+
+      // --- an animated WebP ---
+      const still = await page.evaluate(async () => {
+        const canvas = document.createElement("canvas");
+        canvas.width = 16;
+        canvas.height = 16;
+        const ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#3366cc";
+        ctx.fillRect(0, 0, 16, 16);
+        const blob = await new Promise((resolve) =>
+          canvas.toBlob(resolve, "image/webp", 0.95),
+        );
+        return Array.from(new Uint8Array(await blob.arrayBuffer()));
+      });
+      await clickButton(page, "New picture");
+      await uploadBytes(
+        page,
+        "animated.webp",
+        "image/webp",
+        animatedWebpFixture(Buffer.from(still), [80, 140, 260], 16, 16),
+      );
+      await waitForPreview(page);
+
+      const text = await workspace(page);
+      assertMatches(
+        text,
+        /3 frames/i,
+        "the tool must state the number of frames of the animated WebP",
+      );
+
+      // The GIF keeps the delays of the source instead of one delay for all.
+      const animated = await downloadFrom(page, "Download GIF");
+      const animatedGif = gifStructure(animated.bytes);
+      assert.equal(
+        animatedGif.frames.length,
+        3,
+        `the GIF carries the three frames of the source, it has ${animatedGif.frames.length}`,
+      );
+      assert.deepEqual(
+        animatedGif.frames.map((frame) => frame.delay),
+        [8, 14, 26],
+        "the GIF keeps the delays of the source",
+      );
+
+      // The PNG and the JPG name the frame they hold.
+      assertMatches(
+        text,
+        /first frame/i,
+        "the tool must name the frame the PNG and the JPG hold",
+      );
+      const firstFrame = await downloadFrom(page, "Download PNG (first frame)");
+      assert.equal(
+        firstFrame.bytes.subarray(0, 8).toString("hex"),
+        "89504e470d0a1a0a",
+        "a PNG file starts with the PNG signature",
+      );
+      assert.equal(
+        firstFrame.bytes.readUInt32BE(16),
+        16,
+        "the PNG of the first frame keeps the width of the source",
+      );
+    },
+  );
 
   spec("video-to-gif", "converts a video clip into a GIF animation", async (page) => {
     const accepts = await page.evaluate(() => {
@@ -2470,6 +2801,44 @@ export function register() {
         }),
     );
     assert.ok(shown, "the tool must show the recorded clip in the video element");
+
+    // The clip must be previewable: the video element offers the playback
+    // controls and the playhead can be moved before the export.
+    const preview = await page.evaluate(
+      () =>
+        new Promise((resolve) => {
+          const video = document.querySelector("main video");
+          if (!video) {
+            resolve(null);
+            return;
+          }
+          const target = Math.min(0.4, (video.duration || 1) / 2);
+          const done = () =>
+            resolve({
+              controls: video.controls,
+              currentTime: video.currentTime,
+              target,
+              width: video.videoWidth,
+            });
+          video.onseeked = done;
+          video.onerror = () => resolve(null);
+          try {
+            video.currentTime = target;
+          } catch {
+            resolve(null);
+          }
+          setTimeout(done, 8000);
+        }),
+    );
+    assert.ok(preview, "the clip must be previewable in the video element");
+    assert.ok(
+      preview.controls,
+      "the video element must offer the playback controls",
+    );
+    assert.ok(
+      Math.abs(preview.currentTime - preview.target) < 0.5,
+      `the playhead must move, it stands at ${preview.currentTime} instead of ${preview.target}`,
+    );
 
     // The workspace offers the frame count, the frame rate, the trim range
     // and the output width.

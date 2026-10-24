@@ -405,6 +405,95 @@ export function encodeGif(
   return concatBytes(parts);
 }
 
+/* --------------------------------------------------------------- GIF file -- */
+
+/** What a GIF file holds. */
+export interface GifInfo {
+  width: number;
+  height: number;
+  /** The delay of every frame, in milliseconds. */
+  frameDelaysMs: number[];
+  /** How often the animation repeats; 0 means it repeats for ever. */
+  loopCount: number;
+}
+
+/**
+ * Read a GIF file.
+ *
+ * The header gives the size of the picture, the graphic control extension
+ * before a frame carries its delay in hundredths of a second and the
+ * application extension carries the loop count.
+ */
+export function parseGif(bytes: Uint8Array): GifInfo {
+  const info: GifInfo = {
+    width: 0,
+    height: 0,
+    frameDelaysMs: [],
+    loopCount: 0,
+  };
+  if (bytes.length < 13) return info;
+  const signature = String.fromCharCode(
+    bytes[0],
+    bytes[1],
+    bytes[2],
+    bytes[3],
+    bytes[4],
+    bytes[5],
+  );
+  if (signature !== "GIF87a" && signature !== "GIF89a") return info;
+
+  const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+  info.width = view.getUint16(6, true);
+  info.height = view.getUint16(8, true);
+  const packed = bytes[10];
+
+  let at = 13;
+  if (packed & 0x80) {
+    at += 3 * (1 << ((packed & 0x07) + 1)); // the global colour table
+  }
+
+  let delayMs = 0;
+  while (at < bytes.length) {
+    const marker = bytes[at];
+    if (marker === 0x3b) break; // the trailer ends the file
+    if (marker === 0x21) {
+      const label = bytes[at + 1];
+      if (label === 0xf9 && at + 6 < bytes.length) {
+        delayMs = view.getUint16(at + 4, true) * 10; // hundredths of a second
+      }
+      if (label === 0xff && at + 18 <= bytes.length) {
+        const name = String.fromCharCode(
+          ...Array.from(bytes.subarray(at + 3, at + 14)),
+        );
+        if (name.startsWith("NETSCAPE")) {
+          info.loopCount = view.getUint16(at + 16, true);
+        }
+      }
+      at += 2;
+      // The sub blocks of the extension follow, each with its own length.
+      while (at < bytes.length && bytes[at] !== 0) at += bytes[at] + 1;
+      at += 1;
+      continue;
+    }
+    if (marker === 0x2c) {
+      info.frameDelaysMs.push(delayMs);
+      delayMs = 0;
+      const framePacked = bytes[at + 9];
+      at += 10;
+      if (framePacked & 0x80) {
+        at += 3 * (1 << ((framePacked & 0x07) + 1)); // the local colour table
+      }
+      at += 1; // the minimum code size of the LZW stream
+      while (at < bytes.length && bytes[at] !== 0) at += bytes[at] + 1;
+      at += 1;
+      continue;
+    }
+    at += 1;
+  }
+
+  return info;
+}
+
 /* --------------------------------------------------------------------- MP4 -- */
 
 /**
@@ -528,95 +617,6 @@ export async function recordCanvas(
   };
 }
 
-/* ---------------------------------------------------------------------- GIF -- */
-
-/** What a GIF file holds. */
-export interface GifInfo {
-  width: number;
-  height: number;
-  /** The delay of every frame, in milliseconds. */
-  frameDelaysMs: number[];
-  /** How often the animation repeats; 0 means it repeats for ever. */
-  loopCount: number;
-}
-
-/**
- * Read a GIF file.
- *
- * The header gives the size of the picture, the graphic control extension
- * before a frame carries its delay in hundredths of a second and the
- * application extension carries the loop count.
- */
-export function parseGif(bytes: Uint8Array): GifInfo {
-  const info: GifInfo = {
-    width: 0,
-    height: 0,
-    frameDelaysMs: [],
-    loopCount: 0,
-  };
-  if (bytes.length < 13) return info;
-  const signature = String.fromCharCode(
-    bytes[0],
-    bytes[1],
-    bytes[2],
-    bytes[3],
-    bytes[4],
-    bytes[5],
-  );
-  if (signature !== "GIF87a" && signature !== "GIF89a") return info;
-
-  const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
-  info.width = view.getUint16(6, true);
-  info.height = view.getUint16(8, true);
-  const packed = bytes[10];
-
-  let at = 13;
-  if (packed & 0x80) {
-    at += 3 * (1 << ((packed & 0x07) + 1)); // the global colour table
-  }
-
-  let delayMs = 0;
-  while (at < bytes.length) {
-    const marker = bytes[at];
-    if (marker === 0x3b) break; // the trailer ends the file
-    if (marker === 0x21) {
-      const label = bytes[at + 1];
-      if (label === 0xf9 && at + 6 < bytes.length) {
-        delayMs = view.getUint16(at + 4, true) * 10; // hundredths of a second
-      }
-      if (label === 0xff && at + 18 <= bytes.length) {
-        const name = String.fromCharCode(
-          ...Array.from(bytes.subarray(at + 3, at + 14)),
-        );
-        if (name.startsWith("NETSCAPE")) {
-          info.loopCount = view.getUint16(at + 16, true);
-        }
-      }
-      at += 2;
-      // The sub blocks of the extension follow, each with its own length.
-      while (at < bytes.length && bytes[at] !== 0) at += bytes[at] + 1;
-      at += 1;
-      continue;
-    }
-    if (marker === 0x2c) {
-      info.frameDelaysMs.push(delayMs);
-      delayMs = 0;
-      const framePacked = bytes[at + 9];
-      at += 10;
-      if (framePacked & 0x80) {
-        at += 3 * (1 << ((framePacked & 0x07) + 1)); // the local colour table
-      }
-      at += 1; // the minimum code size of the LZW stream
-      while (at < bytes.length && bytes[at] !== 0) at += bytes[at] + 1;
-      at += 1;
-      continue;
-    }
-    at += 1;
-  }
-
-  return info;
-}
-
 /* --------------------------------------------------------------------- WEBP -- */
 
 /** What a WebP file holds. */
@@ -645,8 +645,7 @@ function u24le(bytes: Uint8Array, at: number): number {
  * with the animation flag, an "ANIM" chunk with the loop count and one "ANMF"
  * chunk per frame. The delay of a frame is the three byte number at the
  * twelfth byte of its chunk, in milliseconds.
- */
-export function parseWebP(bytes: Uint8Array): WebPInfo {
+ */export function parseWebP(bytes: Uint8Array): WebPInfo {
   const info: WebPInfo = {
     animated: false,
     frameDelaysMs: [],
@@ -675,7 +674,8 @@ export function parseWebP(bytes: Uint8Array): WebPInfo {
     const body = at + 8;
     if (body + size > bytes.length) break;
     if (type === "VP8X" && size >= 10) {
-      info.animated = (bytes[body] & 0x10) !== 0;
+      // The flags of the extended format: the animation is the bit 1.
+      info.animated = (bytes[body] & 0x02) !== 0;
       info.width = u24le(bytes, body + 4) + 1;
       info.height = u24le(bytes, body + 7) + 1;
     }
@@ -693,7 +693,6 @@ export function parseWebP(bytes: Uint8Array): WebPInfo {
   if (info.frameDelaysMs.length) info.animated = true;
   return info;
 }
-
 
 /* -------------------------------------------------------------------- EXIF -- */
 

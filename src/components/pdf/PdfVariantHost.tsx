@@ -28,6 +28,8 @@ export function PdfVariantHost({ slug }: { slug: string }) {
   switch (variant) {
     case "merge":
       return <PdfMergeEngine />;
+    case "mergePages":
+      return <PdfMergeEngine mode="pages" />;
     case "split":
       return <PdfSplitEngine />;
     case "img2pdf":
