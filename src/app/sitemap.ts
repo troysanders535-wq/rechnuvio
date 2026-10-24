@@ -46,32 +46,43 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const entries: MetadataRoute.Sitemap = [];
 
+  const isMultiDomain = enBase !== deBase;
+
   for (const item of pathList) {
-    const enUrl = `${enBase}${item.path}`;
     const deUrl = `${deBase}${item.path}`;
-    const languages = {
-      en: enUrl,
-      "de-DE": deUrl,
-      "x-default": enUrl,
-    };
+    const enUrl = `${enBase}${item.path}`;
 
-    // English domain entry
-    entries.push({
-      url: enUrl,
-      lastModified: staticDate,
-      changeFrequency: item.changeFrequency,
-      priority: item.priority,
-      alternates: { languages },
-    });
+    if (isMultiDomain) {
+      const languages = {
+        en: enUrl,
+        "de-DE": deUrl,
+        "x-default": deUrl,
+      };
 
-    // German domain entry
-    entries.push({
-      url: deUrl,
-      lastModified: staticDate,
-      changeFrequency: item.changeFrequency,
-      priority: item.priority,
-      alternates: { languages },
-    });
+      entries.push({
+        url: enUrl,
+        lastModified: staticDate,
+        changeFrequency: item.changeFrequency,
+        priority: item.priority,
+        alternates: { languages },
+      });
+
+      entries.push({
+        url: deUrl,
+        lastModified: staticDate,
+        changeFrequency: item.changeFrequency,
+        priority: item.priority,
+        alternates: { languages },
+      });
+    } else {
+      // Clean single-domain for rechnuvio.de (no duplicate URLs)
+      entries.push({
+        url: deUrl,
+        lastModified: staticDate,
+        changeFrequency: item.changeFrequency,
+        priority: item.priority,
+      });
+    }
   }
 
   return entries;
