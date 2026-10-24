@@ -4,6 +4,8 @@ import { getAlternateHreflang } from "@/i18n/domains";
 /** Single source of truth for the Rechnuvio brand. */
 export const SITE_NAME = "Rechnuvio";
 export const SITE_URL = "https://rechnuvio.de";
+/** Public source repository; AGPL-3.0 requires offering it to every visitor. */
+export const SOURCE_URL = "https://github.com/troysanders535-wq/rechnuvio";
 export const SITE_TAGLINE = "Einfach rechnen. Privat bleiben.";
 /** Default social image (src/app/opengraph-image.png). Re-add it whenever a page sets its own openGraph. */
 export const OG_IMAGE = { url: `${SITE_URL}/opengraph-image.png`, width: 1200, height: 630, alt: "Rechnuvio – Einfach rechnen. Privat bleiben." };

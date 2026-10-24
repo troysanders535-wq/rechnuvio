@@ -6,7 +6,7 @@ import NextImage from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { Wrench, ShieldCheck, Zap, Sparkles } from "lucide-react";
 import { LanguageSwitcher } from "./LanguageSwitcher";
-import { hasImpressum } from "@/lib/brand";
+import { hasImpressum, SOURCE_URL } from "@/lib/brand";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -223,6 +223,16 @@ export function Footer() {
                 <Link href="/terms-of-service" className="hover:text-sky-700 dark:hover:text-sky-300">
                   {t("termsOfService")}
                 </Link>
+              </li>
+              <li>
+                <a
+                  href={SOURCE_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-sky-700 dark:hover:text-sky-300"
+                >
+                  Quellcode (AGPL-3.0)
+                </a>
               </li>
               {hasImpressum() && (
                 <li>
