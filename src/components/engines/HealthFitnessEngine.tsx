@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import { Activity, Heart, Droplets, Dumbbell, Sparkles } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import { formatLocaleNumber } from "@/utils/numberFormat";
 
 interface HealthFitnessEngineProps {
   slug: string;
@@ -41,6 +42,9 @@ const ACTIVITY_LEVELS = [
 
 export function HealthFitnessEngine({ slug }: HealthFitnessEngineProps) {
   const tUi = useTranslations("ui.engines.HealthFitnessEngine");
+  // The body mass index is a decimal number, so it has to be written with the
+  // decimal comma of the German locale ("23,7") and with the point in English.
+  const locale = useLocale();
   const mode: Mode = MODE_BY_SLUG[slug] ?? "bmi";
 
   const [unit, setUnit] = useState<"metric" | "imperial">("metric");
@@ -99,7 +103,10 @@ export function HealthFitnessEngine({ slug }: HealthFitnessEngineProps) {
         className="rounded-2xl bg-sky-50 p-4 dark:bg-sky-950/40"
       >
         <span className="text-3xl font-extrabold text-sky-800 dark:text-sky-300">
-          {bmi.toFixed(1)}
+          {formatLocaleNumber(bmi, locale, {
+            minimumFractionDigits: 1,
+            maximumFractionDigits: 1,
+          })}
         </span>
         <p className={`mt-1 text-xs font-bold ${bmiCat.color}`}>{bmiCat.label}</p>
       </div>,
